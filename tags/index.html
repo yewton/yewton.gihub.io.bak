@@ -18,9 +18,11 @@
     <link rel="stylesheet" href="http://yewton.net/css/style.css">
     <link rel="stylesheet" href="http://yewton.net/css/font-awesome.min.css">
     <link rel="stylesheet" href="http://yewton.net/css/monokai.css">
+    <link rel="stylesheet" href="http://yewton.net/css/custom.css">
     <link rel="stylesheet" href="http://yewton.net/fancybox/jquery.fancybox.css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <meta property="og:title" content="Tags" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
@@ -78,7 +80,7 @@
       </nav>
         <nav id="sub-nav">
           <div class="profile" id="profile-nav">
-            <a id="profile-anchor" href="javascript:;"><img class="avatar" src="http://yewton.net/img/avatar.png"><i class="fa fa-caret-down"></i></a>
+            <a id="profile-anchor" href="javascript:;"><img class="avatar" src="http://yewton.net/"><i class="fa fa-caret-down"></i></a>
           </div>
         </nav>
         <div id="search-form-wrap">
@@ -136,14 +138,24 @@
         <aside id="profile">
   <div class="inner profile-inner">
     <div class="base-info profile-block">
-      <img id="avatar" src="http://yewton.net/img/avatar.png">
+      
+      <div class="profilepic">
+        <img id="avatar" src="http://yewton.net/img/avatar-placeholder.png" alt="Profile Picture"/>
+        <script src="http://yewton.net/js/md5.js"></script>
+        <script type="text/javascript">
+          $(function(){
+          $('#avatar').attr('src', 'http://www.gravatar.com/avatar/' + MD5('yewton@gmail.com') + '?s=128');
+          });
+        </script>
+      </div>
+      
       <h2 id="name">yewton</h2>
       <h3 id="title">サイト準備中。。</h3>
       <span id="location"><i class="fa fa-map-marker"></i>混沌</span>
       
-          <a id="follow" href="https://github.com/yewton">
-              Follow
-          </a>
+      <a id="follow" href="https://github.com/yewton">
+        Follow
+      </a>
       
     </div>
     <div class="article-info profile-block">
@@ -153,10 +165,10 @@
       </div>
       <div class="article-info-block">
         
-          0
-          
+        0
+        
         <span>
-            Tags
+          Tags
         </span>
       </div>
     </div>
@@ -300,7 +312,6 @@ ga('create', 'UA-72312909-1', 'auto');
 ga('send', 'pageview');
 </script>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="http://yewton.net/fancybox/jquery.fancybox.pack.js"></script>
 <script src="http://yewton.net/js/script.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.8.0/highlight.min.js"></script>
@@ -314,6 +325,7 @@ MathJax.Hub.Config({
   });
 </script>
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
 
 </body>
 
