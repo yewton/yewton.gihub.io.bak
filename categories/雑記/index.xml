@@ -1,27 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>yewton.net</title>
-    <link>http://yewton.net/</link>
-    <description>Recent content on yewton.net</description>
+    <title>雑記 on yewton.net</title>
+    <link>http://yewton.net/categories/%E9%9B%91%E8%A8%98/</link>
+    <description>Recent content in 雑記 on yewton.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Mon, 11 Jan 2016 18:47:04 +0900</lastBuildDate>
-    <atom:link href="http://yewton.net/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>about</title>
-      <link>http://yewton.net/about/</link>
-      <pubDate>Mon, 11 Jan 2016 18:47:04 +0900</pubDate>
-      
-      <guid>http://yewton.net/about/</guid>
-      <description>
-
-&lt;h1 id=&#34;omochi:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;omochi&lt;/h1&gt;
-
-&lt;p&gt;wow.&lt;/p&gt;
-</description>
-    </item>
+    <lastBuildDate>Mon, 11 Jan 2016 11:11:11 +0900</lastBuildDate>
+    <atom:link href="http://yewton.net/categories/%E9%9B%91%E8%A8%98/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>はじめに</title>
