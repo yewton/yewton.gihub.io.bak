@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on yewton.net</title>
-    <link>http://yewton.net/post/</link>
-    <description>Recent content in Posts on yewton.net</description>
+    <title>Bettortouchtool on yewton.net</title>
+    <link>http://yewton.net/tags/bettortouchtool/</link>
+    <description>Recent content in Bettortouchtool on yewton.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <lastBuildDate>Wed, 13 Jan 2016 23:00:00 +0900</lastBuildDate>
-    <atom:link href="http://yewton.net/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://yewton.net/tags/bettortouchtool/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>BettorTouchToolが無料じゃなくなると分かったりした日</title>
@@ -52,47 +52,6 @@
 &lt;li&gt;markdown-modeとskkの相性悪いんかな、変換確定しようとすると行頭にカーソルが行ってしまってストレスフルだ。。&lt;/li&gt;
 &lt;li&gt;シンタックスハイライトとかEmojiとか使えんのかな。調べよう。&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>はじめに</title>
-      <link>http://yewton.net/2016/01/11/at-the-start</link>
-      <pubDate>Mon, 11 Jan 2016 11:11:11 +0900</pubDate>
-      
-      <guid>http://yewton.net/2016/01/11/at-the-start</guid>
-      <description>
-
-&lt;h2 id=&#34;はじめに:a34b8bc0f6383f320533be9df46dffd7&#34;&gt;はじめに&lt;/h2&gt;
-
-&lt;p&gt;今年30歳になる節目の年なので、ブログを書いてみることにした。&lt;/p&gt;
-
-&lt;p&gt;何もこういう試みは初めてではなく、
-これまでも、&lt;a href=&#34;http://d.hatena.ne.jp/yuto_sasaki/&#34;&gt;はてなダイアリー&lt;/a&gt;だったり、
-&lt;a href=&#34;http://qiita.com/yewton&#34;&gt;Qiita&lt;/a&gt;だったりに断続的に記事を書いたりメモしたりしていた。&lt;/p&gt;
-
-&lt;p&gt;それより以前も、個人でサイト作成したり、既存のブログサービスを使っていたこともあった。&lt;/p&gt;
-
-&lt;p&gt;いずれも、1年と経たずに辞めてしまった。
-自分の凝り性でかつ飽きっぽい性質のためだと思う。&lt;/p&gt;
-
-&lt;p&gt;今回また性懲りもなく始めたのは、何かをアウトプットしたいというよりも、
-&lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;というものを何かのキッカケで知って、
-Golangの静的サイト生成ツールだと知り、イマドキは静的サイト生成だよねー
-という巷の声を聞いた結果、使ってみたくなった、というのが大きい。&lt;/p&gt;
-
-&lt;p&gt;飽きたらその内また辞めるだろうけれど、
-今のところ調整したりカスタマイズしたりしたい部分が多々あるので、当面存在はするだろう。
-これらの試みを記事にしたりするかもしれない。&lt;/p&gt;
-
-&lt;h2 id=&#34;何を書くか:a34b8bc0f6383f320533be9df46dffd7&#34;&gt;何を書くか&lt;/h2&gt;
-
-&lt;p&gt;外部サービスに依存しないので(ホスティングはGitHub使ってるケド)自由奔放に書いていけたらと思っている。&lt;/p&gt;
-
-&lt;p&gt;技術的な話から、日常の駄文、過去の思い出を振り返ってみたり、
-あとはペットの話も書くかもしれない。時にはポエムも書くだろう。&lt;/p&gt;
-
-&lt;p&gt;当分人の目に触れぬはずの所なので、好き勝手にやってみよう。&lt;/p&gt;
 </description>
     </item>
     
