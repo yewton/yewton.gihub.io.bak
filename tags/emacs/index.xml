@@ -33,6 +33,14 @@
 
 &lt;h2 id=&#34;サイト改修:ef7e58fa0c4840571f9df66ecc7036f0&#34;&gt;サイト改修&lt;/h2&gt;
 
+&lt;p&gt;今日もサイトいじりに勤しんだ。&lt;/p&gt;
+
+&lt;p&gt;いじるときはEmacsを使うんだけれど、自分は適当なのでHTML中にJavaScriptを埋め込んだりする。
+するとhtml-modeだとシンタックハイライトとかが無くて辛いことになるので、
+&lt;a href=&#34;http://web-mode.org/&#34;&gt;web-mode&lt;/a&gt;を使ってる。&lt;/p&gt;
+
+&lt;p&gt;HTMLファイルはCSSファイルは、始めから関連付けておくといいと思う。&lt;/p&gt;
+
 &lt;h3 id=&#34;gravatar対応:ef7e58fa0c4840571f9df66ecc7036f0&#34;&gt;gravatar対応&lt;/h3&gt;
 
 &lt;p&gt;静的画像だけでなく、gravatarのアイコンを使えるようにした。&lt;/p&gt;
