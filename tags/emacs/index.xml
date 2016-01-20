@@ -6,8 +6,68 @@
     <description>Recent content in Emacs on yewton.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Fri, 15 Jan 2016 23:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 20 Jan 2016 22:40:16 +0900</lastBuildDate>
     <atom:link href="https://yewton.net/tags/emacs/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>markdown-modeでSKKの変換確定するためにRETするとカーソルが行頭に飛ぶ問題の回避策</title>
+      <link>https://yewton.net/2016/01/20/markdown-mode-skk-kakutei</link>
+      <pubDate>Wed, 20 Jan 2016 22:40:16 +0900</pubDate>
+      
+      <guid>https://yewton.net/2016/01/20/markdown-mode-skk-kakutei</guid>
+      <description>
+
+&lt;p&gt;markdown-mode 2.1 で SKK 15.2 使ってると、確定しようと思って &lt;code&gt;&amp;lt;return&amp;gt;&lt;/code&gt; すると、
+確定後にカーソルが行頭に飛んでしまうという問題に遭遇した。
+&lt;code&gt;C-j&lt;/code&gt; で確定する場合は起こらない。&lt;/p&gt;
+
+&lt;h2 id=&#34;tl-dr:4303d53c5ca37efd7fdc304227397d56&#34;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;以下を &lt;code&gt;init.el&lt;/code&gt; 相当のファイルに書けば回避出来る。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-lisp&#34;&gt;(defun my--markdown-entery-key-ad (this-func &amp;amp;rest args)
+  &amp;quot;markdown-modeでskk-henkan-mode中にエンターすると行頭にカーソルが飛んでしまう問題の対応&amp;quot;
+  (if skk-henkan-mode (skk-kakutei)
+    (apply this-func args)))
+(advice-add #&#39;markdown-enter-key :around #&#39;my--markdown-entery-key-ad)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;原因解明に至るまで:4303d53c5ca37efd7fdc304227397d56&#34;&gt;原因解明に至るまで&lt;/h2&gt;
+
+&lt;p&gt;&lt;code&gt;&amp;lt;return&amp;gt;&lt;/code&gt; = &lt;code&gt;&amp;lt;C-m&amp;gt;&lt;/code&gt; では起こり、&lt;code&gt;C-j&lt;/code&gt; では起こらないので、まずはキーバインドを確認したところ、
+前者は &lt;code&gt;markdown-enter-key&lt;/code&gt; という関数が割り当てられていた。&lt;/p&gt;
+
+&lt;p&gt;実装は至ってシンプルだった:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-lisp&#34;&gt;(defun markdown-enter-key ()
+  &amp;quot;Handle RET according to to the value of `markdown-indent-on-enter&#39;.&amp;quot;
+  (interactive)
+  (newline)
+  (when markdown-indent-on-enter
+    (markdown-indent-line)))
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;次に &lt;code&gt;trace-function&lt;/code&gt; で &lt;code&gt;markdown-enter-key&lt;/code&gt; と &lt;code&gt;skk-kakutei&lt;/code&gt; をトレースしたところ、
+以下のような出力が得られた:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;1 -&amp;gt; (markdown-enter-key)
+| 2 -&amp;gt; (skk-kakutei)
+| 2 &amp;lt;- skk-kakutei: nil
+1 &amp;lt;- markdown-enter-key: nil
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;code&gt;markdown-enter-key&lt;/code&gt; が発動して &lt;code&gt;(newline)&lt;/code&gt; が評価された結果、
+&lt;code&gt;skk-kakutei&lt;/code&gt; が発動して変換確定、その後に &lt;code&gt;markdown-indent-line&lt;/code&gt; が呼ばれているのがどうも悪いらしい。&lt;/p&gt;
+
+&lt;h2 id=&#34;回避方法:4303d53c5ca37efd7fdc304227397d56&#34;&gt;回避方法&lt;/h2&gt;
+
+&lt;p&gt;これは &lt;strong&gt;&lt;code&gt;markdown-enter-key&lt;/code&gt; が呼ばれた時に &lt;code&gt;skk-henkan-mode&lt;/code&gt; 中だったら、&lt;/strong&gt;
+&lt;strong&gt;本来の挙動ではなく &lt;code&gt;skk-kakutei&lt;/code&gt; だけを行なうようにする&lt;/strong&gt; ことで回避出来そうだ。&lt;/p&gt;
+
+&lt;p&gt;こういう部分的な挙動の修正には advice を使うといい。
+というわけで前述の挙動をそのまま定義すると、冒頭のようなコードになる。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>忙し過ぎてお弁当も食べられなかった日</title>

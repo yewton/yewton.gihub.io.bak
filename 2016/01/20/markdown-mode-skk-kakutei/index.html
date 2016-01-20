@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ja-jp">
     <head>
-        <title>Go &middot; yewton.net</title>
+        <title>markdown-modeでSKKの変換確定するためにRETするとカーソルが行頭に飛ぶ問題の回避策 &middot; yewton.net</title>
         <meta name="generator" content="Hugo 0.15" />
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -9,9 +9,6 @@
         
             <meta name="description" content="開発的な話とか日常の駄文、その他もろもろ。">
         
-        
-            <link href="https://yewton.net/tags/go/index.xml" rel="alternate" type="application/rss+xml" title="yewton.net" />
-            <link href="https://yewton.net/tags/go/index.xml" rel="feed" type="application/rss+xml" title="yewton.net" />
         
         <link rel="icon" href="https://yewton.net/favicon.ico">
         <link rel="apple-touch-icon" href="https://yewton.net/apple-touch-icon.png" />
@@ -24,29 +21,47 @@
         <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.11.1/moment.min.js"></script>
-        <meta property="og:title" content="Go" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://yewton.net/tags/go/" />
+        <meta property="og:title" content="markdown-modeでSKKの変換確定するためにRETするとカーソルが行頭に飛ぶ問題の回避策" />
+<meta property="og:description" content="markdown-mode 2.1 で SKK 15.2 使ってると、確定しようと思って &lt;return&gt; すると、 確定後にカーソルが行頭に飛んでしまうという問題に遭遇した。 C-j で確定する場合は起こらない。 TL;DR" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://yewton.net/2016/01/20/markdown-mode-skk-kakutei" />
 
 
-<meta property="og:updated_time" content="2016-01-15T23:00:00&#43;09:00"/>
-
-
-
+<meta property="og:updated_time" content="2016-01-20T22:40:16&#43;09:00"/>
 
 
 
 
 
 
-        
-        
-<meta itemprop="name" content="Go">
-<meta itemprop="description" content="">
+
+
 
 
         
+        
+<meta itemprop="name" content="markdown-modeでSKKの変換確定するためにRETするとカーソルが行頭に飛ぶ問題の回避策">
+<meta itemprop="description" content="markdown-mode 2.1 で SKK 15.2 使ってると、確定しようと思って &lt;return&gt; すると、 確定後にカーソルが行頭に飛んでしまうという問題に遭遇した。 C-j で確定する場合は起こらない。 TL;DR">
+
+
+<meta itemprop="dateModified" content="2016-01-20T22:40:16&#43;09:00" />
+<meta itemprop="wordCount" content="485">
+
+
+
+<meta itemprop="keywords" content="emacs,日記,雑記,bettortouchtool,blog,cdn,cloudflare,emacs,github,go,hatenacounting,https,hugo,javascript,markdown-mode,moment.js,org-mode,scrum,skk,skk-mode,slack,ssh,trello,web-mode," />
+
+        
+
+  <meta name="twitter:card" content="summary"/>
+
+
+
+<meta name="twitter:title" content="markdown-modeでSKKの変換確定するためにRETするとカーソルが行頭に飛ぶ問題の回避策"/>
+<meta name="twitter:description" content="markdown-mode 2.1 で SKK 15.2 使ってると、確定しようと思って &lt;return&gt; すると、 確定後にカーソルが行頭に飛んでしまうという問題に遭遇した。 C-j で確定する場合は起こらない。 TL;DR"/>
+<meta name="twitter:site" content="@yewton"/>
+
+
     </head>
     <body>
         <div class="container">
@@ -248,7 +263,7 @@
 <td><a href="//twitter.com/yewton" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a></td>
 
 
-                    <td><a href="https://yewton.net/tags/go/index.xml" target="_blank" title="RSS"><i class="fa fa-rss"></i></a></td>
+                    <td><a href="" target="_blank" title="RSS"><i class="fa fa-rss"></i></a></td>
                 </tr>
             </table>
         </div>
@@ -341,43 +356,173 @@
 </aside>
 
         <section id="main">
-            <section class="archives-wrap">
-                <div class="archive-category-wrap">
-                    <span class="archive-category">Go</span>
-                </div>
-                <div class="archives">
-                    
-                    
-                        <article class="archive-article archive-type-post">
-    <div class="archive-article-inner">
-        <div class="archive-article-thumbnail">
+    <article id="page-undefined" class="article article-type-page" itemscope="" itemprop="blogPost">
+        <div class="article-inner">
             
-            <a href="https://yewton.net/2016/01/15/diary" class="thumbnail">
                 
-                <span style="background-image:url(https://yewton.net/banners/hina.jpg)" alt="忙し過ぎてお弁当も食べられなかった日" class="thumbnail-image"></span>
+                    <div class="article-banner" style="background-image: url(https://yewton.net/banners/emacs.jpg); height: 200px;">
+                        <div class="article-banner-transparent-layer"></div>
+                    </div>
                 
-            </a>
             
-        </div>
-        <header class="archive-article-header">
-            <h1 itemprop="name">
-            <a class="archive-article-title" href="https://yewton.net/2016/01/15/diary">忙し過ぎてお弁当も食べられなかった日</a>
-            </h1>
-            <div class="archive-article-date">
-                <i class="fa fa-calendar"></i>
-                <time datetime="2016-01-15 23:00:00 &#43;0900 JST" itemprop="datePublished">2016.01.15 Fri</time>
-            </div>
-        </header>
-    </div>
-</article> 
-                    
-                </div>
-            </section>
-            <nav id="page-nav">
 
+            <header class="article-header">
+    <a href="https://yewton.net/2016/01/20/markdown-mode-skk-kakutei">
+        <h1 class="article-title" itemprop="name">
+            markdown-modeでSKKの変換確定するためにRETするとカーソルが行頭に飛ぶ問題の回避策
+        </h1>
+    </a>
+    <div class="article-meta">
+        <div class="article-date">
+            <i class="fa fa-calendar"></i>
+            <time datetime="2016-01-20 22:40:16 &#43;0900 JST" itemprop="datePublished">2016.01.20 Wed</time>
+            &middot;
+            485
+            words
+            &middot;
+            1
+            minute read
+        </div>
+
+        
+        
+            
+            
+                <div class="article-category">
+                    <i class="fa fa-folder"></i>
+                    
+                        <a class="article-category-link" href="https://yewton.net/categories/emacs">Emacs</a>
+                        
+                    
+                </div>
+            
+        
+
+        
+            
+            
+                <div class="article-category">
+                    <i class="fa fa-tags"></i>
+                    
+                        <a class="article-category-link" href="https://yewton.net/tags/emacs">emacs</a>
+                        &middot;
+                    
+                        <a class="article-category-link" href="https://yewton.net/tags/skk-mode">skk-mode</a>
+                        &middot;
+                    
+                        <a class="article-category-link" href="https://yewton.net/tags/markdown-mode">markdown-mode</a>
+                        
+                    
+                </div>
+            
+        
+    </div>
+</header>
+
+            <div class="article-entry" itemprop="articleBody">
+                
+
+<p>markdown-mode 2.1 で SKK 15.2 使ってると、確定しようと思って <code>&lt;return&gt;</code> すると、
+確定後にカーソルが行頭に飛んでしまうという問題に遭遇した。
+<code>C-j</code> で確定する場合は起こらない。</p>
+
+<h2 id="tl-dr:4303d53c5ca37efd7fdc304227397d56">TL;DR</h2>
+
+<p>以下を <code>init.el</code> 相当のファイルに書けば回避出来る。</p>
+
+<pre><code class="language-lisp">(defun my--markdown-entery-key-ad (this-func &amp;rest args)
+  &quot;markdown-modeでskk-henkan-mode中にエンターすると行頭にカーソルが飛んでしまう問題の対応&quot;
+  (if skk-henkan-mode (skk-kakutei)
+    (apply this-func args)))
+(advice-add #'markdown-enter-key :around #'my--markdown-entery-key-ad)
+</code></pre>
+
+<h2 id="原因解明に至るまで:4303d53c5ca37efd7fdc304227397d56">原因解明に至るまで</h2>
+
+<p><code>&lt;return&gt;</code> = <code>&lt;C-m&gt;</code> では起こり、<code>C-j</code> では起こらないので、まずはキーバインドを確認したところ、
+前者は <code>markdown-enter-key</code> という関数が割り当てられていた。</p>
+
+<p>実装は至ってシンプルだった:</p>
+
+<pre><code class="language-lisp">(defun markdown-enter-key ()
+  &quot;Handle RET according to to the value of `markdown-indent-on-enter'.&quot;
+  (interactive)
+  (newline)
+  (when markdown-indent-on-enter
+    (markdown-indent-line)))
+</code></pre>
+
+<p>次に <code>trace-function</code> で <code>markdown-enter-key</code> と <code>skk-kakutei</code> をトレースしたところ、
+以下のような出力が得られた:</p>
+
+<pre><code>1 -&gt; (markdown-enter-key)
+| 2 -&gt; (skk-kakutei)
+| 2 &lt;- skk-kakutei: nil
+1 &lt;- markdown-enter-key: nil
+</code></pre>
+
+<p><code>markdown-enter-key</code> が発動して <code>(newline)</code> が評価された結果、
+<code>skk-kakutei</code> が発動して変換確定、その後に <code>markdown-indent-line</code> が呼ばれているのがどうも悪いらしい。</p>
+
+<h2 id="回避方法:4303d53c5ca37efd7fdc304227397d56">回避方法</h2>
+
+<p>これは <strong><code>markdown-enter-key</code> が呼ばれた時に <code>skk-henkan-mode</code> 中だったら、</strong>
+<strong>本来の挙動ではなく <code>skk-kakutei</code> だけを行なうようにする</strong> ことで回避出来そうだ。</p>
+
+<p>こういう部分的な挙動の修正には advice を使うといい。
+というわけで前述の挙動をそのまま定義すると、冒頭のようなコードになる。</p>
+
+            </div>
+            <footer class="article-footer">
+    <a data-url="https://yewton.net/2016/01/20/markdown-mode-skk-kakutei" data-id="4303d53c5ca37efd7fdc304227397d56" class="article-share-link">
+        Share
+    </a>
+    
+    <a href="https://yewton.net/2016/01/20/markdown-mode-skk-kakutei/#disqus_thread" class="article-comment-link">
+        Comments
+    </a>
+    
+</footer>
+
+        </div>
+
+        
+<nav id="article-nav">
+    
+    <a href="https://yewton.net/2016/01/19/diary" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">
+          Older
+      </strong>
+      <div class="article-nav-title">雪が振ったので一日中家に引き込もっていた日の次の日</div>
+    </a>
+    
+
+    
 </nav>
 
-        </section>
+
+    </article>
+    <section id="comments">
+        <div id="disqus_thread">
+            <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'yewton';
+    var disqus_identifier = 'https:\/\/yewton.net\/2016\/01\/20\/markdown-mode-skk-kakutei';
+    var disqus_title = 'markdown-modeでSKKの変換確定するためにRETするとカーソルが行頭に飛ぶ問題の回避策';
+    var disqus_url = 'https:\/\/yewton.net\/2016\/01\/20\/markdown-mode-skk-kakutei';
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        </div>
+    </section>
+</section>
+
         <aside id="sidebar">
     
 <div class="widget-wrap">
@@ -392,7 +537,7 @@
                     <a href="https://yewton.net/2016/01/20/markdown-mode-skk-kakutei" class="thumbnail">
                     
                         
-                        <span style="background-image:url(https://yewton.net/banners/emacs.jpg)" alt="Go" class="thumbnail-image"></span>
+                        <span style="background-image:url(https://yewton.net/banners/emacs.jpg)" alt="markdown-modeでSKKの変換確定するためにRETするとカーソルが行頭に飛ぶ問題の回避策" class="thumbnail-image"></span>
                         
                     
                     </a>
@@ -417,7 +562,7 @@
                     <a href="https://yewton.net/2016/01/19/diary" class="thumbnail">
                     
                         
-                        <span style="background-image:url(https://yewton.net/banners/default.jpg)" alt="Go" class="thumbnail-image"></span>
+                        <span style="background-image:url(https://yewton.net/banners/default.jpg)" alt="markdown-modeでSKKの変換確定するためにRETするとカーソルが行頭に飛ぶ問題の回避策" class="thumbnail-image"></span>
                         
                     
                     </a>
@@ -442,7 +587,7 @@
                     <a href="https://yewton.net/2016/01/18/diary" class="thumbnail">
                     
                         
-                        <span style="background-image:url(https://yewton.net/banners/ssl.jpg)" alt="Go" class="thumbnail-image"></span>
+                        <span style="background-image:url(https://yewton.net/banners/ssl.jpg)" alt="markdown-modeでSKKの変換確定するためにRETするとカーソルが行頭に飛ぶ問題の回避策" class="thumbnail-image"></span>
                         
                     
                     </a>
@@ -467,7 +612,7 @@
                     <a href="https://yewton.net/2016/01/15/diary" class="thumbnail">
                     
                         
-                        <span style="background-image:url(https://yewton.net/banners/hina.jpg)" alt="Go" class="thumbnail-image"></span>
+                        <span style="background-image:url(https://yewton.net/banners/hina.jpg)" alt="markdown-modeでSKKの変換確定するためにRETするとカーソルが行頭に飛ぶ問題の回避策" class="thumbnail-image"></span>
                         
                     
                     </a>
@@ -492,7 +637,7 @@
                     <a href="https://yewton.net/2016/01/13/diary" class="thumbnail">
                     
                         
-                        <span style="background-image:url(https://yewton.net/banners/btt.jpg)" alt="Go" class="thumbnail-image"></span>
+                        <span style="background-image:url(https://yewton.net/banners/btt.jpg)" alt="markdown-modeでSKKの変換確定するためにRETするとカーソルが行頭に飛ぶ問題の回避策" class="thumbnail-image"></span>
                         
                     
                     </a>
