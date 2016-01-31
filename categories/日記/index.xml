@@ -6,8 +6,38 @@
     <description>Recent content in 日記 on yewton.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Sat, 23 Jan 2016 23:47:43 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 31 Jan 2016 23:18:29 +0900</lastBuildDate>
     <atom:link href="https://yewton.net/categories/%E6%97%A5%E8%A8%98/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>スクラム入門を翻訳する日々</title>
+      <link>https://yewton.net/2016/01/31/diary</link>
+      <pubDate>Sun, 31 Jan 2016 23:18:29 +0900</pubDate>
+      
+      <guid>https://yewton.net/2016/01/31/diary</guid>
+      <description>&lt;p&gt;最近、&lt;a href=&#34;https://www.gitbook.com/book/yewton/scrumprimer/details&#34;&gt;スクラム入門の翻訳&lt;/a&gt;を
+細々とやっている。&lt;/p&gt;
+
+&lt;p&gt;元々は&lt;a href=&#34;http://www.scrumprimer.org/&#34;&gt;Scrum Primer - Short Introduction to Scrum&lt;/a&gt;で配布されているPDFで、
+認定スクラムマスター研修でも参照される全うな文献(のはす)。&lt;/p&gt;
+
+&lt;p&gt;日本語版があるにはある&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:f10cb402008eac2dda64382953d50111:1&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:f10cb402008eac2dda64382953d50111:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;んだけれど、古いし翻訳の質が怪しいので、
+自分の理解を進めるという意味も含めて独力で翻訳してみることにした。&lt;/p&gt;
+
+&lt;p&gt;進捗としては、1週間の空いた時間をほぼそればっかりに費してようやっと &lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;5&lt;/sub&gt; くらい進んだ。
+さすがに他のこともやりたいので、完成までは2ヶ月くらいかかってしまうかもしれない…。
+3月中には終わるように頑張ろう。&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+&lt;li id=&#34;fn:f10cb402008eac2dda64382953d50111:1&#34;&gt;すくすくスクラムが翻訳した版がある。あるはずなのだけれど公式に配布している所が見当たらない。
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:f10cb402008eac2dda64382953d50111:1&#34;&gt;↩&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>JIRA Agile用のuserscriptを作ったりした日</title>
