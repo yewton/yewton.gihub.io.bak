@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Emacs on yewton.net</title>
-    <link>https://yewton.net/tags/emacs/</link>
+    <link>https://www.yewton.net/tags/emacs/</link>
     <description>Recent content in Emacs on yewton.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <lastBuildDate>Tue, 26 Jan 2016 23:25:40 +0900</lastBuildDate>
-    <atom:link href="https://yewton.net/tags/emacs/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.yewton.net/tags/emacs/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>hugo.elを書いた</title>
-      <link>https://yewton.net/2016/01/26/hugo-el</link>
+      <link>https://www.yewton.net/2016/01/26/hugo-el</link>
       <pubDate>Tue, 26 Jan 2016 23:25:40 +0900</pubDate>
       
-      <guid>https://yewton.net/2016/01/26/hugo-el</guid>
+      <guid>https://www.yewton.net/2016/01/26/hugo-el</guid>
       <description>
 
 &lt;h2 id=&#34;とは:5a4a752293a6cc5230abaaa041746920&#34;&gt;#とは&lt;/h2&gt;
@@ -58,10 +58,10 @@ HugoはCLIのインタフェースなので、ターミナルとEmacsを行き�
     
     <item>
       <title>markdown-modeでSKKの変換確定するためにRETするとカーソルが行頭に飛ぶ問題の回避策</title>
-      <link>https://yewton.net/2016/01/20/markdown-mode-skk-kakutei</link>
+      <link>https://www.yewton.net/2016/01/20/markdown-mode-skk-kakutei</link>
       <pubDate>Wed, 20 Jan 2016 22:40:16 +0900</pubDate>
       
-      <guid>https://yewton.net/2016/01/20/markdown-mode-skk-kakutei</guid>
+      <guid>https://www.yewton.net/2016/01/20/markdown-mode-skk-kakutei</guid>
       <description>
 
 &lt;p&gt;markdown-mode 2.1 で SKK 15.2 使ってると、確定しようと思って &lt;code&gt;&amp;lt;return&amp;gt;&lt;/code&gt; すると、
@@ -118,10 +118,10 @@ HugoはCLIのインタフェースなので、ターミナルとEmacsを行き�
     
     <item>
       <title>忙し過ぎてお弁当も食べられなかった日</title>
-      <link>https://yewton.net/2016/01/15/diary</link>
+      <link>https://www.yewton.net/2016/01/15/diary</link>
       <pubDate>Fri, 15 Jan 2016 23:00:00 +0900</pubDate>
       
-      <guid>https://yewton.net/2016/01/15/diary</guid>
+      <guid>https://www.yewton.net/2016/01/15/diary</guid>
       <description>
 
 &lt;p&gt;最近チームが新体制に移行するという時期で色々バタバタしていて、
@@ -172,10 +172,10 @@ HugoはCLIのインタフェースなので、ターミナルとEmacsを行き�
     
     <item>
       <title>BettorTouchToolが無料じゃなくなると分かったりした日</title>
-      <link>https://yewton.net/2016/01/13/diary</link>
+      <link>https://www.yewton.net/2016/01/13/diary</link>
       <pubDate>Wed, 13 Jan 2016 23:00:00 +0900</pubDate>
       
-      <guid>https://yewton.net/2016/01/13/diary</guid>
+      <guid>https://www.yewton.net/2016/01/13/diary</guid>
       <description>
 
 &lt;h2 id=&#34;bettertouchtool-will-switch-from-free-to-a-pay-what-you-want-model-early-next-year-bettertouchtool-btt-remote-bettersnaptool-and-more-http-www-boastr-net-bettertouchtool-may-switch-from-free-to-a-pay-what-you-want-model-early-next-year:824dcdd6f1a52d669a57ccbb65be9cd9&#34;&gt;&lt;a href=&#34;http://www.boastr.net/bettertouchtool-may-switch-from-free-to-a-pay-what-you-want-model-early-next-year/&#34;&gt;BetterTouchTool will switch from free to a “Pay what you want” model early next year. – BetterTouchTool, BTT Remote, BetterSnapTool and more&lt;/a&gt;&lt;/h2&gt;

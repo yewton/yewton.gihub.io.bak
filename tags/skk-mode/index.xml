@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Skk Mode on yewton.net</title>
-    <link>https://yewton.net/tags/skk-mode/</link>
+    <link>https://www.yewton.net/tags/skk-mode/</link>
     <description>Recent content in Skk Mode on yewton.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <lastBuildDate>Wed, 20 Jan 2016 22:40:16 +0900</lastBuildDate>
-    <atom:link href="https://yewton.net/tags/skk-mode/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.yewton.net/tags/skk-mode/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>markdown-modeでSKKの変換確定するためにRETするとカーソルが行頭に飛ぶ問題の回避策</title>
-      <link>https://yewton.net/2016/01/20/markdown-mode-skk-kakutei</link>
+      <link>https://www.yewton.net/2016/01/20/markdown-mode-skk-kakutei</link>
       <pubDate>Wed, 20 Jan 2016 22:40:16 +0900</pubDate>
       
-      <guid>https://yewton.net/2016/01/20/markdown-mode-skk-kakutei</guid>
+      <guid>https://www.yewton.net/2016/01/20/markdown-mode-skk-kakutei</guid>
       <description>
 
 &lt;p&gt;markdown-mode 2.1 で SKK 15.2 使ってると、確定しようと思って &lt;code&gt;&amp;lt;return&amp;gt;&lt;/code&gt; すると、

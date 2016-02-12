@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>日記 on yewton.net</title>
-    <link>https://yewton.net/categories/%E6%97%A5%E8%A8%98/</link>
+    <link>https://www.yewton.net/categories/%E6%97%A5%E8%A8%98/</link>
     <description>Recent content in 日記 on yewton.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <lastBuildDate>Sun, 31 Jan 2016 23:18:29 +0900</lastBuildDate>
-    <atom:link href="https://yewton.net/categories/%E6%97%A5%E8%A8%98/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.yewton.net/categories/%E6%97%A5%E8%A8%98/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>スクラム入門を翻訳する日々</title>
-      <link>https://yewton.net/2016/01/31/diary</link>
+      <link>https://www.yewton.net/2016/01/31/diary</link>
       <pubDate>Sun, 31 Jan 2016 23:18:29 +0900</pubDate>
       
-      <guid>https://yewton.net/2016/01/31/diary</guid>
+      <guid>https://www.yewton.net/2016/01/31/diary</guid>
       <description>&lt;p&gt;最近、&lt;a href=&#34;https://www.gitbook.com/book/yewton/scrumprimer/details&#34;&gt;スクラム入門の翻訳&lt;/a&gt;を
 細々とやっている。&lt;/p&gt;
 
@@ -41,10 +41,10 @@
     
     <item>
       <title>JIRA Agile用のuserscriptを作ったりした日</title>
-      <link>https://yewton.net/2016/01/23/diary</link>
+      <link>https://www.yewton.net/2016/01/23/diary</link>
       <pubDate>Sat, 23 Jan 2016 23:47:43 +0900</pubDate>
       
-      <guid>https://yewton.net/2016/01/23/diary</guid>
+      <guid>https://www.yewton.net/2016/01/23/diary</guid>
       <description>
 
 &lt;h2 id=&#34;趣味の政策物:94b3c734ee959e37b47a43c2fb129b69&#34;&gt;趣味の政策物&lt;/h2&gt;
@@ -121,10 +121,10 @@
     
     <item>
       <title>雪が振ったので一日中家に引き込もっていた日の次の日</title>
-      <link>https://yewton.net/2016/01/19/diary</link>
+      <link>https://www.yewton.net/2016/01/19/diary</link>
       <pubDate>Tue, 19 Jan 2016 23:00:00 +0900</pubDate>
       
-      <guid>https://yewton.net/2016/01/19/diary</guid>
+      <guid>https://www.yewton.net/2016/01/19/diary</guid>
       <description>
 
 &lt;p&gt;昨日は都内も大雪(いうほどか？)で出社がダルそうだったので、終日リモートワークしていた。
@@ -149,10 +149,10 @@
     
     <item>
       <title>HTTPSに対応してついでにHTTP/2対応された日</title>
-      <link>https://yewton.net/2016/01/18/diary</link>
+      <link>https://www.yewton.net/2016/01/18/diary</link>
       <pubDate>Mon, 18 Jan 2016 00:06:20 +0900</pubDate>
       
-      <guid>https://yewton.net/2016/01/18/diary</guid>
+      <guid>https://www.yewton.net/2016/01/18/diary</guid>
       <description>
 
 &lt;h2 id=&#34;https-http-2-対応:e6a1a03cb41557bae8d628ec222879e1&#34;&gt;HTTPS + HTTP/2 対応&lt;/h2&gt;
@@ -206,10 +206,10 @@ Chromeで &lt;a href=&#34;https://chrome.google.com/webstore/detail/http2-and-sp
     
     <item>
       <title>忙し過ぎてお弁当も食べられなかった日</title>
-      <link>https://yewton.net/2016/01/15/diary</link>
+      <link>https://www.yewton.net/2016/01/15/diary</link>
       <pubDate>Fri, 15 Jan 2016 23:00:00 +0900</pubDate>
       
-      <guid>https://yewton.net/2016/01/15/diary</guid>
+      <guid>https://www.yewton.net/2016/01/15/diary</guid>
       <description>
 
 &lt;p&gt;最近チームが新体制に移行するという時期で色々バタバタしていて、
@@ -260,10 +260,10 @@ Chromeで &lt;a href=&#34;https://chrome.google.com/webstore/detail/http2-and-sp
     
     <item>
       <title>BettorTouchToolが無料じゃなくなると分かったりした日</title>
-      <link>https://yewton.net/2016/01/13/diary</link>
+      <link>https://www.yewton.net/2016/01/13/diary</link>
       <pubDate>Wed, 13 Jan 2016 23:00:00 +0900</pubDate>
       
-      <guid>https://yewton.net/2016/01/13/diary</guid>
+      <guid>https://www.yewton.net/2016/01/13/diary</guid>
       <description>
 
 &lt;h2 id=&#34;bettertouchtool-will-switch-from-free-to-a-pay-what-you-want-model-early-next-year-bettertouchtool-btt-remote-bettersnaptool-and-more-http-www-boastr-net-bettertouchtool-may-switch-from-free-to-a-pay-what-you-want-model-early-next-year:824dcdd6f1a52d669a57ccbb65be9cd9&#34;&gt;&lt;a href=&#34;http://www.boastr.net/bettertouchtool-may-switch-from-free-to-a-pay-what-you-want-model-early-next-year/&#34;&gt;BetterTouchTool will switch from free to a “Pay what you want” model early next year. – BetterTouchTool, BTT Remote, BetterSnapTool and more&lt;/a&gt;&lt;/h2&gt;
