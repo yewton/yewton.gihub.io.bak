@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Emacslisp on yewton.net</title>
-    <link>https://www.yewton.net/tags/emacslisp/</link>
+    <link>http://www.yewton.net/tags/emacslisp/</link>
     <description>Recent content in Emacslisp on yewton.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <lastBuildDate>Tue, 26 Jan 2016 23:25:40 +0900</lastBuildDate>
-    <atom:link href="https://www.yewton.net/tags/emacslisp/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://www.yewton.net/tags/emacslisp/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>hugo.elを書いた</title>
-      <link>https://www.yewton.net/2016/01/26/hugo-el</link>
+      <link>http://www.yewton.net/2016/01/26/hugo-el</link>
       <pubDate>Tue, 26 Jan 2016 23:25:40 +0900</pubDate>
       
-      <guid>https://www.yewton.net/2016/01/26/hugo-el</guid>
+      <guid>http://www.yewton.net/2016/01/26/hugo-el</guid>
       <description>
 
 &lt;h2 id=&#34;とは:5a4a752293a6cc5230abaaa041746920&#34;&gt;#とは&lt;/h2&gt;

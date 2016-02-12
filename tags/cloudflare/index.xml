@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cloudflare on yewton.net</title>
-    <link>https://www.yewton.net/tags/cloudflare/</link>
+    <link>http://www.yewton.net/tags/cloudflare/</link>
     <description>Recent content in Cloudflare on yewton.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <lastBuildDate>Mon, 18 Jan 2016 00:06:20 +0900</lastBuildDate>
-    <atom:link href="https://www.yewton.net/tags/cloudflare/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://www.yewton.net/tags/cloudflare/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>HTTPSに対応してついでにHTTP/2対応された日</title>
-      <link>https://www.yewton.net/2016/01/18/diary</link>
+      <link>http://www.yewton.net/2016/01/18/diary</link>
       <pubDate>Mon, 18 Jan 2016 00:06:20 +0900</pubDate>
       
-      <guid>https://www.yewton.net/2016/01/18/diary</guid>
+      <guid>http://www.yewton.net/2016/01/18/diary</guid>
       <description>
 
 &lt;h2 id=&#34;https-http-2-対応:e6a1a03cb41557bae8d628ec222879e1&#34;&gt;HTTPS + HTTP/2 対応&lt;/h2&gt;
