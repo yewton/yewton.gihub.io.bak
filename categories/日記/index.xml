@@ -6,8 +6,55 @@
     <description>Recent content in 日記 on yewton.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Sun, 31 Jan 2016 23:18:29 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 14 Feb 2016 00:26:33 +0900</lastBuildDate>
     <atom:link href="https://www.yewton.net/categories/%E6%97%A5%E8%A8%98/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Hugoの記事をようやく書き上げた日</title>
+      <link>https://www.yewton.net/2016/02/14/diary</link>
+      <pubDate>Sun, 14 Feb 2016 00:26:33 +0900</pubDate>
+      
+      <guid>https://www.yewton.net/2016/02/14/diary</guid>
+      <description>
+
+&lt;p&gt;たまには人類に少しでも役に立つような記事も書こうと思い、
+&lt;a href=&#34;https://www.yewton.net/2016/02/02/blog-with-hugo/&#34;&gt;Hugoの記事&lt;/a&gt;を書いていた。&lt;/p&gt;
+
+&lt;p&gt;自分が通しでやったことだし、すぐ書き上がるだろーと高をくくっていたら、
+なんだかんだ書き始めてから2週間くらい経ってしまった(もちろん、そればかりやってたワケじゃないけど)。
+自分の遅筆さに呆れるばかりである。&lt;/p&gt;
+
+&lt;p&gt;普段から余り人様に見せられるような文章を書いていない、というのが露呈した気がした。
+そういえば普段の会話もあまり賢いものとは言えない…。
+時を経るごとに、喋るのも下手になっていると感じる。&lt;/p&gt;
+
+&lt;p&gt;やばいなー。やばいヤバイ。&lt;/p&gt;
+
+&lt;p&gt;人とコミュニケーションとらずに生きていくのにそろそろ限界を感じているので、
+意図して真っ当な会話をし、文章を書けるように心がけていこうと思う。
+そういえば最近まともに読書もしていないし…。
+社会生活を営む人間として真っ当に生きていく為の読書くらいは、しよう。&lt;/p&gt;
+
+&lt;h2 id=&#34;業務外のアレコレ:7a2f7ead465353c7838d82b7d8c026fb&#34;&gt;業務外のアレコレ&lt;/h2&gt;
+
+&lt;p&gt;最近(ほぼ)趣味で、 AWS上にシンプルに構築されたWordPressブログを、
+HTTPSにしてついでにHTTP/2対応してHHVMで稼動させようぜ、というような試みをしている。&lt;/p&gt;
+
+&lt;p&gt;AWSは最近ようやく触りはじめたばかりなので、
+どういったことが出来るのか、から調べつつやっている。&lt;/p&gt;
+
+&lt;p&gt;ベースがAmazonLinuxなので、HHVMは公式にサポートされていない。
+なので Docker を利用したいところなのだけれど、
+WordPress がダイナミックに自分自身を更新するという話を聞いて、うーん、となった。
+HHVMだけをECSで動かしてもしょうがないから、やるならWordPressもコンテナに詰めるのだけど、
+コンテナ内で稼動しているWordPressを更新してもしょうがない、というかコンテナ再起動したら消えちゃうしなー、という。
+それとも、ECSで使うEC2インスタンスにWordPressを普通に入れちゃえばいいのかな？&lt;/p&gt;
+
+&lt;p&gt;などなど、色々試行錯誤の日々である。
+今日はHugoの記事書き上げるのとドメイン移行でいっぱいいっぱいだったので、
+明日には何らかの成果を出したい…。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>スクラム入門を翻訳する日々</title>
