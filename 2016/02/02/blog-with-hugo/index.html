@@ -1,0 +1,1165 @@
+<!DOCTYPE html>
+<html lang="ja-jp">
+    <head>
+        <title>Hugo &#43; GitHub Pages でお手軽にブログを始めよう &middot; yewton.net</title>
+        <meta name="generator" content="Hugo 0.15" />
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="author" content="yewton">
+        
+            <meta name="description" content="技術的な話とか日常の駄文、その他もろもろ。">
+        
+        
+        <link rel="icon" href="https://www.yewton.net/favicon.ico">
+        <link rel="apple-touch-icon" href="https://www.yewton.net/apple-touch-icon.png" />
+        <link rel="stylesheet" href="https://www.yewton.net/css/style.css">
+        <link rel="stylesheet" href="https://www.yewton.net/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://www.yewton.net/css/github.css">
+        <link rel="stylesheet" href="https://www.yewton.net/css/custom.css">
+        <link rel="stylesheet" href="https://www.yewton.net/fancybox/jquery.fancybox.css">
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.11.1/moment.min.js"></script>
+        <meta property="og:title" content="Hugo &#43; GitHub Pages でお手軽にブログを始めよう" />
+<meta property="og:description" content="はじめに この記事は「いい感じのブログを無料で手軽に作れないかなー」、と思っている人が主な対象です。 〈いい感じ〉というのが抽象的ですが、以下の" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.yewton.net/2016/02/02/blog-with-hugo" />
+
+
+<meta property="og:updated_time" content="2016-02-02T18:44:21&#43;09:00"/>
+
+
+
+
+
+
+
+
+
+
+        
+        
+<meta itemprop="name" content="Hugo &#43; GitHub Pages でお手軽にブログを始めよう">
+<meta itemprop="description" content="はじめに この記事は「いい感じのブログを無料で手軽に作れないかなー」、と思っている人が主な対象です。 〈いい感じ〉というのが抽象的ですが、以下の">
+
+
+<meta itemprop="dateModified" content="2016-02-02T18:44:21&#43;09:00" />
+<meta itemprop="wordCount" content="3642">
+
+
+
+<meta itemprop="keywords" content="emacs,技術系,日記,雑記,bettortouchtool,blog,cdn,cloudflare,ddd,dns,emacs,emacslisp,github,go,greasemonkey,hatenacounting,https,hugo,hugo.el,javascript,jira,markdown-mode,moment.js,org-mode,scrum,skk,skk-mode,slack,ssh,ssl,trello,userscript,web-mode," />
+
+        
+
+  <meta name="twitter:card" content="summary"/>
+
+
+
+<meta name="twitter:title" content="Hugo &#43; GitHub Pages でお手軽にブログを始めよう"/>
+<meta name="twitter:description" content="はじめに この記事は「いい感じのブログを無料で手軽に作れないかなー」、と思っている人が主な対象です。 〈いい感じ〉というのが抽象的ですが、以下の"/>
+<meta name="twitter:site" content="@yewton"/>
+
+
+    </head>
+    <body>
+        <div class="container">
+
+
+<div id="container">
+    <header id="header">
+    <div id="header-main" class="header-inner">
+        <div class="outer">
+            <a href="https://www.yewton.net/" id="logo"><i class="logo" style="background-image: url('https://www.yewton.net/css/images/logo.png')"></i><span class="site-title">yewton.net</span></a>
+            <nav id="main-nav">
+                
+                    
+                        <a class="main-nav-link" href="https://www.yewton.net/">Home</a>
+                    
+                
+                    
+                
+                    
+                
+
+                
+
+                
+                    
+                
+                    
+                        <a class="main-nav-link" href="https://www.yewton.net/tags/">Tags</a>
+                    
+                
+                    
+                        <a class="main-nav-link" href="https://www.yewton.net/categories/">Categories</a>
+                    
+                
+            </nav>
+            <nav id="sub-nav">
+                <div class="profile" id="profile-nav">
+                    <a id="profile-anchor" href="javascript:;">
+                        
+                            <img class="avatar" src="https://www.yewton.net/img/avatar-placeholder.png" alt="Profile Picture"/>
+                            <script src="https://www.yewton.net/js/md5.js"></script>
+                            <script type="text/javascript">
+                             $(function(){
+                                 $('.avatar').attr('src', 'https://www.gravatar.com/avatar/' + MD5('yewton@gmail.com') + '?s=128');
+                             });
+                            </script>
+                        
+                        <i class="fa fa-caret-down"></i></a>
+                </div>
+            </nav>
+            <div id="search-form-wrap">
+                <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form">
+                    <input type="search" name="q" results="0" class="search-form-input" placeholder="検索">
+                    <button type="submit" class="search-form-submit">
+                    </button>
+                    <input type="hidden" name="q" value="site:https://www.yewton.net/">
+                </form>
+            </div>
+        </div>
+    </div>
+    <div id="main-nav-mobile" class="header-sub header-inner">
+        <table class="menu outer">
+            <tbody>
+                <tr>
+                    
+                        
+                            <td><a class="main-nav-link" href="https://www.yewton.net/">Home</a></td>
+                        
+                    
+                        
+                    
+                        
+                    
+
+                    
+
+                    
+                        
+                    
+                        
+                            <td><a class="main-nav-link" href="https://www.yewton.net/tags/">Tags</a></td>
+                        
+                    
+                        
+                            <td><a class="main-nav-link" href="https://www.yewton.net/categories/">Categories</a></td>
+                        
+                    
+                    <td>
+                        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form">
+                            <input type="search" name="q" results="0" class="search-form-input" placeholder="Search">
+                            <input type="hidden" name="q" value="site:https://www.yewton.net/">
+                        </form>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</header>
+
+    <div class="outer">
+        <aside id="profile">
+    <div class="inner profile-inner">
+        <div class="base-info profile-block">
+            
+                <img id="avatar" class="avatar" src="https://www.yewton.net/img/avatar-placeholder.png" alt="Profile Picture"/>
+                <script src="https://www.yewton.net/js/md5.js"></script>
+                <script type="text/javascript">
+                 $(function(){
+                     $('#avatar').attr('src', 'https://www.gravatar.com/avatar/' + MD5('yewton@gmail.com') + '?s=128');
+                 });
+                </script>
+            
+            <h2 id="name">yewton</h2>
+            <h3 id="title">サーバーサイドエンジニア。インフラも少々。あと認定スクラムマスター。</h3>
+            <span id="location"><i class="fa fa-map-marker"></i>Tokyo, Japan</span>
+            
+                <span id="age" style="visibility: hidden;"><i class="fa fa-birthday-cake"></i></span>
+                <script type="text/javascript">
+                 $(function(){
+                     var birthday = moment('1986-06-11');
+                     var wholedays = moment().diff(birthday, 'days');
+                     var years = Math.floor(wholedays / 365);
+                     var days = wholedays % 365;
+                     var text = '';
+                     if (years) { text += years + '歳'; }
+                     if (days) { text += 'と' + days + '日'; }
+                     $('#age').append(text).hide().css({'visibility': 'visible'}).fadeIn();
+                 });
+                </script>
+            
+            
+                <a id="follow" href="https://twitter.com/yewton">
+                    フォロー
+                </a>
+            
+        </div>
+        <div class="contact-info profile-block">
+            <table class="contact-list">
+                <tr>
+                    
+<td><a href="//github.com/yewton" target="_blank" title="GitHub"><i class="fa fa-github"></i></a></td>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<td><a href="//instagram.com/yewton" target="_blank" title="Instagram"><i class="fa fa-instagram"></i></a></td>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<td><a href="//linkedin.com/in/yewton" target="_blank" title="LinkedIn"><i class="fa fa-linkedin"></i></a></td>
+
+
+
+
+
+
+
+
+
+
+
+<td><a href="//plus.google.com/+YutoSasaki" target="_blank" title="Google+"><i class="fa fa-googleplus"></i></a></td>
+
+
+
+<td><a href="//facebook.com/yewton" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a></td>
+
+
+
+<td><a href="//twitter.com/yewton" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a></td>
+
+
+                    <td><a href="" target="_blank" title="RSS"><i class="fa fa-rss"></i></a></td>
+                </tr>
+            </table>
+        </div>
+        
+            <div class="anniversary-info profile-block">
+                <table id="anniversary-list">
+                    
+                        <tr>
+                            <td><i class="fa fa-calendar"></i></td>
+                            <td>結婚</td>
+                            <td>
+                                <span class="anniversary"
+                                      data-prefix="結婚"
+                                      data-suffix="目"
+                                      data-date="2010-11-30"
+                                      style="visibility: hidden;">&nbsp;</span>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><i class="fa fa-calendar"></i></td>
+                            <td>付き合って</td>
+                            <td>
+                                <span class="anniversary"
+                                      data-prefix="付き合って"
+                                      data-suffix="目"
+                                      data-date="2007-11-30"
+                                      style="visibility: hidden;">&nbsp;</span>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><i class="fa fa-calendar"></i></td>
+                            <td>社会人</td>
+                            <td>
+                                <span class="anniversary"
+                                      data-prefix="社会人"
+                                      data-suffix="目"
+                                      data-date="2010-04-01"
+                                      style="visibility: hidden;">&nbsp;</span>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><i class="fa fa-calendar"></i></td>
+                            <td>現職勤続</td>
+                            <td>
+                                <span class="anniversary"
+                                      data-prefix="現職勤続"
+                                      data-suffix=""
+                                      data-date="2015-09-01"
+                                      style="visibility: hidden;">&nbsp;</span>
+                            </td>
+                        </tr>
+                    
+                </table>
+            </div>
+
+            <script type="text/javascript">
+             $(function(){
+                 $('.anniversary').each(function () {
+                     var suffix = $(this).data('suffix');
+                     var date = moment($(this).data('date'));
+                     var wholedays = moment().diff(date, 'days');
+                     var years = Math.floor(wholedays / 365);
+                     var days = wholedays % 365;
+                     var text = '';
+                     if (years) { text += years + '年'; }
+                     if (days) { text += days + '日'; }
+                     $(this).html(text + suffix).hide().css({'visibility': 'visible'}).fadeIn();
+                 });
+             });
+            </script>
+        
+        <div class="article-info profile-block">
+            <div class="article-info-block">
+                10
+                <span>投稿</span>
+            </div>
+            <div class="article-info-block">
+                
+                    29
+                
+                <span>
+                    タグ
+                </span>
+            </div>
+        </div>
+    </div>
+</aside>
+
+        <section id="main">
+    <article id="page-undefined" class="article article-type-page" itemscope="" itemprop="blogPost">
+        <div class="article-inner">
+            
+                
+                    <div class="article-banner" style="background-image: url(https://www.yewton.net/banners/hugo.jpg); height: 200px;">
+                        <div class="article-banner-transparent-layer"></div>
+                    </div>
+                
+            
+
+            <header class="article-header">
+    <a href="https://www.yewton.net/2016/02/02/blog-with-hugo">
+        <h1 class="article-title" itemprop="name">
+            Hugo &#43; GitHub Pages でお手軽にブログを始めよう
+        </h1>
+    </a>
+    <div class="article-meta">
+        <div class="article-date">
+            <i class="fa fa-calendar"></i>
+            <time datetime="2016-02-02 18:44:21 &#43;0900 JST" itemprop="datePublished">2016.02.02 Tue</time>
+            &middot;
+            3642
+            語
+            &middot;
+            8
+            分
+        </div>
+
+        
+        
+            
+            
+                <div class="article-category">
+                    <i class="fa fa-folder"></i>
+                    
+                        <a class="article-category-link" href="https://www.yewton.net/categories/%e6%8a%80%e8%a1%93%e7%b3%bb">技術系</a>
+                        
+                    
+                </div>
+            
+        
+
+        
+            
+            
+                <div class="article-category">
+                    <i class="fa fa-tags"></i>
+                    
+                        <a class="article-category-link" href="https://www.yewton.net/tags/github">github</a>
+                        &middot;
+                    
+                        <a class="article-category-link" href="https://www.yewton.net/tags/hugo">hugo</a>
+                        &middot;
+                    
+                        <a class="article-category-link" href="https://www.yewton.net/tags/cloudflare">cloudflare</a>
+                        &middot;
+                    
+                        <a class="article-category-link" href="https://www.yewton.net/tags/ssl">ssl</a>
+                        &middot;
+                    
+                        <a class="article-category-link" href="https://www.yewton.net/tags/dns">dns</a>
+                        
+                    
+                </div>
+            
+        
+    </div>
+</header>
+
+            <div class="article-entry" itemprop="articleBody">
+                
+
+<h2 id="はじめに:072657b3c7db6be31ea1c615ed4cd298">はじめに</h2>
+
+<p>この記事は「いい感じのブログを無料で手軽に作れないかなー」、と思っている人が主な対象です。</p>
+
+<p>〈いい感じ〉というのが抽象的ですが、以下のような欲求をイメージしています:</p>
+
+<ul>
+<li><a href="https://www.staticgen.com/">Top Open-Source Static Site Generators - StaticGen</a> にあるような静的サイトジェネレータがいい</li>
+<li>サイト生成は速ければ速いほどいい</li>
+<li>モダンでレスポンシブルなのがいい</li>
+<li>記事を書いたら即確認出来るのがいい</li>
+<li>GitHub Pagesに簡単にデプロイ出来るのがいい</li>
+<li>独自ドメインは使いたい</li>
+<li>ブログにありがちなコメント機能とかアクセス解析とかが出来るといい</li>
+<li>HTTPSなのがいい</li>
+<li>HTTP/2なのがいい</li>
+</ul>
+
+<h2 id="サイトの方式を考える:072657b3c7db6be31ea1c615ed4cd298">サイトの方式を考える</h2>
+
+<p>手軽に始めたいので、準備はなるべく少ない方が嬉しいですね。</p>
+
+<p>WordPress みたいな動的な方式はサーバを用意しないといけないので手間ですし、場合によっては金もかかります。</p>
+
+<p>一方の静的サイト配信であれば、必要なのは HTML を配信出来る場所だけです。
+GitHub Pages や類似のサービスを使えば無料で利用できますね。</p>
+
+<h2 id="静的サイトジェネレータを選ぶ:072657b3c7db6be31ea1c615ed4cd298">静的サイトジェネレータを選ぶ</h2>
+
+<p>というわけで静的サイトを作成するためのジェネレータを選びます。</p>
+
+<p><a href="https://www.staticgen.com/">Top Open-Source Static Site Generators - StaticGen</a> の中から適当に選びましょう。</p>
+
+<p><a href="http://jekyllrb.com/">Jekyll</a> や <a href="http://octopress.org/">Octopress</a> はメジャーっぽいですが検索してみると、何だか遅いみたいです(使ったことない)。</p>
+
+<p><a href="https://www.gitbook.com/">GitBook</a> はドキュメントを書くのには向いています(自分も利用しています)。ですがブログを書くためのものではありません。</p>
+
+<p><a href="http://hexo.io/">Hexo</a> か <a href="http://gohugo.io/">Hugo</a> あたりがよさそうです。
+これら二つはコンセプトもよく似ているし、最早好みの世界ですね。自分は何となく Hugo を使っています。</p>
+
+<h2 id="hugo:072657b3c7db6be31ea1c615ed4cd298">Hugo</h2>
+
+<p><img src="https://www.yewton.net/img/2016-01-11_184419/hugo.png" alt="Hugoのロゴ" /></p>
+
+<p><a href="http://gohugo.io/">Hugo</a> は超高速でシンプルかつ柔軟な静的サイトジェネレータだそうです。
+Go言語で書かれていて、インストールはとってもカンタン。すぐに使えます。</p>
+
+<p>使い方もとってもカンタン…というワケではないかもしれません。
+といっても、それは Hugo が殊更難しいというワケではなく、
+そもそも静的サイトジェネレーターというモノを理解している必要がある、ということだと思います。</p>
+
+<p>ブログを書く、ということだけに目的を絞れば、覚える必要がある用語は
+<em>Content</em>, <em>Themes</em>, <em>Taxonomies</em> の3つだけです。</p>
+
+<h3 id="content:072657b3c7db6be31ea1c615ed4cd298">Content</h3>
+
+<p>ブログで言えば記事のことです。</p>
+
+<p>Content がどのように表示されるかは使用しているテーマによりますが、
+ブログ用テーマのほとんどは <code>post</code> ディレクトリ以下にあるファイルを記事として扱うようです。</p>
+
+<h3 id="themes:072657b3c7db6be31ea1c615ed4cd298">Themes</h3>
+
+<p>そのまま、サイトに適用するテーマです。</p>
+
+<p>Hugoの場合、テーマはそのサイトの構成まで決めてしまいます。
+独自にテンプレートを書くことでカスタマイズ出来るとはいえ、目的に沿ったテーマを選択するのが無難です。</p>
+
+<p>テーマ選択の方法については後述します。</p>
+
+<h3 id="taxonomies:072657b3c7db6be31ea1c615ed4cd298">Taxonomies</h3>
+
+<p>やけに難しい単語ですが、分類方法のことです。
+ブログなら <strong>カテゴリ</strong> や <strong>タグ</strong> といった類のものです。</p>
+
+<p>幸い、カテゴリとタグによる基本的な分類であればデフォルトで対応しているため、あまり意識する必要はありません。
+カテゴリやタグのことを Taxonomies と呼ぶことだけ押さえておけばOKです。</p>
+
+<h2 id="サイトを作る:072657b3c7db6be31ea1c615ed4cd298">サイトを作る</h2>
+
+<p>早速サイトを作っていきましょう。</p>
+
+<p><a href="http://gohugo.io/overview/quickstart/">Hugo - Hugo Quickstart Guide</a> に従えば基本的に迷うことは無いと思います。
+ここでは、適当にサイトを作って、ひとつ記事を書いてみて、それがブラウザで確認出来るようになれば大丈夫です。</p>
+
+<p>ただし、 <strong>日本語に対応させる設定は追加で必要</strong> です。</p>
+
+<h3 id="日本語対応:072657b3c7db6be31ea1c615ed4cd298">日本語対応</h3>
+
+<p>ありがたいことに、Hugoは日本語や中国語の為の特別な設定を用意してくれています。
+設定ファイルに <code>hasCJKLanguage = true</code> という行を追加しましょう。</p>
+
+<p>これをやらないと、一覧用に記事を自動で切り詰めてくれる機能や、
+読み終えるまでの予想時間の計算が滅茶苦茶になってしまいます。</p>
+
+<h2 id="テーマを決める:072657b3c7db6be31ea1c615ed4cd298">テーマを決める</h2>
+
+<p>次はサイトに適用するテーマを選択しましょう。</p>
+
+<p><a href="http://themes.gohugo.io/">Hugo Themes Site</a> で実際の例を見ながらテーマを選ぶことが出来ます。
+ブログ用のテーマのみに絞って見たい場合は <a href="http://themes.gohugo.io/tags/blog">こちら</a> からどうぞ。</p>
+
+<p>注意点として、Hugoには記事を読み終えるまでの時間やおおよその文字数を表示する機能が組込まれているのですが、テーマがサポートしていない場合は表示されません。
+このような機能を使いたい場合は、テーマでサポートされているかを確認しましょう。</p>
+
+<p>このサイトは <a href="http://themes.gohugo.io/hugo-icarus/">Icarus</a> を使っています。
+ショーケースの中では使える機能が一番多いと思うので、どういうことが出来るのか知るには丁度よいテーマだと思います。</p>
+
+<h2 id="favicon-を置こう:072657b3c7db6be31ea1c615ed4cd298">favicon を置こう</h2>
+
+<p>デフォルトでは Hugo の favicon が表示されてしまうので、カスタマイズしましょう。
+<a href="http://www.favicon-generator.org/">Favicon &amp; App Icon Generator</a> などを使うとよいです。</p>
+
+<p>生成した <code>.ico</code> ファイルを <code>static</code> 直下に配置すればOKです。</p>
+
+<h2 id="記事を書く:072657b3c7db6be31ea1c615ed4cd298">記事を書く</h2>
+
+<p>記事はMarkdownで書きます。</p>
+
+<p>ここで困るのは、Markdownにもいくつか方言があることです。
+何を参考に書けばいいか迷ってしまいますね。</p>
+
+<p>HugoではMarkdownの処理に <a href="https://github.com/russross/blackfriday">russross/blackfriday: Blackfriday: a markdown processor for Go</a> を使っています。
+Blackfriday特有の書式(脚注など)もある為、こちらを参照しながら書くとよいでしょう。</p>
+
+<h3 id="記事のファイル名について:072657b3c7db6be31ea1c615ed4cd298">記事のファイル名について</h3>
+
+<p>日記や思い付きで即興で記事を書く場合、いちいち被らないようにファイル名を考えるのは面倒ですよね。</p>
+
+<p>Hugoの場合ファイル名は管理上の問題でしかないので、適当に日付やタイムスタンプでも入れておけばよいです。
+デフォルトではファイル名がURLに使われますが、記事毎の設定で <code>slug = &quot;hogehoge&quot;</code> のように設定しておけば、
+実際のURLは <code>/post/hogehoge</code> のようになります。</p>
+
+<p>また、以下のように設定ファイルに書いておけば、年月日がURLのプレフィクスに付くので被る心配もありません:</p>
+
+<pre><code>[permalinks]
+    post = &quot;/:year/:month/:day/:slug&quot;
+</code></pre>
+
+<h2 id="コメント対応:072657b3c7db6be31ea1c615ed4cd298">コメント対応</h2>
+
+<p>なんとなくコメント欄があるとオープンな感じでいいですよね？
+ということでコメントにも対応させてみましょう。</p>
+
+<p>Hugo自身が<a href="https://github.com/spf13/hugo/blob/cd36d752a3e8e2b75965fe281e6466d7a274cd94/tpl/template_embedded.go#L131-L145">Disqusに対応している</a>ので、
+<a href="https://disqus.com/">Disqus</a>を使いましょう。
+ただし、Disqusによるコメント対応も、テーマによってはサポートされていない場合があるので要注意です。</p>
+
+<p>何よりもまず Disqus への登録です。
+<a href="https://help.disqus.com/customer/portal/articles/466182-publisher-quick-start-guide">ヘルプ</a>を見ながら行いましょう。
+設定は特に必要ありませんので登録だけ済ませれば一旦OKです。後から言語設定を日本語にしたりすることも出来ます。</p>
+
+<p>登録が完了したら、登録時に入力した shortname (unique Disqus URL) を以下のように設定に追記しましょう:</p>
+
+<pre><code>disqusShortname = &quot;sitename&quot;
+</code></pre>
+
+<p>これだけでHugoの設定は完了です。(テーマが対応していれば)個別の記事ページにコメント欄が出現します。</p>
+
+<h2 id="デプロイ:072657b3c7db6be31ea1c615ed4cd298">デプロイ</h2>
+
+<p>生成したブログは GitHub Pages でホスティングします。</p>
+
+<p><code>gh-pages</code> ではなく、ユーザや Organization のページとして公開する場合は、
+<a href="https://gohugo.io/tutorials/github-pages-blog/#hosting-personal-organization-pages">Hosting Personal/Organization Pages</a>に
+何も考えずに従えばOKです。
+例示されているスクリプトもそのままコピペで使えます。</p>
+
+<p>実際にこのブログで使われているモノは全て<a href="https://github.com/yewton/yewton-hugo">こちら</a>にあるので参考にしてください。</p>
+
+<h2 id="独自ドメイン対応:072657b3c7db6be31ea1c615ed4cd298">独自ドメイン対応</h2>
+
+<p>github.com ドメインでホスティングするだけでよければ、ここから先の作業は不要です。おめでとうございます。</p>
+
+<p>以降はHugoとは関係ない話が続きます。</p>
+
+<p>既に独自ドメインを持っていて、それをブログでも使いたい場合は、
+<a href="https://help.github.com/articles/adding-a-cname-file-to-your-repository/">CNAME</a>の設定をGitHub上で行う必要があります。
+<a href="https://github.com/yewton/yewton.github.io/blob/master/CNAME">こんなファイル</a>を作ってあげて、
+DNSレジストラ側で <code>CNAME</code> とか <code>ANAME</code> の設定を行ないます。</p>
+
+<h3 id="サブドメイン-vs-ルートドメイン:072657b3c7db6be31ea1c615ed4cd298">サブドメイン vs ルートドメイン</h3>
+
+<p><code>CNAME</code> の設定をするか <code>ANAME</code> の設定をするかは、サブドメインを使うかルートドメインを使うかの違いです。
+GitHubのヘルプによると、<a href="https://help.github.com/articles/about-custom-domains-for-github-pages-sites/#subdomains">サブドメインを強く推奨している</a>そうです。</p>
+
+<p>サブドメインを推奨する理由は以下のようです:</p>
+
+<ul>
+<li>GitHubのCDNの恩恵を受けられる</li>
+<li>GitHub自体のIPアドレス変更に影響を受けない</li>
+<li>DoS対策がより効率的になるのでページロードが高速になる</li>
+</ul>
+
+<p>というわけで、特別な事情がない限りはサブドメインを利用するのがよいでしょう<sup class="footnote-ref" id="fnref:072657b3c7db6be31ea1c615ed4cd298:1"><a rel="footnote" href="#fn:072657b3c7db6be31ea1c615ed4cd298:1">1</a></sup>。</p>
+
+<h2 id="https化:072657b3c7db6be31ea1c615ed4cd298">HTTPS化</h2>
+
+<p>ここまででブログとしての体裁は整いました。
+ですが、折角つくったサイトですからHTTPSで配信したいですよね？しましょう。</p>
+
+<p>これには<a href="https://www.cloudflare.com/">CloudFlare</a>を利用出来ます。
+<a href="https://1000ch.net/posts/2015/github-pages-custom-domain-in-https.html">GitHub Pagesに設定しているカスタムドメインをHTTPS対応させる - 1000ch.net</a>が非常に参考になります。</p>
+
+<p>設定が反映されるまでは最長1日程度かかりますので、ゆっくりと待ちましょう。</p>
+
+<p>なおCloudFlareを利用すると、ついでに HTTP/2 も有効になります。
+他にもJSの軽量化などの各種高速化の設定を利用出来ますので、設定項目を見てみるのもよいでしょう。</p>
+
+<h3 id="注意:072657b3c7db6be31ea1c615ed4cd298">注意</h3>
+
+<p>注意点として、この際に Flexible SSL を用いる場合は、あくまでユーザとCloudFlare間の通信が暗号化されるだけで、 <strong>CloudFlareとGitHub Pages間の通信は暗号化されていません</strong> 。
+後者の間の通信は改竄されうる状態で、かつ、ユーザはそれを知る術が無いという状態に…。</p>
+
+<p><a href="https://konklone.com/post/github-pages-now-supports-https-so-use-it">GitHub Pages Now (Sorta) Supports HTTPS, So Use It</a>に詳しく書かれていますが、
+一応そういう状態であるということは認識しておきましょう。</p>
+
+<h2 id="終わりに:072657b3c7db6be31ea1c615ed4cd298">終わりに</h2>
+
+<p>いい感じのブログを無料で手軽に作る方法についてまとめました。
+改めてまとめてみるとそれなりにボリュームがあってちょっと大変でした…。</p>
+
+<p>これからブログを始めるぞーと思っている誰かの役に立てばいいなーと思います。</p>
+<div class="footnotes">
+
+<hr />
+
+<ol>
+<li id="fn:072657b3c7db6be31ea1c615ed4cd298:1">こう書いている自分も、最初は特に気にせずにルートドメインで登録してしまっていました。この記事を書きながら気づいて、慌てて <code>www</code> サブドメインに移行しました。
+ <a class="footnote-return" href="#fnref:072657b3c7db6be31ea1c615ed4cd298:1">↩</a></li>
+</ol>
+</div>
+
+            </div>
+            <footer class="article-footer">
+    <a data-url="https://www.yewton.net/2016/02/02/blog-with-hugo" data-id="072657b3c7db6be31ea1c615ed4cd298" class="article-share-link">
+        シェア
+    </a>
+    
+    <a href="https://www.yewton.net/2016/02/02/blog-with-hugo/#disqus_thread" class="article-comment-link">
+        コメント
+    </a>
+    
+</footer>
+
+        </div>
+
+        
+<nav id="article-nav">
+    
+    <a href="https://www.yewton.net/2016/01/31/diary" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">
+          Older
+      </strong>
+      <div class="article-nav-title">スクラム入門を翻訳する日々</div>
+    </a>
+    
+
+    
+</nav>
+
+
+    </article>
+    <section id="comments">
+        <div id="disqus_thread">
+            <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'yewton';
+    var disqus_identifier = 'https:\/\/www.yewton.net\/2016\/02\/02\/blog-with-hugo';
+    var disqus_title = 'Hugo \x2b GitHub Pages でお手軽にブログを始めよう';
+    var disqus_url = 'https:\/\/www.yewton.net\/2016\/02\/02\/blog-with-hugo';
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        </div>
+    </section>
+</section>
+
+        <aside id="sidebar">
+    
+<div class="widget-wrap">
+    <h3 class="widget-title">
+        最新記事
+    </h3>
+    <div class="widget">
+        <ul id="recent-post">
+            
+            <li>
+                <div class="item-thumbnail">
+                    <a href="https://www.yewton.net/2016/02/02/blog-with-hugo" class="thumbnail">
+                    
+                        
+                        <span style="background-image:url(https://www.yewton.net/banners/hugo.jpg)" alt="Hugo &#43; GitHub Pages でお手軽にブログを始めよう" class="thumbnail-image"></span>
+                        
+                    
+                    </a>
+                </div>
+                <div class="item-inner">
+                    
+                    <p class="item-category">
+                        <a class="article-category-link" href="https://www.yewton.net/categories/%e6%8a%80%e8%a1%93%e7%b3%bb">
+                        技術系
+                        </a>
+                    </p>
+                    
+                    <p class="item-title"><a href="https://www.yewton.net/2016/02/02/blog-with-hugo" class="title">Hugo &#43; GitHub Pages でお手軽にブログを始めよう</a></p>
+                    <p class="item-date">
+                        <time datetime="2016-02-02 18:44:21 &#43;0900 JST" itemprop="datePublished">2016.02.02 Tue</time>
+                    </p>
+                </div>
+            </li>
+            
+            <li>
+                <div class="item-thumbnail">
+                    <a href="https://www.yewton.net/2016/01/31/diary" class="thumbnail">
+                    
+                        
+                        <span style="background-image:url(https://www.yewton.net/banners/scrumprimer.jpg)" alt="Hugo &#43; GitHub Pages でお手軽にブログを始めよう" class="thumbnail-image"></span>
+                        
+                    
+                    </a>
+                </div>
+                <div class="item-inner">
+                    
+                    <p class="item-category">
+                        <a class="article-category-link" href="https://www.yewton.net/categories/%e6%97%a5%e8%a8%98">
+                        日記
+                        </a>
+                    </p>
+                    
+                    <p class="item-title"><a href="https://www.yewton.net/2016/01/31/diary" class="title">スクラム入門を翻訳する日々</a></p>
+                    <p class="item-date">
+                        <time datetime="2016-01-31 23:18:29 &#43;0900 JST" itemprop="datePublished">2016.01.31 Sun</time>
+                    </p>
+                </div>
+            </li>
+            
+            <li>
+                <div class="item-thumbnail">
+                    <a href="https://www.yewton.net/2016/01/26/hugo-el" class="thumbnail">
+                    
+                        
+                        <span style="background-image:url(https://www.yewton.net/banners/emacs.jpg)" alt="Hugo &#43; GitHub Pages でお手軽にブログを始めよう" class="thumbnail-image"></span>
+                        
+                    
+                    </a>
+                </div>
+                <div class="item-inner">
+                    
+                    <p class="item-category">
+                        <a class="article-category-link" href="https://www.yewton.net/categories/emacs">
+                        Emacs
+                        </a>
+                    </p>
+                    
+                    <p class="item-title"><a href="https://www.yewton.net/2016/01/26/hugo-el" class="title">hugo.elを書いた</a></p>
+                    <p class="item-date">
+                        <time datetime="2016-01-26 23:25:40 &#43;0900 JST" itemprop="datePublished">2016.01.26 Tue</time>
+                    </p>
+                </div>
+            </li>
+            
+            <li>
+                <div class="item-thumbnail">
+                    <a href="https://www.yewton.net/2016/01/23/diary" class="thumbnail">
+                    
+                        
+                        <span style="background-image:url(https://www.yewton.net/banners/default.jpg)" alt="Hugo &#43; GitHub Pages でお手軽にブログを始めよう" class="thumbnail-image"></span>
+                        
+                    
+                    </a>
+                </div>
+                <div class="item-inner">
+                    
+                    <p class="item-category">
+                        <a class="article-category-link" href="https://www.yewton.net/categories/%e6%97%a5%e8%a8%98">
+                        日記
+                        </a>
+                    </p>
+                    
+                    <p class="item-title"><a href="https://www.yewton.net/2016/01/23/diary" class="title">JIRA Agile用のuserscriptを作ったりした日</a></p>
+                    <p class="item-date">
+                        <time datetime="2016-01-23 23:47:43 &#43;0900 JST" itemprop="datePublished">2016.01.23 Sat</time>
+                    </p>
+                </div>
+            </li>
+            
+            <li>
+                <div class="item-thumbnail">
+                    <a href="https://www.yewton.net/2016/01/20/markdown-mode-skk-kakutei" class="thumbnail">
+                    
+                        
+                        <span style="background-image:url(https://www.yewton.net/banners/emacs.jpg)" alt="Hugo &#43; GitHub Pages でお手軽にブログを始めよう" class="thumbnail-image"></span>
+                        
+                    
+                    </a>
+                </div>
+                <div class="item-inner">
+                    
+                    <p class="item-category">
+                        <a class="article-category-link" href="https://www.yewton.net/categories/emacs">
+                        Emacs
+                        </a>
+                    </p>
+                    
+                    <p class="item-title"><a href="https://www.yewton.net/2016/01/20/markdown-mode-skk-kakutei" class="title">markdown-modeでSKKの変換確定するためにRETするとカーソルが行頭に飛ぶ問題の回避策</a></p>
+                    <p class="item-date">
+                        <time datetime="2016-01-20 22:40:16 &#43;0900 JST" itemprop="datePublished">2016.01.20 Wed</time>
+                    </p>
+                </div>
+            </li>
+            
+        </ul>
+    </div>
+</div>
+
+
+    
+
+
+<div class="widget-wrap">
+    <h3 class="widget-title">カテゴリ</h3>
+    <div class="widget">
+        <ul class="category-list">
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/categories/emacs">
+                    emacs
+                </a>
+                <span class="category-list-count">2</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/categories/%e6%8a%80%e8%a1%93%e7%b3%bb">
+                    技術系
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/categories/%e6%97%a5%e8%a8%98">
+                    日記
+                </a>
+                <span class="category-list-count">6</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/categories/%e9%9b%91%e8%a8%98">
+                    雑記
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+        </ul>
+    </div>
+</div>
+
+
+
+    
+
+
+<div class="widget-wrap">
+    <h3 class="widget-title">
+        タグ
+    </h3>
+    <div class="widget">
+        <ul class="category-list">
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/bettortouchtool">
+                    bettortouchtool
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/blog">
+                    blog
+                </a>
+                <span class="category-list-count">2</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/cdn">
+                    cdn
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/cloudflare">
+                    cloudflare
+                </a>
+                <span class="category-list-count">2</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/ddd">
+                    ddd
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/dns">
+                    dns
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/emacs">
+                    emacs
+                </a>
+                <span class="category-list-count">4</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/emacslisp">
+                    emacslisp
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/github">
+                    github
+                </a>
+                <span class="category-list-count">2</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/go">
+                    go
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/greasemonkey">
+                    greasemonkey
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/hatenacounting">
+                    hatenacounting
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/https">
+                    https
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/hugo">
+                    hugo
+                </a>
+                <span class="category-list-count">4</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/hugo.el">
+                    hugo.el
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/javascript">
+                    javascript
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/jira">
+                    jira
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/markdown-mode">
+                    markdown-mode
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/moment.js">
+                    moment.js
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/org-mode">
+                    org-mode
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/scrum">
+                    scrum
+                </a>
+                <span class="category-list-count">2</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/skk">
+                    skk
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/skk-mode">
+                    skk-mode
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/slack">
+                    slack
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/ssh">
+                    ssh
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/ssl">
+                    ssl
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/trello">
+                    trello
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/userscript">
+                    userscript
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/web-mode">
+                    web-mode
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+        </ul>
+    </div>
+</div>
+
+
+
+    
+    <div class="widget-wrap">
+    <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/yewton" data-widget-id="688392956059856897">@yewtonさんのツイート</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</div>
+
+
+    <div id="toTop" class="fa fa-chevron-up"></div>
+</aside>
+
+    </div>
+</div>
+
+<footer id="footer">
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2016
+      yewton. Powered by <a href="//gohugo.io">Hugo</a>. Theme by <a href="http://github.com/ppoffice">PPOffice</a>.
+    </div>
+  </div>
+</footer>
+
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-72312909-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://www.yewton.net/fancybox/jquery.fancybox.pack.js"></script>
+<script src="https://www.yewton.net/js/script.js"></script>
+<script src="https://www.yewton.net/js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+<!-- MathJax -->
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']]}
+  });
+</script>
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+
+</body>
+</html>
