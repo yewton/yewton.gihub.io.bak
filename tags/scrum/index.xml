@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Scrum on yewton.net</title>
-    <link>http://www.yewton.net/tags/scrum/</link>
+    <link>https://www.yewton.net/tags/scrum/</link>
     <description>Recent content in Scrum on yewton.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <lastBuildDate>Sun, 31 Jan 2016 23:18:29 +0900</lastBuildDate>
-    <atom:link href="http://www.yewton.net/tags/scrum/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.yewton.net/tags/scrum/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>スクラム入門を翻訳する日々</title>
-      <link>http://www.yewton.net/2016/01/31/diary</link>
+      <link>https://www.yewton.net/2016/01/31/diary</link>
       <pubDate>Sun, 31 Jan 2016 23:18:29 +0900</pubDate>
       
-      <guid>http://www.yewton.net/2016/01/31/diary</guid>
+      <guid>https://www.yewton.net/2016/01/31/diary</guid>
       <description>&lt;p&gt;最近、&lt;a href=&#34;https://www.gitbook.com/book/yewton/scrumprimer/details&#34;&gt;スクラム入門の翻訳&lt;/a&gt;を
 細々とやっている。&lt;/p&gt;
 
@@ -41,10 +41,10 @@
     
     <item>
       <title>忙し過ぎてお弁当も食べられなかった日</title>
-      <link>http://www.yewton.net/2016/01/15/diary</link>
+      <link>https://www.yewton.net/2016/01/15/diary</link>
       <pubDate>Fri, 15 Jan 2016 23:00:00 +0900</pubDate>
       
-      <guid>http://www.yewton.net/2016/01/15/diary</guid>
+      <guid>https://www.yewton.net/2016/01/15/diary</guid>
       <description>
 
 &lt;p&gt;最近チームが新体制に移行するという時期で色々バタバタしていて、
