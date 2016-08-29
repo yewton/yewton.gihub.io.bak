@@ -47,6 +47,11 @@ org-mode で書いた内容を、見た目もほぼそのまま公開出来る�
 ivy の方が軽量でよいとかいう話を聞くので、 ivy に移行してみたい。&lt;/p&gt;
 
 &lt;p&gt;ヘビーに helm 使ってるわけでないので、さくっと乗り換えたい気持ち。&lt;/p&gt;
+
+&lt;h2 id=&#34;ifttt-do-button-で定型文を-slack-に投稿する:b90311b9df60abbcd0d54df82f9ad3a8&#34;&gt;IFTTT Do Button で定型文を Slack に投稿する&lt;/h2&gt;
+
+&lt;p&gt;普通に使ってると、IFTTT はひとつの Slack Team としか連携出来ないので、
+MAKE をアクションにして Web Hook でどうにかした話をまとめたい。&lt;/p&gt;
 </description>
     </item>
     
