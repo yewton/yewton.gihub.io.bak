@@ -6,8 +6,118 @@
     <description>Recent content in Https on yewton.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Mon, 18 Jan 2016 00:06:20 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 21 Feb 2016 22:49:52 +0900</lastBuildDate>
     <atom:link href="https://www.yewton.net/tags/https/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>WordPressをHTTP/2&#43;HHVMで動かす環境をdocker-composeで構築してみた</title>
+      <link>https://www.yewton.net/2016/02/21/wordpress-http2-hhvm</link>
+      <pubDate>Sun, 21 Feb 2016 22:49:52 +0900</pubDate>
+      
+      <guid>https://www.yewton.net/2016/02/21/wordpress-http2-hhvm</guid>
+      <description>
+
+&lt;h2 id=&#34;tl-dr:a1ea5573187331c07f8d393beff7a4e7&#34;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/yewton/wordpress-nginx-http2-hhvm&#34;&gt;このリポジトリ&lt;/a&gt;を &lt;code&gt;clone&lt;/code&gt; して &lt;code&gt;docker-compose up -d&lt;/code&gt; して下さい
+(要 &lt;a href=&#34;https://github.com/docker/compose/releases/tag/1.6.0&#34;&gt;バージョン 1.6.0 以上&lt;/a&gt;)。
+その後 &lt;code&gt;open &amp;quot;https://$(docker-machine ip default)&amp;quot;&lt;/code&gt; すると、ブラウザでWordPressが立ち上がります。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.yewton.net/img/2016-02-21_224951/wordpress.png&#34; alt=&#34;デモ&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;動機:a1ea5573187331c07f8d393beff7a4e7&#34;&gt;動機&lt;/h2&gt;
+
+&lt;p&gt;WordPressをHHVMで動かしたら超速くなった!やったぜ!!という記事はをよく見るのだけれど、
+具体的にどうやって構築しているのか解説している記事があんまり無かったので、実際にやってみることにしました。&lt;/p&gt;
+
+&lt;p&gt;ついでに、HTTP/2で提供出来るとイケてる気がしたので、併せて対応してみることにします。&lt;/p&gt;
+
+&lt;h2 id=&#34;hhvm:a1ea5573187331c07f8d393beff7a4e7&#34;&gt;HHVM&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.yewton.net/img/2016-02-21_224951/hugo.png&#34; alt=&#34;HHVM&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://hhvm.com/&#34;&gt;HHVM&lt;/a&gt;は、Facebookがオープンソースとして開発している仮想実行環境で、
+&lt;a href=&#34;http://php.net/&#34;&gt;PHP&lt;/a&gt;と&lt;a href=&#34;http://hacklang.org/&#34;&gt;Hack&lt;/a&gt;を動かすための環境らしいです。&lt;/p&gt;
+
+&lt;p&gt;まぁ、個人的にはHackもHHVMも &lt;strong&gt;すごいPHP&lt;/strong&gt; ぐらいの認識しかありませんが…。
+Hackは言語的にすごくて、HHVMは実行環境がすごい。今回用があるのはHHVMだけです。&lt;/p&gt;
+
+&lt;h2 id=&#34;http-2:a1ea5573187331c07f8d393beff7a4e7&#34;&gt;HTTP/2&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://http2.github.io/&#34;&gt;HTTP/2&lt;/a&gt;は… &lt;strong&gt;すごいHTTP&lt;/strong&gt; です。&lt;/p&gt;
+
+&lt;p&gt;HTTP/1.xとの互換性を保ちつつ、効率化したもののようです。ヘッダの圧縮とか、リクエストの多重化とか。
+&lt;a href=&#34;http://summerwind.jp/docs/rfc7540/&#34;&gt;RFC7540 日本語訳&lt;/a&gt;や&lt;a href=&#34;http://http2.info/faq.html#who-made-http2&#34;&gt;日本語のFAQ&lt;/a&gt;もあります。
+自分は全然見てないけれど…必要になったら読みます。&lt;/p&gt;
+
+&lt;p&gt;とにかく、このプロトコルで配信するだけでより効率的でより早くなる、ということです。&lt;/p&gt;
+
+&lt;h3 id=&#34;http-2-の実装:a1ea5573187331c07f8d393beff7a4e7&#34;&gt;HTTP/2 の実装&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://nginx.org/en/&#34;&gt;nginx&lt;/a&gt;の1.9.5からHTTP/2をサポートしているようです&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:a1ea5573187331c07f8d393beff7a4e7:1&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:a1ea5573187331c07f8d393beff7a4e7:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;。
+&lt;a href=&#34;https://hub.docker.com/_/nginx/&#34;&gt;公式Dockerリポジトリ&lt;/a&gt;で配信されている最新イメージでもちゃんとサポートされていました。&lt;/p&gt;
+
+&lt;p&gt;他にも&lt;a href=&#34;http://httpd.apache.org/&#34;&gt;Apache HTTP Server 2.4.17+&lt;/a&gt;や
+&lt;a href=&#34;http://dena.com/intl/&#34;&gt;DeNA&lt;/a&gt;の&lt;a href=&#34;https://h2o.examp1e.net/&#34;&gt;H2O&lt;/a&gt;など&lt;a href=&#34;https://github.com/http2/http2-spec/wiki/Implementations&#34;&gt;色々ある&lt;/a&gt;ようです。&lt;/p&gt;
+
+&lt;p&gt;今回はApacheよりは速かろうというのと、WordPress稼動の実例も多いことから、nginxを選択しました。適当。&lt;/p&gt;
+
+&lt;h2 id=&#34;構成:a1ea5573187331c07f8d393beff7a4e7&#34;&gt;構成&lt;/h2&gt;
+
+&lt;p&gt;リライトルールとか複雑なリクエスト制御が不要なら、
+HHVMに組込みのWebサーバーがあるのでそれを使うのが簡単だし、速度面でも問題なさそうです。&lt;/p&gt;
+
+&lt;p&gt;ただ、WordPressでパーマリンクを利用する場合はURLのリライトが必須です。&lt;/p&gt;
+
+&lt;p&gt;HHVMでもバーチャルホスト切ってリライトの設定するとか出来るみたいですが、
+iniファイルに設定書いていくのは何だかしんどそうです。&lt;/p&gt;
+
+&lt;p&gt;他にもSSLとか静的ファイルの配信とか諸々考えると、餅は餅屋ということでリバースプロキシを立てた方がよさそうですね。&lt;/p&gt;
+
+&lt;p&gt;というわけで、リバースプロキシとして nginx を立てて、HHVMをFastCGIモードで起動してバックエンドとします。&lt;/p&gt;
+
+&lt;p&gt;今回はとにかくお手軽に手元で動かしてみたかったので、諸々Dockerで動かすことにしました。
+雑に図解すると以下のような感じです:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.yewton.net/img/2016-02-21_224951/structure.png&#34; alt=&#34;構成図&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;FrontとかBackはDockerの&lt;a href=&#34;https://docs.docker.com/engine/userguide/networking/dockernetworks/#user-defined-networks&#34;&gt;ユーザー定義ネットワーク&lt;/a&gt;です。
+&lt;a href=&#34;https://github.com/docker/docker/blob/master/CHANGELOG.md#1100-2016-02-04&#34;&gt;Docker 1.10.0&lt;/a&gt;で link に代わるものとして導入されたような気がします。
+&lt;code&gt;/etc/hosts&lt;/code&gt; じゃなくてDNSで名前解決出来るようになってて最高にハッピーですね。&lt;/p&gt;
+
+&lt;p&gt;FastCGIはUnixソケットで通信した方が速いと思うんですが、
+今回は nginx と HHVM を別々のコンテナで動かすので、TCPで通信するようにしました。
+同一システム上にFastCGIサーバとプロセスが稼動するって、実環境でもあんまり無いような気がするけど、どうなんだろう？&lt;/p&gt;
+
+&lt;p&gt;コンテナひとつひとつ立てていくのは辛いので、常套手段の &lt;code&gt;docker-compose&lt;/code&gt; を使って作ります。&lt;/p&gt;
+
+&lt;h2 id=&#34;動かす:a1ea5573187331c07f8d393beff7a4e7&#34;&gt;動かす&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/yewton/wordpress-nginx-http2-hhvm&#34;&gt;このリポジトリ&lt;/a&gt;に実際に稼動するものが置いてあります。
+&lt;code&gt;clone&lt;/code&gt; して &lt;code&gt;docker-compose up -d&lt;/code&gt; すれば、HTTP/2でWordPressが動いている様子が確認出来ます。&lt;/p&gt;
+
+&lt;p&gt;nginxやHHVMの設定はほぼデフォルトのままいじってないので、本気で動かすなら細かいチューニングは必要です。
+が、全体の構成は実環境でもこのようになると思います。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.yewton.net/img/2016-02-21_224951/wordpress.png&#34; alt=&#34;デモ&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;終わりに:a1ea5573187331c07f8d393beff7a4e7&#34;&gt;終わりに&lt;/h2&gt;
+
+&lt;p&gt;以上で、お手軽に手元でHTTP/2+HHVMなWordPressを試すことが出来るようになりました。&lt;/p&gt;
+
+&lt;p&gt;あとは実環境へのデプロイだけなんですが、さてどうしたものか。
+&lt;code&gt;docker-compose.yml&lt;/code&gt; からいい感じにデプロイしてくれるような何か、ありませんかねぇ。&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+&lt;li id=&#34;fn:a1ea5573187331c07f8d393beff7a4e7:1&#34;&gt;&lt;a href=&#34;https://www.nginx.com/blog/nginx-1-9-5/&#34;&gt;HTTP/2 Supported with NGINX Open Source 1.9.5 | NGINX&lt;/a&gt;
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:a1ea5573187331c07f8d393beff7a4e7:1&#34;&gt;↩&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>HTTPSに対応してついでにHTTP/2対応された日</title>

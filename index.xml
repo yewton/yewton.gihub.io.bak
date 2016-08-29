@@ -6,8 +6,530 @@
     <description>Recent content on yewton.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Sun, 14 Feb 2016 00:26:33 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 29 Aug 2016 22:29:35 +0900</lastBuildDate>
     <atom:link href="https://www.yewton.net/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>三ヶ月以上ぶりに何かを書く</title>
+      <link>https://www.yewton.net/2016/08/29/misc</link>
+      <pubDate>Mon, 29 Aug 2016 22:29:35 +0900</pubDate>
+      
+      <guid>https://www.yewton.net/2016/08/29/misc</guid>
+      <description>
+
+&lt;p&gt;前回の更新から三ヶ月以上経ってしまった。
+月日が経つのは早いものだ。&lt;/p&gt;
+
+&lt;p&gt;まとめたいことがいくつかあるので、まとめておく。&lt;/p&gt;
+
+&lt;h2 id=&#34;atlassian-からtシャツをタダでもらう方法:b90311b9df60abbcd0d54df82f9ad3a8&#34;&gt;Atlassian からTシャツをタダでもらう方法&lt;/h2&gt;
+
+&lt;p&gt;Atlassian の製品のセットアップを公式ドキュメントに従って行うとTシャツが貰える。&lt;/p&gt;
+
+&lt;p&gt;実際もらえたのでやり方をまとめたい。&lt;/p&gt;
+
+&lt;h2 id=&#34;無料のプライベート-wiki-は-google-sites-が最強な気がする:b90311b9df60abbcd0d54df82f9ad3a8&#34;&gt;無料のプライベート Wiki は Google Sites が最強な気がする&lt;/h2&gt;
+
+&lt;p&gt;Atlassian の構築はそもそも個人的に家庭で Confluence 的なのを使いたかったので手を出したものだった。&lt;/p&gt;
+
+&lt;p&gt;とはいえ金がかかるのでいい方法は無いかと探していたら、 Google Sites に辿りついた。&lt;/p&gt;
+
+&lt;h2 id=&#34;org-publish-で気軽に-web-サイトを作る:b90311b9df60abbcd0d54df82f9ad3a8&#34;&gt;&lt;code&gt;org-publish&lt;/code&gt; で気軽に Web サイトを作る&lt;/h2&gt;
+
+&lt;p&gt;無料のプライベート Wiki を探している過程で org-publish にも手を出した。&lt;/p&gt;
+
+&lt;p&gt;プライベートにするのが面倒だったので諦めたけれど、
+org-mode で書いた内容を、見た目もほぼそのまま公開出来るというのは便利かもしれないのでまとめたい。&lt;/p&gt;
+
+&lt;h2 id=&#34;helm-から-ivy-に移行したい:b90311b9df60abbcd0d54df82f9ad3a8&#34;&gt;helm から ivy に移行したい&lt;/h2&gt;
+
+&lt;p&gt;helm が活発過ぎて周辺エコシステムが付いていけないとか、
+ivy の方が軽量でよいとかいう話を聞くので、 ivy に移行してみたい。&lt;/p&gt;
+
+&lt;p&gt;ヘビーに helm 使ってるわけでないので、さくっと乗り換えたい気持ち。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Spacemacs から helm と persp-mode の設定をパクろうと思ったけど難しかった</title>
+      <link>https://www.yewton.net/2016/05/04/helm-persp</link>
+      <pubDate>Wed, 04 May 2016 19:45:26 +0900</pubDate>
+      
+      <guid>https://www.yewton.net/2016/05/04/helm-persp</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/syl20bnr/spacemacs/blob/master/layers/%2Bwindow-management/spacemacs-layouts/funcs.el&#34;&gt;この辺&lt;/a&gt; を参考にせよ、
+と persp-mode 公式に書いてあったので、パクれそうかやってみた。&lt;/p&gt;
+
+&lt;p&gt;結論としては、出来なかった。
+なので、 併せて記載されていた &lt;a href=&#34;https://gist.github.com/Bad-ptr/304ada85c9ba15013303&#34;&gt;こっち&lt;/a&gt; の設定を使う状態のまま。&lt;/p&gt;
+
+&lt;p&gt;Spacemacs の設定は、 Spacemacs 独自のステートの概念(Vimmer が喜ぶやつ)と密接に関連しているようで、
+素の Emacs に組込むのは骨が折れそうだった。&lt;/p&gt;
+
+&lt;p&gt;そもそも何で Spacemacs の設定をパクろうとしていたかというと、
+後者の設定だと、 &lt;code&gt;C-x b&lt;/code&gt; したときに前のバッファが選択されずに
+現在のバッファが選択された状態になるのが違和感があったから、だった。
+素の Emacs では単に &lt;code&gt;C-x b RET&lt;/code&gt; としたときは、前のバッファに戻るという挙動になる。
+もしかしたら Spacemacs では元の挙動を再現した実装になっているのかもしれない、
+と思って見てみたが、前述の通り失敗に終わった。&lt;/p&gt;
+
+&lt;p&gt;persp-mode では、直前のバッファが現在のパースペクティブに含まれているとは限らないから、仕方ないのかな…。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>『いけにえと雪のセツナ』感想</title>
+      <link>https://www.yewton.net/2016/05/04/setsuna</link>
+      <pubDate>Wed, 04 May 2016 16:10:11 +0900</pubDate>
+      
+      <guid>https://www.yewton.net/2016/05/04/setsuna</guid>
+      <description>
+
+&lt;p&gt;この間 Amazon で『いけにえと雪のセツナ』が 2,000 円だったので買ってみた。&lt;/p&gt;
+
+&lt;p&gt;曰く、「あの頃、みんなRPGに夢中だった。
+当時遊んだ数多のRPGは、今もぼくたちの記憶に強く残っている。
+パーティ編成、街での買い物、ダンジョン攻略、ギリギリで倒した強敵たち。
+そして、エンディングで流した涙－。名作たちが与えてくれた感動は、今もなお色褪せない。とりもどそう、ぼくたちのRPG。」&lt;/p&gt;
+
+&lt;p&gt;…凄い売り文句だ。&lt;/p&gt;
+
+&lt;p&gt;バトルシステムはあのクロノ・トリガーをベースにしているらしい。
+否が応にも期待値が高まる謳い文句だ。
+高まりすぎて不安になる。&lt;/p&gt;
+
+&lt;p&gt;ネットのレビューを見てみると、やっぱりその期待値とのギャップに落胆している人が多いように見受けられた。
+個人的には、単体のゲームとしてみればすごく楽しかったし、確かに荒削りな部分もあったけれど、
+今後に大いに期待したくなる内容だったと思う。&lt;/p&gt;
+
+&lt;p&gt;Tokyo RPG Factory は、こういう意欲的な作品を今後も是非リリースしていって欲しい。
+いちユーザーとしてそう強く願う。&lt;/p&gt;
+
+&lt;p&gt;個人的にプレイしていて色々と思うところがあったので、まとめておきたくなったのでまとめる。
+ネタバレ全開。&lt;/p&gt;
+
+&lt;h2 id=&#34;開発者の-制限プレイ:df7ae99a1c5b43af1f8a78fb7a61cd86&#34;&gt;(開発者の)制限プレイ&lt;/h2&gt;
+
+&lt;p&gt;なんといっても本作、雪国しか出てこない。&lt;/p&gt;
+
+&lt;p&gt;本当にずーっと雪景色で、たまに古代遺跡の石畳を見るくらい。
+プレイ時間の大部分は白い画面と向きあうことになる。&lt;/p&gt;
+
+&lt;p&gt;さらに、音楽はピアノオンリーである。
+さすがにバトルシーンでは多少パーカッションやベースが入ったりもするが、ピアノが常にメインとなる。
+ピアノフォルテの面目躍如といったところ。&lt;/p&gt;
+
+&lt;p&gt;こういう制限のなかで、いかに面白く見せられるか、というところに挑戦する姿勢が、
+ファミコン時代の同時発色数4色、音は3音+ノイズだけだったころと通じるものを感じた。
+やっぱり、日本人は限られたリソースの中で工夫してよいものを作るっていうのが、
+得意とするところなんじゃないかなぁ、などと日本人観に思いを馳せてみたりもした。
+舞台が雪国っていう中で、火属性無双にならないようにとか、
+魔物のデザインとか、すごく苦労したんじゃないかと思う。&lt;/p&gt;
+
+&lt;p&gt;この制限が、結果としてよい方向にいったわけでは必ずしもないと思うけれども、
+自分はこの挑戦する姿勢がすごく好きだった。&lt;/p&gt;
+
+&lt;p&gt;次は南国+ウクレレ縛りプレイとかに挑戦してもらいたい。&lt;/p&gt;
+
+&lt;h2 id=&#34;装備-法石システム:df7ae99a1c5b43af1f8a78fb7a61cd86&#34;&gt;装備+法石システム&lt;/h2&gt;
+
+&lt;p&gt;本作の装備品は、武器と法器の2種類しかない。
+この点が残念だという人もいるらしい。
+個人的には、兜盾鎧小手みたいに分かれている意味って、
+雰囲気作り以上の意味はないように思えるので、特に気にならなかった。
+単純な攻撃力や防御力だけではなく、
+サポート効果も加味して装備を整えるという本質的な部分は、
+法石システムによって実現されている。&lt;/p&gt;
+
+&lt;p&gt;今後のことを考えて昇華率アップ系の法器にするか、
+それともいま、このバトルを乗り切るための法器にするか、
+みたいなことに頭を悩ますのも楽しかった。&lt;/p&gt;
+
+&lt;p&gt;ただ、魔法は法石じゃないほうが、嬉しかったかな…。
+連携技もすごい豊富でワクワクするのに、
+セットする法石に制限があるので、
+「とりあえず見るだけ見てみたい」みたいなのをやりたくても出来ない。
+クロノ・トリガーだったら、キャラの組み合わせを変えるだけでよかったので、
+本作では法石の組み合わせも変えないといけないのが、単に手間にしか思えなかった…。&lt;/p&gt;
+
+&lt;h2 id=&#34;バトル全般:df7ae99a1c5b43af1f8a78fb7a61cd86&#34;&gt;バトル全般&lt;/h2&gt;
+
+&lt;p&gt;〈グラーティア〉 + 〈久遠の剣閃〉とか、
+そういうものすごく相性のよい魔法の組合せに気付いてしまってからは、一気にバトルが大味になってくる。&lt;/p&gt;
+
+&lt;p&gt;でもまあ、こういうのが運用出来るようになるのがそもそも終盤だし、
+俺つえー出来るための組合せを探すのもそれはそれで楽しいので、あんまり気になっていない。
+自分がヌルゲーマーだからかもしれない…。
+〈ガグンラーズ〉があればMP補給無用で雑魚はサクサク片づくのとか、非常に助かったし。
+〈叫ぶ〉+〈パーマネンス〉+ 〈ユグドラシル〉 + 〈アルティメット〉 でエンド無双になるのとか快感だったし。
+クロノ・トリガーも終盤シャイニングだけ唱えてればだいたいなんとかなったし、そんなもん。
+中盤は中盤で、エンドの〈回転斬り〉無双だった気もするが…。
+まあそれはそれで「お、大体回転斬りでいけるやん!」って気づく過程が楽しかった。&lt;/p&gt;
+
+&lt;p&gt;全体的に、MP温存せずに雑魚にもガンガン使っていく感じで進められるのが快適だった。&lt;/p&gt;
+
+&lt;p&gt;キャラ毎の個性もハッキリしていてよかったけれど、
+結局エンド+クオン+(セツナ or キール)最強だなーということで、
+あんまり他のメンバーを使わなくなってしまった。
+ディノタウルス系用にブロウビート要因のヨミを使うことはあったけど、それくらい。
+まあ、クロノ・トリガーでも魔王やカエルは趣味枠だった気がする…。&lt;/p&gt;
+
+&lt;h2 id=&#34;法石に蝕まれた魔物:df7ae99a1c5b43af1f8a78fb7a61cd86&#34;&gt;法石に蝕まれた魔物&lt;/h2&gt;
+
+&lt;p&gt;隠し中ボスみたいなのが攻略ルート上に普通に出現する。
+気付かずにバトルを仕掛けると普通に全滅して普通にゲームオーバーになる。&lt;/p&gt;
+
+&lt;p&gt;この理不尽さも、懐しいかも…。&lt;/p&gt;
+
+&lt;p&gt;まあ本作では100％逃走可能なアイテムがあるので、実際はそこまで脅威ではない。
+とはいえ、こういうのに出くわすまではそもそも逃げることなんてなかったので、
+逃走用アイテムがあることも忘れていたりするのだけれど。&lt;/p&gt;
+
+&lt;p&gt;こういう微妙にプレイヤーを突き放した感じも、なんだか懐しい。&lt;/p&gt;
+
+&lt;h2 id=&#34;ストーリー:df7ae99a1c5b43af1f8a78fb7a61cd86&#34;&gt;ストーリー&lt;/h2&gt;
+
+&lt;p&gt;エンドやセツナに感情移入出来ないとか、選択肢の意味がほとんど無いとか、
+そういう評判をネット上ではよく見かけた。&lt;/p&gt;
+
+&lt;p&gt;個人的には、そこはそんなに気にならなかった。
+選択肢しだいで、クオンがちょっとエンドのこと見直してくれたり、
+エンドが謎にチームリーダーとして慕われてたりとか、
+素直に嬉しかったし、にこにこしながら見ることが出来た。&lt;/p&gt;
+
+&lt;p&gt;セーブポイントが伏線になってたりとか、そういうところも好き。
+昔からたまにある設定だから目新しさはないけど。&lt;/p&gt;
+
+&lt;p&gt;どんどんみんなの絆が深まっていくのに、旅の目的はセツナが無事に死ぬこと、
+っていう矛盾に悶々と出来たのはよかった。&lt;/p&gt;
+
+&lt;p&gt;ただ、エンドやキトが何者なのか？とか、
+絶海群島の何のイベントも起きない人々は何なのか？とか、
+もう少し知りたかった。もやもやする。
+想像の余地を残されたのだろうか。うーん、困る。&lt;/p&gt;
+
+&lt;h2 id=&#34;vita-版:df7ae99a1c5b43af1f8a78fb7a61cd86&#34;&gt;Vita 版&lt;/h2&gt;
+
+&lt;p&gt;せっかくゲームはいい出来なのに、処理落ちがホントにひどい。
+一番最初に使える連携技の時点で処理落ちする。
+パーティメンバーを全員表示するたびに処理落ちする。
+最終的に慣れてしまったけれど…。&lt;/p&gt;
+
+&lt;p&gt;最悪なのは、エンディングイベント中にアプリケーションエラーで落ちたこと。
+一番落ちてはならぬところだぞ…。&lt;/p&gt;
+
+&lt;p&gt;これは Tokyo RPG Factory を恨めばいいのか、
+Unity を恨めばいいのか、 Sony を恨めばいいのか、どれなんだ。
+教えてくれ。&lt;/p&gt;
+
+&lt;p&gt;ロード時間も長めだけれど、 PS 時代もこんなもんだったなーくらいの感覚でそこまで気にはならなかった。&lt;/p&gt;
+
+&lt;h2 id=&#34;総評:df7ae99a1c5b43af1f8a78fb7a61cd86&#34;&gt;総評&lt;/h2&gt;
+
+&lt;p&gt;ゲームとしては値段分の価値が十分あるし、これからもこういう作品をどんどん出してほしいと思える内容だった。&lt;/p&gt;
+
+&lt;p&gt;ただ、 Vita 版はゲーム性以外の部分がかなり残念…。&lt;/p&gt;
+
+&lt;p&gt;もし次回作を出すならフルプライスで買うから、変なハード間差異だけは出さないでほしい…。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>三ヶ月ぶりに更新再開した日</title>
+      <link>https://www.yewton.net/2016/05/03/diary</link>
+      <pubDate>Tue, 03 May 2016 23:27:26 +0900</pubDate>
+      
+      <guid>https://www.yewton.net/2016/05/03/diary</guid>
+      <description>&lt;p&gt;前回の更新から平気で3ヶ月経っていた。
+光陰矢のごとしである。&lt;/p&gt;
+
+&lt;p&gt;一個多少マトモな記事を上げたら何か燃え尽きてしまったのと、
+仕事が妙に重圧になっていて気持ちがアガらなかったのと、
+色々あって全然更新しなかった。&lt;/p&gt;
+
+&lt;p&gt;スクラム入門の翻訳も全然やってない。&lt;/p&gt;
+
+&lt;p&gt;いやはや。&lt;/p&gt;
+
+&lt;p&gt;やったことといえば、 &lt;code&gt;.emacs.d&lt;/code&gt; の大幅リニューアルくらい。
+結果物は &lt;a href=&#34;https://github.com/yewton/.emacs.d&#34;&gt;こちら&lt;/a&gt;。
+&lt;code&gt;.emacs.d&lt;/code&gt; 弄りは無限に時間取られるな…。&lt;/p&gt;
+
+&lt;p&gt;まあ、その甲斐あって、以前よりさらに快適な作業環境が整った、ハズ。
+かっこいいモードラインとか、いいよね。
+僕はニワカイーマクサーなので、そういうところを頑張ってしまう。&lt;/p&gt;
+
+&lt;p&gt;あと、記事の元になる Hugo ファイルを BitBucket のプライベートリポジトリに移した。
+これで気兼ねなく、プライベートな内容も記録出来るようになった。&lt;/p&gt;
+
+&lt;p&gt;この連休中に、 persp-mode の設定を spacemacs を参考に変更するのと、
+Scala 製 Slack ボットのデプロイ方法を考えるのと、
+いくつか追加でボットを作成するのをやっておきたい。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>WordPressをHTTP/2&#43;HHVMで動かす環境をdocker-composeで構築してみた</title>
+      <link>https://www.yewton.net/2016/02/21/wordpress-http2-hhvm</link>
+      <pubDate>Sun, 21 Feb 2016 22:49:52 +0900</pubDate>
+      
+      <guid>https://www.yewton.net/2016/02/21/wordpress-http2-hhvm</guid>
+      <description>
+
+&lt;h2 id=&#34;tl-dr:a1ea5573187331c07f8d393beff7a4e7&#34;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/yewton/wordpress-nginx-http2-hhvm&#34;&gt;このリポジトリ&lt;/a&gt;を &lt;code&gt;clone&lt;/code&gt; して &lt;code&gt;docker-compose up -d&lt;/code&gt; して下さい
+(要 &lt;a href=&#34;https://github.com/docker/compose/releases/tag/1.6.0&#34;&gt;バージョン 1.6.0 以上&lt;/a&gt;)。
+その後 &lt;code&gt;open &amp;quot;https://$(docker-machine ip default)&amp;quot;&lt;/code&gt; すると、ブラウザでWordPressが立ち上がります。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.yewton.net/img/2016-02-21_224951/wordpress.png&#34; alt=&#34;デモ&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;動機:a1ea5573187331c07f8d393beff7a4e7&#34;&gt;動機&lt;/h2&gt;
+
+&lt;p&gt;WordPressをHHVMで動かしたら超速くなった!やったぜ!!という記事はをよく見るのだけれど、
+具体的にどうやって構築しているのか解説している記事があんまり無かったので、実際にやってみることにしました。&lt;/p&gt;
+
+&lt;p&gt;ついでに、HTTP/2で提供出来るとイケてる気がしたので、併せて対応してみることにします。&lt;/p&gt;
+
+&lt;h2 id=&#34;hhvm:a1ea5573187331c07f8d393beff7a4e7&#34;&gt;HHVM&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.yewton.net/img/2016-02-21_224951/hugo.png&#34; alt=&#34;HHVM&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://hhvm.com/&#34;&gt;HHVM&lt;/a&gt;は、Facebookがオープンソースとして開発している仮想実行環境で、
+&lt;a href=&#34;http://php.net/&#34;&gt;PHP&lt;/a&gt;と&lt;a href=&#34;http://hacklang.org/&#34;&gt;Hack&lt;/a&gt;を動かすための環境らしいです。&lt;/p&gt;
+
+&lt;p&gt;まぁ、個人的にはHackもHHVMも &lt;strong&gt;すごいPHP&lt;/strong&gt; ぐらいの認識しかありませんが…。
+Hackは言語的にすごくて、HHVMは実行環境がすごい。今回用があるのはHHVMだけです。&lt;/p&gt;
+
+&lt;h2 id=&#34;http-2:a1ea5573187331c07f8d393beff7a4e7&#34;&gt;HTTP/2&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://http2.github.io/&#34;&gt;HTTP/2&lt;/a&gt;は… &lt;strong&gt;すごいHTTP&lt;/strong&gt; です。&lt;/p&gt;
+
+&lt;p&gt;HTTP/1.xとの互換性を保ちつつ、効率化したもののようです。ヘッダの圧縮とか、リクエストの多重化とか。
+&lt;a href=&#34;http://summerwind.jp/docs/rfc7540/&#34;&gt;RFC7540 日本語訳&lt;/a&gt;や&lt;a href=&#34;http://http2.info/faq.html#who-made-http2&#34;&gt;日本語のFAQ&lt;/a&gt;もあります。
+自分は全然見てないけれど…必要になったら読みます。&lt;/p&gt;
+
+&lt;p&gt;とにかく、このプロトコルで配信するだけでより効率的でより早くなる、ということです。&lt;/p&gt;
+
+&lt;h3 id=&#34;http-2-の実装:a1ea5573187331c07f8d393beff7a4e7&#34;&gt;HTTP/2 の実装&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://nginx.org/en/&#34;&gt;nginx&lt;/a&gt;の1.9.5からHTTP/2をサポートしているようです&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:a1ea5573187331c07f8d393beff7a4e7:1&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:a1ea5573187331c07f8d393beff7a4e7:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;。
+&lt;a href=&#34;https://hub.docker.com/_/nginx/&#34;&gt;公式Dockerリポジトリ&lt;/a&gt;で配信されている最新イメージでもちゃんとサポートされていました。&lt;/p&gt;
+
+&lt;p&gt;他にも&lt;a href=&#34;http://httpd.apache.org/&#34;&gt;Apache HTTP Server 2.4.17+&lt;/a&gt;や
+&lt;a href=&#34;http://dena.com/intl/&#34;&gt;DeNA&lt;/a&gt;の&lt;a href=&#34;https://h2o.examp1e.net/&#34;&gt;H2O&lt;/a&gt;など&lt;a href=&#34;https://github.com/http2/http2-spec/wiki/Implementations&#34;&gt;色々ある&lt;/a&gt;ようです。&lt;/p&gt;
+
+&lt;p&gt;今回はApacheよりは速かろうというのと、WordPress稼動の実例も多いことから、nginxを選択しました。適当。&lt;/p&gt;
+
+&lt;h2 id=&#34;構成:a1ea5573187331c07f8d393beff7a4e7&#34;&gt;構成&lt;/h2&gt;
+
+&lt;p&gt;リライトルールとか複雑なリクエスト制御が不要なら、
+HHVMに組込みのWebサーバーがあるのでそれを使うのが簡単だし、速度面でも問題なさそうです。&lt;/p&gt;
+
+&lt;p&gt;ただ、WordPressでパーマリンクを利用する場合はURLのリライトが必須です。&lt;/p&gt;
+
+&lt;p&gt;HHVMでもバーチャルホスト切ってリライトの設定するとか出来るみたいですが、
+iniファイルに設定書いていくのは何だかしんどそうです。&lt;/p&gt;
+
+&lt;p&gt;他にもSSLとか静的ファイルの配信とか諸々考えると、餅は餅屋ということでリバースプロキシを立てた方がよさそうですね。&lt;/p&gt;
+
+&lt;p&gt;というわけで、リバースプロキシとして nginx を立てて、HHVMをFastCGIモードで起動してバックエンドとします。&lt;/p&gt;
+
+&lt;p&gt;今回はとにかくお手軽に手元で動かしてみたかったので、諸々Dockerで動かすことにしました。
+雑に図解すると以下のような感じです:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.yewton.net/img/2016-02-21_224951/structure.png&#34; alt=&#34;構成図&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;FrontとかBackはDockerの&lt;a href=&#34;https://docs.docker.com/engine/userguide/networking/dockernetworks/#user-defined-networks&#34;&gt;ユーザー定義ネットワーク&lt;/a&gt;です。
+&lt;a href=&#34;https://github.com/docker/docker/blob/master/CHANGELOG.md#1100-2016-02-04&#34;&gt;Docker 1.10.0&lt;/a&gt;で link に代わるものとして導入されたような気がします。
+&lt;code&gt;/etc/hosts&lt;/code&gt; じゃなくてDNSで名前解決出来るようになってて最高にハッピーですね。&lt;/p&gt;
+
+&lt;p&gt;FastCGIはUnixソケットで通信した方が速いと思うんですが、
+今回は nginx と HHVM を別々のコンテナで動かすので、TCPで通信するようにしました。
+同一システム上にFastCGIサーバとプロセスが稼動するって、実環境でもあんまり無いような気がするけど、どうなんだろう？&lt;/p&gt;
+
+&lt;p&gt;コンテナひとつひとつ立てていくのは辛いので、常套手段の &lt;code&gt;docker-compose&lt;/code&gt; を使って作ります。&lt;/p&gt;
+
+&lt;h2 id=&#34;動かす:a1ea5573187331c07f8d393beff7a4e7&#34;&gt;動かす&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/yewton/wordpress-nginx-http2-hhvm&#34;&gt;このリポジトリ&lt;/a&gt;に実際に稼動するものが置いてあります。
+&lt;code&gt;clone&lt;/code&gt; して &lt;code&gt;docker-compose up -d&lt;/code&gt; すれば、HTTP/2でWordPressが動いている様子が確認出来ます。&lt;/p&gt;
+
+&lt;p&gt;nginxやHHVMの設定はほぼデフォルトのままいじってないので、本気で動かすなら細かいチューニングは必要です。
+が、全体の構成は実環境でもこのようになると思います。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.yewton.net/img/2016-02-21_224951/wordpress.png&#34; alt=&#34;デモ&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;終わりに:a1ea5573187331c07f8d393beff7a4e7&#34;&gt;終わりに&lt;/h2&gt;
+
+&lt;p&gt;以上で、お手軽に手元でHTTP/2+HHVMなWordPressを試すことが出来るようになりました。&lt;/p&gt;
+
+&lt;p&gt;あとは実環境へのデプロイだけなんですが、さてどうしたものか。
+&lt;code&gt;docker-compose.yml&lt;/code&gt; からいい感じにデプロイしてくれるような何か、ありませんかねぇ。&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+&lt;li id=&#34;fn:a1ea5573187331c07f8d393beff7a4e7:1&#34;&gt;&lt;a href=&#34;https://www.nginx.com/blog/nginx-1-9-5/&#34;&gt;HTTP/2 Supported with NGINX Open Source 1.9.5 | NGINX&lt;/a&gt;
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:a1ea5573187331c07f8d393beff7a4e7:1&#34;&gt;↩&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>VM関連ファイルを外部ストレージに保存して空き容量を確保する</title>
+      <link>https://www.yewton.net/2016/02/19/save-storage-space-by-moving-vm-related-files-to-ex-storage</link>
+      <pubDate>Fri, 19 Feb 2016 00:00:00 +0900</pubDate>
+      
+      <guid>https://www.yewton.net/2016/02/19/save-storage-space-by-moving-vm-related-files-to-ex-storage</guid>
+      <description>
+
+&lt;h2 id=&#34;何かと容量を食うvm関連ファイル:3a11f2e399daaf1f3e8ebd09bd2d51d0&#34;&gt;何かと容量を食うVM関連ファイル&lt;/h2&gt;
+
+&lt;p&gt;DockerやらVagrantやらで作業していると、いつのまにかディスク容量が逼迫していることがありますよね。&lt;/p&gt;
+
+&lt;p&gt;自分も128GB SSDのMacBook Proを使っているので、結構いっぱいいっぱいでした。&lt;/p&gt;
+
+&lt;p&gt;そこで拡張ストレージを用意して、容量を食いがちなVM関連のファイルを移動することにしました。&lt;/p&gt;
+
+&lt;h3 id=&#34;参考-mac用の拡張ストレージ:3a11f2e399daaf1f3e8ebd09bd2d51d0&#34;&gt;(参考)Mac用の拡張ストレージ&lt;/h3&gt;
+
+&lt;p&gt;USBで外付けするようなのだと持ち運びに不便なので、
+&lt;a rel=&#34;nofollow&#34; href=&#34;http://www.amazon.co.jp/gp/product/B00TTFOJ4A/ref=as_li_ss_tl?ie=UTF8&amp;camp=247&amp;creative=7399&amp;creativeASIN=B00TTFOJ4A&amp;linkCode=as2&amp;tag=yewton-22&#34;&gt;iSlice Pro&lt;/a&gt;&lt;img src=&#34;http://ir-jp.amazon-adsystem.com/e/ir?t=yewton-22&amp;l=as2&amp;o=9&amp;a=B00TTFOJ4A&#34; width=&#34;1&#34; height=&#34;1&#34; border=&#34;0&#34; alt=&#34;&#34; style=&#34;border:none !important; margin:0px !important;&#34; /&gt;
+のような本体のSDカードスロットに差せるようなタイプを個人的には使っています。
+iSliceの場合はただのアダプタなので別途128GBのmicroSDカードを調達する必要がありますが、ストレージと一体になっているモノよりは若干割安です。&lt;/p&gt;
+
+&lt;iframe src=&#34;https://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&amp;bc1=000000&amp;IS2=1&amp;bg1=FFFFFF&amp;fc1=000000&amp;lc1=0000FF&amp;t=yewton-22&amp;o=9&amp;p=8&amp;l=as4&amp;m=amazon&amp;f=ifr&amp;ref=ss_til&amp;asins=B00TTFOJ4A&#34; style=&#34;width:120px;height:240px;&#34; scrolling=&#34;no&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&#34;vagrant:3a11f2e399daaf1f3e8ebd09bd2d51d0&#34;&gt;Vagrant&lt;/h2&gt;
+
+&lt;p&gt;Vagrant用のBoxファイルとVMイメージの保存場所を変える際には、以下の記事が参考になります:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://2inc.org/blog/2014/06/28/4311/&#34; title=&#34;MacBookAir の容量がきついので Vagrant 環境を外付けに移した話 – モンキーレンチ&#34;&gt;MacBookAir の容量がきついので Vagrant 環境を外付けに移した話 – モンキーレンチ&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;上記の記事を参考に諸々のファイルの移動、VB上の設定を済ませたら、
+以下のようなコマンドを &lt;code&gt;.bashrc&lt;/code&gt; やら &lt;code&gt;.zshenv&lt;/code&gt; やらに書いておけば大丈夫です:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;export VAGRANT_HOME=/Volumes/data/.vagrant.d&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;docker-machine:3a11f2e399daaf1f3e8ebd09bd2d51d0&#34;&gt;Docker Machine&lt;/h2&gt;
+
+&lt;p&gt;Docker Machine用のファイルもデカいので移動させたいです。&lt;/p&gt;
+
+&lt;p&gt;Docker Machineでは &lt;code&gt;MACHINE_STORAGE_PATH&lt;/code&gt; という環境変数を参照しています。
+デフォルトは &lt;code&gt;~/.docker/machine&lt;/code&gt; です。&lt;/p&gt;
+
+&lt;p&gt;Vagrantの場合と同じように既存のファイルを新しい場所に移動し、
+VB上で除去→追加の手順を踏みます。
+そして以下のようなコマンドで環境変数をセットします:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;export MACHINE_STORAGE_PATH=/Volumes/data/.docker/machine&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;これも &lt;code&gt;.bashrc&lt;/code&gt; やらに書いておきましょう。&lt;/p&gt;
+
+&lt;h2 id=&#34;注意-外部ストレージのフォーマット:3a11f2e399daaf1f3e8ebd09bd2d51d0&#34;&gt;注意: 外部ストレージのフォーマット&lt;/h2&gt;
+
+&lt;p&gt;自分の場合、SDカードが元々フォーマットされていて、
+差すだけで既に利用できたので、フォーマットについては特に気にせず移行作業をしてしまいました。&lt;/p&gt;
+
+&lt;p&gt;ところが、移行後に &lt;code&gt;&#39;docker-machine&lt;/code&gt; が謎のエラーで使えなくなってしまいました。&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;-D&lt;/code&gt; を付けてデバッグ情報を表示したとろ、以下のようなエラーが出ていました:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@         WARNING: UNPROTECTED PRIVATE KEY FILE!          @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+Permissions 0777 for &#39;/Volumes/data/.docker/machine/machines/default/id_rsa&#39; are too open.
+It is required that your private key files are NOT accessible by others.
+This private key will be ignored.
+Load key &amp;quot;/Volumes/data/.docker/machine/machines/default/id_rsa&amp;quot;: bad permissions
+debug2: we did not send a packet, disable method
+debug1: No more authentication methods to try.
+Permission denied (publickey,password,keyboard-interactive).
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;実は、 &lt;strong&gt;SDカードがexFATでフォーマットされていたため、permissionが777になってしまっていた&lt;/strong&gt;
+ことが原因でした。
+exFATの場合、 &lt;code&gt;chmod&lt;/code&gt; することも出来ないので、フォーマットを変更する必要があります。&lt;/p&gt;
+
+&lt;p&gt;Mac OS X用拡張ストレージは、 &lt;strong&gt;〈OS X 拡張 (ジャーナリング)〉でフォーマット&lt;/strong&gt; しましょう。
+また、この際に &lt;strong&gt;〈大文字／小文字を区別する〉は不要&lt;/strong&gt; です。
+OS Xのメインストレージでは区別されませんし、
+Adobeなど一部の製品は大文字小文字を区別するファイルシステムをサポートしていません&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:3a11f2e399daaf1f3e8ebd09bd2d51d0:1&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:3a11f2e399daaf1f3e8ebd09bd2d51d0:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;。
+無用なトラブルを避けるためにも、注意しましょう。&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+&lt;li id=&#34;fn:3a11f2e399daaf1f3e8ebd09bd2d51d0:1&#34;&gt;&lt;a href=&#34;https://helpx.adobe.com/jp/x-productkb/global/cpsid_83180.html&#34;&gt;Mac OS X ファイルシステムの確認方法と大文字と小文字を区別するファイルシステムについて&lt;/a&gt;
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:3a11f2e399daaf1f3e8ebd09bd2d51d0:1&#34;&gt;↩&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>早朝ランニングしたりカナヘイカフェに行ってきた日</title>
+      <link>https://www.yewton.net/2016/02/16/diary</link>
+      <pubDate>Tue, 16 Feb 2016 23:00:00 +0900</pubDate>
+      
+      <guid>https://www.yewton.net/2016/02/16/diary</guid>
+      <description>
+
+&lt;h2 id=&#34;ランニング:ba55bded15366df8fcd5fbeef8e27b25&#34;&gt;ランニング&lt;/h2&gt;
+
+&lt;p&gt;昨日おとといと、春が来たのかと思うくらい暖かったので、
+何となく意識が高まって「よし明日からランニングを始めるぞ」という気持ちになっていた。&lt;/p&gt;
+
+&lt;p&gt;せっかくだから一番いいランニングをしようと思って調べると、
+朝食前に20分以上走るのが痩せるには最も効果があるという情報を得た。
+時間を気にしながら走るのは辛そうだったので、とにかく目標地点まで行って帰ってくることにし、
+スカイツリーくらいまで走ると距離的にちょうどよさそうだったのでそこを目標地点とした。&lt;/p&gt;
+
+&lt;p&gt;そんな調査を前日に行なっていざ、走ろうと外に出ると &lt;strong&gt;滅茶苦茶寒い&lt;/strong&gt; 。
+いや、昨日おとといと比較すると寒くなるというのは知っていたけれど、
+走ってるうちに体あったまるだろくらいに考えていた。
+ところが、走れども走れども一向に体は暖まらず、手はかじかみ、
+寒さに震えながら走ることになった。&lt;/p&gt;
+
+&lt;p&gt;後で調べたらその時の気温が3度とかだったので、そりゃ、寒いワケだ、と。&lt;/p&gt;
+
+&lt;p&gt;寒さを舐めてはいけない。
+次はもっと防寒するか、もっと暖かい日にしよう、という学びを得た。&lt;/p&gt;
+
+&lt;h2 id=&#34;カナヘイのゆるっとカフェ:ba55bded15366df8fcd5fbeef8e27b25&#34;&gt;カナヘイのゆるっとカフェ&lt;/h2&gt;
+
+&lt;p&gt;仕事終わりに、&lt;a href=&#34;http://kanahei.blog.jp/archives/1049325539.html&#34;&gt;カナヘイのゆるっとカフェ&lt;/a&gt;に行ってきた
+(カフェ公式ページは無くて、イベントページの1コンテンツという感じだったので、カナヘイさんのブログ記事にリンク)。&lt;/p&gt;
+
+&lt;iframe src=&#34;https://drive.google.com/file/d/0B4XWl5W7tB7IQ09Jc3dKcmN6OEk/preview&#34; width=&#34;320&#34; height=&#34;240&#34;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;こんな感じでパルコ入口で待ち構えている。&lt;/p&gt;
+
+&lt;iframe src=&#34;https://drive.google.com/file/d/0B4XWl5W7tB7IMzJrYllaRmo5dUk/preview&#34; width=&#34;320&#34; height=&#34;240&#34;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;7階に辿り着くと、巨大うさぎ&amp;amp;ピスケがお出迎え。
+これ、多分カナヘイの個展でも使われてた奴らが着替えただけだ。&lt;/p&gt;
+
+&lt;p&gt;その他の最高に可愛い写真は&lt;a href=&#34;https://drive.google.com/folderview?id=0B4XWl5W7tB7IcEpEdWVPQm5HWkk&amp;amp;usp=drive_web&#34;&gt;こちら&lt;/a&gt;
+に置いてあるのでどうぞご自由にご利用下さい。&lt;/p&gt;
+
+&lt;p&gt;もう、本当に最高にゆるっとして可愛くて可笑しくて、また行くことが確定した。
+グッズ込みで1万超の出費だったけど何も痛くないね!!&lt;/p&gt;
+
+&lt;p&gt;カナヘイさんもっとイベントやってください。&lt;/p&gt;
+
+&lt;h2 id=&#34;google-drive-の画像を-web-ページに埋め込む:ba55bded15366df8fcd5fbeef8e27b25&#34;&gt;Google Drive の画像を Web ページに埋め込む&lt;/h2&gt;
+
+&lt;p&gt;カナヘイカフェの記事を書こうとして、どうにか写真を埋め込めないか色々調べたら、
+どうも写真の単体ページ(&lt;a href=&#34;https://drive.google.com/file/d/0B4XWl5W7tB7IQ09Jc3dKcmN6OEk/view&#34;&gt;こういうの&lt;/a&gt;)を開いて、
+〈アイテムを埋め込む〉というのが真っ当な手段ぽかった。&lt;/p&gt;
+
+&lt;p&gt;直リンクする方法もあるみたいだけど、いつ Google 様に殺されるか分からなかったので止めておく。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Hugoの記事をようやく書き上げた日</title>
@@ -598,161 +1120,6 @@ Chromeで &lt;a href=&#34;https://chrome.google.com/webstore/detail/http2-and-sp
  &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:e6a1a03cb41557bae8d628ec222879e1:1&#34;&gt;↩&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>忙し過ぎてお弁当も食べられなかった日</title>
-      <link>https://www.yewton.net/2016/01/15/diary</link>
-      <pubDate>Fri, 15 Jan 2016 23:00:00 +0900</pubDate>
-      
-      <guid>https://www.yewton.net/2016/01/15/diary</guid>
-      <description>
-
-&lt;p&gt;最近チームが新体制に移行するという時期で色々バタバタしていて、
-立ち上げに伴う開発フローの整備とか、JIRA(プロジェクト管理ツール)の設定とか、
-ワーキングアグリーメントの検討とかで、頓に忙しい。&lt;/p&gt;
-
-&lt;p&gt;別に、自分の役割はスクラムマスターではなく、いちメンバーに過ぎないのだけれど、
-認定スクラムマスターを取得した身としては色々手を焼かずにはいられず、
-色んな雑務を買って出ているという状況。&lt;/p&gt;
-
-&lt;p&gt;それもこれも、スプリント中は〈全力疾走〉するのがスクラムである、
-というスクラムのあるべき姿を目指して、自分が全力で開発に打ち込めるようにするため。&lt;/p&gt;
-
-&lt;p&gt;…と思ってたけど、最近は &lt;em&gt;チームのパフォーマンスを引き出す&lt;/em&gt; っていうことに全力になっていて、
-それはそれで楽しくなってきたので、スクラムマスターもいいかなー、なんて思い始めた。&lt;/p&gt;
-
-&lt;h2 id=&#34;サイト改修:ef7e58fa0c4840571f9df66ecc7036f0&#34;&gt;サイト改修&lt;/h2&gt;
-
-&lt;p&gt;今日もサイトいじりに勤しんだ。&lt;/p&gt;
-
-&lt;p&gt;いじるときはEmacsを使うんだけれど、自分は適当なのでHTML中にJavaScriptを埋め込んだりする。
-するとhtml-modeだとシンタックハイライトとかが無くて辛いことになるので、
-&lt;a href=&#34;http://web-mode.org/&#34;&gt;web-mode&lt;/a&gt;を使ってる。&lt;/p&gt;
-
-&lt;p&gt;HTMLファイルはCSSファイルは、始めから関連付けておくといいと思う。&lt;/p&gt;
-
-&lt;h3 id=&#34;gravatar対応:ef7e58fa0c4840571f9df66ecc7036f0&#34;&gt;gravatar対応&lt;/h3&gt;
-
-&lt;p&gt;静的画像だけでなく、gravatarのアイコンを使えるようにした。&lt;/p&gt;
-
-&lt;p&gt;ついでに、画像を丸く表示するようにした。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/cxfksword/greyshade/blob/28fb061bb674a2add89724dfbbf167f88f381d40/layouts/partials/header.html&#34;&gt;gravatarに対応している他のテーマ(greyshade)&lt;/a&gt;と、
-&lt;a href=&#34;http://tdwp.us/round-gravatar-images-wordpress/&#34;&gt;How to Round Gravatar Images in WordPress&lt;/a&gt;を参考にした。&lt;/p&gt;
-
-&lt;h3 id=&#34;記念日対応:ef7e58fa0c4840571f9df66ecc7036f0&#34;&gt;記念日対応&lt;/h3&gt;
-
-&lt;p&gt;最初は&lt;a href=&#34;http://counting.hatelabo.jp/&#34;&gt;Hatena::Counting&lt;/a&gt;とか類似のサービスを利用しようと思ったんだけど、
-あんまりシンプルなのが無かったので自作した。&lt;/p&gt;
-
-&lt;p&gt;自作といったって、&lt;a href=&#34;http://momentjs.com/&#34;&gt;Moment.js&lt;/a&gt;というとても便利なライブラリがあったので、
-それを使って適当にJavaScriptを埋め込んだだけ。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://golang.org/pkg/text/template/&#34;&gt;template - The Go Programming Language&lt;/a&gt;とか
-&lt;a href=&#34;https://gohugo.io/templates/go-templates/&#34;&gt;Hugo - Go Template Primer&lt;/a&gt;あたりも参考にした。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>BettorTouchToolが無料じゃなくなると分かったりした日</title>
-      <link>https://www.yewton.net/2016/01/13/diary</link>
-      <pubDate>Wed, 13 Jan 2016 23:00:00 +0900</pubDate>
-      
-      <guid>https://www.yewton.net/2016/01/13/diary</guid>
-      <description>
-
-&lt;h2 id=&#34;bettertouchtool-will-switch-from-free-to-a-pay-what-you-want-model-early-next-year-bettertouchtool-btt-remote-bettersnaptool-and-more-http-www-boastr-net-bettertouchtool-may-switch-from-free-to-a-pay-what-you-want-model-early-next-year:824dcdd6f1a52d669a57ccbb65be9cd9&#34;&gt;&lt;a href=&#34;http://www.boastr.net/bettertouchtool-may-switch-from-free-to-a-pay-what-you-want-model-early-next-year/&#34;&gt;BetterTouchTool will switch from free to a “Pay what you want” model early next year. – BetterTouchTool, BTT Remote, BetterSnapTool and more&lt;/a&gt;&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.boastr.net/&#34;&gt;BetterTouchTool&lt;/a&gt;が1月末を目処に無料じゃなくなるらしい。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.boastr.net/btt-paid-faq/&#34;&gt;FAQ&lt;/a&gt;によると、ライセンスは買い切りで(当面)更新の必要は無く、
-過去に寄付してたりといった一定の条件を満たす人は無料でライセンスを取得する手段が提供されるらしい。&lt;/p&gt;
-
-&lt;p&gt;なお、古いのを使い続けるといったことは出来ず、そのうち使えなくなってしまうもよう。&lt;/p&gt;
-
-&lt;p&gt;買うしかないなー。&lt;/p&gt;
-
-&lt;h2 id=&#34;割と本気で家庭用slack-botを作ってみた-八発白中-http-blog-8arrow-org-entry-2016-01-13-183349:824dcdd6f1a52d669a57ccbb65be9cd9&#34;&gt;&lt;a href=&#34;http://blog.8arrow.org/entry/2016/01/13/183349&#34;&gt;割と本気で家庭用Slack Botを作ってみた - 八発白中&lt;/a&gt;&lt;/h2&gt;
-
-&lt;p&gt;うちの嫁はSlack使ってくれないから無理ぽ。。
-自分もカナヘイスタンプ超気に入ってるから、LINE辞めるのは無理だな。&lt;/p&gt;
-
-&lt;p&gt;記事中で&lt;a href=&#34;http://counting.hatelabo.jp/&#34;&gt;Hatena::Counting&lt;/a&gt;についての言及があった。
-ちょうどこういうサービス探してたのでありがたい。
-他に世界的にデファクトスタンダードなやつがあるのかとか、調べてみたい。
-&lt;a href=&#34;https://countingdownto.com/&#34;&gt;Create a Countdown Clock | CountingDownTo.com&lt;/a&gt;とかが、それらしい感じがする。&lt;/p&gt;
-
-&lt;h2 id=&#34;エンジニアにお勧めしたいメモアプリ5選-geechs-magazine-https-geechs-magazine-com-tag-lifehack-20160113:824dcdd6f1a52d669a57ccbb65be9cd9&#34;&gt;&lt;a href=&#34;https://geechs-magazine.com/tag/lifehack/20160113&#34;&gt;エンジニアにお勧めしたいメモアプリ5選 | geechs magazine&lt;/a&gt;&lt;/h2&gt;
-
-&lt;p&gt;org-modeでだいたい間に合ってるけど、やっぱ同期と多デバイス対応が欲しいよなー。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://mobileorg.ncogni.to/&#34;&gt;MobileOrg : What is MobileOrg?&lt;/a&gt;はちょっと使ってみて微妙だった。。&lt;/p&gt;
-
-&lt;p&gt;そこだけ何とかなれば。。。&lt;/p&gt;
-
-&lt;h2 id=&#34;雑感:824dcdd6f1a52d669a57ccbb65be9cd9&#34;&gt;雑感&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;markdown-modeとskkの相性悪いんかな、変換確定しようとすると行頭にカーソルが行ってしまってストレスフルだ。。&lt;/li&gt;
-&lt;li&gt;シンタックスハイライトとかEmojiとか使えんのかな。調べよう。&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>about</title>
-      <link>https://www.yewton.net/about/</link>
-      <pubDate>Mon, 11 Jan 2016 18:47:04 +0900</pubDate>
-      
-      <guid>https://www.yewton.net/about/</guid>
-      <description>
-
-&lt;h1 id=&#34;omochi:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;omochi&lt;/h1&gt;
-
-&lt;p&gt;wow.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>はじめに</title>
-      <link>https://www.yewton.net/2016/01/11/at-the-start</link>
-      <pubDate>Mon, 11 Jan 2016 11:11:11 +0900</pubDate>
-      
-      <guid>https://www.yewton.net/2016/01/11/at-the-start</guid>
-      <description>
-
-&lt;h2 id=&#34;はじめに:a34b8bc0f6383f320533be9df46dffd7&#34;&gt;はじめに&lt;/h2&gt;
-
-&lt;p&gt;今年30歳になる節目の年なので、ブログを書いてみることにした。&lt;/p&gt;
-
-&lt;p&gt;何もこういう試みは初めてではなく、
-これまでも、&lt;a href=&#34;http://d.hatena.ne.jp/yuto_sasaki/&#34;&gt;はてなダイアリー&lt;/a&gt;だったり、
-&lt;a href=&#34;http://qiita.com/yewton&#34;&gt;Qiita&lt;/a&gt;だったりに断続的に記事を書いたりメモしたりしていた。&lt;/p&gt;
-
-&lt;p&gt;それより以前も、個人でサイト作成したり、既存のブログサービスを使っていたこともあった。&lt;/p&gt;
-
-&lt;p&gt;いずれも、1年と経たずに辞めてしまった。
-自分の凝り性でかつ飽きっぽい性質のためだと思う。&lt;/p&gt;
-
-&lt;p&gt;今回また性懲りもなく始めたのは、何かをアウトプットしたいというよりも、
-&lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;というものを何かのキッカケで知って、
-Golangの静的サイト生成ツールだと知り、イマドキは静的サイト生成だよねー
-という巷の声を聞いた結果、使ってみたくなった、というのが大きい。&lt;/p&gt;
-
-&lt;p&gt;飽きたらその内また辞めるだろうけれど、
-今のところ調整したりカスタマイズしたりしたい部分が多々あるので、当面存在はするだろう。
-これらの試みを記事にしたりするかもしれない。&lt;/p&gt;
-
-&lt;h2 id=&#34;何を書くか:a34b8bc0f6383f320533be9df46dffd7&#34;&gt;何を書くか&lt;/h2&gt;
-
-&lt;p&gt;外部サービスに依存しないので(ホスティングはGitHub使ってるケド)自由奔放に書いていけたらと思っている。&lt;/p&gt;
-
-&lt;p&gt;技術的な話から、日常の駄文、過去の思い出を振り返ってみたり、
-あとはペットの話も書くかもしれない。時にはポエムも書くだろう。&lt;/p&gt;
-
-&lt;p&gt;当分人の目に触れぬはずの所なので、好き勝手にやってみよう。&lt;/p&gt;
 </description>
     </item>
     

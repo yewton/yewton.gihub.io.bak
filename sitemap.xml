@@ -3,8 +3,43 @@
   
   <url>
     <loc>https://www.yewton.net/</loc>
-    <lastmod>2016-02-14T00:26:33+09:00</lastmod>
+    <lastmod>2016-08-29T22:29:35+09:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.yewton.net/2016/08/29/misc</loc>
+    <lastmod>2016-08-29T22:29:35+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.yewton.net/2016/05/04/helm-persp</loc>
+    <lastmod>2016-05-04T19:45:26+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.yewton.net/2016/05/04/setsuna</loc>
+    <lastmod>2016-05-04T16:10:11+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.yewton.net/2016/05/03/diary</loc>
+    <lastmod>2016-05-03T23:27:26+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.yewton.net/2016/02/21/wordpress-http2-hhvm</loc>
+    <lastmod>2016-02-21T22:49:52+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.yewton.net/2016/02/19/save-storage-space-by-moving-vm-related-files-to-ex-storage</loc>
+    <lastmod>2016-02-19T00:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.yewton.net/2016/02/16/diary</loc>
+    <lastmod>2016-02-16T23:00:00+09:00</lastmod>
   </url>
   
   <url>
@@ -55,11 +90,6 @@
   <url>
     <loc>https://www.yewton.net/2016/01/13/diary</loc>
     <lastmod>2016-01-13T23:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.yewton.net/about/</loc>
-    <lastmod>2016-01-11T18:47:04+09:00</lastmod>
   </url>
   
   <url>

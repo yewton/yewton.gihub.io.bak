@@ -6,8 +6,75 @@
     <description>Recent content in 雑記 on yewton.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Mon, 11 Jan 2016 11:11:11 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 29 Aug 2016 22:29:35 +0900</lastBuildDate>
     <atom:link href="https://www.yewton.net/categories/%E9%9B%91%E8%A8%98/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>三ヶ月以上ぶりに何かを書く</title>
+      <link>https://www.yewton.net/2016/08/29/misc</link>
+      <pubDate>Mon, 29 Aug 2016 22:29:35 +0900</pubDate>
+      
+      <guid>https://www.yewton.net/2016/08/29/misc</guid>
+      <description>
+
+&lt;p&gt;前回の更新から三ヶ月以上経ってしまった。
+月日が経つのは早いものだ。&lt;/p&gt;
+
+&lt;p&gt;まとめたいことがいくつかあるので、まとめておく。&lt;/p&gt;
+
+&lt;h2 id=&#34;atlassian-からtシャツをタダでもらう方法:b90311b9df60abbcd0d54df82f9ad3a8&#34;&gt;Atlassian からTシャツをタダでもらう方法&lt;/h2&gt;
+
+&lt;p&gt;Atlassian の製品のセットアップを公式ドキュメントに従って行うとTシャツが貰える。&lt;/p&gt;
+
+&lt;p&gt;実際もらえたのでやり方をまとめたい。&lt;/p&gt;
+
+&lt;h2 id=&#34;無料のプライベート-wiki-は-google-sites-が最強な気がする:b90311b9df60abbcd0d54df82f9ad3a8&#34;&gt;無料のプライベート Wiki は Google Sites が最強な気がする&lt;/h2&gt;
+
+&lt;p&gt;Atlassian の構築はそもそも個人的に家庭で Confluence 的なのを使いたかったので手を出したものだった。&lt;/p&gt;
+
+&lt;p&gt;とはいえ金がかかるのでいい方法は無いかと探していたら、 Google Sites に辿りついた。&lt;/p&gt;
+
+&lt;h2 id=&#34;org-publish-で気軽に-web-サイトを作る:b90311b9df60abbcd0d54df82f9ad3a8&#34;&gt;&lt;code&gt;org-publish&lt;/code&gt; で気軽に Web サイトを作る&lt;/h2&gt;
+
+&lt;p&gt;無料のプライベート Wiki を探している過程で org-publish にも手を出した。&lt;/p&gt;
+
+&lt;p&gt;プライベートにするのが面倒だったので諦めたけれど、
+org-mode で書いた内容を、見た目もほぼそのまま公開出来るというのは便利かもしれないのでまとめたい。&lt;/p&gt;
+
+&lt;h2 id=&#34;helm-から-ivy-に移行したい:b90311b9df60abbcd0d54df82f9ad3a8&#34;&gt;helm から ivy に移行したい&lt;/h2&gt;
+
+&lt;p&gt;helm が活発過ぎて周辺エコシステムが付いていけないとか、
+ivy の方が軽量でよいとかいう話を聞くので、 ivy に移行してみたい。&lt;/p&gt;
+
+&lt;p&gt;ヘビーに helm 使ってるわけでないので、さくっと乗り換えたい気持ち。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Spacemacs から helm と persp-mode の設定をパクろうと思ったけど難しかった</title>
+      <link>https://www.yewton.net/2016/05/04/helm-persp</link>
+      <pubDate>Wed, 04 May 2016 19:45:26 +0900</pubDate>
+      
+      <guid>https://www.yewton.net/2016/05/04/helm-persp</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/syl20bnr/spacemacs/blob/master/layers/%2Bwindow-management/spacemacs-layouts/funcs.el&#34;&gt;この辺&lt;/a&gt; を参考にせよ、
+と persp-mode 公式に書いてあったので、パクれそうかやってみた。&lt;/p&gt;
+
+&lt;p&gt;結論としては、出来なかった。
+なので、 併せて記載されていた &lt;a href=&#34;https://gist.github.com/Bad-ptr/304ada85c9ba15013303&#34;&gt;こっち&lt;/a&gt; の設定を使う状態のまま。&lt;/p&gt;
+
+&lt;p&gt;Spacemacs の設定は、 Spacemacs 独自のステートの概念(Vimmer が喜ぶやつ)と密接に関連しているようで、
+素の Emacs に組込むのは骨が折れそうだった。&lt;/p&gt;
+
+&lt;p&gt;そもそも何で Spacemacs の設定をパクろうとしていたかというと、
+後者の設定だと、 &lt;code&gt;C-x b&lt;/code&gt; したときに前のバッファが選択されずに
+現在のバッファが選択された状態になるのが違和感があったから、だった。
+素の Emacs では単に &lt;code&gt;C-x b RET&lt;/code&gt; としたときは、前のバッファに戻るという挙動になる。
+もしかしたら Spacemacs では元の挙動を再現した実装になっているのかもしれない、
+と思って見てみたが、前述の通り失敗に終わった。&lt;/p&gt;
+
+&lt;p&gt;persp-mode では、直前のバッファが現在のパースペクティブに含まれているとは限らないから、仕方ないのかな…。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>はじめに</title>
