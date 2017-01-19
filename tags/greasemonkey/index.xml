@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Greasemonkey on yewton.net</title>
-    <link>https://www.yewton.net/tags/greasemonkey/</link>
-    <description>Recent content in Greasemonkey on yewton.net</description>
+    <title>yewton.net</title>
+    <link>https://www.yewton.net/tags/greasemonkey/index.xml</link>
+    <description>Recent content on yewton.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Sat, 23 Jan 2016 23:47:43 +0900</lastBuildDate>
+    <copyright>yewton. Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice).</copyright>
     <atom:link href="https://www.yewton.net/tags/greasemonkey/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -17,7 +17,7 @@
       <guid>https://www.yewton.net/2016/01/23/diary</guid>
       <description>
 
-&lt;h2 id=&#34;趣味の政策物:94b3c734ee959e37b47a43c2fb129b69&#34;&gt;趣味の政策物&lt;/h2&gt;
+&lt;h2 id=&#34;趣味の政策物&#34;&gt;趣味の政策物&lt;/h2&gt;
 
 &lt;p&gt;弊チームではバックログとしてJIRAを使っている。&lt;/p&gt;
 
@@ -35,7 +35,7 @@
 &lt;p&gt;そこで、スクラムマスターがセレモニーを進めやすいように支援するためのuserscriptを書いた。
 ソースは&lt;a href=&#34;https://github.com/yewton/userscripts&#34;&gt;yewton/userscripts&lt;/a&gt;。&lt;/p&gt;
 
-&lt;h3 id=&#34;component-labels-for-jira-scrum:94b3c734ee959e37b47a43c2fb129b69&#34;&gt;Component-labels for JIRA Scrum&lt;/h3&gt;
+&lt;h3 id=&#34;component-labels-for-jira-scrum&#34;&gt;Component-labels for JIRA Scrum&lt;/h3&gt;
 
 &lt;p&gt;コンポーネントをエピックのようにスクラムボード上で分かりやすいく表示する。&lt;/p&gt;
 
@@ -47,7 +47,7 @@
 リクエストの仕方を何か工夫しないと使いものにならないかなーと思っていたのだけれど、
 案外数百リクエスト飛ばすぐらいだとビクともしなかったので、愚直な実装のまま。&lt;/p&gt;
 
-&lt;h3 id=&#34;detail-pop-up-for-jria-scrum:94b3c734ee959e37b47a43c2fb129b69&#34;&gt;Detail Pop-up for JRIA Scrum&lt;/h3&gt;
+&lt;h3 id=&#34;detail-pop-up-for-jria-scrum&#34;&gt;Detail Pop-up for JRIA Scrum&lt;/h3&gt;
 
 &lt;p&gt;各課題に詳細画面をポップアップで開くためのボタンを追加する。&lt;/p&gt;
 
@@ -61,7 +61,7 @@
 その名の通りシンプルなモーダル機能を実装するためのライブラリを使って、
 &lt;code&gt;iframe&lt;/code&gt; で詳細画面を開くだけの機能を追加した。&lt;/p&gt;
 
-&lt;h2 id=&#34;第3回-実践的ドメイン駆動設計ワークショップ-connpass-http-ddd-alliance-connpass-com-event-24672:94b3c734ee959e37b47a43c2fb129b69&#34;&gt;&lt;a href=&#34;http://ddd-alliance.connpass.com/event/24672/&#34;&gt;第3回 実践的ドメイン駆動設計ワークショップ - connpass&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;第3回-実践的ドメイン駆動設計ワークショップ-connpass-http-ddd-alliance-connpass-com-event-24672&#34;&gt;&lt;a href=&#34;http://ddd-alliance.connpass.com/event/24672/&#34;&gt;第3回 実践的ドメイン駆動設計ワークショップ - connpass&lt;/a&gt;&lt;/h2&gt;
 
 &lt;p&gt;参加してきた。&lt;/p&gt;
 

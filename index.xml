@@ -2,12 +2,325 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>yewton.net</title>
-    <link>https://www.yewton.net/</link>
+    <link>https://www.yewton.net/index.xml</link>
     <description>Recent content on yewton.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Mon, 29 Aug 2016 22:29:35 +0900</lastBuildDate>
+    <copyright>yewton. Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice).</copyright>
+    <lastBuildDate>Sat, 03 Sep 2016 15:34:07 +0900</lastBuildDate>
     <atom:link href="https://www.yewton.net/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Atlassian から無料でTシャツをもらう方法、あるいはドラゴンの倒し方</title>
+      <link>https://www.yewton.net/2016/09/03/how-to-get-atlassian-dragon-slayer-t-shirt</link>
+      <pubDate>Sat, 03 Sep 2016 15:34:07 +0900</pubDate>
+      
+      <guid>https://www.yewton.net/2016/09/03/how-to-get-atlassian-dragon-slayer-t-shirt</guid>
+      <description>
+
+&lt;p&gt;仕事で Atlassian 製品を使っていて、個人的にも便利なタスク・ドキュメント管理に欲しいな、と思い、
+&lt;a href=&#34;https://ja.atlassian.com/licensing/starter#aboutthestarterprogram-8&#34;&gt;Atlassian のスターターライセンスについてのドキュメント&lt;/a&gt;を読んでいた。&lt;/p&gt;
+
+&lt;p&gt;すると気になるフレーズが目に入った。 &lt;strong&gt;「ドラゴンズレアとは何ですか？」&lt;/strong&gt; ──&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;6 つのスターター ライセンスの統合スイートをセットアップすると素晴らしい結果になりますが、セットアップ手順は複雑で時間がかかります。アトラシアンでは、アトラシアン アプリケーション スイートを統合するため方法をドラゴンズレアという説明書にまとめました。また、この困難だけれども素晴らしい旅を完了された方全員向けに、限定版アトラシアン ドラゴン スレイヤー T シャツを提供しています。今すぐ冒険を始めましょう! 勇気がある方はドラゴンに立ち向かいましょう!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;せっかくもらえるもんなら、とドラゴン退治をすることにした。&lt;/p&gt;
+
+&lt;h2 id=&#34;2017-1-20-時点-注意&#34;&gt;(2017/1/20 時点)注意&lt;/h2&gt;
+
+&lt;p&gt;どうやら現在、 &lt;strong&gt;Tシャツを要求するためのページが 404 になってしまっている&lt;/strong&gt; ようす
+(
+&lt;a href=&#34;https://answers.atlassian.com/questions/43114478/dragon-slayed-but-cant-get-t-shirt&#34;&gt;Dragon slayed, but can&amp;rsquo;t get t-shirt? - Atlassian Answers&lt;/a&gt; )
+。&lt;/p&gt;
+
+&lt;p&gt;せっかくやってもTシャツはもらえないかもしれないので注意。&lt;/p&gt;
+
+&lt;h2 id=&#34;環境要件&#34;&gt;環境要件&lt;/h2&gt;
+
+&lt;p&gt;ドキュメントには「最低 3 GB の RAM と 500 MB のアプリケーションファイル用の空き容量」とある。&lt;/p&gt;
+
+&lt;p&gt;しかし、実際にやってみたところ 3 GB では全てのアプリケーションを立ち上げることが出来なかった。
+最終的に 6 つのアプリケーションを稼動させることになるのだが、 5 つが限界だった。
+&lt;strong&gt;最低 RAM は 4 GB は必要&lt;/strong&gt; だと思う。&lt;/p&gt;
+
+&lt;p&gt;またディスク容量に関しては、まっさらな環境に諸々構築したあとの総使用量が 6 GB 程だった。
+こちらも &lt;strong&gt;最低ストレージは 10 GB は必要&lt;/strong&gt; だと思う。&lt;/p&gt;
+
+&lt;p&gt;自分は &lt;a href=&#34;https://cloud.google.com/&#34;&gt;Google Cloud Platform&lt;/a&gt; を利用して構築した。
+Google Compute Engine の &lt;code&gt;vCPU x 1&lt;/code&gt; (メモリ 3.75 GB)の標準インスタンスを使ったが、
+前述の通りメモリが足りなくなってしまったので、 &lt;code&gt;vCPU x 2&lt;/code&gt; (メモリ 7.5 GB)のインスタンスを使う方がよいと思う。&lt;/p&gt;
+
+&lt;p&gt;OS は &lt;strong&gt;Debian GNU/Linux 8 (jessie)&lt;/strong&gt; を使用した。&lt;/p&gt;
+
+&lt;h2 id=&#34;here-be-dragons&#34;&gt;Here Be Dragons&lt;/h2&gt;
+
+&lt;p&gt;それでは &lt;a href=&#34;https://confluence.atlassian.com/display/ATLAS/Here+Be+Dragons&#34;&gt;ドキュメント&lt;/a&gt; に従って冒険を始めよう。&lt;/p&gt;
+
+&lt;p&gt;基本的には書かれてある通りにやればいいだけなのだが、いくつか自分が躓いたポイントがあるので紹介していきたい。&lt;/p&gt;
+
+&lt;h3 id=&#34;dragons-stage-1-install-jira-https-confluence-atlassian-com-display-atlas-dragons-stage-1-install-jira&#34;&gt;&lt;a href=&#34;https://confluence.atlassian.com/display/ATLAS/Dragons+Stage+1+-+Install+JIRA&#34;&gt;Dragons Stage 1 - Install JIRA&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h4 id=&#34;step-1-install-java&#34;&gt;Step 1. Install Java&lt;/h4&gt;
+
+&lt;p&gt;まず Java を用意しなければならないのだが、なんと &lt;strong&gt;Oracle JDK 1.7.x&lt;/strong&gt; でなければならない。
+&lt;a href=&#34;http://www.oracle.com/technetwork/jp/java/eol-135779-ja.html&#34;&gt;1.7 系はすでにサポートが終了している&lt;/a&gt;のだが、
+このクエストではこのバージョンしか想定していないようなので、大人しく従っておく。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;wget --header &amp;quot;Cookie: oraclelicense=accept-securebackup-cookie&amp;quot; http://download.oracle.com/otn-pub/java/jdk/7u79-b15/jdk-7u79-linux-x64.tar.gz
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Debian で Oracle Java を利用するには &lt;a href=&#34;https://wiki.debian.org/JavaPackage&#34; title=&#34;JavaPackage -
+Debian Wiki&#34;&gt;JavaPackage - Debian Wiki&lt;/a&gt; にあるような作業が必要になる。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;sudo sed -i &#39;s/deb http:\/\/httpredir.debian.org\/debian\/ jessie main/deb http:\/\/httpredir.debian.org\/debian\/jessie main contrib/&#39; /etc/apt/sources.list
+sudo apt-get update -y &amp;amp;&amp;amp; sudo apt-get install -y libgl1-mesa-glx libfontconfig1 libxslt1.1 libxtst6 libxxf86vm1 libgtk2.0-0 java-package
+make-jpkg jdk-7u79-linux-x64.tar.gz
+sudo dpkg -i oracle-java7-jdk_7u79_amd64.deb
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;step-2-install-your-postgresql-database-server&#34;&gt;Step 2. Install your PostgreSQL Database Server&lt;/h4&gt;
+
+&lt;p&gt;こちらも &lt;strong&gt;8.4.x.&lt;/strong&gt; というバージョン指定がある。
+Java と同様に既に &lt;a href=&#34;https://www.postgresql.org/support/versioning/&#34;&gt;サポート終了&lt;/a&gt; しているため、
+Debian のリポジトリでは配布されていない。
+そのため、リポジトリを追加してからインストールする必要がある。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;sudo sh -c &#39;echo &amp;quot;deb http://apt.postgresql.org/pub/repos/apt/ $(lsb_release -cs)-pgdg main&amp;quot; &amp;gt; /etc/apt/sources.list.d/pgdg.list&#39;
+wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
+sudo apt-get update -y &amp;amp;&amp;amp; sudo apt-get upgrade -y &amp;amp;&amp;amp; sudo apt-get install -y postgresql-8.4
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;step-3-create-your-jira-database-in-postgresql&#34;&gt;Step 3. Create your JIRA Database in PostgreSQL&lt;/h4&gt;
+
+&lt;p&gt;Atlassian 製品はデータベースとして MySQL や PostgreSQL を利用出来る。
+ただ、日本語や絵文字などマルチバイト文字を扱う場合は PostgresSQL を使うのが無難なようだ( &lt;a href=&#34;https://confluence.atlassian.com/jirakb/jira-does-not-work-with-emoji-4-byte-characters-429919955.html&#34;&gt;参考&lt;/a&gt; )。&lt;/p&gt;
+
+&lt;p&gt;個人的にあまり馴染みがないのだけれど、このドラゴンズレアでも PostgreSQL が指定されているので従っておく。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;sudo -u postgres createuser -S -d -r -P -E jirauser
+# パスワード入力
+sudo -u postgres createdb --owner jirauser --encoding utf8 jira
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;step-4-install-jira&#34;&gt;Step 4. Install JIRA&lt;/h4&gt;
+
+&lt;p&gt;JIRA のバージョンも指定されている。 &lt;strong&gt;6.3.15&lt;/strong&gt; を使う必要がある。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;wget https://www.atlassian.com/software/jira/downloads/binary/atlassian-jira-6.3.15-x64.bin
+chmod a+x atlassian-jira-6.3.15-x64.bin
+sudo ./atlassian-jira-6.3.15-x64.bin
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;JIRA にはインストーラーがついているので簡単。&lt;/p&gt;
+
+&lt;h3 id=&#34;step-5-set-up-jira-step-6-set-up-a-project-and-create-your-jira-dashboard&#34;&gt;Step 5. Set Up JIRA, Step 6. Set up a Project and Create your JIRA Dashboard&lt;/h3&gt;
+
+&lt;p&gt;あとはドキュメントに従って Web UI 上で操作を行えばよい。&lt;/p&gt;
+
+&lt;p&gt;もしかすると、以下のようなよく分からないエラーに遭遇するかもしれない。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;let.ServletException: javax.servlet.jsp.JspTagException: Soy rendering failed for template &#39;%s&#39;.
+説明 The server encountered an internal error that prevented it from fulfilling this request.
+
+例外
+
+org.apache.jasper.JasperException: javax.servlet.ServletException: javax.servlet.jsp.JspTagException: Soy rendering failed for template &#39;%s&#39;.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;環境依存なのか、言語を日本語にしていた影響なのか分からないが、エラーが発生したらブラウザをリロードすれば大体直っていた。&lt;/p&gt;
+
+&lt;h3 id=&#34;dragons-stage-2-jira-add-ons-https-confluence-atlassian-com-display-atlas-dragons-stage-2-jira-add-ons&#34;&gt;&lt;a href=&#34;https://confluence.atlassian.com/display/ATLAS/Dragons+Stage+2+-+JIRA+Add-Ons&#34;&gt;Dragons Stage 2 - JIRA Add-Ons&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;ドキュメントに従うだけで特に問題はないが、 Capture for JIRA を動かそうとしたときに以下のエラーが出ていた。&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Your Bonfire license has expired. Please visit My Atlassian to renew&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;ボンファイアとはなんのこったい、と思ったのだが、どうやら Capture for JIRA のことらしい。
+インストール後のアクティベーションが正常に終わっていなかったようだった。
+改めて管理画面から評価用ラインセンスを払い出してことなきを得た。&lt;/p&gt;
+
+&lt;h3 id=&#34;dragons-stage-3-install-confluence-https-confluence-atlassian-com-display-atlas-dragons-stage-3-install-confluence&#34;&gt;&lt;a href=&#34;https://confluence.atlassian.com/display/ATLAS/Dragons+Stage+3+-+Install+Confluence&#34;&gt;Dragons Stage 3 - Install Confluence&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h4 id=&#34;step-1-create-your-confluence-database-in-postgresql&#34;&gt;Step 1. Create your Confluence Database in PostgreSQL&lt;/h4&gt;
+
+&lt;p&gt;JIRA のときと同様に行う。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;sudo -u postgres createuser -S -d -r -P -E confuser
+sudo -u postgres createdb --owner confuser --encoding utf8 confluence
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;step-2-install-confluence&#34;&gt;Step 2. Install Confluence&lt;/h4&gt;
+
+&lt;p&gt;インストールまでは以下の通り:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;wget https://www.atlassian.com/software/confluence/downloads/binary/atlassian-confluence-5.7.1-x64.bin
+chmod a+x atlassian-confluence-5.7.1-x64.bin
+sudo ./atlassian-confluence-5.7.1-x64.bin
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;この後、&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Because Confluence will be running on the same machine as JIRA (already installed), you need to ensure that the URL paths are different for Confluence and JIRA.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;という理由で設定ファイルを一部いじる必要がある。
+以下のように一旦 Confluence を停止、設定を修正して再起動する:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;sudo /opt/atlassian/confluence/bin/stop-confluence.sh
+sudo sed -i &#39;s/&amp;lt;Context path=&amp;quot;&amp;quot;/&amp;lt;Context path=&amp;quot;\/confluence&amp;quot;/&#39; /opt/atlassian/confluence/conf/server.xml
+sudo /opt/atlassian/confluence/bin/start-confluence.sh
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;step-3-以降&#34;&gt;Step 3 以降&lt;/h4&gt;
+
+&lt;p&gt;ドキュメントに従って進めれば問題ないはず。&lt;/p&gt;
+
+&lt;h3 id=&#34;dragons-stage-4-install-team-calendars-in-confluence-https-confluence-atlassian-com-display-atlas-dragons-stage-4-install-team-calendars-in-confluence&#34;&gt;&lt;a href=&#34;https://confluence.atlassian.com/display/ATLAS/Dragons+Stage+4+-+Install+Team+Calendars+in+Confluence&#34;&gt;Dragons Stage 4 - Install Team Calendars in Confluence&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;ドキュメントに従って Web UI を操作すれば 👌 。&lt;/p&gt;
+
+&lt;h3 id=&#34;dragons-stage-5-install-fisheye-and-crucible-https-confluence-atlassian-com-display-atlas-dragons-stage-5-install-fisheye-and-crucible&#34;&gt;&lt;a href=&#34;https://confluence.atlassian.com/display/ATLAS/Dragons+Stage+5+-+Install+FishEye+and+Crucible&#34;&gt;Dragons Stage 5 - Install FishEye and Crucible&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h4 id=&#34;step-1-install-mercurial&#34;&gt;Step 1. Install Mercurial&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;sudo apt-get -y install mercurial
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;step-2-create-your-fisheye-database-in-postgresql&#34;&gt;Step 2. Create your FishEye Database in PostgreSQL&lt;/h4&gt;
+
+&lt;p&gt;これまでと同様に行う:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;sudo -u postgres createuser -S -d -r -P -E fishuser
+sudo -u postgres createdb --owner fishuser --encoding utf8 fisheye
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;step-3-install-fisheye-and-crucible&#34;&gt;Step 3. Install FishEye and Crucible&lt;/h4&gt;
+
+&lt;p&gt;インストーラーが無いので若干手順が複雑になる。&lt;/p&gt;
+
+&lt;p&gt;まず必要なファイルをダウンロードして展開する:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;wget https://www.atlassian.com/software/fisheye/downloads/binary/fisheye-3.7.0.zip
+sudo unzip -d /opt/atlassian/ fisheye-3.7.0.zip
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;アプリケーションのデータディレクトリを作成する。
+他のアプリケーションに合わせて &lt;code&gt;/var/atlassian/application-data/fecru&lt;/code&gt; にする:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;sudo mkdir /var/atlassian/application-data/fecru
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;code&gt;FISHEYE_INST&lt;/code&gt; という環境変数が上記のデータディレクトリを指すようにする:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;sudo sh -c &#39;echo &amp;quot;export FISHEYE_INST=/var/atlassian/application-data/fecru&amp;quot; &amp;gt; /etc/profile.d/fecru.sh&#39;
+source /etc/profile.d/fecru.sh
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;設定ファイルを一部修正しつつ配置する:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;sudo cp /opt/atlassian/fecru-3.7.0/config.xml /var/atlassian/application-data/fecru/
+sudo sed -i &#39;s/&amp;lt;web-server&amp;gt;/&amp;lt;web-server context=&amp;quot;\/fisheye&amp;quot;&amp;gt;/&#39; /var/atlassian/application-data/fecru/config.xml
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Fecru サービスを稼動させるためのユーザーを作成する:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;sudo useradd -m -c &#39;Atlassian FishEye/Crucible&#39; fecru
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;権限を適切に修正し、サービスを立ち上げる:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;sudo chown fecru -R /opt/atlassian/fecru-3.7.0/
+sudo chown fecru -R /var/atlassian/application-data/fecru/
+nohup sudo -u fecru /opt/atlassian/fecru-3.7.0/bin/run.sh &amp;amp;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;本来は systemd とかでちゃんとサービス化した方がいいと思う 😟&lt;/p&gt;
+
+&lt;h4 id=&#34;step-4-以降&#34;&gt;Step 4 以降&lt;/h4&gt;
+
+&lt;p&gt;ドキュメントに従えば 👌&lt;/p&gt;
+
+&lt;h3 id=&#34;dragons-stage-6-get-jira-and-fisheye-talking-https-confluence-atlassian-com-display-atlas-dragons-stage-6-get-jira-and-fisheye-talking&#34;&gt;&lt;a href=&#34;https://confluence.atlassian.com/display/ATLAS/Dragons+Stage+6+-+Get+JIRA+and+FishEye+Talking&#34;&gt;Dragons Stage 6 - Get JIRA and FishEye Talking&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://confluence.atlassian.com/display/ATLAS/Dragons+Stage+6+-+Get+JIRA+and+FishEye+Talking?focusedCommentId=844238014#comment-844238014&#34;&gt;このコメント&lt;/a&gt;
+にあるように、恐らく FishEye の Site URL を設定してからでないと JIRA リンクが上手く動かないので、
+まず FishEye 上で Administration -&amp;gt; Global Settings -&amp;gt; Server から Site URL を設定しておく。&lt;/p&gt;
+
+&lt;p&gt;あとはドキュメントの手順通り設定を行えばよい。&lt;/p&gt;
+
+&lt;h3 id=&#34;dragons-stage-7-get-jira-and-crucible-talking-https-confluence-atlassian-com-display-atlas-dragons-stage-7-get-jira-and-crucible-talking&#34;&gt;&lt;a href=&#34;https://confluence.atlassian.com/display/ATLAS/Dragons+Stage+7+-+Get+JIRA+and+Crucible+Talking&#34;&gt;Dragons Stage 7 - Get JIRA and Crucible Talking&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;ドキュメントの通りで 🆗&lt;/p&gt;
+
+&lt;h3 id=&#34;dragons-stage-8-install-bamboo-https-confluence-atlassian-com-display-atlas-dragons-stage-8-install-bamboo&#34;&gt;&lt;a href=&#34;https://confluence.atlassian.com/display/ATLAS/Dragons+Stage+8+-+Install+Bamboo&#34;&gt;Dragons Stage 8 - Install Bamboo&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h4 id=&#34;step-1-create-your-bamboo-database-in-postgresql&#34;&gt;Step 1. Create your Bamboo Database in PostgreSQL&lt;/h4&gt;
+
+&lt;p&gt;これまでと同様:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;sudo -u postgres createuser -S -d -r -P -E bamuser
+sudo -u postgres createdb --owner bamuser --encoding utf8 bamboo
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;step-2-install-bamboo&#34;&gt;Step 2. Install Bamboo&lt;/h4&gt;
+
+&lt;p&gt;Fecru と同様にこちらもインストーラーが無いので複雑な手順が必要になる:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;sudo -u postgres createuser -S -d -r -P -E bamuser
+sudo -u postgres createdb --owner bamuser --encoding utf8 bamboo
+wget https://www.atlassian.com/software/bamboo/downloads/binary/atlassian-bamboo-5.3.tar.gz
+sudo useradd -m -c &#39;Atlassian Bamboo&#39; bamboo
+sudo tar -C /opt/atlassian -zxvf atlassian-bamboo-5.3.tar.gz
+sudo chown bamboo -R /opt/atlassian/atlassian-bamboo-5.3
+sudo sh -c &#39;echo &amp;quot;bamboo.home=/home/bamboo&amp;quot; &amp;gt; /opt/atlassian/atlassian-bamboo-5.3/atlassian-bamboo/WEB-INF/classes/bamboo-init.properties&#39;
+sudo sed -i &#39;s/&amp;lt;Context path=&amp;quot;&amp;quot;/&amp;lt;Context path=&amp;quot;\/bamboo&amp;quot;/&#39; /opt/atlassian/atlassian-bamboo-5.3/conf/server.xml
+sudo -u bamboo /opt/atlassian/atlassian-bamboo-5.3/bin/start-bamboo.sh
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;step-3-set-up-bamboo&#34;&gt;Step 3. Set Up Bamboo&lt;/h4&gt;
+
+&lt;p&gt;まず Maven 3 の環境を整える必要がある。
+ドキュメントの指示通
+り
+&lt;a href=&#34;https://developer.atlassian.com/display/DOCS/Set+up+the+Atlassian+Plugin+SDK+and+Build+a+Project&#34;&gt;Atlassian Plugin SDK&lt;/a&gt;
+をインストールする:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;sudo sh -c &#39;echo &amp;quot;deb https://sdkrepo.atlassian.com/debian/ stable contrib&amp;quot; &amp;gt; /etc/apt/sources.list.d/atlassian.list&#39;
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys B07804338C015B73
+sudo apt-get install -y apt-transport-https
+sudo apt-get -y update
+sudo apt-get install -y atlassian-plugin-sdk
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;あとはドキュメント通りに進めればよいが、
+Maven Executable のパスを指定する箇所は
+&lt;code&gt;/usr/share/atlassian-plugin-sdk-6.2.9/apache-maven-3.2.1&lt;/code&gt; のように
+指定しなければならない(ドキュメントには &lt;code&gt;/usr/local/Atlassian/atlassian-plugin-sdk/apache-maven&lt;/code&gt; とあるがそこには無い)。&lt;/p&gt;
+
+&lt;h3 id=&#34;dragons-stage-9-bamboo-gadgets-and-jira-victory-https-confluence-atlassian-com-display-atlas-dragons-stage-9-bamboo-gadgets-and-jira-victory&#34;&gt;&lt;a href=&#34;https://confluence.atlassian.com/display/ATLAS/Dragons+Stage+9+-+Bamboo+Gadgets+and+JIRA+Victory&#34;&gt;Dragons Stage 9 - Bamboo Gadgets and JIRA Victory&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;ドキュメントの指示通り JIRA に Bamboo ガジェットを追加すれば完了。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The Battle is Won, the Dragon is Slain!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;tシャツを要求する&#34;&gt;Tシャツを要求する&lt;/h2&gt;
+
+&lt;p&gt;ページの指示通りやると、クーポンコードがもらえるので、
+それを使って注文すればいい。&lt;/p&gt;
+
+&lt;p&gt;自分の注文情報はこんな感じ:&lt;/p&gt;
+
+&lt;iframe src=&#34;https://drive.google.com/file/d/0B4XWl5W7tB7IcFRKdlhFTnpZV2s/preview&#34; width=&#34;640&#34; height=&#34;480&#34;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;注文してから 1〜2 週間で届くらしい。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>三ヶ月以上ぶりに何かを書く</title>
@@ -22,33 +335,33 @@
 
 &lt;p&gt;まとめたいことがいくつかあるので、まとめておく。&lt;/p&gt;
 
-&lt;h2 id=&#34;atlassian-からtシャツをタダでもらう方法:b90311b9df60abbcd0d54df82f9ad3a8&#34;&gt;Atlassian からTシャツをタダでもらう方法&lt;/h2&gt;
+&lt;h2 id=&#34;atlassian-からtシャツをタダでもらう方法&#34;&gt;Atlassian からTシャツをタダでもらう方法&lt;/h2&gt;
 
 &lt;p&gt;Atlassian の製品のセットアップを公式ドキュメントに従って行うとTシャツが貰える。&lt;/p&gt;
 
 &lt;p&gt;実際もらえたのでやり方をまとめたい。&lt;/p&gt;
 
-&lt;h2 id=&#34;無料のプライベート-wiki-は-google-sites-が最強な気がする:b90311b9df60abbcd0d54df82f9ad3a8&#34;&gt;無料のプライベート Wiki は Google Sites が最強な気がする&lt;/h2&gt;
+&lt;h2 id=&#34;無料のプライベート-wiki-は-google-sites-が最強な気がする&#34;&gt;無料のプライベート Wiki は Google Sites が最強な気がする&lt;/h2&gt;
 
 &lt;p&gt;Atlassian の構築はそもそも個人的に家庭で Confluence 的なのを使いたかったので手を出したものだった。&lt;/p&gt;
 
 &lt;p&gt;とはいえ金がかかるのでいい方法は無いかと探していたら、 Google Sites に辿りついた。&lt;/p&gt;
 
-&lt;h2 id=&#34;org-publish-で気軽に-web-サイトを作る:b90311b9df60abbcd0d54df82f9ad3a8&#34;&gt;&lt;code&gt;org-publish&lt;/code&gt; で気軽に Web サイトを作る&lt;/h2&gt;
+&lt;h2 id=&#34;org-publish-で気軽に-web-サイトを作る&#34;&gt;&lt;code&gt;org-publish&lt;/code&gt; で気軽に Web サイトを作る&lt;/h2&gt;
 
 &lt;p&gt;無料のプライベート Wiki を探している過程で org-publish にも手を出した。&lt;/p&gt;
 
 &lt;p&gt;プライベートにするのが面倒だったので諦めたけれど、
 org-mode で書いた内容を、見た目もほぼそのまま公開出来るというのは便利かもしれないのでまとめたい。&lt;/p&gt;
 
-&lt;h2 id=&#34;helm-から-ivy-に移行したい:b90311b9df60abbcd0d54df82f9ad3a8&#34;&gt;helm から ivy に移行したい&lt;/h2&gt;
+&lt;h2 id=&#34;helm-から-ivy-に移行したい&#34;&gt;helm から ivy に移行したい&lt;/h2&gt;
 
 &lt;p&gt;helm が活発過ぎて周辺エコシステムが付いていけないとか、
 ivy の方が軽量でよいとかいう話を聞くので、 ivy に移行してみたい。&lt;/p&gt;
 
 &lt;p&gt;ヘビーに helm 使ってるわけでないので、さくっと乗り換えたい気持ち。&lt;/p&gt;
 
-&lt;h2 id=&#34;ifttt-do-button-で定型文を-slack-に投稿する:b90311b9df60abbcd0d54df82f9ad3a8&#34;&gt;IFTTT Do Button で定型文を Slack に投稿する&lt;/h2&gt;
+&lt;h2 id=&#34;ifttt-do-button-で定型文を-slack-に投稿する&#34;&gt;IFTTT Do Button で定型文を Slack に投稿する&lt;/h2&gt;
 
 &lt;p&gt;普通に使ってると、IFTTT はひとつの Slack Team としか連携出来ないので、
 MAKE をアクションにして Web Hook でどうにかした話をまとめたい。&lt;/p&gt;
@@ -112,7 +425,7 @@ MAKE をアクションにして Web Hook でどうにかした話をまとめ�
 &lt;p&gt;個人的にプレイしていて色々と思うところがあったので、まとめておきたくなったのでまとめる。
 ネタバレ全開。&lt;/p&gt;
 
-&lt;h2 id=&#34;開発者の-制限プレイ:df7ae99a1c5b43af1f8a78fb7a61cd86&#34;&gt;(開発者の)制限プレイ&lt;/h2&gt;
+&lt;h2 id=&#34;開発者の-制限プレイ&#34;&gt;(開発者の)制限プレイ&lt;/h2&gt;
 
 &lt;p&gt;なんといっても本作、雪国しか出てこない。&lt;/p&gt;
 
@@ -135,7 +448,7 @@ MAKE をアクションにして Web Hook でどうにかした話をまとめ�
 
 &lt;p&gt;次は南国+ウクレレ縛りプレイとかに挑戦してもらいたい。&lt;/p&gt;
 
-&lt;h2 id=&#34;装備-法石システム:df7ae99a1c5b43af1f8a78fb7a61cd86&#34;&gt;装備+法石システム&lt;/h2&gt;
+&lt;h2 id=&#34;装備-法石システム&#34;&gt;装備+法石システム&lt;/h2&gt;
 
 &lt;p&gt;本作の装備品は、武器と法器の2種類しかない。
 この点が残念だという人もいるらしい。
@@ -156,7 +469,7 @@ MAKE をアクションにして Web Hook でどうにかした話をまとめ�
 クロノ・トリガーだったら、キャラの組み合わせを変えるだけでよかったので、
 本作では法石の組み合わせも変えないといけないのが、単に手間にしか思えなかった…。&lt;/p&gt;
 
-&lt;h2 id=&#34;バトル全般:df7ae99a1c5b43af1f8a78fb7a61cd86&#34;&gt;バトル全般&lt;/h2&gt;
+&lt;h2 id=&#34;バトル全般&#34;&gt;バトル全般&lt;/h2&gt;
 
 &lt;p&gt;〈グラーティア〉 + 〈久遠の剣閃〉とか、
 そういうものすごく相性のよい魔法の組合せに気付いてしまってからは、一気にバトルが大味になってくる。&lt;/p&gt;
@@ -178,7 +491,7 @@ MAKE をアクションにして Web Hook でどうにかした話をまとめ�
 ディノタウルス系用にブロウビート要因のヨミを使うことはあったけど、それくらい。
 まあ、クロノ・トリガーでも魔王やカエルは趣味枠だった気がする…。&lt;/p&gt;
 
-&lt;h2 id=&#34;法石に蝕まれた魔物:df7ae99a1c5b43af1f8a78fb7a61cd86&#34;&gt;法石に蝕まれた魔物&lt;/h2&gt;
+&lt;h2 id=&#34;法石に蝕まれた魔物&#34;&gt;法石に蝕まれた魔物&lt;/h2&gt;
 
 &lt;p&gt;隠し中ボスみたいなのが攻略ルート上に普通に出現する。
 気付かずにバトルを仕掛けると普通に全滅して普通にゲームオーバーになる。&lt;/p&gt;
@@ -191,7 +504,7 @@ MAKE をアクションにして Web Hook でどうにかした話をまとめ�
 
 &lt;p&gt;こういう微妙にプレイヤーを突き放した感じも、なんだか懐しい。&lt;/p&gt;
 
-&lt;h2 id=&#34;ストーリー:df7ae99a1c5b43af1f8a78fb7a61cd86&#34;&gt;ストーリー&lt;/h2&gt;
+&lt;h2 id=&#34;ストーリー&#34;&gt;ストーリー&lt;/h2&gt;
 
 &lt;p&gt;エンドやセツナに感情移入出来ないとか、選択肢の意味がほとんど無いとか、
 そういう評判をネット上ではよく見かけた。&lt;/p&gt;
@@ -212,7 +525,7 @@ MAKE をアクションにして Web Hook でどうにかした話をまとめ�
 もう少し知りたかった。もやもやする。
 想像の余地を残されたのだろうか。うーん、困る。&lt;/p&gt;
 
-&lt;h2 id=&#34;vita-版:df7ae99a1c5b43af1f8a78fb7a61cd86&#34;&gt;Vita 版&lt;/h2&gt;
+&lt;h2 id=&#34;vita-版&#34;&gt;Vita 版&lt;/h2&gt;
 
 &lt;p&gt;せっかくゲームはいい出来なのに、処理落ちがホントにひどい。
 一番最初に使える連携技の時点で処理落ちする。
@@ -228,7 +541,7 @@ Unity を恨めばいいのか、 Sony を恨めばいいのか、どれなん�
 
 &lt;p&gt;ロード時間も長めだけれど、 PS 時代もこんなもんだったなーくらいの感覚でそこまで気にはならなかった。&lt;/p&gt;
 
-&lt;h2 id=&#34;総評:df7ae99a1c5b43af1f8a78fb7a61cd86&#34;&gt;総評&lt;/h2&gt;
+&lt;h2 id=&#34;総評&#34;&gt;総評&lt;/h2&gt;
 
 &lt;p&gt;ゲームとしては値段分の価値が十分あるし、これからもこういう作品をどんどん出してほしいと思える内容だった。&lt;/p&gt;
 
@@ -280,7 +593,7 @@ Scala 製 Slack ボットのデプロイ方法を考えるのと、
       <guid>https://www.yewton.net/2016/02/21/wordpress-http2-hhvm</guid>
       <description>
 
-&lt;h2 id=&#34;tl-dr:a1ea5573187331c07f8d393beff7a4e7&#34;&gt;TL;DR&lt;/h2&gt;
+&lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/yewton/wordpress-nginx-http2-hhvm&#34;&gt;このリポジトリ&lt;/a&gt;を &lt;code&gt;clone&lt;/code&gt; して &lt;code&gt;docker-compose up -d&lt;/code&gt; して下さい
 (要 &lt;a href=&#34;https://github.com/docker/compose/releases/tag/1.6.0&#34;&gt;バージョン 1.6.0 以上&lt;/a&gt;)。
@@ -288,14 +601,14 @@ Scala 製 Slack ボットのデプロイ方法を考えるのと、
 
 &lt;p&gt;&lt;img src=&#34;https://www.yewton.net/img/2016-02-21_224951/wordpress.png&#34; alt=&#34;デモ&#34; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;動機:a1ea5573187331c07f8d393beff7a4e7&#34;&gt;動機&lt;/h2&gt;
+&lt;h2 id=&#34;動機&#34;&gt;動機&lt;/h2&gt;
 
 &lt;p&gt;WordPressをHHVMで動かしたら超速くなった!やったぜ!!という記事はをよく見るのだけれど、
 具体的にどうやって構築しているのか解説している記事があんまり無かったので、実際にやってみることにしました。&lt;/p&gt;
 
 &lt;p&gt;ついでに、HTTP/2で提供出来るとイケてる気がしたので、併せて対応してみることにします。&lt;/p&gt;
 
-&lt;h2 id=&#34;hhvm:a1ea5573187331c07f8d393beff7a4e7&#34;&gt;HHVM&lt;/h2&gt;
+&lt;h2 id=&#34;hhvm&#34;&gt;HHVM&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://www.yewton.net/img/2016-02-21_224951/hugo.png&#34; alt=&#34;HHVM&#34; /&gt;&lt;/p&gt;
 
@@ -305,7 +618,7 @@ Scala 製 Slack ボットのデプロイ方法を考えるのと、
 &lt;p&gt;まぁ、個人的にはHackもHHVMも &lt;strong&gt;すごいPHP&lt;/strong&gt; ぐらいの認識しかありませんが…。
 Hackは言語的にすごくて、HHVMは実行環境がすごい。今回用があるのはHHVMだけです。&lt;/p&gt;
 
-&lt;h2 id=&#34;http-2:a1ea5573187331c07f8d393beff7a4e7&#34;&gt;HTTP/2&lt;/h2&gt;
+&lt;h2 id=&#34;http-2&#34;&gt;HTTP/2&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://http2.github.io/&#34;&gt;HTTP/2&lt;/a&gt;は… &lt;strong&gt;すごいHTTP&lt;/strong&gt; です。&lt;/p&gt;
 
@@ -315,9 +628,9 @@ Hackは言語的にすごくて、HHVMは実行環境がすごい。今回用が
 
 &lt;p&gt;とにかく、このプロトコルで配信するだけでより効率的でより早くなる、ということです。&lt;/p&gt;
 
-&lt;h3 id=&#34;http-2-の実装:a1ea5573187331c07f8d393beff7a4e7&#34;&gt;HTTP/2 の実装&lt;/h3&gt;
+&lt;h3 id=&#34;http-2-の実装&#34;&gt;HTTP/2 の実装&lt;/h3&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://nginx.org/en/&#34;&gt;nginx&lt;/a&gt;の1.9.5からHTTP/2をサポートしているようです&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:a1ea5573187331c07f8d393beff7a4e7:1&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:a1ea5573187331c07f8d393beff7a4e7:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;。
+&lt;p&gt;&lt;a href=&#34;http://nginx.org/en/&#34;&gt;nginx&lt;/a&gt;の1.9.5からHTTP/2をサポートしているようです&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:1&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;。
 &lt;a href=&#34;https://hub.docker.com/_/nginx/&#34;&gt;公式Dockerリポジトリ&lt;/a&gt;で配信されている最新イメージでもちゃんとサポートされていました。&lt;/p&gt;
 
 &lt;p&gt;他にも&lt;a href=&#34;http://httpd.apache.org/&#34;&gt;Apache HTTP Server 2.4.17+&lt;/a&gt;や
@@ -325,7 +638,7 @@ Hackは言語的にすごくて、HHVMは実行環境がすごい。今回用が
 
 &lt;p&gt;今回はApacheよりは速かろうというのと、WordPress稼動の実例も多いことから、nginxを選択しました。適当。&lt;/p&gt;
 
-&lt;h2 id=&#34;構成:a1ea5573187331c07f8d393beff7a4e7&#34;&gt;構成&lt;/h2&gt;
+&lt;h2 id=&#34;構成&#34;&gt;構成&lt;/h2&gt;
 
 &lt;p&gt;リライトルールとか複雑なリクエスト制御が不要なら、
 HHVMに組込みのWebサーバーがあるのでそれを使うのが簡単だし、速度面でも問題なさそうです。&lt;/p&gt;
@@ -354,7 +667,7 @@ iniファイルに設定書いていくのは何だかしんどそうです。&l
 
 &lt;p&gt;コンテナひとつひとつ立てていくのは辛いので、常套手段の &lt;code&gt;docker-compose&lt;/code&gt; を使って作ります。&lt;/p&gt;
 
-&lt;h2 id=&#34;動かす:a1ea5573187331c07f8d393beff7a4e7&#34;&gt;動かす&lt;/h2&gt;
+&lt;h2 id=&#34;動かす&#34;&gt;動かす&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/yewton/wordpress-nginx-http2-hhvm&#34;&gt;このリポジトリ&lt;/a&gt;に実際に稼動するものが置いてあります。
 &lt;code&gt;clone&lt;/code&gt; して &lt;code&gt;docker-compose up -d&lt;/code&gt; すれば、HTTP/2でWordPressが動いている様子が確認出来ます。&lt;/p&gt;
@@ -364,7 +677,7 @@ iniファイルに設定書いていくのは何だかしんどそうです。&l
 
 &lt;p&gt;&lt;img src=&#34;https://www.yewton.net/img/2016-02-21_224951/wordpress.png&#34; alt=&#34;デモ&#34; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;終わりに:a1ea5573187331c07f8d393beff7a4e7&#34;&gt;終わりに&lt;/h2&gt;
+&lt;h2 id=&#34;終わりに&#34;&gt;終わりに&lt;/h2&gt;
 
 &lt;p&gt;以上で、お手軽に手元でHTTP/2+HHVMなWordPressを試すことが出来るようになりました。&lt;/p&gt;
 
@@ -375,8 +688,8 @@ iniファイルに設定書いていくのは何だかしんどそうです。&l
 &lt;hr /&gt;
 
 &lt;ol&gt;
-&lt;li id=&#34;fn:a1ea5573187331c07f8d393beff7a4e7:1&#34;&gt;&lt;a href=&#34;https://www.nginx.com/blog/nginx-1-9-5/&#34;&gt;HTTP/2 Supported with NGINX Open Source 1.9.5 | NGINX&lt;/a&gt;
- &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:a1ea5573187331c07f8d393beff7a4e7:1&#34;&gt;↩&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:1&#34;&gt;&lt;a href=&#34;https://www.nginx.com/blog/nginx-1-9-5/&#34;&gt;HTTP/2 Supported with NGINX Open Source 1.9.5 | NGINX&lt;/a&gt;
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:1&#34;&gt;↩&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
 </description>
@@ -390,7 +703,7 @@ iniファイルに設定書いていくのは何だかしんどそうです。&l
       <guid>https://www.yewton.net/2016/02/19/save-storage-space-by-moving-vm-related-files-to-ex-storage</guid>
       <description>
 
-&lt;h2 id=&#34;何かと容量を食うvm関連ファイル:3a11f2e399daaf1f3e8ebd09bd2d51d0&#34;&gt;何かと容量を食うVM関連ファイル&lt;/h2&gt;
+&lt;h2 id=&#34;何かと容量を食うvm関連ファイル&#34;&gt;何かと容量を食うVM関連ファイル&lt;/h2&gt;
 
 &lt;p&gt;DockerやらVagrantやらで作業していると、いつのまにかディスク容量が逼迫していることがありますよね。&lt;/p&gt;
 
@@ -398,7 +711,7 @@ iniファイルに設定書いていくのは何だかしんどそうです。&l
 
 &lt;p&gt;そこで拡張ストレージを用意して、容量を食いがちなVM関連のファイルを移動することにしました。&lt;/p&gt;
 
-&lt;h3 id=&#34;参考-mac用の拡張ストレージ:3a11f2e399daaf1f3e8ebd09bd2d51d0&#34;&gt;(参考)Mac用の拡張ストレージ&lt;/h3&gt;
+&lt;h3 id=&#34;参考-mac用の拡張ストレージ&#34;&gt;(参考)Mac用の拡張ストレージ&lt;/h3&gt;
 
 &lt;p&gt;USBで外付けするようなのだと持ち運びに不便なので、
 &lt;a rel=&#34;nofollow&#34; href=&#34;http://www.amazon.co.jp/gp/product/B00TTFOJ4A/ref=as_li_ss_tl?ie=UTF8&amp;camp=247&amp;creative=7399&amp;creativeASIN=B00TTFOJ4A&amp;linkCode=as2&amp;tag=yewton-22&#34;&gt;iSlice Pro&lt;/a&gt;&lt;img src=&#34;http://ir-jp.amazon-adsystem.com/e/ir?t=yewton-22&amp;l=as2&amp;o=9&amp;a=B00TTFOJ4A&#34; width=&#34;1&#34; height=&#34;1&#34; border=&#34;0&#34; alt=&#34;&#34; style=&#34;border:none !important; margin:0px !important;&#34; /&gt;
@@ -407,7 +720,7 @@ iSliceの場合はただのアダプタなので別途128GBのmicroSDカード�
 
 &lt;iframe src=&#34;https://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&amp;bc1=000000&amp;IS2=1&amp;bg1=FFFFFF&amp;fc1=000000&amp;lc1=0000FF&amp;t=yewton-22&amp;o=9&amp;p=8&amp;l=as4&amp;m=amazon&amp;f=ifr&amp;ref=ss_til&amp;asins=B00TTFOJ4A&#34; style=&#34;width:120px;height:240px;&#34; scrolling=&#34;no&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
 
-&lt;h2 id=&#34;vagrant:3a11f2e399daaf1f3e8ebd09bd2d51d0&#34;&gt;Vagrant&lt;/h2&gt;
+&lt;h2 id=&#34;vagrant&#34;&gt;Vagrant&lt;/h2&gt;
 
 &lt;p&gt;Vagrant用のBoxファイルとVMイメージの保存場所を変える際には、以下の記事が参考になります:&lt;/p&gt;
 
@@ -418,7 +731,7 @@ iSliceの場合はただのアダプタなので別途128GBのmicroSDカード�
 
 &lt;p&gt;&lt;code&gt;export VAGRANT_HOME=/Volumes/data/.vagrant.d&lt;/code&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;docker-machine:3a11f2e399daaf1f3e8ebd09bd2d51d0&#34;&gt;Docker Machine&lt;/h2&gt;
+&lt;h2 id=&#34;docker-machine&#34;&gt;Docker Machine&lt;/h2&gt;
 
 &lt;p&gt;Docker Machine用のファイルもデカいので移動させたいです。&lt;/p&gt;
 
@@ -433,7 +746,7 @@ VB上で除去→追加の手順を踏みます。
 
 &lt;p&gt;これも &lt;code&gt;.bashrc&lt;/code&gt; やらに書いておきましょう。&lt;/p&gt;
 
-&lt;h2 id=&#34;注意-外部ストレージのフォーマット:3a11f2e399daaf1f3e8ebd09bd2d51d0&#34;&gt;注意: 外部ストレージのフォーマット&lt;/h2&gt;
+&lt;h2 id=&#34;注意-外部ストレージのフォーマット&#34;&gt;注意: 外部ストレージのフォーマット&lt;/h2&gt;
 
 &lt;p&gt;自分の場合、SDカードが元々フォーマットされていて、
 差すだけで既に利用できたので、フォーマットについては特に気にせず移行作業をしてしまいました。&lt;/p&gt;
@@ -461,15 +774,15 @@ exFATの場合、 &lt;code&gt;chmod&lt;/code&gt; することも出来ないの�
 &lt;p&gt;Mac OS X用拡張ストレージは、 &lt;strong&gt;〈OS X 拡張 (ジャーナリング)〉でフォーマット&lt;/strong&gt; しましょう。
 また、この際に &lt;strong&gt;〈大文字／小文字を区別する〉は不要&lt;/strong&gt; です。
 OS Xのメインストレージでは区別されませんし、
-Adobeなど一部の製品は大文字小文字を区別するファイルシステムをサポートしていません&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:3a11f2e399daaf1f3e8ebd09bd2d51d0:1&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:3a11f2e399daaf1f3e8ebd09bd2d51d0:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;。
+Adobeなど一部の製品は大文字小文字を区別するファイルシステムをサポートしていません&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:1&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;。
 無用なトラブルを避けるためにも、注意しましょう。&lt;/p&gt;
 &lt;div class=&#34;footnotes&#34;&gt;
 
 &lt;hr /&gt;
 
 &lt;ol&gt;
-&lt;li id=&#34;fn:3a11f2e399daaf1f3e8ebd09bd2d51d0:1&#34;&gt;&lt;a href=&#34;https://helpx.adobe.com/jp/x-productkb/global/cpsid_83180.html&#34;&gt;Mac OS X ファイルシステムの確認方法と大文字と小文字を区別するファイルシステムについて&lt;/a&gt;
- &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:3a11f2e399daaf1f3e8ebd09bd2d51d0:1&#34;&gt;↩&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:1&#34;&gt;&lt;a href=&#34;https://helpx.adobe.com/jp/x-productkb/global/cpsid_83180.html&#34;&gt;Mac OS X ファイルシステムの確認方法と大文字と小文字を区別するファイルシステムについて&lt;/a&gt;
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:1&#34;&gt;↩&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
 </description>
@@ -483,7 +796,7 @@ Adobeなど一部の製品は大文字小文字を区別するファイルシス
       <guid>https://www.yewton.net/2016/02/16/diary</guid>
       <description>
 
-&lt;h2 id=&#34;ランニング:ba55bded15366df8fcd5fbeef8e27b25&#34;&gt;ランニング&lt;/h2&gt;
+&lt;h2 id=&#34;ランニング&#34;&gt;ランニング&lt;/h2&gt;
 
 &lt;p&gt;昨日おとといと、春が来たのかと思うくらい暖かったので、
 何となく意識が高まって「よし明日からランニングを始めるぞ」という気持ちになっていた。&lt;/p&gt;
@@ -504,7 +817,7 @@ Adobeなど一部の製品は大文字小文字を区別するファイルシス
 &lt;p&gt;寒さを舐めてはいけない。
 次はもっと防寒するか、もっと暖かい日にしよう、という学びを得た。&lt;/p&gt;
 
-&lt;h2 id=&#34;カナヘイのゆるっとカフェ:ba55bded15366df8fcd5fbeef8e27b25&#34;&gt;カナヘイのゆるっとカフェ&lt;/h2&gt;
+&lt;h2 id=&#34;カナヘイのゆるっとカフェ&#34;&gt;カナヘイのゆるっとカフェ&lt;/h2&gt;
 
 &lt;p&gt;仕事終わりに、&lt;a href=&#34;http://kanahei.blog.jp/archives/1049325539.html&#34;&gt;カナヘイのゆるっとカフェ&lt;/a&gt;に行ってきた
 (カフェ公式ページは無くて、イベントページの1コンテンツという感じだったので、カナヘイさんのブログ記事にリンク)。&lt;/p&gt;
@@ -526,7 +839,7 @@ Adobeなど一部の製品は大文字小文字を区別するファイルシス
 
 &lt;p&gt;カナヘイさんもっとイベントやってください。&lt;/p&gt;
 
-&lt;h2 id=&#34;google-drive-の画像を-web-ページに埋め込む:ba55bded15366df8fcd5fbeef8e27b25&#34;&gt;Google Drive の画像を Web ページに埋め込む&lt;/h2&gt;
+&lt;h2 id=&#34;google-drive-の画像を-web-ページに埋め込む&#34;&gt;Google Drive の画像を Web ページに埋め込む&lt;/h2&gt;
 
 &lt;p&gt;カナヘイカフェの記事を書こうとして、どうにか写真を埋め込めないか色々調べたら、
 どうも写真の単体ページ(&lt;a href=&#34;https://drive.google.com/file/d/0B4XWl5W7tB7IQ09Jc3dKcmN6OEk/view&#34;&gt;こういうの&lt;/a&gt;)を開いて、
@@ -562,7 +875,7 @@ Adobeなど一部の製品は大文字小文字を区別するファイルシス
 そういえば最近まともに読書もしていないし…。
 社会生活を営む人間として真っ当に生きていく為の読書くらいは、しよう。&lt;/p&gt;
 
-&lt;h2 id=&#34;業務外のアレコレ:7a2f7ead465353c7838d82b7d8c026fb&#34;&gt;業務外のアレコレ&lt;/h2&gt;
+&lt;h2 id=&#34;業務外のアレコレ&#34;&gt;業務外のアレコレ&lt;/h2&gt;
 
 &lt;p&gt;最近(ほぼ)趣味で、 AWS上にシンプルに構築されたWordPressブログを、
 HTTPSにしてついでにHTTP/2対応してHHVMで稼動させようぜ、というような試みをしている。&lt;/p&gt;
@@ -591,7 +904,7 @@ HHVMだけをECSで動かしてもしょうがないから、やるならWordPre
       <guid>https://www.yewton.net/2016/02/02/blog-with-hugo</guid>
       <description>
 
-&lt;h2 id=&#34;はじめに:072657b3c7db6be31ea1c615ed4cd298&#34;&gt;はじめに&lt;/h2&gt;
+&lt;h2 id=&#34;はじめに&#34;&gt;はじめに&lt;/h2&gt;
 
 &lt;p&gt;この記事は「いい感じのブログを無料で手軽に作れないかなー」、と思っている人が主な対象です。&lt;/p&gt;
 
@@ -609,7 +922,7 @@ HHVMだけをECSで動かしてもしょうがないから、やるならWordPre
 &lt;li&gt;HTTP/2なのがいい&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;サイトの方式を考える:072657b3c7db6be31ea1c615ed4cd298&#34;&gt;サイトの方式を考える&lt;/h2&gt;
+&lt;h2 id=&#34;サイトの方式を考える&#34;&gt;サイトの方式を考える&lt;/h2&gt;
 
 &lt;p&gt;手軽に始めたいので、準備はなるべく少ない方が嬉しいですね。&lt;/p&gt;
 
@@ -618,7 +931,7 @@ HHVMだけをECSで動かしてもしょうがないから、やるならWordPre
 &lt;p&gt;一方の静的サイト配信であれば、必要なのは HTML を配信出来る場所だけです。
 GitHub Pages や類似のサービスを使えば無料で利用できますね。&lt;/p&gt;
 
-&lt;h2 id=&#34;静的サイトジェネレータを選ぶ:072657b3c7db6be31ea1c615ed4cd298&#34;&gt;静的サイトジェネレータを選ぶ&lt;/h2&gt;
+&lt;h2 id=&#34;静的サイトジェネレータを選ぶ&#34;&gt;静的サイトジェネレータを選ぶ&lt;/h2&gt;
 
 &lt;p&gt;というわけで静的サイトを作成するためのジェネレータを選びます。&lt;/p&gt;
 
@@ -631,7 +944,7 @@ GitHub Pages や類似のサービスを使えば無料で利用できますね�
 &lt;p&gt;&lt;a href=&#34;http://hexo.io/&#34;&gt;Hexo&lt;/a&gt; か &lt;a href=&#34;http://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; あたりがよさそうです。
 これら二つはコンセプトもよく似ているし、最早好みの世界ですね。自分は何となく Hugo を使っています。&lt;/p&gt;
 
-&lt;h2 id=&#34;hugo:072657b3c7db6be31ea1c615ed4cd298&#34;&gt;Hugo&lt;/h2&gt;
+&lt;h2 id=&#34;hugo&#34;&gt;Hugo&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://www.yewton.net/img/2016-01-11_184419/hugo.png&#34; alt=&#34;Hugoのロゴ&#34; /&gt;&lt;/p&gt;
 
@@ -645,14 +958,14 @@ Go言語で書かれていて、インストールはとってもカンタン。
 &lt;p&gt;ブログを書く、ということだけに目的を絞れば、覚える必要がある用語は
 &lt;em&gt;Content&lt;/em&gt;, &lt;em&gt;Themes&lt;/em&gt;, &lt;em&gt;Taxonomies&lt;/em&gt; の3つだけです。&lt;/p&gt;
 
-&lt;h3 id=&#34;content:072657b3c7db6be31ea1c615ed4cd298&#34;&gt;Content&lt;/h3&gt;
+&lt;h3 id=&#34;content&#34;&gt;Content&lt;/h3&gt;
 
 &lt;p&gt;ブログで言えば記事のことです。&lt;/p&gt;
 
 &lt;p&gt;Content がどのように表示されるかは使用しているテーマによりますが、
 ブログ用テーマのほとんどは &lt;code&gt;post&lt;/code&gt; ディレクトリ以下にあるファイルを記事として扱うようです。&lt;/p&gt;
 
-&lt;h3 id=&#34;themes:072657b3c7db6be31ea1c615ed4cd298&#34;&gt;Themes&lt;/h3&gt;
+&lt;h3 id=&#34;themes&#34;&gt;Themes&lt;/h3&gt;
 
 &lt;p&gt;そのまま、サイトに適用するテーマです。&lt;/p&gt;
 
@@ -661,7 +974,7 @@ Go言語で書かれていて、インストールはとってもカンタン。
 
 &lt;p&gt;テーマ選択の方法については後述します。&lt;/p&gt;
 
-&lt;h3 id=&#34;taxonomies:072657b3c7db6be31ea1c615ed4cd298&#34;&gt;Taxonomies&lt;/h3&gt;
+&lt;h3 id=&#34;taxonomies&#34;&gt;Taxonomies&lt;/h3&gt;
 
 &lt;p&gt;やけに難しい単語ですが、分類方法のことです。
 ブログなら &lt;strong&gt;カテゴリ&lt;/strong&gt; や &lt;strong&gt;タグ&lt;/strong&gt; といった類のものです。&lt;/p&gt;
@@ -669,7 +982,7 @@ Go言語で書かれていて、インストールはとってもカンタン。
 &lt;p&gt;幸い、カテゴリとタグによる基本的な分類であればデフォルトで対応しているため、あまり意識する必要はありません。
 カテゴリやタグのことを Taxonomies と呼ぶことだけ押さえておけばOKです。&lt;/p&gt;
 
-&lt;h2 id=&#34;サイトを作る:072657b3c7db6be31ea1c615ed4cd298&#34;&gt;サイトを作る&lt;/h2&gt;
+&lt;h2 id=&#34;サイトを作る&#34;&gt;サイトを作る&lt;/h2&gt;
 
 &lt;p&gt;早速サイトを作っていきましょう。&lt;/p&gt;
 
@@ -678,7 +991,7 @@ Go言語で書かれていて、インストールはとってもカンタン。
 
 &lt;p&gt;ただし、 &lt;strong&gt;日本語に対応させる設定は追加で必要&lt;/strong&gt; です。&lt;/p&gt;
 
-&lt;h3 id=&#34;日本語対応:072657b3c7db6be31ea1c615ed4cd298&#34;&gt;日本語対応&lt;/h3&gt;
+&lt;h3 id=&#34;日本語対応&#34;&gt;日本語対応&lt;/h3&gt;
 
 &lt;p&gt;ありがたいことに、Hugoは日本語や中国語の為の特別な設定を用意してくれています。
 設定ファイルに &lt;code&gt;hasCJKLanguage = true&lt;/code&gt; という行を追加しましょう。&lt;/p&gt;
@@ -686,7 +999,7 @@ Go言語で書かれていて、インストールはとってもカンタン。
 &lt;p&gt;これをやらないと、一覧用に記事を自動で切り詰めてくれる機能や、
 読み終えるまでの予想時間の計算が滅茶苦茶になってしまいます。&lt;/p&gt;
 
-&lt;h2 id=&#34;テーマを決める:072657b3c7db6be31ea1c615ed4cd298&#34;&gt;テーマを決める&lt;/h2&gt;
+&lt;h2 id=&#34;テーマを決める&#34;&gt;テーマを決める&lt;/h2&gt;
 
 &lt;p&gt;次はサイトに適用するテーマを選択しましょう。&lt;/p&gt;
 
@@ -699,14 +1012,14 @@ Go言語で書かれていて、インストールはとってもカンタン。
 &lt;p&gt;このサイトは &lt;a href=&#34;http://themes.gohugo.io/hugo-icarus/&#34;&gt;Icarus&lt;/a&gt; を使っています。
 ショーケースの中では使える機能が一番多いと思うので、どういうことが出来るのか知るには丁度よいテーマだと思います。&lt;/p&gt;
 
-&lt;h2 id=&#34;favicon-を置こう:072657b3c7db6be31ea1c615ed4cd298&#34;&gt;favicon を置こう&lt;/h2&gt;
+&lt;h2 id=&#34;favicon-を置こう&#34;&gt;favicon を置こう&lt;/h2&gt;
 
 &lt;p&gt;デフォルトでは Hugo の favicon が表示されてしまうので、カスタマイズしましょう。
 &lt;a href=&#34;http://www.favicon-generator.org/&#34;&gt;Favicon &amp;amp; App Icon Generator&lt;/a&gt; などを使うとよいです。&lt;/p&gt;
 
 &lt;p&gt;生成した &lt;code&gt;.ico&lt;/code&gt; ファイルを &lt;code&gt;static&lt;/code&gt; 直下に配置すればOKです。&lt;/p&gt;
 
-&lt;h2 id=&#34;記事を書く:072657b3c7db6be31ea1c615ed4cd298&#34;&gt;記事を書く&lt;/h2&gt;
+&lt;h2 id=&#34;記事を書く&#34;&gt;記事を書く&lt;/h2&gt;
 
 &lt;p&gt;記事はMarkdownで書きます。&lt;/p&gt;
 
@@ -716,7 +1029,7 @@ Go言語で書かれていて、インストールはとってもカンタン。
 &lt;p&gt;HugoではMarkdownの処理に &lt;a href=&#34;https://github.com/russross/blackfriday&#34;&gt;russross/blackfriday: Blackfriday: a markdown processor for Go&lt;/a&gt; を使っています。
 Blackfriday特有の書式(脚注など)もある為、こちらを参照しながら書くとよいでしょう。&lt;/p&gt;
 
-&lt;h3 id=&#34;記事のファイル名について:072657b3c7db6be31ea1c615ed4cd298&#34;&gt;記事のファイル名について&lt;/h3&gt;
+&lt;h3 id=&#34;記事のファイル名について&#34;&gt;記事のファイル名について&lt;/h3&gt;
 
 &lt;p&gt;日記や思い付きで即興で記事を書く場合、いちいち被らないようにファイル名を考えるのは面倒ですよね。&lt;/p&gt;
 
@@ -730,7 +1043,7 @@ Blackfriday特有の書式(脚注など)もある為、こちらを参照しな�
     post = &amp;quot;/:year/:month/:day/:slug&amp;quot;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;コメント対応:072657b3c7db6be31ea1c615ed4cd298&#34;&gt;コメント対応&lt;/h2&gt;
+&lt;h2 id=&#34;コメント対応&#34;&gt;コメント対応&lt;/h2&gt;
 
 &lt;p&gt;なんとなくコメント欄があるとオープンな感じでいいですよね？
 ということでコメントにも対応させてみましょう。&lt;/p&gt;
@@ -750,7 +1063,7 @@ Blackfriday特有の書式(脚注など)もある為、こちらを参照しな�
 
 &lt;p&gt;これだけでHugoの設定は完了です。(テーマが対応していれば)個別の記事ページにコメント欄が出現します。&lt;/p&gt;
 
-&lt;h2 id=&#34;デプロイ:072657b3c7db6be31ea1c615ed4cd298&#34;&gt;デプロイ&lt;/h2&gt;
+&lt;h2 id=&#34;デプロイ&#34;&gt;デプロイ&lt;/h2&gt;
 
 &lt;p&gt;生成したブログは GitHub Pages でホスティングします。&lt;/p&gt;
 
@@ -761,7 +1074,7 @@ Blackfriday特有の書式(脚注など)もある為、こちらを参照しな�
 
 &lt;p&gt;実際にこのブログで使われているモノは全て&lt;a href=&#34;https://github.com/yewton/yewton-hugo&#34;&gt;こちら&lt;/a&gt;にあるので参考にしてください。&lt;/p&gt;
 
-&lt;h2 id=&#34;独自ドメイン対応:072657b3c7db6be31ea1c615ed4cd298&#34;&gt;独自ドメイン対応&lt;/h2&gt;
+&lt;h2 id=&#34;独自ドメイン対応&#34;&gt;独自ドメイン対応&lt;/h2&gt;
 
 &lt;p&gt;github.com ドメインでホスティングするだけでよければ、ここから先の作業は不要です。おめでとうございます。&lt;/p&gt;
 
@@ -772,7 +1085,7 @@ Blackfriday特有の書式(脚注など)もある為、こちらを参照しな�
 &lt;a href=&#34;https://github.com/yewton/yewton.github.io/blob/master/CNAME&#34;&gt;こんなファイル&lt;/a&gt;を作ってあげて、
 DNSレジストラ側で &lt;code&gt;CNAME&lt;/code&gt; とか &lt;code&gt;ANAME&lt;/code&gt; の設定を行ないます。&lt;/p&gt;
 
-&lt;h3 id=&#34;サブドメイン-vs-ルートドメイン:072657b3c7db6be31ea1c615ed4cd298&#34;&gt;サブドメイン vs ルートドメイン&lt;/h3&gt;
+&lt;h3 id=&#34;サブドメイン-vs-ルートドメイン&#34;&gt;サブドメイン vs ルートドメイン&lt;/h3&gt;
 
 &lt;p&gt;&lt;code&gt;CNAME&lt;/code&gt; の設定をするか &lt;code&gt;ANAME&lt;/code&gt; の設定をするかは、サブドメインを使うかルートドメインを使うかの違いです。
 GitHubのヘルプによると、&lt;a href=&#34;https://help.github.com/articles/about-custom-domains-for-github-pages-sites/#subdomains&#34;&gt;サブドメインを強く推奨している&lt;/a&gt;そうです。&lt;/p&gt;
@@ -785,9 +1098,9 @@ GitHubのヘルプによると、&lt;a href=&#34;https://help.github.com/article
 &lt;li&gt;DoS対策がより効率的になるのでページロードが高速になる&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;というわけで、特別な事情がない限りはサブドメインを利用するのがよいでしょう&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:072657b3c7db6be31ea1c615ed4cd298:1&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:072657b3c7db6be31ea1c615ed4cd298:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;。&lt;/p&gt;
+&lt;p&gt;というわけで、特別な事情がない限りはサブドメインを利用するのがよいでしょう&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:1&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;。&lt;/p&gt;
 
-&lt;h2 id=&#34;https化:072657b3c7db6be31ea1c615ed4cd298&#34;&gt;HTTPS化&lt;/h2&gt;
+&lt;h2 id=&#34;https化&#34;&gt;HTTPS化&lt;/h2&gt;
 
 &lt;p&gt;ここまででブログとしての体裁は整いました。
 ですが、折角つくったサイトですからHTTPSで配信したいですよね？しましょう。&lt;/p&gt;
@@ -800,7 +1113,7 @@ GitHubのヘルプによると、&lt;a href=&#34;https://help.github.com/article
 &lt;p&gt;なおCloudFlareを利用すると、ついでに HTTP/2 も有効になります。
 他にもJSの軽量化などの各種高速化の設定を利用出来ますので、設定項目を見てみるのもよいでしょう。&lt;/p&gt;
 
-&lt;h3 id=&#34;注意:072657b3c7db6be31ea1c615ed4cd298&#34;&gt;注意&lt;/h3&gt;
+&lt;h3 id=&#34;注意&#34;&gt;注意&lt;/h3&gt;
 
 &lt;p&gt;注意点として、この際に Flexible SSL を用いる場合は、あくまでユーザとCloudFlare間の通信が暗号化されるだけで、 &lt;strong&gt;CloudFlareとGitHub Pages間の通信は暗号化されていません&lt;/strong&gt; 。
 後者の間の通信は改竄されうる状態で、かつ、ユーザはそれを知る術が無いという状態に…。&lt;/p&gt;
@@ -808,7 +1121,7 @@ GitHubのヘルプによると、&lt;a href=&#34;https://help.github.com/article
 &lt;p&gt;&lt;a href=&#34;https://konklone.com/post/github-pages-now-supports-https-so-use-it&#34;&gt;GitHub Pages Now (Sorta) Supports HTTPS, So Use It&lt;/a&gt;に詳しく書かれていますが、
 一応そういう状態であるということは認識しておきましょう。&lt;/p&gt;
 
-&lt;h2 id=&#34;終わりに:072657b3c7db6be31ea1c615ed4cd298&#34;&gt;終わりに&lt;/h2&gt;
+&lt;h2 id=&#34;終わりに&#34;&gt;終わりに&lt;/h2&gt;
 
 &lt;p&gt;いい感じのブログを無料で手軽に作る方法についてまとめました。
 改めてまとめてみるとそれなりにボリュームがあってちょっと大変でした…。&lt;/p&gt;
@@ -819,8 +1132,8 @@ GitHubのヘルプによると、&lt;a href=&#34;https://help.github.com/article
 &lt;hr /&gt;
 
 &lt;ol&gt;
-&lt;li id=&#34;fn:072657b3c7db6be31ea1c615ed4cd298:1&#34;&gt;こう書いている自分も、最初は特に気にせずにルートドメインで登録してしまっていました。この記事を書きながら気づいて、慌てて &lt;code&gt;www&lt;/code&gt; サブドメインに移行しました。
- &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:072657b3c7db6be31ea1c615ed4cd298:1&#34;&gt;↩&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:1&#34;&gt;こう書いている自分も、最初は特に気にせずにルートドメインで登録してしまっていました。この記事を書きながら気づいて、慌てて &lt;code&gt;www&lt;/code&gt; サブドメインに移行しました。
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:1&#34;&gt;↩&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
 </description>
@@ -838,7 +1151,7 @@ GitHubのヘルプによると、&lt;a href=&#34;https://help.github.com/article
 &lt;p&gt;元々は&lt;a href=&#34;http://www.scrumprimer.org/&#34;&gt;Scrum Primer - Short Introduction to Scrum&lt;/a&gt;で配布されているPDFで、
 認定スクラムマスター研修でも参照される真っ当な文献(のはす)。&lt;/p&gt;
 
-&lt;p&gt;日本語版があるにはある&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:f10cb402008eac2dda64382953d50111:1&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:f10cb402008eac2dda64382953d50111:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;んだけれど、古いし翻訳の質が怪しいので、
+&lt;p&gt;日本語版があるにはある&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:1&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;んだけれど、古いし翻訳の質が怪しいので、
 自分の理解を進めるという意味も含めて独力で翻訳してみることにした。&lt;/p&gt;
 
 &lt;p&gt;進捗としては、1週間の空いた時間をほぼそればっかりに費してようやっと &lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;5&lt;/sub&gt; くらい進んだ。
@@ -849,8 +1162,8 @@ GitHubのヘルプによると、&lt;a href=&#34;https://help.github.com/article
 &lt;hr /&gt;
 
 &lt;ol&gt;
-&lt;li id=&#34;fn:f10cb402008eac2dda64382953d50111:1&#34;&gt;すくすくスクラムが翻訳した版がある。あるはずなのだけれど公式に配布している所が見当たらない。
- &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:f10cb402008eac2dda64382953d50111:1&#34;&gt;↩&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:1&#34;&gt;すくすくスクラムが翻訳した版がある。あるはずなのだけれど公式に配布している所が見当たらない。
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:1&#34;&gt;↩&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
 </description>
@@ -864,12 +1177,12 @@ GitHubのヘルプによると、&lt;a href=&#34;https://help.github.com/article
       <guid>https://www.yewton.net/2016/01/26/hugo-el</guid>
       <description>
 
-&lt;h2 id=&#34;とは:5a4a752293a6cc5230abaaa041746920&#34;&gt;#とは&lt;/h2&gt;
+&lt;h2 id=&#34;とは&#34;&gt;#とは&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/yewton/hugo.el&#34;&gt;hugo.el&lt;/a&gt;は、Hugoでサイト作成する際に便利な関数群を定義したパッケージ。
 &lt;a href=&#34;https://marmalade-repo.org/&#34;&gt;marmalade-repo&lt;/a&gt;で公開されているので、パッケージの設定をすれば簡単にインストール出来るハズ。&lt;/p&gt;
 
-&lt;h2 id=&#34;作った動機:5a4a752293a6cc5230abaaa041746920&#34;&gt;作った動機&lt;/h2&gt;
+&lt;h2 id=&#34;作った動機&#34;&gt;作った動機&lt;/h2&gt;
 
 &lt;p&gt;何か〈物を書く〉という作業をする時、自分はEmacsを使っていて、可能な限りEmacsの中から出たくない。
 HugoはCLIのインタフェースなので、ターミナルとEmacsを行き来することになってしまうのは辛い。&lt;/p&gt;
@@ -879,7 +1192,7 @@ HugoはCLIのインタフェースなので、ターミナルとEmacsを行き�
 
 &lt;p&gt;…というように、Emacsの中で色々作業が完結するようにしたかった。&lt;/p&gt;
 
-&lt;h2 id=&#34;作ってみて:5a4a752293a6cc5230abaaa041746920&#34;&gt;作ってみて&lt;/h2&gt;
+&lt;h2 id=&#34;作ってみて&#34;&gt;作ってみて&lt;/h2&gt;
 
 &lt;p&gt;正直テーマのインストール補助機能はHugoを初めて触って、色々試してみたいフェーズでしか使わないので、
 ほとんどの場合大した価値じゃないかもしれない。&lt;/p&gt;
@@ -893,7 +1206,7 @@ HugoはCLIのインタフェースなので、ターミナルとEmacsを行き�
 &lt;p&gt;普段Emacsで物書きをするひとで、Hugoでブログ書こうと思う人は是非便利に使ってもらいたい。
 そんな人あんまりいなさそうだけど…。&lt;/p&gt;
 
-&lt;h2 id=&#34;todo:5a4a752293a6cc5230abaaa041746920&#34;&gt;TODO&lt;/h2&gt;
+&lt;h2 id=&#34;todo&#34;&gt;TODO&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;hugo-open-browser&lt;/code&gt; で今開いているcontentを直接開けたらより便利かもしれない&lt;/li&gt;
@@ -911,7 +1224,7 @@ HugoはCLIのインタフェースなので、ターミナルとEmacsを行き�
       <guid>https://www.yewton.net/2016/01/23/diary</guid>
       <description>
 
-&lt;h2 id=&#34;趣味の政策物:94b3c734ee959e37b47a43c2fb129b69&#34;&gt;趣味の政策物&lt;/h2&gt;
+&lt;h2 id=&#34;趣味の政策物&#34;&gt;趣味の政策物&lt;/h2&gt;
 
 &lt;p&gt;弊チームではバックログとしてJIRAを使っている。&lt;/p&gt;
 
@@ -929,7 +1242,7 @@ HugoはCLIのインタフェースなので、ターミナルとEmacsを行き�
 &lt;p&gt;そこで、スクラムマスターがセレモニーを進めやすいように支援するためのuserscriptを書いた。
 ソースは&lt;a href=&#34;https://github.com/yewton/userscripts&#34;&gt;yewton/userscripts&lt;/a&gt;。&lt;/p&gt;
 
-&lt;h3 id=&#34;component-labels-for-jira-scrum:94b3c734ee959e37b47a43c2fb129b69&#34;&gt;Component-labels for JIRA Scrum&lt;/h3&gt;
+&lt;h3 id=&#34;component-labels-for-jira-scrum&#34;&gt;Component-labels for JIRA Scrum&lt;/h3&gt;
 
 &lt;p&gt;コンポーネントをエピックのようにスクラムボード上で分かりやすいく表示する。&lt;/p&gt;
 
@@ -941,7 +1254,7 @@ HugoはCLIのインタフェースなので、ターミナルとEmacsを行き�
 リクエストの仕方を何か工夫しないと使いものにならないかなーと思っていたのだけれど、
 案外数百リクエスト飛ばすぐらいだとビクともしなかったので、愚直な実装のまま。&lt;/p&gt;
 
-&lt;h3 id=&#34;detail-pop-up-for-jria-scrum:94b3c734ee959e37b47a43c2fb129b69&#34;&gt;Detail Pop-up for JRIA Scrum&lt;/h3&gt;
+&lt;h3 id=&#34;detail-pop-up-for-jria-scrum&#34;&gt;Detail Pop-up for JRIA Scrum&lt;/h3&gt;
 
 &lt;p&gt;各課題に詳細画面をポップアップで開くためのボタンを追加する。&lt;/p&gt;
 
@@ -955,7 +1268,7 @@ HugoはCLIのインタフェースなので、ターミナルとEmacsを行き�
 その名の通りシンプルなモーダル機能を実装するためのライブラリを使って、
 &lt;code&gt;iframe&lt;/code&gt; で詳細画面を開くだけの機能を追加した。&lt;/p&gt;
 
-&lt;h2 id=&#34;第3回-実践的ドメイン駆動設計ワークショップ-connpass-http-ddd-alliance-connpass-com-event-24672:94b3c734ee959e37b47a43c2fb129b69&#34;&gt;&lt;a href=&#34;http://ddd-alliance.connpass.com/event/24672/&#34;&gt;第3回 実践的ドメイン駆動設計ワークショップ - connpass&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;第3回-実践的ドメイン駆動設計ワークショップ-connpass-http-ddd-alliance-connpass-com-event-24672&#34;&gt;&lt;a href=&#34;http://ddd-alliance.connpass.com/event/24672/&#34;&gt;第3回 実践的ドメイン駆動設計ワークショップ - connpass&lt;/a&gt;&lt;/h2&gt;
 
 &lt;p&gt;参加してきた。&lt;/p&gt;
 
@@ -995,7 +1308,7 @@ HugoはCLIのインタフェースなので、ターミナルとEmacsを行き�
 確定後にカーソルが行頭に飛んでしまうという問題に遭遇した。
 &lt;code&gt;C-j&lt;/code&gt; で確定する場合は起こらない。&lt;/p&gt;
 
-&lt;h2 id=&#34;tl-dr:4303d53c5ca37efd7fdc304227397d56&#34;&gt;TL;DR&lt;/h2&gt;
+&lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
 
 &lt;p&gt;以下を &lt;code&gt;init.el&lt;/code&gt; 相当のファイルに書けば回避出来る。&lt;/p&gt;
 
@@ -1006,7 +1319,7 @@ HugoはCLIのインタフェースなので、ターミナルとEmacsを行き�
 (advice-add #&#39;markdown-enter-key :around #&#39;my--markdown-entery-key-ad)
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;原因解明に至るまで:4303d53c5ca37efd7fdc304227397d56&#34;&gt;原因解明に至るまで&lt;/h2&gt;
+&lt;h2 id=&#34;原因解明に至るまで&#34;&gt;原因解明に至るまで&lt;/h2&gt;
 
 &lt;p&gt;&lt;code&gt;&amp;lt;return&amp;gt;&lt;/code&gt; = &lt;code&gt;&amp;lt;C-m&amp;gt;&lt;/code&gt; では起こり、&lt;code&gt;C-j&lt;/code&gt; では起こらないので、まずはキーバインドを確認したところ、
 前者は &lt;code&gt;markdown-enter-key&lt;/code&gt; という関数が割り当てられていた。&lt;/p&gt;
@@ -1033,7 +1346,7 @@ HugoはCLIのインタフェースなので、ターミナルとEmacsを行き�
 &lt;p&gt;&lt;code&gt;markdown-enter-key&lt;/code&gt; が発動して &lt;code&gt;(newline)&lt;/code&gt; が評価された結果、
 &lt;code&gt;skk-kakutei&lt;/code&gt; が発動して変換確定、その後に &lt;code&gt;markdown-indent-line&lt;/code&gt; が呼ばれているのがどうも悪いらしい。&lt;/p&gt;
 
-&lt;h2 id=&#34;回避方法:4303d53c5ca37efd7fdc304227397d56&#34;&gt;回避方法&lt;/h2&gt;
+&lt;h2 id=&#34;回避方法&#34;&gt;回避方法&lt;/h2&gt;
 
 &lt;p&gt;これは &lt;strong&gt;&lt;code&gt;markdown-enter-key&lt;/code&gt; が呼ばれた時に &lt;code&gt;skk-henkan-mode&lt;/code&gt; 中だったら、&lt;/strong&gt;
 &lt;strong&gt;本来の挙動ではなく &lt;code&gt;skk-kakutei&lt;/code&gt; だけを行なうようにする&lt;/strong&gt; ことで回避出来そうだ。&lt;/p&gt;
@@ -1054,7 +1367,7 @@ HugoはCLIのインタフェースなので、ターミナルとEmacsを行き�
 &lt;p&gt;昨日は都内も大雪(いうほどか？)で出社がダルそうだったので、終日リモートワークしていた。
 本当に一歩も家から出ずに、パジャマから着替えもせずに、もくもくとPC作業。&lt;/p&gt;
 
-&lt;h2 id=&#34;個人のタスク管理:cf0329059db40c2a5492126930e90824&#34;&gt;個人のタスク管理&lt;/h2&gt;
+&lt;h2 id=&#34;個人のタスク管理&#34;&gt;個人のタスク管理&lt;/h2&gt;
 
 &lt;p&gt;最近認定スクラムマスターも取ったし、
 一日中スクラムのことばかり考えて悶々とするような続いている。&lt;/p&gt;
@@ -1068,63 +1381,6 @@ HugoはCLIのインタフェースなので、ターミナルとEmacsを行き�
 
 &lt;p&gt;ボードによると、目下最優先のタスクは、 &lt;code&gt;markdwon-mode&lt;/code&gt; で &lt;code&gt;skk-mode&lt;/code&gt; の確定キーバインドが想定通り機能しない件の対応である。
 やるぞ。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>HTTPSに対応してついでにHTTP/2対応された日</title>
-      <link>https://www.yewton.net/2016/01/18/diary</link>
-      <pubDate>Mon, 18 Jan 2016 00:06:20 +0900</pubDate>
-      
-      <guid>https://www.yewton.net/2016/01/18/diary</guid>
-      <description>
-
-&lt;h2 id=&#34;https-http-2-対応:e6a1a03cb41557bae8d628ec222879e1&#34;&gt;HTTPS + HTTP/2 対応&lt;/h2&gt;
-
-&lt;p&gt;世の中的にHTTPS対応してないといかんような気がしたので、
-このサイトもHTTPSで配信するように対応した。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://1000ch.net/posts/2015/github-pages-custom-domain-in-https.html&#34;&gt;GitHub Pagesに設定しているカスタムドメインをHTTPS対応させる - 1000ch.net&lt;/a&gt;を大いに参考にさせていただいた。
-もう本当に書いてある通りにすればいい。 &lt;a href=&#34;https://www.cloudflare.com/&#34;&gt;CloudFlare&lt;/a&gt; 様々である。&lt;/p&gt;
-
-&lt;p&gt;敢えて付け加えるとしたら、(CloudFlareのサイト上に注記されてはいるけども)Flexible SSLが実際に動くようになるまでは結構時間がかかること。
-自分の場合は、都合7〜8時間程度かかった。
-この間、ステータスは &lt;code&gt;AUTHORIZING CERTIFICATES&lt;/code&gt; から &lt;code&gt;ISSUING CERTIFICATES&lt;/code&gt; になり、最終的に &lt;code&gt;ACTIVE CERTIFICATE&lt;/code&gt; になった。&lt;/p&gt;
-
-&lt;p&gt;この方法でサイトをHTTPS対応するのは簡単だけども懸念もあるらしい&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:e6a1a03cb41557bae8d628ec222879e1:1&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:e6a1a03cb41557bae8d628ec222879e1:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;ので、
-また今度この辺が実際どういう仕組みで動いてるのか調べてまとめたいと思う。&lt;/p&gt;
-
-&lt;p&gt;なお、CloudFlareを利用することで副次的に HTTP/2 にも対応することになった。
-Chromeで &lt;a href=&#34;https://chrome.google.com/webstore/detail/http2-and-spdy-indicator/mpbpobfflnpcgagjijhmgnchggcjblin&#34;&gt;HTTP/2 and SPDY indicator&lt;/a&gt;
-を入れてアクセスしたりすると分かる。&lt;/p&gt;
-
-&lt;h2 id=&#34;ddd:e6a1a03cb41557bae8d628ec222879e1&#34;&gt;DDD&lt;/h2&gt;
-
-&lt;p&gt;開発チームビルディングの一環で、ドメイン駆動設計について改めて色々調べたりしている。&lt;/p&gt;
-
-&lt;p&gt;図やドキュメントに本質はないとはいえ、ユビキタス言語のサポートとして用語集を作ったり、
-深いモデルの洞察のために図が役に立ったりするので、そのへんのサポートツールが欲しくなる。&lt;/p&gt;
-
-&lt;p&gt;色々探してたら&lt;a href=&#34;https://skillsmatter.com/skillscasts/6259-ddd-and-microservices-at-last-some-bounderies&#34;&gt;エヴァンス先生がマイクロサービスとの関わりについて講習してる動画&lt;/a&gt;があった。
-境界づけられたコンテキストはサービスじゃないから、別に実サービスと一対一対応する必要はない。
-例えば、複数のコンテキストにまたがってやりとりされるようなあるコンテキストのメッセージがあるなら、
-それは Interchange Context (日本語で言うと相互連結コンテキスト？)のように別のコンテキストとして定義すればいいよね、みたいな話があった。&lt;/p&gt;
-
-&lt;p&gt;せっかく内製開発してて、スクラムやってて、物理的にステークホルダー達とも近い距離にいるのだから、
-その恩恵を最大限に活かせるようにしたい。
-そのためにDDDって実践的に役立つと思うので、もっと勉強しなければ。&lt;/p&gt;
-
-&lt;p&gt;勉強の一環として今度&lt;a href=&#34;http://ddd-alliance.connpass.com/event/25209/&#34;&gt;DDD Alliance! ドメイン駆動設計のためのオブジェクト指向入門&lt;/a&gt;に行ってみる。
-日本でDDDのコミュニティってここくらい？な気がするので、勉強会の内容というよりはコミュニティの様子が気になるので。&lt;/p&gt;
-&lt;div class=&#34;footnotes&#34;&gt;
-
-&lt;hr /&gt;
-
-&lt;ol&gt;
-&lt;li id=&#34;fn:e6a1a03cb41557bae8d628ec222879e1:1&#34;&gt;&lt;a href=&#34;https://konklone.com/post/github-pages-now-supports-https-so-use-it&#34;&gt;GitHub Pages Now (Sorta) Supports HTTPS, So Use It&lt;/a&gt;
- &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:e6a1a03cb41557bae8d628ec222879e1:1&#34;&gt;↩&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
 </description>
     </item>
     

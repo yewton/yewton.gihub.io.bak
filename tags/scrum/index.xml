@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Scrum on yewton.net</title>
-    <link>https://www.yewton.net/tags/scrum/</link>
-    <description>Recent content in Scrum on yewton.net</description>
+    <title>yewton.net</title>
+    <link>https://www.yewton.net/tags/scrum/index.xml</link>
+    <description>Recent content on yewton.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Sun, 31 Jan 2016 23:18:29 +0900</lastBuildDate>
+    <copyright>yewton. Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice).</copyright>
     <atom:link href="https://www.yewton.net/tags/scrum/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -21,7 +21,7 @@
 &lt;p&gt;元々は&lt;a href=&#34;http://www.scrumprimer.org/&#34;&gt;Scrum Primer - Short Introduction to Scrum&lt;/a&gt;で配布されているPDFで、
 認定スクラムマスター研修でも参照される真っ当な文献(のはす)。&lt;/p&gt;
 
-&lt;p&gt;日本語版があるにはある&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:f10cb402008eac2dda64382953d50111:1&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:f10cb402008eac2dda64382953d50111:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;んだけれど、古いし翻訳の質が怪しいので、
+&lt;p&gt;日本語版があるにはある&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:1&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;んだけれど、古いし翻訳の質が怪しいので、
 自分の理解を進めるという意味も含めて独力で翻訳してみることにした。&lt;/p&gt;
 
 &lt;p&gt;進捗としては、1週間の空いた時間をほぼそればっかりに費してようやっと &lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;5&lt;/sub&gt; くらい進んだ。
@@ -32,8 +32,8 @@
 &lt;hr /&gt;
 
 &lt;ol&gt;
-&lt;li id=&#34;fn:f10cb402008eac2dda64382953d50111:1&#34;&gt;すくすくスクラムが翻訳した版がある。あるはずなのだけれど公式に配布している所が見当たらない。
- &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:f10cb402008eac2dda64382953d50111:1&#34;&gt;↩&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:1&#34;&gt;すくすくスクラムが翻訳した版がある。あるはずなのだけれど公式に配布している所が見当たらない。
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:1&#34;&gt;↩&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
 </description>
@@ -61,7 +61,7 @@
 &lt;p&gt;…と思ってたけど、最近は &lt;em&gt;チームのパフォーマンスを引き出す&lt;/em&gt; っていうことに全力になっていて、
 それはそれで楽しくなってきたので、スクラムマスターもいいかなー、なんて思い始めた。&lt;/p&gt;
 
-&lt;h2 id=&#34;サイト改修:ef7e58fa0c4840571f9df66ecc7036f0&#34;&gt;サイト改修&lt;/h2&gt;
+&lt;h2 id=&#34;サイト改修&#34;&gt;サイト改修&lt;/h2&gt;
 
 &lt;p&gt;今日もサイトいじりに勤しんだ。&lt;/p&gt;
 
@@ -71,7 +71,7 @@
 
 &lt;p&gt;HTMLファイルはCSSファイルは、始めから関連付けておくといいと思う。&lt;/p&gt;
 
-&lt;h3 id=&#34;gravatar対応:ef7e58fa0c4840571f9df66ecc7036f0&#34;&gt;gravatar対応&lt;/h3&gt;
+&lt;h3 id=&#34;gravatar対応&#34;&gt;gravatar対応&lt;/h3&gt;
 
 &lt;p&gt;静的画像だけでなく、gravatarのアイコンを使えるようにした。&lt;/p&gt;
 
@@ -80,7 +80,7 @@
 &lt;p&gt;&lt;a href=&#34;https://github.com/cxfksword/greyshade/blob/28fb061bb674a2add89724dfbbf167f88f381d40/layouts/partials/header.html&#34;&gt;gravatarに対応している他のテーマ(greyshade)&lt;/a&gt;と、
 &lt;a href=&#34;http://tdwp.us/round-gravatar-images-wordpress/&#34;&gt;How to Round Gravatar Images in WordPress&lt;/a&gt;を参考にした。&lt;/p&gt;
 
-&lt;h3 id=&#34;記念日対応:ef7e58fa0c4840571f9df66ecc7036f0&#34;&gt;記念日対応&lt;/h3&gt;
+&lt;h3 id=&#34;記念日対応&#34;&gt;記念日対応&lt;/h3&gt;
 
 &lt;p&gt;最初は&lt;a href=&#34;http://counting.hatelabo.jp/&#34;&gt;Hatena::Counting&lt;/a&gt;とか類似のサービスを利用しようと思ったんだけど、
 あんまりシンプルなのが無かったので自作した。&lt;/p&gt;

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Emacslisp on yewton.net</title>
-    <link>https://www.yewton.net/tags/emacslisp/</link>
-    <description>Recent content in Emacslisp on yewton.net</description>
+    <title>yewton.net</title>
+    <link>https://www.yewton.net/tags/emacslisp/index.xml</link>
+    <description>Recent content on yewton.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Tue, 26 Jan 2016 23:25:40 +0900</lastBuildDate>
+    <copyright>yewton. Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice).</copyright>
     <atom:link href="https://www.yewton.net/tags/emacslisp/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -17,12 +17,12 @@
       <guid>https://www.yewton.net/2016/01/26/hugo-el</guid>
       <description>
 
-&lt;h2 id=&#34;とは:5a4a752293a6cc5230abaaa041746920&#34;&gt;#とは&lt;/h2&gt;
+&lt;h2 id=&#34;とは&#34;&gt;#とは&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/yewton/hugo.el&#34;&gt;hugo.el&lt;/a&gt;は、Hugoでサイト作成する際に便利な関数群を定義したパッケージ。
 &lt;a href=&#34;https://marmalade-repo.org/&#34;&gt;marmalade-repo&lt;/a&gt;で公開されているので、パッケージの設定をすれば簡単にインストール出来るハズ。&lt;/p&gt;
 
-&lt;h2 id=&#34;作った動機:5a4a752293a6cc5230abaaa041746920&#34;&gt;作った動機&lt;/h2&gt;
+&lt;h2 id=&#34;作った動機&#34;&gt;作った動機&lt;/h2&gt;
 
 &lt;p&gt;何か〈物を書く〉という作業をする時、自分はEmacsを使っていて、可能な限りEmacsの中から出たくない。
 HugoはCLIのインタフェースなので、ターミナルとEmacsを行き来することになってしまうのは辛い。&lt;/p&gt;
@@ -32,7 +32,7 @@ HugoはCLIのインタフェースなので、ターミナルとEmacsを行き�
 
 &lt;p&gt;…というように、Emacsの中で色々作業が完結するようにしたかった。&lt;/p&gt;
 
-&lt;h2 id=&#34;作ってみて:5a4a752293a6cc5230abaaa041746920&#34;&gt;作ってみて&lt;/h2&gt;
+&lt;h2 id=&#34;作ってみて&#34;&gt;作ってみて&lt;/h2&gt;
 
 &lt;p&gt;正直テーマのインストール補助機能はHugoを初めて触って、色々試してみたいフェーズでしか使わないので、
 ほとんどの場合大した価値じゃないかもしれない。&lt;/p&gt;
@@ -46,7 +46,7 @@ HugoはCLIのインタフェースなので、ターミナルとEmacsを行き�
 &lt;p&gt;普段Emacsで物書きをするひとで、Hugoでブログ書こうと思う人は是非便利に使ってもらいたい。
 そんな人あんまりいなさそうだけど…。&lt;/p&gt;
 
-&lt;h2 id=&#34;todo:5a4a752293a6cc5230abaaa041746920&#34;&gt;TODO&lt;/h2&gt;
+&lt;h2 id=&#34;todo&#34;&gt;TODO&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;hugo-open-browser&lt;/code&gt; で今開いているcontentを直接開けたらより便利かもしれない&lt;/li&gt;

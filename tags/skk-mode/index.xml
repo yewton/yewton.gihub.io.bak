@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Skk Mode on yewton.net</title>
-    <link>https://www.yewton.net/tags/skk-mode/</link>
-    <description>Recent content in Skk Mode on yewton.net</description>
+    <title>yewton.net</title>
+    <link>https://www.yewton.net/tags/skk-mode/index.xml</link>
+    <description>Recent content on yewton.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Wed, 20 Jan 2016 22:40:16 +0900</lastBuildDate>
+    <copyright>yewton. Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice).</copyright>
     <atom:link href="https://www.yewton.net/tags/skk-mode/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -21,7 +21,7 @@
 確定後にカーソルが行頭に飛んでしまうという問題に遭遇した。
 &lt;code&gt;C-j&lt;/code&gt; で確定する場合は起こらない。&lt;/p&gt;
 
-&lt;h2 id=&#34;tl-dr:4303d53c5ca37efd7fdc304227397d56&#34;&gt;TL;DR&lt;/h2&gt;
+&lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
 
 &lt;p&gt;以下を &lt;code&gt;init.el&lt;/code&gt; 相当のファイルに書けば回避出来る。&lt;/p&gt;
 
@@ -32,7 +32,7 @@
 (advice-add #&#39;markdown-enter-key :around #&#39;my--markdown-entery-key-ad)
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;原因解明に至るまで:4303d53c5ca37efd7fdc304227397d56&#34;&gt;原因解明に至るまで&lt;/h2&gt;
+&lt;h2 id=&#34;原因解明に至るまで&#34;&gt;原因解明に至るまで&lt;/h2&gt;
 
 &lt;p&gt;&lt;code&gt;&amp;lt;return&amp;gt;&lt;/code&gt; = &lt;code&gt;&amp;lt;C-m&amp;gt;&lt;/code&gt; では起こり、&lt;code&gt;C-j&lt;/code&gt; では起こらないので、まずはキーバインドを確認したところ、
 前者は &lt;code&gt;markdown-enter-key&lt;/code&gt; という関数が割り当てられていた。&lt;/p&gt;
@@ -59,7 +59,7 @@
 &lt;p&gt;&lt;code&gt;markdown-enter-key&lt;/code&gt; が発動して &lt;code&gt;(newline)&lt;/code&gt; が評価された結果、
 &lt;code&gt;skk-kakutei&lt;/code&gt; が発動して変換確定、その後に &lt;code&gt;markdown-indent-line&lt;/code&gt; が呼ばれているのがどうも悪いらしい。&lt;/p&gt;
 
-&lt;h2 id=&#34;回避方法:4303d53c5ca37efd7fdc304227397d56&#34;&gt;回避方法&lt;/h2&gt;
+&lt;h2 id=&#34;回避方法&#34;&gt;回避方法&lt;/h2&gt;
 
 &lt;p&gt;これは &lt;strong&gt;&lt;code&gt;markdown-enter-key&lt;/code&gt; が呼ばれた時に &lt;code&gt;skk-henkan-mode&lt;/code&gt; 中だったら、&lt;/strong&gt;
 &lt;strong&gt;本来の挙動ではなく &lt;code&gt;skk-kakutei&lt;/code&gt; だけを行なうようにする&lt;/strong&gt; ことで回避出来そうだ。&lt;/p&gt;

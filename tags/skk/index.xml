@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Skk on yewton.net</title>
-    <link>https://www.yewton.net/tags/skk/</link>
-    <description>Recent content in Skk on yewton.net</description>
+    <title>yewton.net</title>
+    <link>https://www.yewton.net/tags/skk/index.xml</link>
+    <description>Recent content on yewton.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Wed, 13 Jan 2016 23:00:00 +0900</lastBuildDate>
+    <copyright>yewton. Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice).</copyright>
     <atom:link href="https://www.yewton.net/tags/skk/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -17,7 +17,7 @@
       <guid>https://www.yewton.net/2016/01/13/diary</guid>
       <description>
 
-&lt;h2 id=&#34;bettertouchtool-will-switch-from-free-to-a-pay-what-you-want-model-early-next-year-bettertouchtool-btt-remote-bettersnaptool-and-more-http-www-boastr-net-bettertouchtool-may-switch-from-free-to-a-pay-what-you-want-model-early-next-year:824dcdd6f1a52d669a57ccbb65be9cd9&#34;&gt;&lt;a href=&#34;http://www.boastr.net/bettertouchtool-may-switch-from-free-to-a-pay-what-you-want-model-early-next-year/&#34;&gt;BetterTouchTool will switch from free to a “Pay what you want” model early next year. – BetterTouchTool, BTT Remote, BetterSnapTool and more&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;bettertouchtool-will-switch-from-free-to-a-pay-what-you-want-model-early-next-year-bettertouchtool-btt-remote-bettersnaptool-and-more-http-www-boastr-net-bettertouchtool-may-switch-from-free-to-a-pay-what-you-want-model-early-next-year&#34;&gt;&lt;a href=&#34;http://www.boastr.net/bettertouchtool-may-switch-from-free-to-a-pay-what-you-want-model-early-next-year/&#34;&gt;BetterTouchTool will switch from free to a “Pay what you want” model early next year. – BetterTouchTool, BTT Remote, BetterSnapTool and more&lt;/a&gt;&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://www.boastr.net/&#34;&gt;BetterTouchTool&lt;/a&gt;が1月末を目処に無料じゃなくなるらしい。&lt;/p&gt;
 
@@ -28,7 +28,7 @@
 
 &lt;p&gt;買うしかないなー。&lt;/p&gt;
 
-&lt;h2 id=&#34;割と本気で家庭用slack-botを作ってみた-八発白中-http-blog-8arrow-org-entry-2016-01-13-183349:824dcdd6f1a52d669a57ccbb65be9cd9&#34;&gt;&lt;a href=&#34;http://blog.8arrow.org/entry/2016/01/13/183349&#34;&gt;割と本気で家庭用Slack Botを作ってみた - 八発白中&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;割と本気で家庭用slack-botを作ってみた-八発白中-http-blog-8arrow-org-entry-2016-01-13-183349&#34;&gt;&lt;a href=&#34;http://blog.8arrow.org/entry/2016/01/13/183349&#34;&gt;割と本気で家庭用Slack Botを作ってみた - 八発白中&lt;/a&gt;&lt;/h2&gt;
 
 &lt;p&gt;うちの嫁はSlack使ってくれないから無理ぽ。。
 自分もカナヘイスタンプ超気に入ってるから、LINE辞めるのは無理だな。&lt;/p&gt;
@@ -38,7 +38,7 @@
 他に世界的にデファクトスタンダードなやつがあるのかとか、調べてみたい。
 &lt;a href=&#34;https://countingdownto.com/&#34;&gt;Create a Countdown Clock | CountingDownTo.com&lt;/a&gt;とかが、それらしい感じがする。&lt;/p&gt;
 
-&lt;h2 id=&#34;エンジニアにお勧めしたいメモアプリ5選-geechs-magazine-https-geechs-magazine-com-tag-lifehack-20160113:824dcdd6f1a52d669a57ccbb65be9cd9&#34;&gt;&lt;a href=&#34;https://geechs-magazine.com/tag/lifehack/20160113&#34;&gt;エンジニアにお勧めしたいメモアプリ5選 | geechs magazine&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;エンジニアにお勧めしたいメモアプリ5選-geechs-magazine-https-geechs-magazine-com-tag-lifehack-20160113&#34;&gt;&lt;a href=&#34;https://geechs-magazine.com/tag/lifehack/20160113&#34;&gt;エンジニアにお勧めしたいメモアプリ5選 | geechs magazine&lt;/a&gt;&lt;/h2&gt;
 
 &lt;p&gt;org-modeでだいたい間に合ってるけど、やっぱ同期と多デバイス対応が欲しいよなー。&lt;/p&gt;
 
@@ -46,7 +46,7 @@
 
 &lt;p&gt;そこだけ何とかなれば。。。&lt;/p&gt;
 
-&lt;h2 id=&#34;雑感:824dcdd6f1a52d669a57ccbb65be9cd9&#34;&gt;雑感&lt;/h2&gt;
+&lt;h2 id=&#34;雑感&#34;&gt;雑感&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;markdown-modeとskkの相性悪いんかな、変換確定しようとすると行頭にカーソルが行ってしまってストレスフルだ。。&lt;/li&gt;

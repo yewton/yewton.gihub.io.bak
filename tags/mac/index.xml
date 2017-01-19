@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Mac on yewton.net</title>
-    <link>https://www.yewton.net/tags/mac/</link>
-    <description>Recent content in Mac on yewton.net</description>
+    <title>yewton.net</title>
+    <link>https://www.yewton.net/tags/mac/index.xml</link>
+    <description>Recent content on yewton.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Fri, 19 Feb 2016 00:00:00 +0900</lastBuildDate>
+    <copyright>yewton. Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice).</copyright>
     <atom:link href="https://www.yewton.net/tags/mac/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -17,7 +17,7 @@
       <guid>https://www.yewton.net/2016/02/19/save-storage-space-by-moving-vm-related-files-to-ex-storage</guid>
       <description>
 
-&lt;h2 id=&#34;何かと容量を食うvm関連ファイル:3a11f2e399daaf1f3e8ebd09bd2d51d0&#34;&gt;何かと容量を食うVM関連ファイル&lt;/h2&gt;
+&lt;h2 id=&#34;何かと容量を食うvm関連ファイル&#34;&gt;何かと容量を食うVM関連ファイル&lt;/h2&gt;
 
 &lt;p&gt;DockerやらVagrantやらで作業していると、いつのまにかディスク容量が逼迫していることがありますよね。&lt;/p&gt;
 
@@ -25,7 +25,7 @@
 
 &lt;p&gt;そこで拡張ストレージを用意して、容量を食いがちなVM関連のファイルを移動することにしました。&lt;/p&gt;
 
-&lt;h3 id=&#34;参考-mac用の拡張ストレージ:3a11f2e399daaf1f3e8ebd09bd2d51d0&#34;&gt;(参考)Mac用の拡張ストレージ&lt;/h3&gt;
+&lt;h3 id=&#34;参考-mac用の拡張ストレージ&#34;&gt;(参考)Mac用の拡張ストレージ&lt;/h3&gt;
 
 &lt;p&gt;USBで外付けするようなのだと持ち運びに不便なので、
 &lt;a rel=&#34;nofollow&#34; href=&#34;http://www.amazon.co.jp/gp/product/B00TTFOJ4A/ref=as_li_ss_tl?ie=UTF8&amp;camp=247&amp;creative=7399&amp;creativeASIN=B00TTFOJ4A&amp;linkCode=as2&amp;tag=yewton-22&#34;&gt;iSlice Pro&lt;/a&gt;&lt;img src=&#34;http://ir-jp.amazon-adsystem.com/e/ir?t=yewton-22&amp;l=as2&amp;o=9&amp;a=B00TTFOJ4A&#34; width=&#34;1&#34; height=&#34;1&#34; border=&#34;0&#34; alt=&#34;&#34; style=&#34;border:none !important; margin:0px !important;&#34; /&gt;
@@ -34,7 +34,7 @@ iSliceの場合はただのアダプタなので別途128GBのmicroSDカード�
 
 &lt;iframe src=&#34;https://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&amp;bc1=000000&amp;IS2=1&amp;bg1=FFFFFF&amp;fc1=000000&amp;lc1=0000FF&amp;t=yewton-22&amp;o=9&amp;p=8&amp;l=as4&amp;m=amazon&amp;f=ifr&amp;ref=ss_til&amp;asins=B00TTFOJ4A&#34; style=&#34;width:120px;height:240px;&#34; scrolling=&#34;no&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
 
-&lt;h2 id=&#34;vagrant:3a11f2e399daaf1f3e8ebd09bd2d51d0&#34;&gt;Vagrant&lt;/h2&gt;
+&lt;h2 id=&#34;vagrant&#34;&gt;Vagrant&lt;/h2&gt;
 
 &lt;p&gt;Vagrant用のBoxファイルとVMイメージの保存場所を変える際には、以下の記事が参考になります:&lt;/p&gt;
 
@@ -45,7 +45,7 @@ iSliceの場合はただのアダプタなので別途128GBのmicroSDカード�
 
 &lt;p&gt;&lt;code&gt;export VAGRANT_HOME=/Volumes/data/.vagrant.d&lt;/code&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;docker-machine:3a11f2e399daaf1f3e8ebd09bd2d51d0&#34;&gt;Docker Machine&lt;/h2&gt;
+&lt;h2 id=&#34;docker-machine&#34;&gt;Docker Machine&lt;/h2&gt;
 
 &lt;p&gt;Docker Machine用のファイルもデカいので移動させたいです。&lt;/p&gt;
 
@@ -60,7 +60,7 @@ VB上で除去→追加の手順を踏みます。
 
 &lt;p&gt;これも &lt;code&gt;.bashrc&lt;/code&gt; やらに書いておきましょう。&lt;/p&gt;
 
-&lt;h2 id=&#34;注意-外部ストレージのフォーマット:3a11f2e399daaf1f3e8ebd09bd2d51d0&#34;&gt;注意: 外部ストレージのフォーマット&lt;/h2&gt;
+&lt;h2 id=&#34;注意-外部ストレージのフォーマット&#34;&gt;注意: 外部ストレージのフォーマット&lt;/h2&gt;
 
 &lt;p&gt;自分の場合、SDカードが元々フォーマットされていて、
 差すだけで既に利用できたので、フォーマットについては特に気にせず移行作業をしてしまいました。&lt;/p&gt;
@@ -88,15 +88,15 @@ exFATの場合、 &lt;code&gt;chmod&lt;/code&gt; することも出来ないの�
 &lt;p&gt;Mac OS X用拡張ストレージは、 &lt;strong&gt;〈OS X 拡張 (ジャーナリング)〉でフォーマット&lt;/strong&gt; しましょう。
 また、この際に &lt;strong&gt;〈大文字／小文字を区別する〉は不要&lt;/strong&gt; です。
 OS Xのメインストレージでは区別されませんし、
-Adobeなど一部の製品は大文字小文字を区別するファイルシステムをサポートしていません&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:3a11f2e399daaf1f3e8ebd09bd2d51d0:1&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:3a11f2e399daaf1f3e8ebd09bd2d51d0:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;。
+Adobeなど一部の製品は大文字小文字を区別するファイルシステムをサポートしていません&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:1&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;。
 無用なトラブルを避けるためにも、注意しましょう。&lt;/p&gt;
 &lt;div class=&#34;footnotes&#34;&gt;
 
 &lt;hr /&gt;
 
 &lt;ol&gt;
-&lt;li id=&#34;fn:3a11f2e399daaf1f3e8ebd09bd2d51d0:1&#34;&gt;&lt;a href=&#34;https://helpx.adobe.com/jp/x-productkb/global/cpsid_83180.html&#34;&gt;Mac OS X ファイルシステムの確認方法と大文字と小文字を区別するファイルシステムについて&lt;/a&gt;
- &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:3a11f2e399daaf1f3e8ebd09bd2d51d0:1&#34;&gt;↩&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:1&#34;&gt;&lt;a href=&#34;https://helpx.adobe.com/jp/x-productkb/global/cpsid_83180.html&#34;&gt;Mac OS X ファイルシステムの確認方法と大文字と小文字を区別するファイルシステムについて&lt;/a&gt;
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:1&#34;&gt;↩&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
 </description>

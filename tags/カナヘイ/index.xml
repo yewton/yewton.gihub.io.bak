@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>カナヘイ on yewton.net</title>
-    <link>https://www.yewton.net/tags/%E3%82%AB%E3%83%8A%E3%83%98%E3%82%A4/</link>
-    <description>Recent content in カナヘイ on yewton.net</description>
+    <title>yewton.net</title>
+    <link>https://www.yewton.net/tags/%E3%82%AB%E3%83%8A%E3%83%98%E3%82%A4/index.xml</link>
+    <description>Recent content on yewton.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Tue, 16 Feb 2016 23:00:00 +0900</lastBuildDate>
+    <copyright>yewton. Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice).</copyright>
     <atom:link href="https://www.yewton.net/tags/%E3%82%AB%E3%83%8A%E3%83%98%E3%82%A4/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -17,7 +17,7 @@
       <guid>https://www.yewton.net/2016/02/16/diary</guid>
       <description>
 
-&lt;h2 id=&#34;ランニング:ba55bded15366df8fcd5fbeef8e27b25&#34;&gt;ランニング&lt;/h2&gt;
+&lt;h2 id=&#34;ランニング&#34;&gt;ランニング&lt;/h2&gt;
 
 &lt;p&gt;昨日おとといと、春が来たのかと思うくらい暖かったので、
 何となく意識が高まって「よし明日からランニングを始めるぞ」という気持ちになっていた。&lt;/p&gt;
@@ -38,7 +38,7 @@
 &lt;p&gt;寒さを舐めてはいけない。
 次はもっと防寒するか、もっと暖かい日にしよう、という学びを得た。&lt;/p&gt;
 
-&lt;h2 id=&#34;カナヘイのゆるっとカフェ:ba55bded15366df8fcd5fbeef8e27b25&#34;&gt;カナヘイのゆるっとカフェ&lt;/h2&gt;
+&lt;h2 id=&#34;カナヘイのゆるっとカフェ&#34;&gt;カナヘイのゆるっとカフェ&lt;/h2&gt;
 
 &lt;p&gt;仕事終わりに、&lt;a href=&#34;http://kanahei.blog.jp/archives/1049325539.html&#34;&gt;カナヘイのゆるっとカフェ&lt;/a&gt;に行ってきた
 (カフェ公式ページは無くて、イベントページの1コンテンツという感じだったので、カナヘイさんのブログ記事にリンク)。&lt;/p&gt;
@@ -60,7 +60,7 @@
 
 &lt;p&gt;カナヘイさんもっとイベントやってください。&lt;/p&gt;
 
-&lt;h2 id=&#34;google-drive-の画像を-web-ページに埋め込む:ba55bded15366df8fcd5fbeef8e27b25&#34;&gt;Google Drive の画像を Web ページに埋め込む&lt;/h2&gt;
+&lt;h2 id=&#34;google-drive-の画像を-web-ページに埋め込む&#34;&gt;Google Drive の画像を Web ページに埋め込む&lt;/h2&gt;
 
 &lt;p&gt;カナヘイカフェの記事を書こうとして、どうにか写真を埋め込めないか色々調べたら、
 どうも写真の単体ページ(&lt;a href=&#34;https://drive.google.com/file/d/0B4XWl5W7tB7IQ09Jc3dKcmN6OEk/view&#34;&gt;こういうの&lt;/a&gt;)を開いて、

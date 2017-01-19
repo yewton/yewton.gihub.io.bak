@@ -2,7 +2,7 @@
 <html lang="ja-jp">
     <head>
         <title>HTTPSに対応してついでにHTTP/2対応された日 &middot; yewton.net</title>
-        <meta name="generator" content="Hugo 0.15" />
+        <meta name="generator" content="Hugo 0.17" />
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <meta name="author" content="yewton">
@@ -49,7 +49,7 @@
 
 
 
-<meta itemprop="keywords" content="emacs,ゲーム感想,技術系,日記,雑記,bettortouchtool,blog,cdn,cloudflare,ddd,dns,docker,emacs,emacslisp,github,go,google-drive,greasemonkey,hatenacounting,helm,hhvm,http/2,https,hugo,hugo.el,javascript,jira,mac,markdown-mode,moment.js,nginx,org-mode,persp-mode,scrum,skk,skk-mode,slack,ssh,ssl,trello,userscript,vagrant,virtualbox,web-mode,wordpress,いけにえと雪のセツナ,カナヘイ,ゲーム," />
+<meta itemprop="keywords" content="emacs,ゲーム感想,技術,技術系,日記,雑記,atlassian,bettortouchtool,blog,cdn,cloudflare,ddd,dns,docker,emacs,emacslisp,github,go,google-drive,greasemonkey,hatenacounting,helm,hhvm,http/2,https,hugo,hugo.el,javascript,jira,mac,markdown-mode,moment.js,nginx,org-mode,persp-mode,scrum,skk,skk-mode,slack,ssh,ssl,trello,userscript,vagrant,virtualbox,web-mode,wordpress,いけにえと雪のセツナ,カナヘイ,ゲーム," />
 
         
 
@@ -175,7 +175,7 @@
                 </script>
             
             <h2 id="name">yewton</h2>
-            <h3 id="title">サーバーサイドエンジニア。インフラも少々。あと認定スクラムマスター。</h3>
+            <h3 id="title">サーバーサイドエンジニア。インフラも少々。1児の父親。</h3>
             <span id="location"><i class="fa fa-map-marker"></i>Tokyo, Japan</span>
             
                 <span id="age" style="visibility: hidden;"><i class="fa fa-birthday-cake"></i></span>
@@ -319,6 +319,18 @@
                             </td>
                         </tr>
                     
+                        <tr>
+                            <td><i class="fa fa-calendar"></i></td>
+                            <td>父親歴</td>
+                            <td>
+                                <span class="anniversary"
+                                      data-prefix="父親歴"
+                                      data-suffix=""
+                                      data-date="2016-12-09"
+                                      style="visibility: hidden;">&nbsp;</span>
+                            </td>
+                        </tr>
+                    
                 </table>
             </div>
 
@@ -340,12 +352,12 @@
         
         <div class="article-info profile-block">
             <div class="article-info-block">
-                18
+                19
                 <span>投稿</span>
             </div>
             <div class="article-info-block">
                 
-                    43
+                    44
                 
                 <span>
                     タグ
@@ -428,7 +440,7 @@
             <div class="article-entry" itemprop="articleBody">
                 
 
-<h2 id="https-http-2-対応:e6a1a03cb41557bae8d628ec222879e1">HTTPS + HTTP/2 対応</h2>
+<h2 id="https-http-2-対応">HTTPS + HTTP/2 対応</h2>
 
 <p>世の中的にHTTPS対応してないといかんような気がしたので、
 このサイトもHTTPSで配信するように対応した。</p>
@@ -440,14 +452,14 @@
 自分の場合は、都合7〜8時間程度かかった。
 この間、ステータスは <code>AUTHORIZING CERTIFICATES</code> から <code>ISSUING CERTIFICATES</code> になり、最終的に <code>ACTIVE CERTIFICATE</code> になった。</p>
 
-<p>この方法でサイトをHTTPS対応するのは簡単だけども懸念もあるらしい<sup class="footnote-ref" id="fnref:e6a1a03cb41557bae8d628ec222879e1:1"><a rel="footnote" href="#fn:e6a1a03cb41557bae8d628ec222879e1:1">1</a></sup>ので、
+<p>この方法でサイトをHTTPS対応するのは簡単だけども懸念もあるらしい<sup class="footnote-ref" id="fnref:1"><a rel="footnote" href="#fn:1">1</a></sup>ので、
 また今度この辺が実際どういう仕組みで動いてるのか調べてまとめたいと思う。</p>
 
 <p>なお、CloudFlareを利用することで副次的に HTTP/2 にも対応することになった。
 Chromeで <a href="https://chrome.google.com/webstore/detail/http2-and-spdy-indicator/mpbpobfflnpcgagjijhmgnchggcjblin">HTTP/2 and SPDY indicator</a>
 を入れてアクセスしたりすると分かる。</p>
 
-<h2 id="ddd:e6a1a03cb41557bae8d628ec222879e1">DDD</h2>
+<h2 id="ddd">DDD</h2>
 
 <p>開発チームビルディングの一環で、ドメイン駆動設計について改めて色々調べたりしている。</p>
 
@@ -470,8 +482,8 @@ Chromeで <a href="https://chrome.google.com/webstore/detail/http2-and-spdy-indi
 <hr />
 
 <ol>
-<li id="fn:e6a1a03cb41557bae8d628ec222879e1:1"><a href="https://konklone.com/post/github-pages-now-supports-https-so-use-it">GitHub Pages Now (Sorta) Supports HTTPS, So Use It</a>
- <a class="footnote-return" href="#fnref:e6a1a03cb41557bae8d628ec222879e1:1">↩</a></li>
+<li id="fn:1"><a href="https://konklone.com/post/github-pages-now-supports-https-so-use-it">GitHub Pages Now (Sorta) Supports HTTPS, So Use It</a>
+ <a class="footnote-return" href="#fnref:1">↩</a></li>
 </ol>
 </div>
 
@@ -541,6 +553,31 @@ Chromeで <a href="https://chrome.google.com/webstore/detail/http2-and-spdy-indi
     </h3>
     <div class="widget">
         <ul id="recent-post">
+            
+            <li>
+                <div class="item-thumbnail">
+                    <a href="https://www.yewton.net/2016/09/03/how-to-get-atlassian-dragon-slayer-t-shirt" class="thumbnail">
+                    
+                        
+                        <span style="background-image:url(https://www.yewton.net/banners/atlassian-dragon-slayer-t-shirt.jpg)" alt="HTTPSに対応してついでにHTTP/2対応された日" class="thumbnail-image"></span>
+                        
+                    
+                    </a>
+                </div>
+                <div class="item-inner">
+                    
+                    <p class="item-category">
+                        <a class="article-category-link" href="https://www.yewton.net/categories/%e6%8a%80%e8%a1%93">
+                        技術
+                        </a>
+                    </p>
+                    
+                    <p class="item-title"><a href="https://www.yewton.net/2016/09/03/how-to-get-atlassian-dragon-slayer-t-shirt" class="title">Atlassian から無料でTシャツをもらう方法、あるいはドラゴンの倒し方</a></p>
+                    <p class="item-date">
+                        <time datetime="2016-09-03 15:34:07 &#43;0900 JST" itemprop="datePublished">2016.09.03 Sat</time>
+                    </p>
+                </div>
+            </li>
             
             <li>
                 <div class="item-thumbnail">
@@ -642,31 +679,6 @@ Chromeで <a href="https://chrome.google.com/webstore/detail/http2-and-spdy-indi
                 </div>
             </li>
             
-            <li>
-                <div class="item-thumbnail">
-                    <a href="https://www.yewton.net/2016/02/21/wordpress-http2-hhvm" class="thumbnail">
-                    
-                        
-                        <span style="background-image:url(https://www.yewton.net/banners/nxwphhvmd.jpg)" alt="HTTPSに対応してついでにHTTP/2対応された日" class="thumbnail-image"></span>
-                        
-                    
-                    </a>
-                </div>
-                <div class="item-inner">
-                    
-                    <p class="item-category">
-                        <a class="article-category-link" href="https://www.yewton.net/categories/%e6%8a%80%e8%a1%93%e7%b3%bb">
-                        技術系
-                        </a>
-                    </p>
-                    
-                    <p class="item-title"><a href="https://www.yewton.net/2016/02/21/wordpress-http2-hhvm" class="title">WordPressをHTTP/2&#43;HHVMで動かす環境をdocker-composeで構築してみた</a></p>
-                    <p class="item-date">
-                        <time datetime="2016-02-21 22:49:52 &#43;0900 JST" itemprop="datePublished">2016.02.21 Sun</time>
-                    </p>
-                </div>
-            </li>
-            
         </ul>
     </div>
 </div>
@@ -690,6 +702,13 @@ Chromeで <a href="https://chrome.google.com/webstore/detail/http2-and-spdy-indi
             <li class="category-list-item">
                 <a class="category-list-link" href="https://www.yewton.net/categories/%e3%82%b2%e3%83%bc%e3%83%a0%e6%84%9f%e6%83%b3">
                     ゲーム感想
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/categories/%e6%8a%80%e8%a1%93">
+                    技術
                 </a>
                 <span class="category-list-count">1</span>
             </li>
@@ -730,6 +749,13 @@ Chromeで <a href="https://chrome.google.com/webstore/detail/http2-and-spdy-indi
     </h3>
     <div class="widget">
         <ul class="category-list">
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/atlassian">
+                    atlassian
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
             
             <li class="category-list-item">
                 <a class="category-list-link" href="https://www.yewton.net/tags/bettortouchtool">
@@ -1054,7 +1080,7 @@ Chromeで <a href="https://chrome.google.com/webstore/detail/http2-and-spdy-indi
 <footer id="footer">
   <div class="outer">
     <div id="footer-info" class="inner">
-      &copy; 2016
+      &copy; 2017
       yewton. Powered by <a href="//gohugo.io">Hugo</a>. Theme by <a href="http://github.com/ppoffice">PPOffice</a>.
     </div>
   </div>

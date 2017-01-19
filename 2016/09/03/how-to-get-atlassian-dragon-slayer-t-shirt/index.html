@@ -1,0 +1,1353 @@
+<!DOCTYPE html>
+<html lang="ja-jp">
+    <head>
+        <title>Atlassian から無料でTシャツをもらう方法、あるいはドラゴンの倒し方 &middot; yewton.net</title>
+        <meta name="generator" content="Hugo 0.17" />
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="author" content="yewton">
+        
+            <meta name="description" content="技術的な話とか日常の駄文、その他もろもろ。">
+        
+        
+        <link rel="icon" href="https://www.yewton.net/favicon.ico">
+        <link rel="apple-touch-icon" href="https://www.yewton.net/apple-touch-icon.png" />
+        <link rel="stylesheet" href="https://www.yewton.net/css/style.css">
+        <link rel="stylesheet" href="https://www.yewton.net/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://www.yewton.net/css/github.css">
+        <link rel="stylesheet" href="https://www.yewton.net/css/custom.css">
+        <link rel="stylesheet" href="https://www.yewton.net/fancybox/jquery.fancybox.css">
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.11.1/moment.min.js"></script>
+        <meta property="og:title" content="Atlassian から無料でTシャツをもらう方法、あるいはドラゴンの倒し方" />
+<meta property="og:description" content="仕事で Atlassian 製品を使っていて、個人的にも便利なタスク・ドキュメント管理に欲しいな、と思い、 Atlassian のスターターライセンスについてのドキュメントを読んで" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.yewton.net/2016/09/03/how-to-get-atlassian-dragon-slayer-t-shirt" />
+
+
+<meta property="og:updated_time" content="2016-09-03T15:34:07&#43;09:00"/>
+
+
+
+
+
+
+
+
+
+
+        
+        
+<meta itemprop="name" content="Atlassian から無料でTシャツをもらう方法、あるいはドラゴンの倒し方">
+<meta itemprop="description" content="仕事で Atlassian 製品を使っていて、個人的にも便利なタスク・ドキュメント管理に欲しいな、と思い、 Atlassian のスターターライセンスについてのドキュメントを読んで">
+
+
+<meta itemprop="dateModified" content="2016-09-03T15:34:07&#43;09:00" />
+<meta itemprop="wordCount" content="2776">
+
+
+
+<meta itemprop="keywords" content="emacs,ゲーム感想,技術,技術系,日記,雑記,atlassian,bettortouchtool,blog,cdn,cloudflare,ddd,dns,docker,emacs,emacslisp,github,go,google-drive,greasemonkey,hatenacounting,helm,hhvm,http/2,https,hugo,hugo.el,javascript,jira,mac,markdown-mode,moment.js,nginx,org-mode,persp-mode,scrum,skk,skk-mode,slack,ssh,ssl,trello,userscript,vagrant,virtualbox,web-mode,wordpress,いけにえと雪のセツナ,カナヘイ,ゲーム," />
+
+        
+
+  <meta name="twitter:card" content="summary"/>
+
+
+
+<meta name="twitter:title" content="Atlassian から無料でTシャツをもらう方法、あるいはドラゴンの倒し方"/>
+<meta name="twitter:description" content="仕事で Atlassian 製品を使っていて、個人的にも便利なタスク・ドキュメント管理に欲しいな、と思い、 Atlassian のスターターライセンスについてのドキュメントを読んで"/>
+<meta name="twitter:site" content="@yewton"/>
+
+
+    </head>
+    <body>
+        <div class="container">
+
+
+<div id="container">
+    <header id="header">
+    <div id="header-main" class="header-inner">
+        <div class="outer">
+            <a href="https://www.yewton.net/" id="logo"><i class="logo" style="background-image: url('https://www.yewton.net/css/images/logo.png')"></i><span class="site-title">yewton.net</span></a>
+            <nav id="main-nav">
+                
+                    
+                        <a class="main-nav-link" href="https://www.yewton.net/">Home</a>
+                    
+                
+                    
+                
+                    
+                
+
+                
+
+                
+                    
+                
+                    
+                        <a class="main-nav-link" href="https://www.yewton.net/tags/">Tags</a>
+                    
+                
+                    
+                        <a class="main-nav-link" href="https://www.yewton.net/categories/">Categories</a>
+                    
+                
+            </nav>
+            <nav id="sub-nav">
+                <div class="profile" id="profile-nav">
+                    <a id="profile-anchor" href="javascript:;">
+                        
+                            <img class="avatar" src="https://www.yewton.net/img/avatar-placeholder.png" alt="Profile Picture"/>
+                            <script src="https://www.yewton.net/js/md5.js"></script>
+                            <script type="text/javascript">
+                             $(function(){
+                                 $('.avatar').attr('src', 'https://www.gravatar.com/avatar/' + MD5('yewton@gmail.com') + '?s=128');
+                             });
+                            </script>
+                        
+                        <i class="fa fa-caret-down"></i></a>
+                </div>
+            </nav>
+            <div id="search-form-wrap">
+                <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form">
+                    <input type="search" name="q" results="0" class="search-form-input" placeholder="検索">
+                    <button type="submit" class="search-form-submit">
+                    </button>
+                    <input type="hidden" name="q" value="site:https://www.yewton.net/">
+                </form>
+            </div>
+        </div>
+    </div>
+    <div id="main-nav-mobile" class="header-sub header-inner">
+        <table class="menu outer">
+            <tbody>
+                <tr>
+                    
+                        
+                            <td><a class="main-nav-link" href="https://www.yewton.net/">Home</a></td>
+                        
+                    
+                        
+                    
+                        
+                    
+
+                    
+
+                    
+                        
+                    
+                        
+                            <td><a class="main-nav-link" href="https://www.yewton.net/tags/">Tags</a></td>
+                        
+                    
+                        
+                            <td><a class="main-nav-link" href="https://www.yewton.net/categories/">Categories</a></td>
+                        
+                    
+                    <td>
+                        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form">
+                            <input type="search" name="q" results="0" class="search-form-input" placeholder="Search">
+                            <input type="hidden" name="q" value="site:https://www.yewton.net/">
+                        </form>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</header>
+
+    <div class="outer">
+        <aside id="profile">
+    <div class="inner profile-inner">
+        <div class="base-info profile-block">
+            
+                <img id="avatar" class="avatar" src="https://www.yewton.net/img/avatar-placeholder.png" alt="Profile Picture"/>
+                <script src="https://www.yewton.net/js/md5.js"></script>
+                <script type="text/javascript">
+                 $(function(){
+                     $('#avatar').attr('src', 'https://www.gravatar.com/avatar/' + MD5('yewton@gmail.com') + '?s=128');
+                 });
+                </script>
+            
+            <h2 id="name">yewton</h2>
+            <h3 id="title">サーバーサイドエンジニア。インフラも少々。1児の父親。</h3>
+            <span id="location"><i class="fa fa-map-marker"></i>Tokyo, Japan</span>
+            
+                <span id="age" style="visibility: hidden;"><i class="fa fa-birthday-cake"></i></span>
+                <script type="text/javascript">
+                 $(function(){
+                     var birthday = moment('1986-06-11');
+                     var wholedays = moment().diff(birthday, 'days');
+                     var years = Math.floor(wholedays / 365);
+                     var days = wholedays % 365;
+                     var text = '';
+                     if (years) { text += years + '歳'; }
+                     if (days) { text += 'と' + days + '日'; }
+                     $('#age').append(text).hide().css({'visibility': 'visible'}).fadeIn();
+                 });
+                </script>
+            
+            
+                <a id="follow" href="https://twitter.com/yewton">
+                    フォロー
+                </a>
+            
+        </div>
+        <div class="contact-info profile-block">
+            <table class="contact-list">
+                <tr>
+                    
+<td><a href="//github.com/yewton" target="_blank" title="GitHub"><i class="fa fa-github"></i></a></td>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<td><a href="//instagram.com/yewton" target="_blank" title="Instagram"><i class="fa fa-instagram"></i></a></td>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<td><a href="//linkedin.com/in/yewton" target="_blank" title="LinkedIn"><i class="fa fa-linkedin"></i></a></td>
+
+
+
+
+
+
+
+
+
+
+
+<td><a href="//plus.google.com/+YutoSasaki" target="_blank" title="Google+"><i class="fa fa-googleplus"></i></a></td>
+
+
+
+<td><a href="//facebook.com/yewton" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a></td>
+
+
+
+<td><a href="//twitter.com/yewton" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a></td>
+
+
+                    <td><a href="" target="_blank" title="RSS"><i class="fa fa-rss"></i></a></td>
+                </tr>
+            </table>
+        </div>
+        
+            <div class="anniversary-info profile-block">
+                <table id="anniversary-list">
+                    
+                        <tr>
+                            <td><i class="fa fa-calendar"></i></td>
+                            <td>結婚</td>
+                            <td>
+                                <span class="anniversary"
+                                      data-prefix="結婚"
+                                      data-suffix="目"
+                                      data-date="2010-11-30"
+                                      style="visibility: hidden;">&nbsp;</span>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><i class="fa fa-calendar"></i></td>
+                            <td>付き合って</td>
+                            <td>
+                                <span class="anniversary"
+                                      data-prefix="付き合って"
+                                      data-suffix="目"
+                                      data-date="2007-11-30"
+                                      style="visibility: hidden;">&nbsp;</span>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><i class="fa fa-calendar"></i></td>
+                            <td>社会人</td>
+                            <td>
+                                <span class="anniversary"
+                                      data-prefix="社会人"
+                                      data-suffix="目"
+                                      data-date="2010-04-01"
+                                      style="visibility: hidden;">&nbsp;</span>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><i class="fa fa-calendar"></i></td>
+                            <td>現職勤続</td>
+                            <td>
+                                <span class="anniversary"
+                                      data-prefix="現職勤続"
+                                      data-suffix=""
+                                      data-date="2015-09-01"
+                                      style="visibility: hidden;">&nbsp;</span>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><i class="fa fa-calendar"></i></td>
+                            <td>父親歴</td>
+                            <td>
+                                <span class="anniversary"
+                                      data-prefix="父親歴"
+                                      data-suffix=""
+                                      data-date="2016-12-09"
+                                      style="visibility: hidden;">&nbsp;</span>
+                            </td>
+                        </tr>
+                    
+                </table>
+            </div>
+
+            <script type="text/javascript">
+             $(function(){
+                 $('.anniversary').each(function () {
+                     var suffix = $(this).data('suffix');
+                     var date = moment($(this).data('date'));
+                     var wholedays = moment().diff(date, 'days');
+                     var years = Math.floor(wholedays / 365);
+                     var days = wholedays % 365;
+                     var text = '';
+                     if (years) { text += years + '年'; }
+                     if (days) { text += days + '日'; }
+                     $(this).html(text + suffix).hide().css({'visibility': 'visible'}).fadeIn();
+                 });
+             });
+            </script>
+        
+        <div class="article-info profile-block">
+            <div class="article-info-block">
+                19
+                <span>投稿</span>
+            </div>
+            <div class="article-info-block">
+                
+                    44
+                
+                <span>
+                    タグ
+                </span>
+            </div>
+        </div>
+    </div>
+</aside>
+
+        <section id="main">
+    <article id="page-undefined" class="article article-type-page" itemscope="" itemprop="blogPost">
+        <div class="article-inner">
+            
+                
+                    <div class="article-banner" style="background-image: url(https://www.yewton.net/banners/atlassian-dragon-slayer-t-shirt.jpg); height: 200px;">
+                        <div class="article-banner-transparent-layer"></div>
+                    </div>
+                
+            
+
+            <header class="article-header">
+    <a href="https://www.yewton.net/2016/09/03/how-to-get-atlassian-dragon-slayer-t-shirt">
+        <h1 class="article-title" itemprop="name">
+            Atlassian から無料でTシャツをもらう方法、あるいはドラゴンの倒し方
+        </h1>
+    </a>
+    <div class="article-meta">
+        <div class="article-date">
+            <i class="fa fa-calendar"></i>
+            <time datetime="2016-09-03 15:34:07 &#43;0900 JST" itemprop="datePublished">2016.09.03 Sat</time>
+            &middot;
+            2776
+            語
+            &middot;
+            6
+            分
+        </div>
+
+        
+        
+            
+            
+                <div class="article-category">
+                    <i class="fa fa-folder"></i>
+                    
+                        <a class="article-category-link" href="https://www.yewton.net/categories/%e6%8a%80%e8%a1%93">技術</a>
+                        
+                    
+                </div>
+            
+        
+
+        
+            
+            
+                <div class="article-category">
+                    <i class="fa fa-tags"></i>
+                    
+                        <a class="article-category-link" href="https://www.yewton.net/tags/atlassian">Atlassian</a>
+                        
+                    
+                </div>
+            
+        
+    </div>
+</header>
+
+            <div class="article-entry" itemprop="articleBody">
+                
+
+<p>仕事で Atlassian 製品を使っていて、個人的にも便利なタスク・ドキュメント管理に欲しいな、と思い、
+<a href="https://ja.atlassian.com/licensing/starter#aboutthestarterprogram-8">Atlassian のスターターライセンスについてのドキュメント</a>を読んでいた。</p>
+
+<p>すると気になるフレーズが目に入った。 <strong>「ドラゴンズレアとは何ですか？」</strong> ──</p>
+
+<blockquote>
+<p>6 つのスターター ライセンスの統合スイートをセットアップすると素晴らしい結果になりますが、セットアップ手順は複雑で時間がかかります。アトラシアンでは、アトラシアン アプリケーション スイートを統合するため方法をドラゴンズレアという説明書にまとめました。また、この困難だけれども素晴らしい旅を完了された方全員向けに、限定版アトラシアン ドラゴン スレイヤー T シャツを提供しています。今すぐ冒険を始めましょう! 勇気がある方はドラゴンに立ち向かいましょう!</p>
+</blockquote>
+
+<p>せっかくもらえるもんなら、とドラゴン退治をすることにした。</p>
+
+<h2 id="2017-1-20-時点-注意">(2017/1/20 時点)注意</h2>
+
+<p>どうやら現在、 <strong>Tシャツを要求するためのページが 404 になってしまっている</strong> ようす
+(
+<a href="https://answers.atlassian.com/questions/43114478/dragon-slayed-but-cant-get-t-shirt">Dragon slayed, but can&rsquo;t get t-shirt? - Atlassian Answers</a> )
+。</p>
+
+<p>せっかくやってもTシャツはもらえないかもしれないので注意。</p>
+
+<h2 id="環境要件">環境要件</h2>
+
+<p>ドキュメントには「最低 3 GB の RAM と 500 MB のアプリケーションファイル用の空き容量」とある。</p>
+
+<p>しかし、実際にやってみたところ 3 GB では全てのアプリケーションを立ち上げることが出来なかった。
+最終的に 6 つのアプリケーションを稼動させることになるのだが、 5 つが限界だった。
+<strong>最低 RAM は 4 GB は必要</strong> だと思う。</p>
+
+<p>またディスク容量に関しては、まっさらな環境に諸々構築したあとの総使用量が 6 GB 程だった。
+こちらも <strong>最低ストレージは 10 GB は必要</strong> だと思う。</p>
+
+<p>自分は <a href="https://cloud.google.com/">Google Cloud Platform</a> を利用して構築した。
+Google Compute Engine の <code>vCPU x 1</code> (メモリ 3.75 GB)の標準インスタンスを使ったが、
+前述の通りメモリが足りなくなってしまったので、 <code>vCPU x 2</code> (メモリ 7.5 GB)のインスタンスを使う方がよいと思う。</p>
+
+<p>OS は <strong>Debian GNU/Linux 8 (jessie)</strong> を使用した。</p>
+
+<h2 id="here-be-dragons">Here Be Dragons</h2>
+
+<p>それでは <a href="https://confluence.atlassian.com/display/ATLAS/Here+Be+Dragons">ドキュメント</a> に従って冒険を始めよう。</p>
+
+<p>基本的には書かれてある通りにやればいいだけなのだが、いくつか自分が躓いたポイントがあるので紹介していきたい。</p>
+
+<h3 id="dragons-stage-1-install-jira-https-confluence-atlassian-com-display-atlas-dragons-stage-1-install-jira"><a href="https://confluence.atlassian.com/display/ATLAS/Dragons+Stage+1+-+Install+JIRA">Dragons Stage 1 - Install JIRA</a></h3>
+
+<h4 id="step-1-install-java">Step 1. Install Java</h4>
+
+<p>まず Java を用意しなければならないのだが、なんと <strong>Oracle JDK 1.7.x</strong> でなければならない。
+<a href="http://www.oracle.com/technetwork/jp/java/eol-135779-ja.html">1.7 系はすでにサポートが終了している</a>のだが、
+このクエストではこのバージョンしか想定していないようなので、大人しく従っておく。</p>
+
+<pre><code class="language-bash">wget --header &quot;Cookie: oraclelicense=accept-securebackup-cookie&quot; http://download.oracle.com/otn-pub/java/jdk/7u79-b15/jdk-7u79-linux-x64.tar.gz
+</code></pre>
+
+<p>Debian で Oracle Java を利用するには <a href="https://wiki.debian.org/JavaPackage" title="JavaPackage -
+Debian Wiki">JavaPackage - Debian Wiki</a> にあるような作業が必要になる。</p>
+
+<pre><code class="language-bash">sudo sed -i 's/deb http:\/\/httpredir.debian.org\/debian\/ jessie main/deb http:\/\/httpredir.debian.org\/debian\/jessie main contrib/' /etc/apt/sources.list
+sudo apt-get update -y &amp;&amp; sudo apt-get install -y libgl1-mesa-glx libfontconfig1 libxslt1.1 libxtst6 libxxf86vm1 libgtk2.0-0 java-package
+make-jpkg jdk-7u79-linux-x64.tar.gz
+sudo dpkg -i oracle-java7-jdk_7u79_amd64.deb
+</code></pre>
+
+<h4 id="step-2-install-your-postgresql-database-server">Step 2. Install your PostgreSQL Database Server</h4>
+
+<p>こちらも <strong>8.4.x.</strong> というバージョン指定がある。
+Java と同様に既に <a href="https://www.postgresql.org/support/versioning/">サポート終了</a> しているため、
+Debian のリポジトリでは配布されていない。
+そのため、リポジトリを追加してからインストールする必要がある。</p>
+
+<pre><code class="language-bash">sudo sh -c 'echo &quot;deb http://apt.postgresql.org/pub/repos/apt/ $(lsb_release -cs)-pgdg main&quot; &gt; /etc/apt/sources.list.d/pgdg.list'
+wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
+sudo apt-get update -y &amp;&amp; sudo apt-get upgrade -y &amp;&amp; sudo apt-get install -y postgresql-8.4
+</code></pre>
+
+<h4 id="step-3-create-your-jira-database-in-postgresql">Step 3. Create your JIRA Database in PostgreSQL</h4>
+
+<p>Atlassian 製品はデータベースとして MySQL や PostgreSQL を利用出来る。
+ただ、日本語や絵文字などマルチバイト文字を扱う場合は PostgresSQL を使うのが無難なようだ( <a href="https://confluence.atlassian.com/jirakb/jira-does-not-work-with-emoji-4-byte-characters-429919955.html">参考</a> )。</p>
+
+<p>個人的にあまり馴染みがないのだけれど、このドラゴンズレアでも PostgreSQL が指定されているので従っておく。</p>
+
+<pre><code class="language-bash">sudo -u postgres createuser -S -d -r -P -E jirauser
+# パスワード入力
+sudo -u postgres createdb --owner jirauser --encoding utf8 jira
+</code></pre>
+
+<h4 id="step-4-install-jira">Step 4. Install JIRA</h4>
+
+<p>JIRA のバージョンも指定されている。 <strong>6.3.15</strong> を使う必要がある。</p>
+
+<pre><code class="language-bash">wget https://www.atlassian.com/software/jira/downloads/binary/atlassian-jira-6.3.15-x64.bin
+chmod a+x atlassian-jira-6.3.15-x64.bin
+sudo ./atlassian-jira-6.3.15-x64.bin
+</code></pre>
+
+<p>JIRA にはインストーラーがついているので簡単。</p>
+
+<h3 id="step-5-set-up-jira-step-6-set-up-a-project-and-create-your-jira-dashboard">Step 5. Set Up JIRA, Step 6. Set up a Project and Create your JIRA Dashboard</h3>
+
+<p>あとはドキュメントに従って Web UI 上で操作を行えばよい。</p>
+
+<p>もしかすると、以下のようなよく分からないエラーに遭遇するかもしれない。</p>
+
+<pre><code>let.ServletException: javax.servlet.jsp.JspTagException: Soy rendering failed for template '%s'.
+説明 The server encountered an internal error that prevented it from fulfilling this request.
+
+例外
+
+org.apache.jasper.JasperException: javax.servlet.ServletException: javax.servlet.jsp.JspTagException: Soy rendering failed for template '%s'.
+</code></pre>
+
+<p>環境依存なのか、言語を日本語にしていた影響なのか分からないが、エラーが発生したらブラウザをリロードすれば大体直っていた。</p>
+
+<h3 id="dragons-stage-2-jira-add-ons-https-confluence-atlassian-com-display-atlas-dragons-stage-2-jira-add-ons"><a href="https://confluence.atlassian.com/display/ATLAS/Dragons+Stage+2+-+JIRA+Add-Ons">Dragons Stage 2 - JIRA Add-Ons</a></h3>
+
+<p>ドキュメントに従うだけで特に問題はないが、 Capture for JIRA を動かそうとしたときに以下のエラーが出ていた。</p>
+
+<blockquote>
+<p>Your Bonfire license has expired. Please visit My Atlassian to renew</p>
+</blockquote>
+
+<p>ボンファイアとはなんのこったい、と思ったのだが、どうやら Capture for JIRA のことらしい。
+インストール後のアクティベーションが正常に終わっていなかったようだった。
+改めて管理画面から評価用ラインセンスを払い出してことなきを得た。</p>
+
+<h3 id="dragons-stage-3-install-confluence-https-confluence-atlassian-com-display-atlas-dragons-stage-3-install-confluence"><a href="https://confluence.atlassian.com/display/ATLAS/Dragons+Stage+3+-+Install+Confluence">Dragons Stage 3 - Install Confluence</a></h3>
+
+<h4 id="step-1-create-your-confluence-database-in-postgresql">Step 1. Create your Confluence Database in PostgreSQL</h4>
+
+<p>JIRA のときと同様に行う。</p>
+
+<pre><code class="language-bash">sudo -u postgres createuser -S -d -r -P -E confuser
+sudo -u postgres createdb --owner confuser --encoding utf8 confluence
+</code></pre>
+
+<h4 id="step-2-install-confluence">Step 2. Install Confluence</h4>
+
+<p>インストールまでは以下の通り:</p>
+
+<pre><code class="language-bash">wget https://www.atlassian.com/software/confluence/downloads/binary/atlassian-confluence-5.7.1-x64.bin
+chmod a+x atlassian-confluence-5.7.1-x64.bin
+sudo ./atlassian-confluence-5.7.1-x64.bin
+</code></pre>
+
+<p>この後、</p>
+
+<blockquote>
+<p>Because Confluence will be running on the same machine as JIRA (already installed), you need to ensure that the URL paths are different for Confluence and JIRA.</p>
+</blockquote>
+
+<p>という理由で設定ファイルを一部いじる必要がある。
+以下のように一旦 Confluence を停止、設定を修正して再起動する:</p>
+
+<pre><code class="language-bash">sudo /opt/atlassian/confluence/bin/stop-confluence.sh
+sudo sed -i 's/&lt;Context path=&quot;&quot;/&lt;Context path=&quot;\/confluence&quot;/' /opt/atlassian/confluence/conf/server.xml
+sudo /opt/atlassian/confluence/bin/start-confluence.sh
+</code></pre>
+
+<h4 id="step-3-以降">Step 3 以降</h4>
+
+<p>ドキュメントに従って進めれば問題ないはず。</p>
+
+<h3 id="dragons-stage-4-install-team-calendars-in-confluence-https-confluence-atlassian-com-display-atlas-dragons-stage-4-install-team-calendars-in-confluence"><a href="https://confluence.atlassian.com/display/ATLAS/Dragons+Stage+4+-+Install+Team+Calendars+in+Confluence">Dragons Stage 4 - Install Team Calendars in Confluence</a></h3>
+
+<p>ドキュメントに従って Web UI を操作すれば 👌 。</p>
+
+<h3 id="dragons-stage-5-install-fisheye-and-crucible-https-confluence-atlassian-com-display-atlas-dragons-stage-5-install-fisheye-and-crucible"><a href="https://confluence.atlassian.com/display/ATLAS/Dragons+Stage+5+-+Install+FishEye+and+Crucible">Dragons Stage 5 - Install FishEye and Crucible</a></h3>
+
+<h4 id="step-1-install-mercurial">Step 1. Install Mercurial</h4>
+
+<pre><code class="language-bash">sudo apt-get -y install mercurial
+</code></pre>
+
+<h4 id="step-2-create-your-fisheye-database-in-postgresql">Step 2. Create your FishEye Database in PostgreSQL</h4>
+
+<p>これまでと同様に行う:</p>
+
+<pre><code class="language-bash">sudo -u postgres createuser -S -d -r -P -E fishuser
+sudo -u postgres createdb --owner fishuser --encoding utf8 fisheye
+</code></pre>
+
+<h4 id="step-3-install-fisheye-and-crucible">Step 3. Install FishEye and Crucible</h4>
+
+<p>インストーラーが無いので若干手順が複雑になる。</p>
+
+<p>まず必要なファイルをダウンロードして展開する:</p>
+
+<pre><code class="language-bash">wget https://www.atlassian.com/software/fisheye/downloads/binary/fisheye-3.7.0.zip
+sudo unzip -d /opt/atlassian/ fisheye-3.7.0.zip
+</code></pre>
+
+<p>アプリケーションのデータディレクトリを作成する。
+他のアプリケーションに合わせて <code>/var/atlassian/application-data/fecru</code> にする:</p>
+
+<pre><code class="language-bash">sudo mkdir /var/atlassian/application-data/fecru
+</code></pre>
+
+<p><code>FISHEYE_INST</code> という環境変数が上記のデータディレクトリを指すようにする:</p>
+
+<pre><code class="language-bash">sudo sh -c 'echo &quot;export FISHEYE_INST=/var/atlassian/application-data/fecru&quot; &gt; /etc/profile.d/fecru.sh'
+source /etc/profile.d/fecru.sh
+</code></pre>
+
+<p>設定ファイルを一部修正しつつ配置する:</p>
+
+<pre><code class="language-bash">sudo cp /opt/atlassian/fecru-3.7.0/config.xml /var/atlassian/application-data/fecru/
+sudo sed -i 's/&lt;web-server&gt;/&lt;web-server context=&quot;\/fisheye&quot;&gt;/' /var/atlassian/application-data/fecru/config.xml
+</code></pre>
+
+<p>Fecru サービスを稼動させるためのユーザーを作成する:</p>
+
+<pre><code class="language-bash">sudo useradd -m -c 'Atlassian FishEye/Crucible' fecru
+</code></pre>
+
+<p>権限を適切に修正し、サービスを立ち上げる:</p>
+
+<pre><code class="language-bash">sudo chown fecru -R /opt/atlassian/fecru-3.7.0/
+sudo chown fecru -R /var/atlassian/application-data/fecru/
+nohup sudo -u fecru /opt/atlassian/fecru-3.7.0/bin/run.sh &amp;
+</code></pre>
+
+<p>本来は systemd とかでちゃんとサービス化した方がいいと思う 😟</p>
+
+<h4 id="step-4-以降">Step 4 以降</h4>
+
+<p>ドキュメントに従えば 👌</p>
+
+<h3 id="dragons-stage-6-get-jira-and-fisheye-talking-https-confluence-atlassian-com-display-atlas-dragons-stage-6-get-jira-and-fisheye-talking"><a href="https://confluence.atlassian.com/display/ATLAS/Dragons+Stage+6+-+Get+JIRA+and+FishEye+Talking">Dragons Stage 6 - Get JIRA and FishEye Talking</a></h3>
+
+<p><a href="https://confluence.atlassian.com/display/ATLAS/Dragons+Stage+6+-+Get+JIRA+and+FishEye+Talking?focusedCommentId=844238014#comment-844238014">このコメント</a>
+にあるように、恐らく FishEye の Site URL を設定してからでないと JIRA リンクが上手く動かないので、
+まず FishEye 上で Administration -&gt; Global Settings -&gt; Server から Site URL を設定しておく。</p>
+
+<p>あとはドキュメントの手順通り設定を行えばよい。</p>
+
+<h3 id="dragons-stage-7-get-jira-and-crucible-talking-https-confluence-atlassian-com-display-atlas-dragons-stage-7-get-jira-and-crucible-talking"><a href="https://confluence.atlassian.com/display/ATLAS/Dragons+Stage+7+-+Get+JIRA+and+Crucible+Talking">Dragons Stage 7 - Get JIRA and Crucible Talking</a></h3>
+
+<p>ドキュメントの通りで 🆗</p>
+
+<h3 id="dragons-stage-8-install-bamboo-https-confluence-atlassian-com-display-atlas-dragons-stage-8-install-bamboo"><a href="https://confluence.atlassian.com/display/ATLAS/Dragons+Stage+8+-+Install+Bamboo">Dragons Stage 8 - Install Bamboo</a></h3>
+
+<h4 id="step-1-create-your-bamboo-database-in-postgresql">Step 1. Create your Bamboo Database in PostgreSQL</h4>
+
+<p>これまでと同様:</p>
+
+<pre><code class="language-bash">sudo -u postgres createuser -S -d -r -P -E bamuser
+sudo -u postgres createdb --owner bamuser --encoding utf8 bamboo
+</code></pre>
+
+<h4 id="step-2-install-bamboo">Step 2. Install Bamboo</h4>
+
+<p>Fecru と同様にこちらもインストーラーが無いので複雑な手順が必要になる:</p>
+
+<pre><code class="language-bash">sudo -u postgres createuser -S -d -r -P -E bamuser
+sudo -u postgres createdb --owner bamuser --encoding utf8 bamboo
+wget https://www.atlassian.com/software/bamboo/downloads/binary/atlassian-bamboo-5.3.tar.gz
+sudo useradd -m -c 'Atlassian Bamboo' bamboo
+sudo tar -C /opt/atlassian -zxvf atlassian-bamboo-5.3.tar.gz
+sudo chown bamboo -R /opt/atlassian/atlassian-bamboo-5.3
+sudo sh -c 'echo &quot;bamboo.home=/home/bamboo&quot; &gt; /opt/atlassian/atlassian-bamboo-5.3/atlassian-bamboo/WEB-INF/classes/bamboo-init.properties'
+sudo sed -i 's/&lt;Context path=&quot;&quot;/&lt;Context path=&quot;\/bamboo&quot;/' /opt/atlassian/atlassian-bamboo-5.3/conf/server.xml
+sudo -u bamboo /opt/atlassian/atlassian-bamboo-5.3/bin/start-bamboo.sh
+</code></pre>
+
+<h4 id="step-3-set-up-bamboo">Step 3. Set Up Bamboo</h4>
+
+<p>まず Maven 3 の環境を整える必要がある。
+ドキュメントの指示通
+り
+<a href="https://developer.atlassian.com/display/DOCS/Set+up+the+Atlassian+Plugin+SDK+and+Build+a+Project">Atlassian Plugin SDK</a>
+をインストールする:</p>
+
+<pre><code class="language-bash">sudo sh -c 'echo &quot;deb https://sdkrepo.atlassian.com/debian/ stable contrib&quot; &gt; /etc/apt/sources.list.d/atlassian.list'
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys B07804338C015B73
+sudo apt-get install -y apt-transport-https
+sudo apt-get -y update
+sudo apt-get install -y atlassian-plugin-sdk
+</code></pre>
+
+<p>あとはドキュメント通りに進めればよいが、
+Maven Executable のパスを指定する箇所は
+<code>/usr/share/atlassian-plugin-sdk-6.2.9/apache-maven-3.2.1</code> のように
+指定しなければならない(ドキュメントには <code>/usr/local/Atlassian/atlassian-plugin-sdk/apache-maven</code> とあるがそこには無い)。</p>
+
+<h3 id="dragons-stage-9-bamboo-gadgets-and-jira-victory-https-confluence-atlassian-com-display-atlas-dragons-stage-9-bamboo-gadgets-and-jira-victory"><a href="https://confluence.atlassian.com/display/ATLAS/Dragons+Stage+9+-+Bamboo+Gadgets+and+JIRA+Victory">Dragons Stage 9 - Bamboo Gadgets and JIRA Victory</a></h3>
+
+<p>ドキュメントの指示通り JIRA に Bamboo ガジェットを追加すれば完了。</p>
+
+<p><strong>The Battle is Won, the Dragon is Slain!</strong></p>
+
+<h2 id="tシャツを要求する">Tシャツを要求する</h2>
+
+<p>ページの指示通りやると、クーポンコードがもらえるので、
+それを使って注文すればいい。</p>
+
+<p>自分の注文情報はこんな感じ:</p>
+
+<iframe src="https://drive.google.com/file/d/0B4XWl5W7tB7IcFRKdlhFTnpZV2s/preview" width="640" height="480"></iframe>
+
+<p>注文してから 1〜2 週間で届くらしい。</p>
+
+            </div>
+            <footer class="article-footer">
+    <a data-url="https://www.yewton.net/2016/09/03/how-to-get-atlassian-dragon-slayer-t-shirt" data-id="21e77267b1dea79e52decb73aa19e339" class="article-share-link">
+        シェア
+    </a>
+    
+    <a href="https://www.yewton.net/2016/09/03/how-to-get-atlassian-dragon-slayer-t-shirt/#disqus_thread" class="article-comment-link">
+        コメント
+    </a>
+    
+</footer>
+
+        </div>
+
+        
+<nav id="article-nav">
+    
+    <a href="https://www.yewton.net/2016/08/29/misc" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">
+          Older
+      </strong>
+      <div class="article-nav-title">三ヶ月以上ぶりに何かを書く</div>
+    </a>
+    
+
+    
+</nav>
+
+
+    </article>
+    <section id="comments">
+        <div id="disqus_thread">
+            <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'yewton';
+    var disqus_identifier = 'https:\/\/www.yewton.net\/2016\/09\/03\/how-to-get-atlassian-dragon-slayer-t-shirt';
+    var disqus_title = 'Atlassian から無料でTシャツをもらう方法、あるいはドラゴンの倒し方';
+    var disqus_url = 'https:\/\/www.yewton.net\/2016\/09\/03\/how-to-get-atlassian-dragon-slayer-t-shirt';
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        </div>
+    </section>
+</section>
+
+        <aside id="sidebar">
+    
+<div class="widget-wrap">
+    <h3 class="widget-title">
+        最新記事
+    </h3>
+    <div class="widget">
+        <ul id="recent-post">
+            
+            <li>
+                <div class="item-thumbnail">
+                    <a href="https://www.yewton.net/2016/09/03/how-to-get-atlassian-dragon-slayer-t-shirt" class="thumbnail">
+                    
+                        
+                        <span style="background-image:url(https://www.yewton.net/banners/atlassian-dragon-slayer-t-shirt.jpg)" alt="Atlassian から無料でTシャツをもらう方法、あるいはドラゴンの倒し方" class="thumbnail-image"></span>
+                        
+                    
+                    </a>
+                </div>
+                <div class="item-inner">
+                    
+                    <p class="item-category">
+                        <a class="article-category-link" href="https://www.yewton.net/categories/%e6%8a%80%e8%a1%93">
+                        技術
+                        </a>
+                    </p>
+                    
+                    <p class="item-title"><a href="https://www.yewton.net/2016/09/03/how-to-get-atlassian-dragon-slayer-t-shirt" class="title">Atlassian から無料でTシャツをもらう方法、あるいはドラゴンの倒し方</a></p>
+                    <p class="item-date">
+                        <time datetime="2016-09-03 15:34:07 &#43;0900 JST" itemprop="datePublished">2016.09.03 Sat</time>
+                    </p>
+                </div>
+            </li>
+            
+            <li>
+                <div class="item-thumbnail">
+                    <a href="https://www.yewton.net/2016/08/29/misc" class="thumbnail">
+                    
+                        
+                        <span style="background-image:url(https://www.yewton.net/banners/default.jpg)" alt="Atlassian から無料でTシャツをもらう方法、あるいはドラゴンの倒し方" class="thumbnail-image"></span>
+                        
+                    
+                    </a>
+                </div>
+                <div class="item-inner">
+                    
+                    <p class="item-category">
+                        <a class="article-category-link" href="https://www.yewton.net/categories/%e9%9b%91%e8%a8%98">
+                        雑記
+                        </a>
+                    </p>
+                    
+                    <p class="item-title"><a href="https://www.yewton.net/2016/08/29/misc" class="title">三ヶ月以上ぶりに何かを書く</a></p>
+                    <p class="item-date">
+                        <time datetime="2016-08-29 22:29:35 &#43;0900 JST" itemprop="datePublished">2016.08.29 Mon</time>
+                    </p>
+                </div>
+            </li>
+            
+            <li>
+                <div class="item-thumbnail">
+                    <a href="https://www.yewton.net/2016/05/04/helm-persp" class="thumbnail">
+                    
+                        
+                        <span style="background-image:url(https://www.yewton.net/banners/emacs.jpg)" alt="Atlassian から無料でTシャツをもらう方法、あるいはドラゴンの倒し方" class="thumbnail-image"></span>
+                        
+                    
+                    </a>
+                </div>
+                <div class="item-inner">
+                    
+                    <p class="item-category">
+                        <a class="article-category-link" href="https://www.yewton.net/categories/%e9%9b%91%e8%a8%98">
+                        雑記
+                        </a>
+                    </p>
+                    
+                    <p class="item-title"><a href="https://www.yewton.net/2016/05/04/helm-persp" class="title">Spacemacs から helm と persp-mode の設定をパクろうと思ったけど難しかった</a></p>
+                    <p class="item-date">
+                        <time datetime="2016-05-04 19:45:26 &#43;0900 JST" itemprop="datePublished">2016.05.04 Wed</time>
+                    </p>
+                </div>
+            </li>
+            
+            <li>
+                <div class="item-thumbnail">
+                    <a href="https://www.yewton.net/2016/05/04/setsuna" class="thumbnail">
+                    
+                        
+                        <span style="background-image:url(https://www.yewton.net/img/2016-05-04_160945_setsuna/setsuna.jpg)" alt="Atlassian から無料でTシャツをもらう方法、あるいはドラゴンの倒し方" class="thumbnail-image"></span>
+                        
+                    
+                    </a>
+                </div>
+                <div class="item-inner">
+                    
+                    <p class="item-category">
+                        <a class="article-category-link" href="https://www.yewton.net/categories/%e3%82%b2%e3%83%bc%e3%83%a0%e6%84%9f%e6%83%b3">
+                        ゲーム感想
+                        </a>
+                    </p>
+                    
+                    <p class="item-title"><a href="https://www.yewton.net/2016/05/04/setsuna" class="title">『いけにえと雪のセツナ』感想</a></p>
+                    <p class="item-date">
+                        <time datetime="2016-05-04 16:10:11 &#43;0900 JST" itemprop="datePublished">2016.05.04 Wed</time>
+                    </p>
+                </div>
+            </li>
+            
+            <li>
+                <div class="item-thumbnail">
+                    <a href="https://www.yewton.net/2016/05/03/diary" class="thumbnail">
+                    
+                        
+                        <span style="background-image:url(https://www.yewton.net/banners/default.jpg)" alt="Atlassian から無料でTシャツをもらう方法、あるいはドラゴンの倒し方" class="thumbnail-image"></span>
+                        
+                    
+                    </a>
+                </div>
+                <div class="item-inner">
+                    
+                    <p class="item-category">
+                        <a class="article-category-link" href="https://www.yewton.net/categories/%e6%97%a5%e8%a8%98">
+                        日記
+                        </a>
+                    </p>
+                    
+                    <p class="item-title"><a href="https://www.yewton.net/2016/05/03/diary" class="title">三ヶ月ぶりに更新再開した日</a></p>
+                    <p class="item-date">
+                        <time datetime="2016-05-03 23:27:26 &#43;0900 JST" itemprop="datePublished">2016.05.03 Tue</time>
+                    </p>
+                </div>
+            </li>
+            
+        </ul>
+    </div>
+</div>
+
+
+    
+
+
+<div class="widget-wrap">
+    <h3 class="widget-title">カテゴリ</h3>
+    <div class="widget">
+        <ul class="category-list">
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/categories/emacs">
+                    emacs
+                </a>
+                <span class="category-list-count">2</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/categories/%e3%82%b2%e3%83%bc%e3%83%a0%e6%84%9f%e6%83%b3">
+                    ゲーム感想
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/categories/%e6%8a%80%e8%a1%93">
+                    技術
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/categories/%e6%8a%80%e8%a1%93%e7%b3%bb">
+                    技術系
+                </a>
+                <span class="category-list-count">3</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/categories/%e6%97%a5%e8%a8%98">
+                    日記
+                </a>
+                <span class="category-list-count">9</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/categories/%e9%9b%91%e8%a8%98">
+                    雑記
+                </a>
+                <span class="category-list-count">3</span>
+            </li>
+            
+        </ul>
+    </div>
+</div>
+
+
+
+    
+
+
+<div class="widget-wrap">
+    <h3 class="widget-title">
+        タグ
+    </h3>
+    <div class="widget">
+        <ul class="category-list">
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/atlassian">
+                    atlassian
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/bettortouchtool">
+                    bettortouchtool
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/blog">
+                    blog
+                </a>
+                <span class="category-list-count">2</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/cdn">
+                    cdn
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/cloudflare">
+                    cloudflare
+                </a>
+                <span class="category-list-count">2</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/ddd">
+                    ddd
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/dns">
+                    dns
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/docker">
+                    docker
+                </a>
+                <span class="category-list-count">2</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/emacs">
+                    emacs
+                </a>
+                <span class="category-list-count">5</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/emacslisp">
+                    emacslisp
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/github">
+                    github
+                </a>
+                <span class="category-list-count">2</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/go">
+                    go
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/google-drive">
+                    google-drive
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/greasemonkey">
+                    greasemonkey
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/hatenacounting">
+                    hatenacounting
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/helm">
+                    helm
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/hhvm">
+                    hhvm
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/http/2">
+                    http/2
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/https">
+                    https
+                </a>
+                <span class="category-list-count">2</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/hugo">
+                    hugo
+                </a>
+                <span class="category-list-count">4</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/hugo.el">
+                    hugo.el
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/javascript">
+                    javascript
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/jira">
+                    jira
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/mac">
+                    mac
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/markdown-mode">
+                    markdown-mode
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/moment.js">
+                    moment.js
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/nginx">
+                    nginx
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/org-mode">
+                    org-mode
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/persp-mode">
+                    persp-mode
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/scrum">
+                    scrum
+                </a>
+                <span class="category-list-count">2</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/skk">
+                    skk
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/skk-mode">
+                    skk-mode
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/slack">
+                    slack
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/ssh">
+                    ssh
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/ssl">
+                    ssl
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/trello">
+                    trello
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/userscript">
+                    userscript
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/vagrant">
+                    vagrant
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/virtualbox">
+                    virtualbox
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/web-mode">
+                    web-mode
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/wordpress">
+                    wordpress
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/%e3%81%84%e3%81%91%e3%81%ab%e3%81%88%e3%81%a8%e9%9b%aa%e3%81%ae%e3%82%bb%e3%83%84%e3%83%8a">
+                    いけにえと雪のセツナ
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/%e3%82%ab%e3%83%8a%e3%83%98%e3%82%a4">
+                    カナヘイ
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/%e3%82%b2%e3%83%bc%e3%83%a0">
+                    ゲーム
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+        </ul>
+    </div>
+</div>
+
+
+
+    
+    <div class="widget-wrap">
+    <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/yewton" data-widget-id="688392956059856897">@yewtonさんのツイート</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</div>
+
+
+    <div id="toTop" class="fa fa-chevron-up"></div>
+</aside>
+
+    </div>
+</div>
+
+<footer id="footer">
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2017
+      yewton. Powered by <a href="//gohugo.io">Hugo</a>. Theme by <a href="http://github.com/ppoffice">PPOffice</a>.
+    </div>
+  </div>
+</footer>
+
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-72312909-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://www.yewton.net/fancybox/jquery.fancybox.pack.js"></script>
+<script src="https://www.yewton.net/js/script.js"></script>
+<script src="https://www.yewton.net/js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+<!-- MathJax -->
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']]}
+  });
+</script>
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+
+</body>
+</html>

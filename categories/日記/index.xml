@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>日記 on yewton.net</title>
-    <link>https://www.yewton.net/categories/%E6%97%A5%E8%A8%98/</link>
-    <description>Recent content in 日記 on yewton.net</description>
+    <title>yewton.net</title>
+    <link>https://www.yewton.net/categories/%E6%97%A5%E8%A8%98/index.xml</link>
+    <description>Recent content on yewton.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Tue, 03 May 2016 23:27:26 +0900</lastBuildDate>
+    <copyright>yewton. Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice).</copyright>
     <atom:link href="https://www.yewton.net/categories/%E6%97%A5%E8%A8%98/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -51,7 +51,7 @@ Scala 製 Slack ボットのデプロイ方法を考えるのと、
       <guid>https://www.yewton.net/2016/02/16/diary</guid>
       <description>
 
-&lt;h2 id=&#34;ランニング:ba55bded15366df8fcd5fbeef8e27b25&#34;&gt;ランニング&lt;/h2&gt;
+&lt;h2 id=&#34;ランニング&#34;&gt;ランニング&lt;/h2&gt;
 
 &lt;p&gt;昨日おとといと、春が来たのかと思うくらい暖かったので、
 何となく意識が高まって「よし明日からランニングを始めるぞ」という気持ちになっていた。&lt;/p&gt;
@@ -72,7 +72,7 @@ Scala 製 Slack ボットのデプロイ方法を考えるのと、
 &lt;p&gt;寒さを舐めてはいけない。
 次はもっと防寒するか、もっと暖かい日にしよう、という学びを得た。&lt;/p&gt;
 
-&lt;h2 id=&#34;カナヘイのゆるっとカフェ:ba55bded15366df8fcd5fbeef8e27b25&#34;&gt;カナヘイのゆるっとカフェ&lt;/h2&gt;
+&lt;h2 id=&#34;カナヘイのゆるっとカフェ&#34;&gt;カナヘイのゆるっとカフェ&lt;/h2&gt;
 
 &lt;p&gt;仕事終わりに、&lt;a href=&#34;http://kanahei.blog.jp/archives/1049325539.html&#34;&gt;カナヘイのゆるっとカフェ&lt;/a&gt;に行ってきた
 (カフェ公式ページは無くて、イベントページの1コンテンツという感じだったので、カナヘイさんのブログ記事にリンク)。&lt;/p&gt;
@@ -94,7 +94,7 @@ Scala 製 Slack ボットのデプロイ方法を考えるのと、
 
 &lt;p&gt;カナヘイさんもっとイベントやってください。&lt;/p&gt;
 
-&lt;h2 id=&#34;google-drive-の画像を-web-ページに埋め込む:ba55bded15366df8fcd5fbeef8e27b25&#34;&gt;Google Drive の画像を Web ページに埋め込む&lt;/h2&gt;
+&lt;h2 id=&#34;google-drive-の画像を-web-ページに埋め込む&#34;&gt;Google Drive の画像を Web ページに埋め込む&lt;/h2&gt;
 
 &lt;p&gt;カナヘイカフェの記事を書こうとして、どうにか写真を埋め込めないか色々調べたら、
 どうも写真の単体ページ(&lt;a href=&#34;https://drive.google.com/file/d/0B4XWl5W7tB7IQ09Jc3dKcmN6OEk/view&#34;&gt;こういうの&lt;/a&gt;)を開いて、
@@ -130,7 +130,7 @@ Scala 製 Slack ボットのデプロイ方法を考えるのと、
 そういえば最近まともに読書もしていないし…。
 社会生活を営む人間として真っ当に生きていく為の読書くらいは、しよう。&lt;/p&gt;
 
-&lt;h2 id=&#34;業務外のアレコレ:7a2f7ead465353c7838d82b7d8c026fb&#34;&gt;業務外のアレコレ&lt;/h2&gt;
+&lt;h2 id=&#34;業務外のアレコレ&#34;&gt;業務外のアレコレ&lt;/h2&gt;
 
 &lt;p&gt;最近(ほぼ)趣味で、 AWS上にシンプルに構築されたWordPressブログを、
 HTTPSにしてついでにHTTP/2対応してHHVMで稼動させようぜ、というような試みをしている。&lt;/p&gt;
@@ -163,7 +163,7 @@ HHVMだけをECSで動かしてもしょうがないから、やるならWordPre
 &lt;p&gt;元々は&lt;a href=&#34;http://www.scrumprimer.org/&#34;&gt;Scrum Primer - Short Introduction to Scrum&lt;/a&gt;で配布されているPDFで、
 認定スクラムマスター研修でも参照される真っ当な文献(のはす)。&lt;/p&gt;
 
-&lt;p&gt;日本語版があるにはある&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:f10cb402008eac2dda64382953d50111:1&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:f10cb402008eac2dda64382953d50111:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;んだけれど、古いし翻訳の質が怪しいので、
+&lt;p&gt;日本語版があるにはある&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:1&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;んだけれど、古いし翻訳の質が怪しいので、
 自分の理解を進めるという意味も含めて独力で翻訳してみることにした。&lt;/p&gt;
 
 &lt;p&gt;進捗としては、1週間の空いた時間をほぼそればっかりに費してようやっと &lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;5&lt;/sub&gt; くらい進んだ。
@@ -174,8 +174,8 @@ HHVMだけをECSで動かしてもしょうがないから、やるならWordPre
 &lt;hr /&gt;
 
 &lt;ol&gt;
-&lt;li id=&#34;fn:f10cb402008eac2dda64382953d50111:1&#34;&gt;すくすくスクラムが翻訳した版がある。あるはずなのだけれど公式に配布している所が見当たらない。
- &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:f10cb402008eac2dda64382953d50111:1&#34;&gt;↩&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:1&#34;&gt;すくすくスクラムが翻訳した版がある。あるはずなのだけれど公式に配布している所が見当たらない。
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:1&#34;&gt;↩&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
 </description>
@@ -189,7 +189,7 @@ HHVMだけをECSで動かしてもしょうがないから、やるならWordPre
       <guid>https://www.yewton.net/2016/01/23/diary</guid>
       <description>
 
-&lt;h2 id=&#34;趣味の政策物:94b3c734ee959e37b47a43c2fb129b69&#34;&gt;趣味の政策物&lt;/h2&gt;
+&lt;h2 id=&#34;趣味の政策物&#34;&gt;趣味の政策物&lt;/h2&gt;
 
 &lt;p&gt;弊チームではバックログとしてJIRAを使っている。&lt;/p&gt;
 
@@ -207,7 +207,7 @@ HHVMだけをECSで動かしてもしょうがないから、やるならWordPre
 &lt;p&gt;そこで、スクラムマスターがセレモニーを進めやすいように支援するためのuserscriptを書いた。
 ソースは&lt;a href=&#34;https://github.com/yewton/userscripts&#34;&gt;yewton/userscripts&lt;/a&gt;。&lt;/p&gt;
 
-&lt;h3 id=&#34;component-labels-for-jira-scrum:94b3c734ee959e37b47a43c2fb129b69&#34;&gt;Component-labels for JIRA Scrum&lt;/h3&gt;
+&lt;h3 id=&#34;component-labels-for-jira-scrum&#34;&gt;Component-labels for JIRA Scrum&lt;/h3&gt;
 
 &lt;p&gt;コンポーネントをエピックのようにスクラムボード上で分かりやすいく表示する。&lt;/p&gt;
 
@@ -219,7 +219,7 @@ HHVMだけをECSで動かしてもしょうがないから、やるならWordPre
 リクエストの仕方を何か工夫しないと使いものにならないかなーと思っていたのだけれど、
 案外数百リクエスト飛ばすぐらいだとビクともしなかったので、愚直な実装のまま。&lt;/p&gt;
 
-&lt;h3 id=&#34;detail-pop-up-for-jria-scrum:94b3c734ee959e37b47a43c2fb129b69&#34;&gt;Detail Pop-up for JRIA Scrum&lt;/h3&gt;
+&lt;h3 id=&#34;detail-pop-up-for-jria-scrum&#34;&gt;Detail Pop-up for JRIA Scrum&lt;/h3&gt;
 
 &lt;p&gt;各課題に詳細画面をポップアップで開くためのボタンを追加する。&lt;/p&gt;
 
@@ -233,7 +233,7 @@ HHVMだけをECSで動かしてもしょうがないから、やるならWordPre
 その名の通りシンプルなモーダル機能を実装するためのライブラリを使って、
 &lt;code&gt;iframe&lt;/code&gt; で詳細画面を開くだけの機能を追加した。&lt;/p&gt;
 
-&lt;h2 id=&#34;第3回-実践的ドメイン駆動設計ワークショップ-connpass-http-ddd-alliance-connpass-com-event-24672:94b3c734ee959e37b47a43c2fb129b69&#34;&gt;&lt;a href=&#34;http://ddd-alliance.connpass.com/event/24672/&#34;&gt;第3回 実践的ドメイン駆動設計ワークショップ - connpass&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;第3回-実践的ドメイン駆動設計ワークショップ-connpass-http-ddd-alliance-connpass-com-event-24672&#34;&gt;&lt;a href=&#34;http://ddd-alliance.connpass.com/event/24672/&#34;&gt;第3回 実践的ドメイン駆動設計ワークショップ - connpass&lt;/a&gt;&lt;/h2&gt;
 
 &lt;p&gt;参加してきた。&lt;/p&gt;
 
@@ -272,7 +272,7 @@ HHVMだけをECSで動かしてもしょうがないから、やるならWordPre
 &lt;p&gt;昨日は都内も大雪(いうほどか？)で出社がダルそうだったので、終日リモートワークしていた。
 本当に一歩も家から出ずに、パジャマから着替えもせずに、もくもくとPC作業。&lt;/p&gt;
 
-&lt;h2 id=&#34;個人のタスク管理:cf0329059db40c2a5492126930e90824&#34;&gt;個人のタスク管理&lt;/h2&gt;
+&lt;h2 id=&#34;個人のタスク管理&#34;&gt;個人のタスク管理&lt;/h2&gt;
 
 &lt;p&gt;最近認定スクラムマスターも取ったし、
 一日中スクラムのことばかり考えて悶々とするような続いている。&lt;/p&gt;
@@ -297,7 +297,7 @@ HHVMだけをECSで動かしてもしょうがないから、やるならWordPre
       <guid>https://www.yewton.net/2016/01/18/diary</guid>
       <description>
 
-&lt;h2 id=&#34;https-http-2-対応:e6a1a03cb41557bae8d628ec222879e1&#34;&gt;HTTPS + HTTP/2 対応&lt;/h2&gt;
+&lt;h2 id=&#34;https-http-2-対応&#34;&gt;HTTPS + HTTP/2 対応&lt;/h2&gt;
 
 &lt;p&gt;世の中的にHTTPS対応してないといかんような気がしたので、
 このサイトもHTTPSで配信するように対応した。&lt;/p&gt;
@@ -309,14 +309,14 @@ HHVMだけをECSで動かしてもしょうがないから、やるならWordPre
 自分の場合は、都合7〜8時間程度かかった。
 この間、ステータスは &lt;code&gt;AUTHORIZING CERTIFICATES&lt;/code&gt; から &lt;code&gt;ISSUING CERTIFICATES&lt;/code&gt; になり、最終的に &lt;code&gt;ACTIVE CERTIFICATE&lt;/code&gt; になった。&lt;/p&gt;
 
-&lt;p&gt;この方法でサイトをHTTPS対応するのは簡単だけども懸念もあるらしい&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:e6a1a03cb41557bae8d628ec222879e1:1&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:e6a1a03cb41557bae8d628ec222879e1:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;ので、
+&lt;p&gt;この方法でサイトをHTTPS対応するのは簡単だけども懸念もあるらしい&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:1&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;ので、
 また今度この辺が実際どういう仕組みで動いてるのか調べてまとめたいと思う。&lt;/p&gt;
 
 &lt;p&gt;なお、CloudFlareを利用することで副次的に HTTP/2 にも対応することになった。
 Chromeで &lt;a href=&#34;https://chrome.google.com/webstore/detail/http2-and-spdy-indicator/mpbpobfflnpcgagjijhmgnchggcjblin&#34;&gt;HTTP/2 and SPDY indicator&lt;/a&gt;
 を入れてアクセスしたりすると分かる。&lt;/p&gt;
 
-&lt;h2 id=&#34;ddd:e6a1a03cb41557bae8d628ec222879e1&#34;&gt;DDD&lt;/h2&gt;
+&lt;h2 id=&#34;ddd&#34;&gt;DDD&lt;/h2&gt;
 
 &lt;p&gt;開発チームビルディングの一環で、ドメイン駆動設計について改めて色々調べたりしている。&lt;/p&gt;
 
@@ -339,8 +339,8 @@ Chromeで &lt;a href=&#34;https://chrome.google.com/webstore/detail/http2-and-sp
 &lt;hr /&gt;
 
 &lt;ol&gt;
-&lt;li id=&#34;fn:e6a1a03cb41557bae8d628ec222879e1:1&#34;&gt;&lt;a href=&#34;https://konklone.com/post/github-pages-now-supports-https-so-use-it&#34;&gt;GitHub Pages Now (Sorta) Supports HTTPS, So Use It&lt;/a&gt;
- &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:e6a1a03cb41557bae8d628ec222879e1:1&#34;&gt;↩&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:1&#34;&gt;&lt;a href=&#34;https://konklone.com/post/github-pages-now-supports-https-so-use-it&#34;&gt;GitHub Pages Now (Sorta) Supports HTTPS, So Use It&lt;/a&gt;
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:1&#34;&gt;↩&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
 </description>
@@ -368,7 +368,7 @@ Chromeで &lt;a href=&#34;https://chrome.google.com/webstore/detail/http2-and-sp
 &lt;p&gt;…と思ってたけど、最近は &lt;em&gt;チームのパフォーマンスを引き出す&lt;/em&gt; っていうことに全力になっていて、
 それはそれで楽しくなってきたので、スクラムマスターもいいかなー、なんて思い始めた。&lt;/p&gt;
 
-&lt;h2 id=&#34;サイト改修:ef7e58fa0c4840571f9df66ecc7036f0&#34;&gt;サイト改修&lt;/h2&gt;
+&lt;h2 id=&#34;サイト改修&#34;&gt;サイト改修&lt;/h2&gt;
 
 &lt;p&gt;今日もサイトいじりに勤しんだ。&lt;/p&gt;
 
@@ -378,7 +378,7 @@ Chromeで &lt;a href=&#34;https://chrome.google.com/webstore/detail/http2-and-sp
 
 &lt;p&gt;HTMLファイルはCSSファイルは、始めから関連付けておくといいと思う。&lt;/p&gt;
 
-&lt;h3 id=&#34;gravatar対応:ef7e58fa0c4840571f9df66ecc7036f0&#34;&gt;gravatar対応&lt;/h3&gt;
+&lt;h3 id=&#34;gravatar対応&#34;&gt;gravatar対応&lt;/h3&gt;
 
 &lt;p&gt;静的画像だけでなく、gravatarのアイコンを使えるようにした。&lt;/p&gt;
 
@@ -387,7 +387,7 @@ Chromeで &lt;a href=&#34;https://chrome.google.com/webstore/detail/http2-and-sp
 &lt;p&gt;&lt;a href=&#34;https://github.com/cxfksword/greyshade/blob/28fb061bb674a2add89724dfbbf167f88f381d40/layouts/partials/header.html&#34;&gt;gravatarに対応している他のテーマ(greyshade)&lt;/a&gt;と、
 &lt;a href=&#34;http://tdwp.us/round-gravatar-images-wordpress/&#34;&gt;How to Round Gravatar Images in WordPress&lt;/a&gt;を参考にした。&lt;/p&gt;
 
-&lt;h3 id=&#34;記念日対応:ef7e58fa0c4840571f9df66ecc7036f0&#34;&gt;記念日対応&lt;/h3&gt;
+&lt;h3 id=&#34;記念日対応&#34;&gt;記念日対応&lt;/h3&gt;
 
 &lt;p&gt;最初は&lt;a href=&#34;http://counting.hatelabo.jp/&#34;&gt;Hatena::Counting&lt;/a&gt;とか類似のサービスを利用しようと思ったんだけど、
 あんまりシンプルなのが無かったので自作した。&lt;/p&gt;
@@ -408,7 +408,7 @@ Chromeで &lt;a href=&#34;https://chrome.google.com/webstore/detail/http2-and-sp
       <guid>https://www.yewton.net/2016/01/13/diary</guid>
       <description>
 
-&lt;h2 id=&#34;bettertouchtool-will-switch-from-free-to-a-pay-what-you-want-model-early-next-year-bettertouchtool-btt-remote-bettersnaptool-and-more-http-www-boastr-net-bettertouchtool-may-switch-from-free-to-a-pay-what-you-want-model-early-next-year:824dcdd6f1a52d669a57ccbb65be9cd9&#34;&gt;&lt;a href=&#34;http://www.boastr.net/bettertouchtool-may-switch-from-free-to-a-pay-what-you-want-model-early-next-year/&#34;&gt;BetterTouchTool will switch from free to a “Pay what you want” model early next year. – BetterTouchTool, BTT Remote, BetterSnapTool and more&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;bettertouchtool-will-switch-from-free-to-a-pay-what-you-want-model-early-next-year-bettertouchtool-btt-remote-bettersnaptool-and-more-http-www-boastr-net-bettertouchtool-may-switch-from-free-to-a-pay-what-you-want-model-early-next-year&#34;&gt;&lt;a href=&#34;http://www.boastr.net/bettertouchtool-may-switch-from-free-to-a-pay-what-you-want-model-early-next-year/&#34;&gt;BetterTouchTool will switch from free to a “Pay what you want” model early next year. – BetterTouchTool, BTT Remote, BetterSnapTool and more&lt;/a&gt;&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://www.boastr.net/&#34;&gt;BetterTouchTool&lt;/a&gt;が1月末を目処に無料じゃなくなるらしい。&lt;/p&gt;
 
@@ -419,7 +419,7 @@ Chromeで &lt;a href=&#34;https://chrome.google.com/webstore/detail/http2-and-sp
 
 &lt;p&gt;買うしかないなー。&lt;/p&gt;
 
-&lt;h2 id=&#34;割と本気で家庭用slack-botを作ってみた-八発白中-http-blog-8arrow-org-entry-2016-01-13-183349:824dcdd6f1a52d669a57ccbb65be9cd9&#34;&gt;&lt;a href=&#34;http://blog.8arrow.org/entry/2016/01/13/183349&#34;&gt;割と本気で家庭用Slack Botを作ってみた - 八発白中&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;割と本気で家庭用slack-botを作ってみた-八発白中-http-blog-8arrow-org-entry-2016-01-13-183349&#34;&gt;&lt;a href=&#34;http://blog.8arrow.org/entry/2016/01/13/183349&#34;&gt;割と本気で家庭用Slack Botを作ってみた - 八発白中&lt;/a&gt;&lt;/h2&gt;
 
 &lt;p&gt;うちの嫁はSlack使ってくれないから無理ぽ。。
 自分もカナヘイスタンプ超気に入ってるから、LINE辞めるのは無理だな。&lt;/p&gt;
@@ -429,7 +429,7 @@ Chromeで &lt;a href=&#34;https://chrome.google.com/webstore/detail/http2-and-sp
 他に世界的にデファクトスタンダードなやつがあるのかとか、調べてみたい。
 &lt;a href=&#34;https://countingdownto.com/&#34;&gt;Create a Countdown Clock | CountingDownTo.com&lt;/a&gt;とかが、それらしい感じがする。&lt;/p&gt;
 
-&lt;h2 id=&#34;エンジニアにお勧めしたいメモアプリ5選-geechs-magazine-https-geechs-magazine-com-tag-lifehack-20160113:824dcdd6f1a52d669a57ccbb65be9cd9&#34;&gt;&lt;a href=&#34;https://geechs-magazine.com/tag/lifehack/20160113&#34;&gt;エンジニアにお勧めしたいメモアプリ5選 | geechs magazine&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;エンジニアにお勧めしたいメモアプリ5選-geechs-magazine-https-geechs-magazine-com-tag-lifehack-20160113&#34;&gt;&lt;a href=&#34;https://geechs-magazine.com/tag/lifehack/20160113&#34;&gt;エンジニアにお勧めしたいメモアプリ5選 | geechs magazine&lt;/a&gt;&lt;/h2&gt;
 
 &lt;p&gt;org-modeでだいたい間に合ってるけど、やっぱ同期と多デバイス対応が欲しいよなー。&lt;/p&gt;
 
@@ -437,7 +437,7 @@ Chromeで &lt;a href=&#34;https://chrome.google.com/webstore/detail/http2-and-sp
 
 &lt;p&gt;そこだけ何とかなれば。。。&lt;/p&gt;
 
-&lt;h2 id=&#34;雑感:824dcdd6f1a52d669a57ccbb65be9cd9&#34;&gt;雑感&lt;/h2&gt;
+&lt;h2 id=&#34;雑感&#34;&gt;雑感&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;markdown-modeとskkの相性悪いんかな、変換確定しようとすると行頭にカーソルが行ってしまってストレスフルだ。。&lt;/li&gt;

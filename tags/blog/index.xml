@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on yewton.net</title>
-    <link>https://www.yewton.net/tags/blog/</link>
-    <description>Recent content in Blog on yewton.net</description>
+    <title>yewton.net</title>
+    <link>https://www.yewton.net/tags/blog/index.xml</link>
+    <description>Recent content on yewton.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Fri, 15 Jan 2016 23:00:00 +0900</lastBuildDate>
+    <copyright>yewton. Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice).</copyright>
     <atom:link href="https://www.yewton.net/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -31,7 +31,7 @@
 &lt;p&gt;…と思ってたけど、最近は &lt;em&gt;チームのパフォーマンスを引き出す&lt;/em&gt; っていうことに全力になっていて、
 それはそれで楽しくなってきたので、スクラムマスターもいいかなー、なんて思い始めた。&lt;/p&gt;
 
-&lt;h2 id=&#34;サイト改修:ef7e58fa0c4840571f9df66ecc7036f0&#34;&gt;サイト改修&lt;/h2&gt;
+&lt;h2 id=&#34;サイト改修&#34;&gt;サイト改修&lt;/h2&gt;
 
 &lt;p&gt;今日もサイトいじりに勤しんだ。&lt;/p&gt;
 
@@ -41,7 +41,7 @@
 
 &lt;p&gt;HTMLファイルはCSSファイルは、始めから関連付けておくといいと思う。&lt;/p&gt;
 
-&lt;h3 id=&#34;gravatar対応:ef7e58fa0c4840571f9df66ecc7036f0&#34;&gt;gravatar対応&lt;/h3&gt;
+&lt;h3 id=&#34;gravatar対応&#34;&gt;gravatar対応&lt;/h3&gt;
 
 &lt;p&gt;静的画像だけでなく、gravatarのアイコンを使えるようにした。&lt;/p&gt;
 
@@ -50,7 +50,7 @@
 &lt;p&gt;&lt;a href=&#34;https://github.com/cxfksword/greyshade/blob/28fb061bb674a2add89724dfbbf167f88f381d40/layouts/partials/header.html&#34;&gt;gravatarに対応している他のテーマ(greyshade)&lt;/a&gt;と、
 &lt;a href=&#34;http://tdwp.us/round-gravatar-images-wordpress/&#34;&gt;How to Round Gravatar Images in WordPress&lt;/a&gt;を参考にした。&lt;/p&gt;
 
-&lt;h3 id=&#34;記念日対応:ef7e58fa0c4840571f9df66ecc7036f0&#34;&gt;記念日対応&lt;/h3&gt;
+&lt;h3 id=&#34;記念日対応&#34;&gt;記念日対応&lt;/h3&gt;
 
 &lt;p&gt;最初は&lt;a href=&#34;http://counting.hatelabo.jp/&#34;&gt;Hatena::Counting&lt;/a&gt;とか類似のサービスを利用しようと思ったんだけど、
 あんまりシンプルなのが無かったので自作した。&lt;/p&gt;
@@ -71,7 +71,7 @@
       <guid>https://www.yewton.net/2016/01/11/at-the-start</guid>
       <description>
 
-&lt;h2 id=&#34;はじめに:a34b8bc0f6383f320533be9df46dffd7&#34;&gt;はじめに&lt;/h2&gt;
+&lt;h2 id=&#34;はじめに&#34;&gt;はじめに&lt;/h2&gt;
 
 &lt;p&gt;今年30歳になる節目の年なので、ブログを書いてみることにした。&lt;/p&gt;
 
@@ -93,7 +93,7 @@ Golangの静的サイト生成ツールだと知り、イマドキは静的サ�
 今のところ調整したりカスタマイズしたりしたい部分が多々あるので、当面存在はするだろう。
 これらの試みを記事にしたりするかもしれない。&lt;/p&gt;
 
-&lt;h2 id=&#34;何を書くか:a34b8bc0f6383f320533be9df46dffd7&#34;&gt;何を書くか&lt;/h2&gt;
+&lt;h2 id=&#34;何を書くか&#34;&gt;何を書くか&lt;/h2&gt;
 
 &lt;p&gt;外部サービスに依存しないので(ホスティングはGitHub使ってるケド)自由奔放に書いていけたらと思っている。&lt;/p&gt;
 

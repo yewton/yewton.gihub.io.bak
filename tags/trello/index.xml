@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Trello on yewton.net</title>
-    <link>https://www.yewton.net/tags/trello/</link>
-    <description>Recent content in Trello on yewton.net</description>
+    <title>yewton.net</title>
+    <link>https://www.yewton.net/tags/trello/index.xml</link>
+    <description>Recent content on yewton.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Tue, 19 Jan 2016 23:00:00 +0900</lastBuildDate>
+    <copyright>yewton. Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice).</copyright>
     <atom:link href="https://www.yewton.net/tags/trello/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -20,7 +20,7 @@
 &lt;p&gt;昨日は都内も大雪(いうほどか？)で出社がダルそうだったので、終日リモートワークしていた。
 本当に一歩も家から出ずに、パジャマから着替えもせずに、もくもくとPC作業。&lt;/p&gt;
 
-&lt;h2 id=&#34;個人のタスク管理:cf0329059db40c2a5492126930e90824&#34;&gt;個人のタスク管理&lt;/h2&gt;
+&lt;h2 id=&#34;個人のタスク管理&#34;&gt;個人のタスク管理&lt;/h2&gt;
 
 &lt;p&gt;最近認定スクラムマスターも取ったし、
 一日中スクラムのことばかり考えて悶々とするような続いている。&lt;/p&gt;
