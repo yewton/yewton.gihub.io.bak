@@ -7,8 +7,80 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>yewton. Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice).</copyright>
-    <lastBuildDate>Sat, 03 Sep 2016 15:34:07 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 09 Apr 2017 21:55:31 +0900</lastBuildDate>
     <atom:link href="https://www.yewton.net/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Nexus 7 2012 (grouper) に Beanstalk と ParrotMod を入れて蘇生する</title>
+      <link>https://www.yewton.net/2017/04/09/grouper-beanstalk</link>
+      <pubDate>Sun, 09 Apr 2017 21:55:31 +0900</pubDate>
+      
+      <guid>https://www.yewton.net/2017/04/09/grouper-beanstalk</guid>
+      <description>
+
+&lt;p&gt;最近はじめて &lt;a href=&#34;http://amzn.to/2nXsSKh&#34;&gt;Fire タブレット&lt;/a&gt; をキャンペーンで購入して、
+こういう本詠むだけとか書い物するだけとかの単機能なタブレットも結構いいな、と思った。
+そして、うちに使ってない &lt;a href=&#34;http://amzn.to/2oSEwJK&#34;&gt;Nexus 7&lt;/a&gt; があることを思い出した。&lt;/p&gt;
+
+&lt;p&gt;この Nexus 7 、どうして使っていなかったかというと、
+Lollipop にアップデートしてしまったから。
+Nexus 7 2012 は Lollipop にアップデートしてしまうと、
+動作が重過ぎて使い物にならなくなる。&lt;/p&gt;
+
+&lt;p&gt;どうせ使いものにならないなら、ということで
+&lt;a href=&#34;http://www.slimroms.net/&#34;&gt;SlimKat&lt;/a&gt; や
+&lt;a href=&#34;https://forum.xda-developers.com/nexus-7/development/unofficial-pure-nexus-project-layers-t3243943&#34;&gt;PureNexus&lt;/a&gt; を
+焼いて使ってみたりもしたが、
+前者は軽いけど見た目や使用感がちょっと微妙( 4.4 ベースだし…)で、
+後者は使っていくうちにやっぱり重くなっていって駄目だった。&lt;/p&gt;
+
+&lt;p&gt;今回 Fire を買ってあらためて 7 インチの Android タブレットが欲しくなってしまったので、
+もう一度蘇生を試みることにした。&lt;/p&gt;
+
+&lt;p&gt;そして &lt;a href=&#34;https://www.reddit.com/r/Nexus7/comments/3h0oxg/recommended_fastlightweight_rom_for_2012_n7/&#34;&gt;Reddit のこのスレ&lt;/a&gt; を満つけ、
+そこから &lt;a href=&#34;https://teknovenus.com/speed-up-nexus-7-f2fs-slimkat-ghost/&#34;&gt;Speed up the Nexus 7 with F2FS and SlimKat&lt;/a&gt; という記事に辿り着いた。&lt;/p&gt;
+
+&lt;p&gt;元々は SlimKat と F2FS の記事だったようだが、2017 年に更新があり、
+&lt;a href=&#34;https://forum.xda-developers.com/nexus-7/development/rom-beanstalk-rom-t3312870&#34;&gt;Beanstalk 6.0.1&lt;/a&gt; と
+&lt;a href=&#34;https://forum.xda-developers.com/nexus-7/orig-development/parrotmod-speed-2012-nexus-7-emmc-fix-t3300416&#34;&gt;ParrotMod&lt;/a&gt; が
+勧められていた(執筆者自身は試していないようだったが)。&lt;/p&gt;
+
+&lt;h2 id=&#34;beanstalk&#34;&gt;Beanstalk&lt;/h2&gt;
+
+&lt;p&gt;CyanogenMod 13 (Marshmallow) をベースに作られたカスタム Rom 。
+&lt;a href=&#34;https://forum.xda-developers.com/galaxy-s3/development/rom-t3370186&#34;&gt;フォーラム&lt;/a&gt; の記述によると、&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Smoother than Butter&lt;br /&gt;
+Friendly Battery&lt;br /&gt;
+Tons of Features&lt;br /&gt;
+DirtyUnicorns Features&lt;br /&gt;
+Always Up-to-date&lt;br /&gt;
+100% Build from Source&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;…らしい。&lt;/p&gt;
+
+&lt;h2 id=&#34;parrotmod&#34;&gt;ParrotMod&lt;/h2&gt;
+
+&lt;p&gt;Nexus 7 2012 をすげーいい感じにしてくれるやつ。&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;FLASH MEMORY SPEED INCREASE! up to 4x better performance WITHOUT F2FS OR DYNAMIC FSYNC&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;という速度の向上を筆頭に、様々な最適化を行って快適にしてくれるようだ。&lt;/p&gt;
+
+&lt;h2 id=&#34;結果&#34;&gt;結果&lt;/h2&gt;
+
+&lt;p&gt;Amazon Kindle , YouTube 、Feedly , 1Password あたりを主に動かしているが、
+アプリ起動時にたまに固まることがあるものの、大抵一度タスクキルして起動し直せば問題なく動作している。
+娯楽用途としては十分な性能になった。&lt;/p&gt;
+
+&lt;p&gt;もし、使わなくなった Nexus 7 2012 がご家庭に眠っているのなら、
+Beanstalk と ParrotMod を試してみる価値はアリだと思う。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Atlassian から無料でTシャツをもらう方法、あるいはドラゴンの倒し方</title>
@@ -1364,34 +1436,6 @@ HugoはCLIのインタフェースなので、ターミナルとEmacsを行き�
 
 &lt;p&gt;こういう部分的な挙動の修正には advice を使うといい。
 というわけで前述の挙動をそのまま定義すると、冒頭のようなコードになる。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>雪が振ったので一日中家に引き込もっていた日の次の日</title>
-      <link>https://www.yewton.net/2016/01/19/diary</link>
-      <pubDate>Tue, 19 Jan 2016 23:00:00 +0900</pubDate>
-      
-      <guid>https://www.yewton.net/2016/01/19/diary</guid>
-      <description>
-
-&lt;p&gt;昨日は都内も大雪(いうほどか？)で出社がダルそうだったので、終日リモートワークしていた。
-本当に一歩も家から出ずに、パジャマから着替えもせずに、もくもくとPC作業。&lt;/p&gt;
-
-&lt;h2 id=&#34;個人のタスク管理&#34;&gt;個人のタスク管理&lt;/h2&gt;
-
-&lt;p&gt;最近認定スクラムマスターも取ったし、
-一日中スクラムのことばかり考えて悶々とするような続いている。&lt;/p&gt;
-
-&lt;p&gt;そんな中で、個人的な、業務とかまったく関係ない趣味のタスク管理もなんとかしたいなぁと思いはじめた。&lt;/p&gt;
-
-&lt;p&gt;趣味なのでそんなガッツリ管理するわけじゃないのでゆるいので何かないかなーと探したら、
-&lt;a href=&#34;https://trello.com/&#34;&gt;Trello&lt;/a&gt; というのがいい感じにゆるゆると使えそうな感じだった。&lt;/p&gt;
-
-&lt;p&gt;見積もりとか検証とかは出来なさそうだけど、とりあえず何もしないよりはいいだろーっていう想いで、使うことにした。&lt;/p&gt;
-
-&lt;p&gt;ボードによると、目下最優先のタスクは、 &lt;code&gt;markdwon-mode&lt;/code&gt; で &lt;code&gt;skk-mode&lt;/code&gt; の確定キーバインドが想定通り機能しない件の対応である。
-やるぞ。&lt;/p&gt;
 </description>
     </item>
     
