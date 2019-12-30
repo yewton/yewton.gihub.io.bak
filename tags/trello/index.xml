@@ -1,40 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>yewton.net</title>
-    <link>https://www.yewton.net/tags/trello/index.xml</link>
-    <description>Recent content on yewton.net</description>
+    <title>Trello on yewton.net</title>
+    <link>https://www.yewton.net/tags/trello/</link>
+    <description>Recent content in Trello on yewton.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <copyright>yewton. Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice).</copyright>
-    <atom:link href="https://www.yewton.net/tags/trello/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 19 Jan 2016 23:00:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.yewton.net/tags/trello/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>雪が振ったので一日中家に引き込もっていた日の次の日</title>
-      <link>https://www.yewton.net/2016/01/19/diary</link>
+      <link>https://www.yewton.net/2016/01/19/diary/</link>
       <pubDate>Tue, 19 Jan 2016 23:00:00 +0900</pubDate>
       
-      <guid>https://www.yewton.net/2016/01/19/diary</guid>
-      <description>
-
-&lt;p&gt;昨日は都内も大雪(いうほどか？)で出社がダルそうだったので、終日リモートワークしていた。
-本当に一歩も家から出ずに、パジャマから着替えもせずに、もくもくとPC作業。&lt;/p&gt;
-
-&lt;h2 id=&#34;個人のタスク管理&#34;&gt;個人のタスク管理&lt;/h2&gt;
-
-&lt;p&gt;最近認定スクラムマスターも取ったし、
-一日中スクラムのことばかり考えて悶々とするような続いている。&lt;/p&gt;
-
-&lt;p&gt;そんな中で、個人的な、業務とかまったく関係ない趣味のタスク管理もなんとかしたいなぁと思いはじめた。&lt;/p&gt;
-
-&lt;p&gt;趣味なのでそんなガッツリ管理するわけじゃないのでゆるいので何かないかなーと探したら、
-&lt;a href=&#34;https://trello.com/&#34;&gt;Trello&lt;/a&gt; というのがいい感じにゆるゆると使えそうな感じだった。&lt;/p&gt;
-
-&lt;p&gt;見積もりとか検証とかは出来なさそうだけど、とりあえず何もしないよりはいいだろーっていう想いで、使うことにした。&lt;/p&gt;
-
-&lt;p&gt;ボードによると、目下最優先のタスクは、 &lt;code&gt;markdwon-mode&lt;/code&gt; で &lt;code&gt;skk-mode&lt;/code&gt; の確定キーバインドが想定通り機能しない件の対応である。
-やるぞ。&lt;/p&gt;
-</description>
+      <guid>https://www.yewton.net/2016/01/19/diary/</guid>
+      <description>昨日は都内も大雪(いうほどか？)で出社がダルそうだったので、終日リモートワークしていた。 本当に一歩も家から出ずに、パジャマから着替えもせずに</description>
     </item>
     
   </channel>

@@ -1,38 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>yewton.net</title>
-    <link>https://www.yewton.net/tags/persp-mode/index.xml</link>
-    <description>Recent content on yewton.net</description>
+    <title>Persp Mode on yewton.net</title>
+    <link>https://www.yewton.net/tags/persp-mode/</link>
+    <description>Recent content in Persp Mode on yewton.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <copyright>yewton. Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice).</copyright>
-    <atom:link href="https://www.yewton.net/tags/persp-mode/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 04 May 2016 19:45:26 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.yewton.net/tags/persp-mode/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Spacemacs から helm と persp-mode の設定をパクろうと思ったけど難しかった</title>
-      <link>https://www.yewton.net/2016/05/04/helm-persp</link>
+      <link>https://www.yewton.net/2016/05/04/helm-persp/</link>
       <pubDate>Wed, 04 May 2016 19:45:26 +0900</pubDate>
       
-      <guid>https://www.yewton.net/2016/05/04/helm-persp</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/syl20bnr/spacemacs/blob/master/layers/%2Bwindow-management/spacemacs-layouts/funcs.el&#34;&gt;この辺&lt;/a&gt; を参考にせよ、
-と persp-mode 公式に書いてあったので、パクれそうかやってみた。&lt;/p&gt;
-
-&lt;p&gt;結論としては、出来なかった。
-なので、 併せて記載されていた &lt;a href=&#34;https://gist.github.com/Bad-ptr/304ada85c9ba15013303&#34;&gt;こっち&lt;/a&gt; の設定を使う状態のまま。&lt;/p&gt;
-
-&lt;p&gt;Spacemacs の設定は、 Spacemacs 独自のステートの概念(Vimmer が喜ぶやつ)と密接に関連しているようで、
-素の Emacs に組込むのは骨が折れそうだった。&lt;/p&gt;
-
-&lt;p&gt;そもそも何で Spacemacs の設定をパクろうとしていたかというと、
-後者の設定だと、 &lt;code&gt;C-x b&lt;/code&gt; したときに前のバッファが選択されずに
-現在のバッファが選択された状態になるのが違和感があったから、だった。
-素の Emacs では単に &lt;code&gt;C-x b RET&lt;/code&gt; としたときは、前のバッファに戻るという挙動になる。
-もしかしたら Spacemacs では元の挙動を再現した実装になっているのかもしれない、
-と思って見てみたが、前述の通り失敗に終わった。&lt;/p&gt;
-
-&lt;p&gt;persp-mode では、直前のバッファが現在のパースペクティブに含まれているとは限らないから、仕方ないのかな…。&lt;/p&gt;
-</description>
+      <guid>https://www.yewton.net/2016/05/04/helm-persp/</guid>
+      <description>この辺 を参考にせよ、 と persp-mode 公式に書いてあったので、パクれそうかやってみた。 結論としては、出来なかった。 なので、 併せて記載されていた こっち の設定</description>
     </item>
     
   </channel>

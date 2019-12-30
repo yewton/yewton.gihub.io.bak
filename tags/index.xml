@@ -1,53 +1,419 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>yewton.net</title>
-    <link>http://yewton.net/tags/</link>
-    <description>Recent content on yewton.net</description>
+    <title>Tags on yewton.net</title>
+    <link>https://www.yewton.net/tags/</link>
+    <description>Recent content in Tags on yewton.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Mon, 11 Jan 2016 11:11:11 +0900</lastBuildDate>
-    <atom:link href="http://yewton.net/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 09 Apr 2017 21:55:31 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.yewton.net/tags/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
-      <title>はじめに</title>
-      <link>http://yewton.net/2016/01/11/at-the-start</link>
-      <pubDate>Mon, 11 Jan 2016 11:11:11 +0900</pubDate>
+      <title>Android</title>
+      <link>https://www.yewton.net/tags/android/</link>
+      <pubDate>Sun, 09 Apr 2017 21:55:31 +0900</pubDate>
       
-      <guid>http://yewton.net/2016/01/11/at-the-start</guid>
-      <description>
-
-&lt;h2 id=&#34;はじめに:a34b8bc0f6383f320533be9df46dffd7&#34;&gt;はじめに&lt;/h2&gt;
-
-&lt;p&gt;今年30歳になる節目の年なので、ブログを書いてみることにした。&lt;/p&gt;
-
-&lt;p&gt;何もこういう試みは初めてではなく、
-これまでも、&lt;a href=&#34;http://d.hatena.ne.jp/yuto_sasaki/&#34;&gt;はてなダイアリー&lt;/a&gt;だったり、
-&lt;a href=&#34;http://qiita.com/yewton&#34;&gt;Qiita&lt;/a&gt;だったりに断続的に記事を書いたりメモしたりしていた。&lt;/p&gt;
-
-&lt;p&gt;それより以前も、個人でサイト作成したり、既存のブログサービスを使っていたこともあった。&lt;/p&gt;
-
-&lt;p&gt;いずれも、1年と経たずに辞めてしまった。
-自分の凝り性でかつ飽きっぽい性質のためだと思う。&lt;/p&gt;
-
-&lt;p&gt;今回また性懲りもなく始めたのは、何かをアウトプットしたいというよりも、
-&lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;というものを何かのキッカケで知って、
-Golangの静的サイト生成ツールだと知り、イマドキは静的サイト生成だよねー
-という巷の声を聞いた結果、使ってみたくなった、というのが大きい。&lt;/p&gt;
-
-&lt;p&gt;飽きたらその内また辞めるだろうけれど、
-今のところ調整したりカスタマイズしたりしたい部分が多々あるので、当面存在はするだろう。
-これらの試みを記事にしたりするかもしれない。&lt;/p&gt;
-
-&lt;h2 id=&#34;何を書くか:a34b8bc0f6383f320533be9df46dffd7&#34;&gt;何を書くか&lt;/h2&gt;
-
-&lt;p&gt;外部サービスに依存しないので(ホスティングはGitHub使ってるケド)自由奔放に書いていけたらと思っている。&lt;/p&gt;
-
-&lt;p&gt;技術的な話から、日常の駄文、過去の思い出を振り返ってみたり、
-あとはペットの話も書くかもしれない。時にはポエムも書くだろう。&lt;/p&gt;
-
-&lt;p&gt;当分人の目に触れぬはずの所なので、好き勝手にやってみよう。&lt;/p&gt;
-</description>
+      <guid>https://www.yewton.net/tags/android/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Atlassian</title>
+      <link>https://www.yewton.net/tags/atlassian/</link>
+      <pubDate>Sat, 03 Sep 2016 15:34:07 +0900</pubDate>
+      
+      <guid>https://www.yewton.net/tags/atlassian/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bettortouchtool</title>
+      <link>https://www.yewton.net/tags/bettortouchtool/</link>
+      <pubDate>Wed, 13 Jan 2016 23:00:00 +0900</pubDate>
+      
+      <guid>https://www.yewton.net/tags/bettortouchtool/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Blog</title>
+      <link>https://www.yewton.net/tags/blog/</link>
+      <pubDate>Fri, 15 Jan 2016 23:00:00 +0900</pubDate>
+      
+      <guid>https://www.yewton.net/tags/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cdn</title>
+      <link>https://www.yewton.net/tags/cdn/</link>
+      <pubDate>Mon, 18 Jan 2016 00:06:20 +0900</pubDate>
+      
+      <guid>https://www.yewton.net/tags/cdn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cloudflare</title>
+      <link>https://www.yewton.net/tags/cloudflare/</link>
+      <pubDate>Tue, 02 Feb 2016 18:44:21 +0900</pubDate>
+      
+      <guid>https://www.yewton.net/tags/cloudflare/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ddd</title>
+      <link>https://www.yewton.net/tags/ddd/</link>
+      <pubDate>Sat, 23 Jan 2016 23:47:43 +0900</pubDate>
+      
+      <guid>https://www.yewton.net/tags/ddd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dns</title>
+      <link>https://www.yewton.net/tags/dns/</link>
+      <pubDate>Tue, 02 Feb 2016 18:44:21 +0900</pubDate>
+      
+      <guid>https://www.yewton.net/tags/dns/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Docker</title>
+      <link>https://www.yewton.net/tags/docker/</link>
+      <pubDate>Sun, 21 Feb 2016 22:49:52 +0900</pubDate>
+      
+      <guid>https://www.yewton.net/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Emacs</title>
+      <link>https://www.yewton.net/tags/emacs/</link>
+      <pubDate>Wed, 04 May 2016 19:45:26 +0900</pubDate>
+      
+      <guid>https://www.yewton.net/tags/emacs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Emacslisp</title>
+      <link>https://www.yewton.net/tags/emacslisp/</link>
+      <pubDate>Tue, 26 Jan 2016 23:25:40 +0900</pubDate>
+      
+      <guid>https://www.yewton.net/tags/emacslisp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Github</title>
+      <link>https://www.yewton.net/tags/github/</link>
+      <pubDate>Tue, 02 Feb 2016 18:44:21 +0900</pubDate>
+      
+      <guid>https://www.yewton.net/tags/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Go</title>
+      <link>https://www.yewton.net/tags/go/</link>
+      <pubDate>Fri, 15 Jan 2016 23:00:00 +0900</pubDate>
+      
+      <guid>https://www.yewton.net/tags/go/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Google Drive</title>
+      <link>https://www.yewton.net/tags/google-drive/</link>
+      <pubDate>Tue, 16 Feb 2016 23:00:00 +0900</pubDate>
+      
+      <guid>https://www.yewton.net/tags/google-drive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Greasemonkey</title>
+      <link>https://www.yewton.net/tags/greasemonkey/</link>
+      <pubDate>Sat, 23 Jan 2016 23:47:43 +0900</pubDate>
+      
+      <guid>https://www.yewton.net/tags/greasemonkey/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hatenacounting</title>
+      <link>https://www.yewton.net/tags/hatenacounting/</link>
+      <pubDate>Wed, 13 Jan 2016 23:00:00 +0900</pubDate>
+      
+      <guid>https://www.yewton.net/tags/hatenacounting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Helm</title>
+      <link>https://www.yewton.net/tags/helm/</link>
+      <pubDate>Wed, 04 May 2016 19:45:26 +0900</pubDate>
+      
+      <guid>https://www.yewton.net/tags/helm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hhvm</title>
+      <link>https://www.yewton.net/tags/hhvm/</link>
+      <pubDate>Sun, 21 Feb 2016 22:49:52 +0900</pubDate>
+      
+      <guid>https://www.yewton.net/tags/hhvm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Http/2</title>
+      <link>https://www.yewton.net/tags/http-2/</link>
+      <pubDate>Sun, 21 Feb 2016 22:49:52 +0900</pubDate>
+      
+      <guid>https://www.yewton.net/tags/http-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Https</title>
+      <link>https://www.yewton.net/tags/https/</link>
+      <pubDate>Sun, 21 Feb 2016 22:49:52 +0900</pubDate>
+      
+      <guid>https://www.yewton.net/tags/https/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>https://www.yewton.net/tags/hugo/</link>
+      <pubDate>Tue, 02 Feb 2016 18:44:21 +0900</pubDate>
+      
+      <guid>https://www.yewton.net/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hugo.el</title>
+      <link>https://www.yewton.net/tags/hugo.el/</link>
+      <pubDate>Tue, 26 Jan 2016 23:25:40 +0900</pubDate>
+      
+      <guid>https://www.yewton.net/tags/hugo.el/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Javascript</title>
+      <link>https://www.yewton.net/tags/javascript/</link>
+      <pubDate>Fri, 15 Jan 2016 23:00:00 +0900</pubDate>
+      
+      <guid>https://www.yewton.net/tags/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jira</title>
+      <link>https://www.yewton.net/tags/jira/</link>
+      <pubDate>Sat, 23 Jan 2016 23:47:43 +0900</pubDate>
+      
+      <guid>https://www.yewton.net/tags/jira/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mac</title>
+      <link>https://www.yewton.net/tags/mac/</link>
+      <pubDate>Fri, 19 Feb 2016 00:00:00 +0900</pubDate>
+      
+      <guid>https://www.yewton.net/tags/mac/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Markdown Mode</title>
+      <link>https://www.yewton.net/tags/markdown-mode/</link>
+      <pubDate>Wed, 20 Jan 2016 22:40:16 +0900</pubDate>
+      
+      <guid>https://www.yewton.net/tags/markdown-mode/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Moment.js</title>
+      <link>https://www.yewton.net/tags/moment.js/</link>
+      <pubDate>Fri, 15 Jan 2016 23:00:00 +0900</pubDate>
+      
+      <guid>https://www.yewton.net/tags/moment.js/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nginx</title>
+      <link>https://www.yewton.net/tags/nginx/</link>
+      <pubDate>Sun, 21 Feb 2016 22:49:52 +0900</pubDate>
+      
+      <guid>https://www.yewton.net/tags/nginx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Org Mode</title>
+      <link>https://www.yewton.net/tags/org-mode/</link>
+      <pubDate>Wed, 13 Jan 2016 23:00:00 +0900</pubDate>
+      
+      <guid>https://www.yewton.net/tags/org-mode/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Persp Mode</title>
+      <link>https://www.yewton.net/tags/persp-mode/</link>
+      <pubDate>Wed, 04 May 2016 19:45:26 +0900</pubDate>
+      
+      <guid>https://www.yewton.net/tags/persp-mode/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scrum</title>
+      <link>https://www.yewton.net/tags/scrum/</link>
+      <pubDate>Sun, 31 Jan 2016 23:18:29 +0900</pubDate>
+      
+      <guid>https://www.yewton.net/tags/scrum/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Skk</title>
+      <link>https://www.yewton.net/tags/skk/</link>
+      <pubDate>Wed, 13 Jan 2016 23:00:00 +0900</pubDate>
+      
+      <guid>https://www.yewton.net/tags/skk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Skk Mode</title>
+      <link>https://www.yewton.net/tags/skk-mode/</link>
+      <pubDate>Wed, 20 Jan 2016 22:40:16 +0900</pubDate>
+      
+      <guid>https://www.yewton.net/tags/skk-mode/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Slack</title>
+      <link>https://www.yewton.net/tags/slack/</link>
+      <pubDate>Wed, 13 Jan 2016 23:00:00 +0900</pubDate>
+      
+      <guid>https://www.yewton.net/tags/slack/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ssh</title>
+      <link>https://www.yewton.net/tags/ssh/</link>
+      <pubDate>Mon, 18 Jan 2016 00:06:20 +0900</pubDate>
+      
+      <guid>https://www.yewton.net/tags/ssh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ssl</title>
+      <link>https://www.yewton.net/tags/ssl/</link>
+      <pubDate>Tue, 02 Feb 2016 18:44:21 +0900</pubDate>
+      
+      <guid>https://www.yewton.net/tags/ssl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Trello</title>
+      <link>https://www.yewton.net/tags/trello/</link>
+      <pubDate>Tue, 19 Jan 2016 23:00:00 +0900</pubDate>
+      
+      <guid>https://www.yewton.net/tags/trello/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Userscript</title>
+      <link>https://www.yewton.net/tags/userscript/</link>
+      <pubDate>Sat, 23 Jan 2016 23:47:43 +0900</pubDate>
+      
+      <guid>https://www.yewton.net/tags/userscript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vagrant</title>
+      <link>https://www.yewton.net/tags/vagrant/</link>
+      <pubDate>Fri, 19 Feb 2016 00:00:00 +0900</pubDate>
+      
+      <guid>https://www.yewton.net/tags/vagrant/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Virtualbox</title>
+      <link>https://www.yewton.net/tags/virtualbox/</link>
+      <pubDate>Fri, 19 Feb 2016 00:00:00 +0900</pubDate>
+      
+      <guid>https://www.yewton.net/tags/virtualbox/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web Mode</title>
+      <link>https://www.yewton.net/tags/web-mode/</link>
+      <pubDate>Fri, 15 Jan 2016 23:00:00 +0900</pubDate>
+      
+      <guid>https://www.yewton.net/tags/web-mode/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wordpress</title>
+      <link>https://www.yewton.net/tags/wordpress/</link>
+      <pubDate>Sun, 21 Feb 2016 22:49:52 +0900</pubDate>
+      
+      <guid>https://www.yewton.net/tags/wordpress/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>いけにえと雪のセツナ</title>
+      <link>https://www.yewton.net/tags/%E3%81%84%E3%81%91%E3%81%AB%E3%81%88%E3%81%A8%E9%9B%AA%E3%81%AE%E3%82%BB%E3%83%84%E3%83%8A/</link>
+      <pubDate>Wed, 04 May 2016 16:10:11 +0900</pubDate>
+      
+      <guid>https://www.yewton.net/tags/%E3%81%84%E3%81%91%E3%81%AB%E3%81%88%E3%81%A8%E9%9B%AA%E3%81%AE%E3%82%BB%E3%83%84%E3%83%8A/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>カナヘイ</title>
+      <link>https://www.yewton.net/tags/%E3%82%AB%E3%83%8A%E3%83%98%E3%82%A4/</link>
+      <pubDate>Tue, 16 Feb 2016 23:00:00 +0900</pubDate>
+      
+      <guid>https://www.yewton.net/tags/%E3%82%AB%E3%83%8A%E3%83%98%E3%82%A4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ゲーム</title>
+      <link>https://www.yewton.net/tags/%E3%82%B2%E3%83%BC%E3%83%A0/</link>
+      <pubDate>Wed, 04 May 2016 16:10:11 +0900</pubDate>
+      
+      <guid>https://www.yewton.net/tags/%E3%82%B2%E3%83%BC%E3%83%A0/</guid>
+      <description></description>
     </item>
     
   </channel>
