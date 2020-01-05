@@ -1,23 +1,47 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hugo.el on yewton.net</title>
-    <link>https://www.yewton.net/tags/hugo.el/</link>
-    <description>Recent content in Hugo.el on yewton.net</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ja-jp</language>
-    <lastBuildDate>Tue, 26 Jan 2016 23:25:40 +0900</lastBuildDate>
-    
-	<atom:link href="https://www.yewton.net/tags/hugo.el/index.xml" rel="self" type="application/rss+xml" />
-    
+    <title>hugo.el | yewton.net</title>
+    <link>/tags/hugo.el/</link>
+      <atom:link href="/tags/hugo.el/index.xml" rel="self" type="application/rss+xml" />
+    <description>hugo.el</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja-jp</language><lastBuildDate>Tue, 26 Jan 2016 23:25:40 +0900</lastBuildDate>
+    <image>
+      <url>/images/icon_huaabe68613bbbee58fda37f3eff123575_99627_512x512_fill_lanczos_center_2.png</url>
+      <title>hugo.el</title>
+      <link>/tags/hugo.el/</link>
+    </image>
     
     <item>
       <title>hugo.elを書いた</title>
-      <link>https://www.yewton.net/2016/01/26/hugo-el/</link>
+      <link>/2016/01/hugo-el/</link>
       <pubDate>Tue, 26 Jan 2016 23:25:40 +0900</pubDate>
-      
-      <guid>https://www.yewton.net/2016/01/26/hugo-el/</guid>
-      <description>#とは hugo.elは、Hugoでサイト作成する際に便利な関数群を定義したパッケージ。 marmalade-repoで公開されているので、パッ</description>
+      <guid>/2016/01/hugo-el/</guid>
+      <description>&lt;h2 id=&#34;heading&#34;&gt;#とは&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/yewton/hugo.el&#34;&gt;hugo.el&lt;/a&gt;は、Hugoでサイト作成する際に便利な関数群を定義したパッケージ。
+&lt;a href=&#34;https://marmalade-repo.org/&#34;&gt;marmalade-repo&lt;/a&gt;で公開されているので、パッケージの設定をすれば簡単にインストール出来るハズ。&lt;/p&gt;
+&lt;h2 id=&#34;heading-1&#34;&gt;作った動機&lt;/h2&gt;
+&lt;p&gt;何か〈物を書く〉という作業をする時、自分はEmacsを使っていて、可能な限りEmacsの中から出たくない。
+HugoはCLIのインタフェースなので、ターミナルとEmacsを行き来することになってしまうのは辛い。&lt;/p&gt;
+&lt;p&gt;あと色んなテーマを試したい時に、いちいちテーマ名をコピペする必要があり、辛かった。
+一覧の中からhelmで選択したかった。&lt;/p&gt;
+&lt;p&gt;…というように、Emacsの中で色々作業が完結するようにしたかった。&lt;/p&gt;
+&lt;h2 id=&#34;heading-2&#34;&gt;作ってみて&lt;/h2&gt;
+&lt;p&gt;正直テーマのインストール補助機能はHugoを初めて触って、色々試してみたいフェーズでしか使わないので、
+ほとんどの場合大した価値じゃないかもしれない。&lt;/p&gt;
+&lt;p&gt;個人的には、 &lt;code&gt;hugo-new-content&lt;/code&gt; と、 &lt;code&gt;hugo-start-server&lt;/code&gt;, &lt;code&gt;hugo-open-browser&lt;/code&gt; が中々便利だなーと思って使っている。
+適当に記事を書き始められるし、プレビューするためにターミナルで確認したアドレスをブラウザに打ち込むとかやらなくてよいので。&lt;/p&gt;
+&lt;p&gt;書き終えたあとに &lt;code&gt;hugo-deploy&lt;/code&gt; でひょいっと公開出来るのも地味に便利。
+ただ、デプロイスクリプトを呼び出してるだけなんだけどね…。&lt;/p&gt;
+&lt;p&gt;普段Emacsで物書きをするひとで、Hugoでブログ書こうと思う人は是非便利に使ってもらいたい。
+そんな人あんまりいなさそうだけど…。&lt;/p&gt;
+&lt;h2 id=&#34;todo&#34;&gt;TODO&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;hugo-open-browser&lt;/code&gt; で今開いているcontentを直接開けたらより便利かもしれない&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;hugo-deploy&lt;/code&gt; が同期処理になってて固まるので、非同期にする&lt;/li&gt;
+&lt;li&gt;テスト全然書いてないので、テストを書いてバッジをつけて喜ぶ&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
   </channel>

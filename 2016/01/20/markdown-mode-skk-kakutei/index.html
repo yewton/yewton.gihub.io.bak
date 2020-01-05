@@ -2,7 +2,7 @@
 <html lang="ja-jp">
     <head>
         <title>markdown-modeでSKKの変換確定するためにRETするとカーソルが行頭に飛ぶ問題の回避策 &middot; yewton.net</title>
-        <meta name="generator" content="Hugo 0.49.2" />
+        <meta name="generator" content="Hugo 0.62.0" />
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <meta name="author" content="yewton">
@@ -24,23 +24,20 @@
         <meta property="og:title" content="markdown-modeでSKKの変換確定するためにRETするとカーソルが行頭に飛ぶ問題の回避策" />
 <meta property="og:description" content="markdown-mode 2.1 で SKK 15.2 使ってると、確定しようと思って &lt;return&gt; すると、 確定後にカーソルが行頭に飛んでしまうという問題に遭遇した。 C-j で確定する場合は起こらない。 TL;DR" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.yewton.net/2016/01/20/markdown-mode-skk-kakutei/" /><meta property="article:published_time" content="2016-01-20T22:40:16&#43;09:00"/>
-<meta property="article:modified_time" content="2016-01-20T22:40:16&#43;09:00"/>
+<meta property="og:url" content="https://www.yewton.net/2016/01/20/markdown-mode-skk-kakutei/" />
+<meta property="article:published_time" content="2016-01-20T22:40:16+09:00" />
+<meta property="article:modified_time" content="2016-01-20T22:40:16+09:00" />
 
         
-        
-<meta itemprop="name" content="markdown-modeでSKKの変換確定するためにRETするとカーソルが行頭に飛ぶ問題の回避策">
+        <meta itemprop="name" content="markdown-modeでSKKの変換確定するためにRETするとカーソルが行頭に飛ぶ問題の回避策">
 <meta itemprop="description" content="markdown-mode 2.1 で SKK 15.2 使ってると、確定しようと思って &lt;return&gt; すると、 確定後にカーソルが行頭に飛んでしまうという問題に遭遇した。 C-j で確定する場合は起こらない。 TL;DR">
-
-
 <meta itemprop="datePublished" content="2016-01-20T22:40:16&#43;09:00" />
 <meta itemprop="dateModified" content="2016-01-20T22:40:16&#43;09:00" />
-<meta itemprop="wordCount" content="485">
+<meta itemprop="wordCount" content="483">
 
 
 
 <meta itemprop="keywords" content="emacs,skk-mode,markdown-mode," />
-
         <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="markdown-modeでSKKの変換確定するためにRETするとカーソルが行頭に飛ぶ問題の回避策"/>
 <meta name="twitter:description" content="markdown-mode 2.1 で SKK 15.2 使ってると、確定しようと思って &lt;return&gt; すると、 確定後にカーソルが行頭に飛んでしまうという問題に遭遇した。 C-j で確定する場合は起こらない。 TL;DR"/>
@@ -336,12 +333,12 @@
         
         <div class="article-info profile-block">
             <div class="article-info-block">
-                21
+                26
                 <span>投稿</span>
             </div>
             <div class="article-info-block">
                 
-                    45
+                    50
                 
                 <span>
                     タグ
@@ -373,7 +370,7 @@
             <i class="fa fa-calendar"></i>
             <time datetime="2016-01-20 22:40:16 &#43;0900 JST" itemprop="datePublished">2016.01.20 Wed</time>
             &middot;
-            485
+            483
             語
             &middot;
             1
@@ -416,55 +413,37 @@
 </header>
 
             <div class="article-entry" itemprop="articleBody">
-                
-
-<p>markdown-mode 2.1 で SKK 15.2 使ってると、確定しようと思って <code>&lt;return&gt;</code> すると、
+                <p>markdown-mode 2.1 で SKK 15.2 使ってると、確定しようと思って <code>&lt;return&gt;</code> すると、
 確定後にカーソルが行頭に飛んでしまうという問題に遭遇した。
 <code>C-j</code> で確定する場合は起こらない。</p>
-
-<h2 id="tl-dr">TL;DR</h2>
-
+<h2 id="tldr">TL;DR</h2>
 <p>以下を <code>init.el</code> 相当のファイルに書けば回避出来る。</p>
-
-<pre><code class="language-lisp">(defun my--markdown-entery-key-ad (this-func &amp;rest args)
-  &quot;markdown-modeでskk-henkan-mode中にエンターすると行頭にカーソルが飛んでしまう問題の対応&quot;
-  (if skk-henkan-mode (skk-kakutei)
-    (apply this-func args)))
-(advice-add #'markdown-enter-key :around #'my--markdown-entery-key-ad)
-</code></pre>
-
-<h2 id="原因解明に至るまで">原因解明に至るまで</h2>
-
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-lisp" data-lang="lisp">(defun my--markdown-entery-key-ad (this-func <span style="color:#66d9ef">&amp;rest</span> args)
+  <span style="color:#e6db74">&#34;markdown-modeでskk-henkan-mode中にエンターすると行頭にカーソルが飛んでしまう問題の対応&#34;</span>
+  (<span style="color:#66d9ef">if</span> skk-henkan-mode (skk-kakutei)
+    (<span style="color:#a6e22e">apply</span> this-func args)))
+(advice-add <span style="color:#a6e22e">#&#39;</span>markdown-enter-key <span style="color:#e6db74">:around</span> <span style="color:#a6e22e">#&#39;</span>my--markdown-entery-key-ad)
+</code></pre></div><h2 id="heading">原因解明に至るまで</h2>
 <p><code>&lt;return&gt;</code> = <code>&lt;C-m&gt;</code> では起こり、<code>C-j</code> では起こらないので、まずはキーバインドを確認したところ、
 前者は <code>markdown-enter-key</code> という関数が割り当てられていた。</p>
-
 <p>実装は至ってシンプルだった:</p>
-
-<pre><code class="language-lisp">(defun markdown-enter-key ()
-  &quot;Handle RET according to to the value of `markdown-indent-on-enter'.&quot;
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-lisp" data-lang="lisp">(defun markdown-enter-key ()
+  <span style="color:#e6db74">&#34;Handle RET according to to the value of `markdown-indent-on-enter&#39;.&#34;</span>
   (interactive)
   (newline)
   (when markdown-indent-on-enter
     (markdown-indent-line)))
-</code></pre>
-
-<p>次に <code>trace-function</code> で <code>markdown-enter-key</code> と <code>skk-kakutei</code> をトレースしたところ、
+</code></pre></div><p>次に <code>trace-function</code> で <code>markdown-enter-key</code> と <code>skk-kakutei</code> をトレースしたところ、
 以下のような出力が得られた:</p>
-
 <pre><code>1 -&gt; (markdown-enter-key)
 | 2 -&gt; (skk-kakutei)
 | 2 &lt;- skk-kakutei: nil
 1 &lt;- markdown-enter-key: nil
-</code></pre>
-
-<p><code>markdown-enter-key</code> が発動して <code>(newline)</code> が評価された結果、
+</code></pre><p><code>markdown-enter-key</code> が発動して <code>(newline)</code> が評価された結果、
 <code>skk-kakutei</code> が発動して変換確定、その後に <code>markdown-indent-line</code> が呼ばれているのがどうも悪いらしい。</p>
-
-<h2 id="回避方法">回避方法</h2>
-
+<h2 id="heading-1">回避方法</h2>
 <p>これは <strong><code>markdown-enter-key</code> が呼ばれた時に <code>skk-henkan-mode</code> 中だったら、</strong>
 <strong>本来の挙動ではなく <code>skk-kakutei</code> だけを行なうようにする</strong> ことで回避出来そうだ。</p>
-
 <p>こういう部分的な挙動の修正には advice を使うといい。
 というわけで前述の挙動をそのまま定義すると、冒頭のようなコードになる。</p>
 
@@ -542,6 +521,46 @@
             
             <li>
                 <div class="item-thumbnail">
+                    <a href="https://www.yewton.net/post/" class="thumbnail">
+                    
+                        <span class="thumbnail-image thumbnail-none"></span>
+                    
+                    </a>
+                </div>
+                <div class="item-inner">
+                    
+                    <p class="item-title"><a href="https://www.yewton.net/post/" class="title">Posts</a></p>
+                    <p class="item-date">
+                        <time datetime="2019-01-01 00:00:00 &#43;0900 JST" itemprop="datePublished">2019.01.01 Tue</time>
+                    </p>
+                </div>
+            </li>
+            
+            <li>
+                <div class="item-thumbnail">
+                    <a href="https://www.yewton.net/2019/01/01/wow-its-party-time/" class="thumbnail">
+                    
+                        <span class="thumbnail-image thumbnail-none"></span>
+                    
+                    </a>
+                </div>
+                <div class="item-inner">
+                    
+                    <p class="item-category">
+                        <a class="article-category-link" href="https://www.yewton.net/categories/test">
+                        Test
+                        </a>
+                    </p>
+                    
+                    <p class="item-title"><a href="https://www.yewton.net/2019/01/01/wow-its-party-time/" class="title">wow it&#39;s party time</a></p>
+                    <p class="item-date">
+                        <time datetime="2019-01-01 00:00:00 &#43;0900 JST" itemprop="datePublished">2019.01.01 Tue</time>
+                    </p>
+                </div>
+            </li>
+            
+            <li>
+                <div class="item-thumbnail">
                     <a href="https://www.yewton.net/2017/04/09/grouper-beanstalk/" class="thumbnail">
                     
                         
@@ -567,32 +586,7 @@
             
             <li>
                 <div class="item-thumbnail">
-                    <a href="https://www.yewton.net/2016/09/03/how-to-get-atlassian-dragon-slayer-t-shirt/" class="thumbnail">
-                    
-                        
-                        <span style="background-image:url(https://www.yewton.net/banners/atlassian-dragon-slayer-t-shirt.jpg)" alt="markdown-modeでSKKの変換確定するためにRETするとカーソルが行頭に飛ぶ問題の回避策" class="thumbnail-image"></span>
-                        
-                    
-                    </a>
-                </div>
-                <div class="item-inner">
-                    
-                    <p class="item-category">
-                        <a class="article-category-link" href="https://www.yewton.net/categories/%e6%8a%80%e8%a1%93%e7%b3%bb">
-                        技術系
-                        </a>
-                    </p>
-                    
-                    <p class="item-title"><a href="https://www.yewton.net/2016/09/03/how-to-get-atlassian-dragon-slayer-t-shirt/" class="title">Atlassian から無料でTシャツをもらう方法、あるいはドラゴンの倒し方</a></p>
-                    <p class="item-date">
-                        <time datetime="2016-09-03 15:34:07 &#43;0900 JST" itemprop="datePublished">2016.09.03 Sat</time>
-                    </p>
-                </div>
-            </li>
-            
-            <li>
-                <div class="item-thumbnail">
-                    <a href="https://www.yewton.net/2016/08/29/misc/" class="thumbnail">
+                    <a href="https://www.yewton.net/2017/01/15/mbp-accesories/" class="thumbnail">
                     
                         
                         <span style="background-image:url(https://www.yewton.net/banners/default.jpg)" alt="markdown-modeでSKKの変換確定するためにRETするとカーソルが行頭に飛ぶ問題の回避策" class="thumbnail-image"></span>
@@ -608,19 +602,19 @@
                         </a>
                     </p>
                     
-                    <p class="item-title"><a href="https://www.yewton.net/2016/08/29/misc/" class="title">三ヶ月以上ぶりに何かを書く</a></p>
+                    <p class="item-title"><a href="https://www.yewton.net/2017/01/15/mbp-accesories/" class="title">MacBook Pro (Retina, 13-inch, Early 2015)で使っているアクセサリ</a></p>
                     <p class="item-date">
-                        <time datetime="2016-08-29 22:29:35 &#43;0900 JST" itemprop="datePublished">2016.08.29 Mon</time>
+                        <time datetime="2017-01-15 14:24:03 &#43;0900 JST" itemprop="datePublished">2017.01.15 Sun</time>
                     </p>
                 </div>
             </li>
             
             <li>
                 <div class="item-thumbnail">
-                    <a href="https://www.yewton.net/2016/05/04/helm-persp/" class="thumbnail">
+                    <a href="https://www.yewton.net/2017/01/04/ikuji/" class="thumbnail">
                     
                         
-                        <span style="background-image:url(https://www.yewton.net/banners/emacs.jpg)" alt="markdown-modeでSKKの変換確定するためにRETするとカーソルが行頭に飛ぶ問題の回避策" class="thumbnail-image"></span>
+                        <span style="background-image:url(https://www.yewton.net/banners/default.jpg)" alt="markdown-modeでSKKの変換確定するためにRETするとカーソルが行頭に飛ぶ問題の回避策" class="thumbnail-image"></span>
                         
                     
                     </a>
@@ -628,39 +622,14 @@
                 <div class="item-inner">
                     
                     <p class="item-category">
-                        <a class="article-category-link" href="https://www.yewton.net/categories/%e9%9b%91%e8%a8%98">
-                        雑記
+                        <a class="article-category-link" href="https://www.yewton.net/categories/%e5%a6%8a%e5%a8%a0%e5%87%ba%e7%94%a3%e8%82%b2%e5%85%90">
+                        妊娠・出産・育児
                         </a>
                     </p>
                     
-                    <p class="item-title"><a href="https://www.yewton.net/2016/05/04/helm-persp/" class="title">Spacemacs から helm と persp-mode の設定をパクろうと思ったけど難しかった</a></p>
+                    <p class="item-title"><a href="https://www.yewton.net/2017/01/04/ikuji/" class="title">新生児の育児中に買っておいて捗ったもの</a></p>
                     <p class="item-date">
-                        <time datetime="2016-05-04 19:45:26 &#43;0900 JST" itemprop="datePublished">2016.05.04 Wed</time>
-                    </p>
-                </div>
-            </li>
-            
-            <li>
-                <div class="item-thumbnail">
-                    <a href="https://www.yewton.net/2016/05/04/setsuna/" class="thumbnail">
-                    
-                        
-                        <span style="background-image:url(https://www.yewton.net/img/2016-05-04_160945_setsuna/setsuna.jpg)" alt="markdown-modeでSKKの変換確定するためにRETするとカーソルが行頭に飛ぶ問題の回避策" class="thumbnail-image"></span>
-                        
-                    
-                    </a>
-                </div>
-                <div class="item-inner">
-                    
-                    <p class="item-category">
-                        <a class="article-category-link" href="https://www.yewton.net/categories/%e3%82%b2%e3%83%bc%e3%83%a0%e6%84%9f%e6%83%b3">
-                        ゲーム感想
-                        </a>
-                    </p>
-                    
-                    <p class="item-title"><a href="https://www.yewton.net/2016/05/04/setsuna/" class="title">『いけにえと雪のセツナ』感想</a></p>
-                    <p class="item-date">
-                        <time datetime="2016-05-04 16:10:11 &#43;0900 JST" itemprop="datePublished">2016.05.04 Wed</time>
+                        <time datetime="2017-01-04 09:00:00 &#43;0900 JST" itemprop="datePublished">2017.01.04 Wed</time>
                     </p>
                 </div>
             </li>
@@ -686,10 +655,24 @@
             </li>
             
             <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/categories/test">
+                    test
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
                 <a class="category-list-link" href="https://www.yewton.net/categories/%e3%82%b2%e3%83%bc%e3%83%a0%e6%84%9f%e6%83%b3">
                     ゲーム感想
                 </a>
                 <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/categories/%e5%a6%8a%e5%a8%a0%e5%87%ba%e7%94%a3%e8%82%b2%e5%85%90">
+                    妊娠出産育児
+                </a>
+                <span class="category-list-count">3</span>
             </li>
             
             <li class="category-list-item">
@@ -710,7 +693,7 @@
                 <a class="category-list-link" href="https://www.yewton.net/categories/%e9%9b%91%e8%a8%98">
                     雑記
                 </a>
-                <span class="category-list-count">3</span>
+                <span class="category-list-count">4</span>
             </li>
             
         </ul>
@@ -728,6 +711,13 @@
     </h3>
     <div class="widget">
         <ul class="category-list">
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/">
+                    
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
             
             <li class="category-list-item">
                 <a class="category-list-link" href="https://www.yewton.net/tags/android">
@@ -796,7 +786,7 @@
                 <a class="category-list-link" href="https://www.yewton.net/tags/emacs">
                     emacs
                 </a>
-                <span class="category-list-count">5</span>
+                <span class="category-list-count">6</span>
             </li>
             
             <li class="category-list-item">
@@ -926,6 +916,13 @@
             </li>
             
             <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/omochi">
+                    omochi
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
                 <a class="category-list-link" href="https://www.yewton.net/tags/org-mode">
                     org-mode
                 </a>
@@ -1044,6 +1041,27 @@
                 <span class="category-list-count">1</span>
             </li>
             
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/%e5%87%ba%e7%94%a3">
+                    出産
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/%e5%a6%8a%e5%a8%a0">
+                    妊娠
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/%e8%82%b2%e5%85%90">
+                    育児
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
         </ul>
     </div>
 </div>
@@ -1066,7 +1084,7 @@
 <footer id="footer">
   <div class="outer">
     <div id="footer-info" class="inner">
-      &copy; 2019
+      &copy; 2020
       yewton. Powered by <a href="//gohugo.io">Hugo</a>. Theme by <a href="http://github.com/ppoffice">PPOffice</a>.
     </div>
   </div>

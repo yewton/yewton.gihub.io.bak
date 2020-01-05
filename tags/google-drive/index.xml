@@ -1,23 +1,56 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Google Drive on yewton.net</title>
-    <link>https://www.yewton.net/tags/google-drive/</link>
-    <description>Recent content in Google Drive on yewton.net</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ja-jp</language>
-    <lastBuildDate>Tue, 16 Feb 2016 23:00:00 +0900</lastBuildDate>
-    
-	<atom:link href="https://www.yewton.net/tags/google-drive/index.xml" rel="self" type="application/rss+xml" />
-    
+    <title>Google Drive | yewton.net</title>
+    <link>/tags/google-drive/</link>
+      <atom:link href="/tags/google-drive/index.xml" rel="self" type="application/rss+xml" />
+    <description>Google Drive</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja-jp</language><lastBuildDate>Tue, 16 Feb 2016 23:00:00 +0900</lastBuildDate>
+    <image>
+      <url>/images/icon_huaabe68613bbbee58fda37f3eff123575_99627_512x512_fill_lanczos_center_2.png</url>
+      <title>Google Drive</title>
+      <link>/tags/google-drive/</link>
+    </image>
     
     <item>
       <title>早朝ランニングしたりカナヘイカフェに行ってきた日</title>
-      <link>https://www.yewton.net/2016/02/16/diary/</link>
+      <link>/2016/02/diary/</link>
       <pubDate>Tue, 16 Feb 2016 23:00:00 +0900</pubDate>
-      
-      <guid>https://www.yewton.net/2016/02/16/diary/</guid>
-      <description>ランニング 昨日おとといと、春が来たのかと思うくらい暖かったので、 何となく意識が高まって「よし明日からランニングを始めるぞ」という気持ちになっ</description>
+      <guid>/2016/02/diary/</guid>
+      <description>&lt;h2 id=&#34;heading&#34;&gt;ランニング&lt;/h2&gt;
+&lt;p&gt;昨日おとといと、春が来たのかと思うくらい暖かったので、
+何となく意識が高まって「よし明日からランニングを始めるぞ」という気持ちになっていた。&lt;/p&gt;
+&lt;p&gt;せっかくだから一番いいランニングをしようと思って調べると、
+朝食前に20分以上走るのが痩せるには最も効果があるという情報を得た。
+時間を気にしながら走るのは辛そうだったので、とにかく目標地点まで行って帰ってくることにし、
+スカイツリーくらいまで走ると距離的にちょうどよさそうだったのでそこを目標地点とした。&lt;/p&gt;
+&lt;p&gt;そんな調査を前日に行なっていざ、走ろうと外に出ると &lt;strong&gt;滅茶苦茶寒い&lt;/strong&gt; 。
+いや、昨日おとといと比較すると寒くなるというのは知っていたけれど、
+走ってるうちに体あったまるだろくらいに考えていた。
+ところが、走れども走れども一向に体は暖まらず、手はかじかみ、
+寒さに震えながら走ることになった。&lt;/p&gt;
+&lt;p&gt;後で調べたらその時の気温が3度とかだったので、そりゃ、寒いワケだ、と。&lt;/p&gt;
+&lt;p&gt;寒さを舐めてはいけない。
+次はもっと防寒するか、もっと暖かい日にしよう、という学びを得た。&lt;/p&gt;
+&lt;h2 id=&#34;heading-1&#34;&gt;カナヘイのゆるっとカフェ&lt;/h2&gt;
+&lt;p&gt;仕事終わりに、&lt;a href=&#34;http://kanahei.blog.jp/archives/1049325539.html&#34;&gt;カナヘイのゆるっとカフェ&lt;/a&gt;に行ってきた
+(カフェ公式ページは無くて、イベントページの1コンテンツという感じだったので、カナヘイさんのブログ記事にリンク)。&lt;/p&gt;
+&lt;iframe src=&#34;https://drive.google.com/file/d/0B4XWl5W7tB7IQ09Jc3dKcmN6OEk/preview&#34; width=&#34;320&#34; height=&#34;240&#34;&gt;&lt;/iframe&gt;
+&lt;p&gt;こんな感じでパルコ入口で待ち構えている。&lt;/p&gt;
+&lt;iframe src=&#34;https://drive.google.com/file/d/0B4XWl5W7tB7IMzJrYllaRmo5dUk/preview&#34; width=&#34;320&#34; height=&#34;240&#34;&gt;&lt;/iframe&gt;
+&lt;p&gt;7階に辿り着くと、巨大うさぎ&amp;amp;ピスケがお出迎え。
+これ、多分カナヘイの個展でも使われてた奴らが着替えただけだ。&lt;/p&gt;
+&lt;p&gt;その他の最高に可愛い写真は&lt;a href=&#34;https://drive.google.com/folderview?id=0B4XWl5W7tB7IcEpEdWVPQm5HWkk&amp;amp;usp=drive_web&#34;&gt;こちら&lt;/a&gt;
+に置いてあるのでどうぞご自由にご利用下さい。&lt;/p&gt;
+&lt;p&gt;もう、本当に最高にゆるっとして可愛くて可笑しくて、また行くことが確定した。
+グッズ込みで1万超の出費だったけど何も痛くないね!!&lt;/p&gt;
+&lt;p&gt;カナヘイさんもっとイベントやってください。&lt;/p&gt;
+&lt;h2 id=&#34;google-drive--web-&#34;&gt;Google Drive の画像を Web ページに埋め込む&lt;/h2&gt;
+&lt;p&gt;カナヘイカフェの記事を書こうとして、どうにか写真を埋め込めないか色々調べたら、
+どうも写真の単体ページ(&lt;a href=&#34;https://drive.google.com/file/d/0B4XWl5W7tB7IQ09Jc3dKcmN6OEk/view&#34;&gt;こういうの&lt;/a&gt;)を開いて、
+〈アイテムを埋め込む〉というのが真っ当な手段ぽかった。&lt;/p&gt;
+&lt;p&gt;直リンクする方法もあるみたいだけど、いつ Google 様に殺されるか分からなかったので止めておく。&lt;/p&gt;
+</description>
     </item>
     
   </channel>

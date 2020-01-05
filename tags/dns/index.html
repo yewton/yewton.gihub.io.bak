@@ -1,959 +1,671 @@
 <!DOCTYPE html>
 <html lang="ja-jp">
-    <head>
-        <title>Dns &middot; yewton.net</title>
-        <meta name="generator" content="Hugo 0.49.2" />
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-        <meta name="author" content="yewton">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.7.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="yewton">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="ソフトウェアエンジニア">
+
+  
+  <link rel="alternate" hreflang="ja-jp" href="/tags/dns/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
         
-            <meta name="description" content="技術的な話とか日常の駄文、その他もろもろ。">
-        
-        
-            <link href="https://www.yewton.net/tags/dns/index.xml" rel="alternate" type="application/rss+xml" title="yewton.net" />
-            <link href="https://www.yewton.net/tags/dns/index.xml" rel="feed" type="application/rss+xml" title="yewton.net" />
-        
-        <link rel="icon" href="https://www.yewton.net/favicon.ico">
-        <link rel="apple-touch-icon" href="https://www.yewton.net/apple-touch-icon.png" />
-        <link rel="stylesheet" href="https://www.yewton.net/css/style.css">
-        <link rel="stylesheet" href="https://www.yewton.net/css/font-awesome.min.css">
-        <link rel="stylesheet" href="https://www.yewton.net/css/github.css">
-        <link rel="stylesheet" href="https://www.yewton.net/css/custom.css">
-        <link rel="stylesheet" href="https://www.yewton.net/fancybox/jquery.fancybox.css">
-        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600' rel='stylesheet' type='text/css'>
-        <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.11.1/moment.min.js"></script>
-        <meta property="og:title" content="Dns" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://www.yewton.net/tags/dns/" />
-<meta property="og:updated_time" content="2016-02-02T18:44:21&#43;09:00"/>
+      
 
-        
-        
-<meta itemprop="name" content="Dns">
-<meta itemprop="description" content="">
+      
+    
+      
 
+      
+      
 
-        <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Dns"/>
-<meta name="twitter:description" content=""/>
-<meta name="twitter:site" content="@yewton"/>
+      
+    
 
-    </head>
-    <body>
-        <div class="container">
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
 
 
-<div id="container">
-    <header id="header">
-    <div id="header-main" class="header-inner">
-        <div class="outer">
-            <a href="https://www.yewton.net/" id="logo"><i class="logo" style="background-image: url('https://www.yewton.net/css/images/logo.png')"></i><span class="site-title">yewton.net</span></a>
-            <nav id="main-nav">
-                
-                    
-                        <a class="main-nav-link" href="https://www.yewton.net/">Home</a>
-                    
-                
-                    
-                
-                    
-                
 
-                
 
-                
-                    
-                
-                    
-                        <a class="main-nav-link" href="https://www.yewton.net/tags/">Tags</a>
-                    
-                
-                    
-                        <a class="main-nav-link" href="https://www.yewton.net/categories/">Categories</a>
-                    
-                
-            </nav>
-            <nav id="sub-nav">
-                <div class="profile" id="profile-nav">
-                    <a id="profile-anchor" href="javascript:;">
-                        
-                            <img class="avatar" src="https://www.yewton.net/img/avatar-placeholder.png" alt="Profile Picture"/>
-                            <script src="https://www.yewton.net/js/md5.js"></script>
-                            <script type="text/javascript">
-                             $(function(){
-                                 $('.avatar').attr('src', 'https://www.gravatar.com/avatar/' + MD5('yewton@gmail.com') + '?s=128');
-                             });
-                            </script>
-                        
-                        <i class="fa fa-caret-down"></i></a>
-                </div>
-            </nav>
-            <div id="search-form-wrap">
-                <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form">
-                    <input type="search" name="q" results="0" class="search-form-input" placeholder="検索">
-                    <button type="submit" class="search-form-submit">
-                    </button>
-                    <input type="hidden" name="q" value="site:https://www.yewton.net/">
-                </form>
-            </div>
+  
+<script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-WRWPP44');
+</script>
+
+
+
+  
+  <link rel="alternate" href="/tags/dns/index.xml" type="application/rss+xml" title="yewton.net">
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_huaabe68613bbbee58fda37f3eff123575_99627_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_huaabe68613bbbee58fda37f3eff123575_99627_192x192_fill_lanczos_center_2.png">
+
+  <link rel="canonical" href="/tags/dns/">
+
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="twitter:site" content="@yewton">
+  <meta property="twitter:creator" content="@yewton">
+  
+  <meta property="og:site_name" content="yewton.net">
+  <meta property="og:url" content="/tags/dns/">
+  <meta property="og:title" content="dns | yewton.net">
+  <meta property="og:description" content="ソフトウェアエンジニア"><meta property="og:image" content="/images/icon_huaabe68613bbbee58fda37f3eff123575_99627_512x512_fill_lanczos_center_2.png">
+  <meta property="twitter:image" content="/images/icon_huaabe68613bbbee58fda37f3eff123575_99627_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="ja-jp">
+  
+    <meta property="og:updated_time" content="2016-02-02T18:44:21&#43;09:00">
+  
+
+  
+
+
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>dns | yewton.net</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
         </div>
-    </div>
-    <div id="main-nav-mobile" class="header-sub header-inner">
-        <table class="menu outer">
-            <tbody>
-                <tr>
-                    
-                        
-                            <td><a class="main-nav-link" href="https://www.yewton.net/">Home</a></td>
-                        
-                    
-                        
-                    
-                        
-                    
-
-                    
-
-                    
-                        
-                    
-                        
-                            <td><a class="main-nav-link" href="https://www.yewton.net/tags/">Tags</a></td>
-                        
-                    
-                        
-                            <td><a class="main-nav-link" href="https://www.yewton.net/categories/">Categories</a></td>
-                        
-                    
-                    <td>
-                        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form">
-                            <input type="search" name="q" results="0" class="search-form-input" placeholder="Search">
-                            <input type="hidden" name="q" value="site:https://www.yewton.net/">
-                        </form>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-</header>
-
-    <div class="outer">
-        <aside id="profile">
-    <div class="inner profile-inner">
-        <div class="base-info profile-block">
-            
-                <img id="avatar" class="avatar" src="https://www.yewton.net/img/avatar-placeholder.png" alt="Profile Picture"/>
-                <script src="https://www.yewton.net/js/md5.js"></script>
-                <script type="text/javascript">
-                 $(function(){
-                     $('#avatar').attr('src', 'https://www.gravatar.com/avatar/' + MD5('yewton@gmail.com') + '?s=128');
-                 });
-                </script>
-            
-            <h2 id="name">yewton</h2>
-            <h3 id="title">サーバーサイドエンジニア。iOS, Android, Web, インフラも少々。2児の父親。</h3>
-            <span id="location"><i class="fa fa-map-marker"></i>Tokyo, Japan</span>
-            
-                <span id="age" style="visibility: hidden;"><i class="fa fa-birthday-cake"></i></span>
-                <script type="text/javascript">
-                 $(function(){
-                     var birthday = moment('1986-06-11');
-                     var wholedays = moment().diff(birthday, 'days');
-                     var years = Math.floor(wholedays / 365);
-                     var days = wholedays % 365;
-                     var text = '';
-                     if (years) { text += years + '歳'; }
-                     if (days) { text += 'と' + days + '日'; }
-                     $('#age').append(text).hide().css({'visibility': 'visible'}).fadeIn();
-                 });
-                </script>
-            
-            
-                <a id="follow" href="https://twitter.com/yewton">
-                    フォロー
-                </a>
-            
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
         </div>
-        <div class="contact-info profile-block">
-            <table class="contact-list">
-                <tr>
-                    
-<td><a href="//github.com/yewton" target="_blank" title="GitHub"><i class="fa fa-github"></i></a></td>
+      </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<td><a href="//instagram.com/yewton" target="_blank" title="Instagram"><i class="fa fa-instagram"></i></a></td>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<td><a href="//linkedin.com/in/yewton" target="_blank" title="LinkedIn"><i class="fa fa-linkedin"></i></a></td>
-
-
-
-
-
-
-
-
-
-
-
-<td><a href="//plus.google.com/+YutoSasaki" target="_blank" title="Google+"><i class="fa fa-googleplus"></i></a></td>
-
-
-
-<td><a href="//facebook.com/yewton" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a></td>
-
-
-
-<td><a href="//twitter.com/yewton" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a></td>
-
-
-                    <td><a href="https://www.yewton.net/tags/dns/index.xml" target="_blank" title="RSS"><i class="fa fa-rss"></i></a></td>
-                </tr>
-            </table>
-        </div>
+      <div id="search-box">
         
-            <div class="anniversary-info profile-block">
-                <table id="anniversary-list">
-                    
-                        <tr>
-                            <td><i class="fa fa-calendar"></i></td>
-                            <td>結婚</td>
-                            <td>
-                                <span class="anniversary"
-                                      data-prefix="結婚"
-                                      data-suffix="目"
-                                      data-date="2010-11-30"
-                                      style="visibility: hidden;">&nbsp;</span>
-                            </td>
-                        </tr>
-                    
-                        <tr>
-                            <td><i class="fa fa-calendar"></i></td>
-                            <td>付き合って</td>
-                            <td>
-                                <span class="anniversary"
-                                      data-prefix="付き合って"
-                                      data-suffix="目"
-                                      data-date="2007-11-30"
-                                      style="visibility: hidden;">&nbsp;</span>
-                            </td>
-                        </tr>
-                    
-                        <tr>
-                            <td><i class="fa fa-calendar"></i></td>
-                            <td>社会人</td>
-                            <td>
-                                <span class="anniversary"
-                                      data-prefix="社会人"
-                                      data-suffix="目"
-                                      data-date="2010-04-01"
-                                      style="visibility: hidden;">&nbsp;</span>
-                            </td>
-                        </tr>
-                    
-                        <tr>
-                            <td><i class="fa fa-calendar"></i></td>
-                            <td>現職勤続</td>
-                            <td>
-                                <span class="anniversary"
-                                      data-prefix="現職勤続"
-                                      data-suffix=""
-                                      data-date="2015-09-01"
-                                      style="visibility: hidden;">&nbsp;</span>
-                            </td>
-                        </tr>
-                    
-                        <tr>
-                            <td><i class="fa fa-calendar"></i></td>
-                            <td>父親歴</td>
-                            <td>
-                                <span class="anniversary"
-                                      data-prefix="父親歴"
-                                      data-suffix=""
-                                      data-date="2016-12-09"
-                                      style="visibility: hidden;">&nbsp;</span>
-                            </td>
-                        </tr>
-                    
-                </table>
-            </div>
-
-            <script type="text/javascript">
-             $(function(){
-                 $('.anniversary').each(function () {
-                     var suffix = $(this).data('suffix');
-                     var date = moment($(this).data('date'));
-                     var wholedays = moment().diff(date, 'days');
-                     var years = Math.floor(wholedays / 365);
-                     var days = wholedays % 365;
-                     var text = '';
-                     if (years) { text += years + '年'; }
-                     if (days) { text += days + '日'; }
-                     $(this).html(text + suffix).hide().css({'visibility': 'visible'}).fadeIn();
-                 });
-             });
-            </script>
+        <input name="q" id="search-query" placeholder="検索..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
         
-        <div class="article-info profile-block">
-            <div class="article-info-block">
-                21
-                <span>投稿</span>
-            </div>
-            <div class="article-info-block">
-                
-                    45
-                
-                <span>
-                    タグ
-                </span>
-            </div>
-        </div>
-    </div>
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
 </aside>
 
-        <section id="main">
-            <section class="archives-wrap">
-                <div class="archive-category-wrap">
-                    <span class="archive-category">Dns</span>
-                </div>
-                <div class="archives">
-                    
-                    
-                        <article class="archive-article archive-type-post">
-    <div class="archive-article-inner">
-        <div class="archive-article-thumbnail">
-            
-            <a href="https://www.yewton.net/2016/02/02/blog-with-hugo/" class="thumbnail">
-                
-                <span style="background-image:url(https://www.yewton.net/banners/hugo.jpg)" alt="Hugo &#43; GitHub Pages でお手軽にブログを始めよう" class="thumbnail-image"></span>
-                
-            </a>
-            
-        </div>
-        <header class="archive-article-header">
-            <h1 itemprop="name">
-            <a class="archive-article-title" href="https://www.yewton.net/2016/02/02/blog-with-hugo/">Hugo &#43; GitHub Pages でお手軽にブログを始めよう</a>
-            </h1>
-            <div class="archive-article-date">
-                <i class="fa fa-calendar"></i>
-                <time datetime="2016-02-02 18:44:21 &#43;0900 JST" itemprop="datePublished">2016.02.02 Tue</time>
-            </div>
-        </header>
-    </div>
-</article> 
-                    
-                </div>
-            </section>
-            <nav id="page-nav">
 
+  
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">yewton.net</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="ナビゲーションの切り替え">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">yewton.net</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#hero"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/blog/"><span>Blog</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/categories/"><span>Categories</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link  active" href="/tags/"><span>Tags</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/cv/"><span>Curriculum Vitae</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      <li class="nav-item">
+        <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+
+    </ul>
+
+  </div>
 </nav>
 
-        </section>
-        <aside id="sidebar">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
     
-<div class="widget-wrap">
-    <h3 class="widget-title">
-        最新記事
-    </h3>
-    <div class="widget">
-        <ul id="recent-post">
-            
-            <li>
-                <div class="item-thumbnail">
-                    <a href="https://www.yewton.net/2017/04/09/grouper-beanstalk/" class="thumbnail">
-                    
-                        
-                        <span style="background-image:url(https://www.yewton.net/banners/mb.jpg)" alt="Dns" class="thumbnail-image"></span>
-                        
-                    
-                    </a>
-                </div>
-                <div class="item-inner">
-                    
-                    <p class="item-category">
-                        <a class="article-category-link" href="https://www.yewton.net/categories/%e6%8a%80%e8%a1%93%e7%b3%bb">
-                        技術系
-                        </a>
-                    </p>
-                    
-                    <p class="item-title"><a href="https://www.yewton.net/2017/04/09/grouper-beanstalk/" class="title">Nexus 7 2012 (grouper) に Beanstalk と ParrotMod を入れて蘇生する</a></p>
-                    <p class="item-date">
-                        <time datetime="2017-04-09 21:55:31 &#43;0900 JST" itemprop="datePublished">2017.04.09 Sun</time>
-                    </p>
-                </div>
-            </li>
-            
-            <li>
-                <div class="item-thumbnail">
-                    <a href="https://www.yewton.net/2016/09/03/how-to-get-atlassian-dragon-slayer-t-shirt/" class="thumbnail">
-                    
-                        
-                        <span style="background-image:url(https://www.yewton.net/banners/atlassian-dragon-slayer-t-shirt.jpg)" alt="Dns" class="thumbnail-image"></span>
-                        
-                    
-                    </a>
-                </div>
-                <div class="item-inner">
-                    
-                    <p class="item-category">
-                        <a class="article-category-link" href="https://www.yewton.net/categories/%e6%8a%80%e8%a1%93%e7%b3%bb">
-                        技術系
-                        </a>
-                    </p>
-                    
-                    <p class="item-title"><a href="https://www.yewton.net/2016/09/03/how-to-get-atlassian-dragon-slayer-t-shirt/" class="title">Atlassian から無料でTシャツをもらう方法、あるいはドラゴンの倒し方</a></p>
-                    <p class="item-date">
-                        <time datetime="2016-09-03 15:34:07 &#43;0900 JST" itemprop="datePublished">2016.09.03 Sat</time>
-                    </p>
-                </div>
-            </li>
-            
-            <li>
-                <div class="item-thumbnail">
-                    <a href="https://www.yewton.net/2016/08/29/misc/" class="thumbnail">
-                    
-                        
-                        <span style="background-image:url(https://www.yewton.net/banners/default.jpg)" alt="Dns" class="thumbnail-image"></span>
-                        
-                    
-                    </a>
-                </div>
-                <div class="item-inner">
-                    
-                    <p class="item-category">
-                        <a class="article-category-link" href="https://www.yewton.net/categories/%e9%9b%91%e8%a8%98">
-                        雑記
-                        </a>
-                    </p>
-                    
-                    <p class="item-title"><a href="https://www.yewton.net/2016/08/29/misc/" class="title">三ヶ月以上ぶりに何かを書く</a></p>
-                    <p class="item-date">
-                        <time datetime="2016-08-29 22:29:35 &#43;0900 JST" itemprop="datePublished">2016.08.29 Mon</time>
-                    </p>
-                </div>
-            </li>
-            
-            <li>
-                <div class="item-thumbnail">
-                    <a href="https://www.yewton.net/2016/05/04/helm-persp/" class="thumbnail">
-                    
-                        
-                        <span style="background-image:url(https://www.yewton.net/banners/emacs.jpg)" alt="Dns" class="thumbnail-image"></span>
-                        
-                    
-                    </a>
-                </div>
-                <div class="item-inner">
-                    
-                    <p class="item-category">
-                        <a class="article-category-link" href="https://www.yewton.net/categories/%e9%9b%91%e8%a8%98">
-                        雑記
-                        </a>
-                    </p>
-                    
-                    <p class="item-title"><a href="https://www.yewton.net/2016/05/04/helm-persp/" class="title">Spacemacs から helm と persp-mode の設定をパクろうと思ったけど難しかった</a></p>
-                    <p class="item-date">
-                        <time datetime="2016-05-04 19:45:26 &#43;0900 JST" itemprop="datePublished">2016.05.04 Wed</time>
-                    </p>
-                </div>
-            </li>
-            
-            <li>
-                <div class="item-thumbnail">
-                    <a href="https://www.yewton.net/2016/05/04/setsuna/" class="thumbnail">
-                    
-                        
-                        <span style="background-image:url(https://www.yewton.net/img/2016-05-04_160945_setsuna/setsuna.jpg)" alt="Dns" class="thumbnail-image"></span>
-                        
-                    
-                    </a>
-                </div>
-                <div class="item-inner">
-                    
-                    <p class="item-category">
-                        <a class="article-category-link" href="https://www.yewton.net/categories/%e3%82%b2%e3%83%bc%e3%83%a0%e6%84%9f%e6%83%b3">
-                        ゲーム感想
-                        </a>
-                    </p>
-                    
-                    <p class="item-title"><a href="https://www.yewton.net/2016/05/04/setsuna/" class="title">『いけにえと雪のセツナ』感想</a></p>
-                    <p class="item-date">
-                        <time datetime="2016-05-04 16:10:11 &#43;0900 JST" itemprop="datePublished">2016.05.04 Wed</time>
-                    </p>
-                </div>
-            </li>
-            
-        </ul>
-    </div>
-</div>
+  
+<div class="universal-wrapper pt-3">
+  <h1>dns</h1>
 
+  
 
-    
-
-
-<div class="widget-wrap">
-    <h3 class="widget-title">カテゴリ</h3>
-    <div class="widget">
-        <ul class="category-list">
-            
-            <li class="category-list-item">
-                <a class="category-list-link" href="https://www.yewton.net/categories/emacs">
-                    emacs
-                </a>
-                <span class="category-list-count">2</span>
-            </li>
-            
-            <li class="category-list-item">
-                <a class="category-list-link" href="https://www.yewton.net/categories/%e3%82%b2%e3%83%bc%e3%83%a0%e6%84%9f%e6%83%b3">
-                    ゲーム感想
-                </a>
-                <span class="category-list-count">1</span>
-            </li>
-            
-            <li class="category-list-item">
-                <a class="category-list-link" href="https://www.yewton.net/categories/%e6%8a%80%e8%a1%93%e7%b3%bb">
-                    技術系
-                </a>
-                <span class="category-list-count">5</span>
-            </li>
-            
-            <li class="category-list-item">
-                <a class="category-list-link" href="https://www.yewton.net/categories/%e6%97%a5%e8%a8%98">
-                    日記
-                </a>
-                <span class="category-list-count">9</span>
-            </li>
-            
-            <li class="category-list-item">
-                <a class="category-list-link" href="https://www.yewton.net/categories/%e9%9b%91%e8%a8%98">
-                    雑記
-                </a>
-                <span class="category-list-count">3</span>
-            </li>
-            
-        </ul>
-    </div>
+  
 </div>
 
 
 
-    
+<div class="universal-wrapper">
+  
 
-
-<div class="widget-wrap">
-    <h3 class="widget-title">
-        タグ
-    </h3>
-    <div class="widget">
-        <ul class="category-list">
-            
-            <li class="category-list-item">
-                <a class="category-list-link" href="https://www.yewton.net/tags/android">
-                    android
-                </a>
-                <span class="category-list-count">1</span>
-            </li>
-            
-            <li class="category-list-item">
-                <a class="category-list-link" href="https://www.yewton.net/tags/atlassian">
-                    atlassian
-                </a>
-                <span class="category-list-count">1</span>
-            </li>
-            
-            <li class="category-list-item">
-                <a class="category-list-link" href="https://www.yewton.net/tags/bettortouchtool">
-                    bettortouchtool
-                </a>
-                <span class="category-list-count">1</span>
-            </li>
-            
-            <li class="category-list-item">
-                <a class="category-list-link" href="https://www.yewton.net/tags/blog">
-                    blog
-                </a>
-                <span class="category-list-count">2</span>
-            </li>
-            
-            <li class="category-list-item">
-                <a class="category-list-link" href="https://www.yewton.net/tags/cdn">
-                    cdn
-                </a>
-                <span class="category-list-count">1</span>
-            </li>
-            
-            <li class="category-list-item">
-                <a class="category-list-link" href="https://www.yewton.net/tags/cloudflare">
-                    cloudflare
-                </a>
-                <span class="category-list-count">2</span>
-            </li>
-            
-            <li class="category-list-item">
-                <a class="category-list-link" href="https://www.yewton.net/tags/ddd">
-                    ddd
-                </a>
-                <span class="category-list-count">1</span>
-            </li>
-            
-            <li class="category-list-item">
-                <a class="category-list-link" href="https://www.yewton.net/tags/dns">
-                    dns
-                </a>
-                <span class="category-list-count">1</span>
-            </li>
-            
-            <li class="category-list-item">
-                <a class="category-list-link" href="https://www.yewton.net/tags/docker">
-                    docker
-                </a>
-                <span class="category-list-count">2</span>
-            </li>
-            
-            <li class="category-list-item">
-                <a class="category-list-link" href="https://www.yewton.net/tags/emacs">
-                    emacs
-                </a>
-                <span class="category-list-count">5</span>
-            </li>
-            
-            <li class="category-list-item">
-                <a class="category-list-link" href="https://www.yewton.net/tags/emacslisp">
-                    emacslisp
-                </a>
-                <span class="category-list-count">1</span>
-            </li>
-            
-            <li class="category-list-item">
-                <a class="category-list-link" href="https://www.yewton.net/tags/github">
-                    github
-                </a>
-                <span class="category-list-count">2</span>
-            </li>
-            
-            <li class="category-list-item">
-                <a class="category-list-link" href="https://www.yewton.net/tags/go">
-                    go
-                </a>
-                <span class="category-list-count">1</span>
-            </li>
-            
-            <li class="category-list-item">
-                <a class="category-list-link" href="https://www.yewton.net/tags/google-drive">
-                    google-drive
-                </a>
-                <span class="category-list-count">1</span>
-            </li>
-            
-            <li class="category-list-item">
-                <a class="category-list-link" href="https://www.yewton.net/tags/greasemonkey">
-                    greasemonkey
-                </a>
-                <span class="category-list-count">1</span>
-            </li>
-            
-            <li class="category-list-item">
-                <a class="category-list-link" href="https://www.yewton.net/tags/hatenacounting">
-                    hatenacounting
-                </a>
-                <span class="category-list-count">1</span>
-            </li>
-            
-            <li class="category-list-item">
-                <a class="category-list-link" href="https://www.yewton.net/tags/helm">
-                    helm
-                </a>
-                <span class="category-list-count">1</span>
-            </li>
-            
-            <li class="category-list-item">
-                <a class="category-list-link" href="https://www.yewton.net/tags/hhvm">
-                    hhvm
-                </a>
-                <span class="category-list-count">1</span>
-            </li>
-            
-            <li class="category-list-item">
-                <a class="category-list-link" href="https://www.yewton.net/tags/http/2">
-                    http/2
-                </a>
-                <span class="category-list-count">1</span>
-            </li>
-            
-            <li class="category-list-item">
-                <a class="category-list-link" href="https://www.yewton.net/tags/https">
-                    https
-                </a>
-                <span class="category-list-count">2</span>
-            </li>
-            
-            <li class="category-list-item">
-                <a class="category-list-link" href="https://www.yewton.net/tags/hugo">
-                    hugo
-                </a>
-                <span class="category-list-count">4</span>
-            </li>
-            
-            <li class="category-list-item">
-                <a class="category-list-link" href="https://www.yewton.net/tags/hugo.el">
-                    hugo.el
-                </a>
-                <span class="category-list-count">1</span>
-            </li>
-            
-            <li class="category-list-item">
-                <a class="category-list-link" href="https://www.yewton.net/tags/javascript">
-                    javascript
-                </a>
-                <span class="category-list-count">1</span>
-            </li>
-            
-            <li class="category-list-item">
-                <a class="category-list-link" href="https://www.yewton.net/tags/jira">
-                    jira
-                </a>
-                <span class="category-list-count">1</span>
-            </li>
-            
-            <li class="category-list-item">
-                <a class="category-list-link" href="https://www.yewton.net/tags/mac">
-                    mac
-                </a>
-                <span class="category-list-count">1</span>
-            </li>
-            
-            <li class="category-list-item">
-                <a class="category-list-link" href="https://www.yewton.net/tags/markdown-mode">
-                    markdown-mode
-                </a>
-                <span class="category-list-count">1</span>
-            </li>
-            
-            <li class="category-list-item">
-                <a class="category-list-link" href="https://www.yewton.net/tags/moment.js">
-                    moment.js
-                </a>
-                <span class="category-list-count">1</span>
-            </li>
-            
-            <li class="category-list-item">
-                <a class="category-list-link" href="https://www.yewton.net/tags/nginx">
-                    nginx
-                </a>
-                <span class="category-list-count">1</span>
-            </li>
-            
-            <li class="category-list-item">
-                <a class="category-list-link" href="https://www.yewton.net/tags/org-mode">
-                    org-mode
-                </a>
-                <span class="category-list-count">1</span>
-            </li>
-            
-            <li class="category-list-item">
-                <a class="category-list-link" href="https://www.yewton.net/tags/persp-mode">
-                    persp-mode
-                </a>
-                <span class="category-list-count">1</span>
-            </li>
-            
-            <li class="category-list-item">
-                <a class="category-list-link" href="https://www.yewton.net/tags/scrum">
-                    scrum
-                </a>
-                <span class="category-list-count">2</span>
-            </li>
-            
-            <li class="category-list-item">
-                <a class="category-list-link" href="https://www.yewton.net/tags/skk">
-                    skk
-                </a>
-                <span class="category-list-count">1</span>
-            </li>
-            
-            <li class="category-list-item">
-                <a class="category-list-link" href="https://www.yewton.net/tags/skk-mode">
-                    skk-mode
-                </a>
-                <span class="category-list-count">1</span>
-            </li>
-            
-            <li class="category-list-item">
-                <a class="category-list-link" href="https://www.yewton.net/tags/slack">
-                    slack
-                </a>
-                <span class="category-list-count">1</span>
-            </li>
-            
-            <li class="category-list-item">
-                <a class="category-list-link" href="https://www.yewton.net/tags/ssh">
-                    ssh
-                </a>
-                <span class="category-list-count">1</span>
-            </li>
-            
-            <li class="category-list-item">
-                <a class="category-list-link" href="https://www.yewton.net/tags/ssl">
-                    ssl
-                </a>
-                <span class="category-list-count">1</span>
-            </li>
-            
-            <li class="category-list-item">
-                <a class="category-list-link" href="https://www.yewton.net/tags/trello">
-                    trello
-                </a>
-                <span class="category-list-count">1</span>
-            </li>
-            
-            <li class="category-list-item">
-                <a class="category-list-link" href="https://www.yewton.net/tags/userscript">
-                    userscript
-                </a>
-                <span class="category-list-count">1</span>
-            </li>
-            
-            <li class="category-list-item">
-                <a class="category-list-link" href="https://www.yewton.net/tags/vagrant">
-                    vagrant
-                </a>
-                <span class="category-list-count">1</span>
-            </li>
-            
-            <li class="category-list-item">
-                <a class="category-list-link" href="https://www.yewton.net/tags/virtualbox">
-                    virtualbox
-                </a>
-                <span class="category-list-count">1</span>
-            </li>
-            
-            <li class="category-list-item">
-                <a class="category-list-link" href="https://www.yewton.net/tags/web-mode">
-                    web-mode
-                </a>
-                <span class="category-list-count">1</span>
-            </li>
-            
-            <li class="category-list-item">
-                <a class="category-list-link" href="https://www.yewton.net/tags/wordpress">
-                    wordpress
-                </a>
-                <span class="category-list-count">1</span>
-            </li>
-            
-            <li class="category-list-item">
-                <a class="category-list-link" href="https://www.yewton.net/tags/%e3%81%84%e3%81%91%e3%81%ab%e3%81%88%e3%81%a8%e9%9b%aa%e3%81%ae%e3%82%bb%e3%83%84%e3%83%8a">
-                    いけにえと雪のセツナ
-                </a>
-                <span class="category-list-count">1</span>
-            </li>
-            
-            <li class="category-list-item">
-                <a class="category-list-link" href="https://www.yewton.net/tags/%e3%82%ab%e3%83%8a%e3%83%98%e3%82%a4">
-                    カナヘイ
-                </a>
-                <span class="category-list-count">1</span>
-            </li>
-            
-            <li class="category-list-item">
-                <a class="category-list-link" href="https://www.yewton.net/tags/%e3%82%b2%e3%83%bc%e3%83%a0">
-                    ゲーム
-                </a>
-                <span class="category-list-count">1</span>
-            </li>
-            
-        </ul>
-    </div>
-</div>
-
-
-
-    
-    <div class="widget-wrap">
-    <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/yewton" data-widget-id="688392956059856897">@yewtonさんのツイート</a>
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-</div>
-
-
-    <div id="toTop" class="fa fa-chevron-up"></div>
-</aside>
-
-    </div>
-</div>
-
-<footer id="footer">
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      &copy; 2019
-      yewton. Powered by <a href="//gohugo.io">Hugo</a>. Theme by <a href="http://github.com/ppoffice">PPOffice</a>.
+  
+  
+  <div>
+    <h2><a href="/2016/02/blog-with-hugo/">Hugo &#43; GitHub Pages でお手軽にブログを始めよう</a></h2>
+    <div class="article-style">
+      
+      はじめに この記事は「いい感じのブログを無料で手軽に作れないかなー」、と思っている人が主な対象です。 〈いい感じ〉というのが抽象的ですが、以下の
+      
     </div>
   </div>
+  
+
+  
+
+</div>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+
+      
+
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = false;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"結果が見つかりませんでした","placeholder":"検索...","results":"results found"};
+      const content_type = {
+        'post': "投稿",
+        'project': "プロジェクト",
+        'publication' : "発表文献",
+        'talk' : "登壇"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.a0d331bcd05dbe8b31e244f796710f08.js"></script>
+
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.11.1/moment.min.js"></script>
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
 </footer>
 
+  </div>
+  
 
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-	ga('create', 'UA-72312909-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-<script src="https://www.yewton.net/fancybox/jquery.fancybox.pack.js"></script>
-<script src="https://www.yewton.net/js/script.js"></script>
-<script src="https://www.yewton.net/js/highlight.pack.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>
-
-<!-- MathJax -->
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-  tex2jax: {
-    inlineMath: [['$','$'], ['\\(','\\)']]}
-  });
-</script>
-<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">引用</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> コピー
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> ダウンロード
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
 
 </body>
 </html>

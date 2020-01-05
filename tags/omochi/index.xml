@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Omochi on yewton.net</title>
+    <link>https://www.yewton.net/tags/omochi/</link>
+    <description>Recent content in Omochi on yewton.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.yewton.net/tags/omochi/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>wow it&#39;s party time</title>
+      <link>https://www.yewton.net/2019/01/01/wow-its-party-time/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://www.yewton.net/2019/01/01/wow-its-party-time/</guid>
+      <description>wow wow
+(setq debug-on-error &amp;#39;t) </description>
+    </item>
+    
+  </channel>
+</rss>

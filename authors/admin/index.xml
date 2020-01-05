@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>yewton.net</title>
+    <link>/authors/admin/</link>
+      <atom:link href="/authors/admin/index.xml" rel="self" type="application/rss+xml" />
+    <description>yewton.net</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja-jp</language>
+    <image>
+      <url>/images/icon_huaabe68613bbbee58fda37f3eff123575_99627_512x512_fill_lanczos_center_2.png</url>
+      <title>yewton.net</title>
+      <link>/authors/admin/</link>
+    </image>
+    
+  </channel>
+</rss>

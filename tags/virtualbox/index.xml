@@ -1,23 +1,79 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Virtualbox on yewton.net</title>
-    <link>https://www.yewton.net/tags/virtualbox/</link>
-    <description>Recent content in Virtualbox on yewton.net</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ja-jp</language>
-    <lastBuildDate>Fri, 19 Feb 2016 00:00:00 +0900</lastBuildDate>
-    
-	<atom:link href="https://www.yewton.net/tags/virtualbox/index.xml" rel="self" type="application/rss+xml" />
-    
+    <title>virtualbox | yewton.net</title>
+    <link>/tags/virtualbox/</link>
+      <atom:link href="/tags/virtualbox/index.xml" rel="self" type="application/rss+xml" />
+    <description>virtualbox</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja-jp</language><lastBuildDate>Fri, 19 Feb 2016 00:00:00 +0900</lastBuildDate>
+    <image>
+      <url>/images/icon_huaabe68613bbbee58fda37f3eff123575_99627_512x512_fill_lanczos_center_2.png</url>
+      <title>virtualbox</title>
+      <link>/tags/virtualbox/</link>
+    </image>
     
     <item>
       <title>VM関連ファイルを外部ストレージに保存して空き容量を確保する</title>
-      <link>https://www.yewton.net/2016/02/19/save-storage-space-by-moving-vm-related-files-to-ex-storage/</link>
+      <link>/2016/02/save-storage-space-by-moving-vm-related-files-to-ex-storage/</link>
       <pubDate>Fri, 19 Feb 2016 00:00:00 +0900</pubDate>
-      
-      <guid>https://www.yewton.net/2016/02/19/save-storage-space-by-moving-vm-related-files-to-ex-storage/</guid>
-      <description>何かと容量を食うVM関連ファイル DockerやらVagrantやらで作業していると、いつのまにかディスク容量が逼迫していることがありますよね</description>
+      <guid>/2016/02/save-storage-space-by-moving-vm-related-files-to-ex-storage/</guid>
+      <description>&lt;h2 id=&#34;vm&#34;&gt;何かと容量を食うVM関連ファイル&lt;/h2&gt;
+&lt;p&gt;DockerやらVagrantやらで作業していると、いつのまにかディスク容量が逼迫していることがありますよね。&lt;/p&gt;
+&lt;p&gt;自分も128GB SSDのMacBook Proを使っているので、結構いっぱいいっぱいでした。&lt;/p&gt;
+&lt;p&gt;そこで拡張ストレージを用意して、容量を食いがちなVM関連のファイルを移動することにしました。&lt;/p&gt;
+&lt;h3 id=&#34;mac&#34;&gt;(参考)Mac用の拡張ストレージ&lt;/h3&gt;
+&lt;p&gt;USBで外付けするようなのだと持ち運びに不便なので、
+&lt;a rel=&#34;nofollow&#34; href=&#34;http://www.amazon.co.jp/gp/product/B00TTFOJ4A/ref=as_li_ss_tl?ie=UTF8&amp;camp=247&amp;creative=7399&amp;creativeASIN=B00TTFOJ4A&amp;linkCode=as2&amp;tag=yewton-22&#34;&gt;iSlice Pro&lt;/a&gt;&lt;img src=&#34;http://ir-jp.amazon-adsystem.com/e/ir?t=yewton-22&amp;l=as2&amp;o=9&amp;a=B00TTFOJ4A&#34; width=&#34;1&#34; height=&#34;1&#34; border=&#34;0&#34; alt=&#34;&#34; style=&#34;border:none !important; margin:0px !important;&#34; /&gt;
+のような本体のSDカードスロットに差せるようなタイプを個人的には使っています。
+iSliceの場合はただのアダプタなので別途128GBのmicroSDカードを調達する必要がありますが、ストレージと一体になっているモノよりは若干割安です。&lt;/p&gt;
+&lt;iframe src=&#34;https://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&amp;bc1=000000&amp;IS2=1&amp;bg1=FFFFFF&amp;fc1=000000&amp;lc1=0000FF&amp;t=yewton-22&amp;o=9&amp;p=8&amp;l=as4&amp;m=amazon&amp;f=ifr&amp;ref=ss_til&amp;asins=B00TTFOJ4A&#34; style=&#34;width:120px;height:240px;&#34; scrolling=&#34;no&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+&lt;h2 id=&#34;vagrant&#34;&gt;Vagrant&lt;/h2&gt;
+&lt;p&gt;Vagrant用のBoxファイルとVMイメージの保存場所を変える際には、以下の記事が参考になります:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://2inc.org/blog/2014/06/28/4311/&#34; title=&#34;MacBookAir の容量がきついので Vagrant 環境を外付けに移した話 – モンキーレンチ&#34;&gt;MacBookAir の容量がきついので Vagrant 環境を外付けに移した話 – モンキーレンチ&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;上記の記事を参考に諸々のファイルの移動、VB上の設定を済ませたら、
+以下のようなコマンドを &lt;code&gt;.bashrc&lt;/code&gt; やら &lt;code&gt;.zshenv&lt;/code&gt; やらに書いておけば大丈夫です:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;export VAGRANT_HOME=/Volumes/data/.vagrant.d&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;docker-machine&#34;&gt;Docker Machine&lt;/h2&gt;
+&lt;p&gt;Docker Machine用のファイルもデカいので移動させたいです。&lt;/p&gt;
+&lt;p&gt;Docker Machineでは &lt;code&gt;MACHINE_STORAGE_PATH&lt;/code&gt; という環境変数を参照しています。
+デフォルトは &lt;code&gt;~/.docker/machine&lt;/code&gt; です。&lt;/p&gt;
+&lt;p&gt;Vagrantの場合と同じように既存のファイルを新しい場所に移動し、
+VB上で除去→追加の手順を踏みます。
+そして以下のようなコマンドで環境変数をセットします:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;export MACHINE_STORAGE_PATH=/Volumes/data/.docker/machine&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;これも &lt;code&gt;.bashrc&lt;/code&gt; やらに書いておきましょう。&lt;/p&gt;
+&lt;h2 id=&#34;-&#34;&gt;注意: 外部ストレージのフォーマット&lt;/h2&gt;
+&lt;p&gt;自分の場合、SDカードが元々フォーマットされていて、
+差すだけで既に利用できたので、フォーマットについては特に気にせず移行作業をしてしまいました。&lt;/p&gt;
+&lt;p&gt;ところが、移行後に &lt;code&gt;&#39;docker-machine&lt;/code&gt; が謎のエラーで使えなくなってしまいました。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;-D&lt;/code&gt; を付けてデバッグ情報を表示したとろ、以下のようなエラーが出ていました:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@         WARNING: UNPROTECTED PRIVATE KEY FILE!          @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+Permissions 0777 for &#39;/Volumes/data/.docker/machine/machines/default/id_rsa&#39; are too open.
+It is required that your private key files are NOT accessible by others.
+This private key will be ignored.
+Load key &amp;quot;/Volumes/data/.docker/machine/machines/default/id_rsa&amp;quot;: bad permissions
+debug2: we did not send a packet, disable method
+debug1: No more authentication methods to try.
+Permission denied (publickey,password,keyboard-interactive).
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;実は、 &lt;strong&gt;SDカードがexFATでフォーマットされていたため、permissionが777になってしまっていた&lt;/strong&gt;
+ことが原因でした。
+exFATの場合、 &lt;code&gt;chmod&lt;/code&gt; することも出来ないので、フォーマットを変更する必要があります。&lt;/p&gt;
+&lt;p&gt;Mac OS X用拡張ストレージは、 &lt;strong&gt;〈OS X 拡張 (ジャーナリング)〉でフォーマット&lt;/strong&gt; しましょう。
+また、この際に &lt;strong&gt;〈大文字／小文字を区別する〉は不要&lt;/strong&gt; です。
+OS Xのメインストレージでは区別されませんし、
+Adobeなど一部の製品は大文字小文字を区別するファイルシステムをサポートしていません&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;。
+無用なトラブルを避けるためにも、注意しましょう。&lt;/p&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://helpx.adobe.com/jp/x-productkb/global/cpsid_83180.html&#34;&gt;Mac OS X ファイルシステムの確認方法と大文字と小文字を区別するファイルシステムについて&lt;/a&gt; &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</description>
     </item>
     
   </channel>

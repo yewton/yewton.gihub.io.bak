@@ -1,59 +1,205 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Emacs on yewton.net</title>
-    <link>https://www.yewton.net/tags/emacs/</link>
-    <description>Recent content in Emacs on yewton.net</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ja-jp</language>
-    <lastBuildDate>Wed, 04 May 2016 19:45:26 +0900</lastBuildDate>
+    <title>emacs | yewton.net</title>
+    <link>/tags/emacs/</link>
+      <atom:link href="/tags/emacs/index.xml" rel="self" type="application/rss+xml" />
+    <description>emacs</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja-jp</language><lastBuildDate>Wed, 02 Jan 2019 00:00:00 +0900</lastBuildDate>
+    <image>
+      <url>/images/icon_huaabe68613bbbee58fda37f3eff123575_99627_512x512_fill_lanczos_center_2.png</url>
+      <title>emacs</title>
+      <link>/tags/emacs/</link>
+    </image>
     
-	<atom:link href="https://www.yewton.net/tags/emacs/index.xml" rel="self" type="application/rss+xml" />
-    
+    <item>
+      <title>久々の更新</title>
+      <link>/2019/01/happy-new-year/</link>
+      <pubDate>Wed, 02 Jan 2019 00:00:00 +0900</pubDate>
+      <guid>/2019/01/happy-new-year/</guid>
+      <description>&lt;p&gt;最近仕事用のmacを新調して環境を作り直す機会があったことと、 2020 年が始まるということもあり、久々にサイトを更新することにした。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;/cv/&#34;&gt;オープン職務経歴書&lt;/a&gt;を書きたかった、というのもある。&lt;/p&gt;
+&lt;p&gt;更新にあたっていくつか困難があった。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;まず、このサイトのソースが最近の Hugo では動かせなくなっていた。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;このサイトのテーマには &lt;a href=&#34;https://github.com/digitalcraftsman/hugo-icarus-theme&#34;&gt;Icarus&lt;/a&gt; を使わせていただいているのだが、最終更新が 2017 年となっており、
+Hugo 0.55.0 以降で動かなくなってしまっていたり、 Deprecated Warning が出るようになっていた。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/digitalcraftsman/hugo-icarus-theme/pull/124&#34;&gt;PRは出されている&lt;/a&gt; のだけれど、マージされる様子が無い。&lt;/p&gt;
+&lt;p&gt;そもそも、当時のバージョンに対してカスタマイズしたレイアウトを作ってしまったので、
+単純なテーマの更新だけでは追随できない。&lt;/p&gt;
+&lt;p&gt;どのバージョンなら動くのか突き止めるのも骨が折れた。
+&lt;a href=&#34;https://bitbucket.org/mgladdish/asdf-gohugo&#34;&gt;asdf-gohugo&lt;/a&gt; を入れて、少しずつバージョンを上げながら確認していった。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;asdf plugin add hugo https://bitbucket.org/mgladdish/asdf-gohugo
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;そして、そもそも Hugo の使い方を忘れていた。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;/2016/02/02/blog-with-hugo/&#34;&gt;Hugo 導入記事&lt;/a&gt; や &lt;a href=&#34;/2016/01/26/hugo-el/&#34;&gt;Hugo 用 Emacs ライブラリ&lt;/a&gt; を書いておいてなんだが、当時から3年も経ってほとんど忘れてしまっていた。&lt;/p&gt;
+&lt;p&gt;そこで改めて調べてみると、イマドキは org-mode で書くことも出来るらしい。&lt;/p&gt;
+&lt;p&gt;この3年ですっかり org-mode 無しでは生きられない体になってしまっていたし、
+せっかくなので本記事からは &lt;a href=&#34;https://ox-hugo.scripter.co/&#34;&gt;ox-hugo&lt;/a&gt; を使って書くことにする。&lt;/p&gt;
+&lt;p&gt;使い始めるにあたって色々調べたり考えたりすることも多かったので、そのうち記事にしようと思う。
+結論としては、org-mode と Hugo の組み合わせは最高だし、その橋渡しをしてくれる &lt;a href=&#34;https://ox-hugo.scripter.co/&#34;&gt;ox-hugo&lt;/a&gt; は本当にグッジョブだということ。&lt;/p&gt;
+&lt;p&gt;&amp;hellip;&lt;/p&gt;
+&lt;p&gt;そんなこんなで色々対応していたものの、デプロイする仕組みなどは当時と変わりなく動いたのでその点は助かった。&lt;/p&gt;
+&lt;p&gt;org-mode で書けるようになったことだし、少しは記事を書いていきたい所だが、まずは Hugo の最新版に追従する作業が待っている…。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Spacemacs から helm と persp-mode の設定をパクろうと思ったけど難しかった</title>
-      <link>https://www.yewton.net/2016/05/04/helm-persp/</link>
+      <link>/2016/05/helm-persp/</link>
       <pubDate>Wed, 04 May 2016 19:45:26 +0900</pubDate>
-      
-      <guid>https://www.yewton.net/2016/05/04/helm-persp/</guid>
-      <description>この辺 を参考にせよ、 と persp-mode 公式に書いてあったので、パクれそうかやってみた。 結論としては、出来なかった。 なので、 併せて記載されていた こっち の設定</description>
+      <guid>/2016/05/helm-persp/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/syl20bnr/spacemacs/blob/master/layers/%2Bwindow-management/spacemacs-layouts/funcs.el&#34;&gt;この辺&lt;/a&gt; を参考にせよ、
+と persp-mode 公式に書いてあったので、パクれそうかやってみた。&lt;/p&gt;
+&lt;p&gt;結論としては、出来なかった。
+なので、 併せて記載されていた &lt;a href=&#34;https://gist.github.com/Bad-ptr/304ada85c9ba15013303&#34;&gt;こっち&lt;/a&gt; の設定を使う状態のまま。&lt;/p&gt;
+&lt;p&gt;Spacemacs の設定は、 Spacemacs 独自のステートの概念(Vimmer が喜ぶやつ)と密接に関連しているようで、
+素の Emacs に組込むのは骨が折れそうだった。&lt;/p&gt;
+&lt;p&gt;そもそも何で Spacemacs の設定をパクろうとしていたかというと、
+後者の設定だと、 &lt;code&gt;C-x b&lt;/code&gt; したときに前のバッファが選択されずに
+現在のバッファが選択された状態になるのが違和感があったから、だった。
+素の Emacs では単に &lt;code&gt;C-x b RET&lt;/code&gt; としたときは、前のバッファに戻るという挙動になる。
+もしかしたら Spacemacs では元の挙動を再現した実装になっているのかもしれない、
+と思って見てみたが、前述の通り失敗に終わった。&lt;/p&gt;
+&lt;p&gt;persp-mode では、直前のバッファが現在のパースペクティブに含まれているとは限らないから、仕方ないのかな…。&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>hugo.elを書いた</title>
-      <link>https://www.yewton.net/2016/01/26/hugo-el/</link>
+      <link>/2016/01/hugo-el/</link>
       <pubDate>Tue, 26 Jan 2016 23:25:40 +0900</pubDate>
-      
-      <guid>https://www.yewton.net/2016/01/26/hugo-el/</guid>
-      <description>#とは hugo.elは、Hugoでサイト作成する際に便利な関数群を定義したパッケージ。 marmalade-repoで公開されているので、パッ</description>
+      <guid>/2016/01/hugo-el/</guid>
+      <description>&lt;h2 id=&#34;heading&#34;&gt;#とは&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/yewton/hugo.el&#34;&gt;hugo.el&lt;/a&gt;は、Hugoでサイト作成する際に便利な関数群を定義したパッケージ。
+&lt;a href=&#34;https://marmalade-repo.org/&#34;&gt;marmalade-repo&lt;/a&gt;で公開されているので、パッケージの設定をすれば簡単にインストール出来るハズ。&lt;/p&gt;
+&lt;h2 id=&#34;heading-1&#34;&gt;作った動機&lt;/h2&gt;
+&lt;p&gt;何か〈物を書く〉という作業をする時、自分はEmacsを使っていて、可能な限りEmacsの中から出たくない。
+HugoはCLIのインタフェースなので、ターミナルとEmacsを行き来することになってしまうのは辛い。&lt;/p&gt;
+&lt;p&gt;あと色んなテーマを試したい時に、いちいちテーマ名をコピペする必要があり、辛かった。
+一覧の中からhelmで選択したかった。&lt;/p&gt;
+&lt;p&gt;…というように、Emacsの中で色々作業が完結するようにしたかった。&lt;/p&gt;
+&lt;h2 id=&#34;heading-2&#34;&gt;作ってみて&lt;/h2&gt;
+&lt;p&gt;正直テーマのインストール補助機能はHugoを初めて触って、色々試してみたいフェーズでしか使わないので、
+ほとんどの場合大した価値じゃないかもしれない。&lt;/p&gt;
+&lt;p&gt;個人的には、 &lt;code&gt;hugo-new-content&lt;/code&gt; と、 &lt;code&gt;hugo-start-server&lt;/code&gt;, &lt;code&gt;hugo-open-browser&lt;/code&gt; が中々便利だなーと思って使っている。
+適当に記事を書き始められるし、プレビューするためにターミナルで確認したアドレスをブラウザに打ち込むとかやらなくてよいので。&lt;/p&gt;
+&lt;p&gt;書き終えたあとに &lt;code&gt;hugo-deploy&lt;/code&gt; でひょいっと公開出来るのも地味に便利。
+ただ、デプロイスクリプトを呼び出してるだけなんだけどね…。&lt;/p&gt;
+&lt;p&gt;普段Emacsで物書きをするひとで、Hugoでブログ書こうと思う人は是非便利に使ってもらいたい。
+そんな人あんまりいなさそうだけど…。&lt;/p&gt;
+&lt;h2 id=&#34;todo&#34;&gt;TODO&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;hugo-open-browser&lt;/code&gt; で今開いているcontentを直接開けたらより便利かもしれない&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;hugo-deploy&lt;/code&gt; が同期処理になってて固まるので、非同期にする&lt;/li&gt;
+&lt;li&gt;テスト全然書いてないので、テストを書いてバッジをつけて喜ぶ&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
       <title>markdown-modeでSKKの変換確定するためにRETするとカーソルが行頭に飛ぶ問題の回避策</title>
-      <link>https://www.yewton.net/2016/01/20/markdown-mode-skk-kakutei/</link>
+      <link>/2016/01/markdown-mode-skk-kakutei/</link>
       <pubDate>Wed, 20 Jan 2016 22:40:16 +0900</pubDate>
-      
-      <guid>https://www.yewton.net/2016/01/20/markdown-mode-skk-kakutei/</guid>
-      <description>markdown-mode 2.1 で SKK 15.2 使ってると、確定しようと思って &amp;lt;return&amp;gt; すると、 確定後にカーソルが行頭に飛んでしまうという問題に遭遇した。 C-j で確定する場合は起こらない。 TL;DR</description>
+      <guid>/2016/01/markdown-mode-skk-kakutei/</guid>
+      <description>&lt;p&gt;markdown-mode 2.1 で SKK 15.2 使ってると、確定しようと思って &lt;code&gt;&amp;lt;return&amp;gt;&lt;/code&gt; すると、
+確定後にカーソルが行頭に飛んでしまうという問題に遭遇した。
+&lt;code&gt;C-j&lt;/code&gt; で確定する場合は起こらない。&lt;/p&gt;
+&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
+&lt;p&gt;以下を &lt;code&gt;init.el&lt;/code&gt; 相当のファイルに書けば回避出来る。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-lisp&#34; data-lang=&#34;lisp&#34;&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;defun&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;my--markdown-entery-key-ad&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;this-func&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;&amp;amp;rest&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;args&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+  &lt;span class=&#34;s&#34;&gt;&amp;#34;markdown-modeでskk-henkan-mode中にエンターすると行頭にカーソルが飛んでしまう問題の対応&amp;#34;&lt;/span&gt;
+  &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;skk-henkan-mode&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;skk-kakutei&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+    &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;apply&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;this-func&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;args&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;advice-add&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;#&amp;#39;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;markdown-enter-key&lt;/span&gt; &lt;span class=&#34;ss&#34;&gt;:around&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;#&amp;#39;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;my--markdown-entery-key-ad&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;heading&#34;&gt;原因解明に至るまで&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;&amp;lt;return&amp;gt;&lt;/code&gt; = &lt;code&gt;&amp;lt;C-m&amp;gt;&lt;/code&gt; では起こり、&lt;code&gt;C-j&lt;/code&gt; では起こらないので、まずはキーバインドを確認したところ、
+前者は &lt;code&gt;markdown-enter-key&lt;/code&gt; という関数が割り当てられていた。&lt;/p&gt;
+&lt;p&gt;実装は至ってシンプルだった:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-lisp&#34; data-lang=&#34;lisp&#34;&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;defun&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;markdown-enter-key&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+  &lt;span class=&#34;s&#34;&gt;&amp;#34;Handle RET according to to the value of `markdown-indent-on-enter&amp;#39;.&amp;#34;&lt;/span&gt;
+  &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;interactive&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+  &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;newline&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+  &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;when&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;markdown-indent-on-enter&lt;/span&gt;
+    &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;markdown-indent-line&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;次に &lt;code&gt;trace-function&lt;/code&gt; で &lt;code&gt;markdown-enter-key&lt;/code&gt; と &lt;code&gt;skk-kakutei&lt;/code&gt; をトレースしたところ、
+以下のような出力が得られた:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;1 -&amp;gt; (markdown-enter-key)
+| 2 -&amp;gt; (skk-kakutei)
+| 2 &amp;lt;- skk-kakutei: nil
+1 &amp;lt;- markdown-enter-key: nil
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;code&gt;markdown-enter-key&lt;/code&gt; が発動して &lt;code&gt;(newline)&lt;/code&gt; が評価された結果、
+&lt;code&gt;skk-kakutei&lt;/code&gt; が発動して変換確定、その後に &lt;code&gt;markdown-indent-line&lt;/code&gt; が呼ばれているのがどうも悪いらしい。&lt;/p&gt;
+&lt;h2 id=&#34;heading-1&#34;&gt;回避方法&lt;/h2&gt;
+&lt;p&gt;これは &lt;strong&gt;&lt;code&gt;markdown-enter-key&lt;/code&gt; が呼ばれた時に &lt;code&gt;skk-henkan-mode&lt;/code&gt; 中だったら、&lt;/strong&gt;
+&lt;strong&gt;本来の挙動ではなく &lt;code&gt;skk-kakutei&lt;/code&gt; だけを行なうようにする&lt;/strong&gt; ことで回避出来そうだ。&lt;/p&gt;
+&lt;p&gt;こういう部分的な挙動の修正には advice を使うといい。
+というわけで前述の挙動をそのまま定義すると、冒頭のようなコードになる。&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>忙し過ぎてお弁当も食べられなかった日</title>
-      <link>https://www.yewton.net/2016/01/15/diary/</link>
+      <link>/2016/01/diary/</link>
       <pubDate>Fri, 15 Jan 2016 23:00:00 +0900</pubDate>
-      
-      <guid>https://www.yewton.net/2016/01/15/diary/</guid>
-      <description>最近チームが新体制に移行するという時期で色々バタバタしていて、 立ち上げに伴う開発フローの整備とか、JIRA(プロジェクト管理ツール)の設定と</description>
+      <guid>/2016/01/diary/</guid>
+      <description>&lt;p&gt;最近チームが新体制に移行するという時期で色々バタバタしていて、
+立ち上げに伴う開発フローの整備とか、JIRA(プロジェクト管理ツール)の設定とか、
+ワーキングアグリーメントの検討とかで、頓に忙しい。&lt;/p&gt;
+&lt;p&gt;別に、自分の役割はスクラムマスターではなく、いちメンバーに過ぎないのだけれど、
+認定スクラムマスターを取得した身としては色々手を焼かずにはいられず、
+色んな雑務を買って出ているという状況。&lt;/p&gt;
+&lt;p&gt;それもこれも、スプリント中は〈全力疾走〉するのがスクラムである、
+というスクラムのあるべき姿を目指して、自分が全力で開発に打ち込めるようにするため。&lt;/p&gt;
+&lt;p&gt;…と思ってたけど、最近は &lt;em&gt;チームのパフォーマンスを引き出す&lt;/em&gt; っていうことに全力になっていて、
+それはそれで楽しくなってきたので、スクラムマスターもいいかなー、なんて思い始めた。&lt;/p&gt;
+&lt;h2 id=&#34;heading&#34;&gt;サイト改修&lt;/h2&gt;
+&lt;p&gt;今日もサイトいじりに勤しんだ。&lt;/p&gt;
+&lt;p&gt;いじるときはEmacsを使うんだけれど、自分は適当なのでHTML中にJavaScriptを埋め込んだりする。
+するとhtml-modeだとシンタックハイライトとかが無くて辛いことになるので、
+&lt;a href=&#34;http://web-mode.org/&#34;&gt;web-mode&lt;/a&gt;を使ってる。&lt;/p&gt;
+&lt;p&gt;HTMLファイルはCSSファイルは、始めから関連付けておくといいと思う。&lt;/p&gt;
+&lt;h3 id=&#34;gravatar&#34;&gt;gravatar対応&lt;/h3&gt;
+&lt;p&gt;静的画像だけでなく、gravatarのアイコンを使えるようにした。&lt;/p&gt;
+&lt;p&gt;ついでに、画像を丸く表示するようにした。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/cxfksword/greyshade/blob/28fb061bb674a2add89724dfbbf167f88f381d40/layouts/partials/header.html&#34;&gt;gravatarに対応している他のテーマ(greyshade)&lt;/a&gt;と、
+&lt;a href=&#34;http://tdwp.us/round-gravatar-images-wordpress/&#34;&gt;How to Round Gravatar Images in WordPress&lt;/a&gt;を参考にした。&lt;/p&gt;
+&lt;h3 id=&#34;heading-1&#34;&gt;記念日対応&lt;/h3&gt;
+&lt;p&gt;最初は&lt;a href=&#34;http://counting.hatelabo.jp/&#34;&gt;Hatena::Counting&lt;/a&gt;とか類似のサービスを利用しようと思ったんだけど、
+あんまりシンプルなのが無かったので自作した。&lt;/p&gt;
+&lt;p&gt;自作といったって、&lt;a href=&#34;http://momentjs.com/&#34;&gt;Moment.js&lt;/a&gt;というとても便利なライブラリがあったので、
+それを使って適当にJavaScriptを埋め込んだだけ。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://golang.org/pkg/text/template/&#34;&gt;template - The Go Programming Language&lt;/a&gt;とか
+&lt;a href=&#34;https://gohugo.io/templates/go-templates/&#34;&gt;Hugo - Go Template Primer&lt;/a&gt;あたりも参考にした。&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>BettorTouchToolが無料じゃなくなると分かったりした日</title>
-      <link>https://www.yewton.net/2016/01/13/diary/</link>
+      <link>/2016/01/diary/</link>
       <pubDate>Wed, 13 Jan 2016 23:00:00 +0900</pubDate>
-      
-      <guid>https://www.yewton.net/2016/01/13/diary/</guid>
-      <description>BetterTouchTool will switch from free to a “Pay what you want” model early next year. – BetterTouchTool, BTT Remote, BetterSnapTool and more BetterTouchToolが1月末を目処に無料じゃなくなるらしい。 FAQによる</description>
+      <guid>/2016/01/diary/</guid>
+      <description>&lt;h2 id=&#34;bettertouchtool-will-switch-from-free-to-a-pay-what-you-want-model-early-next-year--bettertouchtool-btt-remote-bettersnaptool-and-morehttpwwwboastrnetbettertouchtool-may-switch-from-free-to-a-pay-what-you-want-model-early-next-year&#34;&gt;&lt;a href=&#34;http://www.boastr.net/bettertouchtool-may-switch-from-free-to-a-pay-what-you-want-model-early-next-year/&#34;&gt;BetterTouchTool will switch from free to a “Pay what you want” model early next year. – BetterTouchTool, BTT Remote, BetterSnapTool and more&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.boastr.net/&#34;&gt;BetterTouchTool&lt;/a&gt;が1月末を目処に無料じゃなくなるらしい。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.boastr.net/btt-paid-faq/&#34;&gt;FAQ&lt;/a&gt;によると、ライセンスは買い切りで(当面)更新の必要は無く、
+過去に寄付してたりといった一定の条件を満たす人は無料でライセンスを取得する手段が提供されるらしい。&lt;/p&gt;
+&lt;p&gt;なお、古いのを使い続けるといったことは出来ず、そのうち使えなくなってしまうもよう。&lt;/p&gt;
+&lt;p&gt;買うしかないなー。&lt;/p&gt;
+&lt;h2 id=&#34;slack-bot---httpblog8arroworgentry20160113183349&#34;&gt;&lt;a href=&#34;http://blog.8arrow.org/entry/2016/01/13/183349&#34;&gt;割と本気で家庭用Slack Botを作ってみた - 八発白中&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;うちの嫁はSlack使ってくれないから無理ぽ。。
+自分もカナヘイスタンプ超気に入ってるから、LINE辞めるのは無理だな。&lt;/p&gt;
+&lt;p&gt;記事中で&lt;a href=&#34;http://counting.hatelabo.jp/&#34;&gt;Hatena::Counting&lt;/a&gt;についての言及があった。
+ちょうどこういうサービス探してたのでありがたい。
+他に世界的にデファクトスタンダードなやつがあるのかとか、調べてみたい。
+&lt;a href=&#34;https://countingdownto.com/&#34;&gt;Create a Countdown Clock | CountingDownTo.com&lt;/a&gt;とかが、それらしい感じがする。&lt;/p&gt;
+&lt;h2 id=&#34;5--geechs-magazinehttpsgeechs-magazinecomtaglifehack20160113&#34;&gt;&lt;a href=&#34;https://geechs-magazine.com/tag/lifehack/20160113&#34;&gt;エンジニアにお勧めしたいメモアプリ5選 | geechs magazine&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;org-modeでだいたい間に合ってるけど、やっぱ同期と多デバイス対応が欲しいよなー。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://mobileorg.ncogni.to/&#34;&gt;MobileOrg : What is MobileOrg?&lt;/a&gt;はちょっと使ってみて微妙だった。。&lt;/p&gt;
+&lt;p&gt;そこだけ何とかなれば。。。&lt;/p&gt;
+&lt;h2 id=&#34;heading&#34;&gt;雑感&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;markdown-modeとskkの相性悪いんかな、変換確定しようとすると行頭にカーソルが行ってしまってストレスフルだ。。&lt;/li&gt;
+&lt;li&gt;シンタックスハイライトとかEmojiとか使えんのかな。調べよう。&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
   </channel>

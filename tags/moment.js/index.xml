@@ -1,23 +1,51 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Moment.js on yewton.net</title>
-    <link>https://www.yewton.net/tags/moment.js/</link>
-    <description>Recent content in Moment.js on yewton.net</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ja-jp</language>
-    <lastBuildDate>Fri, 15 Jan 2016 23:00:00 +0900</lastBuildDate>
-    
-	<atom:link href="https://www.yewton.net/tags/moment.js/index.xml" rel="self" type="application/rss+xml" />
-    
+    <title>moment.js | yewton.net</title>
+    <link>/tags/moment.js/</link>
+      <atom:link href="/tags/moment.js/index.xml" rel="self" type="application/rss+xml" />
+    <description>moment.js</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja-jp</language><lastBuildDate>Fri, 15 Jan 2016 23:00:00 +0900</lastBuildDate>
+    <image>
+      <url>/images/icon_huaabe68613bbbee58fda37f3eff123575_99627_512x512_fill_lanczos_center_2.png</url>
+      <title>moment.js</title>
+      <link>/tags/moment.js/</link>
+    </image>
     
     <item>
       <title>忙し過ぎてお弁当も食べられなかった日</title>
-      <link>https://www.yewton.net/2016/01/15/diary/</link>
+      <link>/2016/01/diary/</link>
       <pubDate>Fri, 15 Jan 2016 23:00:00 +0900</pubDate>
-      
-      <guid>https://www.yewton.net/2016/01/15/diary/</guid>
-      <description>最近チームが新体制に移行するという時期で色々バタバタしていて、 立ち上げに伴う開発フローの整備とか、JIRA(プロジェクト管理ツール)の設定と</description>
+      <guid>/2016/01/diary/</guid>
+      <description>&lt;p&gt;最近チームが新体制に移行するという時期で色々バタバタしていて、
+立ち上げに伴う開発フローの整備とか、JIRA(プロジェクト管理ツール)の設定とか、
+ワーキングアグリーメントの検討とかで、頓に忙しい。&lt;/p&gt;
+&lt;p&gt;別に、自分の役割はスクラムマスターではなく、いちメンバーに過ぎないのだけれど、
+認定スクラムマスターを取得した身としては色々手を焼かずにはいられず、
+色んな雑務を買って出ているという状況。&lt;/p&gt;
+&lt;p&gt;それもこれも、スプリント中は〈全力疾走〉するのがスクラムである、
+というスクラムのあるべき姿を目指して、自分が全力で開発に打ち込めるようにするため。&lt;/p&gt;
+&lt;p&gt;…と思ってたけど、最近は &lt;em&gt;チームのパフォーマンスを引き出す&lt;/em&gt; っていうことに全力になっていて、
+それはそれで楽しくなってきたので、スクラムマスターもいいかなー、なんて思い始めた。&lt;/p&gt;
+&lt;h2 id=&#34;heading&#34;&gt;サイト改修&lt;/h2&gt;
+&lt;p&gt;今日もサイトいじりに勤しんだ。&lt;/p&gt;
+&lt;p&gt;いじるときはEmacsを使うんだけれど、自分は適当なのでHTML中にJavaScriptを埋め込んだりする。
+するとhtml-modeだとシンタックハイライトとかが無くて辛いことになるので、
+&lt;a href=&#34;http://web-mode.org/&#34;&gt;web-mode&lt;/a&gt;を使ってる。&lt;/p&gt;
+&lt;p&gt;HTMLファイルはCSSファイルは、始めから関連付けておくといいと思う。&lt;/p&gt;
+&lt;h3 id=&#34;gravatar&#34;&gt;gravatar対応&lt;/h3&gt;
+&lt;p&gt;静的画像だけでなく、gravatarのアイコンを使えるようにした。&lt;/p&gt;
+&lt;p&gt;ついでに、画像を丸く表示するようにした。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/cxfksword/greyshade/blob/28fb061bb674a2add89724dfbbf167f88f381d40/layouts/partials/header.html&#34;&gt;gravatarに対応している他のテーマ(greyshade)&lt;/a&gt;と、
+&lt;a href=&#34;http://tdwp.us/round-gravatar-images-wordpress/&#34;&gt;How to Round Gravatar Images in WordPress&lt;/a&gt;を参考にした。&lt;/p&gt;
+&lt;h3 id=&#34;heading-1&#34;&gt;記念日対応&lt;/h3&gt;
+&lt;p&gt;最初は&lt;a href=&#34;http://counting.hatelabo.jp/&#34;&gt;Hatena::Counting&lt;/a&gt;とか類似のサービスを利用しようと思ったんだけど、
+あんまりシンプルなのが無かったので自作した。&lt;/p&gt;
+&lt;p&gt;自作といったって、&lt;a href=&#34;http://momentjs.com/&#34;&gt;Moment.js&lt;/a&gt;というとても便利なライブラリがあったので、
+それを使って適当にJavaScriptを埋め込んだだけ。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://golang.org/pkg/text/template/&#34;&gt;template - The Go Programming Language&lt;/a&gt;とか
+&lt;a href=&#34;https://gohugo.io/templates/go-templates/&#34;&gt;Hugo - Go Template Primer&lt;/a&gt;あたりも参考にした。&lt;/p&gt;
+</description>
     </item>
     
   </channel>

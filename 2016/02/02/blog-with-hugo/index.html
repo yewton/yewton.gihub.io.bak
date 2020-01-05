@@ -2,7 +2,7 @@
 <html lang="ja-jp">
     <head>
         <title>Hugo &#43; GitHub Pages でお手軽にブログを始めよう &middot; yewton.net</title>
-        <meta name="generator" content="Hugo 0.49.2" />
+        <meta name="generator" content="Hugo 0.62.0" />
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <meta name="author" content="yewton">
@@ -24,15 +24,13 @@
         <meta property="og:title" content="Hugo &#43; GitHub Pages でお手軽にブログを始めよう" />
 <meta property="og:description" content="はじめに この記事は「いい感じのブログを無料で手軽に作れないかなー」、と思っている人が主な対象です。 〈いい感じ〉というのが抽象的ですが、以下の" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.yewton.net/2016/02/02/blog-with-hugo/" /><meta property="article:published_time" content="2016-02-02T18:44:21&#43;09:00"/>
-<meta property="article:modified_time" content="2016-02-02T18:44:21&#43;09:00"/>
+<meta property="og:url" content="https://www.yewton.net/2016/02/02/blog-with-hugo/" />
+<meta property="article:published_time" content="2016-02-02T18:44:21+09:00" />
+<meta property="article:modified_time" content="2016-02-02T18:44:21+09:00" />
 
         
-        
-<meta itemprop="name" content="Hugo &#43; GitHub Pages でお手軽にブログを始めよう">
+        <meta itemprop="name" content="Hugo &#43; GitHub Pages でお手軽にブログを始めよう">
 <meta itemprop="description" content="はじめに この記事は「いい感じのブログを無料で手軽に作れないかなー」、と思っている人が主な対象です。 〈いい感じ〉というのが抽象的ですが、以下の">
-
-
 <meta itemprop="datePublished" content="2016-02-02T18:44:21&#43;09:00" />
 <meta itemprop="dateModified" content="2016-02-02T18:44:21&#43;09:00" />
 <meta itemprop="wordCount" content="3658">
@@ -40,7 +38,6 @@
 
 
 <meta itemprop="keywords" content="github,hugo,cloudflare,ssl,dns," />
-
         <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Hugo &#43; GitHub Pages でお手軽にブログを始めよう"/>
 <meta name="twitter:description" content="はじめに この記事は「いい感じのブログを無料で手軽に作れないかなー」、と思っている人が主な対象です。 〈いい感じ〉というのが抽象的ですが、以下の"/>
@@ -336,12 +333,12 @@
         
         <div class="article-info profile-block">
             <div class="article-info-block">
-                21
+                26
                 <span>投稿</span>
             </div>
             <div class="article-info-block">
                 
-                    45
+                    50
                 
                 <span>
                     タグ
@@ -422,14 +419,9 @@
 </header>
 
             <div class="article-entry" itemprop="articleBody">
-                
-
-<h2 id="はじめに">はじめに</h2>
-
+                <h2 id="heading">はじめに</h2>
 <p>この記事は「いい感じのブログを無料で手軽に作れないかなー」、と思っている人が主な対象です。</p>
-
 <p>〈いい感じ〉というのが抽象的ですが、以下のような欲求をイメージしています:</p>
-
 <ul>
 <li><a href="https://www.staticgen.com/">Top Open-Source Static Site Generators - StaticGen</a> にあるような静的サイトジェネレータがいい</li>
 <li>サイト生成は速ければ速いほどいい</li>
@@ -441,221 +433,138 @@
 <li>HTTPSなのがいい</li>
 <li>HTTP/2なのがいい</li>
 </ul>
-
-<h2 id="サイトの方式を考える">サイトの方式を考える</h2>
-
+<h2 id="heading-1">サイトの方式を考える</h2>
 <p>手軽に始めたいので、準備はなるべく少ない方が嬉しいですね。</p>
-
 <p>WordPress みたいな動的な方式はサーバを用意しないといけないので手間ですし、場合によっては金もかかります。</p>
-
 <p>一方の静的サイト配信であれば、必要なのは HTML を配信出来る場所だけです。
 GitHub Pages や類似のサービスを使えば無料で利用できますね。</p>
-
-<h2 id="静的サイトジェネレータを選ぶ">静的サイトジェネレータを選ぶ</h2>
-
+<h2 id="heading-2">静的サイトジェネレータを選ぶ</h2>
 <p>というわけで静的サイトを作成するためのジェネレータを選びます。</p>
-
 <p><a href="https://www.staticgen.com/">Top Open-Source Static Site Generators - StaticGen</a> の中から適当に選びましょう。</p>
-
 <p><a href="http://jekyllrb.com/">Jekyll</a> や <a href="http://octopress.org/">Octopress</a> はメジャーっぽいですが検索してみると、何だか遅いみたいです(使ったことない)。</p>
-
 <p><a href="https://www.gitbook.com/">GitBook</a> はドキュメントを書くのには向いています(自分も利用しています)。ですがブログを書くためのものではありません。</p>
-
 <p><a href="http://hexo.io/">Hexo</a> か <a href="http://gohugo.io/">Hugo</a> あたりがよさそうです。
 これら二つはコンセプトもよく似ているし、最早好みの世界ですね。自分は何となく Hugo を使っています。</p>
-
 <h2 id="hugo">Hugo</h2>
-
-<p><img src="https://www.yewton.net/img/2016-01-11_184419/hugo.png" alt="Hugoのロゴ" /></p>
-
+<p><img src="https://www.yewton.net/img/2016-01-11_184419/hugo.png" alt="Hugoのロゴ"></p>
 <p><a href="http://gohugo.io/">Hugo</a> は超高速でシンプルかつ柔軟な静的サイトジェネレータだそうです。
 Go言語で書かれていて、インストールはとってもカンタン。すぐに使えます。</p>
-
 <p>使い方もとってもカンタン…というワケではないかもしれません。
 といっても、それは Hugo が殊更難しいというワケではなく、
 そもそも静的サイトジェネレーターというモノを理解している必要がある、ということだと思います。</p>
-
 <p>ブログを書く、ということだけに目的を絞れば、覚える必要がある用語は
 <em>Content</em>, <em>Themes</em>, <em>Taxonomies</em> の3つだけです。</p>
-
 <h3 id="content">Content</h3>
-
 <p>ブログで言えば記事のことです。</p>
-
 <p>Content がどのように表示されるかは使用しているテーマによりますが、
 ブログ用テーマのほとんどは <code>post</code> ディレクトリ以下にあるファイルを記事として扱うようです。</p>
-
 <h3 id="themes">Themes</h3>
-
 <p>そのまま、サイトに適用するテーマです。</p>
-
 <p>Hugoの場合、テーマはそのサイトの構成まで決めてしまいます。
 独自にテンプレートを書くことでカスタマイズ出来るとはいえ、目的に沿ったテーマを選択するのが無難です。</p>
-
 <p>テーマ選択の方法については後述します。</p>
-
 <h3 id="taxonomies">Taxonomies</h3>
-
 <p>やけに難しい単語ですが、分類方法のことです。
 ブログなら <strong>カテゴリ</strong> や <strong>タグ</strong> といった類のものです。</p>
-
 <p>幸い、カテゴリとタグによる基本的な分類であればデフォルトで対応しているため、あまり意識する必要はありません。
 カテゴリやタグのことを Taxonomies と呼ぶことだけ押さえておけばOKです。</p>
-
-<h2 id="サイトを作る">サイトを作る</h2>
-
+<h2 id="heading-3">サイトを作る</h2>
 <p>早速サイトを作っていきましょう。</p>
-
 <p><a href="http://gohugo.io/overview/quickstart/">Hugo - Hugo Quickstart Guide</a> に従えば基本的に迷うことは無いと思います。
 ここでは、適当にサイトを作って、ひとつ記事を書いてみて、それがブラウザで確認出来るようになれば大丈夫です。</p>
-
 <p>ただし、 <strong>日本語に対応させる設定は追加で必要</strong> です。</p>
-
-<h3 id="日本語対応">日本語対応</h3>
-
+<h3 id="heading-4">日本語対応</h3>
 <p>ありがたいことに、Hugoは日本語や中国語の為の特別な設定を用意してくれています。
 設定ファイルに <code>hasCJKLanguage = true</code> という行を追加しましょう。</p>
-
 <p>これをやらないと、一覧用に記事を自動で切り詰めてくれる機能や、
 読み終えるまでの予想時間の計算が滅茶苦茶になってしまいます。</p>
-
-<h2 id="テーマを決める">テーマを決める</h2>
-
+<h2 id="heading-5">テーマを決める</h2>
 <p>次はサイトに適用するテーマを選択しましょう。</p>
-
 <p><a href="http://themes.gohugo.io/">Hugo Themes Site</a> で実際の例を見ながらテーマを選ぶことが出来ます。
 ブログ用のテーマのみに絞って見たい場合は <a href="http://themes.gohugo.io/tags/blog">こちら</a> からどうぞ。</p>
-
 <p>注意点として、Hugoには記事を読み終えるまでの時間やおおよその文字数を表示する機能が組込まれているのですが、テーマがサポートしていない場合は表示されません。
 このような機能を使いたい場合は、テーマでサポートされているかを確認しましょう。</p>
-
 <p>このサイトは <a href="http://themes.gohugo.io/hugo-icarus/">Icarus</a> を使っています。
 ショーケースの中では使える機能が一番多いと思うので、どういうことが出来るのか知るには丁度よいテーマだと思います。</p>
-
-<h2 id="favicon-を置こう">favicon を置こう</h2>
-
+<h2 id="favicon-">favicon を置こう</h2>
 <p>デフォルトでは Hugo の favicon が表示されてしまうので、カスタマイズしましょう。
 <a href="http://www.favicon-generator.org/">Favicon &amp; App Icon Generator</a> などを使うとよいです。</p>
-
 <p>生成した <code>.ico</code> ファイルを <code>static</code> 直下に配置すればOKです。</p>
-
-<h2 id="記事を書く">記事を書く</h2>
-
+<h2 id="heading-6">記事を書く</h2>
 <p>記事はMarkdownで書きます。</p>
-
 <p>ここで困るのは、Markdownにもいくつか方言があることです。
 何を参考に書けばいいか迷ってしまいますね。</p>
-
 <p>HugoではMarkdownの処理に <a href="https://github.com/russross/blackfriday">russross/blackfriday: Blackfriday: a markdown processor for Go</a> を使っています。
 Blackfriday特有の書式(脚注など)もある為、こちらを参照しながら書くとよいでしょう。</p>
-
-<h3 id="記事のファイル名について">記事のファイル名について</h3>
-
+<h3 id="heading-7">記事のファイル名について</h3>
 <p>日記や思い付きで即興で記事を書く場合、いちいち被らないようにファイル名を考えるのは面倒ですよね。</p>
-
 <p>Hugoの場合ファイル名は管理上の問題でしかないので、適当に日付やタイムスタンプでも入れておけばよいです。
 デフォルトではファイル名がURLに使われますが、記事毎の設定で <code>slug = &quot;hogehoge&quot;</code> のように設定しておけば、
 実際のURLは <code>/post/hogehoge</code> のようになります。</p>
-
 <p>また、以下のように設定ファイルに書いておけば、年月日がURLのプレフィクスに付くので被る心配もありません:</p>
-
 <pre><code>[permalinks]
     post = &quot;/:year/:month/:day/:slug&quot;
-</code></pre>
-
-<h2 id="コメント対応">コメント対応</h2>
-
+</code></pre><h2 id="heading-8">コメント対応</h2>
 <p>なんとなくコメント欄があるとオープンな感じでいいですよね？
 ということでコメントにも対応させてみましょう。</p>
-
 <p>Hugo自身が<a href="https://github.com/spf13/hugo/blob/cd36d752a3e8e2b75965fe281e6466d7a274cd94/tpl/template_embedded.go#L131-L145">Disqusに対応している</a>ので、
 <a href="https://disqus.com/">Disqus</a>を使いましょう。
 ただし、Disqusによるコメント対応も、テーマによってはサポートされていない場合があるので要注意です。</p>
-
 <p>何よりもまず Disqus への登録です。
 <a href="https://help.disqus.com/customer/portal/articles/466182-publisher-quick-start-guide">ヘルプ</a>を見ながら行いましょう。
 設定は特に必要ありませんので登録だけ済ませれば一旦OKです。後から言語設定を日本語にしたりすることも出来ます。</p>
-
 <p>登録が完了したら、登録時に入力した shortname (unique Disqus URL) を以下のように設定に追記しましょう:</p>
-
 <pre><code>disqusShortname = &quot;sitename&quot;
-</code></pre>
-
-<p>これだけでHugoの設定は完了です。(テーマが対応していれば)個別の記事ページにコメント欄が出現します。</p>
-
-<h2 id="デプロイ">デプロイ</h2>
-
+</code></pre><p>これだけでHugoの設定は完了です。(テーマが対応していれば)個別の記事ページにコメント欄が出現します。</p>
+<h2 id="heading-9">デプロイ</h2>
 <p>生成したブログは GitHub Pages でホスティングします。</p>
-
 <p><code>gh-pages</code> ではなく、ユーザや Organization のページとして公開する場合は、
 <a href="https://gohugo.io/tutorials/github-pages-blog/#hosting-personal-organization-pages">Hosting Personal/Organization Pages</a>に
 何も考えずに従えばOKです。
 例示されているスクリプトもそのままコピペで使えます。</p>
-
 <p>実際にこのブログで使われているモノは全て<a href="https://github.com/yewton/yewton-hugo">こちら</a>にあるので参考にしてください。</p>
-
-<h2 id="独自ドメイン対応">独自ドメイン対応</h2>
-
+<h2 id="heading-10">独自ドメイン対応</h2>
 <p>github.com ドメインでホスティングするだけでよければ、ここから先の作業は不要です。おめでとうございます。</p>
-
 <p>以降はHugoとは関係ない話が続きます。</p>
-
 <p>既に独自ドメインを持っていて、それをブログでも使いたい場合は、
 <a href="https://help.github.com/articles/adding-a-cname-file-to-your-repository/">CNAME</a>の設定をGitHub上で行う必要があります。
 <a href="https://github.com/yewton/yewton.github.io/blob/master/CNAME">こんなファイル</a>を作ってあげて、
 DNSレジストラ側で <code>CNAME</code> とか <code>ANAME</code> の設定を行ないます。</p>
-
-<h3 id="サブドメイン-vs-ルートドメイン">サブドメイン vs ルートドメイン</h3>
-
+<h3 id="-vs-">サブドメイン vs ルートドメイン</h3>
 <p><code>CNAME</code> の設定をするか <code>ANAME</code> の設定をするかは、サブドメインを使うかルートドメインを使うかの違いです。
 GitHubのヘルプによると、<a href="https://help.github.com/articles/about-custom-domains-for-github-pages-sites/#subdomains">サブドメインを強く推奨している</a>そうです。</p>
-
 <p>サブドメインを推奨する理由は以下のようです:</p>
-
 <ul>
 <li>GitHubのCDNの恩恵を受けられる</li>
 <li>GitHub自体のIPアドレス変更に影響を受けない</li>
 <li>DoS対策がより効率的になるのでページロードが高速になる</li>
 </ul>
-
-<p>というわけで、特別な事情がない限りはサブドメインを利用するのがよいでしょう<sup class="footnote-ref" id="fnref:1"><a href="#fn:1">1</a></sup>。</p>
-
-<h2 id="https化">HTTPS化</h2>
-
+<p>というわけで、特別な事情がない限りはサブドメインを利用するのがよいでしょう<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>。</p>
+<h2 id="https">HTTPS化</h2>
 <p>ここまででブログとしての体裁は整いました。
 ですが、折角つくったサイトですからHTTPSで配信したいですよね？しましょう。</p>
-
 <p>これには<a href="https://www.cloudflare.com/">CloudFlare</a>を利用出来ます。
 <a href="https://1000ch.net/posts/2015/github-pages-custom-domain-in-https.html">GitHub Pagesに設定しているカスタムドメインをHTTPS対応させる - 1000ch.net</a>が非常に参考になります。</p>
-
 <p>設定が反映されるまでは最長1日程度かかりますので、ゆっくりと待ちましょう。</p>
-
 <p>なおCloudFlareを利用すると、ついでに HTTP/2 も有効になります。
 他にもJSの軽量化などの各種高速化の設定を利用出来ますので、設定項目を見てみるのもよいでしょう。</p>
-
-<h3 id="注意">注意</h3>
-
+<h3 id="heading-11">注意</h3>
 <p>注意点として、この際に Flexible SSL を用いる場合は、あくまでユーザとCloudFlare間の通信が暗号化されるだけで、 <strong>CloudFlareとGitHub Pages間の通信は暗号化されていません</strong> 。
 後者の間の通信は改竄されうる状態で、かつ、ユーザはそれを知る術が無いという状態に…。</p>
-
 <p><a href="https://konklone.com/post/github-pages-now-supports-https-so-use-it">GitHub Pages Now (Sorta) Supports HTTPS, So Use It</a>に詳しく書かれていますが、
 一応そういう状態であるということは認識しておきましょう。</p>
-
-<h2 id="終わりに">終わりに</h2>
-
+<h2 id="heading-12">終わりに</h2>
 <p>いい感じのブログを無料で手軽に作る方法についてまとめました。
 改めてまとめてみるとそれなりにボリュームがあってちょっと大変でした…。</p>
-
 <p>これからブログを始めるぞーと思っている誰かの役に立てばいいなーと思います。</p>
-<div class="footnotes">
-
-<hr />
-
+<section class="footnotes" role="doc-endnotes">
+<hr>
 <ol>
-<li id="fn:1">こう書いている自分も、最初は特に気にせずにルートドメインで登録してしまっていました。この記事を書きながら気づいて、慌てて <code>www</code> サブドメインに移行しました。
- <a class="footnote-return" href="#fnref:1">↩</a></li>
+<li id="fn:1" role="doc-endnote">
+<p>こう書いている自分も、最初は特に気にせずにルートドメインで登録してしまっていました。この記事を書きながら気づいて、慌てて <code>www</code> サブドメインに移行しました。 <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
 </ol>
-</div>
+</section>
 
             </div>
             <footer class="article-footer">
@@ -731,6 +640,46 @@ GitHubのヘルプによると、<a href="https://help.github.com/articles/about
             
             <li>
                 <div class="item-thumbnail">
+                    <a href="https://www.yewton.net/post/" class="thumbnail">
+                    
+                        <span class="thumbnail-image thumbnail-none"></span>
+                    
+                    </a>
+                </div>
+                <div class="item-inner">
+                    
+                    <p class="item-title"><a href="https://www.yewton.net/post/" class="title">Posts</a></p>
+                    <p class="item-date">
+                        <time datetime="2019-01-01 00:00:00 &#43;0900 JST" itemprop="datePublished">2019.01.01 Tue</time>
+                    </p>
+                </div>
+            </li>
+            
+            <li>
+                <div class="item-thumbnail">
+                    <a href="https://www.yewton.net/2019/01/01/wow-its-party-time/" class="thumbnail">
+                    
+                        <span class="thumbnail-image thumbnail-none"></span>
+                    
+                    </a>
+                </div>
+                <div class="item-inner">
+                    
+                    <p class="item-category">
+                        <a class="article-category-link" href="https://www.yewton.net/categories/test">
+                        Test
+                        </a>
+                    </p>
+                    
+                    <p class="item-title"><a href="https://www.yewton.net/2019/01/01/wow-its-party-time/" class="title">wow it&#39;s party time</a></p>
+                    <p class="item-date">
+                        <time datetime="2019-01-01 00:00:00 &#43;0900 JST" itemprop="datePublished">2019.01.01 Tue</time>
+                    </p>
+                </div>
+            </li>
+            
+            <li>
+                <div class="item-thumbnail">
                     <a href="https://www.yewton.net/2017/04/09/grouper-beanstalk/" class="thumbnail">
                     
                         
@@ -756,32 +705,7 @@ GitHubのヘルプによると、<a href="https://help.github.com/articles/about
             
             <li>
                 <div class="item-thumbnail">
-                    <a href="https://www.yewton.net/2016/09/03/how-to-get-atlassian-dragon-slayer-t-shirt/" class="thumbnail">
-                    
-                        
-                        <span style="background-image:url(https://www.yewton.net/banners/atlassian-dragon-slayer-t-shirt.jpg)" alt="Hugo &#43; GitHub Pages でお手軽にブログを始めよう" class="thumbnail-image"></span>
-                        
-                    
-                    </a>
-                </div>
-                <div class="item-inner">
-                    
-                    <p class="item-category">
-                        <a class="article-category-link" href="https://www.yewton.net/categories/%e6%8a%80%e8%a1%93%e7%b3%bb">
-                        技術系
-                        </a>
-                    </p>
-                    
-                    <p class="item-title"><a href="https://www.yewton.net/2016/09/03/how-to-get-atlassian-dragon-slayer-t-shirt/" class="title">Atlassian から無料でTシャツをもらう方法、あるいはドラゴンの倒し方</a></p>
-                    <p class="item-date">
-                        <time datetime="2016-09-03 15:34:07 &#43;0900 JST" itemprop="datePublished">2016.09.03 Sat</time>
-                    </p>
-                </div>
-            </li>
-            
-            <li>
-                <div class="item-thumbnail">
-                    <a href="https://www.yewton.net/2016/08/29/misc/" class="thumbnail">
+                    <a href="https://www.yewton.net/2017/01/15/mbp-accesories/" class="thumbnail">
                     
                         
                         <span style="background-image:url(https://www.yewton.net/banners/default.jpg)" alt="Hugo &#43; GitHub Pages でお手軽にブログを始めよう" class="thumbnail-image"></span>
@@ -797,19 +721,19 @@ GitHubのヘルプによると、<a href="https://help.github.com/articles/about
                         </a>
                     </p>
                     
-                    <p class="item-title"><a href="https://www.yewton.net/2016/08/29/misc/" class="title">三ヶ月以上ぶりに何かを書く</a></p>
+                    <p class="item-title"><a href="https://www.yewton.net/2017/01/15/mbp-accesories/" class="title">MacBook Pro (Retina, 13-inch, Early 2015)で使っているアクセサリ</a></p>
                     <p class="item-date">
-                        <time datetime="2016-08-29 22:29:35 &#43;0900 JST" itemprop="datePublished">2016.08.29 Mon</time>
+                        <time datetime="2017-01-15 14:24:03 &#43;0900 JST" itemprop="datePublished">2017.01.15 Sun</time>
                     </p>
                 </div>
             </li>
             
             <li>
                 <div class="item-thumbnail">
-                    <a href="https://www.yewton.net/2016/05/04/helm-persp/" class="thumbnail">
+                    <a href="https://www.yewton.net/2017/01/04/ikuji/" class="thumbnail">
                     
                         
-                        <span style="background-image:url(https://www.yewton.net/banners/emacs.jpg)" alt="Hugo &#43; GitHub Pages でお手軽にブログを始めよう" class="thumbnail-image"></span>
+                        <span style="background-image:url(https://www.yewton.net/banners/default.jpg)" alt="Hugo &#43; GitHub Pages でお手軽にブログを始めよう" class="thumbnail-image"></span>
                         
                     
                     </a>
@@ -817,39 +741,14 @@ GitHubのヘルプによると、<a href="https://help.github.com/articles/about
                 <div class="item-inner">
                     
                     <p class="item-category">
-                        <a class="article-category-link" href="https://www.yewton.net/categories/%e9%9b%91%e8%a8%98">
-                        雑記
+                        <a class="article-category-link" href="https://www.yewton.net/categories/%e5%a6%8a%e5%a8%a0%e5%87%ba%e7%94%a3%e8%82%b2%e5%85%90">
+                        妊娠・出産・育児
                         </a>
                     </p>
                     
-                    <p class="item-title"><a href="https://www.yewton.net/2016/05/04/helm-persp/" class="title">Spacemacs から helm と persp-mode の設定をパクろうと思ったけど難しかった</a></p>
+                    <p class="item-title"><a href="https://www.yewton.net/2017/01/04/ikuji/" class="title">新生児の育児中に買っておいて捗ったもの</a></p>
                     <p class="item-date">
-                        <time datetime="2016-05-04 19:45:26 &#43;0900 JST" itemprop="datePublished">2016.05.04 Wed</time>
-                    </p>
-                </div>
-            </li>
-            
-            <li>
-                <div class="item-thumbnail">
-                    <a href="https://www.yewton.net/2016/05/04/setsuna/" class="thumbnail">
-                    
-                        
-                        <span style="background-image:url(https://www.yewton.net/img/2016-05-04_160945_setsuna/setsuna.jpg)" alt="Hugo &#43; GitHub Pages でお手軽にブログを始めよう" class="thumbnail-image"></span>
-                        
-                    
-                    </a>
-                </div>
-                <div class="item-inner">
-                    
-                    <p class="item-category">
-                        <a class="article-category-link" href="https://www.yewton.net/categories/%e3%82%b2%e3%83%bc%e3%83%a0%e6%84%9f%e6%83%b3">
-                        ゲーム感想
-                        </a>
-                    </p>
-                    
-                    <p class="item-title"><a href="https://www.yewton.net/2016/05/04/setsuna/" class="title">『いけにえと雪のセツナ』感想</a></p>
-                    <p class="item-date">
-                        <time datetime="2016-05-04 16:10:11 &#43;0900 JST" itemprop="datePublished">2016.05.04 Wed</time>
+                        <time datetime="2017-01-04 09:00:00 &#43;0900 JST" itemprop="datePublished">2017.01.04 Wed</time>
                     </p>
                 </div>
             </li>
@@ -875,10 +774,24 @@ GitHubのヘルプによると、<a href="https://help.github.com/articles/about
             </li>
             
             <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/categories/test">
+                    test
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
                 <a class="category-list-link" href="https://www.yewton.net/categories/%e3%82%b2%e3%83%bc%e3%83%a0%e6%84%9f%e6%83%b3">
                     ゲーム感想
                 </a>
                 <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/categories/%e5%a6%8a%e5%a8%a0%e5%87%ba%e7%94%a3%e8%82%b2%e5%85%90">
+                    妊娠出産育児
+                </a>
+                <span class="category-list-count">3</span>
             </li>
             
             <li class="category-list-item">
@@ -899,7 +812,7 @@ GitHubのヘルプによると、<a href="https://help.github.com/articles/about
                 <a class="category-list-link" href="https://www.yewton.net/categories/%e9%9b%91%e8%a8%98">
                     雑記
                 </a>
-                <span class="category-list-count">3</span>
+                <span class="category-list-count">4</span>
             </li>
             
         </ul>
@@ -917,6 +830,13 @@ GitHubのヘルプによると、<a href="https://help.github.com/articles/about
     </h3>
     <div class="widget">
         <ul class="category-list">
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/">
+                    
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
             
             <li class="category-list-item">
                 <a class="category-list-link" href="https://www.yewton.net/tags/android">
@@ -985,7 +905,7 @@ GitHubのヘルプによると、<a href="https://help.github.com/articles/about
                 <a class="category-list-link" href="https://www.yewton.net/tags/emacs">
                     emacs
                 </a>
-                <span class="category-list-count">5</span>
+                <span class="category-list-count">6</span>
             </li>
             
             <li class="category-list-item">
@@ -1115,6 +1035,13 @@ GitHubのヘルプによると、<a href="https://help.github.com/articles/about
             </li>
             
             <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/omochi">
+                    omochi
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
                 <a class="category-list-link" href="https://www.yewton.net/tags/org-mode">
                     org-mode
                 </a>
@@ -1233,6 +1160,27 @@ GitHubのヘルプによると、<a href="https://help.github.com/articles/about
                 <span class="category-list-count">1</span>
             </li>
             
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/%e5%87%ba%e7%94%a3">
+                    出産
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/%e5%a6%8a%e5%a8%a0">
+                    妊娠
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/%e8%82%b2%e5%85%90">
+                    育児
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
         </ul>
     </div>
 </div>
@@ -1255,7 +1203,7 @@ GitHubのヘルプによると、<a href="https://help.github.com/articles/about
 <footer id="footer">
   <div class="outer">
     <div id="footer-info" class="inner">
-      &copy; 2019
+      &copy; 2020
       yewton. Powered by <a href="//gohugo.io">Hugo</a>. Theme by <a href="http://github.com/ppoffice">PPOffice</a>.
     </div>
   </div>

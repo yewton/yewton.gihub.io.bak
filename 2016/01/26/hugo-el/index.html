@@ -2,7 +2,7 @@
 <html lang="ja-jp">
     <head>
         <title>hugo.elを書いた &middot; yewton.net</title>
-        <meta name="generator" content="Hugo 0.49.2" />
+        <meta name="generator" content="Hugo 0.62.0" />
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <meta name="author" content="yewton">
@@ -24,15 +24,13 @@
         <meta property="og:title" content="hugo.elを書いた" />
 <meta property="og:description" content="#とは hugo.elは、Hugoでサイト作成する際に便利な関数群を定義したパッケージ。 marmalade-repoで公開されているので、パッ" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.yewton.net/2016/01/26/hugo-el/" /><meta property="article:published_time" content="2016-01-26T23:25:40&#43;09:00"/>
-<meta property="article:modified_time" content="2016-01-26T23:25:40&#43;09:00"/>
+<meta property="og:url" content="https://www.yewton.net/2016/01/26/hugo-el/" />
+<meta property="article:published_time" content="2016-01-26T23:25:40+09:00" />
+<meta property="article:modified_time" content="2016-01-26T23:25:40+09:00" />
 
         
-        
-<meta itemprop="name" content="hugo.elを書いた">
+        <meta itemprop="name" content="hugo.elを書いた">
 <meta itemprop="description" content="#とは hugo.elは、Hugoでサイト作成する際に便利な関数群を定義したパッケージ。 marmalade-repoで公開されているので、パッ">
-
-
 <meta itemprop="datePublished" content="2016-01-26T23:25:40&#43;09:00" />
 <meta itemprop="dateModified" content="2016-01-26T23:25:40&#43;09:00" />
 <meta itemprop="wordCount" content="675">
@@ -40,7 +38,6 @@
 
 
 <meta itemprop="keywords" content="hugo.el,Emacs,hugo,EmacsLisp," />
-
         <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="hugo.elを書いた"/>
 <meta name="twitter:description" content="#とは hugo.elは、Hugoでサイト作成する際に便利な関数群を定義したパッケージ。 marmalade-repoで公開されているので、パッ"/>
@@ -336,12 +333,12 @@
         
         <div class="article-info profile-block">
             <div class="article-info-block">
-                21
+                26
                 <span>投稿</span>
             </div>
             <div class="article-info-block">
                 
-                    45
+                    50
                 
                 <span>
                     タグ
@@ -419,39 +416,25 @@
 </header>
 
             <div class="article-entry" itemprop="articleBody">
-                
-
-<h2 id="とは">#とは</h2>
-
+                <h2 id="heading">#とは</h2>
 <p><a href="https://github.com/yewton/hugo.el">hugo.el</a>は、Hugoでサイト作成する際に便利な関数群を定義したパッケージ。
 <a href="https://marmalade-repo.org/">marmalade-repo</a>で公開されているので、パッケージの設定をすれば簡単にインストール出来るハズ。</p>
-
-<h2 id="作った動機">作った動機</h2>
-
+<h2 id="heading-1">作った動機</h2>
 <p>何か〈物を書く〉という作業をする時、自分はEmacsを使っていて、可能な限りEmacsの中から出たくない。
 HugoはCLIのインタフェースなので、ターミナルとEmacsを行き来することになってしまうのは辛い。</p>
-
 <p>あと色んなテーマを試したい時に、いちいちテーマ名をコピペする必要があり、辛かった。
 一覧の中からhelmで選択したかった。</p>
-
 <p>…というように、Emacsの中で色々作業が完結するようにしたかった。</p>
-
-<h2 id="作ってみて">作ってみて</h2>
-
+<h2 id="heading-2">作ってみて</h2>
 <p>正直テーマのインストール補助機能はHugoを初めて触って、色々試してみたいフェーズでしか使わないので、
 ほとんどの場合大した価値じゃないかもしれない。</p>
-
 <p>個人的には、 <code>hugo-new-content</code> と、 <code>hugo-start-server</code>, <code>hugo-open-browser</code> が中々便利だなーと思って使っている。
 適当に記事を書き始められるし、プレビューするためにターミナルで確認したアドレスをブラウザに打ち込むとかやらなくてよいので。</p>
-
 <p>書き終えたあとに <code>hugo-deploy</code> でひょいっと公開出来るのも地味に便利。
 ただ、デプロイスクリプトを呼び出してるだけなんだけどね…。</p>
-
 <p>普段Emacsで物書きをするひとで、Hugoでブログ書こうと思う人は是非便利に使ってもらいたい。
 そんな人あんまりいなさそうだけど…。</p>
-
 <h2 id="todo">TODO</h2>
-
 <ul>
 <li><code>hugo-open-browser</code> で今開いているcontentを直接開けたらより便利かもしれない</li>
 <li><code>hugo-deploy</code> が同期処理になってて固まるので、非同期にする</li>
@@ -532,6 +515,46 @@ HugoはCLIのインタフェースなので、ターミナルとEmacsを行き�
             
             <li>
                 <div class="item-thumbnail">
+                    <a href="https://www.yewton.net/post/" class="thumbnail">
+                    
+                        <span class="thumbnail-image thumbnail-none"></span>
+                    
+                    </a>
+                </div>
+                <div class="item-inner">
+                    
+                    <p class="item-title"><a href="https://www.yewton.net/post/" class="title">Posts</a></p>
+                    <p class="item-date">
+                        <time datetime="2019-01-01 00:00:00 &#43;0900 JST" itemprop="datePublished">2019.01.01 Tue</time>
+                    </p>
+                </div>
+            </li>
+            
+            <li>
+                <div class="item-thumbnail">
+                    <a href="https://www.yewton.net/2019/01/01/wow-its-party-time/" class="thumbnail">
+                    
+                        <span class="thumbnail-image thumbnail-none"></span>
+                    
+                    </a>
+                </div>
+                <div class="item-inner">
+                    
+                    <p class="item-category">
+                        <a class="article-category-link" href="https://www.yewton.net/categories/test">
+                        Test
+                        </a>
+                    </p>
+                    
+                    <p class="item-title"><a href="https://www.yewton.net/2019/01/01/wow-its-party-time/" class="title">wow it&#39;s party time</a></p>
+                    <p class="item-date">
+                        <time datetime="2019-01-01 00:00:00 &#43;0900 JST" itemprop="datePublished">2019.01.01 Tue</time>
+                    </p>
+                </div>
+            </li>
+            
+            <li>
+                <div class="item-thumbnail">
                     <a href="https://www.yewton.net/2017/04/09/grouper-beanstalk/" class="thumbnail">
                     
                         
@@ -557,32 +580,7 @@ HugoはCLIのインタフェースなので、ターミナルとEmacsを行き�
             
             <li>
                 <div class="item-thumbnail">
-                    <a href="https://www.yewton.net/2016/09/03/how-to-get-atlassian-dragon-slayer-t-shirt/" class="thumbnail">
-                    
-                        
-                        <span style="background-image:url(https://www.yewton.net/banners/atlassian-dragon-slayer-t-shirt.jpg)" alt="hugo.elを書いた" class="thumbnail-image"></span>
-                        
-                    
-                    </a>
-                </div>
-                <div class="item-inner">
-                    
-                    <p class="item-category">
-                        <a class="article-category-link" href="https://www.yewton.net/categories/%e6%8a%80%e8%a1%93%e7%b3%bb">
-                        技術系
-                        </a>
-                    </p>
-                    
-                    <p class="item-title"><a href="https://www.yewton.net/2016/09/03/how-to-get-atlassian-dragon-slayer-t-shirt/" class="title">Atlassian から無料でTシャツをもらう方法、あるいはドラゴンの倒し方</a></p>
-                    <p class="item-date">
-                        <time datetime="2016-09-03 15:34:07 &#43;0900 JST" itemprop="datePublished">2016.09.03 Sat</time>
-                    </p>
-                </div>
-            </li>
-            
-            <li>
-                <div class="item-thumbnail">
-                    <a href="https://www.yewton.net/2016/08/29/misc/" class="thumbnail">
+                    <a href="https://www.yewton.net/2017/01/15/mbp-accesories/" class="thumbnail">
                     
                         
                         <span style="background-image:url(https://www.yewton.net/banners/default.jpg)" alt="hugo.elを書いた" class="thumbnail-image"></span>
@@ -598,19 +596,19 @@ HugoはCLIのインタフェースなので、ターミナルとEmacsを行き�
                         </a>
                     </p>
                     
-                    <p class="item-title"><a href="https://www.yewton.net/2016/08/29/misc/" class="title">三ヶ月以上ぶりに何かを書く</a></p>
+                    <p class="item-title"><a href="https://www.yewton.net/2017/01/15/mbp-accesories/" class="title">MacBook Pro (Retina, 13-inch, Early 2015)で使っているアクセサリ</a></p>
                     <p class="item-date">
-                        <time datetime="2016-08-29 22:29:35 &#43;0900 JST" itemprop="datePublished">2016.08.29 Mon</time>
+                        <time datetime="2017-01-15 14:24:03 &#43;0900 JST" itemprop="datePublished">2017.01.15 Sun</time>
                     </p>
                 </div>
             </li>
             
             <li>
                 <div class="item-thumbnail">
-                    <a href="https://www.yewton.net/2016/05/04/helm-persp/" class="thumbnail">
+                    <a href="https://www.yewton.net/2017/01/04/ikuji/" class="thumbnail">
                     
                         
-                        <span style="background-image:url(https://www.yewton.net/banners/emacs.jpg)" alt="hugo.elを書いた" class="thumbnail-image"></span>
+                        <span style="background-image:url(https://www.yewton.net/banners/default.jpg)" alt="hugo.elを書いた" class="thumbnail-image"></span>
                         
                     
                     </a>
@@ -618,39 +616,14 @@ HugoはCLIのインタフェースなので、ターミナルとEmacsを行き�
                 <div class="item-inner">
                     
                     <p class="item-category">
-                        <a class="article-category-link" href="https://www.yewton.net/categories/%e9%9b%91%e8%a8%98">
-                        雑記
+                        <a class="article-category-link" href="https://www.yewton.net/categories/%e5%a6%8a%e5%a8%a0%e5%87%ba%e7%94%a3%e8%82%b2%e5%85%90">
+                        妊娠・出産・育児
                         </a>
                     </p>
                     
-                    <p class="item-title"><a href="https://www.yewton.net/2016/05/04/helm-persp/" class="title">Spacemacs から helm と persp-mode の設定をパクろうと思ったけど難しかった</a></p>
+                    <p class="item-title"><a href="https://www.yewton.net/2017/01/04/ikuji/" class="title">新生児の育児中に買っておいて捗ったもの</a></p>
                     <p class="item-date">
-                        <time datetime="2016-05-04 19:45:26 &#43;0900 JST" itemprop="datePublished">2016.05.04 Wed</time>
-                    </p>
-                </div>
-            </li>
-            
-            <li>
-                <div class="item-thumbnail">
-                    <a href="https://www.yewton.net/2016/05/04/setsuna/" class="thumbnail">
-                    
-                        
-                        <span style="background-image:url(https://www.yewton.net/img/2016-05-04_160945_setsuna/setsuna.jpg)" alt="hugo.elを書いた" class="thumbnail-image"></span>
-                        
-                    
-                    </a>
-                </div>
-                <div class="item-inner">
-                    
-                    <p class="item-category">
-                        <a class="article-category-link" href="https://www.yewton.net/categories/%e3%82%b2%e3%83%bc%e3%83%a0%e6%84%9f%e6%83%b3">
-                        ゲーム感想
-                        </a>
-                    </p>
-                    
-                    <p class="item-title"><a href="https://www.yewton.net/2016/05/04/setsuna/" class="title">『いけにえと雪のセツナ』感想</a></p>
-                    <p class="item-date">
-                        <time datetime="2016-05-04 16:10:11 &#43;0900 JST" itemprop="datePublished">2016.05.04 Wed</time>
+                        <time datetime="2017-01-04 09:00:00 &#43;0900 JST" itemprop="datePublished">2017.01.04 Wed</time>
                     </p>
                 </div>
             </li>
@@ -676,10 +649,24 @@ HugoはCLIのインタフェースなので、ターミナルとEmacsを行き�
             </li>
             
             <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/categories/test">
+                    test
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
                 <a class="category-list-link" href="https://www.yewton.net/categories/%e3%82%b2%e3%83%bc%e3%83%a0%e6%84%9f%e6%83%b3">
                     ゲーム感想
                 </a>
                 <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/categories/%e5%a6%8a%e5%a8%a0%e5%87%ba%e7%94%a3%e8%82%b2%e5%85%90">
+                    妊娠出産育児
+                </a>
+                <span class="category-list-count">3</span>
             </li>
             
             <li class="category-list-item">
@@ -700,7 +687,7 @@ HugoはCLIのインタフェースなので、ターミナルとEmacsを行き�
                 <a class="category-list-link" href="https://www.yewton.net/categories/%e9%9b%91%e8%a8%98">
                     雑記
                 </a>
-                <span class="category-list-count">3</span>
+                <span class="category-list-count">4</span>
             </li>
             
         </ul>
@@ -718,6 +705,13 @@ HugoはCLIのインタフェースなので、ターミナルとEmacsを行き�
     </h3>
     <div class="widget">
         <ul class="category-list">
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/">
+                    
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
             
             <li class="category-list-item">
                 <a class="category-list-link" href="https://www.yewton.net/tags/android">
@@ -786,7 +780,7 @@ HugoはCLIのインタフェースなので、ターミナルとEmacsを行き�
                 <a class="category-list-link" href="https://www.yewton.net/tags/emacs">
                     emacs
                 </a>
-                <span class="category-list-count">5</span>
+                <span class="category-list-count">6</span>
             </li>
             
             <li class="category-list-item">
@@ -916,6 +910,13 @@ HugoはCLIのインタフェースなので、ターミナルとEmacsを行き�
             </li>
             
             <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/omochi">
+                    omochi
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
                 <a class="category-list-link" href="https://www.yewton.net/tags/org-mode">
                     org-mode
                 </a>
@@ -1034,6 +1035,27 @@ HugoはCLIのインタフェースなので、ターミナルとEmacsを行き�
                 <span class="category-list-count">1</span>
             </li>
             
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/%e5%87%ba%e7%94%a3">
+                    出産
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/%e5%a6%8a%e5%a8%a0">
+                    妊娠
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://www.yewton.net/tags/%e8%82%b2%e5%85%90">
+                    育児
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
         </ul>
     </div>
 </div>
@@ -1056,7 +1078,7 @@ HugoはCLIのインタフェースなので、ターミナルとEmacsを行き�
 <footer id="footer">
   <div class="outer">
     <div id="footer-info" class="inner">
-      &copy; 2019
+      &copy; 2020
       yewton. Powered by <a href="//gohugo.io">Hugo</a>. Theme by <a href="http://github.com/ppoffice">PPOffice</a>.
     </div>
   </div>

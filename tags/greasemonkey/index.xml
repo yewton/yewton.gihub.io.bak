@@ -1,23 +1,70 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Greasemonkey on yewton.net</title>
-    <link>https://www.yewton.net/tags/greasemonkey/</link>
-    <description>Recent content in Greasemonkey on yewton.net</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ja-jp</language>
-    <lastBuildDate>Sat, 23 Jan 2016 23:47:43 +0900</lastBuildDate>
-    
-	<atom:link href="https://www.yewton.net/tags/greasemonkey/index.xml" rel="self" type="application/rss+xml" />
-    
+    <title>greasemonkey | yewton.net</title>
+    <link>/tags/greasemonkey/</link>
+      <atom:link href="/tags/greasemonkey/index.xml" rel="self" type="application/rss+xml" />
+    <description>greasemonkey</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja-jp</language><lastBuildDate>Sat, 23 Jan 2016 23:47:43 +0900</lastBuildDate>
+    <image>
+      <url>/images/icon_huaabe68613bbbee58fda37f3eff123575_99627_512x512_fill_lanczos_center_2.png</url>
+      <title>greasemonkey</title>
+      <link>/tags/greasemonkey/</link>
+    </image>
     
     <item>
       <title>JIRA Agile用のuserscriptを作ったりした日</title>
-      <link>https://www.yewton.net/2016/01/23/diary/</link>
+      <link>/2016/01/diary/</link>
       <pubDate>Sat, 23 Jan 2016 23:47:43 +0900</pubDate>
-      
-      <guid>https://www.yewton.net/2016/01/23/diary/</guid>
-      <description>趣味の政策物 弊チームではバックログとしてJIRAを使っている。 ここ最近しつこく「管理者権限が欲しいなァ〜(ﾁﾗｯ」としていたらめでたく権限を</description>
+      <guid>/2016/01/diary/</guid>
+      <description>&lt;h2 id=&#34;heading&#34;&gt;趣味の政策物&lt;/h2&gt;
+&lt;p&gt;弊チームではバックログとしてJIRAを使っている。&lt;/p&gt;
+&lt;p&gt;ここ最近しつこく「管理者権限が欲しいなァ〜(ﾁﾗｯ」としていたらめでたく権限を付与してもらえたので、
+ここぞとばかりにJIRAをカスタムして使いやすいようにしていた。&lt;/p&gt;
+&lt;p&gt;ワークフローを単純にしたり、使わないフィールドを非表示にしたり、
+これまで説明文用のテンプレからコピペしたりしていたのを、それぞれ専用のフィールドを設けたり。&lt;/p&gt;
+&lt;p&gt;色々準備はしたもの、やはり始まってみると色々不便なところが出てきて、
+しかもJIRAの設定じゃどうしようもない部分もあったりする。&lt;/p&gt;
+&lt;p&gt;たかがツール、されどツールで、ツールに使われているようじゃ到底円滑にスプリントを回すことなんて出来ない。&lt;/p&gt;
+&lt;p&gt;そこで、スクラムマスターがセレモニーを進めやすいように支援するためのuserscriptを書いた。
+ソースは&lt;a href=&#34;https://github.com/yewton/userscripts&#34;&gt;yewton/userscripts&lt;/a&gt;。&lt;/p&gt;
+&lt;h3 id=&#34;component-labels-for-jira-scrum&#34;&gt;Component-labels for JIRA Scrum&lt;/h3&gt;
+&lt;p&gt;コンポーネントをエピックのようにスクラムボード上で分かりやすいく表示する。&lt;/p&gt;
+&lt;p&gt;ラベリングをしたいが為だけにエピックを使ってしまうという事態は結構そこかしこで起こっているみたいだった。
+本来はコンポーネントでやるべきもので、エピックはエピックとして使えるのが健全な状態だと思うので、作った。&lt;/p&gt;
+&lt;p&gt;実装は滅茶苦茶単純で、DOMに変更がある度に全課題を舐めて、未設定だったらAPIで該当する課題のコンポーネントを取得している。
+なので、バックログに積まれている課題数分、ページを開いた瞬間にリクエストが走ることになる。
+リクエストの仕方を何か工夫しないと使いものにならないかなーと思っていたのだけれど、
+案外数百リクエスト飛ばすぐらいだとビクともしなかったので、愚直な実装のまま。&lt;/p&gt;
+&lt;h3 id=&#34;detail-pop-up-for-jria-scrum&#34;&gt;Detail Pop-up for JRIA Scrum&lt;/h3&gt;
+&lt;p&gt;各課題に詳細画面をポップアップで開くためのボタンを追加する。&lt;/p&gt;
+&lt;p&gt;アジャイルボードではカスタムフィールドが表示されないので、
+確認するためには編集ポップアップを開くか、詳細画面に飛ぶしかなかった。
+しかも、アクティブなスプリント中はクローズされている課題が編集出来ないので、
+前者の方法はスプリントレビュー時には使えない。&lt;/p&gt;
+&lt;p&gt;画面遷移せずに詳細画面が開ければ用は足りると考え、
+&lt;a href=&#34;http://www.ericmmartin.com/projects/simplemodal/&#34;&gt;SimpleModal&lt;/a&gt;という、
+その名の通りシンプルなモーダル機能を実装するためのライブラリを使って、
+&lt;code&gt;iframe&lt;/code&gt; で詳細画面を開くだけの機能を追加した。&lt;/p&gt;
+&lt;h2 id=&#34;3----connpasshttpddd-allianceconnpasscomevent24672&#34;&gt;&lt;a href=&#34;http://ddd-alliance.connpass.com/event/24672/&#34;&gt;第3回 実践的ドメイン駆動設計ワークショップ - connpass&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;参加してきた。&lt;/p&gt;
+&lt;p&gt;エンジニアチームとして、業務と技術両面でどういう風に学んでいけばいいかっていう話と、
+実際にやってみたら、コードの雰囲気はこんな感じだぜ、っていう話。&lt;/p&gt;
+&lt;p&gt;ドメイン層のクラスが1,000個とかあって、個々のクラスは 30 〜 60 行が大半を占めるそう。
+目指すべき方向はそこだっていうのはわかってはいるけど、
+実際に稼動してるプロダクトの数字っていうのは説得力がある。&lt;/p&gt;
+&lt;p&gt;ドメイン駆動設計を実践するなら、ドメインエキスパートとか、企画者との協調が必須だと思うのだけれど、
+それをどうプロセスとして制御可能な形で行えばいいか、あまり掴めてない。&lt;/p&gt;
+&lt;p&gt;会話を重視しつつ、かつダラダラやらずに予測可能な状態で、
+モデルに関する会話をする場を、開発プロセスのどこで行えばいいんだろう。&lt;/p&gt;
+&lt;p&gt;増田さんに上手いやり方無いっすか、と相談してみたけれど、
+いい方法っていうのはなくて、エンジニアチームが実績を積み重ねて信頼を得ていって、
+協力体制を築くしかないね、ということだった。
+それでも駄目なら、職場を変えよ、とも。&lt;/p&gt;
+&lt;p&gt;色々仰々しいプロセスやツールを導入せずとも、
+いつか阿吽の呼吸で、エンジニアチームと企画陣が協調して最高の仕事が出来るようになったときが、
+アジャイルでドメイン駆動な状態なんだろう、たぶん。適当。&lt;/p&gt;
+</description>
     </item>
     
   </channel>

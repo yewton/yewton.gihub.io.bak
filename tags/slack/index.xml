@@ -1,23 +1,45 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Slack on yewton.net</title>
-    <link>https://www.yewton.net/tags/slack/</link>
-    <description>Recent content in Slack on yewton.net</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ja-jp</language>
-    <lastBuildDate>Wed, 13 Jan 2016 23:00:00 +0900</lastBuildDate>
-    
-	<atom:link href="https://www.yewton.net/tags/slack/index.xml" rel="self" type="application/rss+xml" />
-    
+    <title>slack | yewton.net</title>
+    <link>/tags/slack/</link>
+      <atom:link href="/tags/slack/index.xml" rel="self" type="application/rss+xml" />
+    <description>slack</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja-jp</language><lastBuildDate>Wed, 13 Jan 2016 23:00:00 +0900</lastBuildDate>
+    <image>
+      <url>/images/icon_huaabe68613bbbee58fda37f3eff123575_99627_512x512_fill_lanczos_center_2.png</url>
+      <title>slack</title>
+      <link>/tags/slack/</link>
+    </image>
     
     <item>
       <title>BettorTouchToolが無料じゃなくなると分かったりした日</title>
-      <link>https://www.yewton.net/2016/01/13/diary/</link>
+      <link>/2016/01/diary/</link>
       <pubDate>Wed, 13 Jan 2016 23:00:00 +0900</pubDate>
-      
-      <guid>https://www.yewton.net/2016/01/13/diary/</guid>
-      <description>BetterTouchTool will switch from free to a “Pay what you want” model early next year. – BetterTouchTool, BTT Remote, BetterSnapTool and more BetterTouchToolが1月末を目処に無料じゃなくなるらしい。 FAQによる</description>
+      <guid>/2016/01/diary/</guid>
+      <description>&lt;h2 id=&#34;bettertouchtool-will-switch-from-free-to-a-pay-what-you-want-model-early-next-year--bettertouchtool-btt-remote-bettersnaptool-and-morehttpwwwboastrnetbettertouchtool-may-switch-from-free-to-a-pay-what-you-want-model-early-next-year&#34;&gt;&lt;a href=&#34;http://www.boastr.net/bettertouchtool-may-switch-from-free-to-a-pay-what-you-want-model-early-next-year/&#34;&gt;BetterTouchTool will switch from free to a “Pay what you want” model early next year. – BetterTouchTool, BTT Remote, BetterSnapTool and more&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.boastr.net/&#34;&gt;BetterTouchTool&lt;/a&gt;が1月末を目処に無料じゃなくなるらしい。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.boastr.net/btt-paid-faq/&#34;&gt;FAQ&lt;/a&gt;によると、ライセンスは買い切りで(当面)更新の必要は無く、
+過去に寄付してたりといった一定の条件を満たす人は無料でライセンスを取得する手段が提供されるらしい。&lt;/p&gt;
+&lt;p&gt;なお、古いのを使い続けるといったことは出来ず、そのうち使えなくなってしまうもよう。&lt;/p&gt;
+&lt;p&gt;買うしかないなー。&lt;/p&gt;
+&lt;h2 id=&#34;slack-bot---httpblog8arroworgentry20160113183349&#34;&gt;&lt;a href=&#34;http://blog.8arrow.org/entry/2016/01/13/183349&#34;&gt;割と本気で家庭用Slack Botを作ってみた - 八発白中&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;うちの嫁はSlack使ってくれないから無理ぽ。。
+自分もカナヘイスタンプ超気に入ってるから、LINE辞めるのは無理だな。&lt;/p&gt;
+&lt;p&gt;記事中で&lt;a href=&#34;http://counting.hatelabo.jp/&#34;&gt;Hatena::Counting&lt;/a&gt;についての言及があった。
+ちょうどこういうサービス探してたのでありがたい。
+他に世界的にデファクトスタンダードなやつがあるのかとか、調べてみたい。
+&lt;a href=&#34;https://countingdownto.com/&#34;&gt;Create a Countdown Clock | CountingDownTo.com&lt;/a&gt;とかが、それらしい感じがする。&lt;/p&gt;
+&lt;h2 id=&#34;5--geechs-magazinehttpsgeechs-magazinecomtaglifehack20160113&#34;&gt;&lt;a href=&#34;https://geechs-magazine.com/tag/lifehack/20160113&#34;&gt;エンジニアにお勧めしたいメモアプリ5選 | geechs magazine&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;org-modeでだいたい間に合ってるけど、やっぱ同期と多デバイス対応が欲しいよなー。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://mobileorg.ncogni.to/&#34;&gt;MobileOrg : What is MobileOrg?&lt;/a&gt;はちょっと使ってみて微妙だった。。&lt;/p&gt;
+&lt;p&gt;そこだけ何とかなれば。。。&lt;/p&gt;
+&lt;h2 id=&#34;heading&#34;&gt;雑感&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;markdown-modeとskkの相性悪いんかな、変換確定しようとすると行頭にカーソルが行ってしまってストレスフルだ。。&lt;/li&gt;
+&lt;li&gt;シンタックスハイライトとかEmojiとか使えんのかな。調べよう。&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
   </channel>
