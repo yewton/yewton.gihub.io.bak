@@ -5,12 +5,20 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>yewton.net</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja-jp</language><lastBuildDate>Wed, 02 Jan 2019 00:00:00 +0900</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja-jp</language><copyright>© 2016-2020 yewton</copyright><lastBuildDate>Mon, 06 Jan 2020 08:08:12 +0900</lastBuildDate>
     <image>
       <url>/images/icon_huaabe68613bbbee58fda37f3eff123575_99627_512x512_fill_lanczos_center_2.png</url>
       <title>yewton.net</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title></title>
+      <link>/cv/</link>
+      <pubDate>Mon, 06 Jan 2020 08:08:12 +0900</pubDate>
+      <guid>/cv/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>久々の更新</title>
@@ -1157,14 +1165,6 @@ Golangの静的サイト生成ツールだと知り、イマドキは静的サ�
       <link>/blog/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/blog/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/cv/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/cv/</guid>
       <description></description>
     </item>
     
