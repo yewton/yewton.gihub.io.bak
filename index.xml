@@ -21,6 +21,32 @@
     </item>
     
     <item>
+      <title>#MadeWithAcademic</title>
+      <link>/2019/01/made-with-academic/</link>
+      <pubDate>Sun, 06 Jan 2019 00:00:00 +0900</pubDate>
+      <guid>/2019/01/made-with-academic/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/digitalcraftsman/hugo-icarus-theme&#34;&gt;Icarus&lt;/a&gt; がメンテされておらず Hugo 0.55.0 以降で正しく動かなくなっていたので、
+自力で Icarus にパッチを充てるか、別のテーマに乗り換えるかという選択を迫られていた。&lt;/p&gt;
+&lt;p&gt;せっかくなのでランディングページとブログを別にしたかったので、そういう柔軟性を備えている
+&lt;a href=&#34;https://sourcethemes.com/academic/&#34;&gt;Academic&lt;/a&gt; というテーマを使うことにした。&lt;/p&gt;
+&lt;p&gt;テーマの変更にあたって様々な知見が得られたので、そのうち記事にしたい。&lt;/p&gt;
+&lt;p&gt;以下その候補:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gohugo.io/content-management/page-bundles/&#34;&gt;Page Bundles&lt;/a&gt; への移行&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ox-hugo.scripter.co/doc/why-ox-hugo/&#34;&gt;ox-hugo&lt;/a&gt; と Academic が如何に相性がよいか
+&lt;ul&gt;
+&lt;li&gt;auto weight あたりが最高&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;lastmod&lt;/code&gt; の自動更新や &lt;a href=&#34;https://ox-hugo.scripter.co/doc/custom-front-matter/#front-matter-extra&#34;&gt;Front-matter Extra&lt;/a&gt; は Academic じゃなても最高の体験&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;カスタムウィジェットの作り方&lt;/li&gt;
+&lt;li&gt;ダークテーマ対応のシンタックスハイライトのやりかた&lt;/li&gt;
+&lt;li&gt;conf-toml-mode を &lt;a href=&#34;https://ox-hugo.scripter.co/doc/custom-front-matter/#front-matter-extra&#34;&gt;Front-matter Extra&lt;/a&gt; で使う方法&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>久々の更新</title>
       <link>/2019/01/happy-new-year/</link>
       <pubDate>Wed, 02 Jan 2019 00:00:00 +0900</pubDate>

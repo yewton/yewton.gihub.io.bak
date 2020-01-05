@@ -5,12 +5,28 @@
     <link>/tags/</link>
       <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja-jp</language><copyright>© 2016-2020 yewton</copyright><lastBuildDate>Wed, 02 Jan 2019 00:00:00 +0900</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja-jp</language><copyright>© 2016-2020 yewton</copyright><lastBuildDate>Sun, 06 Jan 2019 00:00:00 +0900</lastBuildDate>
     <image>
       <url>/images/icon_huaabe68613bbbee58fda37f3eff123575_99627_512x512_fill_lanczos_center_2.png</url>
       <title>Tags</title>
       <link>/tags/</link>
     </image>
+    
+    <item>
+      <title>academic</title>
+      <link>/tags/academic/</link>
+      <pubDate>Sun, 06 Jan 2019 00:00:00 +0900</pubDate>
+      <guid>/tags/academic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ox-hugo</title>
+      <link>/tags/ox-hugo/</link>
+      <pubDate>Sun, 06 Jan 2019 00:00:00 +0900</pubDate>
+      <guid>/tags/ox-hugo/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>emacs</title>
@@ -25,14 +41,6 @@
       <link>/tags/hugo/</link>
       <pubDate>Wed, 02 Jan 2019 00:00:00 +0900</pubDate>
       <guid>/tags/hugo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ox-hugo</title>
-      <link>/tags/ox-hugo/</link>
-      <pubDate>Wed, 02 Jan 2019 00:00:00 +0900</pubDate>
-      <guid>/tags/ox-hugo/</guid>
       <description></description>
     </item>
     
