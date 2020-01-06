@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>slack | yewton.net</title>
-    <link>/tags/slack/</link>
-      <atom:link href="/tags/slack/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.yewton.net/tags/slack/</link>
+      <atom:link href="https://www.yewton.net/tags/slack/index.xml" rel="self" type="application/rss+xml" />
     <description>slack</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja-jp</language><copyright>© 2016-2020 yewton</copyright><lastBuildDate>Wed, 13 Jan 2016 23:00:00 +0900</lastBuildDate>
     <image>
-      <url>/images/icon_huaabe68613bbbee58fda37f3eff123575_99627_512x512_fill_lanczos_center_2.png</url>
+      <url>https://www.yewton.net/img/icon.png</url>
       <title>slack</title>
-      <link>/tags/slack/</link>
+      <link>https://www.yewton.net/tags/slack/</link>
     </image>
     
     <item>
       <title>BettorTouchToolが無料じゃなくなると分かったりした日</title>
-      <link>/2016/01/diary/</link>
+      <link>https://www.yewton.net/2016/01/diary/</link>
       <pubDate>Wed, 13 Jan 2016 23:00:00 +0900</pubDate>
-      <guid>/2016/01/diary/</guid>
+      <guid>https://www.yewton.net/2016/01/diary/</guid>
       <description>&lt;h2 id=&#34;bettertouchtool-will-switch-from-free-to-a-pay-what-you-want-model-early-next-year--bettertouchtool-btt-remote-bettersnaptool-and-morehttpwwwboastrnetbettertouchtool-may-switch-from-free-to-a-pay-what-you-want-model-early-next-year&#34;&gt;&lt;a href=&#34;http://www.boastr.net/bettertouchtool-may-switch-from-free-to-a-pay-what-you-want-model-early-next-year/&#34;&gt;BetterTouchTool will switch from free to a “Pay what you want” model early next year. – BetterTouchTool, BTT Remote, BetterSnapTool and more&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.boastr.net/&#34;&gt;BetterTouchTool&lt;/a&gt;が1月末を目処に無料じゃなくなるらしい。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://www.boastr.net/btt-paid-faq/&#34;&gt;FAQ&lt;/a&gt;によると、ライセンスは買い切りで(当面)更新の必要は無く、

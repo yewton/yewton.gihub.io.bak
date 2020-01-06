@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ddd | yewton.net</title>
-    <link>/tags/ddd/</link>
-      <atom:link href="/tags/ddd/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.yewton.net/tags/ddd/</link>
+      <atom:link href="https://www.yewton.net/tags/ddd/index.xml" rel="self" type="application/rss+xml" />
     <description>ddd</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja-jp</language><copyright>© 2016-2020 yewton</copyright><lastBuildDate>Sat, 23 Jan 2016 23:47:43 +0900</lastBuildDate>
     <image>
-      <url>/images/icon_huaabe68613bbbee58fda37f3eff123575_99627_512x512_fill_lanczos_center_2.png</url>
+      <url>https://www.yewton.net/img/icon.png</url>
       <title>ddd</title>
-      <link>/tags/ddd/</link>
+      <link>https://www.yewton.net/tags/ddd/</link>
     </image>
     
     <item>
       <title>JIRA Agile用のuserscriptを作ったりした日</title>
-      <link>/2016/01/diary/</link>
+      <link>https://www.yewton.net/2016/01/diary/</link>
       <pubDate>Sat, 23 Jan 2016 23:47:43 +0900</pubDate>
-      <guid>/2016/01/diary/</guid>
+      <guid>https://www.yewton.net/2016/01/diary/</guid>
       <description>&lt;h2 id=&#34;heading&#34;&gt;趣味の政策物&lt;/h2&gt;
 &lt;p&gt;弊チームではバックログとしてJIRAを使っている。&lt;/p&gt;
 &lt;p&gt;ここ最近しつこく「管理者権限が欲しいなァ〜(ﾁﾗｯ」としていたらめでたく権限を付与してもらえたので、

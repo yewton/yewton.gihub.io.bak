@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>academic | yewton.net</title>
-    <link>/tags/academic/</link>
-      <atom:link href="/tags/academic/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.yewton.net/tags/academic/</link>
+      <atom:link href="https://www.yewton.net/tags/academic/index.xml" rel="self" type="application/rss+xml" />
     <description>academic</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja-jp</language><copyright>© 2016-2020 yewton</copyright><lastBuildDate>Sun, 06 Jan 2019 00:00:00 +0900</lastBuildDate>
     <image>
-      <url>/images/icon_huaabe68613bbbee58fda37f3eff123575_99627_512x512_fill_lanczos_center_2.png</url>
+      <url>https://www.yewton.net/img/icon.png</url>
       <title>academic</title>
-      <link>/tags/academic/</link>
+      <link>https://www.yewton.net/tags/academic/</link>
     </image>
     
     <item>
       <title>#MadeWithAcademic</title>
-      <link>/2019/01/made-with-academic/</link>
+      <link>https://www.yewton.net/2019/01/made-with-academic/</link>
       <pubDate>Sun, 06 Jan 2019 00:00:00 +0900</pubDate>
-      <guid>/2019/01/made-with-academic/</guid>
+      <guid>https://www.yewton.net/2019/01/made-with-academic/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/digitalcraftsman/hugo-icarus-theme&#34;&gt;Icarus&lt;/a&gt; がメンテされておらず Hugo 0.55.0 以降で正しく動かなくなっていたので、
 自力で Icarus にパッチを充てるか、別のテーマに乗り換えるかという選択を迫られていた。&lt;/p&gt;
 &lt;p&gt;せっかくなのでランディングページとブログを別にしたかったので、そういう柔軟性を備えている

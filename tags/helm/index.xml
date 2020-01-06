@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>helm | yewton.net</title>
-    <link>/tags/helm/</link>
-      <atom:link href="/tags/helm/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.yewton.net/tags/helm/</link>
+      <atom:link href="https://www.yewton.net/tags/helm/index.xml" rel="self" type="application/rss+xml" />
     <description>helm</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja-jp</language><copyright>© 2016-2020 yewton</copyright><lastBuildDate>Wed, 04 May 2016 19:45:26 +0900</lastBuildDate>
     <image>
-      <url>/images/icon_huaabe68613bbbee58fda37f3eff123575_99627_512x512_fill_lanczos_center_2.png</url>
+      <url>https://www.yewton.net/img/icon.png</url>
       <title>helm</title>
-      <link>/tags/helm/</link>
+      <link>https://www.yewton.net/tags/helm/</link>
     </image>
     
     <item>
       <title>Spacemacs から helm と persp-mode の設定をパクろうと思ったけど難しかった</title>
-      <link>/2016/05/helm-persp/</link>
+      <link>https://www.yewton.net/2016/05/helm-persp/</link>
       <pubDate>Wed, 04 May 2016 19:45:26 +0900</pubDate>
-      <guid>/2016/05/helm-persp/</guid>
+      <guid>https://www.yewton.net/2016/05/helm-persp/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/syl20bnr/spacemacs/blob/master/layers/%2Bwindow-management/spacemacs-layouts/funcs.el&#34;&gt;この辺&lt;/a&gt; を参考にせよ、
 と persp-mode 公式に書いてあったので、パクれそうかやってみた。&lt;/p&gt;
 &lt;p&gt;結論としては、出来なかった。

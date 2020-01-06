@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ox-hugo | yewton.net</title>
-    <link>/tags/ox-hugo/</link>
-      <atom:link href="/tags/ox-hugo/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.yewton.net/tags/ox-hugo/</link>
+      <atom:link href="https://www.yewton.net/tags/ox-hugo/index.xml" rel="self" type="application/rss+xml" />
     <description>ox-hugo</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja-jp</language><copyright>© 2016-2020 yewton</copyright><lastBuildDate>Sun, 06 Jan 2019 00:00:00 +0900</lastBuildDate>
     <image>
-      <url>/images/icon_huaabe68613bbbee58fda37f3eff123575_99627_512x512_fill_lanczos_center_2.png</url>
+      <url>https://www.yewton.net/img/icon.png</url>
       <title>ox-hugo</title>
-      <link>/tags/ox-hugo/</link>
+      <link>https://www.yewton.net/tags/ox-hugo/</link>
     </image>
     
     <item>
       <title>#MadeWithAcademic</title>
-      <link>/2019/01/made-with-academic/</link>
+      <link>https://www.yewton.net/2019/01/made-with-academic/</link>
       <pubDate>Sun, 06 Jan 2019 00:00:00 +0900</pubDate>
-      <guid>/2019/01/made-with-academic/</guid>
+      <guid>https://www.yewton.net/2019/01/made-with-academic/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/digitalcraftsman/hugo-icarus-theme&#34;&gt;Icarus&lt;/a&gt; がメンテされておらず Hugo 0.55.0 以降で正しく動かなくなっていたので、
 自力で Icarus にパッチを充てるか、別のテーマに乗り換えるかという選択を迫られていた。&lt;/p&gt;
 &lt;p&gt;せっかくなのでランディングページとブログを別にしたかったので、そういう柔軟性を備えている
@@ -40,11 +40,11 @@
     
     <item>
       <title>久々の更新</title>
-      <link>/2019/01/happy-new-year/</link>
+      <link>https://www.yewton.net/2019/01/happy-new-year/</link>
       <pubDate>Wed, 02 Jan 2019 00:00:00 +0900</pubDate>
-      <guid>/2019/01/happy-new-year/</guid>
+      <guid>https://www.yewton.net/2019/01/happy-new-year/</guid>
       <description>&lt;p&gt;最近仕事用のmacを新調して環境を作り直す機会があったことと、 2020 年が始まるということもあり、久々にサイトを更新することにした。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;/cv/&#34;&gt;オープン職務経歴書&lt;/a&gt;を書きたかった、というのもある。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.yewton.net/cv/&#34;&gt;オープン職務経歴書&lt;/a&gt;を書きたかった、というのもある。&lt;/p&gt;
 &lt;p&gt;更新にあたっていくつか困難があった。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;まず、このサイトのソースが最近の Hugo では動かせなくなっていた。&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;このサイトのテーマには &lt;a href=&#34;https://github.com/digitalcraftsman/hugo-icarus-theme&#34;&gt;Icarus&lt;/a&gt; を使わせていただいているのだが、最終更新が 2017 年となっており、
@@ -56,7 +56,7 @@ Hugo 0.55.0 以降で動かなくなってしまっていたり、 Deprecated Wa
 &lt;a href=&#34;https://bitbucket.org/mgladdish/asdf-gohugo&#34;&gt;asdf-gohugo&lt;/a&gt; を入れて、少しずつバージョンを上げながら確認していった。&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;asdf plugin add hugo https://bitbucket.org/mgladdish/asdf-gohugo
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;そして、そもそも Hugo の使い方を忘れていた。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;/2016/02/02/blog-with-hugo/&#34;&gt;Hugo 導入記事&lt;/a&gt; や &lt;a href=&#34;/2016/01/26/hugo-el/&#34;&gt;Hugo 用 Emacs ライブラリ&lt;/a&gt; を書いておいてなんだが、当時から3年も経ってほとんど忘れてしまっていた。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.yewton.net/2016/02/02/blog-with-hugo/&#34;&gt;Hugo 導入記事&lt;/a&gt; や &lt;a href=&#34;https://www.yewton.net/2016/01/26/hugo-el/&#34;&gt;Hugo 用 Emacs ライブラリ&lt;/a&gt; を書いておいてなんだが、当時から3年も経ってほとんど忘れてしまっていた。&lt;/p&gt;
 &lt;p&gt;そこで改めて調べてみると、イマドキは org-mode で書くことも出来るらしい。&lt;/p&gt;
 &lt;p&gt;この3年ですっかり org-mode 無しでは生きられない体になってしまっていたし、
 せっかくなので本記事からは &lt;a href=&#34;https://ox-hugo.scripter.co/&#34;&gt;ox-hugo&lt;/a&gt; を使って書くことにする。&lt;/p&gt;

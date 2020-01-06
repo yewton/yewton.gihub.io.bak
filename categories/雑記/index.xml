@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>雑記 | yewton.net</title>
-    <link>/categories/%E9%9B%91%E8%A8%98/</link>
-      <atom:link href="/categories/%E9%9B%91%E8%A8%98/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.yewton.net/categories/%E9%9B%91%E8%A8%98/</link>
+      <atom:link href="https://www.yewton.net/categories/%E9%9B%91%E8%A8%98/index.xml" rel="self" type="application/rss+xml" />
     <description>雑記</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja-jp</language><copyright>© 2016-2020 yewton</copyright><lastBuildDate>Sun, 06 Jan 2019 00:00:00 +0900</lastBuildDate>
     <image>
-      <url>/images/icon_huaabe68613bbbee58fda37f3eff123575_99627_512x512_fill_lanczos_center_2.png</url>
+      <url>https://www.yewton.net/img/icon.png</url>
       <title>雑記</title>
-      <link>/categories/%E9%9B%91%E8%A8%98/</link>
+      <link>https://www.yewton.net/categories/%E9%9B%91%E8%A8%98/</link>
     </image>
     
     <item>
       <title>#MadeWithAcademic</title>
-      <link>/2019/01/made-with-academic/</link>
+      <link>https://www.yewton.net/2019/01/made-with-academic/</link>
       <pubDate>Sun, 06 Jan 2019 00:00:00 +0900</pubDate>
-      <guid>/2019/01/made-with-academic/</guid>
+      <guid>https://www.yewton.net/2019/01/made-with-academic/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/digitalcraftsman/hugo-icarus-theme&#34;&gt;Icarus&lt;/a&gt; がメンテされておらず Hugo 0.55.0 以降で正しく動かなくなっていたので、
 自力で Icarus にパッチを充てるか、別のテーマに乗り換えるかという選択を迫られていた。&lt;/p&gt;
 &lt;p&gt;せっかくなのでランディングページとブログを別にしたかったので、そういう柔軟性を備えている
@@ -40,11 +40,11 @@
     
     <item>
       <title>久々の更新</title>
-      <link>/2019/01/happy-new-year/</link>
+      <link>https://www.yewton.net/2019/01/happy-new-year/</link>
       <pubDate>Wed, 02 Jan 2019 00:00:00 +0900</pubDate>
-      <guid>/2019/01/happy-new-year/</guid>
+      <guid>https://www.yewton.net/2019/01/happy-new-year/</guid>
       <description>&lt;p&gt;最近仕事用のmacを新調して環境を作り直す機会があったことと、 2020 年が始まるということもあり、久々にサイトを更新することにした。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;/cv/&#34;&gt;オープン職務経歴書&lt;/a&gt;を書きたかった、というのもある。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.yewton.net/cv/&#34;&gt;オープン職務経歴書&lt;/a&gt;を書きたかった、というのもある。&lt;/p&gt;
 &lt;p&gt;更新にあたっていくつか困難があった。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;まず、このサイトのソースが最近の Hugo では動かせなくなっていた。&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;このサイトのテーマには &lt;a href=&#34;https://github.com/digitalcraftsman/hugo-icarus-theme&#34;&gt;Icarus&lt;/a&gt; を使わせていただいているのだが、最終更新が 2017 年となっており、
@@ -56,7 +56,7 @@ Hugo 0.55.0 以降で動かなくなってしまっていたり、 Deprecated Wa
 &lt;a href=&#34;https://bitbucket.org/mgladdish/asdf-gohugo&#34;&gt;asdf-gohugo&lt;/a&gt; を入れて、少しずつバージョンを上げながら確認していった。&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;asdf plugin add hugo https://bitbucket.org/mgladdish/asdf-gohugo
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;そして、そもそも Hugo の使い方を忘れていた。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;/2016/02/02/blog-with-hugo/&#34;&gt;Hugo 導入記事&lt;/a&gt; や &lt;a href=&#34;/2016/01/26/hugo-el/&#34;&gt;Hugo 用 Emacs ライブラリ&lt;/a&gt; を書いておいてなんだが、当時から3年も経ってほとんど忘れてしまっていた。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.yewton.net/2016/02/02/blog-with-hugo/&#34;&gt;Hugo 導入記事&lt;/a&gt; や &lt;a href=&#34;https://www.yewton.net/2016/01/26/hugo-el/&#34;&gt;Hugo 用 Emacs ライブラリ&lt;/a&gt; を書いておいてなんだが、当時から3年も経ってほとんど忘れてしまっていた。&lt;/p&gt;
 &lt;p&gt;そこで改めて調べてみると、イマドキは org-mode で書くことも出来るらしい。&lt;/p&gt;
 &lt;p&gt;この3年ですっかり org-mode 無しでは生きられない体になってしまっていたし、
 せっかくなので本記事からは &lt;a href=&#34;https://ox-hugo.scripter.co/&#34;&gt;ox-hugo&lt;/a&gt; を使って書くことにする。&lt;/p&gt;
@@ -70,9 +70,9 @@ Hugo 0.55.0 以降で動かなくなってしまっていたり、 Deprecated Wa
     
     <item>
       <title>三ヶ月以上ぶりに何かを書く</title>
-      <link>/2016/08/misc/</link>
+      <link>https://www.yewton.net/2016/08/misc/</link>
       <pubDate>Mon, 29 Aug 2016 22:29:35 +0900</pubDate>
-      <guid>/2016/08/misc/</guid>
+      <guid>https://www.yewton.net/2016/08/misc/</guid>
       <description>&lt;p&gt;前回の更新から三ヶ月以上経ってしまった。
 月日が経つのは早いものだ。&lt;/p&gt;
 &lt;p&gt;まとめたいことがいくつかあるので、まとめておく。&lt;/p&gt;
@@ -98,9 +98,9 @@ MAKE をアクションにして Web Hook でどうにかした話をまとめ�
     
     <item>
       <title>Spacemacs から helm と persp-mode の設定をパクろうと思ったけど難しかった</title>
-      <link>/2016/05/helm-persp/</link>
+      <link>https://www.yewton.net/2016/05/helm-persp/</link>
       <pubDate>Wed, 04 May 2016 19:45:26 +0900</pubDate>
-      <guid>/2016/05/helm-persp/</guid>
+      <guid>https://www.yewton.net/2016/05/helm-persp/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/syl20bnr/spacemacs/blob/master/layers/%2Bwindow-management/spacemacs-layouts/funcs.el&#34;&gt;この辺&lt;/a&gt; を参考にせよ、
 と persp-mode 公式に書いてあったので、パクれそうかやってみた。&lt;/p&gt;
 &lt;p&gt;結論としては、出来なかった。
@@ -119,9 +119,9 @@ MAKE をアクションにして Web Hook でどうにかした話をまとめ�
     
     <item>
       <title>三ヶ月ぶりに更新再開した日</title>
-      <link>/2016/05/diary/</link>
+      <link>https://www.yewton.net/2016/05/diary/</link>
       <pubDate>Tue, 03 May 2016 23:27:26 +0900</pubDate>
-      <guid>/2016/05/diary/</guid>
+      <guid>https://www.yewton.net/2016/05/diary/</guid>
       <description>&lt;p&gt;前回の更新から平気で3ヶ月経っていた。
 光陰矢のごとしである。&lt;/p&gt;
 &lt;p&gt;一個多少マトモな記事を上げたら何か燃え尽きてしまったのと、
@@ -145,9 +145,9 @@ Scala 製 Slack ボットのデプロイ方法を考えるのと、
     
     <item>
       <title>早朝ランニングしたりカナヘイカフェに行ってきた日</title>
-      <link>/2016/02/diary/</link>
+      <link>https://www.yewton.net/2016/02/diary/</link>
       <pubDate>Tue, 16 Feb 2016 23:00:00 +0900</pubDate>
-      <guid>/2016/02/diary/</guid>
+      <guid>https://www.yewton.net/2016/02/diary/</guid>
       <description>&lt;h2 id=&#34;heading&#34;&gt;ランニング&lt;/h2&gt;
 &lt;p&gt;昨日おとといと、春が来たのかと思うくらい暖かったので、
 何となく意識が高まって「よし明日からランニングを始めるぞ」という気持ちになっていた。&lt;/p&gt;
@@ -186,9 +186,9 @@ Scala 製 Slack ボットのデプロイ方法を考えるのと、
     
     <item>
       <title>Hugoの記事をようやく書き上げた日</title>
-      <link>/2016/02/diary/</link>
+      <link>https://www.yewton.net/2016/02/diary/</link>
       <pubDate>Sun, 14 Feb 2016 00:26:33 +0900</pubDate>
-      <guid>/2016/02/diary/</guid>
+      <guid>https://www.yewton.net/2016/02/diary/</guid>
       <description>&lt;p&gt;たまには人類に少しでも役に立つような記事も書こうと思い、
 &lt;a href=&#34;https://www.yewton.net/2016/02/02/blog-with-hugo/&#34;&gt;Hugoの記事&lt;/a&gt;を書いていた。&lt;/p&gt;
 &lt;p&gt;自分が通しでやったことだし、すぐ書き上がるだろーと高をくくっていたら、
@@ -221,9 +221,9 @@ HHVMだけをECSで動かしてもしょうがないから、やるならWordPre
     
     <item>
       <title>スクラム入門を翻訳する日々</title>
-      <link>/2016/01/diary/</link>
+      <link>https://www.yewton.net/2016/01/diary/</link>
       <pubDate>Sun, 31 Jan 2016 23:18:29 +0900</pubDate>
-      <guid>/2016/01/diary/</guid>
+      <guid>https://www.yewton.net/2016/01/diary/</guid>
       <description>&lt;p&gt;最近、&lt;a href=&#34;https://www.gitbook.com/book/yewton/scrumprimer/details&#34;&gt;スクラム入門の翻訳&lt;/a&gt;を
 細々とやっている。&lt;/p&gt;
 &lt;p&gt;元々は&lt;a href=&#34;http://www.scrumprimer.org/&#34;&gt;Scrum Primer - Short Introduction to Scrum&lt;/a&gt;で配布されているPDFで、
@@ -246,9 +246,9 @@ HHVMだけをECSで動かしてもしょうがないから、やるならWordPre
     
     <item>
       <title>JIRA Agile用のuserscriptを作ったりした日</title>
-      <link>/2016/01/diary/</link>
+      <link>https://www.yewton.net/2016/01/diary/</link>
       <pubDate>Sat, 23 Jan 2016 23:47:43 +0900</pubDate>
-      <guid>/2016/01/diary/</guid>
+      <guid>https://www.yewton.net/2016/01/diary/</guid>
       <description>&lt;h2 id=&#34;heading&#34;&gt;趣味の政策物&lt;/h2&gt;
 &lt;p&gt;弊チームではバックログとしてJIRAを使っている。&lt;/p&gt;
 &lt;p&gt;ここ最近しつこく「管理者権限が欲しいなァ〜(ﾁﾗｯ」としていたらめでたく権限を付与してもらえたので、
@@ -301,9 +301,9 @@ HHVMだけをECSで動かしてもしょうがないから、やるならWordPre
     
     <item>
       <title>雪が振ったので一日中家に引き込もっていた日の次の日</title>
-      <link>/2016/01/diary/</link>
+      <link>https://www.yewton.net/2016/01/diary/</link>
       <pubDate>Tue, 19 Jan 2016 23:00:00 +0900</pubDate>
-      <guid>/2016/01/diary/</guid>
+      <guid>https://www.yewton.net/2016/01/diary/</guid>
       <description>&lt;p&gt;昨日は都内も大雪(いうほどか？)で出社がダルそうだったので、終日リモートワークしていた。
 本当に一歩も家から出ずに、パジャマから着替えもせずに、もくもくとPC作業。&lt;/p&gt;
 &lt;h2 id=&#34;heading&#34;&gt;個人のタスク管理&lt;/h2&gt;
@@ -320,9 +320,9 @@ HHVMだけをECSで動かしてもしょうがないから、やるならWordPre
     
     <item>
       <title>HTTPSに対応してついでにHTTP/2対応された日</title>
-      <link>/2016/01/diary/</link>
+      <link>https://www.yewton.net/2016/01/diary/</link>
       <pubDate>Mon, 18 Jan 2016 00:06:20 +0900</pubDate>
-      <guid>/2016/01/diary/</guid>
+      <guid>https://www.yewton.net/2016/01/diary/</guid>
       <description>&lt;h2 id=&#34;https--http2-&#34;&gt;HTTPS + HTTP/2 対応&lt;/h2&gt;
 &lt;p&gt;世の中的にHTTPS対応してないといかんような気がしたので、
 このサイトもHTTPSで配信するように対応した。&lt;/p&gt;
@@ -362,9 +362,9 @@ Chromeで &lt;a href=&#34;https://chrome.google.com/webstore/detail/http2-and-sp
     
     <item>
       <title>忙し過ぎてお弁当も食べられなかった日</title>
-      <link>/2016/01/diary/</link>
+      <link>https://www.yewton.net/2016/01/diary/</link>
       <pubDate>Fri, 15 Jan 2016 23:00:00 +0900</pubDate>
-      <guid>/2016/01/diary/</guid>
+      <guid>https://www.yewton.net/2016/01/diary/</guid>
       <description>&lt;p&gt;最近チームが新体制に移行するという時期で色々バタバタしていて、
 立ち上げに伴う開発フローの整備とか、JIRA(プロジェクト管理ツール)の設定とか、
 ワーキングアグリーメントの検討とかで、頓に忙しい。&lt;/p&gt;
@@ -398,9 +398,9 @@ Chromeで &lt;a href=&#34;https://chrome.google.com/webstore/detail/http2-and-sp
     
     <item>
       <title>BettorTouchToolが無料じゃなくなると分かったりした日</title>
-      <link>/2016/01/diary/</link>
+      <link>https://www.yewton.net/2016/01/diary/</link>
       <pubDate>Wed, 13 Jan 2016 23:00:00 +0900</pubDate>
-      <guid>/2016/01/diary/</guid>
+      <guid>https://www.yewton.net/2016/01/diary/</guid>
       <description>&lt;h2 id=&#34;bettertouchtool-will-switch-from-free-to-a-pay-what-you-want-model-early-next-year--bettertouchtool-btt-remote-bettersnaptool-and-morehttpwwwboastrnetbettertouchtool-may-switch-from-free-to-a-pay-what-you-want-model-early-next-year&#34;&gt;&lt;a href=&#34;http://www.boastr.net/bettertouchtool-may-switch-from-free-to-a-pay-what-you-want-model-early-next-year/&#34;&gt;BetterTouchTool will switch from free to a “Pay what you want” model early next year. – BetterTouchTool, BTT Remote, BetterSnapTool and more&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.boastr.net/&#34;&gt;BetterTouchTool&lt;/a&gt;が1月末を目処に無料じゃなくなるらしい。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://www.boastr.net/btt-paid-faq/&#34;&gt;FAQ&lt;/a&gt;によると、ライセンスは買い切りで(当面)更新の必要は無く、
@@ -428,9 +428,9 @@ Chromeで &lt;a href=&#34;https://chrome.google.com/webstore/detail/http2-and-sp
     
     <item>
       <title>はじめに</title>
-      <link>/2016/01/at-the-start/</link>
+      <link>https://www.yewton.net/2016/01/at-the-start/</link>
       <pubDate>Mon, 11 Jan 2016 11:11:11 +0900</pubDate>
-      <guid>/2016/01/at-the-start/</guid>
+      <guid>https://www.yewton.net/2016/01/at-the-start/</guid>
       <description>&lt;h2 id=&#34;heading&#34;&gt;はじめに&lt;/h2&gt;
 &lt;p&gt;今年30歳になる節目の年なので、ブログを書いてみることにした。&lt;/p&gt;
 &lt;p&gt;何もこういう試みは初めてではなく、

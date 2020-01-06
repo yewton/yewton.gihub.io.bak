@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>cdn | yewton.net</title>
-    <link>/tags/cdn/</link>
-      <atom:link href="/tags/cdn/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.yewton.net/tags/cdn/</link>
+      <atom:link href="https://www.yewton.net/tags/cdn/index.xml" rel="self" type="application/rss+xml" />
     <description>cdn</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja-jp</language><copyright>© 2016-2020 yewton</copyright><lastBuildDate>Mon, 18 Jan 2016 00:06:20 +0900</lastBuildDate>
     <image>
-      <url>/images/icon_huaabe68613bbbee58fda37f3eff123575_99627_512x512_fill_lanczos_center_2.png</url>
+      <url>https://www.yewton.net/img/icon.png</url>
       <title>cdn</title>
-      <link>/tags/cdn/</link>
+      <link>https://www.yewton.net/tags/cdn/</link>
     </image>
     
     <item>
       <title>HTTPSに対応してついでにHTTP/2対応された日</title>
-      <link>/2016/01/diary/</link>
+      <link>https://www.yewton.net/2016/01/diary/</link>
       <pubDate>Mon, 18 Jan 2016 00:06:20 +0900</pubDate>
-      <guid>/2016/01/diary/</guid>
+      <guid>https://www.yewton.net/2016/01/diary/</guid>
       <description>&lt;h2 id=&#34;https--http2-&#34;&gt;HTTPS + HTTP/2 対応&lt;/h2&gt;
 &lt;p&gt;世の中的にHTTPS対応してないといかんような気がしたので、
 このサイトもHTTPSで配信するように対応した。&lt;/p&gt;

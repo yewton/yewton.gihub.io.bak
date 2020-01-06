@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>javascript | yewton.net</title>
-    <link>/tags/javascript/</link>
-      <atom:link href="/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.yewton.net/tags/javascript/</link>
+      <atom:link href="https://www.yewton.net/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
     <description>javascript</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja-jp</language><copyright>© 2016-2020 yewton</copyright><lastBuildDate>Fri, 15 Jan 2016 23:00:00 +0900</lastBuildDate>
     <image>
-      <url>/images/icon_huaabe68613bbbee58fda37f3eff123575_99627_512x512_fill_lanczos_center_2.png</url>
+      <url>https://www.yewton.net/img/icon.png</url>
       <title>javascript</title>
-      <link>/tags/javascript/</link>
+      <link>https://www.yewton.net/tags/javascript/</link>
     </image>
     
     <item>
       <title>忙し過ぎてお弁当も食べられなかった日</title>
-      <link>/2016/01/diary/</link>
+      <link>https://www.yewton.net/2016/01/diary/</link>
       <pubDate>Fri, 15 Jan 2016 23:00:00 +0900</pubDate>
-      <guid>/2016/01/diary/</guid>
+      <guid>https://www.yewton.net/2016/01/diary/</guid>
       <description>&lt;p&gt;最近チームが新体制に移行するという時期で色々バタバタしていて、
 立ち上げに伴う開発フローの整備とか、JIRA(プロジェクト管理ツール)の設定とか、
 ワーキングアグリーメントの検討とかで、頓に忙しい。&lt;/p&gt;

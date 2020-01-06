@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>trello | yewton.net</title>
-    <link>/tags/trello/</link>
-      <atom:link href="/tags/trello/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.yewton.net/tags/trello/</link>
+      <atom:link href="https://www.yewton.net/tags/trello/index.xml" rel="self" type="application/rss+xml" />
     <description>trello</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja-jp</language><copyright>© 2016-2020 yewton</copyright><lastBuildDate>Tue, 19 Jan 2016 23:00:00 +0900</lastBuildDate>
     <image>
-      <url>/images/icon_huaabe68613bbbee58fda37f3eff123575_99627_512x512_fill_lanczos_center_2.png</url>
+      <url>https://www.yewton.net/img/icon.png</url>
       <title>trello</title>
-      <link>/tags/trello/</link>
+      <link>https://www.yewton.net/tags/trello/</link>
     </image>
     
     <item>
       <title>雪が振ったので一日中家に引き込もっていた日の次の日</title>
-      <link>/2016/01/diary/</link>
+      <link>https://www.yewton.net/2016/01/diary/</link>
       <pubDate>Tue, 19 Jan 2016 23:00:00 +0900</pubDate>
-      <guid>/2016/01/diary/</guid>
+      <guid>https://www.yewton.net/2016/01/diary/</guid>
       <description>&lt;p&gt;昨日は都内も大雪(いうほどか？)で出社がダルそうだったので、終日リモートワークしていた。
 本当に一歩も家から出ずに、パジャマから着替えもせずに、もくもくとPC作業。&lt;/p&gt;
 &lt;h2 id=&#34;heading&#34;&gt;個人のタスク管理&lt;/h2&gt;

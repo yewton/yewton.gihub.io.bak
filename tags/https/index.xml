@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>https | yewton.net</title>
-    <link>/tags/https/</link>
-      <atom:link href="/tags/https/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.yewton.net/tags/https/</link>
+      <atom:link href="https://www.yewton.net/tags/https/index.xml" rel="self" type="application/rss+xml" />
     <description>https</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja-jp</language><copyright>© 2016-2020 yewton</copyright><lastBuildDate>Sun, 21 Feb 2016 22:49:52 +0900</lastBuildDate>
     <image>
-      <url>/images/icon_huaabe68613bbbee58fda37f3eff123575_99627_512x512_fill_lanczos_center_2.png</url>
+      <url>https://www.yewton.net/img/icon.png</url>
       <title>https</title>
-      <link>/tags/https/</link>
+      <link>https://www.yewton.net/tags/https/</link>
     </image>
     
     <item>
       <title>WordPressをHTTP/2&#43;HHVMで動かす環境をdocker-composeで構築してみた</title>
-      <link>/2016/02/wordpress-http2-hhvm/</link>
+      <link>https://www.yewton.net/2016/02/wordpress-http2-hhvm/</link>
       <pubDate>Sun, 21 Feb 2016 22:49:52 +0900</pubDate>
-      <guid>/2016/02/wordpress-http2-hhvm/</guid>
+      <guid>https://www.yewton.net/2016/02/wordpress-http2-hhvm/</guid>
       <description>&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/yewton/wordpress-nginx-http2-hhvm&#34;&gt;このリポジトリ&lt;/a&gt;を &lt;code&gt;clone&lt;/code&gt; して &lt;code&gt;docker-compose up -d&lt;/code&gt; して下さい
 (要 &lt;a href=&#34;https://github.com/docker/compose/releases/tag/1.6.0&#34;&gt;バージョン 1.6.0 以上&lt;/a&gt;)。
 その後 &lt;code&gt;open &amp;quot;https://$(docker-machine ip default)&amp;quot;&lt;/code&gt; すると、ブラウザでWordPressが立ち上がります。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/img/2016-02-21_224951/wordpress.png&#34; alt=&#34;デモ&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.yewton.net/img/2016-02-21_224951/wordpress.png&#34; alt=&#34;デモ&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;heading&#34;&gt;動機&lt;/h2&gt;
 &lt;p&gt;WordPressをHHVMで動かしたら超速くなった!やったぜ!!という記事はをよく見るのだけれど、
 具体的にどうやって構築しているのか解説している記事があんまり無かったので、実際にやってみることにしました。&lt;/p&gt;
 &lt;p&gt;ついでに、HTTP/2で提供出来るとイケてる気がしたので、併せて対応してみることにします。&lt;/p&gt;
 &lt;h2 id=&#34;hhvm&#34;&gt;HHVM&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;/img/2016-02-21_224951/hugo.png&#34; alt=&#34;HHVM&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.yewton.net/img/2016-02-21_224951/hugo.png&#34; alt=&#34;HHVM&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://hhvm.com/&#34;&gt;HHVM&lt;/a&gt;は、Facebookがオープンソースとして開発している仮想実行環境で、
 &lt;a href=&#34;http://php.net/&#34;&gt;PHP&lt;/a&gt;と&lt;a href=&#34;http://hacklang.org/&#34;&gt;Hack&lt;/a&gt;を動かすための環境らしいです。&lt;/p&gt;
 &lt;p&gt;まぁ、個人的にはHackもHHVMも &lt;strong&gt;すごいPHP&lt;/strong&gt; ぐらいの認識しかありませんが…。
@@ -54,7 +54,7 @@ iniファイルに設定書いていくのは何だかしんどそうです。&l
 &lt;p&gt;というわけで、リバースプロキシとして nginx を立てて、HHVMをFastCGIモードで起動してバックエンドとします。&lt;/p&gt;
 &lt;p&gt;今回はとにかくお手軽に手元で動かしてみたかったので、諸々Dockerで動かすことにしました。
 雑に図解すると以下のような感じです:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/img/2016-02-21_224951/structure.png&#34; alt=&#34;構成図&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.yewton.net/img/2016-02-21_224951/structure.png&#34; alt=&#34;構成図&#34;&gt;&lt;/p&gt;
 &lt;p&gt;FrontとかBackはDockerの&lt;a href=&#34;https://docs.docker.com/engine/userguide/networking/dockernetworks/#user-defined-networks&#34;&gt;ユーザー定義ネットワーク&lt;/a&gt;です。
 &lt;a href=&#34;https://github.com/docker/docker/blob/master/CHANGELOG.md#1100-2016-02-04&#34;&gt;Docker 1.10.0&lt;/a&gt;で link に代わるものとして導入されたような気がします。
 &lt;code&gt;/etc/hosts&lt;/code&gt; じゃなくてDNSで名前解決出来るようになってて最高にハッピーですね。&lt;/p&gt;
@@ -67,7 +67,7 @@ iniファイルに設定書いていくのは何だかしんどそうです。&l
 &lt;code&gt;clone&lt;/code&gt; して &lt;code&gt;docker-compose up -d&lt;/code&gt; すれば、HTTP/2でWordPressが動いている様子が確認出来ます。&lt;/p&gt;
 &lt;p&gt;nginxやHHVMの設定はほぼデフォルトのままいじってないので、本気で動かすなら細かいチューニングは必要です。
 が、全体の構成は実環境でもこのようになると思います。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/img/2016-02-21_224951/wordpress.png&#34; alt=&#34;デモ&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.yewton.net/img/2016-02-21_224951/wordpress.png&#34; alt=&#34;デモ&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;heading-3&#34;&gt;終わりに&lt;/h2&gt;
 &lt;p&gt;以上で、お手軽に手元でHTTP/2+HHVMなWordPressを試すことが出来るようになりました。&lt;/p&gt;
 &lt;p&gt;あとは実環境へのデプロイだけなんですが、さてどうしたものか。
@@ -85,9 +85,9 @@ iniファイルに設定書いていくのは何だかしんどそうです。&l
     
     <item>
       <title>HTTPSに対応してついでにHTTP/2対応された日</title>
-      <link>/2016/01/diary/</link>
+      <link>https://www.yewton.net/2016/01/diary/</link>
       <pubDate>Mon, 18 Jan 2016 00:06:20 +0900</pubDate>
-      <guid>/2016/01/diary/</guid>
+      <guid>https://www.yewton.net/2016/01/diary/</guid>
       <description>&lt;h2 id=&#34;https--http2-&#34;&gt;HTTPS + HTTP/2 対応&lt;/h2&gt;
 &lt;p&gt;世の中的にHTTPS対応してないといかんような気がしたので、
 このサイトもHTTPSで配信するように対応した。&lt;/p&gt;

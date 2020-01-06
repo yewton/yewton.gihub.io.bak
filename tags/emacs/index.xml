@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>emacs | yewton.net</title>
-    <link>/tags/emacs/</link>
-      <atom:link href="/tags/emacs/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.yewton.net/tags/emacs/</link>
+      <atom:link href="https://www.yewton.net/tags/emacs/index.xml" rel="self" type="application/rss+xml" />
     <description>emacs</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja-jp</language><copyright>© 2016-2020 yewton</copyright><lastBuildDate>Wed, 02 Jan 2019 00:00:00 +0900</lastBuildDate>
     <image>
-      <url>/images/icon_huaabe68613bbbee58fda37f3eff123575_99627_512x512_fill_lanczos_center_2.png</url>
+      <url>https://www.yewton.net/img/icon.png</url>
       <title>emacs</title>
-      <link>/tags/emacs/</link>
+      <link>https://www.yewton.net/tags/emacs/</link>
     </image>
     
     <item>
       <title>久々の更新</title>
-      <link>/2019/01/happy-new-year/</link>
+      <link>https://www.yewton.net/2019/01/happy-new-year/</link>
       <pubDate>Wed, 02 Jan 2019 00:00:00 +0900</pubDate>
-      <guid>/2019/01/happy-new-year/</guid>
+      <guid>https://www.yewton.net/2019/01/happy-new-year/</guid>
       <description>&lt;p&gt;最近仕事用のmacを新調して環境を作り直す機会があったことと、 2020 年が始まるということもあり、久々にサイトを更新することにした。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;/cv/&#34;&gt;オープン職務経歴書&lt;/a&gt;を書きたかった、というのもある。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.yewton.net/cv/&#34;&gt;オープン職務経歴書&lt;/a&gt;を書きたかった、というのもある。&lt;/p&gt;
 &lt;p&gt;更新にあたっていくつか困難があった。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;まず、このサイトのソースが最近の Hugo では動かせなくなっていた。&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;このサイトのテーマには &lt;a href=&#34;https://github.com/digitalcraftsman/hugo-icarus-theme&#34;&gt;Icarus&lt;/a&gt; を使わせていただいているのだが、最終更新が 2017 年となっており、
@@ -30,7 +30,7 @@ Hugo 0.55.0 以降で動かなくなってしまっていたり、 Deprecated Wa
 &lt;a href=&#34;https://bitbucket.org/mgladdish/asdf-gohugo&#34;&gt;asdf-gohugo&lt;/a&gt; を入れて、少しずつバージョンを上げながら確認していった。&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;asdf plugin add hugo https://bitbucket.org/mgladdish/asdf-gohugo
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;そして、そもそも Hugo の使い方を忘れていた。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;/2016/02/02/blog-with-hugo/&#34;&gt;Hugo 導入記事&lt;/a&gt; や &lt;a href=&#34;/2016/01/26/hugo-el/&#34;&gt;Hugo 用 Emacs ライブラリ&lt;/a&gt; を書いておいてなんだが、当時から3年も経ってほとんど忘れてしまっていた。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.yewton.net/2016/02/02/blog-with-hugo/&#34;&gt;Hugo 導入記事&lt;/a&gt; や &lt;a href=&#34;https://www.yewton.net/2016/01/26/hugo-el/&#34;&gt;Hugo 用 Emacs ライブラリ&lt;/a&gt; を書いておいてなんだが、当時から3年も経ってほとんど忘れてしまっていた。&lt;/p&gt;
 &lt;p&gt;そこで改めて調べてみると、イマドキは org-mode で書くことも出来るらしい。&lt;/p&gt;
 &lt;p&gt;この3年ですっかり org-mode 無しでは生きられない体になってしまっていたし、
 せっかくなので本記事からは &lt;a href=&#34;https://ox-hugo.scripter.co/&#34;&gt;ox-hugo&lt;/a&gt; を使って書くことにする。&lt;/p&gt;
@@ -44,9 +44,9 @@ Hugo 0.55.0 以降で動かなくなってしまっていたり、 Deprecated Wa
     
     <item>
       <title>Spacemacs から helm と persp-mode の設定をパクろうと思ったけど難しかった</title>
-      <link>/2016/05/helm-persp/</link>
+      <link>https://www.yewton.net/2016/05/helm-persp/</link>
       <pubDate>Wed, 04 May 2016 19:45:26 +0900</pubDate>
-      <guid>/2016/05/helm-persp/</guid>
+      <guid>https://www.yewton.net/2016/05/helm-persp/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/syl20bnr/spacemacs/blob/master/layers/%2Bwindow-management/spacemacs-layouts/funcs.el&#34;&gt;この辺&lt;/a&gt; を参考にせよ、
 と persp-mode 公式に書いてあったので、パクれそうかやってみた。&lt;/p&gt;
 &lt;p&gt;結論としては、出来なかった。
@@ -65,9 +65,9 @@ Hugo 0.55.0 以降で動かなくなってしまっていたり、 Deprecated Wa
     
     <item>
       <title>hugo.elを書いた</title>
-      <link>/2016/01/hugo-el/</link>
+      <link>https://www.yewton.net/2016/01/hugo-el/</link>
       <pubDate>Tue, 26 Jan 2016 23:25:40 +0900</pubDate>
-      <guid>/2016/01/hugo-el/</guid>
+      <guid>https://www.yewton.net/2016/01/hugo-el/</guid>
       <description>&lt;h2 id=&#34;heading&#34;&gt;#とは&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/yewton/hugo.el&#34;&gt;hugo.el&lt;/a&gt;は、Hugoでサイト作成する際に便利な関数群を定義したパッケージ。
 &lt;a href=&#34;https://marmalade-repo.org/&#34;&gt;marmalade-repo&lt;/a&gt;で公開されているので、パッケージの設定をすれば簡単にインストール出来るハズ。&lt;/p&gt;
@@ -97,9 +97,9 @@ HugoはCLIのインタフェースなので、ターミナルとEmacsを行き�
     
     <item>
       <title>markdown-modeでSKKの変換確定するためにRETするとカーソルが行頭に飛ぶ問題の回避策</title>
-      <link>/2016/01/markdown-mode-skk-kakutei/</link>
+      <link>https://www.yewton.net/2016/01/markdown-mode-skk-kakutei/</link>
       <pubDate>Wed, 20 Jan 2016 22:40:16 +0900</pubDate>
-      <guid>/2016/01/markdown-mode-skk-kakutei/</guid>
+      <guid>https://www.yewton.net/2016/01/markdown-mode-skk-kakutei/</guid>
       <description>&lt;p&gt;markdown-mode 2.1 で SKK 15.2 使ってると、確定しようと思って &lt;code&gt;&amp;lt;return&amp;gt;&lt;/code&gt; すると、
 確定後にカーソルが行頭に飛んでしまうという問題に遭遇した。
 &lt;code&gt;C-j&lt;/code&gt; で確定する場合は起こらない。&lt;/p&gt;
@@ -138,9 +138,9 @@ HugoはCLIのインタフェースなので、ターミナルとEmacsを行き�
     
     <item>
       <title>忙し過ぎてお弁当も食べられなかった日</title>
-      <link>/2016/01/diary/</link>
+      <link>https://www.yewton.net/2016/01/diary/</link>
       <pubDate>Fri, 15 Jan 2016 23:00:00 +0900</pubDate>
-      <guid>/2016/01/diary/</guid>
+      <guid>https://www.yewton.net/2016/01/diary/</guid>
       <description>&lt;p&gt;最近チームが新体制に移行するという時期で色々バタバタしていて、
 立ち上げに伴う開発フローの整備とか、JIRA(プロジェクト管理ツール)の設定とか、
 ワーキングアグリーメントの検討とかで、頓に忙しい。&lt;/p&gt;
@@ -174,9 +174,9 @@ HugoはCLIのインタフェースなので、ターミナルとEmacsを行き�
     
     <item>
       <title>BettorTouchToolが無料じゃなくなると分かったりした日</title>
-      <link>/2016/01/diary/</link>
+      <link>https://www.yewton.net/2016/01/diary/</link>
       <pubDate>Wed, 13 Jan 2016 23:00:00 +0900</pubDate>
-      <guid>/2016/01/diary/</guid>
+      <guid>https://www.yewton.net/2016/01/diary/</guid>
       <description>&lt;h2 id=&#34;bettertouchtool-will-switch-from-free-to-a-pay-what-you-want-model-early-next-year--bettertouchtool-btt-remote-bettersnaptool-and-morehttpwwwboastrnetbettertouchtool-may-switch-from-free-to-a-pay-what-you-want-model-early-next-year&#34;&gt;&lt;a href=&#34;http://www.boastr.net/bettertouchtool-may-switch-from-free-to-a-pay-what-you-want-model-early-next-year/&#34;&gt;BetterTouchTool will switch from free to a “Pay what you want” model early next year. – BetterTouchTool, BTT Remote, BetterSnapTool and more&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.boastr.net/&#34;&gt;BetterTouchTool&lt;/a&gt;が1月末を目処に無料じゃなくなるらしい。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://www.boastr.net/btt-paid-faq/&#34;&gt;FAQ&lt;/a&gt;によると、ライセンスは買い切りで(当面)更新の必要は無く、

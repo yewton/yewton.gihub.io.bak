@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>github | yewton.net</title>
-    <link>/tags/github/</link>
-      <atom:link href="/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.yewton.net/tags/github/</link>
+      <atom:link href="https://www.yewton.net/tags/github/index.xml" rel="self" type="application/rss+xml" />
     <description>github</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja-jp</language><copyright>© 2016-2020 yewton</copyright><lastBuildDate>Tue, 02 Feb 2016 18:44:21 +0900</lastBuildDate>
     <image>
-      <url>/images/icon_huaabe68613bbbee58fda37f3eff123575_99627_512x512_fill_lanczos_center_2.png</url>
+      <url>https://www.yewton.net/img/icon.png</url>
       <title>github</title>
-      <link>/tags/github/</link>
+      <link>https://www.yewton.net/tags/github/</link>
     </image>
     
     <item>
       <title>Hugo &#43; GitHub Pages でお手軽にブログを始めよう</title>
-      <link>/2016/02/blog-with-hugo/</link>
+      <link>https://www.yewton.net/2016/02/blog-with-hugo/</link>
       <pubDate>Tue, 02 Feb 2016 18:44:21 +0900</pubDate>
-      <guid>/2016/02/blog-with-hugo/</guid>
+      <guid>https://www.yewton.net/2016/02/blog-with-hugo/</guid>
       <description>&lt;h2 id=&#34;heading&#34;&gt;はじめに&lt;/h2&gt;
 &lt;p&gt;この記事は「いい感じのブログを無料で手軽に作れないかなー」、と思っている人が主な対象です。&lt;/p&gt;
 &lt;p&gt;〈いい感じ〉というのが抽象的ですが、以下のような欲求をイメージしています:&lt;/p&gt;
@@ -44,7 +44,7 @@ GitHub Pages や類似のサービスを使えば無料で利用できますね�
 &lt;p&gt;&lt;a href=&#34;http://hexo.io/&#34;&gt;Hexo&lt;/a&gt; か &lt;a href=&#34;http://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; あたりがよさそうです。
 これら二つはコンセプトもよく似ているし、最早好みの世界ですね。自分は何となく Hugo を使っています。&lt;/p&gt;
 &lt;h2 id=&#34;hugo&#34;&gt;Hugo&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;/img/2016-01-11_184419/hugo.png&#34; alt=&#34;Hugoのロゴ&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.yewton.net/img/2016-01-11_184419/hugo.png&#34; alt=&#34;Hugoのロゴ&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; は超高速でシンプルかつ柔軟な静的サイトジェネレータだそうです。
 Go言語で書かれていて、インストールはとってもカンタン。すぐに使えます。&lt;/p&gt;
 &lt;p&gt;使い方もとってもカンタン…というワケではないかもしれません。
@@ -168,9 +168,9 @@ GitHubのヘルプによると、&lt;a href=&#34;https://help.github.com/article
     
     <item>
       <title>HTTPSに対応してついでにHTTP/2対応された日</title>
-      <link>/2016/01/diary/</link>
+      <link>https://www.yewton.net/2016/01/diary/</link>
       <pubDate>Mon, 18 Jan 2016 00:06:20 +0900</pubDate>
-      <guid>/2016/01/diary/</guid>
+      <guid>https://www.yewton.net/2016/01/diary/</guid>
       <description>&lt;h2 id=&#34;https--http2-&#34;&gt;HTTPS + HTTP/2 対応&lt;/h2&gt;
 &lt;p&gt;世の中的にHTTPS対応してないといかんような気がしたので、
 このサイトもHTTPSで配信するように対応した。&lt;/p&gt;

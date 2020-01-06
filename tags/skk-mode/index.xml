@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>skk-mode | yewton.net</title>
-    <link>/tags/skk-mode/</link>
-      <atom:link href="/tags/skk-mode/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.yewton.net/tags/skk-mode/</link>
+      <atom:link href="https://www.yewton.net/tags/skk-mode/index.xml" rel="self" type="application/rss+xml" />
     <description>skk-mode</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja-jp</language><copyright>© 2016-2020 yewton</copyright><lastBuildDate>Wed, 20 Jan 2016 22:40:16 +0900</lastBuildDate>
     <image>
-      <url>/images/icon_huaabe68613bbbee58fda37f3eff123575_99627_512x512_fill_lanczos_center_2.png</url>
+      <url>https://www.yewton.net/img/icon.png</url>
       <title>skk-mode</title>
-      <link>/tags/skk-mode/</link>
+      <link>https://www.yewton.net/tags/skk-mode/</link>
     </image>
     
     <item>
       <title>markdown-modeでSKKの変換確定するためにRETするとカーソルが行頭に飛ぶ問題の回避策</title>
-      <link>/2016/01/markdown-mode-skk-kakutei/</link>
+      <link>https://www.yewton.net/2016/01/markdown-mode-skk-kakutei/</link>
       <pubDate>Wed, 20 Jan 2016 22:40:16 +0900</pubDate>
-      <guid>/2016/01/markdown-mode-skk-kakutei/</guid>
+      <guid>https://www.yewton.net/2016/01/markdown-mode-skk-kakutei/</guid>
       <description>&lt;p&gt;markdown-mode 2.1 で SKK 15.2 使ってると、確定しようと思って &lt;code&gt;&amp;lt;return&amp;gt;&lt;/code&gt; すると、
 確定後にカーソルが行頭に飛んでしまうという問題に遭遇した。
 &lt;code&gt;C-j&lt;/code&gt; で確定する場合は起こらない。&lt;/p&gt;

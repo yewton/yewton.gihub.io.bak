@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>virtualbox | yewton.net</title>
-    <link>/tags/virtualbox/</link>
-      <atom:link href="/tags/virtualbox/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.yewton.net/tags/virtualbox/</link>
+      <atom:link href="https://www.yewton.net/tags/virtualbox/index.xml" rel="self" type="application/rss+xml" />
     <description>virtualbox</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja-jp</language><copyright>© 2016-2020 yewton</copyright><lastBuildDate>Fri, 19 Feb 2016 00:00:00 +0900</lastBuildDate>
     <image>
-      <url>/images/icon_huaabe68613bbbee58fda37f3eff123575_99627_512x512_fill_lanczos_center_2.png</url>
+      <url>https://www.yewton.net/img/icon.png</url>
       <title>virtualbox</title>
-      <link>/tags/virtualbox/</link>
+      <link>https://www.yewton.net/tags/virtualbox/</link>
     </image>
     
     <item>
       <title>VM関連ファイルを外部ストレージに保存して空き容量を確保する</title>
-      <link>/2016/02/save-storage-space-by-moving-vm-related-files-to-ex-storage/</link>
+      <link>https://www.yewton.net/2016/02/save-storage-space-by-moving-vm-related-files-to-ex-storage/</link>
       <pubDate>Fri, 19 Feb 2016 00:00:00 +0900</pubDate>
-      <guid>/2016/02/save-storage-space-by-moving-vm-related-files-to-ex-storage/</guid>
+      <guid>https://www.yewton.net/2016/02/save-storage-space-by-moving-vm-related-files-to-ex-storage/</guid>
       <description>&lt;h2 id=&#34;vm&#34;&gt;何かと容量を食うVM関連ファイル&lt;/h2&gt;
 &lt;p&gt;DockerやらVagrantやらで作業していると、いつのまにかディスク容量が逼迫していることがありますよね。&lt;/p&gt;
 &lt;p&gt;自分も128GB SSDのMacBook Proを使っているので、結構いっぱいいっぱいでした。&lt;/p&gt;

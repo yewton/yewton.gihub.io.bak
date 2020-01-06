@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Google Drive | yewton.net</title>
-    <link>/tags/google-drive/</link>
-      <atom:link href="/tags/google-drive/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.yewton.net/tags/google-drive/</link>
+      <atom:link href="https://www.yewton.net/tags/google-drive/index.xml" rel="self" type="application/rss+xml" />
     <description>Google Drive</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja-jp</language><copyright>© 2016-2020 yewton</copyright><lastBuildDate>Tue, 16 Feb 2016 23:00:00 +0900</lastBuildDate>
     <image>
-      <url>/images/icon_huaabe68613bbbee58fda37f3eff123575_99627_512x512_fill_lanczos_center_2.png</url>
+      <url>https://www.yewton.net/img/icon.png</url>
       <title>Google Drive</title>
-      <link>/tags/google-drive/</link>
+      <link>https://www.yewton.net/tags/google-drive/</link>
     </image>
     
     <item>
       <title>早朝ランニングしたりカナヘイカフェに行ってきた日</title>
-      <link>/2016/02/diary/</link>
+      <link>https://www.yewton.net/2016/02/diary/</link>
       <pubDate>Tue, 16 Feb 2016 23:00:00 +0900</pubDate>
-      <guid>/2016/02/diary/</guid>
+      <guid>https://www.yewton.net/2016/02/diary/</guid>
       <description>&lt;h2 id=&#34;heading&#34;&gt;ランニング&lt;/h2&gt;
 &lt;p&gt;昨日おとといと、春が来たのかと思うくらい暖かったので、
 何となく意識が高まって「よし明日からランニングを始めるぞ」という気持ちになっていた。&lt;/p&gt;

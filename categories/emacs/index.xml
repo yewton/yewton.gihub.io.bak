@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Emacs | yewton.net</title>
-    <link>/categories/emacs/</link>
-      <atom:link href="/categories/emacs/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.yewton.net/categories/emacs/</link>
+      <atom:link href="https://www.yewton.net/categories/emacs/index.xml" rel="self" type="application/rss+xml" />
     <description>Emacs</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja-jp</language><copyright>© 2016-2020 yewton</copyright><lastBuildDate>Tue, 26 Jan 2016 23:25:40 +0900</lastBuildDate>
     <image>
-      <url>/images/icon_huaabe68613bbbee58fda37f3eff123575_99627_512x512_fill_lanczos_center_2.png</url>
+      <url>https://www.yewton.net/img/icon.png</url>
       <title>Emacs</title>
-      <link>/categories/emacs/</link>
+      <link>https://www.yewton.net/categories/emacs/</link>
     </image>
     
     <item>
       <title>hugo.elを書いた</title>
-      <link>/2016/01/hugo-el/</link>
+      <link>https://www.yewton.net/2016/01/hugo-el/</link>
       <pubDate>Tue, 26 Jan 2016 23:25:40 +0900</pubDate>
-      <guid>/2016/01/hugo-el/</guid>
+      <guid>https://www.yewton.net/2016/01/hugo-el/</guid>
       <description>&lt;h2 id=&#34;heading&#34;&gt;#とは&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/yewton/hugo.el&#34;&gt;hugo.el&lt;/a&gt;は、Hugoでサイト作成する際に便利な関数群を定義したパッケージ。
 &lt;a href=&#34;https://marmalade-repo.org/&#34;&gt;marmalade-repo&lt;/a&gt;で公開されているので、パッケージの設定をすれば簡単にインストール出来るハズ。&lt;/p&gt;
@@ -46,9 +46,9 @@ HugoはCLIのインタフェースなので、ターミナルとEmacsを行き�
     
     <item>
       <title>markdown-modeでSKKの変換確定するためにRETするとカーソルが行頭に飛ぶ問題の回避策</title>
-      <link>/2016/01/markdown-mode-skk-kakutei/</link>
+      <link>https://www.yewton.net/2016/01/markdown-mode-skk-kakutei/</link>
       <pubDate>Wed, 20 Jan 2016 22:40:16 +0900</pubDate>
-      <guid>/2016/01/markdown-mode-skk-kakutei/</guid>
+      <guid>https://www.yewton.net/2016/01/markdown-mode-skk-kakutei/</guid>
       <description>&lt;p&gt;markdown-mode 2.1 で SKK 15.2 使ってると、確定しようと思って &lt;code&gt;&amp;lt;return&amp;gt;&lt;/code&gt; すると、
 確定後にカーソルが行頭に飛んでしまうという問題に遭遇した。
 &lt;code&gt;C-j&lt;/code&gt; で確定する場合は起こらない。&lt;/p&gt;
