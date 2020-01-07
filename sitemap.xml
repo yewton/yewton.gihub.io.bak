@@ -3,18 +3,23 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.yewton.net/authors/admin/</loc>
-    <lastmod>2020-01-06T08:43:35+09:00</lastmod>
+    <loc>https://www.yewton.net/</loc>
+    <lastmod>2020-01-07T09:06:30+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.yewton.net/blog/</loc>
+    <lastmod>2020-01-07T09:06:30+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.yewton.net/cv/</loc>
-    <lastmod>2020-01-06T08:08:12+09:00</lastmod>
+    <lastmod>2020-01-07T09:06:16+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.yewton.net/</loc>
-    <lastmod>2020-01-06T08:50:43+09:00</lastmod>
+    <loc>https://www.yewton.net/authors/admin/</loc>
+    <lastmod>2020-01-06T08:43:35+09:00</lastmod>
   </url>
   
   <url>
@@ -395,10 +400,6 @@
   <url>
     <loc>https://www.yewton.net/2016/01/at-the-start/</loc>
     <lastmod>2016-01-11T11:11:11+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.yewton.net/blog/</loc>
   </url>
   
   <url>
