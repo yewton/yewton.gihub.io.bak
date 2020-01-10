@@ -5,7 +5,7 @@
     <link>https://www.yewton.net/categories/%E9%9B%91%E8%A8%98/</link>
       <atom:link href="https://www.yewton.net/categories/%E9%9B%91%E8%A8%98/index.xml" rel="self" type="application/rss+xml" />
     <description>雑記</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja-jp</language><copyright>© 2016-2020 yewton</copyright><lastBuildDate>Sun, 06 Jan 2019 00:00:00 +0900</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja-jp</language><copyright>© 2016-2020 yewton</copyright><lastBuildDate>Mon, 06 Jan 2020 00:00:00 +0900</lastBuildDate>
     <image>
       <url>https://www.yewton.net/img/icon.png</url>
       <title>雑記</title>
@@ -14,9 +14,9 @@
     
     <item>
       <title>#MadeWithAcademic</title>
-      <link>https://www.yewton.net/2019/01/06/made-with-academic/</link>
-      <pubDate>Sun, 06 Jan 2019 00:00:00 +0900</pubDate>
-      <guid>https://www.yewton.net/2019/01/06/made-with-academic/</guid>
+      <link>https://www.yewton.net/2020/01/06/made-with-academic/</link>
+      <pubDate>Mon, 06 Jan 2020 00:00:00 +0900</pubDate>
+      <guid>https://www.yewton.net/2020/01/06/made-with-academic/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/digitalcraftsman/hugo-icarus-theme&#34;&gt;Icarus&lt;/a&gt; がメンテされておらず Hugo 0.55.0 以降で正しく動かなくなっていたので、
 自力で Icarus にパッチを充てるか、別のテーマに乗り換えるかという選択を迫られていた。&lt;/p&gt;
 &lt;p&gt;せっかくなのでランディングページとブログを別にしたかったので、そういう柔軟性を備えている
@@ -40,9 +40,9 @@
     
     <item>
       <title>久々の更新</title>
-      <link>https://www.yewton.net/2019/01/02/happy-new-year/</link>
-      <pubDate>Wed, 02 Jan 2019 00:00:00 +0900</pubDate>
-      <guid>https://www.yewton.net/2019/01/02/happy-new-year/</guid>
+      <link>https://www.yewton.net/2020/01/02/happy-new-year/</link>
+      <pubDate>Thu, 02 Jan 2020 00:00:00 +0900</pubDate>
+      <guid>https://www.yewton.net/2020/01/02/happy-new-year/</guid>
       <description>&lt;p&gt;最近仕事用のmacを新調して環境を作り直す機会があったことと、 2020 年が始まるということもあり、久々にサイトを更新することにした。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.yewton.net/cv/&#34;&gt;オープン職務経歴書&lt;/a&gt;を書きたかった、というのもある。&lt;/p&gt;
 &lt;p&gt;更新にあたっていくつか困難があった。&lt;/p&gt;

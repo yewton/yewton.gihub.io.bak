@@ -5,7 +5,7 @@
     <link>https://www.yewton.net/tags/academic/</link>
       <atom:link href="https://www.yewton.net/tags/academic/index.xml" rel="self" type="application/rss+xml" />
     <description>academic</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja-jp</language><copyright>© 2016-2020 yewton</copyright><lastBuildDate>Sun, 06 Jan 2019 00:00:00 +0900</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja-jp</language><copyright>© 2016-2020 yewton</copyright><lastBuildDate>Mon, 06 Jan 2020 00:00:00 +0900</lastBuildDate>
     <image>
       <url>https://www.yewton.net/img/icon.png</url>
       <title>academic</title>
@@ -14,9 +14,9 @@
     
     <item>
       <title>#MadeWithAcademic</title>
-      <link>https://www.yewton.net/2019/01/06/made-with-academic/</link>
-      <pubDate>Sun, 06 Jan 2019 00:00:00 +0900</pubDate>
-      <guid>https://www.yewton.net/2019/01/06/made-with-academic/</guid>
+      <link>https://www.yewton.net/2020/01/06/made-with-academic/</link>
+      <pubDate>Mon, 06 Jan 2020 00:00:00 +0900</pubDate>
+      <guid>https://www.yewton.net/2020/01/06/made-with-academic/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/digitalcraftsman/hugo-icarus-theme&#34;&gt;Icarus&lt;/a&gt; がメンテされておらず Hugo 0.55.0 以降で正しく動かなくなっていたので、
 自力で Icarus にパッチを充てるか、別のテーマに乗り換えるかという選択を迫られていた。&lt;/p&gt;
 &lt;p&gt;せっかくなのでランディングページとブログを別にしたかったので、そういう柔軟性を備えている
