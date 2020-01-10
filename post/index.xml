@@ -5,12 +5,129 @@
     <link>https://www.yewton.net/post/</link>
       <atom:link href="https://www.yewton.net/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja-jp</language><copyright>© 2016-2020 yewton</copyright><lastBuildDate>Fri, 10 Jan 2020 00:00:00 +0900</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja-jp</language><copyright>© 2016-2020 yewton</copyright><lastBuildDate>Sat, 11 Jan 2020 00:00:00 +0900</lastBuildDate>
     <image>
       <url>https://www.yewton.net/img/icon.png</url>
       <title>Posts</title>
       <link>https://www.yewton.net/post/</link>
     </image>
+    
+    <item>
+      <title>Lenovo Tab M8 が案外良かった</title>
+      <link>https://www.yewton.net/2020/01/11/lenovo-tab-m8/</link>
+      <pubDate>Sat, 11 Jan 2020 00:00:00 +0900</pubDate>
+      <guid>https://www.yewton.net/2020/01/11/lenovo-tab-m8/</guid>
+      <description>&lt;p&gt;さすがにもう &lt;a href=&#34;https://www.yewton.net/2017/04/09/grouper-beanstalk/&#34;&gt;Nexus 7 2012&lt;/a&gt; でやっていくのはしんどくなってきたので、手軽なタブレットを探していたら、
+2019 年の 11 月に Lenovo から &lt;a href=&#34;https://hb.afl.rakuten.co.jp/hgc/1a0d625b.bdb81d38.1a0d625c.bf0332b2/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbiccamera%2F4580550700484%2F&amp;amp;m=http%3A%2F%2Fm.rakuten.co.jp%2Fbiccamera%2Fi%2F12780179%2F&amp;amp;link%5Ftype=hybrid%5Furl&amp;amp;ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MCwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjB9&#34;&gt;Lenovo Tab M8 (ZA5G0084JP)&lt;/a&gt; が発売されていたのを知った。&lt;/p&gt;
+&lt;p&gt;2 万を切る価格で、 Android 9 、クアッドコアでメモリは 2 GB 、
+ディスプレイは 8.0 型ワイド IPS パネル (1280x800ドット)と、そこそこ使えそうなスペック。&lt;/p&gt;
+&lt;p&gt;ただストレージは 16GB と心許ないので、 microSD による拡張は必須(最大128GBまで)。
+自分はたまたま持ってた &lt;a href=&#34;https://amzn.to/2QJFCF8&#34;&gt;SanDisk 製の microSDXC カード&lt;/a&gt; を使っている。
+アプリ最適化対応じゃないので少々もっさりはするけれど、使えない程ではない。&lt;/p&gt;
+&lt;p&gt;電子書籍が読めればいいやというくらいの気持ちで購入したのだけれど、意外なことに &lt;strong&gt;音がいい&lt;/strong&gt; 。&lt;/p&gt;
+&lt;p&gt;確かに &lt;a href=&#34;https://www.lenovo.com/jp/ja/tablets/android-tablets/tab-series/Lenovo-Tab-M8-2nd-Gen-HD/p/ZZITZTATB58&#34;&gt;公式サイト&lt;/a&gt; には以下のようにあるけれども、正直期待していなかった。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;鮮やかでシームレスな映像表示を実現する狭額縁による高画面占有率83％のマルチタッチ対応の8.0型ワイドIPSパネル、ドルビーオーディオ対応のオーディオ機能を搭載。鮮明な映像と臨場感のあるサウンドで、お気に入りのビデオのストリーミングやモバイルゲームを楽しめます。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://amzn.to/2T4dbTB&#34;&gt;Sony WH-XB900N&lt;/a&gt; を Bluetooth 接続で聴いているが、手持ちの Pixel 3 XL に繋いだ場合と比較すると結構違う。
+そんなに大した耳を持ってるわけじゃないけど、低音がすごく心地良く響く感じ。&lt;/p&gt;
+&lt;p&gt;イコライザは以下のように設定している:&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;2020-01-09_06-10-17_Screenshot_2020-01-08-01-02-47-757.jpeg&#34; data-caption=&#34;図1:  Dolby Audio のイコライザ設定&#34;&gt;
+&lt;img data-src=&#34;2020-01-09_06-10-17_Screenshot_2020-01-08-01-02-47-757.jpeg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    図1:  Dolby Audio のイコライザ設定
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;意外と音が良いので色々やりたくなってしまい、年末にセールしていた &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.square%5Fenix.android%5Fgoogleplay.FFT%5Fjp2&amp;amp;hl=ja&#34;&gt;FINAL FANTASY TACTICS 獅子戦争&lt;/a&gt; を買ってしまった。
+割と快適に動くので読書よりもゲームをやってしまう…。&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;2020-01-09_08-36-49_Screenshot%20%282020_01_08%206_12_13%29.jpg&#34; data-caption=&#34;図2:  いつまでもゼクラス砂漠から出られない一行&#34;&gt;
+&lt;img data-src=&#34;2020-01-09_08-36-49_Screenshot%20%282020_01_08%206_12_13%29.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    図2:  いつまでもゼクラス砂漠から出られない一行
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;そんなわけで案外良かった Lenovo Tab M8 だがおかしな挙動もあり、
+まず &lt;strong&gt;再起動すると必ず「SDカードが見つからない」旨の通知が表示される&lt;/strong&gt; 。&lt;/p&gt;
+&lt;p&gt;そして、 &lt;strong&gt;スクリーンショットの動作が安定しない&lt;/strong&gt; 。上記の現象もスクリーンショットが保存できなかった。&lt;/p&gt;
+&lt;p&gt;一番うっとうしいのが、 &lt;strong&gt;横画面になる度に Lenovo Launcher が停止する&lt;/strong&gt; こと。停止する度にダイアログが出るので邪魔。
+とはいえ「アプリを閉じる」を選択してしまえば以降差し支えなく使用は可能。&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;2020-01-08_06-36-20_Screenshot_2020-01-08-01-02-37-802.jpeg&#34; data-caption=&#34;図3:  横画面になる度に表示されるうっとうしいダイアログ&#34;&gt;
+&lt;img data-src=&#34;2020-01-08_06-36-20_Screenshot_2020-01-08-01-02-37-802.jpeg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    図3:  横画面になる度に表示されるうっとうしいダイアログ
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+</description>
+    </item>
     
     <item>
       <title>org-mode に Chrome で開いてるページへのリンクを貼りたい</title>
