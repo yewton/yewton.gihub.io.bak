@@ -14,9 +14,9 @@
     
     <item>
       <title>hugo.elを書いた</title>
-      <link>https://www.yewton.net/2016/01/hugo-el/</link>
+      <link>https://www.yewton.net/2016/01/26/hugo-el/</link>
       <pubDate>Tue, 26 Jan 2016 23:25:40 +0900</pubDate>
-      <guid>https://www.yewton.net/2016/01/hugo-el/</guid>
+      <guid>https://www.yewton.net/2016/01/26/hugo-el/</guid>
       <description>&lt;h2 id=&#34;heading&#34;&gt;#とは&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/yewton/hugo.el&#34;&gt;hugo.el&lt;/a&gt;は、Hugoでサイト作成する際に便利な関数群を定義したパッケージ。
 &lt;a href=&#34;https://marmalade-repo.org/&#34;&gt;marmalade-repo&lt;/a&gt;で公開されているので、パッケージの設定をすれば簡単にインストール出来るハズ。&lt;/p&gt;

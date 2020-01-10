@@ -14,9 +14,9 @@
     
     <item>
       <title>Spacemacs から helm と persp-mode の設定をパクろうと思ったけど難しかった</title>
-      <link>https://www.yewton.net/2016/05/helm-persp/</link>
+      <link>https://www.yewton.net/2016/05/04/helm-persp/</link>
       <pubDate>Wed, 04 May 2016 19:45:26 +0900</pubDate>
-      <guid>https://www.yewton.net/2016/05/helm-persp/</guid>
+      <guid>https://www.yewton.net/2016/05/04/helm-persp/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/syl20bnr/spacemacs/blob/master/layers/%2Bwindow-management/spacemacs-layouts/funcs.el&#34;&gt;この辺&lt;/a&gt; を参考にせよ、
 と persp-mode 公式に書いてあったので、パクれそうかやってみた。&lt;/p&gt;
 &lt;p&gt;結論としては、出来なかった。

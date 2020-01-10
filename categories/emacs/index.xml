@@ -14,9 +14,9 @@
     
     <item>
       <title>org-mode に Chrome で開いてるページへのリンクを貼りたい</title>
-      <link>https://www.yewton.net/2020/01/org-mode-web-link/</link>
+      <link>https://www.yewton.net/2020/01/10/org-mode-web-link/</link>
       <pubDate>Fri, 10 Jan 2020 00:00:00 +0900</pubDate>
-      <guid>https://www.yewton.net/2020/01/org-mode-web-link/</guid>
+      <guid>https://www.yewton.net/2020/01/10/org-mode-web-link/</guid>
       <description>&lt;p&gt;&lt;code&gt;org-mode&lt;/code&gt; のリンクマークアップはちょっと特殊で、エスケープの仕様も独特です。&lt;/p&gt;
 &lt;p&gt;また、  &lt;a href=&#34;https://code.orgmode.org/bzg/org-mode/src/release%5F9.3/etc/ORG-NEWS&#34;&gt;2019年の12月にリリースされたバージョン 9.3 で後方互換性の無い仕様変更が入る&lt;/a&gt; ということも有りました。&lt;/p&gt;
 &lt;blockquote&gt;
@@ -64,9 +64,9 @@ Org used to percent-encode sensitive characters in the URI part of the bracket l
     
     <item>
       <title>hugo.elを書いた</title>
-      <link>https://www.yewton.net/2016/01/hugo-el/</link>
+      <link>https://www.yewton.net/2016/01/26/hugo-el/</link>
       <pubDate>Tue, 26 Jan 2016 23:25:40 +0900</pubDate>
-      <guid>https://www.yewton.net/2016/01/hugo-el/</guid>
+      <guid>https://www.yewton.net/2016/01/26/hugo-el/</guid>
       <description>&lt;h2 id=&#34;heading&#34;&gt;#とは&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/yewton/hugo.el&#34;&gt;hugo.el&lt;/a&gt;は、Hugoでサイト作成する際に便利な関数群を定義したパッケージ。
 &lt;a href=&#34;https://marmalade-repo.org/&#34;&gt;marmalade-repo&lt;/a&gt;で公開されているので、パッケージの設定をすれば簡単にインストール出来るハズ。&lt;/p&gt;
@@ -96,9 +96,9 @@ HugoはCLIのインタフェースなので、ターミナルとEmacsを行き�
     
     <item>
       <title>markdown-modeでSKKの変換確定するためにRETするとカーソルが行頭に飛ぶ問題の回避策</title>
-      <link>https://www.yewton.net/2016/01/markdown-mode-skk-kakutei/</link>
+      <link>https://www.yewton.net/2016/01/20/markdown-mode-skk-kakutei/</link>
       <pubDate>Wed, 20 Jan 2016 22:40:16 +0900</pubDate>
-      <guid>https://www.yewton.net/2016/01/markdown-mode-skk-kakutei/</guid>
+      <guid>https://www.yewton.net/2016/01/20/markdown-mode-skk-kakutei/</guid>
       <description>&lt;p&gt;markdown-mode 2.1 で SKK 15.2 使ってると、確定しようと思って &lt;code&gt;&amp;lt;return&amp;gt;&lt;/code&gt; すると、
 確定後にカーソルが行頭に飛んでしまうという問題に遭遇した。
 &lt;code&gt;C-j&lt;/code&gt; で確定する場合は起こらない。&lt;/p&gt;

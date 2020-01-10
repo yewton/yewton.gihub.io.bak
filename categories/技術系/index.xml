@@ -14,9 +14,9 @@
     
     <item>
       <title>Nexus 7 2012 (grouper) に Beanstalk と ParrotMod を入れて蘇生する</title>
-      <link>https://www.yewton.net/2017/04/grouper-beanstalk/</link>
+      <link>https://www.yewton.net/2017/04/09/grouper-beanstalk/</link>
       <pubDate>Sun, 09 Apr 2017 21:55:31 +0900</pubDate>
-      <guid>https://www.yewton.net/2017/04/grouper-beanstalk/</guid>
+      <guid>https://www.yewton.net/2017/04/09/grouper-beanstalk/</guid>
       <description>&lt;p&gt;最近はじめて &lt;a href=&#34;http://amzn.to/2nXsSKh&#34;&gt;Fire タブレット&lt;/a&gt; をキャンペーンで購入して、
 こういう本読むだけとか書い物するだけとかの単機能なタブレットも結構いいな、と思った。
 そして、うちに使ってない &lt;a href=&#34;http://amzn.to/2oSEwJK&#34;&gt;Nexus 7&lt;/a&gt; があることを思い出した。&lt;/p&gt;
@@ -67,9 +67,9 @@ Beanstalk と ParrotMod を試してみる価値はアリだと思う。&lt;/p&g
     
     <item>
       <title>Atlassian から無料でTシャツをもらう方法、あるいはドラゴンの倒し方</title>
-      <link>https://www.yewton.net/2016/09/how-to-get-atlassian-dragon-slayer-t-shirt/</link>
+      <link>https://www.yewton.net/2016/09/03/how-to-get-atlassian-dragon-slayer-t-shirt/</link>
       <pubDate>Sat, 03 Sep 2016 15:34:07 +0900</pubDate>
-      <guid>https://www.yewton.net/2016/09/how-to-get-atlassian-dragon-slayer-t-shirt/</guid>
+      <guid>https://www.yewton.net/2016/09/03/how-to-get-atlassian-dragon-slayer-t-shirt/</guid>
       <description>&lt;p&gt;仕事で Atlassian 製品を使っていて、個人的にも便利なタスク・ドキュメント管理に欲しいな、と思い、
 &lt;a href=&#34;https://ja.atlassian.com/licensing/starter#aboutthestarterprogram-8&#34;&gt;Atlassian のスターターライセンスについてのドキュメント&lt;/a&gt;を読んでいた。&lt;/p&gt;
 &lt;p&gt;すると気になるフレーズが目に入った。 &lt;strong&gt;「ドラゴンズレアとは何ですか？」&lt;/strong&gt; ──&lt;/p&gt;
@@ -264,9 +264,9 @@ Maven Executable のパスを指定する箇所は
     
     <item>
       <title>WordPressをHTTP/2&#43;HHVMで動かす環境をdocker-composeで構築してみた</title>
-      <link>https://www.yewton.net/2016/02/wordpress-http2-hhvm/</link>
+      <link>https://www.yewton.net/2016/02/21/wordpress-http2-hhvm/</link>
       <pubDate>Sun, 21 Feb 2016 22:49:52 +0900</pubDate>
-      <guid>https://www.yewton.net/2016/02/wordpress-http2-hhvm/</guid>
+      <guid>https://www.yewton.net/2016/02/21/wordpress-http2-hhvm/</guid>
       <description>&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/yewton/wordpress-nginx-http2-hhvm&#34;&gt;このリポジトリ&lt;/a&gt;を &lt;code&gt;clone&lt;/code&gt; して &lt;code&gt;docker-compose up -d&lt;/code&gt; して下さい
 (要 &lt;a href=&#34;https://github.com/docker/compose/releases/tag/1.6.0&#34;&gt;バージョン 1.6.0 以上&lt;/a&gt;)。
@@ -335,9 +335,9 @@ iniファイルに設定書いていくのは何だかしんどそうです。&l
     
     <item>
       <title>VM関連ファイルを外部ストレージに保存して空き容量を確保する</title>
-      <link>https://www.yewton.net/2016/02/save-storage-space-by-moving-vm-related-files-to-ex-storage/</link>
+      <link>https://www.yewton.net/2016/02/19/save-storage-space-by-moving-vm-related-files-to-ex-storage/</link>
       <pubDate>Fri, 19 Feb 2016 00:00:00 +0900</pubDate>
-      <guid>https://www.yewton.net/2016/02/save-storage-space-by-moving-vm-related-files-to-ex-storage/</guid>
+      <guid>https://www.yewton.net/2016/02/19/save-storage-space-by-moving-vm-related-files-to-ex-storage/</guid>
       <description>&lt;h2 id=&#34;vm&#34;&gt;何かと容量を食うVM関連ファイル&lt;/h2&gt;
 &lt;p&gt;DockerやらVagrantやらで作業していると、いつのまにかディスク容量が逼迫していることがありますよね。&lt;/p&gt;
 &lt;p&gt;自分も128GB SSDのMacBook Proを使っているので、結構いっぱいいっぱいでした。&lt;/p&gt;
@@ -399,9 +399,9 @@ Adobeなど一部の製品は大文字小文字を区別するファイルシス
     
     <item>
       <title>Hugo &#43; GitHub Pages でお手軽にブログを始めよう</title>
-      <link>https://www.yewton.net/2016/02/blog-with-hugo/</link>
+      <link>https://www.yewton.net/2016/02/02/blog-with-hugo/</link>
       <pubDate>Tue, 02 Feb 2016 18:44:21 +0900</pubDate>
-      <guid>https://www.yewton.net/2016/02/blog-with-hugo/</guid>
+      <guid>https://www.yewton.net/2016/02/02/blog-with-hugo/</guid>
       <description>&lt;h2 id=&#34;heading&#34;&gt;はじめに&lt;/h2&gt;
 &lt;p&gt;この記事は「いい感じのブログを無料で手軽に作れないかなー」、と思っている人が主な対象です。&lt;/p&gt;
 &lt;p&gt;〈いい感じ〉というのが抽象的ですが、以下のような欲求をイメージしています:&lt;/p&gt;

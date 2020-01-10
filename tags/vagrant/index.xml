@@ -14,9 +14,9 @@
     
     <item>
       <title>VM関連ファイルを外部ストレージに保存して空き容量を確保する</title>
-      <link>https://www.yewton.net/2016/02/save-storage-space-by-moving-vm-related-files-to-ex-storage/</link>
+      <link>https://www.yewton.net/2016/02/19/save-storage-space-by-moving-vm-related-files-to-ex-storage/</link>
       <pubDate>Fri, 19 Feb 2016 00:00:00 +0900</pubDate>
-      <guid>https://www.yewton.net/2016/02/save-storage-space-by-moving-vm-related-files-to-ex-storage/</guid>
+      <guid>https://www.yewton.net/2016/02/19/save-storage-space-by-moving-vm-related-files-to-ex-storage/</guid>
       <description>&lt;h2 id=&#34;vm&#34;&gt;何かと容量を食うVM関連ファイル&lt;/h2&gt;
 &lt;p&gt;DockerやらVagrantやらで作業していると、いつのまにかディスク容量が逼迫していることがありますよね。&lt;/p&gt;
 &lt;p&gt;自分も128GB SSDのMacBook Proを使っているので、結構いっぱいいっぱいでした。&lt;/p&gt;

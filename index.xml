@@ -14,9 +14,9 @@
     
     <item>
       <title>org-mode に Chrome で開いてるページへのリンクを貼りたい</title>
-      <link>https://www.yewton.net/2020/01/org-mode-web-link/</link>
+      <link>https://www.yewton.net/2020/01/10/org-mode-web-link/</link>
       <pubDate>Fri, 10 Jan 2020 00:00:00 +0900</pubDate>
-      <guid>https://www.yewton.net/2020/01/org-mode-web-link/</guid>
+      <guid>https://www.yewton.net/2020/01/10/org-mode-web-link/</guid>
       <description>&lt;p&gt;&lt;code&gt;org-mode&lt;/code&gt; のリンクマークアップはちょっと特殊で、エスケープの仕様も独特です。&lt;/p&gt;
 &lt;p&gt;また、  &lt;a href=&#34;https://code.orgmode.org/bzg/org-mode/src/release%5F9.3/etc/ORG-NEWS&#34;&gt;2019年の12月にリリースされたバージョン 9.3 で後方互換性の無い仕様変更が入る&lt;/a&gt; ということも有りました。&lt;/p&gt;
 &lt;blockquote&gt;
@@ -80,9 +80,9 @@ Org used to percent-encode sensitive characters in the URI part of the bracket l
     
     <item>
       <title>#MadeWithAcademic</title>
-      <link>https://www.yewton.net/2019/01/made-with-academic/</link>
+      <link>https://www.yewton.net/2019/01/06/made-with-academic/</link>
       <pubDate>Sun, 06 Jan 2019 00:00:00 +0900</pubDate>
-      <guid>https://www.yewton.net/2019/01/made-with-academic/</guid>
+      <guid>https://www.yewton.net/2019/01/06/made-with-academic/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/digitalcraftsman/hugo-icarus-theme&#34;&gt;Icarus&lt;/a&gt; がメンテされておらず Hugo 0.55.0 以降で正しく動かなくなっていたので、
 自力で Icarus にパッチを充てるか、別のテーマに乗り換えるかという選択を迫られていた。&lt;/p&gt;
 &lt;p&gt;せっかくなのでランディングページとブログを別にしたかったので、そういう柔軟性を備えている
@@ -106,9 +106,9 @@ Org used to percent-encode sensitive characters in the URI part of the bracket l
     
     <item>
       <title>久々の更新</title>
-      <link>https://www.yewton.net/2019/01/happy-new-year/</link>
+      <link>https://www.yewton.net/2019/01/02/happy-new-year/</link>
       <pubDate>Wed, 02 Jan 2019 00:00:00 +0900</pubDate>
-      <guid>https://www.yewton.net/2019/01/happy-new-year/</guid>
+      <guid>https://www.yewton.net/2019/01/02/happy-new-year/</guid>
       <description>&lt;p&gt;最近仕事用のmacを新調して環境を作り直す機会があったことと、 2020 年が始まるということもあり、久々にサイトを更新することにした。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.yewton.net/cv/&#34;&gt;オープン職務経歴書&lt;/a&gt;を書きたかった、というのもある。&lt;/p&gt;
 &lt;p&gt;更新にあたっていくつか困難があった。&lt;/p&gt;
@@ -136,9 +136,9 @@ Hugo 0.55.0 以降で動かなくなってしまっていたり、 Deprecated Wa
     
     <item>
       <title>Nexus 7 2012 (grouper) に Beanstalk と ParrotMod を入れて蘇生する</title>
-      <link>https://www.yewton.net/2017/04/grouper-beanstalk/</link>
+      <link>https://www.yewton.net/2017/04/09/grouper-beanstalk/</link>
       <pubDate>Sun, 09 Apr 2017 21:55:31 +0900</pubDate>
-      <guid>https://www.yewton.net/2017/04/grouper-beanstalk/</guid>
+      <guid>https://www.yewton.net/2017/04/09/grouper-beanstalk/</guid>
       <description>&lt;p&gt;最近はじめて &lt;a href=&#34;http://amzn.to/2nXsSKh&#34;&gt;Fire タブレット&lt;/a&gt; をキャンペーンで購入して、
 こういう本読むだけとか書い物するだけとかの単機能なタブレットも結構いいな、と思った。
 そして、うちに使ってない &lt;a href=&#34;http://amzn.to/2oSEwJK&#34;&gt;Nexus 7&lt;/a&gt; があることを思い出した。&lt;/p&gt;
@@ -189,9 +189,9 @@ Beanstalk と ParrotMod を試してみる価値はアリだと思う。&lt;/p&g
     
     <item>
       <title>Atlassian から無料でTシャツをもらう方法、あるいはドラゴンの倒し方</title>
-      <link>https://www.yewton.net/2016/09/how-to-get-atlassian-dragon-slayer-t-shirt/</link>
+      <link>https://www.yewton.net/2016/09/03/how-to-get-atlassian-dragon-slayer-t-shirt/</link>
       <pubDate>Sat, 03 Sep 2016 15:34:07 +0900</pubDate>
-      <guid>https://www.yewton.net/2016/09/how-to-get-atlassian-dragon-slayer-t-shirt/</guid>
+      <guid>https://www.yewton.net/2016/09/03/how-to-get-atlassian-dragon-slayer-t-shirt/</guid>
       <description>&lt;p&gt;仕事で Atlassian 製品を使っていて、個人的にも便利なタスク・ドキュメント管理に欲しいな、と思い、
 &lt;a href=&#34;https://ja.atlassian.com/licensing/starter#aboutthestarterprogram-8&#34;&gt;Atlassian のスターターライセンスについてのドキュメント&lt;/a&gt;を読んでいた。&lt;/p&gt;
 &lt;p&gt;すると気になるフレーズが目に入った。 &lt;strong&gt;「ドラゴンズレアとは何ですか？」&lt;/strong&gt; ──&lt;/p&gt;
@@ -386,9 +386,9 @@ Maven Executable のパスを指定する箇所は
     
     <item>
       <title>三ヶ月以上ぶりに何かを書く</title>
-      <link>https://www.yewton.net/2016/08/misc/</link>
+      <link>https://www.yewton.net/2016/08/29/misc/</link>
       <pubDate>Mon, 29 Aug 2016 22:29:35 +0900</pubDate>
-      <guid>https://www.yewton.net/2016/08/misc/</guid>
+      <guid>https://www.yewton.net/2016/08/29/misc/</guid>
       <description>&lt;p&gt;前回の更新から三ヶ月以上経ってしまった。
 月日が経つのは早いものだ。&lt;/p&gt;
 &lt;p&gt;まとめたいことがいくつかあるので、まとめておく。&lt;/p&gt;
@@ -414,9 +414,9 @@ MAKE をアクションにして Web Hook でどうにかした話をまとめ�
     
     <item>
       <title>Spacemacs から helm と persp-mode の設定をパクろうと思ったけど難しかった</title>
-      <link>https://www.yewton.net/2016/05/helm-persp/</link>
+      <link>https://www.yewton.net/2016/05/04/helm-persp/</link>
       <pubDate>Wed, 04 May 2016 19:45:26 +0900</pubDate>
-      <guid>https://www.yewton.net/2016/05/helm-persp/</guid>
+      <guid>https://www.yewton.net/2016/05/04/helm-persp/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/syl20bnr/spacemacs/blob/master/layers/%2Bwindow-management/spacemacs-layouts/funcs.el&#34;&gt;この辺&lt;/a&gt; を参考にせよ、
 と persp-mode 公式に書いてあったので、パクれそうかやってみた。&lt;/p&gt;
 &lt;p&gt;結論としては、出来なかった。
@@ -435,9 +435,9 @@ MAKE をアクションにして Web Hook でどうにかした話をまとめ�
     
     <item>
       <title>『いけにえと雪のセツナ』感想</title>
-      <link>https://www.yewton.net/2016/05/setsuna/</link>
+      <link>https://www.yewton.net/2016/05/04/setsuna/</link>
       <pubDate>Wed, 04 May 2016 16:10:11 +0900</pubDate>
-      <guid>https://www.yewton.net/2016/05/setsuna/</guid>
+      <guid>https://www.yewton.net/2016/05/04/setsuna/</guid>
       <description>&lt;p&gt;この間 Amazon で『いけにえと雪のセツナ』が 2,000 円だったので買ってみた。&lt;/p&gt;
 &lt;p&gt;曰く、「あの頃、みんなRPGに夢中だった。
 当時遊んだ数多のRPGは、今もぼくたちの記憶に強く残っている。
@@ -547,9 +547,9 @@ Unity を恨めばいいのか、 Sony を恨めばいいのか、どれなん�
     
     <item>
       <title>三ヶ月ぶりに更新再開した日</title>
-      <link>https://www.yewton.net/2016/05/diary/</link>
+      <link>https://www.yewton.net/2016/05/03/diary/</link>
       <pubDate>Tue, 03 May 2016 23:27:26 +0900</pubDate>
-      <guid>https://www.yewton.net/2016/05/diary/</guid>
+      <guid>https://www.yewton.net/2016/05/03/diary/</guid>
       <description>&lt;p&gt;前回の更新から平気で3ヶ月経っていた。
 光陰矢のごとしである。&lt;/p&gt;
 &lt;p&gt;一個多少マトモな記事を上げたら何か燃え尽きてしまったのと、
@@ -573,9 +573,9 @@ Scala 製 Slack ボットのデプロイ方法を考えるのと、
     
     <item>
       <title>WordPressをHTTP/2&#43;HHVMで動かす環境をdocker-composeで構築してみた</title>
-      <link>https://www.yewton.net/2016/02/wordpress-http2-hhvm/</link>
+      <link>https://www.yewton.net/2016/02/21/wordpress-http2-hhvm/</link>
       <pubDate>Sun, 21 Feb 2016 22:49:52 +0900</pubDate>
-      <guid>https://www.yewton.net/2016/02/wordpress-http2-hhvm/</guid>
+      <guid>https://www.yewton.net/2016/02/21/wordpress-http2-hhvm/</guid>
       <description>&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/yewton/wordpress-nginx-http2-hhvm&#34;&gt;このリポジトリ&lt;/a&gt;を &lt;code&gt;clone&lt;/code&gt; して &lt;code&gt;docker-compose up -d&lt;/code&gt; して下さい
 (要 &lt;a href=&#34;https://github.com/docker/compose/releases/tag/1.6.0&#34;&gt;バージョン 1.6.0 以上&lt;/a&gt;)。
@@ -644,9 +644,9 @@ iniファイルに設定書いていくのは何だかしんどそうです。&l
     
     <item>
       <title>VM関連ファイルを外部ストレージに保存して空き容量を確保する</title>
-      <link>https://www.yewton.net/2016/02/save-storage-space-by-moving-vm-related-files-to-ex-storage/</link>
+      <link>https://www.yewton.net/2016/02/19/save-storage-space-by-moving-vm-related-files-to-ex-storage/</link>
       <pubDate>Fri, 19 Feb 2016 00:00:00 +0900</pubDate>
-      <guid>https://www.yewton.net/2016/02/save-storage-space-by-moving-vm-related-files-to-ex-storage/</guid>
+      <guid>https://www.yewton.net/2016/02/19/save-storage-space-by-moving-vm-related-files-to-ex-storage/</guid>
       <description>&lt;h2 id=&#34;vm&#34;&gt;何かと容量を食うVM関連ファイル&lt;/h2&gt;
 &lt;p&gt;DockerやらVagrantやらで作業していると、いつのまにかディスク容量が逼迫していることがありますよね。&lt;/p&gt;
 &lt;p&gt;自分も128GB SSDのMacBook Proを使っているので、結構いっぱいいっぱいでした。&lt;/p&gt;
@@ -708,9 +708,9 @@ Adobeなど一部の製品は大文字小文字を区別するファイルシス
     
     <item>
       <title>早朝ランニングしたりカナヘイカフェに行ってきた日</title>
-      <link>https://www.yewton.net/2016/02/diary/</link>
+      <link>https://www.yewton.net/2016/02/16/diary/</link>
       <pubDate>Tue, 16 Feb 2016 23:00:00 +0900</pubDate>
-      <guid>https://www.yewton.net/2016/02/diary/</guid>
+      <guid>https://www.yewton.net/2016/02/16/diary/</guid>
       <description>&lt;h2 id=&#34;heading&#34;&gt;ランニング&lt;/h2&gt;
 &lt;p&gt;昨日おとといと、春が来たのかと思うくらい暖かったので、
 何となく意識が高まって「よし明日からランニングを始めるぞ」という気持ちになっていた。&lt;/p&gt;
@@ -749,9 +749,9 @@ Adobeなど一部の製品は大文字小文字を区別するファイルシス
     
     <item>
       <title>Hugoの記事をようやく書き上げた日</title>
-      <link>https://www.yewton.net/2016/02/diary/</link>
+      <link>https://www.yewton.net/2016/02/14/diary/</link>
       <pubDate>Sun, 14 Feb 2016 00:26:33 +0900</pubDate>
-      <guid>https://www.yewton.net/2016/02/diary/</guid>
+      <guid>https://www.yewton.net/2016/02/14/diary/</guid>
       <description>&lt;p&gt;たまには人類に少しでも役に立つような記事も書こうと思い、
 &lt;a href=&#34;https://www.yewton.net/2016/02/02/blog-with-hugo/&#34;&gt;Hugoの記事&lt;/a&gt;を書いていた。&lt;/p&gt;
 &lt;p&gt;自分が通しでやったことだし、すぐ書き上がるだろーと高をくくっていたら、
@@ -784,9 +784,9 @@ HHVMだけをECSで動かしてもしょうがないから、やるならWordPre
     
     <item>
       <title>Hugo &#43; GitHub Pages でお手軽にブログを始めよう</title>
-      <link>https://www.yewton.net/2016/02/blog-with-hugo/</link>
+      <link>https://www.yewton.net/2016/02/02/blog-with-hugo/</link>
       <pubDate>Tue, 02 Feb 2016 18:44:21 +0900</pubDate>
-      <guid>https://www.yewton.net/2016/02/blog-with-hugo/</guid>
+      <guid>https://www.yewton.net/2016/02/02/blog-with-hugo/</guid>
       <description>&lt;h2 id=&#34;heading&#34;&gt;はじめに&lt;/h2&gt;
 &lt;p&gt;この記事は「いい感じのブログを無料で手軽に作れないかなー」、と思っている人が主な対象です。&lt;/p&gt;
 &lt;p&gt;〈いい感じ〉というのが抽象的ですが、以下のような欲求をイメージしています:&lt;/p&gt;
@@ -938,9 +938,9 @@ GitHubのヘルプによると、&lt;a href=&#34;https://help.github.com/article
     
     <item>
       <title>スクラム入門を翻訳する日々</title>
-      <link>https://www.yewton.net/2016/01/diary/</link>
+      <link>https://www.yewton.net/2016/01/31/diary/</link>
       <pubDate>Sun, 31 Jan 2016 23:18:29 +0900</pubDate>
-      <guid>https://www.yewton.net/2016/01/diary/</guid>
+      <guid>https://www.yewton.net/2016/01/31/diary/</guid>
       <description>&lt;p&gt;最近、&lt;a href=&#34;https://www.gitbook.com/book/yewton/scrumprimer/details&#34;&gt;スクラム入門の翻訳&lt;/a&gt;を
 細々とやっている。&lt;/p&gt;
 &lt;p&gt;元々は&lt;a href=&#34;http://www.scrumprimer.org/&#34;&gt;Scrum Primer - Short Introduction to Scrum&lt;/a&gt;で配布されているPDFで、
@@ -963,9 +963,9 @@ GitHubのヘルプによると、&lt;a href=&#34;https://help.github.com/article
     
     <item>
       <title>hugo.elを書いた</title>
-      <link>https://www.yewton.net/2016/01/hugo-el/</link>
+      <link>https://www.yewton.net/2016/01/26/hugo-el/</link>
       <pubDate>Tue, 26 Jan 2016 23:25:40 +0900</pubDate>
-      <guid>https://www.yewton.net/2016/01/hugo-el/</guid>
+      <guid>https://www.yewton.net/2016/01/26/hugo-el/</guid>
       <description>&lt;h2 id=&#34;heading&#34;&gt;#とは&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/yewton/hugo.el&#34;&gt;hugo.el&lt;/a&gt;は、Hugoでサイト作成する際に便利な関数群を定義したパッケージ。
 &lt;a href=&#34;https://marmalade-repo.org/&#34;&gt;marmalade-repo&lt;/a&gt;で公開されているので、パッケージの設定をすれば簡単にインストール出来るハズ。&lt;/p&gt;
@@ -995,9 +995,9 @@ HugoはCLIのインタフェースなので、ターミナルとEmacsを行き�
     
     <item>
       <title>JIRA Agile用のuserscriptを作ったりした日</title>
-      <link>https://www.yewton.net/2016/01/diary/</link>
+      <link>https://www.yewton.net/2016/01/23/diary/</link>
       <pubDate>Sat, 23 Jan 2016 23:47:43 +0900</pubDate>
-      <guid>https://www.yewton.net/2016/01/diary/</guid>
+      <guid>https://www.yewton.net/2016/01/23/diary/</guid>
       <description>&lt;h2 id=&#34;heading&#34;&gt;趣味の政策物&lt;/h2&gt;
 &lt;p&gt;弊チームではバックログとしてJIRAを使っている。&lt;/p&gt;
 &lt;p&gt;ここ最近しつこく「管理者権限が欲しいなァ〜(ﾁﾗｯ」としていたらめでたく権限を付与してもらえたので、
@@ -1050,9 +1050,9 @@ HugoはCLIのインタフェースなので、ターミナルとEmacsを行き�
     
     <item>
       <title>markdown-modeでSKKの変換確定するためにRETするとカーソルが行頭に飛ぶ問題の回避策</title>
-      <link>https://www.yewton.net/2016/01/markdown-mode-skk-kakutei/</link>
+      <link>https://www.yewton.net/2016/01/20/markdown-mode-skk-kakutei/</link>
       <pubDate>Wed, 20 Jan 2016 22:40:16 +0900</pubDate>
-      <guid>https://www.yewton.net/2016/01/markdown-mode-skk-kakutei/</guid>
+      <guid>https://www.yewton.net/2016/01/20/markdown-mode-skk-kakutei/</guid>
       <description>&lt;p&gt;markdown-mode 2.1 で SKK 15.2 使ってると、確定しようと思って &lt;code&gt;&amp;lt;return&amp;gt;&lt;/code&gt; すると、
 確定後にカーソルが行頭に飛んでしまうという問題に遭遇した。
 &lt;code&gt;C-j&lt;/code&gt; で確定する場合は起こらない。&lt;/p&gt;
@@ -1091,9 +1091,9 @@ HugoはCLIのインタフェースなので、ターミナルとEmacsを行き�
     
     <item>
       <title>雪が振ったので一日中家に引き込もっていた日の次の日</title>
-      <link>https://www.yewton.net/2016/01/diary/</link>
+      <link>https://www.yewton.net/2016/01/19/diary/</link>
       <pubDate>Tue, 19 Jan 2016 23:00:00 +0900</pubDate>
-      <guid>https://www.yewton.net/2016/01/diary/</guid>
+      <guid>https://www.yewton.net/2016/01/19/diary/</guid>
       <description>&lt;p&gt;昨日は都内も大雪(いうほどか？)で出社がダルそうだったので、終日リモートワークしていた。
 本当に一歩も家から出ずに、パジャマから着替えもせずに、もくもくとPC作業。&lt;/p&gt;
 &lt;h2 id=&#34;heading&#34;&gt;個人のタスク管理&lt;/h2&gt;
@@ -1110,9 +1110,9 @@ HugoはCLIのインタフェースなので、ターミナルとEmacsを行き�
     
     <item>
       <title>HTTPSに対応してついでにHTTP/2対応された日</title>
-      <link>https://www.yewton.net/2016/01/diary/</link>
+      <link>https://www.yewton.net/2016/01/18/diary/</link>
       <pubDate>Mon, 18 Jan 2016 00:06:20 +0900</pubDate>
-      <guid>https://www.yewton.net/2016/01/diary/</guid>
+      <guid>https://www.yewton.net/2016/01/18/diary/</guid>
       <description>&lt;h2 id=&#34;https--http2-&#34;&gt;HTTPS + HTTP/2 対応&lt;/h2&gt;
 &lt;p&gt;世の中的にHTTPS対応してないといかんような気がしたので、
 このサイトもHTTPSで配信するように対応した。&lt;/p&gt;
@@ -1152,9 +1152,9 @@ Chromeで &lt;a href=&#34;https://chrome.google.com/webstore/detail/http2-and-sp
     
     <item>
       <title>忙し過ぎてお弁当も食べられなかった日</title>
-      <link>https://www.yewton.net/2016/01/diary/</link>
+      <link>https://www.yewton.net/2016/01/15/diary/</link>
       <pubDate>Fri, 15 Jan 2016 23:00:00 +0900</pubDate>
-      <guid>https://www.yewton.net/2016/01/diary/</guid>
+      <guid>https://www.yewton.net/2016/01/15/diary/</guid>
       <description>&lt;p&gt;最近チームが新体制に移行するという時期で色々バタバタしていて、
 立ち上げに伴う開発フローの整備とか、JIRA(プロジェクト管理ツール)の設定とか、
 ワーキングアグリーメントの検討とかで、頓に忙しい。&lt;/p&gt;
@@ -1188,9 +1188,9 @@ Chromeで &lt;a href=&#34;https://chrome.google.com/webstore/detail/http2-and-sp
     
     <item>
       <title>BettorTouchToolが無料じゃなくなると分かったりした日</title>
-      <link>https://www.yewton.net/2016/01/diary/</link>
+      <link>https://www.yewton.net/2016/01/13/diary/</link>
       <pubDate>Wed, 13 Jan 2016 23:00:00 +0900</pubDate>
-      <guid>https://www.yewton.net/2016/01/diary/</guid>
+      <guid>https://www.yewton.net/2016/01/13/diary/</guid>
       <description>&lt;h2 id=&#34;bettertouchtool-will-switch-from-free-to-a-pay-what-you-want-model-early-next-year--bettertouchtool-btt-remote-bettersnaptool-and-morehttpwwwboastrnetbettertouchtool-may-switch-from-free-to-a-pay-what-you-want-model-early-next-year&#34;&gt;&lt;a href=&#34;http://www.boastr.net/bettertouchtool-may-switch-from-free-to-a-pay-what-you-want-model-early-next-year/&#34;&gt;BetterTouchTool will switch from free to a “Pay what you want” model early next year. – BetterTouchTool, BTT Remote, BetterSnapTool and more&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.boastr.net/&#34;&gt;BetterTouchTool&lt;/a&gt;が1月末を目処に無料じゃなくなるらしい。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://www.boastr.net/btt-paid-faq/&#34;&gt;FAQ&lt;/a&gt;によると、ライセンスは買い切りで(当面)更新の必要は無く、
@@ -1218,9 +1218,9 @@ Chromeで &lt;a href=&#34;https://chrome.google.com/webstore/detail/http2-and-sp
     
     <item>
       <title>はじめに</title>
-      <link>https://www.yewton.net/2016/01/at-the-start/</link>
+      <link>https://www.yewton.net/2016/01/11/at-the-start/</link>
       <pubDate>Mon, 11 Jan 2016 11:11:11 +0900</pubDate>
-      <guid>https://www.yewton.net/2016/01/at-the-start/</guid>
+      <guid>https://www.yewton.net/2016/01/11/at-the-start/</guid>
       <description>&lt;h2 id=&#34;heading&#34;&gt;はじめに&lt;/h2&gt;
 &lt;p&gt;今年30歳になる節目の年なので、ブログを書いてみることにした。&lt;/p&gt;
 &lt;p&gt;何もこういう試みは初めてではなく、

@@ -14,9 +14,9 @@
     
     <item>
       <title>WordPressをHTTP/2&#43;HHVMで動かす環境をdocker-composeで構築してみた</title>
-      <link>https://www.yewton.net/2016/02/wordpress-http2-hhvm/</link>
+      <link>https://www.yewton.net/2016/02/21/wordpress-http2-hhvm/</link>
       <pubDate>Sun, 21 Feb 2016 22:49:52 +0900</pubDate>
-      <guid>https://www.yewton.net/2016/02/wordpress-http2-hhvm/</guid>
+      <guid>https://www.yewton.net/2016/02/21/wordpress-http2-hhvm/</guid>
       <description>&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/yewton/wordpress-nginx-http2-hhvm&#34;&gt;このリポジトリ&lt;/a&gt;を &lt;code&gt;clone&lt;/code&gt; して &lt;code&gt;docker-compose up -d&lt;/code&gt; して下さい
 (要 &lt;a href=&#34;https://github.com/docker/compose/releases/tag/1.6.0&#34;&gt;バージョン 1.6.0 以上&lt;/a&gt;)。
@@ -85,9 +85,9 @@ iniファイルに設定書いていくのは何だかしんどそうです。&l
     
     <item>
       <title>HTTPSに対応してついでにHTTP/2対応された日</title>
-      <link>https://www.yewton.net/2016/01/diary/</link>
+      <link>https://www.yewton.net/2016/01/18/diary/</link>
       <pubDate>Mon, 18 Jan 2016 00:06:20 +0900</pubDate>
-      <guid>https://www.yewton.net/2016/01/diary/</guid>
+      <guid>https://www.yewton.net/2016/01/18/diary/</guid>
       <description>&lt;h2 id=&#34;https--http2-&#34;&gt;HTTPS + HTTP/2 対応&lt;/h2&gt;
 &lt;p&gt;世の中的にHTTPS対応してないといかんような気がしたので、
 このサイトもHTTPSで配信するように対応した。&lt;/p&gt;

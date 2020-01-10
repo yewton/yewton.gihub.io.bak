@@ -14,9 +14,9 @@
     
     <item>
       <title>HTTPSに対応してついでにHTTP/2対応された日</title>
-      <link>https://www.yewton.net/2016/01/diary/</link>
+      <link>https://www.yewton.net/2016/01/18/diary/</link>
       <pubDate>Mon, 18 Jan 2016 00:06:20 +0900</pubDate>
-      <guid>https://www.yewton.net/2016/01/diary/</guid>
+      <guid>https://www.yewton.net/2016/01/18/diary/</guid>
       <description>&lt;h2 id=&#34;https--http2-&#34;&gt;HTTPS + HTTP/2 対応&lt;/h2&gt;
 &lt;p&gt;世の中的にHTTPS対応してないといかんような気がしたので、
 このサイトもHTTPSで配信するように対応した。&lt;/p&gt;

@@ -14,9 +14,9 @@
     
     <item>
       <title>markdown-modeでSKKの変換確定するためにRETするとカーソルが行頭に飛ぶ問題の回避策</title>
-      <link>https://www.yewton.net/2016/01/markdown-mode-skk-kakutei/</link>
+      <link>https://www.yewton.net/2016/01/20/markdown-mode-skk-kakutei/</link>
       <pubDate>Wed, 20 Jan 2016 22:40:16 +0900</pubDate>
-      <guid>https://www.yewton.net/2016/01/markdown-mode-skk-kakutei/</guid>
+      <guid>https://www.yewton.net/2016/01/20/markdown-mode-skk-kakutei/</guid>
       <description>&lt;p&gt;markdown-mode 2.1 で SKK 15.2 使ってると、確定しようと思って &lt;code&gt;&amp;lt;return&amp;gt;&lt;/code&gt; すると、
 確定後にカーソルが行頭に飛んでしまうという問題に遭遇した。
 &lt;code&gt;C-j&lt;/code&gt; で確定する場合は起こらない。&lt;/p&gt;

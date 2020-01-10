@@ -14,9 +14,9 @@
     
     <item>
       <title>#MadeWithAcademic</title>
-      <link>https://www.yewton.net/2019/01/made-with-academic/</link>
+      <link>https://www.yewton.net/2019/01/06/made-with-academic/</link>
       <pubDate>Sun, 06 Jan 2019 00:00:00 +0900</pubDate>
-      <guid>https://www.yewton.net/2019/01/made-with-academic/</guid>
+      <guid>https://www.yewton.net/2019/01/06/made-with-academic/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/digitalcraftsman/hugo-icarus-theme&#34;&gt;Icarus&lt;/a&gt; がメンテされておらず Hugo 0.55.0 以降で正しく動かなくなっていたので、
 自力で Icarus にパッチを充てるか、別のテーマに乗り換えるかという選択を迫られていた。&lt;/p&gt;
 &lt;p&gt;せっかくなのでランディングページとブログを別にしたかったので、そういう柔軟性を備えている
