@@ -3,8 +3,43 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.yewton.net/categories/</loc>
+    <lastmod>2020-01-10T09:02:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.yewton.net/categories/emacs/</loc>
+    <lastmod>2020-01-10T09:02:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.yewton.net/tags/emacs/</loc>
+    <lastmod>2020-01-10T09:02:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.yewton.net/tags/org-mode/</loc>
+    <lastmod>2020-01-10T09:02:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.yewton.net/2020/01/org-mode-web-link/</loc>
+    <lastmod>2020-01-10T09:02:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.yewton.net/post/</loc>
+    <lastmod>2020-01-10T09:02:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.yewton.net/tags/</loc>
+    <lastmod>2020-01-10T09:02:00+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.yewton.net/</loc>
-    <lastmod>2020-01-07T09:06:30+09:00</lastmod>
+    <lastmod>2020-01-10T09:02:00+09:00</lastmod>
   </url>
   
   <url>
@@ -33,33 +68,13 @@
   </url>
   
   <url>
-    <loc>https://www.yewton.net/categories/</loc>
-    <lastmod>2020-01-06T08:50:43+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.yewton.net/tags/ox-hugo/</loc>
-    <lastmod>2020-01-06T08:50:43+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.yewton.net/post/</loc>
-    <lastmod>2020-01-06T08:50:43+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.yewton.net/tags/</loc>
     <lastmod>2020-01-06T08:50:43+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.yewton.net/categories/%E9%9B%91%E8%A8%98/</loc>
     <lastmod>2020-01-06T08:50:43+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.yewton.net/tags/emacs/</loc>
-    <lastmod>2020-01-06T08:23:34+09:00</lastmod>
   </url>
   
   <url>
@@ -253,11 +268,6 @@
   </url>
   
   <url>
-    <loc>https://www.yewton.net/categories/emacs/</loc>
-    <lastmod>2016-01-26T23:25:40+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.yewton.net/tags/emacslisp/</loc>
     <lastmod>2016-01-26T23:25:40+09:00</lastmod>
   </url>
@@ -379,11 +389,6 @@
   
   <url>
     <loc>https://www.yewton.net/tags/hatenacounting/</loc>
-    <lastmod>2016-01-13T23:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.yewton.net/tags/org-mode/</loc>
     <lastmod>2016-01-13T23:00:00+09:00</lastmod>
   </url>
   

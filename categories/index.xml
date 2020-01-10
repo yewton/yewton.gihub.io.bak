@@ -5,12 +5,20 @@
     <link>https://www.yewton.net/categories/</link>
       <atom:link href="https://www.yewton.net/categories/index.xml" rel="self" type="application/rss+xml" />
     <description>Categories</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja-jp</language><copyright>© 2016-2020 yewton</copyright><lastBuildDate>Sun, 06 Jan 2019 00:00:00 +0900</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja-jp</language><copyright>© 2016-2020 yewton</copyright><lastBuildDate>Fri, 10 Jan 2020 00:00:00 +0900</lastBuildDate>
     <image>
       <url>https://www.yewton.net/img/icon.png</url>
       <title>Categories</title>
       <link>https://www.yewton.net/categories/</link>
     </image>
+    
+    <item>
+      <title>Emacs</title>
+      <link>https://www.yewton.net/categories/emacs/</link>
+      <pubDate>Fri, 10 Jan 2020 00:00:00 +0900</pubDate>
+      <guid>https://www.yewton.net/categories/emacs/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>雑記</title>
@@ -33,14 +41,6 @@
       <link>https://www.yewton.net/categories/%E3%82%B1%E3%83%BC%E3%83%A0%E6%84%9F%E6%83%B3/</link>
       <pubDate>Wed, 04 May 2016 16:10:11 +0900</pubDate>
       <guid>https://www.yewton.net/categories/%E3%82%B1%E3%83%BC%E3%83%A0%E6%84%9F%E6%83%B3/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Emacs</title>
-      <link>https://www.yewton.net/categories/emacs/</link>
-      <pubDate>Tue, 26 Jan 2016 23:25:40 +0900</pubDate>
-      <guid>https://www.yewton.net/categories/emacs/</guid>
       <description></description>
     </item>
     
