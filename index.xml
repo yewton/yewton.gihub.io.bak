@@ -1,1365 +1,1062 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>yewton.net</title>
-    <link>https://www.yewton.net/</link>
-      <atom:link href="https://www.yewton.net/index.xml" rel="self" type="application/rss+xml" />
-    <description>yewton.net</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja-jp</language><copyright>© 2016-2020 yewton</copyright><lastBuildDate>Sat, 11 Jan 2020 00:00:00 +0900</lastBuildDate>
-    <image>
-      <url>https://www.yewton.net/img/icon.png</url>
-      <title>yewton.net</title>
-      <link>https://www.yewton.net/</link>
-    </image>
-    
-    <item>
-      <title>Lenovo Tab M8 が案外良かった</title>
-      <link>https://www.yewton.net/2020/01/11/lenovo-tab-m8/</link>
-      <pubDate>Sat, 11 Jan 2020 00:00:00 +0900</pubDate>
-      <guid>https://www.yewton.net/2020/01/11/lenovo-tab-m8/</guid>
-      <description>&lt;p&gt;さすがにもう &lt;a href=&#34;https://www.yewton.net/2017/04/09/grouper-beanstalk/&#34;&gt;Nexus 7 2012&lt;/a&gt; でやっていくのはしんどくなってきたので、手軽なタブレットを探していたら、
-2019 年の 11 月に Lenovo から &lt;a href=&#34;https://hb.afl.rakuten.co.jp/hgc/1a0d625b.bdb81d38.1a0d625c.bf0332b2/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbiccamera%2F4580550700484%2F&amp;amp;m=http%3A%2F%2Fm.rakuten.co.jp%2Fbiccamera%2Fi%2F12780179%2F&amp;amp;link%5Ftype=hybrid%5Furl&amp;amp;ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MCwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjB9&#34;&gt;Lenovo Tab M8 (ZA5G0084JP)&lt;/a&gt; が発売されていたのを知った。&lt;/p&gt;
-&lt;p&gt;2 万を切る価格で、 Android 9 、クアッドコアでメモリは 2 GB 、
-ディスプレイは 8.0 型ワイド IPS パネル (1280x800ドット)と、そこそこ使えそうなスペック。&lt;/p&gt;
-&lt;p&gt;ただストレージは 16GB と心許ないので、 microSD による拡張は必須(最大128GBまで)。
-自分はたまたま持ってた &lt;a href=&#34;https://amzn.to/2QJFCF8&#34;&gt;SanDisk 製の microSDXC カード&lt;/a&gt; を使っている。
-アプリ最適化対応じゃないので少々もっさりはするけれど、使えない程ではない。&lt;/p&gt;
-&lt;p&gt;電子書籍が読めればいいやというくらいの気持ちで購入したのだけれど、意外なことに &lt;strong&gt;音がいい&lt;/strong&gt; 。&lt;/p&gt;
-&lt;p&gt;確かに &lt;a href=&#34;https://www.lenovo.com/jp/ja/tablets/android-tablets/tab-series/Lenovo-Tab-M8-2nd-Gen-HD/p/ZZITZTATB58&#34;&gt;公式サイト&lt;/a&gt; には以下のようにあるけれども、正直期待していなかった。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;鮮やかでシームレスな映像表示を実現する狭額縁による高画面占有率83％のマルチタッチ対応の8.0型ワイドIPSパネル、ドルビーオーディオ対応のオーディオ機能を搭載。鮮明な映像と臨場感のあるサウンドで、お気に入りのビデオのストリーミングやモバイルゲームを楽しめます。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;a href=&#34;https://amzn.to/2T4dbTB&#34;&gt;Sony WH-XB900N&lt;/a&gt; を Bluetooth 接続で聴いているが、手持ちの Pixel 3 XL に繋いだ場合と比較すると結構違う。
-そんなに大した耳を持ってるわけじゃないけど、低音がすごく心地良く響く感じ。&lt;/p&gt;
-&lt;p&gt;イコライザは以下のように設定している:&lt;/p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;2020-01-09_06-10-17_Screenshot_2020-01-08-01-02-47-757.jpeg&#34; data-caption=&#34;図1:  Dolby Audio のイコライザ設定&#34;&gt;
-&lt;img data-src=&#34;2020-01-09_06-10-17_Screenshot_2020-01-08-01-02-47-757.jpeg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    図1:  Dolby Audio のイコライザ設定
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
-&lt;p&gt;意外と音が良いので色々やりたくなってしまい、年末にセールしていた &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.square%5Fenix.android%5Fgoogleplay.FFT%5Fjp2&amp;amp;hl=ja&#34;&gt;FINAL FANTASY TACTICS 獅子戦争&lt;/a&gt; を買ってしまった。
-割と快適に動くので読書よりもゲームをやってしまう…。&lt;/p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;2020-01-09_08-36-49_Screenshot%20%282020_01_08%206_12_13%29.jpg&#34; data-caption=&#34;図2:  いつまでもゼクラス砂漠から出られない一行&#34;&gt;
-&lt;img data-src=&#34;2020-01-09_08-36-49_Screenshot%20%282020_01_08%206_12_13%29.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    図2:  いつまでもゼクラス砂漠から出られない一行
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
-&lt;p&gt;そんなわけで案外良かった Lenovo Tab M8 だがおかしな挙動もあり、
-まず &lt;strong&gt;再起動すると必ず「SDカードが見つからない」旨の通知が表示される&lt;/strong&gt; 。&lt;/p&gt;
-&lt;p&gt;そして、 &lt;strong&gt;スクリーンショットの動作が安定しない&lt;/strong&gt; 。上記の現象もスクリーンショットが保存できなかった。&lt;/p&gt;
-&lt;p&gt;一番うっとうしいのが、 &lt;strong&gt;横画面になる度に Lenovo Launcher が停止する&lt;/strong&gt; こと。停止する度にダイアログが出るので邪魔。
-とはいえ「アプリを閉じる」を選択してしまえば以降差し支えなく使用は可能。&lt;/p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;2020-01-08_06-36-20_Screenshot_2020-01-08-01-02-37-802.jpeg&#34; data-caption=&#34;図3:  横画面になる度に表示されるうっとうしいダイアログ&#34;&gt;
-&lt;img data-src=&#34;2020-01-08_06-36-20_Screenshot_2020-01-08-01-02-37-802.jpeg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    図3:  横画面になる度に表示されるうっとうしいダイアログ
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
-</description>
-    </item>
-    
-    <item>
-      <title>org-mode に Chrome で開いてるページへのリンクを貼りたい</title>
-      <link>https://www.yewton.net/2020/01/10/org-mode-web-link/</link>
-      <pubDate>Fri, 10 Jan 2020 00:00:00 +0900</pubDate>
-      <guid>https://www.yewton.net/2020/01/10/org-mode-web-link/</guid>
-      <description>&lt;p&gt;&lt;code&gt;org-mode&lt;/code&gt; のリンクマークアップはちょっと特殊で、エスケープの仕様も独特です。&lt;/p&gt;
-&lt;p&gt;また、  &lt;a href=&#34;https://code.orgmode.org/bzg/org-mode/src/release%5F9.3/etc/ORG-NEWS&#34;&gt;2019年の12月にリリースされたバージョン 9.3 で後方互換性の無い仕様変更が入る&lt;/a&gt; ということも有りました。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Version 9.3&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Incompatible changes&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Change bracket link escaping syntax
-Org used to percent-encode sensitive characters in the URI part of the bracket links.&lt;/p&gt;
-&lt;p&gt;Now, escaping mechanism uses the usual backslash character, according to the following rules, applied in order:&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-emacs-lisp&#34; data-lang=&#34;emacs-lisp&#34;&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;defun&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;org-link-unescape&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;link&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-  &lt;span class=&#34;s&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;Remove escaping backslash characters from string LINK.&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;&lt;/span&gt;
-  &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;replace-regexp-in-string&lt;/span&gt;
-   &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;rx&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;group&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;one-or-more&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;\\&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;or&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;string-end&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;any&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;[]&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-   &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;lambda&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;_&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-     &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;concat&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;make-string&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;/&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;match-end&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;match-beginning&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;sc&#34;&gt;?\\&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-   &lt;span class=&#34;nv&#34;&gt;link&lt;/span&gt; &lt;span class=&#34;no&#34;&gt;nil&lt;/span&gt; &lt;span class=&#34;no&#34;&gt;t&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;src-block-caption&#34;&gt;
-  &lt;span class=&#34;src-block-number&#34;&gt;ソースコード 1&lt;/span&gt;:
-  (参考) &lt;code&gt;org-mode&lt;/code&gt; 9.3 でのエスケープ実装
-&lt;/div&gt;
-&lt;p&gt;こういう背景もあり、 &lt;code&gt;org-mode&lt;/code&gt; の外で工夫して &lt;code&gt;org-mode&lt;/code&gt; 形式のリンクを生成するよりは、
-&lt;code&gt;org-mode&lt;/code&gt; 自体に任せてしまうのが安心です。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/rexim/org-cliplink&#34;&gt;org-cliplink&lt;/a&gt; というパッケージもありますが、これだとログインが必要なページへのリンクは
-(Basic 認証を設定していなければ)生成出来ません。&lt;/p&gt;
-&lt;p&gt;もっと手軽に、 Chrome で見ているページへのリンクを挿入する手段として、
-&lt;a href=&#34;https://github.com/ku/CreateLink&#34;&gt;CreateLink&lt;/a&gt; という Chrome 拡張機能を使う方法があります。&lt;/p&gt;
-&lt;p&gt;以下のように改行区切りでコピーするような設定を追加します:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;%text%%newline%%url%
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;CreateLink の &lt;code&gt;%text%&lt;/code&gt; は改行をスペースに変換する仕様になっているので、区切り文字として改行を利用するのは安全なハズです。&lt;/p&gt;
-&lt;p&gt;そして、以下のような独自関数を定義します:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-emacs-lisp&#34; data-lang=&#34;emacs-lisp&#34;&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;require&lt;/span&gt; &lt;span class=&#34;ss&#34;&gt;&amp;#39;s&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-
-&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;defun&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;ytn-org-insert-weblink&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-  &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;interactive&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-  &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;let*&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;pair&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;s-split&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;\n&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;with-temp-buffer&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;clipboard-yank&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;buffer-string&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-         &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;desc&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;first&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;pair&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-         &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;link&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;second&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;pair&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-    &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;insert&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;org-make-link-string&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;link&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;desc&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;単純に改行で区切って &lt;code&gt;org-make-link-string&lt;/code&gt; に渡すだけです。&lt;/p&gt;
-&lt;p&gt;これを、個人的には &lt;kbd&gt;M-L&lt;/kbd&gt; にアサインしています(&lt;a href=&#34;https://github.com/jwiegley/use-package&#34;&gt;use-package&lt;/a&gt; の &lt;code&gt;bind-key&lt;/code&gt; を利用しています):&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-emacs-lisp&#34; data-lang=&#34;emacs-lisp&#34;&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;bind-key&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;M-L&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;#&amp;#39;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;ytn-org-insert-weblink&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;org-mode-map&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;以上、ちょっとした小ネタでした。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>ブログ</title>
-      <link>https://www.yewton.net/blog/</link>
-      <pubDate>Tue, 07 Jan 2020 09:06:30 +0900</pubDate>
-      <guid>https://www.yewton.net/blog/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>オープン職務経歴書</title>
-      <link>https://www.yewton.net/cv/</link>
-      <pubDate>Tue, 07 Jan 2020 09:06:16 +0900</pubDate>
-      <guid>https://www.yewton.net/cv/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>#MadeWithAcademic</title>
-      <link>https://www.yewton.net/2020/01/06/made-with-academic/</link>
-      <pubDate>Mon, 06 Jan 2020 00:00:00 +0900</pubDate>
-      <guid>https://www.yewton.net/2020/01/06/made-with-academic/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/digitalcraftsman/hugo-icarus-theme&#34;&gt;Icarus&lt;/a&gt; がメンテされておらず Hugo 0.55.0 以降で正しく動かなくなっていたので、
-自力で Icarus にパッチを充てるか、別のテーマに乗り換えるかという選択を迫られていた。&lt;/p&gt;
-&lt;p&gt;せっかくなのでランディングページとブログを別にしたかったので、そういう柔軟性を備えている
-&lt;a href=&#34;https://sourcethemes.com/academic/&#34;&gt;Academic&lt;/a&gt; というテーマを使うことにした。&lt;/p&gt;
-&lt;p&gt;テーマの変更にあたって様々な知見が得られたので、そのうち記事にしたい。&lt;/p&gt;
-&lt;p&gt;以下その候補:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://gohugo.io/content-management/page-bundles/&#34;&gt;Page Bundles&lt;/a&gt; への移行&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://ox-hugo.scripter.co/doc/why-ox-hugo/&#34;&gt;ox-hugo&lt;/a&gt; と Academic が如何に相性がよいか
-&lt;ul&gt;
-&lt;li&gt;auto weight あたりが最高&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;lastmod&lt;/code&gt; の自動更新や &lt;a href=&#34;https://ox-hugo.scripter.co/doc/custom-front-matter/#front-matter-extra&#34;&gt;Front-matter Extra&lt;/a&gt; は Academic じゃなても最高の体験&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;カスタムウィジェットの作り方&lt;/li&gt;
-&lt;li&gt;ダークテーマ対応のシンタックスハイライトのやりかた&lt;/li&gt;
-&lt;li&gt;conf-toml-mode を &lt;a href=&#34;https://ox-hugo.scripter.co/doc/custom-front-matter/#front-matter-extra&#34;&gt;Front-matter Extra&lt;/a&gt; で使う方法&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>久々の更新</title>
-      <link>https://www.yewton.net/2020/01/02/happy-new-year/</link>
-      <pubDate>Thu, 02 Jan 2020 00:00:00 +0900</pubDate>
-      <guid>https://www.yewton.net/2020/01/02/happy-new-year/</guid>
-      <description>&lt;p&gt;最近仕事用のmacを新調して環境を作り直す機会があったことと、 2020 年が始まるということもあり、久々にサイトを更新することにした。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.yewton.net/cv/&#34;&gt;オープン職務経歴書&lt;/a&gt;を書きたかった、というのもある。&lt;/p&gt;
-&lt;p&gt;更新にあたっていくつか困難があった。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;まず、このサイトのソースが最近の Hugo では動かせなくなっていた。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;このサイトのテーマには &lt;a href=&#34;https://github.com/digitalcraftsman/hugo-icarus-theme&#34;&gt;Icarus&lt;/a&gt; を使わせていただいているのだが、最終更新が 2017 年となっており、
-Hugo 0.55.0 以降で動かなくなってしまっていたり、 Deprecated Warning が出るようになっていた。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/digitalcraftsman/hugo-icarus-theme/pull/124&#34;&gt;PRは出されている&lt;/a&gt; のだけれど、マージされる様子が無い。&lt;/p&gt;
-&lt;p&gt;そもそも、当時のバージョンに対してカスタマイズしたレイアウトを作ってしまったので、
-単純なテーマの更新だけでは追随できない。&lt;/p&gt;
-&lt;p&gt;どのバージョンなら動くのか突き止めるのも骨が折れた。
-&lt;a href=&#34;https://bitbucket.org/mgladdish/asdf-gohugo&#34;&gt;asdf-gohugo&lt;/a&gt; を入れて、少しずつバージョンを上げながら確認していった。&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;asdf plugin add hugo https://bitbucket.org/mgladdish/asdf-gohugo
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;そして、そもそも Hugo の使い方を忘れていた。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.yewton.net/2016/02/02/blog-with-hugo/&#34;&gt;Hugo 導入記事&lt;/a&gt; や &lt;a href=&#34;https://www.yewton.net/2016/01/26/hugo-el/&#34;&gt;Hugo 用 Emacs ライブラリ&lt;/a&gt; を書いておいてなんだが、当時から3年も経ってほとんど忘れてしまっていた。&lt;/p&gt;
-&lt;p&gt;そこで改めて調べてみると、イマドキは org-mode で書くことも出来るらしい。&lt;/p&gt;
-&lt;p&gt;この3年ですっかり org-mode 無しでは生きられない体になってしまっていたし、
-せっかくなので本記事からは &lt;a href=&#34;https://ox-hugo.scripter.co/&#34;&gt;ox-hugo&lt;/a&gt; を使って書くことにする。&lt;/p&gt;
-&lt;p&gt;使い始めるにあたって色々調べたり考えたりすることも多かったので、そのうち記事にしようと思う。
-結論としては、org-mode と Hugo の組み合わせは最高だし、その橋渡しをしてくれる &lt;a href=&#34;https://ox-hugo.scripter.co/&#34;&gt;ox-hugo&lt;/a&gt; は本当にグッジョブだということ。&lt;/p&gt;
-&lt;p&gt;&amp;hellip;&lt;/p&gt;
-&lt;p&gt;そんなこんなで色々対応していたものの、デプロイする仕組みなどは当時と変わりなく動いたのでその点は助かった。&lt;/p&gt;
-&lt;p&gt;org-mode で書けるようになったことだし、少しは記事を書いていきたい所だが、まずは Hugo の最新版に追従する作業が待っている…。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Nexus 7 2012 (grouper) に Beanstalk と ParrotMod を入れて蘇生する</title>
-      <link>https://www.yewton.net/2017/04/09/grouper-beanstalk/</link>
-      <pubDate>Sun, 09 Apr 2017 21:55:31 +0900</pubDate>
-      <guid>https://www.yewton.net/2017/04/09/grouper-beanstalk/</guid>
-      <description>&lt;p&gt;最近はじめて &lt;a href=&#34;http://amzn.to/2nXsSKh&#34;&gt;Fire タブレット&lt;/a&gt; をキャンペーンで購入して、
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>yewton.net</title><link>https://www.yewton.net/</link><atom:link href="https://www.yewton.net/index.xml" rel="self" type="application/rss+xml"/><description>yewton.net</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja-jp</language><copyright>© 2016-2020 yewton</copyright><lastBuildDate>Sat, 11 Jan 2020 00:00:00 +0900</lastBuildDate><image><url>https://www.yewton.net/img/icon.png</url><title>yewton.net</title><link>https://www.yewton.net/</link></image><item><title>Lenovo Tab M8 が案外良かった</title><link>https://www.yewton.net/2020/01/11/lenovo-tab-m8/</link><pubDate>Sat, 11 Jan 2020 00:00:00 +0900</pubDate><guid>https://www.yewton.net/2020/01/11/lenovo-tab-m8/</guid><description>&lt;p class="mylastmod">2020年1月12日 最終更新&lt;/p>
+&lt;p>さすがにもう &lt;a href="https://www.yewton.net/2017/04/09/grouper-beanstalk/">Nexus 7 2012&lt;/a> でやっていくのはしんどくなってきたので、手軽なタブレットを探していたら、
+2019 年の 11 月に Lenovo から &lt;a href="https://hb.afl.rakuten.co.jp/hgc/1a0d625b.bdb81d38.1a0d625c.bf0332b2/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbiccamera%2F4580550700484%2F&amp;amp;m=http%3A%2F%2Fm.rakuten.co.jp%2Fbiccamera%2Fi%2F12780179%2F&amp;amp;link%5Ftype=hybrid%5Furl&amp;amp;ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MCwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjB9">Lenovo Tab M8 (ZA5G0084JP)&lt;/a> が発売されていたのを知った。&lt;/p>
+&lt;p>2 万を切る価格で、 Android 9 、クアッドコアでメモリは 2 GB 、
+ディスプレイは 8.0 型ワイド IPS パネル (1280x800ドット)と、そこそこ使えそうなスペック。&lt;/p>
+&lt;p>ただストレージは 16GB と心許ないので、 microSD による拡張は必須(最大128GBまで)。
+自分はたまたま持ってた &lt;a href="https://amzn.to/2QJFCF8">SanDisk 製の microSDXC カード&lt;/a> を使っている。
+アプリ最適化対応じゃないので少々もっさりはするけれど、使えない程ではない。&lt;/p>
+&lt;p>電子書籍が読めればいいやというくらいの気持ちで購入したのだけれど、意外なことに &lt;strong>音がいい&lt;/strong> 。&lt;/p>
+&lt;p>確かに &lt;a href="https://www.lenovo.com/jp/ja/tablets/android-tablets/tab-series/Lenovo-Tab-M8-2nd-Gen-HD/p/ZZITZTATB58">公式サイト&lt;/a> には以下のようにあるけれども、正直期待していなかった。&lt;/p>
+&lt;blockquote>
+&lt;p>鮮やかでシームレスな映像表示を実現する狭額縁による高画面占有率83％のマルチタッチ対応の8.0型ワイドIPSパネル、ドルビーオーディオ対応のオーディオ機能を搭載。鮮明な映像と臨場感のあるサウンドで、お気に入りのビデオのストリーミングやモバイルゲームを楽しめます。&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;a href="https://amzn.to/2T4dbTB">Sony WH-XB900N&lt;/a> を Bluetooth 接続で聴いているが、手持ちの Pixel 3 XL に繋いだ場合と比較すると結構違う。
+そんなに大した耳を持ってるわけじゃないけど、低音がすごく心地良く響く感じ。&lt;/p>
+&lt;p>イコライザは以下のように設定している:&lt;/p>
+&lt;figure>
+&lt;a data-fancybox="" href="2020-01-09_06-10-17_Screenshot_2020-01-08-01-02-47-757.jpeg" data-caption="図1: Dolby Audio のイコライザ設定">
+&lt;img data-src="2020-01-09_06-10-17_Screenshot_2020-01-08-01-02-47-757.jpeg" class="lazyload" alt="" >&lt;/a>
+&lt;figcaption>
+図1: Dolby Audio のイコライザ設定
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>意外と音が良いので色々やりたくなってしまい、年末にセールしていた &lt;a href="https://play.google.com/store/apps/details?id=com.square%5Fenix.android%5Fgoogleplay.FFT%5Fjp2&amp;amp;hl=ja">FINAL FANTASY TACTICS 獅子戦争&lt;/a> を買ってしまった。
+割と快適に動くので読書よりもゲームをやってしまう…。&lt;/p>
+&lt;figure>
+&lt;a data-fancybox="" href="2020-01-09_08-36-49_Screenshot%20%282020_01_08%206_12_13%29.jpg" data-caption="図2: いつまでもゼクラス砂漠から出られない一行">
+&lt;img data-src="2020-01-09_08-36-49_Screenshot%20%282020_01_08%206_12_13%29.jpg" class="lazyload" alt="" >&lt;/a>
+&lt;figcaption>
+図2: いつまでもゼクラス砂漠から出られない一行
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>そんなわけで案外良かった Lenovo Tab M8 だがおかしな挙動もあり、
+まず &lt;strong>再起動すると必ず「SDカードが見つからない」旨の通知が表示される&lt;/strong> 。&lt;/p>
+&lt;p>そして、 &lt;strong>スクリーンショットの動作が安定しない&lt;/strong> 。上記の現象もスクリーンショットが保存できなかった。&lt;/p>
+&lt;p>一番うっとうしいのが、 &lt;strong>横画面になる度に Lenovo Launcher が停止する&lt;/strong> こと。停止する度にダイアログが出るので邪魔。
+とはいえ「アプリを閉じる」を選択してしまえば以降差し支えなく使用は可能。&lt;/p>
+&lt;figure>
+&lt;a data-fancybox="" href="2020-01-08_06-36-20_Screenshot_2020-01-08-01-02-37-802.jpeg" data-caption="図3: 横画面になる度に表示されるうっとうしいダイアログ">
+&lt;img data-src="2020-01-08_06-36-20_Screenshot_2020-01-08-01-02-37-802.jpeg" class="lazyload" alt="" >&lt;/a>
+&lt;figcaption>
+図3: 横画面になる度に表示されるうっとうしいダイアログ
+&lt;/figcaption>
+&lt;/figure>
+&lt;p class="featured-image-credit">
+Featured image background photo by
+&lt;a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &amp;quot;San Francisco&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Ubuntu, Roboto, Noto, &amp;quot;Segoe UI&amp;quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" href="https://unsplash.com/@estherrj?utm_medium=referral&amp;amp;utm_campaign=photographer-credit&amp;amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Esther Jiao">
+&lt;span style="display:inline-block;padding:2px 3px">
+&lt;svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32">
+&lt;title>unsplash-logo&lt;/title>
+&lt;path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z">&lt;/path>
+&lt;/svg>
+&lt;/span>
+&lt;span style="display:inline-block;padding:2px 3px"> Esther Jiao&lt;/span>
+&lt;/a>
+&lt;/p></description></item><item><title>org-mode に Chrome で開いてるページへのリンクを貼りたい</title><link>https://www.yewton.net/2020/01/10/org-mode-web-link/</link><pubDate>Fri, 10 Jan 2020 00:00:00 +0900</pubDate><guid>https://www.yewton.net/2020/01/10/org-mode-web-link/</guid><description>&lt;p>&lt;code>org-mode&lt;/code> のリンクマークアップはちょっと特殊で、エスケープの仕様も独特です。&lt;/p>
+&lt;p>また、 &lt;a href="https://code.orgmode.org/bzg/org-mode/src/release%5F9.3/etc/ORG-NEWS">2019年の12月にリリースされたバージョン 9.3 で後方互換性の無い仕様変更が入る&lt;/a> ということも有りました。&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;strong>Version 9.3&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Incompatible changes&lt;/strong>&lt;/p>
+&lt;p>Change bracket link escaping syntax
+Org used to percent-encode sensitive characters in the URI part of the bracket links.&lt;/p>
+&lt;p>Now, escaping mechanism uses the usual backslash character, according to the following rules, applied in order:&lt;/p>
+&lt;/blockquote>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-emacs-lisp" data-lang="emacs-lisp">&lt;span class="p">(&lt;/span>&lt;span class="nb">defun&lt;/span> &lt;span class="nv">org-link-unescape&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="nv">link&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;span class="s">&amp;#34;&lt;/span>&lt;span class="s">Remove escaping backslash characters from string LINK.&lt;/span>&lt;span class="s">&amp;#34;&lt;/span>
+&lt;span class="p">(&lt;/span>&lt;span class="nv">replace-regexp-in-string&lt;/span>
+&lt;span class="p">(&lt;/span>&lt;span class="nb">rx&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="nv">group&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="nv">one-or-more&lt;/span> &lt;span class="s">&amp;#34;&lt;/span>&lt;span class="s">\\&lt;/span>&lt;span class="s">&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="nb">or&lt;/span> &lt;span class="nv">string-end&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="nv">any&lt;/span> &lt;span class="s">&amp;#34;&lt;/span>&lt;span class="s">[]&lt;/span>&lt;span class="s">&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;span class="p">(&lt;/span>&lt;span class="nb">lambda&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="nv">_&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;span class="p">(&lt;/span>&lt;span class="nf">concat&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="nf">make-string&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="nf">/&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="nf">-&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="nf">match-end&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="nf">match-beginning&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="mi">2&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="sc">?\\&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;span class="nv">link&lt;/span> &lt;span class="no">nil&lt;/span> &lt;span class="no">t&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;div class="src-block-caption">
+&lt;span class="src-block-number">ソースコード 1&lt;/span>:
+(参考) &lt;code>org-mode&lt;/code> 9.3 でのエスケープ実装
+&lt;/div>
+&lt;p>こういう背景もあり、 &lt;code>org-mode&lt;/code> の外で工夫して &lt;code>org-mode&lt;/code> 形式のリンクを生成するよりは、
+&lt;code>org-mode&lt;/code> 自体に任せてしまうのが安心です。&lt;/p>
+&lt;p>&lt;a href="https://github.com/rexim/org-cliplink">org-cliplink&lt;/a> というパッケージもありますが、これだとログインが必要なページへのリンクは
+(Basic 認証を設定していなければ)生成出来ません。&lt;/p>
+&lt;p>もっと手軽に、 Chrome で見ているページへのリンクを挿入する手段として、
+&lt;a href="https://github.com/ku/CreateLink">CreateLink&lt;/a> という Chrome 拡張機能を使う方法があります。&lt;/p>
+&lt;p>以下のように改行区切りでコピーするような設定を追加します:&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-text" data-lang="text">%text%%newline%%url%
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>CreateLink の &lt;code>%text%&lt;/code> は改行をスペースに変換する仕様になっているので、区切り文字として改行を利用するのは安全なハズです。&lt;/p>
+&lt;p>そして、以下のような独自関数を定義します:&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-emacs-lisp" data-lang="emacs-lisp">&lt;span class="p">(&lt;/span>&lt;span class="nb">require&lt;/span> &lt;span class="ss">&amp;#39;s&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;span class="p">(&lt;/span>&lt;span class="nb">defun&lt;/span> &lt;span class="nv">ytn-org-insert-weblink&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;span class="p">(&lt;/span>&lt;span class="nb">interactive&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;span class="p">(&lt;/span>&lt;span class="nb">let*&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nv">pair&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="nv">s-split&lt;/span> &lt;span class="s">&amp;#34;&lt;/span>&lt;span class="s">\n&lt;/span>&lt;span class="s">&amp;#34;&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="nb">with-temp-buffer&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="nv">clipboard-yank&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="nf">buffer-string&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;span class="p">(&lt;/span>&lt;span class="nv">desc&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="nv">first&lt;/span> &lt;span class="nv">pair&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;span class="p">(&lt;/span>&lt;span class="nv">link&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="nv">second&lt;/span> &lt;span class="nv">pair&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;span class="p">(&lt;/span>&lt;span class="nf">insert&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="nv">org-make-link-string&lt;/span> &lt;span class="nv">link&lt;/span> &lt;span class="nv">desc&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>単純に改行で区切って &lt;code>org-make-link-string&lt;/code> に渡すだけです。&lt;/p>
+&lt;p>これを、個人的には &lt;kbd>M-L&lt;/kbd> にアサインしています(&lt;a href="https://github.com/jwiegley/use-package">use-package&lt;/a> の &lt;code>bind-key&lt;/code> を利用しています):&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-emacs-lisp" data-lang="emacs-lisp">&lt;span class="p">(&lt;/span>&lt;span class="nv">bind-key&lt;/span> &lt;span class="s">&amp;#34;&lt;/span>&lt;span class="s">M-L&lt;/span>&lt;span class="s">&amp;#34;&lt;/span> &lt;span class="nf">#&amp;#39;&lt;/span>&lt;span class="nv">ytn-org-insert-weblink&lt;/span> &lt;span class="nv">org-mode-map&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>以上、ちょっとした小ネタでした。&lt;/p></description></item><item><title>ブログ</title><link>https://www.yewton.net/blog/</link><pubDate>Tue, 07 Jan 2020 09:06:30 +0900</pubDate><guid>https://www.yewton.net/blog/</guid><description/></item><item><title>オープン職務経歴書</title><link>https://www.yewton.net/cv/</link><pubDate>Tue, 07 Jan 2020 09:06:16 +0900</pubDate><guid>https://www.yewton.net/cv/</guid><description/></item><item><title>#MadeWithAcademic</title><link>https://www.yewton.net/2020/01/06/made-with-academic/</link><pubDate>Mon, 06 Jan 2020 00:00:00 +0900</pubDate><guid>https://www.yewton.net/2020/01/06/made-with-academic/</guid><description>&lt;p>&lt;a href="https://github.com/digitalcraftsman/hugo-icarus-theme">Icarus&lt;/a> がメンテされておらず Hugo 0.55.0 以降で正しく動かなくなっていたので、
+自力で Icarus にパッチを充てるか、別のテーマに乗り換えるかという選択を迫られていた。&lt;/p>
+&lt;p>せっかくなのでランディングページとブログを別にしたかったので、そういう柔軟性を備えている
+&lt;a href="https://sourcethemes.com/academic/">Academic&lt;/a> というテーマを使うことにした。&lt;/p>
+&lt;p>テーマの変更にあたって様々な知見が得られたので、そのうち記事にしたい。&lt;/p>
+&lt;p>以下その候補:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://gohugo.io/content-management/page-bundles/">Page Bundles&lt;/a> への移行&lt;/li>
+&lt;li>&lt;a href="https://ox-hugo.scripter.co/doc/why-ox-hugo/">ox-hugo&lt;/a> と Academic が如何に相性がよいか
+&lt;ul>
+&lt;li>auto weight あたりが最高&lt;/li>
+&lt;li>&lt;code>lastmod&lt;/code> の自動更新や &lt;a href="https://ox-hugo.scripter.co/doc/custom-front-matter/#front-matter-extra">Front-matter Extra&lt;/a> は Academic じゃなても最高の体験&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>カスタムウィジェットの作り方&lt;/li>
+&lt;li>ダークテーマ対応のシンタックスハイライトのやりかた&lt;/li>
+&lt;li>conf-toml-mode を &lt;a href="https://ox-hugo.scripter.co/doc/custom-front-matter/#front-matter-extra">Front-matter Extra&lt;/a> で使う方法&lt;/li>
+&lt;/ul></description></item><item><title>久々の更新</title><link>https://www.yewton.net/2020/01/02/happy-new-year/</link><pubDate>Thu, 02 Jan 2020 00:00:00 +0900</pubDate><guid>https://www.yewton.net/2020/01/02/happy-new-year/</guid><description>&lt;p>最近仕事用のmacを新調して環境を作り直す機会があったことと、 2020 年が始まるということもあり、久々にサイトを更新することにした。&lt;/p>
+&lt;p>&lt;a href="https://www.yewton.net/cv/">オープン職務経歴書&lt;/a>を書きたかった、というのもある。&lt;/p>
+&lt;p>更新にあたっていくつか困難があった。&lt;/p>
+&lt;p>&lt;strong>まず、このサイトのソースが最近の Hugo では動かせなくなっていた。&lt;/strong>&lt;/p>
+&lt;p>このサイトのテーマには &lt;a href="https://github.com/digitalcraftsman/hugo-icarus-theme">Icarus&lt;/a> を使わせていただいているのだが、最終更新が 2017 年となっており、
+Hugo 0.55.0 以降で動かなくなってしまっていたり、 Deprecated Warning が出るようになっていた。&lt;/p>
+&lt;p>&lt;a href="https://github.com/digitalcraftsman/hugo-icarus-theme/pull/124">PRは出されている&lt;/a> のだけれど、マージされる様子が無い。&lt;/p>
+&lt;p>そもそも、当時のバージョンに対してカスタマイズしたレイアウトを作ってしまったので、
+単純なテーマの更新だけでは追随できない。&lt;/p>
+&lt;p>どのバージョンなら動くのか突き止めるのも骨が折れた。
+&lt;a href="https://bitbucket.org/mgladdish/asdf-gohugo">asdf-gohugo&lt;/a> を入れて、少しずつバージョンを上げながら確認していった。&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-sh" data-lang="sh">asdf plugin add hugo https://bitbucket.org/mgladdish/asdf-gohugo
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>そして、そもそも Hugo の使い方を忘れていた。&lt;/strong>&lt;/p>
+&lt;p>&lt;a href="https://www.yewton.net/2016/02/02/blog-with-hugo/">Hugo 導入記事&lt;/a> や &lt;a href="https://www.yewton.net/2016/01/26/hugo-el/">Hugo 用 Emacs ライブラリ&lt;/a> を書いておいてなんだが、当時から3年も経ってほとんど忘れてしまっていた。&lt;/p>
+&lt;p>そこで改めて調べてみると、イマドキは org-mode で書くことも出来るらしい。&lt;/p>
+&lt;p>この3年ですっかり org-mode 無しでは生きられない体になってしまっていたし、
+せっかくなので本記事からは &lt;a href="https://ox-hugo.scripter.co/">ox-hugo&lt;/a> を使って書くことにする。&lt;/p>
+&lt;p>使い始めるにあたって色々調べたり考えたりすることも多かったので、そのうち記事にしようと思う。
+結論としては、org-mode と Hugo の組み合わせは最高だし、その橋渡しをしてくれる &lt;a href="https://ox-hugo.scripter.co/">ox-hugo&lt;/a> は本当にグッジョブだということ。&lt;/p>
+&lt;p>&amp;hellip;&lt;/p>
+&lt;p>そんなこんなで色々対応していたものの、デプロイする仕組みなどは当時と変わりなく動いたのでその点は助かった。&lt;/p>
+&lt;p>org-mode で書けるようになったことだし、少しは記事を書いていきたい所だが、まずは Hugo の最新版に追従する作業が待っている…。&lt;/p></description></item><item><title>Nexus 7 2012 (grouper) に Beanstalk と ParrotMod を入れて蘇生する</title><link>https://www.yewton.net/2017/04/09/grouper-beanstalk/</link><pubDate>Sun, 09 Apr 2017 21:55:31 +0900</pubDate><guid>https://www.yewton.net/2017/04/09/grouper-beanstalk/</guid><description>&lt;p>最近はじめて &lt;a href="http://amzn.to/2nXsSKh">Fire タブレット&lt;/a> をキャンペーンで購入して、
 こういう本読むだけとか書い物するだけとかの単機能なタブレットも結構いいな、と思った。
-そして、うちに使ってない &lt;a href=&#34;http://amzn.to/2oSEwJK&#34;&gt;Nexus 7&lt;/a&gt; があることを思い出した。&lt;/p&gt;
-&lt;p&gt;この Nexus 7 、どうして使っていなかったかというと、
+そして、うちに使ってない &lt;a href="http://amzn.to/2oSEwJK">Nexus 7&lt;/a> があることを思い出した。&lt;/p>
+&lt;p>この Nexus 7 、どうして使っていなかったかというと、
 Lollipop にアップデートしてしまったから。
 Nexus 7 2012 は Lollipop にアップデートしてしまうと、
-動作が重過ぎて使い物にならなくなる。&lt;/p&gt;
-&lt;p&gt;どうせ使いものにならないなら、ということで
-&lt;a href=&#34;http://www.slimroms.net/&#34;&gt;SlimKat&lt;/a&gt; や
-&lt;a href=&#34;https://forum.xda-developers.com/nexus-7/development/unofficial-pure-nexus-project-layers-t3243943&#34;&gt;PureNexus&lt;/a&gt; を
+動作が重過ぎて使い物にならなくなる。&lt;/p>
+&lt;p>どうせ使いものにならないなら、ということで
+&lt;a href="http://www.slimroms.net/">SlimKat&lt;/a> や
+&lt;a href="https://forum.xda-developers.com/nexus-7/development/unofficial-pure-nexus-project-layers-t3243943">PureNexus&lt;/a> を
 焼いて使ってみたりもしたが、
 前者は軽いけど見た目や使用感がちょっと微妙( 4.4 ベースだし…)で、
-後者は使っていくうちにやっぱり重くなっていって駄目だった。&lt;/p&gt;
-&lt;p&gt;今回 Fire を買ってあらためて 7 インチの Android タブレットが欲しくなってしまったので、
-もう一度蘇生を試みることにした。&lt;/p&gt;
-&lt;p&gt;そして &lt;a href=&#34;https://www.reddit.com/r/Nexus7/comments/3h0oxg/recommended_fastlightweight_rom_for_2012_n7/&#34;&gt;Reddit のこのスレ&lt;/a&gt; を満つけ、
-そこから &lt;a href=&#34;https://teknovenus.com/speed-up-nexus-7-f2fs-slimkat-ghost/&#34;&gt;Speed up the Nexus 7 with F2FS and SlimKat&lt;/a&gt; という記事に辿り着いた。&lt;/p&gt;
-&lt;p&gt;元々は SlimKat と F2FS の記事だったようだが、2017 年に更新があり、
-&lt;a href=&#34;https://forum.xda-developers.com/nexus-7/development/rom-beanstalk-rom-t3312870&#34;&gt;Beanstalk 6.0.1&lt;/a&gt; と
-&lt;a href=&#34;https://forum.xda-developers.com/nexus-7/orig-development/parrotmod-speed-2012-nexus-7-emmc-fix-t3300416&#34;&gt;ParrotMod&lt;/a&gt; が
-勧められていた(執筆者自身は試していないようだったが)。&lt;/p&gt;
-&lt;h2 id=&#34;beanstalk&#34;&gt;Beanstalk&lt;/h2&gt;
-&lt;p&gt;CyanogenMod 13 (Marshmallow) をベースに作られたカスタム Rom 。
-&lt;a href=&#34;https://forum.xda-developers.com/galaxy-s3/development/rom-t3370186&#34;&gt;フォーラム&lt;/a&gt; の記述によると、&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Smoother than Butter&lt;br&gt;
-Friendly Battery&lt;br&gt;
-Tons of Features&lt;br&gt;
-DirtyUnicorns Features&lt;br&gt;
-Always Up-to-date&lt;br&gt;
-100% Build from Source&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;…らしい。&lt;/p&gt;
-&lt;h2 id=&#34;parrotmod&#34;&gt;ParrotMod&lt;/h2&gt;
-&lt;p&gt;Nexus 7 2012 をすげーいい感じにしてくれるやつ。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;FLASH MEMORY SPEED INCREASE! up to 4x better performance WITHOUT F2FS OR DYNAMIC FSYNC&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;という速度の向上を筆頭に、様々な最適化を行って快適にしてくれるようだ。&lt;/p&gt;
-&lt;h2 id=&#34;heading&#34;&gt;結果&lt;/h2&gt;
-&lt;p&gt;Amazon Kindle , YouTube 、Feedly , 1Password あたりを主に動かしているが、
+後者は使っていくうちにやっぱり重くなっていって駄目だった。&lt;/p>
+&lt;p>今回 Fire を買ってあらためて 7 インチの Android タブレットが欲しくなってしまったので、
+もう一度蘇生を試みることにした。&lt;/p>
+&lt;p>そして &lt;a href="https://www.reddit.com/r/Nexus7/comments/3h0oxg/recommended_fastlightweight_rom_for_2012_n7/">Reddit のこのスレ&lt;/a> を満つけ、
+そこから &lt;a href="https://teknovenus.com/speed-up-nexus-7-f2fs-slimkat-ghost/">Speed up the Nexus 7 with F2FS and SlimKat&lt;/a> という記事に辿り着いた。&lt;/p>
+&lt;p>元々は SlimKat と F2FS の記事だったようだが、2017 年に更新があり、
+&lt;a href="https://forum.xda-developers.com/nexus-7/development/rom-beanstalk-rom-t3312870">Beanstalk 6.0.1&lt;/a> と
+&lt;a href="https://forum.xda-developers.com/nexus-7/orig-development/parrotmod-speed-2012-nexus-7-emmc-fix-t3300416">ParrotMod&lt;/a> が
+勧められていた(執筆者自身は試していないようだったが)。&lt;/p>
+&lt;h2 id="beanstalk">Beanstalk&lt;/h2>
+&lt;p>CyanogenMod 13 (Marshmallow) をベースに作られたカスタム Rom 。
+&lt;a href="https://forum.xda-developers.com/galaxy-s3/development/rom-t3370186">フォーラム&lt;/a> の記述によると、&lt;/p>
+&lt;blockquote>
+&lt;p>Smoother than Butter&lt;br>
+Friendly Battery&lt;br>
+Tons of Features&lt;br>
+DirtyUnicorns Features&lt;br>
+Always Up-to-date&lt;br>
+100% Build from Source&lt;/p>
+&lt;/blockquote>
+&lt;p>…らしい。&lt;/p>
+&lt;h2 id="parrotmod">ParrotMod&lt;/h2>
+&lt;p>Nexus 7 2012 をすげーいい感じにしてくれるやつ。&lt;/p>
+&lt;blockquote>
+&lt;p>FLASH MEMORY SPEED INCREASE! up to 4x better performance WITHOUT F2FS OR DYNAMIC FSYNC&lt;/p>
+&lt;/blockquote>
+&lt;p>という速度の向上を筆頭に、様々な最適化を行って快適にしてくれるようだ。&lt;/p>
+&lt;h2 id="heading">結果&lt;/h2>
+&lt;p>Amazon Kindle , YouTube 、Feedly , 1Password あたりを主に動かしているが、
 アプリ起動時にたまに固まることがあるものの、大抵一度タスクキルして起動し直せば問題なく動作している。
-娯楽用途としては十分な性能になった。&lt;/p&gt;
-&lt;p&gt;もし、使わなくなった Nexus 7 2012 がご家庭に眠っているのなら、
-Beanstalk と ParrotMod を試してみる価値はアリだと思う。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Atlassian から無料でTシャツをもらう方法、あるいはドラゴンの倒し方</title>
-      <link>https://www.yewton.net/2016/09/03/how-to-get-atlassian-dragon-slayer-t-shirt/</link>
-      <pubDate>Sat, 03 Sep 2016 15:34:07 +0900</pubDate>
-      <guid>https://www.yewton.net/2016/09/03/how-to-get-atlassian-dragon-slayer-t-shirt/</guid>
-      <description>&lt;p&gt;仕事で Atlassian 製品を使っていて、個人的にも便利なタスク・ドキュメント管理に欲しいな、と思い、
-&lt;a href=&#34;https://ja.atlassian.com/licensing/starter#aboutthestarterprogram-8&#34;&gt;Atlassian のスターターライセンスについてのドキュメント&lt;/a&gt;を読んでいた。&lt;/p&gt;
-&lt;p&gt;すると気になるフレーズが目に入った。 &lt;strong&gt;「ドラゴンズレアとは何ですか？」&lt;/strong&gt; ──&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;6 つのスターター ライセンスの統合スイートをセットアップすると素晴らしい結果になりますが、セットアップ手順は複雑で時間がかかります。アトラシアンでは、アトラシアン アプリケーション スイートを統合するため方法をドラゴンズレアという説明書にまとめました。また、この困難だけれども素晴らしい旅を完了された方全員向けに、限定版アトラシアン ドラゴン スレイヤー T シャツを提供しています。今すぐ冒険を始めましょう! 勇気がある方はドラゴンに立ち向かいましょう!&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;せっかくもらえるもんなら、とドラゴン退治をすることにした。&lt;/p&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    &lt;p&gt;&lt;strong&gt;2017/1/20 時点の注意&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;どうやら現在、 &lt;strong&gt;Tシャツを要求するためのページが 404 になってしまっている&lt;/strong&gt; ようす
+娯楽用途としては十分な性能になった。&lt;/p>
+&lt;p>もし、使わなくなった Nexus 7 2012 がご家庭に眠っているのなら、
+Beanstalk と ParrotMod を試してみる価値はアリだと思う。&lt;/p></description></item><item><title>Atlassian から無料でTシャツをもらう方法、あるいはドラゴンの倒し方</title><link>https://www.yewton.net/2016/09/03/how-to-get-atlassian-dragon-slayer-t-shirt/</link><pubDate>Sat, 03 Sep 2016 15:34:07 +0900</pubDate><guid>https://www.yewton.net/2016/09/03/how-to-get-atlassian-dragon-slayer-t-shirt/</guid><description>&lt;p>仕事で Atlassian 製品を使っていて、個人的にも便利なタスク・ドキュメント管理に欲しいな、と思い、
+&lt;a href="https://ja.atlassian.com/licensing/starter#aboutthestarterprogram-8">Atlassian のスターターライセンスについてのドキュメント&lt;/a>を読んでいた。&lt;/p>
+&lt;p>すると気になるフレーズが目に入った。 &lt;strong>「ドラゴンズレアとは何ですか？」&lt;/strong> ──&lt;/p>
+&lt;blockquote>
+&lt;p>6 つのスターター ライセンスの統合スイートをセットアップすると素晴らしい結果になりますが、セットアップ手順は複雑で時間がかかります。アトラシアンでは、アトラシアン アプリケーション スイートを統合するため方法をドラゴンズレアという説明書にまとめました。また、この困難だけれども素晴らしい旅を完了された方全員向けに、限定版アトラシアン ドラゴン スレイヤー T シャツを提供しています。今すぐ冒険を始めましょう! 勇気がある方はドラゴンに立ち向かいましょう!&lt;/p>
+&lt;/blockquote>
+&lt;p>せっかくもらえるもんなら、とドラゴン退治をすることにした。&lt;/p>
+&lt;div class="alert alert-note">
+&lt;div>
+&lt;p>&lt;strong>2017/1/20 時点の注意&lt;/strong>&lt;/p>
+&lt;p>どうやら現在、 &lt;strong>Tシャツを要求するためのページが 404 になってしまっている&lt;/strong> ようす
 (
-&lt;a href=&#34;https://answers.atlassian.com/questions/43114478/dragon-slayed-but-cant-get-t-shirt&#34;&gt;Dragon slayed, but can&#39;t get t-shirt? - Atlassian Answers&lt;/a&gt; )
-。&lt;/p&gt;
-&lt;p&gt;せっかくやってもTシャツはもらえないかもしれないので注意。&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    &lt;p&gt;&lt;strong&gt;2017/2/5 時点の情報&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;どうやらサイトが復旧したようす
-&lt;a href=&#34;https://www.atlassian.com/you-slayed-the-dragon&#34;&gt;You Slayed the Dragon | Atlassian&lt;/a&gt;&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;h2 id=&#34;heading&#34;&gt;環境要件&lt;/h2&gt;
-&lt;p&gt;ドキュメントには「最低 3 GB の RAM と 500 MB のアプリケーションファイル用の空き容量」とある。&lt;/p&gt;
-&lt;p&gt;しかし、実際にやってみたところ 3 GB では全てのアプリケーションを立ち上げることが出来なかった。
+&lt;a href="https://answers.atlassian.com/questions/43114478/dragon-slayed-but-cant-get-t-shirt">Dragon slayed, but can't get t-shirt? - Atlassian Answers&lt;/a> )
+。&lt;/p>
+&lt;p>せっかくやってもTシャツはもらえないかもしれないので注意。&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;div class="alert alert-note">
+&lt;div>
+&lt;p>&lt;strong>2017/2/5 時点の情報&lt;/strong>&lt;/p>
+&lt;p>どうやらサイトが復旧したようす
+&lt;a href="https://www.atlassian.com/you-slayed-the-dragon">You Slayed the Dragon | Atlassian&lt;/a>&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;h2 id="heading">環境要件&lt;/h2>
+&lt;p>ドキュメントには「最低 3 GB の RAM と 500 MB のアプリケーションファイル用の空き容量」とある。&lt;/p>
+&lt;p>しかし、実際にやってみたところ 3 GB では全てのアプリケーションを立ち上げることが出来なかった。
 最終的に 6 つのアプリケーションを稼動させることになるのだが、 5 つが限界だった。
-&lt;strong&gt;最低 RAM は 4 GB は必要&lt;/strong&gt; だと思う。&lt;/p&gt;
-&lt;p&gt;またディスク容量に関しては、まっさらな環境に諸々構築したあとの総使用量が 6 GB 程だった。
-こちらも &lt;strong&gt;最低ストレージは 10 GB は必要&lt;/strong&gt; だと思う。&lt;/p&gt;
-&lt;p&gt;自分は &lt;a href=&#34;https://cloud.google.com/&#34;&gt;Google Cloud Platform&lt;/a&gt; を利用して構築した。
-Google Compute Engine の &lt;code&gt;vCPU x 1&lt;/code&gt; (メモリ 3.75 GB)の標準インスタンスを使ったが、
-前述の通りメモリが足りなくなってしまったので、 &lt;code&gt;vCPU x 2&lt;/code&gt; (メモリ 7.5 GB)のインスタンスを使う方がよいと思う。&lt;/p&gt;
-&lt;p&gt;OS は &lt;strong&gt;Debian GNU/Linux 8 (jessie)&lt;/strong&gt; を使用した。&lt;/p&gt;
-&lt;h2 id=&#34;here-be-dragons&#34;&gt;Here Be Dragons&lt;/h2&gt;
-&lt;p&gt;それでは &lt;a href=&#34;https://confluence.atlassian.com/display/ATLAS/Here+Be+Dragons&#34;&gt;ドキュメント&lt;/a&gt; に従って冒険を始めよう。&lt;/p&gt;
-&lt;p&gt;基本的には書かれてある通りにやればいいだけなのだが、いくつか自分が躓いたポイントがあるので紹介していきたい。&lt;/p&gt;
-&lt;h3 id=&#34;dragons-stage-1---install-jirahttpsconfluenceatlassiancomdisplayatlasdragonsstage1-installjira&#34;&gt;&lt;a href=&#34;https://confluence.atlassian.com/display/ATLAS/Dragons+Stage+1+-+Install+JIRA&#34;&gt;Dragons Stage 1 - Install JIRA&lt;/a&gt;&lt;/h3&gt;
-&lt;h4 id=&#34;step-1-install-java&#34;&gt;Step 1. Install Java&lt;/h4&gt;
-&lt;p&gt;まず Java を用意しなければならないのだが、なんと &lt;strong&gt;Oracle JDK 1.7.x&lt;/strong&gt; でなければならない。
-&lt;a href=&#34;http://www.oracle.com/technetwork/jp/java/eol-135779-ja.html&#34;&gt;1.7 系はすでにサポートが終了している&lt;/a&gt;のだが、
-このクエストではこのバージョンしか想定していないようなので、大人しく従っておく。&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;wget --header &lt;span class=&#34;s2&#34;&gt;&amp;#34;Cookie: oraclelicense=accept-securebackup-cookie&amp;#34;&lt;/span&gt; http://download.oracle.com/otn-pub/java/jdk/7u79-b15/jdk-7u79-linux-x64.tar.gz
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Debian で Oracle Java を利用するには [JavaPackage - Debian Wiki](&lt;a href=&#34;https://wiki.debian.org/JavaPackage&#34;&gt;https://wiki.debian.org/JavaPackage&lt;/a&gt; &amp;ldquo;JavaPackage -
-Debian Wiki&amp;rdquo;) にあるような作業が必要になる。&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;sudo sed -i &lt;span class=&#34;s1&#34;&gt;&amp;#39;s/deb http:\/\/httpredir.debian.org\/debian\/ jessie main/deb http:\/\/httpredir.debian.org\/debian\/jessie main contrib/&amp;#39;&lt;/span&gt; /etc/apt/sources.list
-sudo apt-get update -y &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; sudo apt-get install -y libgl1-mesa-glx libfontconfig1 libxslt1.1 libxtst6 libxxf86vm1 libgtk2.0-0 java-package
+&lt;strong>最低 RAM は 4 GB は必要&lt;/strong> だと思う。&lt;/p>
+&lt;p>またディスク容量に関しては、まっさらな環境に諸々構築したあとの総使用量が 6 GB 程だった。
+こちらも &lt;strong>最低ストレージは 10 GB は必要&lt;/strong> だと思う。&lt;/p>
+&lt;p>自分は &lt;a href="https://cloud.google.com/">Google Cloud Platform&lt;/a> を利用して構築した。
+Google Compute Engine の &lt;code>vCPU x 1&lt;/code> (メモリ 3.75 GB)の標準インスタンスを使ったが、
+前述の通りメモリが足りなくなってしまったので、 &lt;code>vCPU x 2&lt;/code> (メモリ 7.5 GB)のインスタンスを使う方がよいと思う。&lt;/p>
+&lt;p>OS は &lt;strong>Debian GNU/Linux 8 (jessie)&lt;/strong> を使用した。&lt;/p>
+&lt;h2 id="here-be-dragons">Here Be Dragons&lt;/h2>
+&lt;p>それでは &lt;a href="https://confluence.atlassian.com/display/ATLAS/Here+Be+Dragons">ドキュメント&lt;/a> に従って冒険を始めよう。&lt;/p>
+&lt;p>基本的には書かれてある通りにやればいいだけなのだが、いくつか自分が躓いたポイントがあるので紹介していきたい。&lt;/p>
+&lt;h3 id="dragons-stage-1---install-jirahttpsconfluenceatlassiancomdisplayatlasdragonsstage1-installjira">&lt;a href="https://confluence.atlassian.com/display/ATLAS/Dragons+Stage+1+-+Install+JIRA">Dragons Stage 1 - Install JIRA&lt;/a>&lt;/h3>
+&lt;h4 id="step-1-install-java">Step 1. Install Java&lt;/h4>
+&lt;p>まず Java を用意しなければならないのだが、なんと &lt;strong>Oracle JDK 1.7.x&lt;/strong> でなければならない。
+&lt;a href="http://www.oracle.com/technetwork/jp/java/eol-135779-ja.html">1.7 系はすでにサポートが終了している&lt;/a>のだが、
+このクエストではこのバージョンしか想定していないようなので、大人しく従っておく。&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">wget --header &lt;span class="s2">&amp;#34;Cookie: oraclelicense=accept-securebackup-cookie&amp;#34;&lt;/span> http://download.oracle.com/otn-pub/java/jdk/7u79-b15/jdk-7u79-linux-x64.tar.gz
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Debian で Oracle Java を利用するには [JavaPackage - Debian Wiki](&lt;a href="https://wiki.debian.org/JavaPackage">https://wiki.debian.org/JavaPackage&lt;/a> &amp;ldquo;JavaPackage -
+Debian Wiki&amp;rdquo;) にあるような作業が必要になる。&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">sudo sed -i &lt;span class="s1">&amp;#39;s/deb http:\/\/httpredir.debian.org\/debian\/ jessie main/deb http:\/\/httpredir.debian.org\/debian\/jessie main contrib/&amp;#39;&lt;/span> /etc/apt/sources.list
+sudo apt-get update -y &lt;span class="o">&amp;amp;&amp;amp;&lt;/span> sudo apt-get install -y libgl1-mesa-glx libfontconfig1 libxslt1.1 libxtst6 libxxf86vm1 libgtk2.0-0 java-package
 make-jpkg jdk-7u79-linux-x64.tar.gz
 sudo dpkg -i oracle-java7-jdk_7u79_amd64.deb
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;step-2-install-your-postgresql-database-server&#34;&gt;Step 2. Install your PostgreSQL Database Server&lt;/h4&gt;
-&lt;p&gt;こちらも &lt;strong&gt;8.4.x.&lt;/strong&gt; というバージョン指定がある。
-Java と同様に既に &lt;a href=&#34;https://www.postgresql.org/support/versioning/&#34;&gt;サポート終了&lt;/a&gt; しているため、
+&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="step-2-install-your-postgresql-database-server">Step 2. Install your PostgreSQL Database Server&lt;/h4>
+&lt;p>こちらも &lt;strong>8.4.x.&lt;/strong> というバージョン指定がある。
+Java と同様に既に &lt;a href="https://www.postgresql.org/support/versioning/">サポート終了&lt;/a> しているため、
 Debian のリポジトリでは配布されていない。
-そのため、リポジトリを追加してからインストールする必要がある。&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;sudo sh -c &lt;span class=&#34;s1&#34;&gt;&amp;#39;echo &amp;#34;deb http://apt.postgresql.org/pub/repos/apt/ $(lsb_release -cs)-pgdg main&amp;#34; &amp;gt; /etc/apt/sources.list.d/pgdg.list&amp;#39;&lt;/span&gt;
-wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; sudo apt-key add -
-sudo apt-get update -y &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; sudo apt-get upgrade -y &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; sudo apt-get install -y postgresql-8.4
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;step-3-create-your-jira-database-in-postgresql&#34;&gt;Step 3. Create your JIRA Database in PostgreSQL&lt;/h4&gt;
-&lt;p&gt;Atlassian 製品はデータベースとして MySQL や PostgreSQL を利用出来る。
-ただ、日本語や絵文字などマルチバイト文字を扱う場合は PostgresSQL を使うのが無難なようだ( &lt;a href=&#34;https://confluence.atlassian.com/jirakb/jira-does-not-work-with-emoji-4-byte-characters-429919955.html&#34;&gt;参考&lt;/a&gt; )。&lt;/p&gt;
-&lt;p&gt;個人的にあまり馴染みがないのだけれど、このドラゴンズレアでも PostgreSQL が指定されているので従っておく。&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;sudo -u postgres createuser -S -d -r -P -E jirauser
-&lt;span class=&#34;c1&#34;&gt;# パスワード入力&lt;/span&gt;
+そのため、リポジトリを追加してからインストールする必要がある。&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">sudo sh -c &lt;span class="s1">&amp;#39;echo &amp;#34;deb http://apt.postgresql.org/pub/repos/apt/ $(lsb_release -cs)-pgdg main&amp;#34; &amp;gt; /etc/apt/sources.list.d/pgdg.list&amp;#39;&lt;/span>
+wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc &lt;span class="p">|&lt;/span> sudo apt-key add -
+sudo apt-get update -y &lt;span class="o">&amp;amp;&amp;amp;&lt;/span> sudo apt-get upgrade -y &lt;span class="o">&amp;amp;&amp;amp;&lt;/span> sudo apt-get install -y postgresql-8.4
+&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="step-3-create-your-jira-database-in-postgresql">Step 3. Create your JIRA Database in PostgreSQL&lt;/h4>
+&lt;p>Atlassian 製品はデータベースとして MySQL や PostgreSQL を利用出来る。
+ただ、日本語や絵文字などマルチバイト文字を扱う場合は PostgresSQL を使うのが無難なようだ( &lt;a href="https://confluence.atlassian.com/jirakb/jira-does-not-work-with-emoji-4-byte-characters-429919955.html">参考&lt;/a> )。&lt;/p>
+&lt;p>個人的にあまり馴染みがないのだけれど、このドラゴンズレアでも PostgreSQL が指定されているので従っておく。&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">sudo -u postgres createuser -S -d -r -P -E jirauser
+&lt;span class="c1"># パスワード入力&lt;/span>
 sudo -u postgres createdb --owner jirauser --encoding utf8 jira
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;step-4-install-jira&#34;&gt;Step 4. Install JIRA&lt;/h4&gt;
-&lt;p&gt;JIRA のバージョンも指定されている。 &lt;strong&gt;6.3.15&lt;/strong&gt; を使う必要がある。&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;wget https://www.atlassian.com/software/jira/downloads/binary/atlassian-jira-6.3.15-x64.bin
+&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="step-4-install-jira">Step 4. Install JIRA&lt;/h4>
+&lt;p>JIRA のバージョンも指定されている。 &lt;strong>6.3.15&lt;/strong> を使う必要がある。&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">wget https://www.atlassian.com/software/jira/downloads/binary/atlassian-jira-6.3.15-x64.bin
 chmod a+x atlassian-jira-6.3.15-x64.bin
 sudo ./atlassian-jira-6.3.15-x64.bin
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;JIRA にはインストーラーがついているので簡単。&lt;/p&gt;
-&lt;h3 id=&#34;step-5-set-up-jira-step-6-set-up-a-project-and-create-your-jira-dashboard&#34;&gt;Step 5. Set Up JIRA, Step 6. Set up a Project and Create your JIRA Dashboard&lt;/h3&gt;
-&lt;p&gt;あとはドキュメントに従って Web UI 上で操作を行えばよい。&lt;/p&gt;
-&lt;p&gt;もしかすると、以下のようなよく分からないエラーに遭遇するかもしれない。&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;let.ServletException: javax.servlet.jsp.JspTagException: Soy rendering failed for template &#39;%s&#39;.
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>JIRA にはインストーラーがついているので簡単。&lt;/p>
+&lt;h3 id="step-5-set-up-jira-step-6-set-up-a-project-and-create-your-jira-dashboard">Step 5. Set Up JIRA, Step 6. Set up a Project and Create your JIRA Dashboard&lt;/h3>
+&lt;p>あとはドキュメントに従って Web UI 上で操作を行えばよい。&lt;/p>
+&lt;p>もしかすると、以下のようなよく分からないエラーに遭遇するかもしれない。&lt;/p>
+&lt;pre>&lt;code>let.ServletException: javax.servlet.jsp.JspTagException: Soy rendering failed for template '%s'.
 説明 The server encountered an internal error that prevented it from fulfilling this request.
-
 例外
-
-org.apache.jasper.JasperException: javax.servlet.ServletException: javax.servlet.jsp.JspTagException: Soy rendering failed for template &#39;%s&#39;.
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;環境依存なのか、言語を日本語にしていた影響なのか分からないが、エラーが発生したらブラウザをリロードすれば大体直っていた。&lt;/p&gt;
-&lt;h3 id=&#34;dragons-stage-2---jira-add-onshttpsconfluenceatlassiancomdisplayatlasdragonsstage2-jiraadd-ons&#34;&gt;&lt;a href=&#34;https://confluence.atlassian.com/display/ATLAS/Dragons+Stage+2+-+JIRA+Add-Ons&#34;&gt;Dragons Stage 2 - JIRA Add-Ons&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;ドキュメントに従うだけで特に問題はないが、 Capture for JIRA を動かそうとしたときに以下のエラーが出ていた。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Your Bonfire license has expired. Please visit My Atlassian to renew&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;ボンファイアとはなんのこったい、と思ったのだが、どうやら Capture for JIRA のことらしい。
+org.apache.jasper.JasperException: javax.servlet.ServletException: javax.servlet.jsp.JspTagException: Soy rendering failed for template '%s'.
+&lt;/code>&lt;/pre>&lt;p>環境依存なのか、言語を日本語にしていた影響なのか分からないが、エラーが発生したらブラウザをリロードすれば大体直っていた。&lt;/p>
+&lt;h3 id="dragons-stage-2---jira-add-onshttpsconfluenceatlassiancomdisplayatlasdragonsstage2-jiraadd-ons">&lt;a href="https://confluence.atlassian.com/display/ATLAS/Dragons+Stage+2+-+JIRA+Add-Ons">Dragons Stage 2 - JIRA Add-Ons&lt;/a>&lt;/h3>
+&lt;p>ドキュメントに従うだけで特に問題はないが、 Capture for JIRA を動かそうとしたときに以下のエラーが出ていた。&lt;/p>
+&lt;blockquote>
+&lt;p>Your Bonfire license has expired. Please visit My Atlassian to renew&lt;/p>
+&lt;/blockquote>
+&lt;p>ボンファイアとはなんのこったい、と思ったのだが、どうやら Capture for JIRA のことらしい。
 インストール後のアクティベーションが正常に終わっていなかったようだった。
-改めて管理画面から評価用ラインセンスを払い出してことなきを得た。&lt;/p&gt;
-&lt;h3 id=&#34;dragons-stage-3---install-confluencehttpsconfluenceatlassiancomdisplayatlasdragonsstage3-installconfluence&#34;&gt;&lt;a href=&#34;https://confluence.atlassian.com/display/ATLAS/Dragons+Stage+3+-+Install+Confluence&#34;&gt;Dragons Stage 3 - Install Confluence&lt;/a&gt;&lt;/h3&gt;
-&lt;h4 id=&#34;step-1-create-your-confluence-database-in-postgresql&#34;&gt;Step 1. Create your Confluence Database in PostgreSQL&lt;/h4&gt;
-&lt;p&gt;JIRA のときと同様に行う。&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;sudo -u postgres createuser -S -d -r -P -E confuser
+改めて管理画面から評価用ラインセンスを払い出してことなきを得た。&lt;/p>
+&lt;h3 id="dragons-stage-3---install-confluencehttpsconfluenceatlassiancomdisplayatlasdragonsstage3-installconfluence">&lt;a href="https://confluence.atlassian.com/display/ATLAS/Dragons+Stage+3+-+Install+Confluence">Dragons Stage 3 - Install Confluence&lt;/a>&lt;/h3>
+&lt;h4 id="step-1-create-your-confluence-database-in-postgresql">Step 1. Create your Confluence Database in PostgreSQL&lt;/h4>
+&lt;p>JIRA のときと同様に行う。&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">sudo -u postgres createuser -S -d -r -P -E confuser
 sudo -u postgres createdb --owner confuser --encoding utf8 confluence
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;step-2-install-confluence&#34;&gt;Step 2. Install Confluence&lt;/h4&gt;
-&lt;p&gt;インストールまでは以下の通り:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;wget https://www.atlassian.com/software/confluence/downloads/binary/atlassian-confluence-5.7.1-x64.bin
+&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="step-2-install-confluence">Step 2. Install Confluence&lt;/h4>
+&lt;p>インストールまでは以下の通り:&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">wget https://www.atlassian.com/software/confluence/downloads/binary/atlassian-confluence-5.7.1-x64.bin
 chmod a+x atlassian-confluence-5.7.1-x64.bin
 sudo ./atlassian-confluence-5.7.1-x64.bin
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;この後、&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Because Confluence will be running on the same machine as JIRA (already installed), you need to ensure that the URL paths are different for Confluence and JIRA.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;という理由で設定ファイルを一部いじる必要がある。
-以下のように一旦 Confluence を停止、設定を修正して再起動する:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;sudo /opt/atlassian/confluence/bin/stop-confluence.sh
-sudo sed -i &lt;span class=&#34;s1&#34;&gt;&amp;#39;s/&amp;lt;Context path=&amp;#34;&amp;#34;/&amp;lt;Context path=&amp;#34;\/confluence&amp;#34;/&amp;#39;&lt;/span&gt; /opt/atlassian/confluence/conf/server.xml
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>この後、&lt;/p>
+&lt;blockquote>
+&lt;p>Because Confluence will be running on the same machine as JIRA (already installed), you need to ensure that the URL paths are different for Confluence and JIRA.&lt;/p>
+&lt;/blockquote>
+&lt;p>という理由で設定ファイルを一部いじる必要がある。
+以下のように一旦 Confluence を停止、設定を修正して再起動する:&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">sudo /opt/atlassian/confluence/bin/stop-confluence.sh
+sudo sed -i &lt;span class="s1">&amp;#39;s/&amp;lt;Context path=&amp;#34;&amp;#34;/&amp;lt;Context path=&amp;#34;\/confluence&amp;#34;/&amp;#39;&lt;/span> /opt/atlassian/confluence/conf/server.xml
 sudo /opt/atlassian/confluence/bin/start-confluence.sh
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;step-3-&#34;&gt;Step 3 以降&lt;/h4&gt;
-&lt;p&gt;ドキュメントに従って進めれば問題ないはず。&lt;/p&gt;
-&lt;h3 id=&#34;dragons-stage-4---install-team-calendars-in-confluencehttpsconfluenceatlassiancomdisplayatlasdragonsstage4-installteamcalendarsinconfluence&#34;&gt;&lt;a href=&#34;https://confluence.atlassian.com/display/ATLAS/Dragons+Stage+4+-+Install+Team+Calendars+in+Confluence&#34;&gt;Dragons Stage 4 - Install Team Calendars in Confluence&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;ドキュメントに従って Web UI を操作すれば 👌 。&lt;/p&gt;
-&lt;h3 id=&#34;dragons-stage-5---install-fisheye-and-cruciblehttpsconfluenceatlassiancomdisplayatlasdragonsstage5-installfisheyeandcrucible&#34;&gt;&lt;a href=&#34;https://confluence.atlassian.com/display/ATLAS/Dragons+Stage+5+-+Install+FishEye+and+Crucible&#34;&gt;Dragons Stage 5 - Install FishEye and Crucible&lt;/a&gt;&lt;/h3&gt;
-&lt;h4 id=&#34;step-1-install-mercurial&#34;&gt;Step 1. Install Mercurial&lt;/h4&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;sudo apt-get -y install mercurial
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;step-2-create-your-fisheye-database-in-postgresql&#34;&gt;Step 2. Create your FishEye Database in PostgreSQL&lt;/h4&gt;
-&lt;p&gt;これまでと同様に行う:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;sudo -u postgres createuser -S -d -r -P -E fishuser
+&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="step-3-">Step 3 以降&lt;/h4>
+&lt;p>ドキュメントに従って進めれば問題ないはず。&lt;/p>
+&lt;h3 id="dragons-stage-4---install-team-calendars-in-confluencehttpsconfluenceatlassiancomdisplayatlasdragonsstage4-installteamcalendarsinconfluence">&lt;a href="https://confluence.atlassian.com/display/ATLAS/Dragons+Stage+4+-+Install+Team+Calendars+in+Confluence">Dragons Stage 4 - Install Team Calendars in Confluence&lt;/a>&lt;/h3>
+&lt;p>ドキュメントに従って Web UI を操作すれば 👌 。&lt;/p>
+&lt;h3 id="dragons-stage-5---install-fisheye-and-cruciblehttpsconfluenceatlassiancomdisplayatlasdragonsstage5-installfisheyeandcrucible">&lt;a href="https://confluence.atlassian.com/display/ATLAS/Dragons+Stage+5+-+Install+FishEye+and+Crucible">Dragons Stage 5 - Install FishEye and Crucible&lt;/a>&lt;/h3>
+&lt;h4 id="step-1-install-mercurial">Step 1. Install Mercurial&lt;/h4>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">sudo apt-get -y install mercurial
+&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="step-2-create-your-fisheye-database-in-postgresql">Step 2. Create your FishEye Database in PostgreSQL&lt;/h4>
+&lt;p>これまでと同様に行う:&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">sudo -u postgres createuser -S -d -r -P -E fishuser
 sudo -u postgres createdb --owner fishuser --encoding utf8 fisheye
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;step-3-install-fisheye-and-crucible&#34;&gt;Step 3. Install FishEye and Crucible&lt;/h4&gt;
-&lt;p&gt;インストーラーが無いので若干手順が複雑になる。&lt;/p&gt;
-&lt;p&gt;まず必要なファイルをダウンロードして展開する:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;wget https://www.atlassian.com/software/fisheye/downloads/binary/fisheye-3.7.0.zip
+&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="step-3-install-fisheye-and-crucible">Step 3. Install FishEye and Crucible&lt;/h4>
+&lt;p>インストーラーが無いので若干手順が複雑になる。&lt;/p>
+&lt;p>まず必要なファイルをダウンロードして展開する:&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">wget https://www.atlassian.com/software/fisheye/downloads/binary/fisheye-3.7.0.zip
 sudo unzip -d /opt/atlassian/ fisheye-3.7.0.zip
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;アプリケーションのデータディレクトリを作成する。
-他のアプリケーションに合わせて &lt;code&gt;/var/atlassian/application-data/fecru&lt;/code&gt; にする:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;sudo mkdir /var/atlassian/application-data/fecru
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;code&gt;FISHEYE_INST&lt;/code&gt; という環境変数が上記のデータディレクトリを指すようにする:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;sudo sh -c &lt;span class=&#34;s1&#34;&gt;&amp;#39;echo &amp;#34;export FISHEYE_INST=/var/atlassian/application-data/fecru&amp;#34; &amp;gt; /etc/profile.d/fecru.sh&amp;#39;&lt;/span&gt;
-&lt;span class=&#34;nb&#34;&gt;source&lt;/span&gt; /etc/profile.d/fecru.sh
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;設定ファイルを一部修正しつつ配置する:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;sudo cp /opt/atlassian/fecru-3.7.0/config.xml /var/atlassian/application-data/fecru/
-sudo sed -i &lt;span class=&#34;s1&#34;&gt;&amp;#39;s/&amp;lt;web-server&amp;gt;/&amp;lt;web-server context=&amp;#34;\/fisheye&amp;#34;&amp;gt;/&amp;#39;&lt;/span&gt; /var/atlassian/application-data/fecru/config.xml
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Fecru サービスを稼動させるためのユーザーを作成する:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;sudo useradd -m -c &lt;span class=&#34;s1&#34;&gt;&amp;#39;Atlassian FishEye/Crucible&amp;#39;&lt;/span&gt; fecru
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;権限を適切に修正し、サービスを立ち上げる:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;sudo chown fecru -R /opt/atlassian/fecru-3.7.0/
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>アプリケーションのデータディレクトリを作成する。
+他のアプリケーションに合わせて &lt;code>/var/atlassian/application-data/fecru&lt;/code> にする:&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">sudo mkdir /var/atlassian/application-data/fecru
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;code>FISHEYE_INST&lt;/code> という環境変数が上記のデータディレクトリを指すようにする:&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">sudo sh -c &lt;span class="s1">&amp;#39;echo &amp;#34;export FISHEYE_INST=/var/atlassian/application-data/fecru&amp;#34; &amp;gt; /etc/profile.d/fecru.sh&amp;#39;&lt;/span>
+&lt;span class="nb">source&lt;/span> /etc/profile.d/fecru.sh
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>設定ファイルを一部修正しつつ配置する:&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">sudo cp /opt/atlassian/fecru-3.7.0/config.xml /var/atlassian/application-data/fecru/
+sudo sed -i &lt;span class="s1">&amp;#39;s/&amp;lt;web-server&amp;gt;/&amp;lt;web-server context=&amp;#34;\/fisheye&amp;#34;&amp;gt;/&amp;#39;&lt;/span> /var/atlassian/application-data/fecru/config.xml
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Fecru サービスを稼動させるためのユーザーを作成する:&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">sudo useradd -m -c &lt;span class="s1">&amp;#39;Atlassian FishEye/Crucible&amp;#39;&lt;/span> fecru
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>権限を適切に修正し、サービスを立ち上げる:&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">sudo chown fecru -R /opt/atlassian/fecru-3.7.0/
 sudo chown fecru -R /var/atlassian/application-data/fecru/
-nohup sudo -u fecru /opt/atlassian/fecru-3.7.0/bin/run.sh &lt;span class=&#34;p&#34;&gt;&amp;amp;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;本来は systemd とかでちゃんとサービス化した方がいいと思う 😟&lt;/p&gt;
-&lt;h4 id=&#34;step-4-&#34;&gt;Step 4 以降&lt;/h4&gt;
-&lt;p&gt;ドキュメントに従えば 👌&lt;/p&gt;
-&lt;h3 id=&#34;dragons-stage-6---get-jira-and-fisheye-talkinghttpsconfluenceatlassiancomdisplayatlasdragonsstage6-getjiraandfisheyetalking&#34;&gt;&lt;a href=&#34;https://confluence.atlassian.com/display/ATLAS/Dragons+Stage+6+-+Get+JIRA+and+FishEye+Talking&#34;&gt;Dragons Stage 6 - Get JIRA and FishEye Talking&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;https://confluence.atlassian.com/display/ATLAS/Dragons+Stage+6+-+Get+JIRA+and+FishEye+Talking?focusedCommentId=844238014#comment-844238014&#34;&gt;このコメント&lt;/a&gt;
+nohup sudo -u fecru /opt/atlassian/fecru-3.7.0/bin/run.sh &lt;span class="p">&amp;amp;&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>本来は systemd とかでちゃんとサービス化した方がいいと思う 😟&lt;/p>
+&lt;h4 id="step-4-">Step 4 以降&lt;/h4>
+&lt;p>ドキュメントに従えば 👌&lt;/p>
+&lt;h3 id="dragons-stage-6---get-jira-and-fisheye-talkinghttpsconfluenceatlassiancomdisplayatlasdragonsstage6-getjiraandfisheyetalking">&lt;a href="https://confluence.atlassian.com/display/ATLAS/Dragons+Stage+6+-+Get+JIRA+and+FishEye+Talking">Dragons Stage 6 - Get JIRA and FishEye Talking&lt;/a>&lt;/h3>
+&lt;p>&lt;a href="https://confluence.atlassian.com/display/ATLAS/Dragons+Stage+6+-+Get+JIRA+and+FishEye+Talking?focusedCommentId=844238014#comment-844238014">このコメント&lt;/a>
 にあるように、恐らく FishEye の Site URL を設定してからでないと JIRA リンクが上手く動かないので、
-まず FishEye 上で Administration -&amp;gt; Global Settings -&amp;gt; Server から Site URL を設定しておく。&lt;/p&gt;
-&lt;p&gt;あとはドキュメントの手順通り設定を行えばよい。&lt;/p&gt;
-&lt;h3 id=&#34;dragons-stage-7---get-jira-and-crucible-talkinghttpsconfluenceatlassiancomdisplayatlasdragonsstage7-getjiraandcrucibletalking&#34;&gt;&lt;a href=&#34;https://confluence.atlassian.com/display/ATLAS/Dragons+Stage+7+-+Get+JIRA+and+Crucible+Talking&#34;&gt;Dragons Stage 7 - Get JIRA and Crucible Talking&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;ドキュメントの通りで 🆗&lt;/p&gt;
-&lt;h3 id=&#34;dragons-stage-8---install-bamboohttpsconfluenceatlassiancomdisplayatlasdragonsstage8-installbamboo&#34;&gt;&lt;a href=&#34;https://confluence.atlassian.com/display/ATLAS/Dragons+Stage+8+-+Install+Bamboo&#34;&gt;Dragons Stage 8 - Install Bamboo&lt;/a&gt;&lt;/h3&gt;
-&lt;h4 id=&#34;step-1-create-your-bamboo-database-in-postgresql&#34;&gt;Step 1. Create your Bamboo Database in PostgreSQL&lt;/h4&gt;
-&lt;p&gt;これまでと同様:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;sudo -u postgres createuser -S -d -r -P -E bamuser
+まず FishEye 上で Administration -&amp;gt; Global Settings -&amp;gt; Server から Site URL を設定しておく。&lt;/p>
+&lt;p>あとはドキュメントの手順通り設定を行えばよい。&lt;/p>
+&lt;h3 id="dragons-stage-7---get-jira-and-crucible-talkinghttpsconfluenceatlassiancomdisplayatlasdragonsstage7-getjiraandcrucibletalking">&lt;a href="https://confluence.atlassian.com/display/ATLAS/Dragons+Stage+7+-+Get+JIRA+and+Crucible+Talking">Dragons Stage 7 - Get JIRA and Crucible Talking&lt;/a>&lt;/h3>
+&lt;p>ドキュメントの通りで 🆗&lt;/p>
+&lt;h3 id="dragons-stage-8---install-bamboohttpsconfluenceatlassiancomdisplayatlasdragonsstage8-installbamboo">&lt;a href="https://confluence.atlassian.com/display/ATLAS/Dragons+Stage+8+-+Install+Bamboo">Dragons Stage 8 - Install Bamboo&lt;/a>&lt;/h3>
+&lt;h4 id="step-1-create-your-bamboo-database-in-postgresql">Step 1. Create your Bamboo Database in PostgreSQL&lt;/h4>
+&lt;p>これまでと同様:&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">sudo -u postgres createuser -S -d -r -P -E bamuser
 sudo -u postgres createdb --owner bamuser --encoding utf8 bamboo
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;step-2-install-bamboo&#34;&gt;Step 2. Install Bamboo&lt;/h4&gt;
-&lt;p&gt;Fecru と同様にこちらもインストーラーが無いので複雑な手順が必要になる:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;sudo -u postgres createuser -S -d -r -P -E bamuser
+&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="step-2-install-bamboo">Step 2. Install Bamboo&lt;/h4>
+&lt;p>Fecru と同様にこちらもインストーラーが無いので複雑な手順が必要になる:&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">sudo -u postgres createuser -S -d -r -P -E bamuser
 sudo -u postgres createdb --owner bamuser --encoding utf8 bamboo
 wget https://www.atlassian.com/software/bamboo/downloads/binary/atlassian-bamboo-5.3.tar.gz
-sudo useradd -m -c &lt;span class=&#34;s1&#34;&gt;&amp;#39;Atlassian Bamboo&amp;#39;&lt;/span&gt; bamboo
+sudo useradd -m -c &lt;span class="s1">&amp;#39;Atlassian Bamboo&amp;#39;&lt;/span> bamboo
 sudo tar -C /opt/atlassian -zxvf atlassian-bamboo-5.3.tar.gz
 sudo chown bamboo -R /opt/atlassian/atlassian-bamboo-5.3
-sudo sh -c &lt;span class=&#34;s1&#34;&gt;&amp;#39;echo &amp;#34;bamboo.home=/home/bamboo&amp;#34; &amp;gt; /opt/atlassian/atlassian-bamboo-5.3/atlassian-bamboo/WEB-INF/classes/bamboo-init.properties&amp;#39;&lt;/span&gt;
-sudo sed -i &lt;span class=&#34;s1&#34;&gt;&amp;#39;s/&amp;lt;Context path=&amp;#34;&amp;#34;/&amp;lt;Context path=&amp;#34;\/bamboo&amp;#34;/&amp;#39;&lt;/span&gt; /opt/atlassian/atlassian-bamboo-5.3/conf/server.xml
+sudo sh -c &lt;span class="s1">&amp;#39;echo &amp;#34;bamboo.home=/home/bamboo&amp;#34; &amp;gt; /opt/atlassian/atlassian-bamboo-5.3/atlassian-bamboo/WEB-INF/classes/bamboo-init.properties&amp;#39;&lt;/span>
+sudo sed -i &lt;span class="s1">&amp;#39;s/&amp;lt;Context path=&amp;#34;&amp;#34;/&amp;lt;Context path=&amp;#34;\/bamboo&amp;#34;/&amp;#39;&lt;/span> /opt/atlassian/atlassian-bamboo-5.3/conf/server.xml
 sudo -u bamboo /opt/atlassian/atlassian-bamboo-5.3/bin/start-bamboo.sh
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;step-3-set-up-bamboo&#34;&gt;Step 3. Set Up Bamboo&lt;/h4&gt;
-&lt;p&gt;まず Maven 3 の環境を整える必要がある。
+&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="step-3-set-up-bamboo">Step 3. Set Up Bamboo&lt;/h4>
+&lt;p>まず Maven 3 の環境を整える必要がある。
 ドキュメントの指示通
 り
-&lt;a href=&#34;https://developer.atlassian.com/display/DOCS/Set+up+the+Atlassian+Plugin+SDK+and+Build+a+Project&#34;&gt;Atlassian Plugin SDK&lt;/a&gt;
-をインストールする:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;sudo sh -c &lt;span class=&#34;s1&#34;&gt;&amp;#39;echo &amp;#34;deb https://sdkrepo.atlassian.com/debian/ stable contrib&amp;#34; &amp;gt; /etc/apt/sources.list.d/atlassian.list&amp;#39;&lt;/span&gt;
+&lt;a href="https://developer.atlassian.com/display/DOCS/Set+up+the+Atlassian+Plugin+SDK+and+Build+a+Project">Atlassian Plugin SDK&lt;/a>
+をインストールする:&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">sudo sh -c &lt;span class="s1">&amp;#39;echo &amp;#34;deb https://sdkrepo.atlassian.com/debian/ stable contrib&amp;#34; &amp;gt; /etc/apt/sources.list.d/atlassian.list&amp;#39;&lt;/span>
 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys B07804338C015B73
 sudo apt-get install -y apt-transport-https
 sudo apt-get -y update
 sudo apt-get install -y atlassian-plugin-sdk
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;あとはドキュメント通りに進めればよいが、
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>あとはドキュメント通りに進めればよいが、
 Maven Executable のパスを指定する箇所は
-&lt;code&gt;/usr/share/atlassian-plugin-sdk-6.2.9/apache-maven-3.2.1&lt;/code&gt; のように
-指定しなければならない(ドキュメントには &lt;code&gt;/usr/local/Atlassian/atlassian-plugin-sdk/apache-maven&lt;/code&gt; とあるがそこには無い)。&lt;/p&gt;
-&lt;h3 id=&#34;dragons-stage-9---bamboo-gadgets-and-jira-victoryhttpsconfluenceatlassiancomdisplayatlasdragonsstage9-bamboogadgetsandjiravictory&#34;&gt;&lt;a href=&#34;https://confluence.atlassian.com/display/ATLAS/Dragons+Stage+9+-+Bamboo+Gadgets+and+JIRA+Victory&#34;&gt;Dragons Stage 9 - Bamboo Gadgets and JIRA Victory&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;ドキュメントの指示通り JIRA に Bamboo ガジェットを追加すれば完了。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;The Battle is Won, the Dragon is Slain!&lt;/strong&gt;&lt;/p&gt;
-&lt;h2 id=&#34;t&#34;&gt;Tシャツを要求する&lt;/h2&gt;
-&lt;p&gt;ページの指示通りやると、クーポンコードがもらえるので、
-それを使って注文すればいい。&lt;/p&gt;
-&lt;p&gt;自分の注文情報はこんな感じ:&lt;/p&gt;
-&lt;iframe src=&#34;https://drive.google.com/file/d/0B4XWl5W7tB7IcFRKdlhFTnpZV2s/preview&#34; width=&#34;640&#34; height=&#34;480&#34;&gt;&lt;/iframe&gt;
-&lt;p&gt;注文してから 1〜2 週間で届くらしい。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>三ヶ月以上ぶりに何かを書く</title>
-      <link>https://www.yewton.net/2016/08/29/misc/</link>
-      <pubDate>Mon, 29 Aug 2016 22:29:35 +0900</pubDate>
-      <guid>https://www.yewton.net/2016/08/29/misc/</guid>
-      <description>&lt;p&gt;前回の更新から三ヶ月以上経ってしまった。
-月日が経つのは早いものだ。&lt;/p&gt;
-&lt;p&gt;まとめたいことがいくつかあるので、まとめておく。&lt;/p&gt;
-&lt;h2 id=&#34;atlassian-t&#34;&gt;Atlassian からTシャツをタダでもらう方法&lt;/h2&gt;
-&lt;p&gt;Atlassian の製品のセットアップを公式ドキュメントに従って行うとTシャツが貰える。&lt;/p&gt;
-&lt;p&gt;実際もらえたのでやり方をまとめたい。&lt;/p&gt;
-&lt;h2 id=&#34;-wiki--google-sites-&#34;&gt;無料のプライベート Wiki は Google Sites が最強な気がする&lt;/h2&gt;
-&lt;p&gt;Atlassian の構築はそもそも個人的に家庭で Confluence 的なのを使いたかったので手を出したものだった。&lt;/p&gt;
-&lt;p&gt;とはいえ金がかかるのでいい方法は無いかと探していたら、 Google Sites に辿りついた。&lt;/p&gt;
-&lt;h2 id=&#34;org-publish--web-&#34;&gt;&lt;code&gt;org-publish&lt;/code&gt; で気軽に Web サイトを作る&lt;/h2&gt;
-&lt;p&gt;無料のプライベート Wiki を探している過程で org-publish にも手を出した。&lt;/p&gt;
-&lt;p&gt;プライベートにするのが面倒だったので諦めたけれど、
-org-mode で書いた内容を、見た目もほぼそのまま公開出来るというのは便利かもしれないのでまとめたい。&lt;/p&gt;
-&lt;h2 id=&#34;helm--ivy-&#34;&gt;helm から ivy に移行したい&lt;/h2&gt;
-&lt;p&gt;helm が活発過ぎて周辺エコシステムが付いていけないとか、
-ivy の方が軽量でよいとかいう話を聞くので、 ivy に移行してみたい。&lt;/p&gt;
-&lt;p&gt;ヘビーに helm 使ってるわけでないので、さくっと乗り換えたい気持ち。&lt;/p&gt;
-&lt;h2 id=&#34;ifttt-do-button--slack-&#34;&gt;IFTTT Do Button で定型文を Slack に投稿する&lt;/h2&gt;
-&lt;p&gt;普通に使ってると、IFTTT はひとつの Slack Team としか連携出来ないので、
-MAKE をアクションにして Web Hook でどうにかした話をまとめたい。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Spacemacs から helm と persp-mode の設定をパクろうと思ったけど難しかった</title>
-      <link>https://www.yewton.net/2016/05/04/helm-persp/</link>
-      <pubDate>Wed, 04 May 2016 19:45:26 +0900</pubDate>
-      <guid>https://www.yewton.net/2016/05/04/helm-persp/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/syl20bnr/spacemacs/blob/master/layers/%2Bwindow-management/spacemacs-layouts/funcs.el&#34;&gt;この辺&lt;/a&gt; を参考にせよ、
-と persp-mode 公式に書いてあったので、パクれそうかやってみた。&lt;/p&gt;
-&lt;p&gt;結論としては、出来なかった。
-なので、 併せて記載されていた &lt;a href=&#34;https://gist.github.com/Bad-ptr/304ada85c9ba15013303&#34;&gt;こっち&lt;/a&gt; の設定を使う状態のまま。&lt;/p&gt;
-&lt;p&gt;Spacemacs の設定は、 Spacemacs 独自のステートの概念(Vimmer が喜ぶやつ)と密接に関連しているようで、
-素の Emacs に組込むのは骨が折れそうだった。&lt;/p&gt;
-&lt;p&gt;そもそも何で Spacemacs の設定をパクろうとしていたかというと、
-後者の設定だと、 &lt;code&gt;C-x b&lt;/code&gt; したときに前のバッファが選択されずに
+&lt;code>/usr/share/atlassian-plugin-sdk-6.2.9/apache-maven-3.2.1&lt;/code> のように
+指定しなければならない(ドキュメントには &lt;code>/usr/local/Atlassian/atlassian-plugin-sdk/apache-maven&lt;/code> とあるがそこには無い)。&lt;/p>
+&lt;h3 id="dragons-stage-9---bamboo-gadgets-and-jira-victoryhttpsconfluenceatlassiancomdisplayatlasdragonsstage9-bamboogadgetsandjiravictory">&lt;a href="https://confluence.atlassian.com/display/ATLAS/Dragons+Stage+9+-+Bamboo+Gadgets+and+JIRA+Victory">Dragons Stage 9 - Bamboo Gadgets and JIRA Victory&lt;/a>&lt;/h3>
+&lt;p>ドキュメントの指示通り JIRA に Bamboo ガジェットを追加すれば完了。&lt;/p>
+&lt;p>&lt;strong>The Battle is Won, the Dragon is Slain!&lt;/strong>&lt;/p>
+&lt;h2 id="t">Tシャツを要求する&lt;/h2>
+&lt;p>ページの指示通りやると、クーポンコードがもらえるので、
+それを使って注文すればいい。&lt;/p>
+&lt;p>自分の注文情報はこんな感じ:&lt;/p>
+&lt;iframe src="https://drive.google.com/file/d/0B4XWl5W7tB7IcFRKdlhFTnpZV2s/preview" width="640" height="480">&lt;/iframe>
+&lt;p>注文してから 1〜2 週間で届くらしい。&lt;/p></description></item><item><title>三ヶ月以上ぶりに何かを書く</title><link>https://www.yewton.net/2016/08/29/misc/</link><pubDate>Mon, 29 Aug 2016 22:29:35 +0900</pubDate><guid>https://www.yewton.net/2016/08/29/misc/</guid><description>&lt;p>前回の更新から三ヶ月以上経ってしまった。
+月日が経つのは早いものだ。&lt;/p>
+&lt;p>まとめたいことがいくつかあるので、まとめておく。&lt;/p>
+&lt;h2 id="atlassian-t">Atlassian からTシャツをタダでもらう方法&lt;/h2>
+&lt;p>Atlassian の製品のセットアップを公式ドキュメントに従って行うとTシャツが貰える。&lt;/p>
+&lt;p>実際もらえたのでやり方をまとめたい。&lt;/p>
+&lt;h2 id="-wiki--google-sites-">無料のプライベート Wiki は Google Sites が最強な気がする&lt;/h2>
+&lt;p>Atlassian の構築はそもそも個人的に家庭で Confluence 的なのを使いたかったので手を出したものだった。&lt;/p>
+&lt;p>とはいえ金がかかるのでいい方法は無いかと探していたら、 Google Sites に辿りついた。&lt;/p>
+&lt;h2 id="org-publish--web-">&lt;code>org-publish&lt;/code> で気軽に Web サイトを作る&lt;/h2>
+&lt;p>無料のプライベート Wiki を探している過程で org-publish にも手を出した。&lt;/p>
+&lt;p>プライベートにするのが面倒だったので諦めたけれど、
+org-mode で書いた内容を、見た目もほぼそのまま公開出来るというのは便利かもしれないのでまとめたい。&lt;/p>
+&lt;h2 id="helm--ivy-">helm から ivy に移行したい&lt;/h2>
+&lt;p>helm が活発過ぎて周辺エコシステムが付いていけないとか、
+ivy の方が軽量でよいとかいう話を聞くので、 ivy に移行してみたい。&lt;/p>
+&lt;p>ヘビーに helm 使ってるわけでないので、さくっと乗り換えたい気持ち。&lt;/p>
+&lt;h2 id="ifttt-do-button--slack-">IFTTT Do Button で定型文を Slack に投稿する&lt;/h2>
+&lt;p>普通に使ってると、IFTTT はひとつの Slack Team としか連携出来ないので、
+MAKE をアクションにして Web Hook でどうにかした話をまとめたい。&lt;/p></description></item><item><title>Spacemacs から helm と persp-mode の設定をパクろうと思ったけど難しかった</title><link>https://www.yewton.net/2016/05/04/helm-persp/</link><pubDate>Wed, 04 May 2016 19:45:26 +0900</pubDate><guid>https://www.yewton.net/2016/05/04/helm-persp/</guid><description>&lt;p>&lt;a href="https://github.com/syl20bnr/spacemacs/blob/master/layers/%2Bwindow-management/spacemacs-layouts/funcs.el">この辺&lt;/a> を参考にせよ、
+と persp-mode 公式に書いてあったので、パクれそうかやってみた。&lt;/p>
+&lt;p>結論としては、出来なかった。
+なので、 併せて記載されていた &lt;a href="https://gist.github.com/Bad-ptr/304ada85c9ba15013303">こっち&lt;/a> の設定を使う状態のまま。&lt;/p>
+&lt;p>Spacemacs の設定は、 Spacemacs 独自のステートの概念(Vimmer が喜ぶやつ)と密接に関連しているようで、
+素の Emacs に組込むのは骨が折れそうだった。&lt;/p>
+&lt;p>そもそも何で Spacemacs の設定をパクろうとしていたかというと、
+後者の設定だと、 &lt;code>C-x b&lt;/code> したときに前のバッファが選択されずに
 現在のバッファが選択された状態になるのが違和感があったから、だった。
-素の Emacs では単に &lt;code&gt;C-x b RET&lt;/code&gt; としたときは、前のバッファに戻るという挙動になる。
+素の Emacs では単に &lt;code>C-x b RET&lt;/code> としたときは、前のバッファに戻るという挙動になる。
 もしかしたら Spacemacs では元の挙動を再現した実装になっているのかもしれない、
-と思って見てみたが、前述の通り失敗に終わった。&lt;/p&gt;
-&lt;p&gt;persp-mode では、直前のバッファが現在のパースペクティブに含まれているとは限らないから、仕方ないのかな…。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>『いけにえと雪のセツナ』感想</title>
-      <link>https://www.yewton.net/2016/05/04/setsuna/</link>
-      <pubDate>Wed, 04 May 2016 16:10:11 +0900</pubDate>
-      <guid>https://www.yewton.net/2016/05/04/setsuna/</guid>
-      <description>&lt;p&gt;この間 Amazon で『いけにえと雪のセツナ』が 2,000 円だったので買ってみた。&lt;/p&gt;
-&lt;p&gt;曰く、「あの頃、みんなRPGに夢中だった。
+と思って見てみたが、前述の通り失敗に終わった。&lt;/p>
+&lt;p>persp-mode では、直前のバッファが現在のパースペクティブに含まれているとは限らないから、仕方ないのかな…。&lt;/p></description></item><item><title>『いけにえと雪のセツナ』感想</title><link>https://www.yewton.net/2016/05/04/setsuna/</link><pubDate>Wed, 04 May 2016 16:10:11 +0900</pubDate><guid>https://www.yewton.net/2016/05/04/setsuna/</guid><description>&lt;p>この間 Amazon で『いけにえと雪のセツナ』が 2,000 円だったので買ってみた。&lt;/p>
+&lt;p>曰く、「あの頃、みんなRPGに夢中だった。
 当時遊んだ数多のRPGは、今もぼくたちの記憶に強く残っている。
 パーティ編成、街での買い物、ダンジョン攻略、ギリギリで倒した強敵たち。
-そして、エンディングで流した涙－。名作たちが与えてくれた感動は、今もなお色褪せない。とりもどそう、ぼくたちのRPG。」&lt;/p&gt;
-&lt;p&gt;…凄い売り文句だ。&lt;/p&gt;
-&lt;p&gt;バトルシステムはあのクロノ・トリガーをベースにしているらしい。
+そして、エンディングで流した涙－。名作たちが与えてくれた感動は、今もなお色褪せない。とりもどそう、ぼくたちのRPG。」&lt;/p>
+&lt;p>…凄い売り文句だ。&lt;/p>
+&lt;p>バトルシステムはあのクロノ・トリガーをベースにしているらしい。
 否が応にも期待値が高まる謳い文句だ。
-高まりすぎて不安になる。&lt;/p&gt;
-&lt;p&gt;ネットのレビューを見てみると、やっぱりその期待値とのギャップに落胆している人が多いように見受けられた。
+高まりすぎて不安になる。&lt;/p>
+&lt;p>ネットのレビューを見てみると、やっぱりその期待値とのギャップに落胆している人が多いように見受けられた。
 個人的には、単体のゲームとしてみればすごく楽しかったし、確かに荒削りな部分もあったけれど、
-今後に大いに期待したくなる内容だったと思う。&lt;/p&gt;
-&lt;p&gt;Tokyo RPG Factory は、こういう意欲的な作品を今後も是非リリースしていって欲しい。
-いちユーザーとしてそう強く願う。&lt;/p&gt;
-&lt;p&gt;個人的にプレイしていて色々と思うところがあったので、まとめておきたくなったのでまとめる。
-ネタバレ全開。&lt;/p&gt;
-&lt;h2 id=&#34;heading&#34;&gt;(開発者の)制限プレイ&lt;/h2&gt;
-&lt;p&gt;なんといっても本作、雪国しか出てこない。&lt;/p&gt;
-&lt;p&gt;本当にずーっと雪景色で、たまに古代遺跡の石畳を見るくらい。
-プレイ時間の大部分は白い画面と向きあうことになる。&lt;/p&gt;
-&lt;p&gt;さらに、音楽はピアノオンリーである。
+今後に大いに期待したくなる内容だったと思う。&lt;/p>
+&lt;p>Tokyo RPG Factory は、こういう意欲的な作品を今後も是非リリースしていって欲しい。
+いちユーザーとしてそう強く願う。&lt;/p>
+&lt;p>個人的にプレイしていて色々と思うところがあったので、まとめておきたくなったのでまとめる。
+ネタバレ全開。&lt;/p>
+&lt;h2 id="heading">(開発者の)制限プレイ&lt;/h2>
+&lt;p>なんといっても本作、雪国しか出てこない。&lt;/p>
+&lt;p>本当にずーっと雪景色で、たまに古代遺跡の石畳を見るくらい。
+プレイ時間の大部分は白い画面と向きあうことになる。&lt;/p>
+&lt;p>さらに、音楽はピアノオンリーである。
 さすがにバトルシーンでは多少パーカッションやベースが入ったりもするが、ピアノが常にメインとなる。
-ピアノフォルテの面目躍如といったところ。&lt;/p&gt;
-&lt;p&gt;こういう制限のなかで、いかに面白く見せられるか、というところに挑戦する姿勢が、
+ピアノフォルテの面目躍如といったところ。&lt;/p>
+&lt;p>こういう制限のなかで、いかに面白く見せられるか、というところに挑戦する姿勢が、
 ファミコン時代の同時発色数4色、音は3音+ノイズだけだったころと通じるものを感じた。
 やっぱり、日本人は限られたリソースの中で工夫してよいものを作るっていうのが、
 得意とするところなんじゃないかなぁ、などと日本人観に思いを馳せてみたりもした。
 舞台が雪国っていう中で、火属性無双にならないようにとか、
-魔物のデザインとか、すごく苦労したんじゃないかと思う。&lt;/p&gt;
-&lt;p&gt;この制限が、結果としてよい方向にいったわけでは必ずしもないと思うけれども、
-自分はこの挑戦する姿勢がすごく好きだった。&lt;/p&gt;
-&lt;p&gt;次は南国+ウクレレ縛りプレイとかに挑戦してもらいたい。&lt;/p&gt;
-&lt;h2 id=&#34;heading-1&#34;&gt;装備+法石システム&lt;/h2&gt;
-&lt;p&gt;本作の装備品は、武器と法器の2種類しかない。
+魔物のデザインとか、すごく苦労したんじゃないかと思う。&lt;/p>
+&lt;p>この制限が、結果としてよい方向にいったわけでは必ずしもないと思うけれども、
+自分はこの挑戦する姿勢がすごく好きだった。&lt;/p>
+&lt;p>次は南国+ウクレレ縛りプレイとかに挑戦してもらいたい。&lt;/p>
+&lt;h2 id="heading-1">装備+法石システム&lt;/h2>
+&lt;p>本作の装備品は、武器と法器の2種類しかない。
 この点が残念だという人もいるらしい。
 個人的には、兜盾鎧小手みたいに分かれている意味って、
 雰囲気作り以上の意味はないように思えるので、特に気にならなかった。
 単純な攻撃力や防御力だけではなく、
 サポート効果も加味して装備を整えるという本質的な部分は、
-法石システムによって実現されている。&lt;/p&gt;
-&lt;p&gt;今後のことを考えて昇華率アップ系の法器にするか、
+法石システムによって実現されている。&lt;/p>
+&lt;p>今後のことを考えて昇華率アップ系の法器にするか、
 それともいま、このバトルを乗り切るための法器にするか、
-みたいなことに頭を悩ますのも楽しかった。&lt;/p&gt;
-&lt;p&gt;ただ、魔法は法石じゃないほうが、嬉しかったかな…。
+みたいなことに頭を悩ますのも楽しかった。&lt;/p>
+&lt;p>ただ、魔法は法石じゃないほうが、嬉しかったかな…。
 連携技もすごい豊富でワクワクするのに、
 セットする法石に制限があるので、
 「とりあえず見るだけ見てみたい」みたいなのをやりたくても出来ない。
 クロノ・トリガーだったら、キャラの組み合わせを変えるだけでよかったので、
-本作では法石の組み合わせも変えないといけないのが、単に手間にしか思えなかった…。&lt;/p&gt;
-&lt;h2 id=&#34;heading-2&#34;&gt;バトル全般&lt;/h2&gt;
-&lt;p&gt;〈グラーティア〉 + 〈久遠の剣閃〉とか、
-そういうものすごく相性のよい魔法の組合せに気付いてしまってからは、一気にバトルが大味になってくる。&lt;/p&gt;
-&lt;p&gt;でもまあ、こういうのが運用出来るようになるのがそもそも終盤だし、
+本作では法石の組み合わせも変えないといけないのが、単に手間にしか思えなかった…。&lt;/p>
+&lt;h2 id="heading-2">バトル全般&lt;/h2>
+&lt;p>〈グラーティア〉 + 〈久遠の剣閃〉とか、
+そういうものすごく相性のよい魔法の組合せに気付いてしまってからは、一気にバトルが大味になってくる。&lt;/p>
+&lt;p>でもまあ、こういうのが運用出来るようになるのがそもそも終盤だし、
 俺つえー出来るための組合せを探すのもそれはそれで楽しいので、あんまり気になっていない。
 自分がヌルゲーマーだからかもしれない…。
 〈ガグンラーズ〉があればMP補給無用で雑魚はサクサク片づくのとか、非常に助かったし。
 〈叫ぶ〉+〈パーマネンス〉+ 〈ユグドラシル〉 + 〈アルティメット〉 でエンド無双になるのとか快感だったし。
 クロノ・トリガーも終盤シャイニングだけ唱えてればだいたいなんとかなったし、そんなもん。
 中盤は中盤で、エンドの〈回転斬り〉無双だった気もするが…。
-まあそれはそれで「お、大体回転斬りでいけるやん!」って気づく過程が楽しかった。&lt;/p&gt;
-&lt;p&gt;全体的に、MP温存せずに雑魚にもガンガン使っていく感じで進められるのが快適だった。&lt;/p&gt;
-&lt;p&gt;キャラ毎の個性もハッキリしていてよかったけれど、
+まあそれはそれで「お、大体回転斬りでいけるやん!」って気づく過程が楽しかった。&lt;/p>
+&lt;p>全体的に、MP温存せずに雑魚にもガンガン使っていく感じで進められるのが快適だった。&lt;/p>
+&lt;p>キャラ毎の個性もハッキリしていてよかったけれど、
 結局エンド+クオン+(セツナ or キール)最強だなーということで、
 あんまり他のメンバーを使わなくなってしまった。
 ディノタウルス系用にブロウビート要因のヨミを使うことはあったけど、それくらい。
-まあ、クロノ・トリガーでも魔王やカエルは趣味枠だった気がする…。&lt;/p&gt;
-&lt;h2 id=&#34;heading-3&#34;&gt;法石に蝕まれた魔物&lt;/h2&gt;
-&lt;p&gt;隠し中ボスみたいなのが攻略ルート上に普通に出現する。
-気付かずにバトルを仕掛けると普通に全滅して普通にゲームオーバーになる。&lt;/p&gt;
-&lt;p&gt;この理不尽さも、懐しいかも…。&lt;/p&gt;
-&lt;p&gt;まあ本作では100％逃走可能なアイテムがあるので、実際はそこまで脅威ではない。
+まあ、クロノ・トリガーでも魔王やカエルは趣味枠だった気がする…。&lt;/p>
+&lt;h2 id="heading-3">法石に蝕まれた魔物&lt;/h2>
+&lt;p>隠し中ボスみたいなのが攻略ルート上に普通に出現する。
+気付かずにバトルを仕掛けると普通に全滅して普通にゲームオーバーになる。&lt;/p>
+&lt;p>この理不尽さも、懐しいかも…。&lt;/p>
+&lt;p>まあ本作では100％逃走可能なアイテムがあるので、実際はそこまで脅威ではない。
 とはいえ、こういうのに出くわすまではそもそも逃げることなんてなかったので、
-逃走用アイテムがあることも忘れていたりするのだけれど。&lt;/p&gt;
-&lt;p&gt;こういう微妙にプレイヤーを突き放した感じも、なんだか懐しい。&lt;/p&gt;
-&lt;h2 id=&#34;heading-4&#34;&gt;ストーリー&lt;/h2&gt;
-&lt;p&gt;エンドやセツナに感情移入出来ないとか、選択肢の意味がほとんど無いとか、
-そういう評判をネット上ではよく見かけた。&lt;/p&gt;
-&lt;p&gt;個人的には、そこはそんなに気にならなかった。
+逃走用アイテムがあることも忘れていたりするのだけれど。&lt;/p>
+&lt;p>こういう微妙にプレイヤーを突き放した感じも、なんだか懐しい。&lt;/p>
+&lt;h2 id="heading-4">ストーリー&lt;/h2>
+&lt;p>エンドやセツナに感情移入出来ないとか、選択肢の意味がほとんど無いとか、
+そういう評判をネット上ではよく見かけた。&lt;/p>
+&lt;p>個人的には、そこはそんなに気にならなかった。
 選択肢しだいで、クオンがちょっとエンドのこと見直してくれたり、
 エンドが謎にチームリーダーとして慕われてたりとか、
-素直に嬉しかったし、にこにこしながら見ることが出来た。&lt;/p&gt;
-&lt;p&gt;セーブポイントが伏線になってたりとか、そういうところも好き。
-昔からたまにある設定だから目新しさはないけど。&lt;/p&gt;
-&lt;p&gt;どんどんみんなの絆が深まっていくのに、旅の目的はセツナが無事に死ぬこと、
-っていう矛盾に悶々と出来たのはよかった。&lt;/p&gt;
-&lt;p&gt;ただ、エンドやキトが何者なのか？とか、
+素直に嬉しかったし、にこにこしながら見ることが出来た。&lt;/p>
+&lt;p>セーブポイントが伏線になってたりとか、そういうところも好き。
+昔からたまにある設定だから目新しさはないけど。&lt;/p>
+&lt;p>どんどんみんなの絆が深まっていくのに、旅の目的はセツナが無事に死ぬこと、
+っていう矛盾に悶々と出来たのはよかった。&lt;/p>
+&lt;p>ただ、エンドやキトが何者なのか？とか、
 絶海群島の何のイベントも起きない人々は何なのか？とか、
 もう少し知りたかった。もやもやする。
-想像の余地を残されたのだろうか。うーん、困る。&lt;/p&gt;
-&lt;h2 id=&#34;vita-&#34;&gt;Vita 版&lt;/h2&gt;
-&lt;p&gt;せっかくゲームはいい出来なのに、処理落ちがホントにひどい。
+想像の余地を残されたのだろうか。うーん、困る。&lt;/p>
+&lt;h2 id="vita-">Vita 版&lt;/h2>
+&lt;p>せっかくゲームはいい出来なのに、処理落ちがホントにひどい。
 一番最初に使える連携技の時点で処理落ちする。
 パーティメンバーを全員表示するたびに処理落ちする。
-最終的に慣れてしまったけれど…。&lt;/p&gt;
-&lt;p&gt;最悪なのは、エンディングイベント中にアプリケーションエラーで落ちたこと。
-一番落ちてはならぬところだぞ…。&lt;/p&gt;
-&lt;p&gt;これは Tokyo RPG Factory を恨めばいいのか、
+最終的に慣れてしまったけれど…。&lt;/p>
+&lt;p>最悪なのは、エンディングイベント中にアプリケーションエラーで落ちたこと。
+一番落ちてはならぬところだぞ…。&lt;/p>
+&lt;p>これは Tokyo RPG Factory を恨めばいいのか、
 Unity を恨めばいいのか、 Sony を恨めばいいのか、どれなんだ。
-教えてくれ。&lt;/p&gt;
-&lt;p&gt;ロード時間も長めだけれど、 PS 時代もこんなもんだったなーくらいの感覚でそこまで気にはならなかった。&lt;/p&gt;
-&lt;h2 id=&#34;heading-5&#34;&gt;総評&lt;/h2&gt;
-&lt;p&gt;ゲームとしては値段分の価値が十分あるし、これからもこういう作品をどんどん出してほしいと思える内容だった。&lt;/p&gt;
-&lt;p&gt;ただ、 Vita 版はゲーム性以外の部分がかなり残念…。&lt;/p&gt;
-&lt;p&gt;もし次回作を出すならフルプライスで買うから、変なハード間差異だけは出さないでほしい…。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>三ヶ月ぶりに更新再開した日</title>
-      <link>https://www.yewton.net/2016/05/03/diary/</link>
-      <pubDate>Tue, 03 May 2016 23:27:26 +0900</pubDate>
-      <guid>https://www.yewton.net/2016/05/03/diary/</guid>
-      <description>&lt;p&gt;前回の更新から平気で3ヶ月経っていた。
-光陰矢のごとしである。&lt;/p&gt;
-&lt;p&gt;一個多少マトモな記事を上げたら何か燃え尽きてしまったのと、
+教えてくれ。&lt;/p>
+&lt;p>ロード時間も長めだけれど、 PS 時代もこんなもんだったなーくらいの感覚でそこまで気にはならなかった。&lt;/p>
+&lt;h2 id="heading-5">総評&lt;/h2>
+&lt;p>ゲームとしては値段分の価値が十分あるし、これからもこういう作品をどんどん出してほしいと思える内容だった。&lt;/p>
+&lt;p>ただ、 Vita 版はゲーム性以外の部分がかなり残念…。&lt;/p>
+&lt;p>もし次回作を出すならフルプライスで買うから、変なハード間差異だけは出さないでほしい…。&lt;/p></description></item><item><title>三ヶ月ぶりに更新再開した日</title><link>https://www.yewton.net/2016/05/03/diary/</link><pubDate>Tue, 03 May 2016 23:27:26 +0900</pubDate><guid>https://www.yewton.net/2016/05/03/diary/</guid><description>&lt;p>前回の更新から平気で3ヶ月経っていた。
+光陰矢のごとしである。&lt;/p>
+&lt;p>一個多少マトモな記事を上げたら何か燃え尽きてしまったのと、
 仕事が妙に重圧になっていて気持ちがアガらなかったのと、
-色々あって全然更新しなかった。&lt;/p&gt;
-&lt;p&gt;スクラム入門の翻訳も全然やってない。&lt;/p&gt;
-&lt;p&gt;いやはや。&lt;/p&gt;
-&lt;p&gt;やったことといえば、 &lt;code&gt;.emacs.d&lt;/code&gt; の大幅リニューアルくらい。
-結果物は &lt;a href=&#34;https://github.com/yewton/.emacs.d&#34;&gt;こちら&lt;/a&gt;。
-&lt;code&gt;.emacs.d&lt;/code&gt; 弄りは無限に時間取られるな…。&lt;/p&gt;
-&lt;p&gt;まあ、その甲斐あって、以前よりさらに快適な作業環境が整った、ハズ。
+色々あって全然更新しなかった。&lt;/p>
+&lt;p>スクラム入門の翻訳も全然やってない。&lt;/p>
+&lt;p>いやはや。&lt;/p>
+&lt;p>やったことといえば、 &lt;code>.emacs.d&lt;/code> の大幅リニューアルくらい。
+結果物は &lt;a href="https://github.com/yewton/.emacs.d">こちら&lt;/a>。
+&lt;code>.emacs.d&lt;/code> 弄りは無限に時間取られるな…。&lt;/p>
+&lt;p>まあ、その甲斐あって、以前よりさらに快適な作業環境が整った、ハズ。
 かっこいいモードラインとか、いいよね。
-僕はニワカイーマクサーなので、そういうところを頑張ってしまう。&lt;/p&gt;
-&lt;p&gt;あと、記事の元になる Hugo ファイルを BitBucket のプライベートリポジトリに移した。
-これで気兼ねなく、プライベートな内容も記録出来るようになった。&lt;/p&gt;
-&lt;p&gt;この連休中に、 persp-mode の設定を spacemacs を参考に変更するのと、
+僕はニワカイーマクサーなので、そういうところを頑張ってしまう。&lt;/p>
+&lt;p>あと、記事の元になる Hugo ファイルを BitBucket のプライベートリポジトリに移した。
+これで気兼ねなく、プライベートな内容も記録出来るようになった。&lt;/p>
+&lt;p>この連休中に、 persp-mode の設定を spacemacs を参考に変更するのと、
 Scala 製 Slack ボットのデプロイ方法を考えるのと、
-いくつか追加でボットを作成するのをやっておきたい。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>WordPressをHTTP/2&#43;HHVMで動かす環境をdocker-composeで構築してみた</title>
-      <link>https://www.yewton.net/2016/02/21/wordpress-http2-hhvm/</link>
-      <pubDate>Sun, 21 Feb 2016 22:49:52 +0900</pubDate>
-      <guid>https://www.yewton.net/2016/02/21/wordpress-http2-hhvm/</guid>
-      <description>&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/yewton/wordpress-nginx-http2-hhvm&#34;&gt;このリポジトリ&lt;/a&gt;を &lt;code&gt;clone&lt;/code&gt; して &lt;code&gt;docker-compose up -d&lt;/code&gt; して下さい
-(要 &lt;a href=&#34;https://github.com/docker/compose/releases/tag/1.6.0&#34;&gt;バージョン 1.6.0 以上&lt;/a&gt;)。
-その後 &lt;code&gt;open &amp;quot;https://$(docker-machine ip default)&amp;quot;&lt;/code&gt; すると、ブラウザでWordPressが立ち上がります。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://www.yewton.net/img/2016-02-21_224951/wordpress.png&#34; alt=&#34;デモ&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;heading&#34;&gt;動機&lt;/h2&gt;
-&lt;p&gt;WordPressをHHVMで動かしたら超速くなった!やったぜ!!という記事はをよく見るのだけれど、
-具体的にどうやって構築しているのか解説している記事があんまり無かったので、実際にやってみることにしました。&lt;/p&gt;
-&lt;p&gt;ついでに、HTTP/2で提供出来るとイケてる気がしたので、併せて対応してみることにします。&lt;/p&gt;
-&lt;h2 id=&#34;hhvm&#34;&gt;HHVM&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;https://www.yewton.net/img/2016-02-21_224951/hugo.png&#34; alt=&#34;HHVM&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://hhvm.com/&#34;&gt;HHVM&lt;/a&gt;は、Facebookがオープンソースとして開発している仮想実行環境で、
-&lt;a href=&#34;http://php.net/&#34;&gt;PHP&lt;/a&gt;と&lt;a href=&#34;http://hacklang.org/&#34;&gt;Hack&lt;/a&gt;を動かすための環境らしいです。&lt;/p&gt;
-&lt;p&gt;まぁ、個人的にはHackもHHVMも &lt;strong&gt;すごいPHP&lt;/strong&gt; ぐらいの認識しかありませんが…。
-Hackは言語的にすごくて、HHVMは実行環境がすごい。今回用があるのはHHVMだけです。&lt;/p&gt;
-&lt;h2 id=&#34;http2&#34;&gt;HTTP/2&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://http2.github.io/&#34;&gt;HTTP/2&lt;/a&gt;は… &lt;strong&gt;すごいHTTP&lt;/strong&gt; です。&lt;/p&gt;
-&lt;p&gt;HTTP/1.xとの互換性を保ちつつ、効率化したもののようです。ヘッダの圧縮とか、リクエストの多重化とか。
-&lt;a href=&#34;http://summerwind.jp/docs/rfc7540/&#34;&gt;RFC7540 日本語訳&lt;/a&gt;や&lt;a href=&#34;http://http2.info/faq.html#who-made-http2&#34;&gt;日本語のFAQ&lt;/a&gt;もあります。
-自分は全然見てないけれど…必要になったら読みます。&lt;/p&gt;
-&lt;p&gt;とにかく、このプロトコルで配信するだけでより効率的でより早くなる、ということです。&lt;/p&gt;
-&lt;h3 id=&#34;http2-&#34;&gt;HTTP/2 の実装&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;http://nginx.org/en/&#34;&gt;nginx&lt;/a&gt;の1.9.5からHTTP/2をサポートしているようです&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;。
-&lt;a href=&#34;https://hub.docker.com/_/nginx/&#34;&gt;公式Dockerリポジトリ&lt;/a&gt;で配信されている最新イメージでもちゃんとサポートされていました。&lt;/p&gt;
-&lt;p&gt;他にも&lt;a href=&#34;http://httpd.apache.org/&#34;&gt;Apache HTTP Server 2.4.17+&lt;/a&gt;や
-&lt;a href=&#34;http://dena.com/intl/&#34;&gt;DeNA&lt;/a&gt;の&lt;a href=&#34;https://h2o.examp1e.net/&#34;&gt;H2O&lt;/a&gt;など&lt;a href=&#34;https://github.com/http2/http2-spec/wiki/Implementations&#34;&gt;色々ある&lt;/a&gt;ようです。&lt;/p&gt;
-&lt;p&gt;今回はApacheよりは速かろうというのと、WordPress稼動の実例も多いことから、nginxを選択しました。適当。&lt;/p&gt;
-&lt;h2 id=&#34;heading-1&#34;&gt;構成&lt;/h2&gt;
-&lt;p&gt;リライトルールとか複雑なリクエスト制御が不要なら、
-HHVMに組込みのWebサーバーがあるのでそれを使うのが簡単だし、速度面でも問題なさそうです。&lt;/p&gt;
-&lt;p&gt;ただ、WordPressでパーマリンクを利用する場合はURLのリライトが必須です。&lt;/p&gt;
-&lt;p&gt;HHVMでもバーチャルホスト切ってリライトの設定するとか出来るみたいですが、
-iniファイルに設定書いていくのは何だかしんどそうです。&lt;/p&gt;
-&lt;p&gt;他にもSSLとか静的ファイルの配信とか諸々考えると、餅は餅屋ということでリバースプロキシを立てた方がよさそうですね。&lt;/p&gt;
-&lt;p&gt;というわけで、リバースプロキシとして nginx を立てて、HHVMをFastCGIモードで起動してバックエンドとします。&lt;/p&gt;
-&lt;p&gt;今回はとにかくお手軽に手元で動かしてみたかったので、諸々Dockerで動かすことにしました。
-雑に図解すると以下のような感じです:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://www.yewton.net/img/2016-02-21_224951/structure.png&#34; alt=&#34;構成図&#34;&gt;&lt;/p&gt;
-&lt;p&gt;FrontとかBackはDockerの&lt;a href=&#34;https://docs.docker.com/engine/userguide/networking/dockernetworks/#user-defined-networks&#34;&gt;ユーザー定義ネットワーク&lt;/a&gt;です。
-&lt;a href=&#34;https://github.com/docker/docker/blob/master/CHANGELOG.md#1100-2016-02-04&#34;&gt;Docker 1.10.0&lt;/a&gt;で link に代わるものとして導入されたような気がします。
-&lt;code&gt;/etc/hosts&lt;/code&gt; じゃなくてDNSで名前解決出来るようになってて最高にハッピーですね。&lt;/p&gt;
-&lt;p&gt;FastCGIはUnixソケットで通信した方が速いと思うんですが、
+いくつか追加でボットを作成するのをやっておきたい。&lt;/p></description></item><item><title>WordPressをHTTP/2+HHVMで動かす環境をdocker-composeで構築してみた</title><link>https://www.yewton.net/2016/02/21/wordpress-http2-hhvm/</link><pubDate>Sun, 21 Feb 2016 22:49:52 +0900</pubDate><guid>https://www.yewton.net/2016/02/21/wordpress-http2-hhvm/</guid><description>&lt;h2 id="tldr">TL;DR&lt;/h2>
+&lt;p>&lt;a href="https://github.com/yewton/wordpress-nginx-http2-hhvm">このリポジトリ&lt;/a>を &lt;code>clone&lt;/code> して &lt;code>docker-compose up -d&lt;/code> して下さい
+(要 &lt;a href="https://github.com/docker/compose/releases/tag/1.6.0">バージョン 1.6.0 以上&lt;/a>)。
+その後 &lt;code>open &amp;quot;https://$(docker-machine ip default)&amp;quot;&lt;/code> すると、ブラウザでWordPressが立ち上がります。&lt;/p>
+&lt;p>&lt;img src="https://www.yewton.net/img/2016-02-21_224951/wordpress.png" alt="デモ">&lt;/p>
+&lt;h2 id="heading">動機&lt;/h2>
+&lt;p>WordPressをHHVMで動かしたら超速くなった!やったぜ!!という記事はをよく見るのだけれど、
+具体的にどうやって構築しているのか解説している記事があんまり無かったので、実際にやってみることにしました。&lt;/p>
+&lt;p>ついでに、HTTP/2で提供出来るとイケてる気がしたので、併せて対応してみることにします。&lt;/p>
+&lt;h2 id="hhvm">HHVM&lt;/h2>
+&lt;p>&lt;img src="https://www.yewton.net/img/2016-02-21_224951/hugo.png" alt="HHVM">&lt;/p>
+&lt;p>&lt;a href="http://hhvm.com/">HHVM&lt;/a>は、Facebookがオープンソースとして開発している仮想実行環境で、
+&lt;a href="http://php.net/">PHP&lt;/a>と&lt;a href="http://hacklang.org/">Hack&lt;/a>を動かすための環境らしいです。&lt;/p>
+&lt;p>まぁ、個人的にはHackもHHVMも &lt;strong>すごいPHP&lt;/strong> ぐらいの認識しかありませんが…。
+Hackは言語的にすごくて、HHVMは実行環境がすごい。今回用があるのはHHVMだけです。&lt;/p>
+&lt;h2 id="http2">HTTP/2&lt;/h2>
+&lt;p>&lt;a href="https://http2.github.io/">HTTP/2&lt;/a>は… &lt;strong>すごいHTTP&lt;/strong> です。&lt;/p>
+&lt;p>HTTP/1.xとの互換性を保ちつつ、効率化したもののようです。ヘッダの圧縮とか、リクエストの多重化とか。
+&lt;a href="http://summerwind.jp/docs/rfc7540/">RFC7540 日本語訳&lt;/a>や&lt;a href="http://http2.info/faq.html#who-made-http2">日本語のFAQ&lt;/a>もあります。
+自分は全然見てないけれど…必要になったら読みます。&lt;/p>
+&lt;p>とにかく、このプロトコルで配信するだけでより効率的でより早くなる、ということです。&lt;/p>
+&lt;h3 id="http2-">HTTP/2 の実装&lt;/h3>
+&lt;p>&lt;a href="http://nginx.org/en/">nginx&lt;/a>の1.9.5からHTTP/2をサポートしているようです&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>。
+&lt;a href="https://hub.docker.com/_/nginx/">公式Dockerリポジトリ&lt;/a>で配信されている最新イメージでもちゃんとサポートされていました。&lt;/p>
+&lt;p>他にも&lt;a href="http://httpd.apache.org/">Apache HTTP Server 2.4.17+&lt;/a>や
+&lt;a href="http://dena.com/intl/">DeNA&lt;/a>の&lt;a href="https://h2o.examp1e.net/">H2O&lt;/a>など&lt;a href="https://github.com/http2/http2-spec/wiki/Implementations">色々ある&lt;/a>ようです。&lt;/p>
+&lt;p>今回はApacheよりは速かろうというのと、WordPress稼動の実例も多いことから、nginxを選択しました。適当。&lt;/p>
+&lt;h2 id="heading-1">構成&lt;/h2>
+&lt;p>リライトルールとか複雑なリクエスト制御が不要なら、
+HHVMに組込みのWebサーバーがあるのでそれを使うのが簡単だし、速度面でも問題なさそうです。&lt;/p>
+&lt;p>ただ、WordPressでパーマリンクを利用する場合はURLのリライトが必須です。&lt;/p>
+&lt;p>HHVMでもバーチャルホスト切ってリライトの設定するとか出来るみたいですが、
+iniファイルに設定書いていくのは何だかしんどそうです。&lt;/p>
+&lt;p>他にもSSLとか静的ファイルの配信とか諸々考えると、餅は餅屋ということでリバースプロキシを立てた方がよさそうですね。&lt;/p>
+&lt;p>というわけで、リバースプロキシとして nginx を立てて、HHVMをFastCGIモードで起動してバックエンドとします。&lt;/p>
+&lt;p>今回はとにかくお手軽に手元で動かしてみたかったので、諸々Dockerで動かすことにしました。
+雑に図解すると以下のような感じです:&lt;/p>
+&lt;p>&lt;img src="https://www.yewton.net/img/2016-02-21_224951/structure.png" alt="構成図">&lt;/p>
+&lt;p>FrontとかBackはDockerの&lt;a href="https://docs.docker.com/engine/userguide/networking/dockernetworks/#user-defined-networks">ユーザー定義ネットワーク&lt;/a>です。
+&lt;a href="https://github.com/docker/docker/blob/master/CHANGELOG.md#1100-2016-02-04">Docker 1.10.0&lt;/a>で link に代わるものとして導入されたような気がします。
+&lt;code>/etc/hosts&lt;/code> じゃなくてDNSで名前解決出来るようになってて最高にハッピーですね。&lt;/p>
+&lt;p>FastCGIはUnixソケットで通信した方が速いと思うんですが、
 今回は nginx と HHVM を別々のコンテナで動かすので、TCPで通信するようにしました。
-同一システム上にFastCGIサーバとプロセスが稼動するって、実環境でもあんまり無いような気がするけど、どうなんだろう？&lt;/p&gt;
-&lt;p&gt;コンテナひとつひとつ立てていくのは辛いので、常套手段の &lt;code&gt;docker-compose&lt;/code&gt; を使って作ります。&lt;/p&gt;
-&lt;h2 id=&#34;heading-2&#34;&gt;動かす&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/yewton/wordpress-nginx-http2-hhvm&#34;&gt;このリポジトリ&lt;/a&gt;に実際に稼動するものが置いてあります。
-&lt;code&gt;clone&lt;/code&gt; して &lt;code&gt;docker-compose up -d&lt;/code&gt; すれば、HTTP/2でWordPressが動いている様子が確認出来ます。&lt;/p&gt;
-&lt;p&gt;nginxやHHVMの設定はほぼデフォルトのままいじってないので、本気で動かすなら細かいチューニングは必要です。
-が、全体の構成は実環境でもこのようになると思います。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://www.yewton.net/img/2016-02-21_224951/wordpress.png&#34; alt=&#34;デモ&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;heading-3&#34;&gt;終わりに&lt;/h2&gt;
-&lt;p&gt;以上で、お手軽に手元でHTTP/2+HHVMなWordPressを試すことが出来るようになりました。&lt;/p&gt;
-&lt;p&gt;あとは実環境へのデプロイだけなんですが、さてどうしたものか。
-&lt;code&gt;docker-compose.yml&lt;/code&gt; からいい感じにデプロイしてくれるような何か、ありませんかねぇ。&lt;/p&gt;
-&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
-&lt;hr&gt;
-&lt;ol&gt;
-&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.nginx.com/blog/nginx-1-9-5/&#34;&gt;HTTP/2 Supported with NGINX Open Source 1.9.5 | NGINX&lt;/a&gt; &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/section&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>VM関連ファイルを外部ストレージに保存して空き容量を確保する</title>
-      <link>https://www.yewton.net/2016/02/19/save-storage-space-by-moving-vm-related-files-to-ex-storage/</link>
-      <pubDate>Fri, 19 Feb 2016 00:00:00 +0900</pubDate>
-      <guid>https://www.yewton.net/2016/02/19/save-storage-space-by-moving-vm-related-files-to-ex-storage/</guid>
-      <description>&lt;h2 id=&#34;vm&#34;&gt;何かと容量を食うVM関連ファイル&lt;/h2&gt;
-&lt;p&gt;DockerやらVagrantやらで作業していると、いつのまにかディスク容量が逼迫していることがありますよね。&lt;/p&gt;
-&lt;p&gt;自分も128GB SSDのMacBook Proを使っているので、結構いっぱいいっぱいでした。&lt;/p&gt;
-&lt;p&gt;そこで拡張ストレージを用意して、容量を食いがちなVM関連のファイルを移動することにしました。&lt;/p&gt;
-&lt;h3 id=&#34;mac&#34;&gt;(参考)Mac用の拡張ストレージ&lt;/h3&gt;
-&lt;p&gt;USBで外付けするようなのだと持ち運びに不便なので、
-&lt;a rel=&#34;nofollow&#34; href=&#34;http://www.amazon.co.jp/gp/product/B00TTFOJ4A/ref=as_li_ss_tl?ie=UTF8&amp;camp=247&amp;creative=7399&amp;creativeASIN=B00TTFOJ4A&amp;linkCode=as2&amp;tag=yewton-22&#34;&gt;iSlice Pro&lt;/a&gt;&lt;img src=&#34;http://ir-jp.amazon-adsystem.com/e/ir?t=yewton-22&amp;l=as2&amp;o=9&amp;a=B00TTFOJ4A&#34; width=&#34;1&#34; height=&#34;1&#34; border=&#34;0&#34; alt=&#34;&#34; style=&#34;border:none !important; margin:0px !important;&#34; /&gt;
+同一システム上にFastCGIサーバとプロセスが稼動するって、実環境でもあんまり無いような気がするけど、どうなんだろう？&lt;/p>
+&lt;p>コンテナひとつひとつ立てていくのは辛いので、常套手段の &lt;code>docker-compose&lt;/code> を使って作ります。&lt;/p>
+&lt;h2 id="heading-2">動かす&lt;/h2>
+&lt;p>&lt;a href="https://github.com/yewton/wordpress-nginx-http2-hhvm">このリポジトリ&lt;/a>に実際に稼動するものが置いてあります。
+&lt;code>clone&lt;/code> して &lt;code>docker-compose up -d&lt;/code> すれば、HTTP/2でWordPressが動いている様子が確認出来ます。&lt;/p>
+&lt;p>nginxやHHVMの設定はほぼデフォルトのままいじってないので、本気で動かすなら細かいチューニングは必要です。
+が、全体の構成は実環境でもこのようになると思います。&lt;/p>
+&lt;p>&lt;img src="https://www.yewton.net/img/2016-02-21_224951/wordpress.png" alt="デモ">&lt;/p>
+&lt;h2 id="heading-3">終わりに&lt;/h2>
+&lt;p>以上で、お手軽に手元でHTTP/2+HHVMなWordPressを試すことが出来るようになりました。&lt;/p>
+&lt;p>あとは実環境へのデプロイだけなんですが、さてどうしたものか。
+&lt;code>docker-compose.yml&lt;/code> からいい感じにデプロイしてくれるような何か、ありませんかねぇ。&lt;/p>
+&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>&lt;a href="https://www.nginx.com/blog/nginx-1-9-5/">HTTP/2 Supported with NGINX Open Source 1.9.5 | NGINX&lt;/a> &lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/section></description></item><item><title>VM関連ファイルを外部ストレージに保存して空き容量を確保する</title><link>https://www.yewton.net/2016/02/19/save-storage-space-by-moving-vm-related-files-to-ex-storage/</link><pubDate>Fri, 19 Feb 2016 00:00:00 +0900</pubDate><guid>https://www.yewton.net/2016/02/19/save-storage-space-by-moving-vm-related-files-to-ex-storage/</guid><description>&lt;h2 id="vm">何かと容量を食うVM関連ファイル&lt;/h2>
+&lt;p>DockerやらVagrantやらで作業していると、いつのまにかディスク容量が逼迫していることがありますよね。&lt;/p>
+&lt;p>自分も128GB SSDのMacBook Proを使っているので、結構いっぱいいっぱいでした。&lt;/p>
+&lt;p>そこで拡張ストレージを用意して、容量を食いがちなVM関連のファイルを移動することにしました。&lt;/p>
+&lt;h3 id="mac">(参考)Mac用の拡張ストレージ&lt;/h3>
+&lt;p>USBで外付けするようなのだと持ち運びに不便なので、
+&lt;a rel="nofollow" href="http://www.amazon.co.jp/gp/product/B00TTFOJ4A/ref=as_li_ss_tl?ie=UTF8&amp;camp=247&amp;creative=7399&amp;creativeASIN=B00TTFOJ4A&amp;linkCode=as2&amp;tag=yewton-22">iSlice Pro&lt;/a>&lt;img src="http://ir-jp.amazon-adsystem.com/e/ir?t=yewton-22&amp;l=as2&amp;o=9&amp;a=B00TTFOJ4A" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 のような本体のSDカードスロットに差せるようなタイプを個人的には使っています。
-iSliceの場合はただのアダプタなので別途128GBのmicroSDカードを調達する必要がありますが、ストレージと一体になっているモノよりは若干割安です。&lt;/p&gt;
-&lt;iframe src=&#34;https://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&amp;bc1=000000&amp;IS2=1&amp;bg1=FFFFFF&amp;fc1=000000&amp;lc1=0000FF&amp;t=yewton-22&amp;o=9&amp;p=8&amp;l=as4&amp;m=amazon&amp;f=ifr&amp;ref=ss_til&amp;asins=B00TTFOJ4A&#34; style=&#34;width:120px;height:240px;&#34; scrolling=&#34;no&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
-&lt;h2 id=&#34;vagrant&#34;&gt;Vagrant&lt;/h2&gt;
-&lt;p&gt;Vagrant用のBoxファイルとVMイメージの保存場所を変える際には、以下の記事が参考になります:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://2inc.org/blog/2014/06/28/4311/&#34; title=&#34;MacBookAir の容量がきついので Vagrant 環境を外付けに移した話 – モンキーレンチ&#34;&gt;MacBookAir の容量がきついので Vagrant 環境を外付けに移した話 – モンキーレンチ&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;上記の記事を参考に諸々のファイルの移動、VB上の設定を済ませたら、
-以下のようなコマンドを &lt;code&gt;.bashrc&lt;/code&gt; やら &lt;code&gt;.zshenv&lt;/code&gt; やらに書いておけば大丈夫です:&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;export VAGRANT_HOME=/Volumes/data/.vagrant.d&lt;/code&gt;&lt;/p&gt;
-&lt;h2 id=&#34;docker-machine&#34;&gt;Docker Machine&lt;/h2&gt;
-&lt;p&gt;Docker Machine用のファイルもデカいので移動させたいです。&lt;/p&gt;
-&lt;p&gt;Docker Machineでは &lt;code&gt;MACHINE_STORAGE_PATH&lt;/code&gt; という環境変数を参照しています。
-デフォルトは &lt;code&gt;~/.docker/machine&lt;/code&gt; です。&lt;/p&gt;
-&lt;p&gt;Vagrantの場合と同じように既存のファイルを新しい場所に移動し、
+iSliceの場合はただのアダプタなので別途128GBのmicroSDカードを調達する必要がありますが、ストレージと一体になっているモノよりは若干割安です。&lt;/p>
+&lt;iframe src="https://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&amp;bc1=000000&amp;IS2=1&amp;bg1=FFFFFF&amp;fc1=000000&amp;lc1=0000FF&amp;t=yewton-22&amp;o=9&amp;p=8&amp;l=as4&amp;m=amazon&amp;f=ifr&amp;ref=ss_til&amp;asins=B00TTFOJ4A" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0">&lt;/iframe>
+&lt;h2 id="vagrant">Vagrant&lt;/h2>
+&lt;p>Vagrant用のBoxファイルとVMイメージの保存場所を変える際には、以下の記事が参考になります:&lt;/p>
+&lt;p>&lt;a href="http://2inc.org/blog/2014/06/28/4311/" title="MacBookAir の容量がきついので Vagrant 環境を外付けに移した話 – モンキーレンチ">MacBookAir の容量がきついので Vagrant 環境を外付けに移した話 – モンキーレンチ&lt;/a>&lt;/p>
+&lt;p>上記の記事を参考に諸々のファイルの移動、VB上の設定を済ませたら、
+以下のようなコマンドを &lt;code>.bashrc&lt;/code> やら &lt;code>.zshenv&lt;/code> やらに書いておけば大丈夫です:&lt;/p>
+&lt;p>&lt;code>export VAGRANT_HOME=/Volumes/data/.vagrant.d&lt;/code>&lt;/p>
+&lt;h2 id="docker-machine">Docker Machine&lt;/h2>
+&lt;p>Docker Machine用のファイルもデカいので移動させたいです。&lt;/p>
+&lt;p>Docker Machineでは &lt;code>MACHINE_STORAGE_PATH&lt;/code> という環境変数を参照しています。
+デフォルトは &lt;code>~/.docker/machine&lt;/code> です。&lt;/p>
+&lt;p>Vagrantの場合と同じように既存のファイルを新しい場所に移動し、
 VB上で除去→追加の手順を踏みます。
-そして以下のようなコマンドで環境変数をセットします:&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;export MACHINE_STORAGE_PATH=/Volumes/data/.docker/machine&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;これも &lt;code&gt;.bashrc&lt;/code&gt; やらに書いておきましょう。&lt;/p&gt;
-&lt;h2 id=&#34;-&#34;&gt;注意: 外部ストレージのフォーマット&lt;/h2&gt;
-&lt;p&gt;自分の場合、SDカードが元々フォーマットされていて、
-差すだけで既に利用できたので、フォーマットについては特に気にせず移行作業をしてしまいました。&lt;/p&gt;
-&lt;p&gt;ところが、移行後に &lt;code&gt;&#39;docker-machine&lt;/code&gt; が謎のエラーで使えなくなってしまいました。&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;-D&lt;/code&gt; を付けてデバッグ情報を表示したとろ、以下のようなエラーが出ていました:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@         WARNING: UNPROTECTED PRIVATE KEY FILE!          @
+そして以下のようなコマンドで環境変数をセットします:&lt;/p>
+&lt;p>&lt;code>export MACHINE_STORAGE_PATH=/Volumes/data/.docker/machine&lt;/code>&lt;/p>
+&lt;p>これも &lt;code>.bashrc&lt;/code> やらに書いておきましょう。&lt;/p>
+&lt;h2 id="-">注意: 外部ストレージのフォーマット&lt;/h2>
+&lt;p>自分の場合、SDカードが元々フォーマットされていて、
+差すだけで既に利用できたので、フォーマットについては特に気にせず移行作業をしてしまいました。&lt;/p>
+&lt;p>ところが、移行後に &lt;code>'docker-machine&lt;/code> が謎のエラーで使えなくなってしまいました。&lt;/p>
+&lt;p>&lt;code>-D&lt;/code> を付けてデバッグ情報を表示したとろ、以下のようなエラーが出ていました:&lt;/p>
+&lt;pre>&lt;code>@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@ WARNING: UNPROTECTED PRIVATE KEY FILE! @
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-Permissions 0777 for &#39;/Volumes/data/.docker/machine/machines/default/id_rsa&#39; are too open.
+Permissions 0777 for '/Volumes/data/.docker/machine/machines/default/id_rsa' are too open.
 It is required that your private key files are NOT accessible by others.
 This private key will be ignored.
 Load key &amp;quot;/Volumes/data/.docker/machine/machines/default/id_rsa&amp;quot;: bad permissions
 debug2: we did not send a packet, disable method
 debug1: No more authentication methods to try.
 Permission denied (publickey,password,keyboard-interactive).
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;実は、 &lt;strong&gt;SDカードがexFATでフォーマットされていたため、permissionが777になってしまっていた&lt;/strong&gt;
+&lt;/code>&lt;/pre>&lt;p>実は、 &lt;strong>SDカードがexFATでフォーマットされていたため、permissionが777になってしまっていた&lt;/strong>
 ことが原因でした。
-exFATの場合、 &lt;code&gt;chmod&lt;/code&gt; することも出来ないので、フォーマットを変更する必要があります。&lt;/p&gt;
-&lt;p&gt;Mac OS X用拡張ストレージは、 &lt;strong&gt;〈OS X 拡張 (ジャーナリング)〉でフォーマット&lt;/strong&gt; しましょう。
-また、この際に &lt;strong&gt;〈大文字／小文字を区別する〉は不要&lt;/strong&gt; です。
+exFATの場合、 &lt;code>chmod&lt;/code> することも出来ないので、フォーマットを変更する必要があります。&lt;/p>
+&lt;p>Mac OS X用拡張ストレージは、 &lt;strong>〈OS X 拡張 (ジャーナリング)〉でフォーマット&lt;/strong> しましょう。
+また、この際に &lt;strong>〈大文字／小文字を区別する〉は不要&lt;/strong> です。
 OS Xのメインストレージでは区別されませんし、
-Adobeなど一部の製品は大文字小文字を区別するファイルシステムをサポートしていません&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;。
-無用なトラブルを避けるためにも、注意しましょう。&lt;/p&gt;
-&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
-&lt;hr&gt;
-&lt;ol&gt;
-&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
-&lt;p&gt;&lt;a href=&#34;https://helpx.adobe.com/jp/x-productkb/global/cpsid_83180.html&#34;&gt;Mac OS X ファイルシステムの確認方法と大文字と小文字を区別するファイルシステムについて&lt;/a&gt; &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/section&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>早朝ランニングしたりカナヘイカフェに行ってきた日</title>
-      <link>https://www.yewton.net/2016/02/16/diary/</link>
-      <pubDate>Tue, 16 Feb 2016 23:00:00 +0900</pubDate>
-      <guid>https://www.yewton.net/2016/02/16/diary/</guid>
-      <description>&lt;h2 id=&#34;heading&#34;&gt;ランニング&lt;/h2&gt;
-&lt;p&gt;昨日おとといと、春が来たのかと思うくらい暖かったので、
-何となく意識が高まって「よし明日からランニングを始めるぞ」という気持ちになっていた。&lt;/p&gt;
-&lt;p&gt;せっかくだから一番いいランニングをしようと思って調べると、
+Adobeなど一部の製品は大文字小文字を区別するファイルシステムをサポートしていません&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>。
+無用なトラブルを避けるためにも、注意しましょう。&lt;/p>
+&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>&lt;a href="https://helpx.adobe.com/jp/x-productkb/global/cpsid_83180.html">Mac OS X ファイルシステムの確認方法と大文字と小文字を区別するファイルシステムについて&lt;/a> &lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/section></description></item><item><title>早朝ランニングしたりカナヘイカフェに行ってきた日</title><link>https://www.yewton.net/2016/02/16/diary/</link><pubDate>Tue, 16 Feb 2016 23:00:00 +0900</pubDate><guid>https://www.yewton.net/2016/02/16/diary/</guid><description>&lt;h2 id="heading">ランニング&lt;/h2>
+&lt;p>昨日おとといと、春が来たのかと思うくらい暖かったので、
+何となく意識が高まって「よし明日からランニングを始めるぞ」という気持ちになっていた。&lt;/p>
+&lt;p>せっかくだから一番いいランニングをしようと思って調べると、
 朝食前に20分以上走るのが痩せるには最も効果があるという情報を得た。
 時間を気にしながら走るのは辛そうだったので、とにかく目標地点まで行って帰ってくることにし、
-スカイツリーくらいまで走ると距離的にちょうどよさそうだったのでそこを目標地点とした。&lt;/p&gt;
-&lt;p&gt;そんな調査を前日に行なっていざ、走ろうと外に出ると &lt;strong&gt;滅茶苦茶寒い&lt;/strong&gt; 。
+スカイツリーくらいまで走ると距離的にちょうどよさそうだったのでそこを目標地点とした。&lt;/p>
+&lt;p>そんな調査を前日に行なっていざ、走ろうと外に出ると &lt;strong>滅茶苦茶寒い&lt;/strong> 。
 いや、昨日おとといと比較すると寒くなるというのは知っていたけれど、
 走ってるうちに体あったまるだろくらいに考えていた。
 ところが、走れども走れども一向に体は暖まらず、手はかじかみ、
-寒さに震えながら走ることになった。&lt;/p&gt;
-&lt;p&gt;後で調べたらその時の気温が3度とかだったので、そりゃ、寒いワケだ、と。&lt;/p&gt;
-&lt;p&gt;寒さを舐めてはいけない。
-次はもっと防寒するか、もっと暖かい日にしよう、という学びを得た。&lt;/p&gt;
-&lt;h2 id=&#34;heading-1&#34;&gt;カナヘイのゆるっとカフェ&lt;/h2&gt;
-&lt;p&gt;仕事終わりに、&lt;a href=&#34;http://kanahei.blog.jp/archives/1049325539.html&#34;&gt;カナヘイのゆるっとカフェ&lt;/a&gt;に行ってきた
-(カフェ公式ページは無くて、イベントページの1コンテンツという感じだったので、カナヘイさんのブログ記事にリンク)。&lt;/p&gt;
-&lt;iframe src=&#34;https://drive.google.com/file/d/0B4XWl5W7tB7IQ09Jc3dKcmN6OEk/preview&#34; width=&#34;320&#34; height=&#34;240&#34;&gt;&lt;/iframe&gt;
-&lt;p&gt;こんな感じでパルコ入口で待ち構えている。&lt;/p&gt;
-&lt;iframe src=&#34;https://drive.google.com/file/d/0B4XWl5W7tB7IMzJrYllaRmo5dUk/preview&#34; width=&#34;320&#34; height=&#34;240&#34;&gt;&lt;/iframe&gt;
-&lt;p&gt;7階に辿り着くと、巨大うさぎ&amp;amp;ピスケがお出迎え。
-これ、多分カナヘイの個展でも使われてた奴らが着替えただけだ。&lt;/p&gt;
-&lt;p&gt;その他の最高に可愛い写真は&lt;a href=&#34;https://drive.google.com/folderview?id=0B4XWl5W7tB7IcEpEdWVPQm5HWkk&amp;amp;usp=drive_web&#34;&gt;こちら&lt;/a&gt;
-に置いてあるのでどうぞご自由にご利用下さい。&lt;/p&gt;
-&lt;p&gt;もう、本当に最高にゆるっとして可愛くて可笑しくて、また行くことが確定した。
-グッズ込みで1万超の出費だったけど何も痛くないね!!&lt;/p&gt;
-&lt;p&gt;カナヘイさんもっとイベントやってください。&lt;/p&gt;
-&lt;h2 id=&#34;google-drive--web-&#34;&gt;Google Drive の画像を Web ページに埋め込む&lt;/h2&gt;
-&lt;p&gt;カナヘイカフェの記事を書こうとして、どうにか写真を埋め込めないか色々調べたら、
-どうも写真の単体ページ(&lt;a href=&#34;https://drive.google.com/file/d/0B4XWl5W7tB7IQ09Jc3dKcmN6OEk/view&#34;&gt;こういうの&lt;/a&gt;)を開いて、
-〈アイテムを埋め込む〉というのが真っ当な手段ぽかった。&lt;/p&gt;
-&lt;p&gt;直リンクする方法もあるみたいだけど、いつ Google 様に殺されるか分からなかったので止めておく。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Hugoの記事をようやく書き上げた日</title>
-      <link>https://www.yewton.net/2016/02/14/diary/</link>
-      <pubDate>Sun, 14 Feb 2016 00:26:33 +0900</pubDate>
-      <guid>https://www.yewton.net/2016/02/14/diary/</guid>
-      <description>&lt;p&gt;たまには人類に少しでも役に立つような記事も書こうと思い、
-&lt;a href=&#34;https://www.yewton.net/2016/02/02/blog-with-hugo/&#34;&gt;Hugoの記事&lt;/a&gt;を書いていた。&lt;/p&gt;
-&lt;p&gt;自分が通しでやったことだし、すぐ書き上がるだろーと高をくくっていたら、
+寒さに震えながら走ることになった。&lt;/p>
+&lt;p>後で調べたらその時の気温が3度とかだったので、そりゃ、寒いワケだ、と。&lt;/p>
+&lt;p>寒さを舐めてはいけない。
+次はもっと防寒するか、もっと暖かい日にしよう、という学びを得た。&lt;/p>
+&lt;h2 id="heading-1">カナヘイのゆるっとカフェ&lt;/h2>
+&lt;p>仕事終わりに、&lt;a href="http://kanahei.blog.jp/archives/1049325539.html">カナヘイのゆるっとカフェ&lt;/a>に行ってきた
+(カフェ公式ページは無くて、イベントページの1コンテンツという感じだったので、カナヘイさんのブログ記事にリンク)。&lt;/p>
+&lt;iframe src="https://drive.google.com/file/d/0B4XWl5W7tB7IQ09Jc3dKcmN6OEk/preview" width="320" height="240">&lt;/iframe>
+&lt;p>こんな感じでパルコ入口で待ち構えている。&lt;/p>
+&lt;iframe src="https://drive.google.com/file/d/0B4XWl5W7tB7IMzJrYllaRmo5dUk/preview" width="320" height="240">&lt;/iframe>
+&lt;p>7階に辿り着くと、巨大うさぎ&amp;amp;ピスケがお出迎え。
+これ、多分カナヘイの個展でも使われてた奴らが着替えただけだ。&lt;/p>
+&lt;p>その他の最高に可愛い写真は&lt;a href="https://drive.google.com/folderview?id=0B4XWl5W7tB7IcEpEdWVPQm5HWkk&amp;amp;usp=drive_web">こちら&lt;/a>
+に置いてあるのでどうぞご自由にご利用下さい。&lt;/p>
+&lt;p>もう、本当に最高にゆるっとして可愛くて可笑しくて、また行くことが確定した。
+グッズ込みで1万超の出費だったけど何も痛くないね!!&lt;/p>
+&lt;p>カナヘイさんもっとイベントやってください。&lt;/p>
+&lt;h2 id="google-drive--web-">Google Drive の画像を Web ページに埋め込む&lt;/h2>
+&lt;p>カナヘイカフェの記事を書こうとして、どうにか写真を埋め込めないか色々調べたら、
+どうも写真の単体ページ(&lt;a href="https://drive.google.com/file/d/0B4XWl5W7tB7IQ09Jc3dKcmN6OEk/view">こういうの&lt;/a>)を開いて、
+〈アイテムを埋め込む〉というのが真っ当な手段ぽかった。&lt;/p>
+&lt;p>直リンクする方法もあるみたいだけど、いつ Google 様に殺されるか分からなかったので止めておく。&lt;/p></description></item><item><title>Hugoの記事をようやく書き上げた日</title><link>https://www.yewton.net/2016/02/14/diary/</link><pubDate>Sun, 14 Feb 2016 00:26:33 +0900</pubDate><guid>https://www.yewton.net/2016/02/14/diary/</guid><description>&lt;p>たまには人類に少しでも役に立つような記事も書こうと思い、
+&lt;a href="https://www.yewton.net/2016/02/02/blog-with-hugo/">Hugoの記事&lt;/a>を書いていた。&lt;/p>
+&lt;p>自分が通しでやったことだし、すぐ書き上がるだろーと高をくくっていたら、
 なんだかんだ書き始めてから2週間くらい経ってしまった(もちろん、そればかりやってたワケじゃないけど)。
-自分の遅筆さに呆れるばかりである。&lt;/p&gt;
-&lt;p&gt;普段から余り人様に見せられるような文章を書いていない、というのが露呈した気がした。
+自分の遅筆さに呆れるばかりである。&lt;/p>
+&lt;p>普段から余り人様に見せられるような文章を書いていない、というのが露呈した気がした。
 そういえば普段の会話もあまり賢いものとは言えない…。
-時を経るごとに、喋るのも下手になっていると感じる。&lt;/p&gt;
-&lt;p&gt;やばいなー。やばいヤバイ。&lt;/p&gt;
-&lt;p&gt;人とコミュニケーションとらずに生きていくのにそろそろ限界を感じているので、
+時を経るごとに、喋るのも下手になっていると感じる。&lt;/p>
+&lt;p>やばいなー。やばいヤバイ。&lt;/p>
+&lt;p>人とコミュニケーションとらずに生きていくのにそろそろ限界を感じているので、
 意図して真っ当な会話をし、文章を書けるように心がけていこうと思う。
 そういえば最近まともに読書もしていないし…。
-社会生活を営む人間として真っ当に生きていく為の読書くらいは、しよう。&lt;/p&gt;
-&lt;h2 id=&#34;heading&#34;&gt;業務外のアレコレ&lt;/h2&gt;
-&lt;p&gt;最近(ほぼ)趣味で、 AWS上にシンプルに構築されたWordPressブログを、
-HTTPSにしてついでにHTTP/2対応してHHVMで稼動させようぜ、というような試みをしている。&lt;/p&gt;
-&lt;p&gt;AWSは最近ようやく触りはじめたばかりなので、
-どういったことが出来るのか、から調べつつやっている。&lt;/p&gt;
-&lt;p&gt;ベースがAmazonLinuxなので、HHVMは公式にサポートされていない。
+社会生活を営む人間として真っ当に生きていく為の読書くらいは、しよう。&lt;/p>
+&lt;h2 id="heading">業務外のアレコレ&lt;/h2>
+&lt;p>最近(ほぼ)趣味で、 AWS上にシンプルに構築されたWordPressブログを、
+HTTPSにしてついでにHTTP/2対応してHHVMで稼動させようぜ、というような試みをしている。&lt;/p>
+&lt;p>AWSは最近ようやく触りはじめたばかりなので、
+どういったことが出来るのか、から調べつつやっている。&lt;/p>
+&lt;p>ベースがAmazonLinuxなので、HHVMは公式にサポートされていない。
 なので Docker を利用したいところなのだけれど、
 WordPress がダイナミックに自分自身を更新するという話を聞いて、うーん、となった。
 HHVMだけをECSで動かしてもしょうがないから、やるならWordPressもコンテナに詰めるのだけど、
 コンテナ内で稼動しているWordPressを更新してもしょうがない、というかコンテナ再起動したら消えちゃうしなー、という。
-それとも、ECSで使うEC2インスタンスにWordPressを普通に入れちゃえばいいのかな？&lt;/p&gt;
-&lt;p&gt;などなど、色々試行錯誤の日々である。
+それとも、ECSで使うEC2インスタンスにWordPressを普通に入れちゃえばいいのかな？&lt;/p>
+&lt;p>などなど、色々試行錯誤の日々である。
 今日はHugoの記事書き上げるのとドメイン移行でいっぱいいっぱいだったので、
-明日には何らかの成果を出したい…。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Hugo &#43; GitHub Pages でお手軽にブログを始めよう</title>
-      <link>https://www.yewton.net/2016/02/02/blog-with-hugo/</link>
-      <pubDate>Tue, 02 Feb 2016 18:44:21 +0900</pubDate>
-      <guid>https://www.yewton.net/2016/02/02/blog-with-hugo/</guid>
-      <description>&lt;h2 id=&#34;heading&#34;&gt;はじめに&lt;/h2&gt;
-&lt;p&gt;この記事は「いい感じのブログを無料で手軽に作れないかなー」、と思っている人が主な対象です。&lt;/p&gt;
-&lt;p&gt;〈いい感じ〉というのが抽象的ですが、以下のような欲求をイメージしています:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.staticgen.com/&#34;&gt;Top Open-Source Static Site Generators - StaticGen&lt;/a&gt; にあるような静的サイトジェネレータがいい&lt;/li&gt;
-&lt;li&gt;サイト生成は速ければ速いほどいい&lt;/li&gt;
-&lt;li&gt;モダンでレスポンシブルなのがいい&lt;/li&gt;
-&lt;li&gt;記事を書いたら即確認出来るのがいい&lt;/li&gt;
-&lt;li&gt;GitHub Pagesに簡単にデプロイ出来るのがいい&lt;/li&gt;
-&lt;li&gt;独自ドメインは使いたい&lt;/li&gt;
-&lt;li&gt;ブログにありがちなコメント機能とかアクセス解析とかが出来るといい&lt;/li&gt;
-&lt;li&gt;HTTPSなのがいい&lt;/li&gt;
-&lt;li&gt;HTTP/2なのがいい&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;heading-1&#34;&gt;サイトの方式を考える&lt;/h2&gt;
-&lt;p&gt;手軽に始めたいので、準備はなるべく少ない方が嬉しいですね。&lt;/p&gt;
-&lt;p&gt;WordPress みたいな動的な方式はサーバを用意しないといけないので手間ですし、場合によっては金もかかります。&lt;/p&gt;
-&lt;p&gt;一方の静的サイト配信であれば、必要なのは HTML を配信出来る場所だけです。
-GitHub Pages や類似のサービスを使えば無料で利用できますね。&lt;/p&gt;
-&lt;h2 id=&#34;heading-2&#34;&gt;静的サイトジェネレータを選ぶ&lt;/h2&gt;
-&lt;p&gt;というわけで静的サイトを作成するためのジェネレータを選びます。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.staticgen.com/&#34;&gt;Top Open-Source Static Site Generators - StaticGen&lt;/a&gt; の中から適当に選びましょう。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://jekyllrb.com/&#34;&gt;Jekyll&lt;/a&gt; や &lt;a href=&#34;http://octopress.org/&#34;&gt;Octopress&lt;/a&gt; はメジャーっぽいですが検索してみると、何だか遅いみたいです(使ったことない)。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.gitbook.com/&#34;&gt;GitBook&lt;/a&gt; はドキュメントを書くのには向いています(自分も利用しています)。ですがブログを書くためのものではありません。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://hexo.io/&#34;&gt;Hexo&lt;/a&gt; か &lt;a href=&#34;http://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; あたりがよさそうです。
-これら二つはコンセプトもよく似ているし、最早好みの世界ですね。自分は何となく Hugo を使っています。&lt;/p&gt;
-&lt;h2 id=&#34;hugo&#34;&gt;Hugo&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;https://www.yewton.net/img/2016-01-11_184419/hugo.png&#34; alt=&#34;Hugoのロゴ&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; は超高速でシンプルかつ柔軟な静的サイトジェネレータだそうです。
-Go言語で書かれていて、インストールはとってもカンタン。すぐに使えます。&lt;/p&gt;
-&lt;p&gt;使い方もとってもカンタン…というワケではないかもしれません。
+明日には何らかの成果を出したい…。&lt;/p></description></item><item><title>Hugo + GitHub Pages でお手軽にブログを始めよう</title><link>https://www.yewton.net/2016/02/02/blog-with-hugo/</link><pubDate>Tue, 02 Feb 2016 18:44:21 +0900</pubDate><guid>https://www.yewton.net/2016/02/02/blog-with-hugo/</guid><description>&lt;h2 id="heading">はじめに&lt;/h2>
+&lt;p>この記事は「いい感じのブログを無料で手軽に作れないかなー」、と思っている人が主な対象です。&lt;/p>
+&lt;p>〈いい感じ〉というのが抽象的ですが、以下のような欲求をイメージしています:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://www.staticgen.com/">Top Open-Source Static Site Generators - StaticGen&lt;/a> にあるような静的サイトジェネレータがいい&lt;/li>
+&lt;li>サイト生成は速ければ速いほどいい&lt;/li>
+&lt;li>モダンでレスポンシブルなのがいい&lt;/li>
+&lt;li>記事を書いたら即確認出来るのがいい&lt;/li>
+&lt;li>GitHub Pagesに簡単にデプロイ出来るのがいい&lt;/li>
+&lt;li>独自ドメインは使いたい&lt;/li>
+&lt;li>ブログにありがちなコメント機能とかアクセス解析とかが出来るといい&lt;/li>
+&lt;li>HTTPSなのがいい&lt;/li>
+&lt;li>HTTP/2なのがいい&lt;/li>
+&lt;/ul>
+&lt;h2 id="heading-1">サイトの方式を考える&lt;/h2>
+&lt;p>手軽に始めたいので、準備はなるべく少ない方が嬉しいですね。&lt;/p>
+&lt;p>WordPress みたいな動的な方式はサーバを用意しないといけないので手間ですし、場合によっては金もかかります。&lt;/p>
+&lt;p>一方の静的サイト配信であれば、必要なのは HTML を配信出来る場所だけです。
+GitHub Pages や類似のサービスを使えば無料で利用できますね。&lt;/p>
+&lt;h2 id="heading-2">静的サイトジェネレータを選ぶ&lt;/h2>
+&lt;p>というわけで静的サイトを作成するためのジェネレータを選びます。&lt;/p>
+&lt;p>&lt;a href="https://www.staticgen.com/">Top Open-Source Static Site Generators - StaticGen&lt;/a> の中から適当に選びましょう。&lt;/p>
+&lt;p>&lt;a href="http://jekyllrb.com/">Jekyll&lt;/a> や &lt;a href="http://octopress.org/">Octopress&lt;/a> はメジャーっぽいですが検索してみると、何だか遅いみたいです(使ったことない)。&lt;/p>
+&lt;p>&lt;a href="https://www.gitbook.com/">GitBook&lt;/a> はドキュメントを書くのには向いています(自分も利用しています)。ですがブログを書くためのものではありません。&lt;/p>
+&lt;p>&lt;a href="http://hexo.io/">Hexo&lt;/a> か &lt;a href="http://gohugo.io/">Hugo&lt;/a> あたりがよさそうです。
+これら二つはコンセプトもよく似ているし、最早好みの世界ですね。自分は何となく Hugo を使っています。&lt;/p>
+&lt;h2 id="hugo">Hugo&lt;/h2>
+&lt;p>&lt;img src="https://www.yewton.net/img/2016-01-11_184419/hugo.png" alt="Hugoのロゴ">&lt;/p>
+&lt;p>&lt;a href="http://gohugo.io/">Hugo&lt;/a> は超高速でシンプルかつ柔軟な静的サイトジェネレータだそうです。
+Go言語で書かれていて、インストールはとってもカンタン。すぐに使えます。&lt;/p>
+&lt;p>使い方もとってもカンタン…というワケではないかもしれません。
 といっても、それは Hugo が殊更難しいというワケではなく、
-そもそも静的サイトジェネレーターというモノを理解している必要がある、ということだと思います。&lt;/p&gt;
-&lt;p&gt;ブログを書く、ということだけに目的を絞れば、覚える必要がある用語は
-&lt;em&gt;Content&lt;/em&gt;, &lt;em&gt;Themes&lt;/em&gt;, &lt;em&gt;Taxonomies&lt;/em&gt; の3つだけです。&lt;/p&gt;
-&lt;h3 id=&#34;content&#34;&gt;Content&lt;/h3&gt;
-&lt;p&gt;ブログで言えば記事のことです。&lt;/p&gt;
-&lt;p&gt;Content がどのように表示されるかは使用しているテーマによりますが、
-ブログ用テーマのほとんどは &lt;code&gt;post&lt;/code&gt; ディレクトリ以下にあるファイルを記事として扱うようです。&lt;/p&gt;
-&lt;h3 id=&#34;themes&#34;&gt;Themes&lt;/h3&gt;
-&lt;p&gt;そのまま、サイトに適用するテーマです。&lt;/p&gt;
-&lt;p&gt;Hugoの場合、テーマはそのサイトの構成まで決めてしまいます。
-独自にテンプレートを書くことでカスタマイズ出来るとはいえ、目的に沿ったテーマを選択するのが無難です。&lt;/p&gt;
-&lt;p&gt;テーマ選択の方法については後述します。&lt;/p&gt;
-&lt;h3 id=&#34;taxonomies&#34;&gt;Taxonomies&lt;/h3&gt;
-&lt;p&gt;やけに難しい単語ですが、分類方法のことです。
-ブログなら &lt;strong&gt;カテゴリ&lt;/strong&gt; や &lt;strong&gt;タグ&lt;/strong&gt; といった類のものです。&lt;/p&gt;
-&lt;p&gt;幸い、カテゴリとタグによる基本的な分類であればデフォルトで対応しているため、あまり意識する必要はありません。
-カテゴリやタグのことを Taxonomies と呼ぶことだけ押さえておけばOKです。&lt;/p&gt;
-&lt;h2 id=&#34;heading-3&#34;&gt;サイトを作る&lt;/h2&gt;
-&lt;p&gt;早速サイトを作っていきましょう。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://gohugo.io/overview/quickstart/&#34;&gt;Hugo - Hugo Quickstart Guide&lt;/a&gt; に従えば基本的に迷うことは無いと思います。
-ここでは、適当にサイトを作って、ひとつ記事を書いてみて、それがブラウザで確認出来るようになれば大丈夫です。&lt;/p&gt;
-&lt;p&gt;ただし、 &lt;strong&gt;日本語に対応させる設定は追加で必要&lt;/strong&gt; です。&lt;/p&gt;
-&lt;h3 id=&#34;heading-4&#34;&gt;日本語対応&lt;/h3&gt;
-&lt;p&gt;ありがたいことに、Hugoは日本語や中国語の為の特別な設定を用意してくれています。
-設定ファイルに &lt;code&gt;hasCJKLanguage = true&lt;/code&gt; という行を追加しましょう。&lt;/p&gt;
-&lt;p&gt;これをやらないと、一覧用に記事を自動で切り詰めてくれる機能や、
-読み終えるまでの予想時間の計算が滅茶苦茶になってしまいます。&lt;/p&gt;
-&lt;h2 id=&#34;heading-5&#34;&gt;テーマを決める&lt;/h2&gt;
-&lt;p&gt;次はサイトに適用するテーマを選択しましょう。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://themes.gohugo.io/&#34;&gt;Hugo Themes Site&lt;/a&gt; で実際の例を見ながらテーマを選ぶことが出来ます。
-ブログ用のテーマのみに絞って見たい場合は &lt;a href=&#34;http://themes.gohugo.io/tags/blog&#34;&gt;こちら&lt;/a&gt; からどうぞ。&lt;/p&gt;
-&lt;p&gt;注意点として、Hugoには記事を読み終えるまでの時間やおおよその文字数を表示する機能が組込まれているのですが、テーマがサポートしていない場合は表示されません。
-このような機能を使いたい場合は、テーマでサポートされているかを確認しましょう。&lt;/p&gt;
-&lt;p&gt;このサイトは &lt;a href=&#34;http://themes.gohugo.io/hugo-icarus/&#34;&gt;Icarus&lt;/a&gt; を使っています。
-ショーケースの中では使える機能が一番多いと思うので、どういうことが出来るのか知るには丁度よいテーマだと思います。&lt;/p&gt;
-&lt;h2 id=&#34;favicon-&#34;&gt;favicon を置こう&lt;/h2&gt;
-&lt;p&gt;デフォルトでは Hugo の favicon が表示されてしまうので、カスタマイズしましょう。
-&lt;a href=&#34;http://www.favicon-generator.org/&#34;&gt;Favicon &amp;amp; App Icon Generator&lt;/a&gt; などを使うとよいです。&lt;/p&gt;
-&lt;p&gt;生成した &lt;code&gt;.ico&lt;/code&gt; ファイルを &lt;code&gt;static&lt;/code&gt; 直下に配置すればOKです。&lt;/p&gt;
-&lt;h2 id=&#34;heading-6&#34;&gt;記事を書く&lt;/h2&gt;
-&lt;p&gt;記事はMarkdownで書きます。&lt;/p&gt;
-&lt;p&gt;ここで困るのは、Markdownにもいくつか方言があることです。
-何を参考に書けばいいか迷ってしまいますね。&lt;/p&gt;
-&lt;p&gt;HugoではMarkdownの処理に &lt;a href=&#34;https://github.com/russross/blackfriday&#34;&gt;russross/blackfriday: Blackfriday: a markdown processor for Go&lt;/a&gt; を使っています。
-Blackfriday特有の書式(脚注など)もある為、こちらを参照しながら書くとよいでしょう。&lt;/p&gt;
-&lt;h3 id=&#34;heading-7&#34;&gt;記事のファイル名について&lt;/h3&gt;
-&lt;p&gt;日記や思い付きで即興で記事を書く場合、いちいち被らないようにファイル名を考えるのは面倒ですよね。&lt;/p&gt;
-&lt;p&gt;Hugoの場合ファイル名は管理上の問題でしかないので、適当に日付やタイムスタンプでも入れておけばよいです。
-デフォルトではファイル名がURLに使われますが、記事毎の設定で &lt;code&gt;slug = &amp;quot;hogehoge&amp;quot;&lt;/code&gt; のように設定しておけば、
-実際のURLは &lt;code&gt;/post/hogehoge&lt;/code&gt; のようになります。&lt;/p&gt;
-&lt;p&gt;また、以下のように設定ファイルに書いておけば、年月日がURLのプレフィクスに付くので被る心配もありません:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;[permalinks]
-    post = &amp;quot;/:year/:month/:day/:slug&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;heading-8&#34;&gt;コメント対応&lt;/h2&gt;
-&lt;p&gt;なんとなくコメント欄があるとオープンな感じでいいですよね？
-ということでコメントにも対応させてみましょう。&lt;/p&gt;
-&lt;p&gt;Hugo自身が&lt;a href=&#34;https://github.com/spf13/hugo/blob/cd36d752a3e8e2b75965fe281e6466d7a274cd94/tpl/template_embedded.go#L131-L145&#34;&gt;Disqusに対応している&lt;/a&gt;ので、
-&lt;a href=&#34;https://disqus.com/&#34;&gt;Disqus&lt;/a&gt;を使いましょう。
-ただし、Disqusによるコメント対応も、テーマによってはサポートされていない場合があるので要注意です。&lt;/p&gt;
-&lt;p&gt;何よりもまず Disqus への登録です。
-&lt;a href=&#34;https://help.disqus.com/customer/portal/articles/466182-publisher-quick-start-guide&#34;&gt;ヘルプ&lt;/a&gt;を見ながら行いましょう。
-設定は特に必要ありませんので登録だけ済ませれば一旦OKです。後から言語設定を日本語にしたりすることも出来ます。&lt;/p&gt;
-&lt;p&gt;登録が完了したら、登録時に入力した shortname (unique Disqus URL) を以下のように設定に追記しましょう:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;disqusShortname = &amp;quot;sitename&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;これだけでHugoの設定は完了です。(テーマが対応していれば)個別の記事ページにコメント欄が出現します。&lt;/p&gt;
-&lt;h2 id=&#34;heading-9&#34;&gt;デプロイ&lt;/h2&gt;
-&lt;p&gt;生成したブログは GitHub Pages でホスティングします。&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;gh-pages&lt;/code&gt; ではなく、ユーザや Organization のページとして公開する場合は、
-&lt;a href=&#34;https://gohugo.io/tutorials/github-pages-blog/#hosting-personal-organization-pages&#34;&gt;Hosting Personal/Organization Pages&lt;/a&gt;に
+そもそも静的サイトジェネレーターというモノを理解している必要がある、ということだと思います。&lt;/p>
+&lt;p>ブログを書く、ということだけに目的を絞れば、覚える必要がある用語は
+&lt;em>Content&lt;/em>, &lt;em>Themes&lt;/em>, &lt;em>Taxonomies&lt;/em> の3つだけです。&lt;/p>
+&lt;h3 id="content">Content&lt;/h3>
+&lt;p>ブログで言えば記事のことです。&lt;/p>
+&lt;p>Content がどのように表示されるかは使用しているテーマによりますが、
+ブログ用テーマのほとんどは &lt;code>post&lt;/code> ディレクトリ以下にあるファイルを記事として扱うようです。&lt;/p>
+&lt;h3 id="themes">Themes&lt;/h3>
+&lt;p>そのまま、サイトに適用するテーマです。&lt;/p>
+&lt;p>Hugoの場合、テーマはそのサイトの構成まで決めてしまいます。
+独自にテンプレートを書くことでカスタマイズ出来るとはいえ、目的に沿ったテーマを選択するのが無難です。&lt;/p>
+&lt;p>テーマ選択の方法については後述します。&lt;/p>
+&lt;h3 id="taxonomies">Taxonomies&lt;/h3>
+&lt;p>やけに難しい単語ですが、分類方法のことです。
+ブログなら &lt;strong>カテゴリ&lt;/strong> や &lt;strong>タグ&lt;/strong> といった類のものです。&lt;/p>
+&lt;p>幸い、カテゴリとタグによる基本的な分類であればデフォルトで対応しているため、あまり意識する必要はありません。
+カテゴリやタグのことを Taxonomies と呼ぶことだけ押さえておけばOKです。&lt;/p>
+&lt;h2 id="heading-3">サイトを作る&lt;/h2>
+&lt;p>早速サイトを作っていきましょう。&lt;/p>
+&lt;p>&lt;a href="http://gohugo.io/overview/quickstart/">Hugo - Hugo Quickstart Guide&lt;/a> に従えば基本的に迷うことは無いと思います。
+ここでは、適当にサイトを作って、ひとつ記事を書いてみて、それがブラウザで確認出来るようになれば大丈夫です。&lt;/p>
+&lt;p>ただし、 &lt;strong>日本語に対応させる設定は追加で必要&lt;/strong> です。&lt;/p>
+&lt;h3 id="heading-4">日本語対応&lt;/h3>
+&lt;p>ありがたいことに、Hugoは日本語や中国語の為の特別な設定を用意してくれています。
+設定ファイルに &lt;code>hasCJKLanguage = true&lt;/code> という行を追加しましょう。&lt;/p>
+&lt;p>これをやらないと、一覧用に記事を自動で切り詰めてくれる機能や、
+読み終えるまでの予想時間の計算が滅茶苦茶になってしまいます。&lt;/p>
+&lt;h2 id="heading-5">テーマを決める&lt;/h2>
+&lt;p>次はサイトに適用するテーマを選択しましょう。&lt;/p>
+&lt;p>&lt;a href="http://themes.gohugo.io/">Hugo Themes Site&lt;/a> で実際の例を見ながらテーマを選ぶことが出来ます。
+ブログ用のテーマのみに絞って見たい場合は &lt;a href="http://themes.gohugo.io/tags/blog">こちら&lt;/a> からどうぞ。&lt;/p>
+&lt;p>注意点として、Hugoには記事を読み終えるまでの時間やおおよその文字数を表示する機能が組込まれているのですが、テーマがサポートしていない場合は表示されません。
+このような機能を使いたい場合は、テーマでサポートされているかを確認しましょう。&lt;/p>
+&lt;p>このサイトは &lt;a href="http://themes.gohugo.io/hugo-icarus/">Icarus&lt;/a> を使っています。
+ショーケースの中では使える機能が一番多いと思うので、どういうことが出来るのか知るには丁度よいテーマだと思います。&lt;/p>
+&lt;h2 id="favicon-">favicon を置こう&lt;/h2>
+&lt;p>デフォルトでは Hugo の favicon が表示されてしまうので、カスタマイズしましょう。
+&lt;a href="http://www.favicon-generator.org/">Favicon &amp;amp; App Icon Generator&lt;/a> などを使うとよいです。&lt;/p>
+&lt;p>生成した &lt;code>.ico&lt;/code> ファイルを &lt;code>static&lt;/code> 直下に配置すればOKです。&lt;/p>
+&lt;h2 id="heading-6">記事を書く&lt;/h2>
+&lt;p>記事はMarkdownで書きます。&lt;/p>
+&lt;p>ここで困るのは、Markdownにもいくつか方言があることです。
+何を参考に書けばいいか迷ってしまいますね。&lt;/p>
+&lt;p>HugoではMarkdownの処理に &lt;a href="https://github.com/russross/blackfriday">russross/blackfriday: Blackfriday: a markdown processor for Go&lt;/a> を使っています。
+Blackfriday特有の書式(脚注など)もある為、こちらを参照しながら書くとよいでしょう。&lt;/p>
+&lt;h3 id="heading-7">記事のファイル名について&lt;/h3>
+&lt;p>日記や思い付きで即興で記事を書く場合、いちいち被らないようにファイル名を考えるのは面倒ですよね。&lt;/p>
+&lt;p>Hugoの場合ファイル名は管理上の問題でしかないので、適当に日付やタイムスタンプでも入れておけばよいです。
+デフォルトではファイル名がURLに使われますが、記事毎の設定で &lt;code>slug = &amp;quot;hogehoge&amp;quot;&lt;/code> のように設定しておけば、
+実際のURLは &lt;code>/post/hogehoge&lt;/code> のようになります。&lt;/p>
+&lt;p>また、以下のように設定ファイルに書いておけば、年月日がURLのプレフィクスに付くので被る心配もありません:&lt;/p>
+&lt;pre>&lt;code>[permalinks]
+post = &amp;quot;/:year/:month/:day/:slug&amp;quot;
+&lt;/code>&lt;/pre>&lt;h2 id="heading-8">コメント対応&lt;/h2>
+&lt;p>なんとなくコメント欄があるとオープンな感じでいいですよね？
+ということでコメントにも対応させてみましょう。&lt;/p>
+&lt;p>Hugo自身が&lt;a href="https://github.com/spf13/hugo/blob/cd36d752a3e8e2b75965fe281e6466d7a274cd94/tpl/template_embedded.go#L131-L145">Disqusに対応している&lt;/a>ので、
+&lt;a href="https://disqus.com/">Disqus&lt;/a>を使いましょう。
+ただし、Disqusによるコメント対応も、テーマによってはサポートされていない場合があるので要注意です。&lt;/p>
+&lt;p>何よりもまず Disqus への登録です。
+&lt;a href="https://help.disqus.com/customer/portal/articles/466182-publisher-quick-start-guide">ヘルプ&lt;/a>を見ながら行いましょう。
+設定は特に必要ありませんので登録だけ済ませれば一旦OKです。後から言語設定を日本語にしたりすることも出来ます。&lt;/p>
+&lt;p>登録が完了したら、登録時に入力した shortname (unique Disqus URL) を以下のように設定に追記しましょう:&lt;/p>
+&lt;pre>&lt;code>disqusShortname = &amp;quot;sitename&amp;quot;
+&lt;/code>&lt;/pre>&lt;p>これだけでHugoの設定は完了です。(テーマが対応していれば)個別の記事ページにコメント欄が出現します。&lt;/p>
+&lt;h2 id="heading-9">デプロイ&lt;/h2>
+&lt;p>生成したブログは GitHub Pages でホスティングします。&lt;/p>
+&lt;p>&lt;code>gh-pages&lt;/code> ではなく、ユーザや Organization のページとして公開する場合は、
+&lt;a href="https://gohugo.io/tutorials/github-pages-blog/#hosting-personal-organization-pages">Hosting Personal/Organization Pages&lt;/a>に
 何も考えずに従えばOKです。
-例示されているスクリプトもそのままコピペで使えます。&lt;/p&gt;
-&lt;p&gt;実際にこのブログで使われているモノは全て&lt;a href=&#34;https://github.com/yewton/yewton-hugo&#34;&gt;こちら&lt;/a&gt;にあるので参考にしてください。&lt;/p&gt;
-&lt;h2 id=&#34;heading-10&#34;&gt;独自ドメイン対応&lt;/h2&gt;
-&lt;p&gt;github.com ドメインでホスティングするだけでよければ、ここから先の作業は不要です。おめでとうございます。&lt;/p&gt;
-&lt;p&gt;以降はHugoとは関係ない話が続きます。&lt;/p&gt;
-&lt;p&gt;既に独自ドメインを持っていて、それをブログでも使いたい場合は、
-&lt;a href=&#34;https://help.github.com/articles/adding-a-cname-file-to-your-repository/&#34;&gt;CNAME&lt;/a&gt;の設定をGitHub上で行う必要があります。
-&lt;a href=&#34;https://github.com/yewton/yewton.github.io/blob/master/CNAME&#34;&gt;こんなファイル&lt;/a&gt;を作ってあげて、
-DNSレジストラ側で &lt;code&gt;CNAME&lt;/code&gt; とか &lt;code&gt;ANAME&lt;/code&gt; の設定を行ないます。&lt;/p&gt;
-&lt;h3 id=&#34;-vs-&#34;&gt;サブドメイン vs ルートドメイン&lt;/h3&gt;
-&lt;p&gt;&lt;code&gt;CNAME&lt;/code&gt; の設定をするか &lt;code&gt;ANAME&lt;/code&gt; の設定をするかは、サブドメインを使うかルートドメインを使うかの違いです。
-GitHubのヘルプによると、&lt;a href=&#34;https://help.github.com/articles/about-custom-domains-for-github-pages-sites/#subdomains&#34;&gt;サブドメインを強く推奨している&lt;/a&gt;そうです。&lt;/p&gt;
-&lt;p&gt;サブドメインを推奨する理由は以下のようです:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;GitHubのCDNの恩恵を受けられる&lt;/li&gt;
-&lt;li&gt;GitHub自体のIPアドレス変更に影響を受けない&lt;/li&gt;
-&lt;li&gt;DoS対策がより効率的になるのでページロードが高速になる&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;というわけで、特別な事情がない限りはサブドメインを利用するのがよいでしょう&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;。&lt;/p&gt;
-&lt;h2 id=&#34;https&#34;&gt;HTTPS化&lt;/h2&gt;
-&lt;p&gt;ここまででブログとしての体裁は整いました。
-ですが、折角つくったサイトですからHTTPSで配信したいですよね？しましょう。&lt;/p&gt;
-&lt;p&gt;これには&lt;a href=&#34;https://www.cloudflare.com/&#34;&gt;CloudFlare&lt;/a&gt;を利用出来ます。
-&lt;a href=&#34;https://1000ch.net/posts/2015/github-pages-custom-domain-in-https.html&#34;&gt;GitHub Pagesに設定しているカスタムドメインをHTTPS対応させる - 1000ch.net&lt;/a&gt;が非常に参考になります。&lt;/p&gt;
-&lt;p&gt;設定が反映されるまでは最長1日程度かかりますので、ゆっくりと待ちましょう。&lt;/p&gt;
-&lt;p&gt;なおCloudFlareを利用すると、ついでに HTTP/2 も有効になります。
-他にもJSの軽量化などの各種高速化の設定を利用出来ますので、設定項目を見てみるのもよいでしょう。&lt;/p&gt;
-&lt;h3 id=&#34;heading-11&#34;&gt;注意&lt;/h3&gt;
-&lt;p&gt;注意点として、この際に Flexible SSL を用いる場合は、あくまでユーザとCloudFlare間の通信が暗号化されるだけで、 &lt;strong&gt;CloudFlareとGitHub Pages間の通信は暗号化されていません&lt;/strong&gt; 。
-後者の間の通信は改竄されうる状態で、かつ、ユーザはそれを知る術が無いという状態に…。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://konklone.com/post/github-pages-now-supports-https-so-use-it&#34;&gt;GitHub Pages Now (Sorta) Supports HTTPS, So Use It&lt;/a&gt;に詳しく書かれていますが、
-一応そういう状態であるということは認識しておきましょう。&lt;/p&gt;
-&lt;h2 id=&#34;heading-12&#34;&gt;終わりに&lt;/h2&gt;
-&lt;p&gt;いい感じのブログを無料で手軽に作る方法についてまとめました。
-改めてまとめてみるとそれなりにボリュームがあってちょっと大変でした…。&lt;/p&gt;
-&lt;p&gt;これからブログを始めるぞーと思っている誰かの役に立てばいいなーと思います。&lt;/p&gt;
-&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
-&lt;hr&gt;
-&lt;ol&gt;
-&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
-&lt;p&gt;こう書いている自分も、最初は特に気にせずにルートドメインで登録してしまっていました。この記事を書きながら気づいて、慌てて &lt;code&gt;www&lt;/code&gt; サブドメインに移行しました。 &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/section&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>スクラム入門を翻訳する日々</title>
-      <link>https://www.yewton.net/2016/01/31/diary/</link>
-      <pubDate>Sun, 31 Jan 2016 23:18:29 +0900</pubDate>
-      <guid>https://www.yewton.net/2016/01/31/diary/</guid>
-      <description>&lt;p&gt;最近、&lt;a href=&#34;https://www.gitbook.com/book/yewton/scrumprimer/details&#34;&gt;スクラム入門の翻訳&lt;/a&gt;を
-細々とやっている。&lt;/p&gt;
-&lt;p&gt;元々は&lt;a href=&#34;http://www.scrumprimer.org/&#34;&gt;Scrum Primer - Short Introduction to Scrum&lt;/a&gt;で配布されているPDFで、
-認定スクラムマスター研修でも参照される真っ当な文献(のはす)。&lt;/p&gt;
-&lt;p&gt;日本語版があるにはある&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;んだけれど、古いし翻訳の質が怪しいので、
-自分の理解を進めるという意味も含めて独力で翻訳してみることにした。&lt;/p&gt;
-&lt;p&gt;進捗としては、1週間の空いた時間をほぼそればっかりに費してようやっと 1/5 くらい進んだ。
+例示されているスクリプトもそのままコピペで使えます。&lt;/p>
+&lt;p>実際にこのブログで使われているモノは全て&lt;a href="https://github.com/yewton/yewton-hugo">こちら&lt;/a>にあるので参考にしてください。&lt;/p>
+&lt;h2 id="heading-10">独自ドメイン対応&lt;/h2>
+&lt;p>github.com ドメインでホスティングするだけでよければ、ここから先の作業は不要です。おめでとうございます。&lt;/p>
+&lt;p>以降はHugoとは関係ない話が続きます。&lt;/p>
+&lt;p>既に独自ドメインを持っていて、それをブログでも使いたい場合は、
+&lt;a href="https://help.github.com/articles/adding-a-cname-file-to-your-repository/">CNAME&lt;/a>の設定をGitHub上で行う必要があります。
+&lt;a href="https://github.com/yewton/yewton.github.io/blob/master/CNAME">こんなファイル&lt;/a>を作ってあげて、
+DNSレジストラ側で &lt;code>CNAME&lt;/code> とか &lt;code>ANAME&lt;/code> の設定を行ないます。&lt;/p>
+&lt;h3 id="-vs-">サブドメイン vs ルートドメイン&lt;/h3>
+&lt;p>&lt;code>CNAME&lt;/code> の設定をするか &lt;code>ANAME&lt;/code> の設定をするかは、サブドメインを使うかルートドメインを使うかの違いです。
+GitHubのヘルプによると、&lt;a href="https://help.github.com/articles/about-custom-domains-for-github-pages-sites/#subdomains">サブドメインを強く推奨している&lt;/a>そうです。&lt;/p>
+&lt;p>サブドメインを推奨する理由は以下のようです:&lt;/p>
+&lt;ul>
+&lt;li>GitHubのCDNの恩恵を受けられる&lt;/li>
+&lt;li>GitHub自体のIPアドレス変更に影響を受けない&lt;/li>
+&lt;li>DoS対策がより効率的になるのでページロードが高速になる&lt;/li>
+&lt;/ul>
+&lt;p>というわけで、特別な事情がない限りはサブドメインを利用するのがよいでしょう&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>。&lt;/p>
+&lt;h2 id="https">HTTPS化&lt;/h2>
+&lt;p>ここまででブログとしての体裁は整いました。
+ですが、折角つくったサイトですからHTTPSで配信したいですよね？しましょう。&lt;/p>
+&lt;p>これには&lt;a href="https://www.cloudflare.com/">CloudFlare&lt;/a>を利用出来ます。
+&lt;a href="https://1000ch.net/posts/2015/github-pages-custom-domain-in-https.html">GitHub Pagesに設定しているカスタムドメインをHTTPS対応させる - 1000ch.net&lt;/a>が非常に参考になります。&lt;/p>
+&lt;p>設定が反映されるまでは最長1日程度かかりますので、ゆっくりと待ちましょう。&lt;/p>
+&lt;p>なおCloudFlareを利用すると、ついでに HTTP/2 も有効になります。
+他にもJSの軽量化などの各種高速化の設定を利用出来ますので、設定項目を見てみるのもよいでしょう。&lt;/p>
+&lt;h3 id="heading-11">注意&lt;/h3>
+&lt;p>注意点として、この際に Flexible SSL を用いる場合は、あくまでユーザとCloudFlare間の通信が暗号化されるだけで、 &lt;strong>CloudFlareとGitHub Pages間の通信は暗号化されていません&lt;/strong> 。
+後者の間の通信は改竄されうる状態で、かつ、ユーザはそれを知る術が無いという状態に…。&lt;/p>
+&lt;p>&lt;a href="https://konklone.com/post/github-pages-now-supports-https-so-use-it">GitHub Pages Now (Sorta) Supports HTTPS, So Use It&lt;/a>に詳しく書かれていますが、
+一応そういう状態であるということは認識しておきましょう。&lt;/p>
+&lt;h2 id="heading-12">終わりに&lt;/h2>
+&lt;p>いい感じのブログを無料で手軽に作る方法についてまとめました。
+改めてまとめてみるとそれなりにボリュームがあってちょっと大変でした…。&lt;/p>
+&lt;p>これからブログを始めるぞーと思っている誰かの役に立てばいいなーと思います。&lt;/p>
+&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>こう書いている自分も、最初は特に気にせずにルートドメインで登録してしまっていました。この記事を書きながら気づいて、慌てて &lt;code>www&lt;/code> サブドメインに移行しました。 &lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/section></description></item><item><title>スクラム入門を翻訳する日々</title><link>https://www.yewton.net/2016/01/31/diary/</link><pubDate>Sun, 31 Jan 2016 23:18:29 +0900</pubDate><guid>https://www.yewton.net/2016/01/31/diary/</guid><description>&lt;p>最近、&lt;a href="https://www.gitbook.com/book/yewton/scrumprimer/details">スクラム入門の翻訳&lt;/a>を
+細々とやっている。&lt;/p>
+&lt;p>元々は&lt;a href="http://www.scrumprimer.org/">Scrum Primer - Short Introduction to Scrum&lt;/a>で配布されているPDFで、
+認定スクラムマスター研修でも参照される真っ当な文献(のはす)。&lt;/p>
+&lt;p>日本語版があるにはある&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>んだけれど、古いし翻訳の質が怪しいので、
+自分の理解を進めるという意味も含めて独力で翻訳してみることにした。&lt;/p>
+&lt;p>進捗としては、1週間の空いた時間をほぼそればっかりに費してようやっと 1/5 くらい進んだ。
 さすがに他のこともやりたいので、完成までは2ヶ月くらいかかってしまうかもしれない…。
-3月中には終わるように頑張ろう。&lt;/p&gt;
-&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
-&lt;hr&gt;
-&lt;ol&gt;
-&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
-&lt;p&gt;すくすくスクラムが翻訳した版がある。あるはずなのだけれど公式に配布している所が見当たらない。 &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/section&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>hugo.elを書いた</title>
-      <link>https://www.yewton.net/2016/01/26/hugo-el/</link>
-      <pubDate>Tue, 26 Jan 2016 23:25:40 +0900</pubDate>
-      <guid>https://www.yewton.net/2016/01/26/hugo-el/</guid>
-      <description>&lt;h2 id=&#34;heading&#34;&gt;#とは&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/yewton/hugo.el&#34;&gt;hugo.el&lt;/a&gt;は、Hugoでサイト作成する際に便利な関数群を定義したパッケージ。
-&lt;a href=&#34;https://marmalade-repo.org/&#34;&gt;marmalade-repo&lt;/a&gt;で公開されているので、パッケージの設定をすれば簡単にインストール出来るハズ。&lt;/p&gt;
-&lt;h2 id=&#34;heading-1&#34;&gt;作った動機&lt;/h2&gt;
-&lt;p&gt;何か〈物を書く〉という作業をする時、自分はEmacsを使っていて、可能な限りEmacsの中から出たくない。
-HugoはCLIのインタフェースなので、ターミナルとEmacsを行き来することになってしまうのは辛い。&lt;/p&gt;
-&lt;p&gt;あと色んなテーマを試したい時に、いちいちテーマ名をコピペする必要があり、辛かった。
-一覧の中からhelmで選択したかった。&lt;/p&gt;
-&lt;p&gt;…というように、Emacsの中で色々作業が完結するようにしたかった。&lt;/p&gt;
-&lt;h2 id=&#34;heading-2&#34;&gt;作ってみて&lt;/h2&gt;
-&lt;p&gt;正直テーマのインストール補助機能はHugoを初めて触って、色々試してみたいフェーズでしか使わないので、
-ほとんどの場合大した価値じゃないかもしれない。&lt;/p&gt;
-&lt;p&gt;個人的には、 &lt;code&gt;hugo-new-content&lt;/code&gt; と、 &lt;code&gt;hugo-start-server&lt;/code&gt;, &lt;code&gt;hugo-open-browser&lt;/code&gt; が中々便利だなーと思って使っている。
-適当に記事を書き始められるし、プレビューするためにターミナルで確認したアドレスをブラウザに打ち込むとかやらなくてよいので。&lt;/p&gt;
-&lt;p&gt;書き終えたあとに &lt;code&gt;hugo-deploy&lt;/code&gt; でひょいっと公開出来るのも地味に便利。
-ただ、デプロイスクリプトを呼び出してるだけなんだけどね…。&lt;/p&gt;
-&lt;p&gt;普段Emacsで物書きをするひとで、Hugoでブログ書こうと思う人は是非便利に使ってもらいたい。
-そんな人あんまりいなさそうだけど…。&lt;/p&gt;
-&lt;h2 id=&#34;todo&#34;&gt;TODO&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;hugo-open-browser&lt;/code&gt; で今開いているcontentを直接開けたらより便利かもしれない&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;hugo-deploy&lt;/code&gt; が同期処理になってて固まるので、非同期にする&lt;/li&gt;
-&lt;li&gt;テスト全然書いてないので、テストを書いてバッジをつけて喜ぶ&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>JIRA Agile用のuserscriptを作ったりした日</title>
-      <link>https://www.yewton.net/2016/01/23/diary/</link>
-      <pubDate>Sat, 23 Jan 2016 23:47:43 +0900</pubDate>
-      <guid>https://www.yewton.net/2016/01/23/diary/</guid>
-      <description>&lt;h2 id=&#34;heading&#34;&gt;趣味の政策物&lt;/h2&gt;
-&lt;p&gt;弊チームではバックログとしてJIRAを使っている。&lt;/p&gt;
-&lt;p&gt;ここ最近しつこく「管理者権限が欲しいなァ〜(ﾁﾗｯ」としていたらめでたく権限を付与してもらえたので、
-ここぞとばかりにJIRAをカスタムして使いやすいようにしていた。&lt;/p&gt;
-&lt;p&gt;ワークフローを単純にしたり、使わないフィールドを非表示にしたり、
-これまで説明文用のテンプレからコピペしたりしていたのを、それぞれ専用のフィールドを設けたり。&lt;/p&gt;
-&lt;p&gt;色々準備はしたもの、やはり始まってみると色々不便なところが出てきて、
-しかもJIRAの設定じゃどうしようもない部分もあったりする。&lt;/p&gt;
-&lt;p&gt;たかがツール、されどツールで、ツールに使われているようじゃ到底円滑にスプリントを回すことなんて出来ない。&lt;/p&gt;
-&lt;p&gt;そこで、スクラムマスターがセレモニーを進めやすいように支援するためのuserscriptを書いた。
-ソースは&lt;a href=&#34;https://github.com/yewton/userscripts&#34;&gt;yewton/userscripts&lt;/a&gt;。&lt;/p&gt;
-&lt;h3 id=&#34;component-labels-for-jira-scrum&#34;&gt;Component-labels for JIRA Scrum&lt;/h3&gt;
-&lt;p&gt;コンポーネントをエピックのようにスクラムボード上で分かりやすいく表示する。&lt;/p&gt;
-&lt;p&gt;ラベリングをしたいが為だけにエピックを使ってしまうという事態は結構そこかしこで起こっているみたいだった。
-本来はコンポーネントでやるべきもので、エピックはエピックとして使えるのが健全な状態だと思うので、作った。&lt;/p&gt;
-&lt;p&gt;実装は滅茶苦茶単純で、DOMに変更がある度に全課題を舐めて、未設定だったらAPIで該当する課題のコンポーネントを取得している。
+3月中には終わるように頑張ろう。&lt;/p>
+&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>すくすくスクラムが翻訳した版がある。あるはずなのだけれど公式に配布している所が見当たらない。 &lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/section></description></item><item><title>hugo.elを書いた</title><link>https://www.yewton.net/2016/01/26/hugo-el/</link><pubDate>Tue, 26 Jan 2016 23:25:40 +0900</pubDate><guid>https://www.yewton.net/2016/01/26/hugo-el/</guid><description>&lt;h2 id="heading">#とは&lt;/h2>
+&lt;p>&lt;a href="https://github.com/yewton/hugo.el">hugo.el&lt;/a>は、Hugoでサイト作成する際に便利な関数群を定義したパッケージ。
+&lt;a href="https://marmalade-repo.org/">marmalade-repo&lt;/a>で公開されているので、パッケージの設定をすれば簡単にインストール出来るハズ。&lt;/p>
+&lt;h2 id="heading-1">作った動機&lt;/h2>
+&lt;p>何か〈物を書く〉という作業をする時、自分はEmacsを使っていて、可能な限りEmacsの中から出たくない。
+HugoはCLIのインタフェースなので、ターミナルとEmacsを行き来することになってしまうのは辛い。&lt;/p>
+&lt;p>あと色んなテーマを試したい時に、いちいちテーマ名をコピペする必要があり、辛かった。
+一覧の中からhelmで選択したかった。&lt;/p>
+&lt;p>…というように、Emacsの中で色々作業が完結するようにしたかった。&lt;/p>
+&lt;h2 id="heading-2">作ってみて&lt;/h2>
+&lt;p>正直テーマのインストール補助機能はHugoを初めて触って、色々試してみたいフェーズでしか使わないので、
+ほとんどの場合大した価値じゃないかもしれない。&lt;/p>
+&lt;p>個人的には、 &lt;code>hugo-new-content&lt;/code> と、 &lt;code>hugo-start-server&lt;/code>, &lt;code>hugo-open-browser&lt;/code> が中々便利だなーと思って使っている。
+適当に記事を書き始められるし、プレビューするためにターミナルで確認したアドレスをブラウザに打ち込むとかやらなくてよいので。&lt;/p>
+&lt;p>書き終えたあとに &lt;code>hugo-deploy&lt;/code> でひょいっと公開出来るのも地味に便利。
+ただ、デプロイスクリプトを呼び出してるだけなんだけどね…。&lt;/p>
+&lt;p>普段Emacsで物書きをするひとで、Hugoでブログ書こうと思う人は是非便利に使ってもらいたい。
+そんな人あんまりいなさそうだけど…。&lt;/p>
+&lt;h2 id="todo">TODO&lt;/h2>
+&lt;ul>
+&lt;li>&lt;code>hugo-open-browser&lt;/code> で今開いているcontentを直接開けたらより便利かもしれない&lt;/li>
+&lt;li>&lt;code>hugo-deploy&lt;/code> が同期処理になってて固まるので、非同期にする&lt;/li>
+&lt;li>テスト全然書いてないので、テストを書いてバッジをつけて喜ぶ&lt;/li>
+&lt;/ul></description></item><item><title>JIRA Agile用のuserscriptを作ったりした日</title><link>https://www.yewton.net/2016/01/23/diary/</link><pubDate>Sat, 23 Jan 2016 23:47:43 +0900</pubDate><guid>https://www.yewton.net/2016/01/23/diary/</guid><description>&lt;h2 id="heading">趣味の政策物&lt;/h2>
+&lt;p>弊チームではバックログとしてJIRAを使っている。&lt;/p>
+&lt;p>ここ最近しつこく「管理者権限が欲しいなァ〜(ﾁﾗｯ」としていたらめでたく権限を付与してもらえたので、
+ここぞとばかりにJIRAをカスタムして使いやすいようにしていた。&lt;/p>
+&lt;p>ワークフローを単純にしたり、使わないフィールドを非表示にしたり、
+これまで説明文用のテンプレからコピペしたりしていたのを、それぞれ専用のフィールドを設けたり。&lt;/p>
+&lt;p>色々準備はしたもの、やはり始まってみると色々不便なところが出てきて、
+しかもJIRAの設定じゃどうしようもない部分もあったりする。&lt;/p>
+&lt;p>たかがツール、されどツールで、ツールに使われているようじゃ到底円滑にスプリントを回すことなんて出来ない。&lt;/p>
+&lt;p>そこで、スクラムマスターがセレモニーを進めやすいように支援するためのuserscriptを書いた。
+ソースは&lt;a href="https://github.com/yewton/userscripts">yewton/userscripts&lt;/a>。&lt;/p>
+&lt;h3 id="component-labels-for-jira-scrum">Component-labels for JIRA Scrum&lt;/h3>
+&lt;p>コンポーネントをエピックのようにスクラムボード上で分かりやすいく表示する。&lt;/p>
+&lt;p>ラベリングをしたいが為だけにエピックを使ってしまうという事態は結構そこかしこで起こっているみたいだった。
+本来はコンポーネントでやるべきもので、エピックはエピックとして使えるのが健全な状態だと思うので、作った。&lt;/p>
+&lt;p>実装は滅茶苦茶単純で、DOMに変更がある度に全課題を舐めて、未設定だったらAPIで該当する課題のコンポーネントを取得している。
 なので、バックログに積まれている課題数分、ページを開いた瞬間にリクエストが走ることになる。
 リクエストの仕方を何か工夫しないと使いものにならないかなーと思っていたのだけれど、
-案外数百リクエスト飛ばすぐらいだとビクともしなかったので、愚直な実装のまま。&lt;/p&gt;
-&lt;h3 id=&#34;detail-pop-up-for-jria-scrum&#34;&gt;Detail Pop-up for JRIA Scrum&lt;/h3&gt;
-&lt;p&gt;各課題に詳細画面をポップアップで開くためのボタンを追加する。&lt;/p&gt;
-&lt;p&gt;アジャイルボードではカスタムフィールドが表示されないので、
+案外数百リクエスト飛ばすぐらいだとビクともしなかったので、愚直な実装のまま。&lt;/p>
+&lt;h3 id="detail-pop-up-for-jria-scrum">Detail Pop-up for JRIA Scrum&lt;/h3>
+&lt;p>各課題に詳細画面をポップアップで開くためのボタンを追加する。&lt;/p>
+&lt;p>アジャイルボードではカスタムフィールドが表示されないので、
 確認するためには編集ポップアップを開くか、詳細画面に飛ぶしかなかった。
 しかも、アクティブなスプリント中はクローズされている課題が編集出来ないので、
-前者の方法はスプリントレビュー時には使えない。&lt;/p&gt;
-&lt;p&gt;画面遷移せずに詳細画面が開ければ用は足りると考え、
-&lt;a href=&#34;http://www.ericmmartin.com/projects/simplemodal/&#34;&gt;SimpleModal&lt;/a&gt;という、
+前者の方法はスプリントレビュー時には使えない。&lt;/p>
+&lt;p>画面遷移せずに詳細画面が開ければ用は足りると考え、
+&lt;a href="http://www.ericmmartin.com/projects/simplemodal/">SimpleModal&lt;/a>という、
 その名の通りシンプルなモーダル機能を実装するためのライブラリを使って、
-&lt;code&gt;iframe&lt;/code&gt; で詳細画面を開くだけの機能を追加した。&lt;/p&gt;
-&lt;h2 id=&#34;3----connpasshttpddd-allianceconnpasscomevent24672&#34;&gt;&lt;a href=&#34;http://ddd-alliance.connpass.com/event/24672/&#34;&gt;第3回 実践的ドメイン駆動設計ワークショップ - connpass&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;参加してきた。&lt;/p&gt;
-&lt;p&gt;エンジニアチームとして、業務と技術両面でどういう風に学んでいけばいいかっていう話と、
-実際にやってみたら、コードの雰囲気はこんな感じだぜ、っていう話。&lt;/p&gt;
-&lt;p&gt;ドメイン層のクラスが1,000個とかあって、個々のクラスは 30 〜 60 行が大半を占めるそう。
+&lt;code>iframe&lt;/code> で詳細画面を開くだけの機能を追加した。&lt;/p>
+&lt;h2 id="3----connpasshttpddd-allianceconnpasscomevent24672">&lt;a href="http://ddd-alliance.connpass.com/event/24672/">第3回 実践的ドメイン駆動設計ワークショップ - connpass&lt;/a>&lt;/h2>
+&lt;p>参加してきた。&lt;/p>
+&lt;p>エンジニアチームとして、業務と技術両面でどういう風に学んでいけばいいかっていう話と、
+実際にやってみたら、コードの雰囲気はこんな感じだぜ、っていう話。&lt;/p>
+&lt;p>ドメイン層のクラスが1,000個とかあって、個々のクラスは 30 〜 60 行が大半を占めるそう。
 目指すべき方向はそこだっていうのはわかってはいるけど、
-実際に稼動してるプロダクトの数字っていうのは説得力がある。&lt;/p&gt;
-&lt;p&gt;ドメイン駆動設計を実践するなら、ドメインエキスパートとか、企画者との協調が必須だと思うのだけれど、
-それをどうプロセスとして制御可能な形で行えばいいか、あまり掴めてない。&lt;/p&gt;
-&lt;p&gt;会話を重視しつつ、かつダラダラやらずに予測可能な状態で、
-モデルに関する会話をする場を、開発プロセスのどこで行えばいいんだろう。&lt;/p&gt;
-&lt;p&gt;増田さんに上手いやり方無いっすか、と相談してみたけれど、
+実際に稼動してるプロダクトの数字っていうのは説得力がある。&lt;/p>
+&lt;p>ドメイン駆動設計を実践するなら、ドメインエキスパートとか、企画者との協調が必須だと思うのだけれど、
+それをどうプロセスとして制御可能な形で行えばいいか、あまり掴めてない。&lt;/p>
+&lt;p>会話を重視しつつ、かつダラダラやらずに予測可能な状態で、
+モデルに関する会話をする場を、開発プロセスのどこで行えばいいんだろう。&lt;/p>
+&lt;p>増田さんに上手いやり方無いっすか、と相談してみたけれど、
 いい方法っていうのはなくて、エンジニアチームが実績を積み重ねて信頼を得ていって、
 協力体制を築くしかないね、ということだった。
-それでも駄目なら、職場を変えよ、とも。&lt;/p&gt;
-&lt;p&gt;色々仰々しいプロセスやツールを導入せずとも、
+それでも駄目なら、職場を変えよ、とも。&lt;/p>
+&lt;p>色々仰々しいプロセスやツールを導入せずとも、
 いつか阿吽の呼吸で、エンジニアチームと企画陣が協調して最高の仕事が出来るようになったときが、
-アジャイルでドメイン駆動な状態なんだろう、たぶん。適当。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>markdown-modeでSKKの変換確定するためにRETするとカーソルが行頭に飛ぶ問題の回避策</title>
-      <link>https://www.yewton.net/2016/01/20/markdown-mode-skk-kakutei/</link>
-      <pubDate>Wed, 20 Jan 2016 22:40:16 +0900</pubDate>
-      <guid>https://www.yewton.net/2016/01/20/markdown-mode-skk-kakutei/</guid>
-      <description>&lt;p&gt;markdown-mode 2.1 で SKK 15.2 使ってると、確定しようと思って &lt;code&gt;&amp;lt;return&amp;gt;&lt;/code&gt; すると、
+アジャイルでドメイン駆動な状態なんだろう、たぶん。適当。&lt;/p></description></item><item><title>markdown-modeでSKKの変換確定するためにRETするとカーソルが行頭に飛ぶ問題の回避策</title><link>https://www.yewton.net/2016/01/20/markdown-mode-skk-kakutei/</link><pubDate>Wed, 20 Jan 2016 22:40:16 +0900</pubDate><guid>https://www.yewton.net/2016/01/20/markdown-mode-skk-kakutei/</guid><description>&lt;p>markdown-mode 2.1 で SKK 15.2 使ってると、確定しようと思って &lt;code>&amp;lt;return&amp;gt;&lt;/code> すると、
 確定後にカーソルが行頭に飛んでしまうという問題に遭遇した。
-&lt;code&gt;C-j&lt;/code&gt; で確定する場合は起こらない。&lt;/p&gt;
-&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
-&lt;p&gt;以下を &lt;code&gt;init.el&lt;/code&gt; 相当のファイルに書けば回避出来る。&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-lisp&#34; data-lang=&#34;lisp&#34;&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;defun&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;my--markdown-entery-key-ad&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;this-func&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;&amp;amp;rest&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;args&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-  &lt;span class=&#34;s&#34;&gt;&amp;#34;markdown-modeでskk-henkan-mode中にエンターすると行頭にカーソルが飛んでしまう問題の対応&amp;#34;&lt;/span&gt;
-  &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;skk-henkan-mode&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;skk-kakutei&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-    &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;apply&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;this-func&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;args&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;advice-add&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;#&amp;#39;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;markdown-enter-key&lt;/span&gt; &lt;span class=&#34;ss&#34;&gt;:around&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;#&amp;#39;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;my--markdown-entery-key-ad&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;heading&#34;&gt;原因解明に至るまで&lt;/h2&gt;
-&lt;p&gt;&lt;code&gt;&amp;lt;return&amp;gt;&lt;/code&gt; = &lt;code&gt;&amp;lt;C-m&amp;gt;&lt;/code&gt; では起こり、&lt;code&gt;C-j&lt;/code&gt; では起こらないので、まずはキーバインドを確認したところ、
-前者は &lt;code&gt;markdown-enter-key&lt;/code&gt; という関数が割り当てられていた。&lt;/p&gt;
-&lt;p&gt;実装は至ってシンプルだった:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-lisp&#34; data-lang=&#34;lisp&#34;&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;defun&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;markdown-enter-key&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-  &lt;span class=&#34;s&#34;&gt;&amp;#34;Handle RET according to to the value of `markdown-indent-on-enter&amp;#39;.&amp;#34;&lt;/span&gt;
-  &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;interactive&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-  &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;newline&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-  &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;when&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;markdown-indent-on-enter&lt;/span&gt;
-    &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;markdown-indent-line&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;次に &lt;code&gt;trace-function&lt;/code&gt; で &lt;code&gt;markdown-enter-key&lt;/code&gt; と &lt;code&gt;skk-kakutei&lt;/code&gt; をトレースしたところ、
-以下のような出力が得られた:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;1 -&amp;gt; (markdown-enter-key)
+&lt;code>C-j&lt;/code> で確定する場合は起こらない。&lt;/p>
+&lt;h2 id="tldr">TL;DR&lt;/h2>
+&lt;p>以下を &lt;code>init.el&lt;/code> 相当のファイルに書けば回避出来る。&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-lisp" data-lang="lisp">&lt;span class="p">(&lt;/span>&lt;span class="nb">defun&lt;/span> &lt;span class="nv">my--markdown-entery-key-ad&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="nv">this-func&lt;/span> &lt;span class="k">&amp;amp;rest&lt;/span> &lt;span class="nv">args&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;span class="s">&amp;#34;markdown-modeでskk-henkan-mode中にエンターすると行頭にカーソルが飛んでしまう問題の対応&amp;#34;&lt;/span>
+&lt;span class="p">(&lt;/span>&lt;span class="k">if&lt;/span> &lt;span class="nv">skk-henkan-mode&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="nv">skk-kakutei&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;span class="p">(&lt;/span>&lt;span class="nf">apply&lt;/span> &lt;span class="nv">this-func&lt;/span> &lt;span class="nv">args&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;span class="p">(&lt;/span>&lt;span class="nv">advice-add&lt;/span> &lt;span class="nf">#&amp;#39;&lt;/span>&lt;span class="nv">markdown-enter-key&lt;/span> &lt;span class="ss">:around&lt;/span> &lt;span class="nf">#&amp;#39;&lt;/span>&lt;span class="nv">my--markdown-entery-key-ad&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="heading">原因解明に至るまで&lt;/h2>
+&lt;p>&lt;code>&amp;lt;return&amp;gt;&lt;/code> = &lt;code>&amp;lt;C-m&amp;gt;&lt;/code> では起こり、&lt;code>C-j&lt;/code> では起こらないので、まずはキーバインドを確認したところ、
+前者は &lt;code>markdown-enter-key&lt;/code> という関数が割り当てられていた。&lt;/p>
+&lt;p>実装は至ってシンプルだった:&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-lisp" data-lang="lisp">&lt;span class="p">(&lt;/span>&lt;span class="nb">defun&lt;/span> &lt;span class="nv">markdown-enter-key&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;span class="s">&amp;#34;Handle RET according to to the value of `markdown-indent-on-enter&amp;#39;.&amp;#34;&lt;/span>
+&lt;span class="p">(&lt;/span>&lt;span class="nv">interactive&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;span class="p">(&lt;/span>&lt;span class="nv">newline&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;span class="p">(&lt;/span>&lt;span class="nb">when&lt;/span> &lt;span class="nv">markdown-indent-on-enter&lt;/span>
+&lt;span class="p">(&lt;/span>&lt;span class="nv">markdown-indent-line&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>次に &lt;code>trace-function&lt;/code> で &lt;code>markdown-enter-key&lt;/code> と &lt;code>skk-kakutei&lt;/code> をトレースしたところ、
+以下のような出力が得られた:&lt;/p>
+&lt;pre>&lt;code>1 -&amp;gt; (markdown-enter-key)
 | 2 -&amp;gt; (skk-kakutei)
 | 2 &amp;lt;- skk-kakutei: nil
 1 &amp;lt;- markdown-enter-key: nil
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;code&gt;markdown-enter-key&lt;/code&gt; が発動して &lt;code&gt;(newline)&lt;/code&gt; が評価された結果、
-&lt;code&gt;skk-kakutei&lt;/code&gt; が発動して変換確定、その後に &lt;code&gt;markdown-indent-line&lt;/code&gt; が呼ばれているのがどうも悪いらしい。&lt;/p&gt;
-&lt;h2 id=&#34;heading-1&#34;&gt;回避方法&lt;/h2&gt;
-&lt;p&gt;これは &lt;strong&gt;&lt;code&gt;markdown-enter-key&lt;/code&gt; が呼ばれた時に &lt;code&gt;skk-henkan-mode&lt;/code&gt; 中だったら、&lt;/strong&gt;
-&lt;strong&gt;本来の挙動ではなく &lt;code&gt;skk-kakutei&lt;/code&gt; だけを行なうようにする&lt;/strong&gt; ことで回避出来そうだ。&lt;/p&gt;
-&lt;p&gt;こういう部分的な挙動の修正には advice を使うといい。
-というわけで前述の挙動をそのまま定義すると、冒頭のようなコードになる。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>雪が振ったので一日中家に引き込もっていた日の次の日</title>
-      <link>https://www.yewton.net/2016/01/19/diary/</link>
-      <pubDate>Tue, 19 Jan 2016 23:00:00 +0900</pubDate>
-      <guid>https://www.yewton.net/2016/01/19/diary/</guid>
-      <description>&lt;p&gt;昨日は都内も大雪(いうほどか？)で出社がダルそうだったので、終日リモートワークしていた。
-本当に一歩も家から出ずに、パジャマから着替えもせずに、もくもくとPC作業。&lt;/p&gt;
-&lt;h2 id=&#34;heading&#34;&gt;個人のタスク管理&lt;/h2&gt;
-&lt;p&gt;最近認定スクラムマスターも取ったし、
-一日中スクラムのことばかり考えて悶々とするような続いている。&lt;/p&gt;
-&lt;p&gt;そんな中で、個人的な、業務とかまったく関係ない趣味のタスク管理もなんとかしたいなぁと思いはじめた。&lt;/p&gt;
-&lt;p&gt;趣味なのでそんなガッツリ管理するわけじゃないのでゆるいので何かないかなーと探したら、
-&lt;a href=&#34;https://trello.com/&#34;&gt;Trello&lt;/a&gt; というのがいい感じにゆるゆると使えそうな感じだった。&lt;/p&gt;
-&lt;p&gt;見積もりとか検証とかは出来なさそうだけど、とりあえず何もしないよりはいいだろーっていう想いで、使うことにした。&lt;/p&gt;
-&lt;p&gt;ボードによると、目下最優先のタスクは、 &lt;code&gt;markdwon-mode&lt;/code&gt; で &lt;code&gt;skk-mode&lt;/code&gt; の確定キーバインドが想定通り機能しない件の対応である。
-やるぞ。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>HTTPSに対応してついでにHTTP/2対応された日</title>
-      <link>https://www.yewton.net/2016/01/18/diary/</link>
-      <pubDate>Mon, 18 Jan 2016 00:06:20 +0900</pubDate>
-      <guid>https://www.yewton.net/2016/01/18/diary/</guid>
-      <description>&lt;h2 id=&#34;https--http2-&#34;&gt;HTTPS + HTTP/2 対応&lt;/h2&gt;
-&lt;p&gt;世の中的にHTTPS対応してないといかんような気がしたので、
-このサイトもHTTPSで配信するように対応した。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://1000ch.net/posts/2015/github-pages-custom-domain-in-https.html&#34;&gt;GitHub Pagesに設定しているカスタムドメインをHTTPS対応させる - 1000ch.net&lt;/a&gt;を大いに参考にさせていただいた。
-もう本当に書いてある通りにすればいい。 &lt;a href=&#34;https://www.cloudflare.com/&#34;&gt;CloudFlare&lt;/a&gt; 様々である。&lt;/p&gt;
-&lt;p&gt;敢えて付け加えるとしたら、(CloudFlareのサイト上に注記されてはいるけども)Flexible SSLが実際に動くようになるまでは結構時間がかかること。
+&lt;/code>&lt;/pre>&lt;p>&lt;code>markdown-enter-key&lt;/code> が発動して &lt;code>(newline)&lt;/code> が評価された結果、
+&lt;code>skk-kakutei&lt;/code> が発動して変換確定、その後に &lt;code>markdown-indent-line&lt;/code> が呼ばれているのがどうも悪いらしい。&lt;/p>
+&lt;h2 id="heading-1">回避方法&lt;/h2>
+&lt;p>これは &lt;strong>&lt;code>markdown-enter-key&lt;/code> が呼ばれた時に &lt;code>skk-henkan-mode&lt;/code> 中だったら、&lt;/strong>
+&lt;strong>本来の挙動ではなく &lt;code>skk-kakutei&lt;/code> だけを行なうようにする&lt;/strong> ことで回避出来そうだ。&lt;/p>
+&lt;p>こういう部分的な挙動の修正には advice を使うといい。
+というわけで前述の挙動をそのまま定義すると、冒頭のようなコードになる。&lt;/p></description></item><item><title>雪が振ったので一日中家に引き込もっていた日の次の日</title><link>https://www.yewton.net/2016/01/19/diary/</link><pubDate>Tue, 19 Jan 2016 23:00:00 +0900</pubDate><guid>https://www.yewton.net/2016/01/19/diary/</guid><description>&lt;p>昨日は都内も大雪(いうほどか？)で出社がダルそうだったので、終日リモートワークしていた。
+本当に一歩も家から出ずに、パジャマから着替えもせずに、もくもくとPC作業。&lt;/p>
+&lt;h2 id="heading">個人のタスク管理&lt;/h2>
+&lt;p>最近認定スクラムマスターも取ったし、
+一日中スクラムのことばかり考えて悶々とするような続いている。&lt;/p>
+&lt;p>そんな中で、個人的な、業務とかまったく関係ない趣味のタスク管理もなんとかしたいなぁと思いはじめた。&lt;/p>
+&lt;p>趣味なのでそんなガッツリ管理するわけじゃないのでゆるいので何かないかなーと探したら、
+&lt;a href="https://trello.com/">Trello&lt;/a> というのがいい感じにゆるゆると使えそうな感じだった。&lt;/p>
+&lt;p>見積もりとか検証とかは出来なさそうだけど、とりあえず何もしないよりはいいだろーっていう想いで、使うことにした。&lt;/p>
+&lt;p>ボードによると、目下最優先のタスクは、 &lt;code>markdwon-mode&lt;/code> で &lt;code>skk-mode&lt;/code> の確定キーバインドが想定通り機能しない件の対応である。
+やるぞ。&lt;/p></description></item><item><title>HTTPSに対応してついでにHTTP/2対応された日</title><link>https://www.yewton.net/2016/01/18/diary/</link><pubDate>Mon, 18 Jan 2016 00:06:20 +0900</pubDate><guid>https://www.yewton.net/2016/01/18/diary/</guid><description>&lt;h2 id="https--http2-">HTTPS + HTTP/2 対応&lt;/h2>
+&lt;p>世の中的にHTTPS対応してないといかんような気がしたので、
+このサイトもHTTPSで配信するように対応した。&lt;/p>
+&lt;p>&lt;a href="https://1000ch.net/posts/2015/github-pages-custom-domain-in-https.html">GitHub Pagesに設定しているカスタムドメインをHTTPS対応させる - 1000ch.net&lt;/a>を大いに参考にさせていただいた。
+もう本当に書いてある通りにすればいい。 &lt;a href="https://www.cloudflare.com/">CloudFlare&lt;/a> 様々である。&lt;/p>
+&lt;p>敢えて付け加えるとしたら、(CloudFlareのサイト上に注記されてはいるけども)Flexible SSLが実際に動くようになるまでは結構時間がかかること。
 自分の場合は、都合7〜8時間程度かかった。
-この間、ステータスは &lt;code&gt;AUTHORIZING CERTIFICATES&lt;/code&gt; から &lt;code&gt;ISSUING CERTIFICATES&lt;/code&gt; になり、最終的に &lt;code&gt;ACTIVE CERTIFICATE&lt;/code&gt; になった。&lt;/p&gt;
-&lt;p&gt;この方法でサイトをHTTPS対応するのは簡単だけども懸念もあるらしい&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;ので、
-また今度この辺が実際どういう仕組みで動いてるのか調べてまとめたいと思う。&lt;/p&gt;
-&lt;p&gt;なお、CloudFlareを利用することで副次的に HTTP/2 にも対応することになった。
-Chromeで &lt;a href=&#34;https://chrome.google.com/webstore/detail/http2-and-spdy-indicator/mpbpobfflnpcgagjijhmgnchggcjblin&#34;&gt;HTTP/2 and SPDY indicator&lt;/a&gt;
-を入れてアクセスしたりすると分かる。&lt;/p&gt;
-&lt;h2 id=&#34;ddd&#34;&gt;DDD&lt;/h2&gt;
-&lt;p&gt;開発チームビルディングの一環で、ドメイン駆動設計について改めて色々調べたりしている。&lt;/p&gt;
-&lt;p&gt;図やドキュメントに本質はないとはいえ、ユビキタス言語のサポートとして用語集を作ったり、
-深いモデルの洞察のために図が役に立ったりするので、そのへんのサポートツールが欲しくなる。&lt;/p&gt;
-&lt;p&gt;色々探してたら&lt;a href=&#34;https://skillsmatter.com/skillscasts/6259-ddd-and-microservices-at-last-some-bounderies&#34;&gt;エヴァンス先生がマイクロサービスとの関わりについて講習してる動画&lt;/a&gt;があった。
+この間、ステータスは &lt;code>AUTHORIZING CERTIFICATES&lt;/code> から &lt;code>ISSUING CERTIFICATES&lt;/code> になり、最終的に &lt;code>ACTIVE CERTIFICATE&lt;/code> になった。&lt;/p>
+&lt;p>この方法でサイトをHTTPS対応するのは簡単だけども懸念もあるらしい&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>ので、
+また今度この辺が実際どういう仕組みで動いてるのか調べてまとめたいと思う。&lt;/p>
+&lt;p>なお、CloudFlareを利用することで副次的に HTTP/2 にも対応することになった。
+Chromeで &lt;a href="https://chrome.google.com/webstore/detail/http2-and-spdy-indicator/mpbpobfflnpcgagjijhmgnchggcjblin">HTTP/2 and SPDY indicator&lt;/a>
+を入れてアクセスしたりすると分かる。&lt;/p>
+&lt;h2 id="ddd">DDD&lt;/h2>
+&lt;p>開発チームビルディングの一環で、ドメイン駆動設計について改めて色々調べたりしている。&lt;/p>
+&lt;p>図やドキュメントに本質はないとはいえ、ユビキタス言語のサポートとして用語集を作ったり、
+深いモデルの洞察のために図が役に立ったりするので、そのへんのサポートツールが欲しくなる。&lt;/p>
+&lt;p>色々探してたら&lt;a href="https://skillsmatter.com/skillscasts/6259-ddd-and-microservices-at-last-some-bounderies">エヴァンス先生がマイクロサービスとの関わりについて講習してる動画&lt;/a>があった。
 境界づけられたコンテキストはサービスじゃないから、別に実サービスと一対一対応する必要はない。
 例えば、複数のコンテキストにまたがってやりとりされるようなあるコンテキストのメッセージがあるなら、
-それは Interchange Context (日本語で言うと相互連結コンテキスト？)のように別のコンテキストとして定義すればいいよね、みたいな話があった。&lt;/p&gt;
-&lt;p&gt;せっかく内製開発してて、スクラムやってて、物理的にステークホルダー達とも近い距離にいるのだから、
+それは Interchange Context (日本語で言うと相互連結コンテキスト？)のように別のコンテキストとして定義すればいいよね、みたいな話があった。&lt;/p>
+&lt;p>せっかく内製開発してて、スクラムやってて、物理的にステークホルダー達とも近い距離にいるのだから、
 その恩恵を最大限に活かせるようにしたい。
-そのためにDDDって実践的に役立つと思うので、もっと勉強しなければ。&lt;/p&gt;
-&lt;p&gt;勉強の一環として今度&lt;a href=&#34;http://ddd-alliance.connpass.com/event/25209/&#34;&gt;DDD Alliance! ドメイン駆動設計のためのオブジェクト指向入門&lt;/a&gt;に行ってみる。
-日本でDDDのコミュニティってここくらい？な気がするので、勉強会の内容というよりはコミュニティの様子が気になるので。&lt;/p&gt;
-&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
-&lt;hr&gt;
-&lt;ol&gt;
-&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
-&lt;p&gt;&lt;a href=&#34;https://konklone.com/post/github-pages-now-supports-https-so-use-it&#34;&gt;GitHub Pages Now (Sorta) Supports HTTPS, So Use It&lt;/a&gt; &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/section&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>忙し過ぎてお弁当も食べられなかった日</title>
-      <link>https://www.yewton.net/2016/01/15/diary/</link>
-      <pubDate>Fri, 15 Jan 2016 23:00:00 +0900</pubDate>
-      <guid>https://www.yewton.net/2016/01/15/diary/</guid>
-      <description>&lt;p&gt;最近チームが新体制に移行するという時期で色々バタバタしていて、
+そのためにDDDって実践的に役立つと思うので、もっと勉強しなければ。&lt;/p>
+&lt;p>勉強の一環として今度&lt;a href="http://ddd-alliance.connpass.com/event/25209/">DDD Alliance! ドメイン駆動設計のためのオブジェクト指向入門&lt;/a>に行ってみる。
+日本でDDDのコミュニティってここくらい？な気がするので、勉強会の内容というよりはコミュニティの様子が気になるので。&lt;/p>
+&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>&lt;a href="https://konklone.com/post/github-pages-now-supports-https-so-use-it">GitHub Pages Now (Sorta) Supports HTTPS, So Use It&lt;/a> &lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/section></description></item><item><title>忙し過ぎてお弁当も食べられなかった日</title><link>https://www.yewton.net/2016/01/15/diary/</link><pubDate>Fri, 15 Jan 2016 23:00:00 +0900</pubDate><guid>https://www.yewton.net/2016/01/15/diary/</guid><description>&lt;p>最近チームが新体制に移行するという時期で色々バタバタしていて、
 立ち上げに伴う開発フローの整備とか、JIRA(プロジェクト管理ツール)の設定とか、
-ワーキングアグリーメントの検討とかで、頓に忙しい。&lt;/p&gt;
-&lt;p&gt;別に、自分の役割はスクラムマスターではなく、いちメンバーに過ぎないのだけれど、
+ワーキングアグリーメントの検討とかで、頓に忙しい。&lt;/p>
+&lt;p>別に、自分の役割はスクラムマスターではなく、いちメンバーに過ぎないのだけれど、
 認定スクラムマスターを取得した身としては色々手を焼かずにはいられず、
-色んな雑務を買って出ているという状況。&lt;/p&gt;
-&lt;p&gt;それもこれも、スプリント中は〈全力疾走〉するのがスクラムである、
-というスクラムのあるべき姿を目指して、自分が全力で開発に打ち込めるようにするため。&lt;/p&gt;
-&lt;p&gt;…と思ってたけど、最近は &lt;em&gt;チームのパフォーマンスを引き出す&lt;/em&gt; っていうことに全力になっていて、
-それはそれで楽しくなってきたので、スクラムマスターもいいかなー、なんて思い始めた。&lt;/p&gt;
-&lt;h2 id=&#34;heading&#34;&gt;サイト改修&lt;/h2&gt;
-&lt;p&gt;今日もサイトいじりに勤しんだ。&lt;/p&gt;
-&lt;p&gt;いじるときはEmacsを使うんだけれど、自分は適当なのでHTML中にJavaScriptを埋め込んだりする。
+色んな雑務を買って出ているという状況。&lt;/p>
+&lt;p>それもこれも、スプリント中は〈全力疾走〉するのがスクラムである、
+というスクラムのあるべき姿を目指して、自分が全力で開発に打ち込めるようにするため。&lt;/p>
+&lt;p>…と思ってたけど、最近は &lt;em>チームのパフォーマンスを引き出す&lt;/em> っていうことに全力になっていて、
+それはそれで楽しくなってきたので、スクラムマスターもいいかなー、なんて思い始めた。&lt;/p>
+&lt;h2 id="heading">サイト改修&lt;/h2>
+&lt;p>今日もサイトいじりに勤しんだ。&lt;/p>
+&lt;p>いじるときはEmacsを使うんだけれど、自分は適当なのでHTML中にJavaScriptを埋め込んだりする。
 するとhtml-modeだとシンタックハイライトとかが無くて辛いことになるので、
-&lt;a href=&#34;http://web-mode.org/&#34;&gt;web-mode&lt;/a&gt;を使ってる。&lt;/p&gt;
-&lt;p&gt;HTMLファイルはCSSファイルは、始めから関連付けておくといいと思う。&lt;/p&gt;
-&lt;h3 id=&#34;gravatar&#34;&gt;gravatar対応&lt;/h3&gt;
-&lt;p&gt;静的画像だけでなく、gravatarのアイコンを使えるようにした。&lt;/p&gt;
-&lt;p&gt;ついでに、画像を丸く表示するようにした。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/cxfksword/greyshade/blob/28fb061bb674a2add89724dfbbf167f88f381d40/layouts/partials/header.html&#34;&gt;gravatarに対応している他のテーマ(greyshade)&lt;/a&gt;と、
-&lt;a href=&#34;http://tdwp.us/round-gravatar-images-wordpress/&#34;&gt;How to Round Gravatar Images in WordPress&lt;/a&gt;を参考にした。&lt;/p&gt;
-&lt;h3 id=&#34;heading-1&#34;&gt;記念日対応&lt;/h3&gt;
-&lt;p&gt;最初は&lt;a href=&#34;http://counting.hatelabo.jp/&#34;&gt;Hatena::Counting&lt;/a&gt;とか類似のサービスを利用しようと思ったんだけど、
-あんまりシンプルなのが無かったので自作した。&lt;/p&gt;
-&lt;p&gt;自作といったって、&lt;a href=&#34;http://momentjs.com/&#34;&gt;Moment.js&lt;/a&gt;というとても便利なライブラリがあったので、
-それを使って適当にJavaScriptを埋め込んだだけ。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://golang.org/pkg/text/template/&#34;&gt;template - The Go Programming Language&lt;/a&gt;とか
-&lt;a href=&#34;https://gohugo.io/templates/go-templates/&#34;&gt;Hugo - Go Template Primer&lt;/a&gt;あたりも参考にした。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>BettorTouchToolが無料じゃなくなると分かったりした日</title>
-      <link>https://www.yewton.net/2016/01/13/diary/</link>
-      <pubDate>Wed, 13 Jan 2016 23:00:00 +0900</pubDate>
-      <guid>https://www.yewton.net/2016/01/13/diary/</guid>
-      <description>&lt;h2 id=&#34;bettertouchtool-will-switch-from-free-to-a-pay-what-you-want-model-early-next-year--bettertouchtool-btt-remote-bettersnaptool-and-morehttpwwwboastrnetbettertouchtool-may-switch-from-free-to-a-pay-what-you-want-model-early-next-year&#34;&gt;&lt;a href=&#34;http://www.boastr.net/bettertouchtool-may-switch-from-free-to-a-pay-what-you-want-model-early-next-year/&#34;&gt;BetterTouchTool will switch from free to a “Pay what you want” model early next year. – BetterTouchTool, BTT Remote, BetterSnapTool and more&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.boastr.net/&#34;&gt;BetterTouchTool&lt;/a&gt;が1月末を目処に無料じゃなくなるらしい。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://www.boastr.net/btt-paid-faq/&#34;&gt;FAQ&lt;/a&gt;によると、ライセンスは買い切りで(当面)更新の必要は無く、
-過去に寄付してたりといった一定の条件を満たす人は無料でライセンスを取得する手段が提供されるらしい。&lt;/p&gt;
-&lt;p&gt;なお、古いのを使い続けるといったことは出来ず、そのうち使えなくなってしまうもよう。&lt;/p&gt;
-&lt;p&gt;買うしかないなー。&lt;/p&gt;
-&lt;h2 id=&#34;slack-bot---httpblog8arroworgentry20160113183349&#34;&gt;&lt;a href=&#34;http://blog.8arrow.org/entry/2016/01/13/183349&#34;&gt;割と本気で家庭用Slack Botを作ってみた - 八発白中&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;うちの嫁はSlack使ってくれないから無理ぽ。。
-自分もカナヘイスタンプ超気に入ってるから、LINE辞めるのは無理だな。&lt;/p&gt;
-&lt;p&gt;記事中で&lt;a href=&#34;http://counting.hatelabo.jp/&#34;&gt;Hatena::Counting&lt;/a&gt;についての言及があった。
+&lt;a href="http://web-mode.org/">web-mode&lt;/a>を使ってる。&lt;/p>
+&lt;p>HTMLファイルはCSSファイルは、始めから関連付けておくといいと思う。&lt;/p>
+&lt;h3 id="gravatar">gravatar対応&lt;/h3>
+&lt;p>静的画像だけでなく、gravatarのアイコンを使えるようにした。&lt;/p>
+&lt;p>ついでに、画像を丸く表示するようにした。&lt;/p>
+&lt;p>&lt;a href="https://github.com/cxfksword/greyshade/blob/28fb061bb674a2add89724dfbbf167f88f381d40/layouts/partials/header.html">gravatarに対応している他のテーマ(greyshade)&lt;/a>と、
+&lt;a href="http://tdwp.us/round-gravatar-images-wordpress/">How to Round Gravatar Images in WordPress&lt;/a>を参考にした。&lt;/p>
+&lt;h3 id="heading-1">記念日対応&lt;/h3>
+&lt;p>最初は&lt;a href="http://counting.hatelabo.jp/">Hatena::Counting&lt;/a>とか類似のサービスを利用しようと思ったんだけど、
+あんまりシンプルなのが無かったので自作した。&lt;/p>
+&lt;p>自作といったって、&lt;a href="http://momentjs.com/">Moment.js&lt;/a>というとても便利なライブラリがあったので、
+それを使って適当にJavaScriptを埋め込んだだけ。&lt;/p>
+&lt;p>&lt;a href="https://golang.org/pkg/text/template/">template - The Go Programming Language&lt;/a>とか
+&lt;a href="https://gohugo.io/templates/go-templates/">Hugo - Go Template Primer&lt;/a>あたりも参考にした。&lt;/p></description></item><item><title>BettorTouchToolが無料じゃなくなると分かったりした日</title><link>https://www.yewton.net/2016/01/13/diary/</link><pubDate>Wed, 13 Jan 2016 23:00:00 +0900</pubDate><guid>https://www.yewton.net/2016/01/13/diary/</guid><description>&lt;h2 id="bettertouchtool-will-switch-from-free-to-a-pay-what-you-want-model-early-next-year--bettertouchtool-btt-remote-bettersnaptool-and-morehttpwwwboastrnetbettertouchtool-may-switch-from-free-to-a-pay-what-you-want-model-early-next-year">&lt;a href="http://www.boastr.net/bettertouchtool-may-switch-from-free-to-a-pay-what-you-want-model-early-next-year/">BetterTouchTool will switch from free to a “Pay what you want” model early next year. – BetterTouchTool, BTT Remote, BetterSnapTool and more&lt;/a>&lt;/h2>
+&lt;p>&lt;a href="https://www.boastr.net/">BetterTouchTool&lt;/a>が1月末を目処に無料じゃなくなるらしい。&lt;/p>
+&lt;p>&lt;a href="http://www.boastr.net/btt-paid-faq/">FAQ&lt;/a>によると、ライセンスは買い切りで(当面)更新の必要は無く、
+過去に寄付してたりといった一定の条件を満たす人は無料でライセンスを取得する手段が提供されるらしい。&lt;/p>
+&lt;p>なお、古いのを使い続けるといったことは出来ず、そのうち使えなくなってしまうもよう。&lt;/p>
+&lt;p>買うしかないなー。&lt;/p>
+&lt;h2 id="slack-bot---httpblog8arroworgentry20160113183349">&lt;a href="http://blog.8arrow.org/entry/2016/01/13/183349">割と本気で家庭用Slack Botを作ってみた - 八発白中&lt;/a>&lt;/h2>
+&lt;p>うちの嫁はSlack使ってくれないから無理ぽ。。
+自分もカナヘイスタンプ超気に入ってるから、LINE辞めるのは無理だな。&lt;/p>
+&lt;p>記事中で&lt;a href="http://counting.hatelabo.jp/">Hatena::Counting&lt;/a>についての言及があった。
 ちょうどこういうサービス探してたのでありがたい。
 他に世界的にデファクトスタンダードなやつがあるのかとか、調べてみたい。
-&lt;a href=&#34;https://countingdownto.com/&#34;&gt;Create a Countdown Clock | CountingDownTo.com&lt;/a&gt;とかが、それらしい感じがする。&lt;/p&gt;
-&lt;h2 id=&#34;5--geechs-magazinehttpsgeechs-magazinecomtaglifehack20160113&#34;&gt;&lt;a href=&#34;https://geechs-magazine.com/tag/lifehack/20160113&#34;&gt;エンジニアにお勧めしたいメモアプリ5選 | geechs magazine&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;org-modeでだいたい間に合ってるけど、やっぱ同期と多デバイス対応が欲しいよなー。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://mobileorg.ncogni.to/&#34;&gt;MobileOrg : What is MobileOrg?&lt;/a&gt;はちょっと使ってみて微妙だった。。&lt;/p&gt;
-&lt;p&gt;そこだけ何とかなれば。。。&lt;/p&gt;
-&lt;h2 id=&#34;heading&#34;&gt;雑感&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;markdown-modeとskkの相性悪いんかな、変換確定しようとすると行頭にカーソルが行ってしまってストレスフルだ。。&lt;/li&gt;
-&lt;li&gt;シンタックスハイライトとかEmojiとか使えんのかな。調べよう。&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>はじめに</title>
-      <link>https://www.yewton.net/2016/01/11/at-the-start/</link>
-      <pubDate>Mon, 11 Jan 2016 11:11:11 +0900</pubDate>
-      <guid>https://www.yewton.net/2016/01/11/at-the-start/</guid>
-      <description>&lt;h2 id=&#34;heading&#34;&gt;はじめに&lt;/h2&gt;
-&lt;p&gt;今年30歳になる節目の年なので、ブログを書いてみることにした。&lt;/p&gt;
-&lt;p&gt;何もこういう試みは初めてではなく、
-これまでも、&lt;a href=&#34;http://d.hatena.ne.jp/yuto_sasaki/&#34;&gt;はてなダイアリー&lt;/a&gt;だったり、
-&lt;a href=&#34;http://qiita.com/yewton&#34;&gt;Qiita&lt;/a&gt;だったりに断続的に記事を書いたりメモしたりしていた。&lt;/p&gt;
-&lt;p&gt;それより以前も、個人でサイト作成したり、既存のブログサービスを使っていたこともあった。&lt;/p&gt;
-&lt;p&gt;いずれも、1年と経たずに辞めてしまった。
-自分の凝り性でかつ飽きっぽい性質のためだと思う。&lt;/p&gt;
-&lt;p&gt;今回また性懲りもなく始めたのは、何かをアウトプットしたいというよりも、
-&lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;というものを何かのキッカケで知って、
+&lt;a href="https://countingdownto.com/">Create a Countdown Clock | CountingDownTo.com&lt;/a>とかが、それらしい感じがする。&lt;/p>
+&lt;h2 id="5--geechs-magazinehttpsgeechs-magazinecomtaglifehack20160113">&lt;a href="https://geechs-magazine.com/tag/lifehack/20160113">エンジニアにお勧めしたいメモアプリ5選 | geechs magazine&lt;/a>&lt;/h2>
+&lt;p>org-modeでだいたい間に合ってるけど、やっぱ同期と多デバイス対応が欲しいよなー。&lt;/p>
+&lt;p>&lt;a href="http://mobileorg.ncogni.to/">MobileOrg : What is MobileOrg?&lt;/a>はちょっと使ってみて微妙だった。。&lt;/p>
+&lt;p>そこだけ何とかなれば。。。&lt;/p>
+&lt;h2 id="heading">雑感&lt;/h2>
+&lt;ul>
+&lt;li>markdown-modeとskkの相性悪いんかな、変換確定しようとすると行頭にカーソルが行ってしまってストレスフルだ。。&lt;/li>
+&lt;li>シンタックスハイライトとかEmojiとか使えんのかな。調べよう。&lt;/li>
+&lt;/ul></description></item><item><title>はじめに</title><link>https://www.yewton.net/2016/01/11/at-the-start/</link><pubDate>Mon, 11 Jan 2016 11:11:11 +0900</pubDate><guid>https://www.yewton.net/2016/01/11/at-the-start/</guid><description>&lt;h2 id="heading">はじめに&lt;/h2>
+&lt;p>今年30歳になる節目の年なので、ブログを書いてみることにした。&lt;/p>
+&lt;p>何もこういう試みは初めてではなく、
+これまでも、&lt;a href="http://d.hatena.ne.jp/yuto_sasaki/">はてなダイアリー&lt;/a>だったり、
+&lt;a href="http://qiita.com/yewton">Qiita&lt;/a>だったりに断続的に記事を書いたりメモしたりしていた。&lt;/p>
+&lt;p>それより以前も、個人でサイト作成したり、既存のブログサービスを使っていたこともあった。&lt;/p>
+&lt;p>いずれも、1年と経たずに辞めてしまった。
+自分の凝り性でかつ飽きっぽい性質のためだと思う。&lt;/p>
+&lt;p>今回また性懲りもなく始めたのは、何かをアウトプットしたいというよりも、
+&lt;a href="https://gohugo.io/">Hugo&lt;/a>というものを何かのキッカケで知って、
 Golangの静的サイト生成ツールだと知り、イマドキは静的サイト生成だよねー
-という巷の声を聞いた結果、使ってみたくなった、というのが大きい。&lt;/p&gt;
-&lt;p&gt;飽きたらその内また辞めるだろうけれど、
+という巷の声を聞いた結果、使ってみたくなった、というのが大きい。&lt;/p>
+&lt;p>飽きたらその内また辞めるだろうけれど、
 今のところ調整したりカスタマイズしたりしたい部分が多々あるので、当面存在はするだろう。
-これらの試みを記事にしたりするかもしれない。&lt;/p&gt;
-&lt;h2 id=&#34;heading-1&#34;&gt;何を書くか&lt;/h2&gt;
-&lt;p&gt;外部サービスに依存しないので(ホスティングはGitHub使ってるケド)自由奔放に書いていけたらと思っている。&lt;/p&gt;
-&lt;p&gt;技術的な話から、日常の駄文、過去の思い出を振り返ってみたり、
-あとはペットの話も書くかもしれない。時にはポエムも書くだろう。&lt;/p&gt;
-&lt;p&gt;当分人の目に触れぬはずの所なので、好き勝手にやってみよう。&lt;/p&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
+これらの試みを記事にしたりするかもしれない。&lt;/p>
+&lt;h2 id="heading-1">何を書くか&lt;/h2>
+&lt;p>外部サービスに依存しないので(ホスティングはGitHub使ってるケド)自由奔放に書いていけたらと思っている。&lt;/p>
+&lt;p>技術的な話から、日常の駄文、過去の思い出を振り返ってみたり、
+あとはペットの話も書くかもしれない。時にはポエムも書くだろう。&lt;/p>
+&lt;p>当分人の目に触れぬはずの所なので、好き勝手にやってみよう。&lt;/p></description></item></channel></rss>

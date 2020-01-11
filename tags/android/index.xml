@@ -1,69 +1,45 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Android | yewton.net</title>
-    <link>https://www.yewton.net/tags/android/</link>
-      <atom:link href="https://www.yewton.net/tags/android/index.xml" rel="self" type="application/rss+xml" />
-    <description>Android</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja-jp</language><copyright>© 2016-2020 yewton</copyright><lastBuildDate>Sun, 09 Apr 2017 21:55:31 +0900</lastBuildDate>
-    <image>
-      <url>https://www.yewton.net/img/icon.png</url>
-      <title>Android</title>
-      <link>https://www.yewton.net/tags/android/</link>
-    </image>
-    
-    <item>
-      <title>Nexus 7 2012 (grouper) に Beanstalk と ParrotMod を入れて蘇生する</title>
-      <link>https://www.yewton.net/2017/04/09/grouper-beanstalk/</link>
-      <pubDate>Sun, 09 Apr 2017 21:55:31 +0900</pubDate>
-      <guid>https://www.yewton.net/2017/04/09/grouper-beanstalk/</guid>
-      <description>&lt;p&gt;最近はじめて &lt;a href=&#34;http://amzn.to/2nXsSKh&#34;&gt;Fire タブレット&lt;/a&gt; をキャンペーンで購入して、
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Android | yewton.net</title><link>https://www.yewton.net/tags/android/</link><atom:link href="https://www.yewton.net/tags/android/index.xml" rel="self" type="application/rss+xml"/><description>Android</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja-jp</language><copyright>© 2016-2020 yewton</copyright><lastBuildDate>Sun, 09 Apr 2017 21:55:31 +0900</lastBuildDate><image><url>https://www.yewton.net/img/icon.png</url><title>Android</title><link>https://www.yewton.net/tags/android/</link></image><item><title>Nexus 7 2012 (grouper) に Beanstalk と ParrotMod を入れて蘇生する</title><link>https://www.yewton.net/2017/04/09/grouper-beanstalk/</link><pubDate>Sun, 09 Apr 2017 21:55:31 +0900</pubDate><guid>https://www.yewton.net/2017/04/09/grouper-beanstalk/</guid><description>&lt;p>最近はじめて &lt;a href="http://amzn.to/2nXsSKh">Fire タブレット&lt;/a> をキャンペーンで購入して、
 こういう本読むだけとか書い物するだけとかの単機能なタブレットも結構いいな、と思った。
-そして、うちに使ってない &lt;a href=&#34;http://amzn.to/2oSEwJK&#34;&gt;Nexus 7&lt;/a&gt; があることを思い出した。&lt;/p&gt;
-&lt;p&gt;この Nexus 7 、どうして使っていなかったかというと、
+そして、うちに使ってない &lt;a href="http://amzn.to/2oSEwJK">Nexus 7&lt;/a> があることを思い出した。&lt;/p>
+&lt;p>この Nexus 7 、どうして使っていなかったかというと、
 Lollipop にアップデートしてしまったから。
 Nexus 7 2012 は Lollipop にアップデートしてしまうと、
-動作が重過ぎて使い物にならなくなる。&lt;/p&gt;
-&lt;p&gt;どうせ使いものにならないなら、ということで
-&lt;a href=&#34;http://www.slimroms.net/&#34;&gt;SlimKat&lt;/a&gt; や
-&lt;a href=&#34;https://forum.xda-developers.com/nexus-7/development/unofficial-pure-nexus-project-layers-t3243943&#34;&gt;PureNexus&lt;/a&gt; を
+動作が重過ぎて使い物にならなくなる。&lt;/p>
+&lt;p>どうせ使いものにならないなら、ということで
+&lt;a href="http://www.slimroms.net/">SlimKat&lt;/a> や
+&lt;a href="https://forum.xda-developers.com/nexus-7/development/unofficial-pure-nexus-project-layers-t3243943">PureNexus&lt;/a> を
 焼いて使ってみたりもしたが、
 前者は軽いけど見た目や使用感がちょっと微妙( 4.4 ベースだし…)で、
-後者は使っていくうちにやっぱり重くなっていって駄目だった。&lt;/p&gt;
-&lt;p&gt;今回 Fire を買ってあらためて 7 インチの Android タブレットが欲しくなってしまったので、
-もう一度蘇生を試みることにした。&lt;/p&gt;
-&lt;p&gt;そして &lt;a href=&#34;https://www.reddit.com/r/Nexus7/comments/3h0oxg/recommended_fastlightweight_rom_for_2012_n7/&#34;&gt;Reddit のこのスレ&lt;/a&gt; を満つけ、
-そこから &lt;a href=&#34;https://teknovenus.com/speed-up-nexus-7-f2fs-slimkat-ghost/&#34;&gt;Speed up the Nexus 7 with F2FS and SlimKat&lt;/a&gt; という記事に辿り着いた。&lt;/p&gt;
-&lt;p&gt;元々は SlimKat と F2FS の記事だったようだが、2017 年に更新があり、
-&lt;a href=&#34;https://forum.xda-developers.com/nexus-7/development/rom-beanstalk-rom-t3312870&#34;&gt;Beanstalk 6.0.1&lt;/a&gt; と
-&lt;a href=&#34;https://forum.xda-developers.com/nexus-7/orig-development/parrotmod-speed-2012-nexus-7-emmc-fix-t3300416&#34;&gt;ParrotMod&lt;/a&gt; が
-勧められていた(執筆者自身は試していないようだったが)。&lt;/p&gt;
-&lt;h2 id=&#34;beanstalk&#34;&gt;Beanstalk&lt;/h2&gt;
-&lt;p&gt;CyanogenMod 13 (Marshmallow) をベースに作られたカスタム Rom 。
-&lt;a href=&#34;https://forum.xda-developers.com/galaxy-s3/development/rom-t3370186&#34;&gt;フォーラム&lt;/a&gt; の記述によると、&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Smoother than Butter&lt;br&gt;
-Friendly Battery&lt;br&gt;
-Tons of Features&lt;br&gt;
-DirtyUnicorns Features&lt;br&gt;
-Always Up-to-date&lt;br&gt;
-100% Build from Source&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;…らしい。&lt;/p&gt;
-&lt;h2 id=&#34;parrotmod&#34;&gt;ParrotMod&lt;/h2&gt;
-&lt;p&gt;Nexus 7 2012 をすげーいい感じにしてくれるやつ。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;FLASH MEMORY SPEED INCREASE! up to 4x better performance WITHOUT F2FS OR DYNAMIC FSYNC&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;という速度の向上を筆頭に、様々な最適化を行って快適にしてくれるようだ。&lt;/p&gt;
-&lt;h2 id=&#34;heading&#34;&gt;結果&lt;/h2&gt;
-&lt;p&gt;Amazon Kindle , YouTube 、Feedly , 1Password あたりを主に動かしているが、
+後者は使っていくうちにやっぱり重くなっていって駄目だった。&lt;/p>
+&lt;p>今回 Fire を買ってあらためて 7 インチの Android タブレットが欲しくなってしまったので、
+もう一度蘇生を試みることにした。&lt;/p>
+&lt;p>そして &lt;a href="https://www.reddit.com/r/Nexus7/comments/3h0oxg/recommended_fastlightweight_rom_for_2012_n7/">Reddit のこのスレ&lt;/a> を満つけ、
+そこから &lt;a href="https://teknovenus.com/speed-up-nexus-7-f2fs-slimkat-ghost/">Speed up the Nexus 7 with F2FS and SlimKat&lt;/a> という記事に辿り着いた。&lt;/p>
+&lt;p>元々は SlimKat と F2FS の記事だったようだが、2017 年に更新があり、
+&lt;a href="https://forum.xda-developers.com/nexus-7/development/rom-beanstalk-rom-t3312870">Beanstalk 6.0.1&lt;/a> と
+&lt;a href="https://forum.xda-developers.com/nexus-7/orig-development/parrotmod-speed-2012-nexus-7-emmc-fix-t3300416">ParrotMod&lt;/a> が
+勧められていた(執筆者自身は試していないようだったが)。&lt;/p>
+&lt;h2 id="beanstalk">Beanstalk&lt;/h2>
+&lt;p>CyanogenMod 13 (Marshmallow) をベースに作られたカスタム Rom 。
+&lt;a href="https://forum.xda-developers.com/galaxy-s3/development/rom-t3370186">フォーラム&lt;/a> の記述によると、&lt;/p>
+&lt;blockquote>
+&lt;p>Smoother than Butter&lt;br>
+Friendly Battery&lt;br>
+Tons of Features&lt;br>
+DirtyUnicorns Features&lt;br>
+Always Up-to-date&lt;br>
+100% Build from Source&lt;/p>
+&lt;/blockquote>
+&lt;p>…らしい。&lt;/p>
+&lt;h2 id="parrotmod">ParrotMod&lt;/h2>
+&lt;p>Nexus 7 2012 をすげーいい感じにしてくれるやつ。&lt;/p>
+&lt;blockquote>
+&lt;p>FLASH MEMORY SPEED INCREASE! up to 4x better performance WITHOUT F2FS OR DYNAMIC FSYNC&lt;/p>
+&lt;/blockquote>
+&lt;p>という速度の向上を筆頭に、様々な最適化を行って快適にしてくれるようだ。&lt;/p>
+&lt;h2 id="heading">結果&lt;/h2>
+&lt;p>Amazon Kindle , YouTube 、Feedly , 1Password あたりを主に動かしているが、
 アプリ起動時にたまに固まることがあるものの、大抵一度タスクキルして起動し直せば問題なく動作している。
-娯楽用途としては十分な性能になった。&lt;/p&gt;
-&lt;p&gt;もし、使わなくなった Nexus 7 2012 がご家庭に眠っているのなら、
-Beanstalk と ParrotMod を試してみる価値はアリだと思う。&lt;/p&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
+娯楽用途としては十分な性能になった。&lt;/p>
+&lt;p>もし、使わなくなった Nexus 7 2012 がご家庭に眠っているのなら、
+Beanstalk と ParrotMod を試してみる価値はアリだと思う。&lt;/p></description></item></channel></rss>

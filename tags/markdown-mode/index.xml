@@ -1,57 +1,33 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>markdown-mode | yewton.net</title>
-    <link>https://www.yewton.net/tags/markdown-mode/</link>
-      <atom:link href="https://www.yewton.net/tags/markdown-mode/index.xml" rel="self" type="application/rss+xml" />
-    <description>markdown-mode</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja-jp</language><copyright>© 2016-2020 yewton</copyright><lastBuildDate>Wed, 20 Jan 2016 22:40:16 +0900</lastBuildDate>
-    <image>
-      <url>https://www.yewton.net/img/icon.png</url>
-      <title>markdown-mode</title>
-      <link>https://www.yewton.net/tags/markdown-mode/</link>
-    </image>
-    
-    <item>
-      <title>markdown-modeでSKKの変換確定するためにRETするとカーソルが行頭に飛ぶ問題の回避策</title>
-      <link>https://www.yewton.net/2016/01/20/markdown-mode-skk-kakutei/</link>
-      <pubDate>Wed, 20 Jan 2016 22:40:16 +0900</pubDate>
-      <guid>https://www.yewton.net/2016/01/20/markdown-mode-skk-kakutei/</guid>
-      <description>&lt;p&gt;markdown-mode 2.1 で SKK 15.2 使ってると、確定しようと思って &lt;code&gt;&amp;lt;return&amp;gt;&lt;/code&gt; すると、
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>markdown-mode | yewton.net</title><link>https://www.yewton.net/tags/markdown-mode/</link><atom:link href="https://www.yewton.net/tags/markdown-mode/index.xml" rel="self" type="application/rss+xml"/><description>markdown-mode</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja-jp</language><copyright>© 2016-2020 yewton</copyright><lastBuildDate>Wed, 20 Jan 2016 22:40:16 +0900</lastBuildDate><image><url>https://www.yewton.net/img/icon.png</url><title>markdown-mode</title><link>https://www.yewton.net/tags/markdown-mode/</link></image><item><title>markdown-modeでSKKの変換確定するためにRETするとカーソルが行頭に飛ぶ問題の回避策</title><link>https://www.yewton.net/2016/01/20/markdown-mode-skk-kakutei/</link><pubDate>Wed, 20 Jan 2016 22:40:16 +0900</pubDate><guid>https://www.yewton.net/2016/01/20/markdown-mode-skk-kakutei/</guid><description>&lt;p>markdown-mode 2.1 で SKK 15.2 使ってると、確定しようと思って &lt;code>&amp;lt;return&amp;gt;&lt;/code> すると、
 確定後にカーソルが行頭に飛んでしまうという問題に遭遇した。
-&lt;code&gt;C-j&lt;/code&gt; で確定する場合は起こらない。&lt;/p&gt;
-&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
-&lt;p&gt;以下を &lt;code&gt;init.el&lt;/code&gt; 相当のファイルに書けば回避出来る。&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-lisp&#34; data-lang=&#34;lisp&#34;&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;defun&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;my--markdown-entery-key-ad&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;this-func&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;&amp;amp;rest&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;args&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-  &lt;span class=&#34;s&#34;&gt;&amp;#34;markdown-modeでskk-henkan-mode中にエンターすると行頭にカーソルが飛んでしまう問題の対応&amp;#34;&lt;/span&gt;
-  &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;skk-henkan-mode&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;skk-kakutei&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-    &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;apply&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;this-func&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;args&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;advice-add&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;#&amp;#39;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;markdown-enter-key&lt;/span&gt; &lt;span class=&#34;ss&#34;&gt;:around&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;#&amp;#39;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;my--markdown-entery-key-ad&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;heading&#34;&gt;原因解明に至るまで&lt;/h2&gt;
-&lt;p&gt;&lt;code&gt;&amp;lt;return&amp;gt;&lt;/code&gt; = &lt;code&gt;&amp;lt;C-m&amp;gt;&lt;/code&gt; では起こり、&lt;code&gt;C-j&lt;/code&gt; では起こらないので、まずはキーバインドを確認したところ、
-前者は &lt;code&gt;markdown-enter-key&lt;/code&gt; という関数が割り当てられていた。&lt;/p&gt;
-&lt;p&gt;実装は至ってシンプルだった:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-lisp&#34; data-lang=&#34;lisp&#34;&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;defun&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;markdown-enter-key&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-  &lt;span class=&#34;s&#34;&gt;&amp;#34;Handle RET according to to the value of `markdown-indent-on-enter&amp;#39;.&amp;#34;&lt;/span&gt;
-  &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;interactive&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-  &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;newline&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-  &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;when&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;markdown-indent-on-enter&lt;/span&gt;
-    &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;markdown-indent-line&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;次に &lt;code&gt;trace-function&lt;/code&gt; で &lt;code&gt;markdown-enter-key&lt;/code&gt; と &lt;code&gt;skk-kakutei&lt;/code&gt; をトレースしたところ、
-以下のような出力が得られた:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;1 -&amp;gt; (markdown-enter-key)
+&lt;code>C-j&lt;/code> で確定する場合は起こらない。&lt;/p>
+&lt;h2 id="tldr">TL;DR&lt;/h2>
+&lt;p>以下を &lt;code>init.el&lt;/code> 相当のファイルに書けば回避出来る。&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-lisp" data-lang="lisp">&lt;span class="p">(&lt;/span>&lt;span class="nb">defun&lt;/span> &lt;span class="nv">my--markdown-entery-key-ad&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="nv">this-func&lt;/span> &lt;span class="k">&amp;amp;rest&lt;/span> &lt;span class="nv">args&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;span class="s">&amp;#34;markdown-modeでskk-henkan-mode中にエンターすると行頭にカーソルが飛んでしまう問題の対応&amp;#34;&lt;/span>
+&lt;span class="p">(&lt;/span>&lt;span class="k">if&lt;/span> &lt;span class="nv">skk-henkan-mode&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="nv">skk-kakutei&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;span class="p">(&lt;/span>&lt;span class="nf">apply&lt;/span> &lt;span class="nv">this-func&lt;/span> &lt;span class="nv">args&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;span class="p">(&lt;/span>&lt;span class="nv">advice-add&lt;/span> &lt;span class="nf">#&amp;#39;&lt;/span>&lt;span class="nv">markdown-enter-key&lt;/span> &lt;span class="ss">:around&lt;/span> &lt;span class="nf">#&amp;#39;&lt;/span>&lt;span class="nv">my--markdown-entery-key-ad&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="heading">原因解明に至るまで&lt;/h2>
+&lt;p>&lt;code>&amp;lt;return&amp;gt;&lt;/code> = &lt;code>&amp;lt;C-m&amp;gt;&lt;/code> では起こり、&lt;code>C-j&lt;/code> では起こらないので、まずはキーバインドを確認したところ、
+前者は &lt;code>markdown-enter-key&lt;/code> という関数が割り当てられていた。&lt;/p>
+&lt;p>実装は至ってシンプルだった:&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-lisp" data-lang="lisp">&lt;span class="p">(&lt;/span>&lt;span class="nb">defun&lt;/span> &lt;span class="nv">markdown-enter-key&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;span class="s">&amp;#34;Handle RET according to to the value of `markdown-indent-on-enter&amp;#39;.&amp;#34;&lt;/span>
+&lt;span class="p">(&lt;/span>&lt;span class="nv">interactive&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;span class="p">(&lt;/span>&lt;span class="nv">newline&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;span class="p">(&lt;/span>&lt;span class="nb">when&lt;/span> &lt;span class="nv">markdown-indent-on-enter&lt;/span>
+&lt;span class="p">(&lt;/span>&lt;span class="nv">markdown-indent-line&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>次に &lt;code>trace-function&lt;/code> で &lt;code>markdown-enter-key&lt;/code> と &lt;code>skk-kakutei&lt;/code> をトレースしたところ、
+以下のような出力が得られた:&lt;/p>
+&lt;pre>&lt;code>1 -&amp;gt; (markdown-enter-key)
 | 2 -&amp;gt; (skk-kakutei)
 | 2 &amp;lt;- skk-kakutei: nil
 1 &amp;lt;- markdown-enter-key: nil
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;code&gt;markdown-enter-key&lt;/code&gt; が発動して &lt;code&gt;(newline)&lt;/code&gt; が評価された結果、
-&lt;code&gt;skk-kakutei&lt;/code&gt; が発動して変換確定、その後に &lt;code&gt;markdown-indent-line&lt;/code&gt; が呼ばれているのがどうも悪いらしい。&lt;/p&gt;
-&lt;h2 id=&#34;heading-1&#34;&gt;回避方法&lt;/h2&gt;
-&lt;p&gt;これは &lt;strong&gt;&lt;code&gt;markdown-enter-key&lt;/code&gt; が呼ばれた時に &lt;code&gt;skk-henkan-mode&lt;/code&gt; 中だったら、&lt;/strong&gt;
-&lt;strong&gt;本来の挙動ではなく &lt;code&gt;skk-kakutei&lt;/code&gt; だけを行なうようにする&lt;/strong&gt; ことで回避出来そうだ。&lt;/p&gt;
-&lt;p&gt;こういう部分的な挙動の修正には advice を使うといい。
-というわけで前述の挙動をそのまま定義すると、冒頭のようなコードになる。&lt;/p&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
+&lt;/code>&lt;/pre>&lt;p>&lt;code>markdown-enter-key&lt;/code> が発動して &lt;code>(newline)&lt;/code> が評価された結果、
+&lt;code>skk-kakutei&lt;/code> が発動して変換確定、その後に &lt;code>markdown-indent-line&lt;/code> が呼ばれているのがどうも悪いらしい。&lt;/p>
+&lt;h2 id="heading-1">回避方法&lt;/h2>
+&lt;p>これは &lt;strong>&lt;code>markdown-enter-key&lt;/code> が呼ばれた時に &lt;code>skk-henkan-mode&lt;/code> 中だったら、&lt;/strong>
+&lt;strong>本来の挙動ではなく &lt;code>skk-kakutei&lt;/code> だけを行なうようにする&lt;/strong> ことで回避出来そうだ。&lt;/p>
+&lt;p>こういう部分的な挙動の修正には advice を使うといい。
+というわけで前述の挙動をそのまま定義すると、冒頭のようなコードになる。&lt;/p></description></item></channel></rss>

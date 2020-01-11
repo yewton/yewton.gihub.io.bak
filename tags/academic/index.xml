@@ -1,42 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>academic | yewton.net</title>
-    <link>https://www.yewton.net/tags/academic/</link>
-      <atom:link href="https://www.yewton.net/tags/academic/index.xml" rel="self" type="application/rss+xml" />
-    <description>academic</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja-jp</language><copyright>© 2016-2020 yewton</copyright><lastBuildDate>Mon, 06 Jan 2020 00:00:00 +0900</lastBuildDate>
-    <image>
-      <url>https://www.yewton.net/img/icon.png</url>
-      <title>academic</title>
-      <link>https://www.yewton.net/tags/academic/</link>
-    </image>
-    
-    <item>
-      <title>#MadeWithAcademic</title>
-      <link>https://www.yewton.net/2020/01/06/made-with-academic/</link>
-      <pubDate>Mon, 06 Jan 2020 00:00:00 +0900</pubDate>
-      <guid>https://www.yewton.net/2020/01/06/made-with-academic/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/digitalcraftsman/hugo-icarus-theme&#34;&gt;Icarus&lt;/a&gt; がメンテされておらず Hugo 0.55.0 以降で正しく動かなくなっていたので、
-自力で Icarus にパッチを充てるか、別のテーマに乗り換えるかという選択を迫られていた。&lt;/p&gt;
-&lt;p&gt;せっかくなのでランディングページとブログを別にしたかったので、そういう柔軟性を備えている
-&lt;a href=&#34;https://sourcethemes.com/academic/&#34;&gt;Academic&lt;/a&gt; というテーマを使うことにした。&lt;/p&gt;
-&lt;p&gt;テーマの変更にあたって様々な知見が得られたので、そのうち記事にしたい。&lt;/p&gt;
-&lt;p&gt;以下その候補:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://gohugo.io/content-management/page-bundles/&#34;&gt;Page Bundles&lt;/a&gt; への移行&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://ox-hugo.scripter.co/doc/why-ox-hugo/&#34;&gt;ox-hugo&lt;/a&gt; と Academic が如何に相性がよいか
-&lt;ul&gt;
-&lt;li&gt;auto weight あたりが最高&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;lastmod&lt;/code&gt; の自動更新や &lt;a href=&#34;https://ox-hugo.scripter.co/doc/custom-front-matter/#front-matter-extra&#34;&gt;Front-matter Extra&lt;/a&gt; は Academic じゃなても最高の体験&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;カスタムウィジェットの作り方&lt;/li&gt;
-&lt;li&gt;ダークテーマ対応のシンタックスハイライトのやりかた&lt;/li&gt;
-&lt;li&gt;conf-toml-mode を &lt;a href=&#34;https://ox-hugo.scripter.co/doc/custom-front-matter/#front-matter-extra&#34;&gt;Front-matter Extra&lt;/a&gt; で使う方法&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>academic | yewton.net</title><link>https://www.yewton.net/tags/academic/</link><atom:link href="https://www.yewton.net/tags/academic/index.xml" rel="self" type="application/rss+xml"/><description>academic</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja-jp</language><copyright>© 2016-2020 yewton</copyright><lastBuildDate>Mon, 06 Jan 2020 00:00:00 +0900</lastBuildDate><image><url>https://www.yewton.net/img/icon.png</url><title>academic</title><link>https://www.yewton.net/tags/academic/</link></image><item><title>#MadeWithAcademic</title><link>https://www.yewton.net/2020/01/06/made-with-academic/</link><pubDate>Mon, 06 Jan 2020 00:00:00 +0900</pubDate><guid>https://www.yewton.net/2020/01/06/made-with-academic/</guid><description>&lt;p>&lt;a href="https://github.com/digitalcraftsman/hugo-icarus-theme">Icarus&lt;/a> がメンテされておらず Hugo 0.55.0 以降で正しく動かなくなっていたので、
+自力で Icarus にパッチを充てるか、別のテーマに乗り換えるかという選択を迫られていた。&lt;/p>
+&lt;p>せっかくなのでランディングページとブログを別にしたかったので、そういう柔軟性を備えている
+&lt;a href="https://sourcethemes.com/academic/">Academic&lt;/a> というテーマを使うことにした。&lt;/p>
+&lt;p>テーマの変更にあたって様々な知見が得られたので、そのうち記事にしたい。&lt;/p>
+&lt;p>以下その候補:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://gohugo.io/content-management/page-bundles/">Page Bundles&lt;/a> への移行&lt;/li>
+&lt;li>&lt;a href="https://ox-hugo.scripter.co/doc/why-ox-hugo/">ox-hugo&lt;/a> と Academic が如何に相性がよいか
+&lt;ul>
+&lt;li>auto weight あたりが最高&lt;/li>
+&lt;li>&lt;code>lastmod&lt;/code> の自動更新や &lt;a href="https://ox-hugo.scripter.co/doc/custom-front-matter/#front-matter-extra">Front-matter Extra&lt;/a> は Academic じゃなても最高の体験&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>カスタムウィジェットの作り方&lt;/li>
+&lt;li>ダークテーマ対応のシンタックスハイライトのやりかた&lt;/li>
+&lt;li>conf-toml-mode を &lt;a href="https://ox-hugo.scripter.co/doc/custom-front-matter/#front-matter-extra">Front-matter Extra&lt;/a> で使う方法&lt;/li>
+&lt;/ul></description></item></channel></rss>

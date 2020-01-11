@@ -1,458 +1,317 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>雑記 | yewton.net</title>
-    <link>https://www.yewton.net/categories/%E9%9B%91%E8%A8%98/</link>
-      <atom:link href="https://www.yewton.net/categories/%E9%9B%91%E8%A8%98/index.xml" rel="self" type="application/rss+xml" />
-    <description>雑記</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja-jp</language><copyright>© 2016-2020 yewton</copyright><lastBuildDate>Mon, 06 Jan 2020 00:00:00 +0900</lastBuildDate>
-    <image>
-      <url>https://www.yewton.net/img/icon.png</url>
-      <title>雑記</title>
-      <link>https://www.yewton.net/categories/%E9%9B%91%E8%A8%98/</link>
-    </image>
-    
-    <item>
-      <title>#MadeWithAcademic</title>
-      <link>https://www.yewton.net/2020/01/06/made-with-academic/</link>
-      <pubDate>Mon, 06 Jan 2020 00:00:00 +0900</pubDate>
-      <guid>https://www.yewton.net/2020/01/06/made-with-academic/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/digitalcraftsman/hugo-icarus-theme&#34;&gt;Icarus&lt;/a&gt; がメンテされておらず Hugo 0.55.0 以降で正しく動かなくなっていたので、
-自力で Icarus にパッチを充てるか、別のテーマに乗り換えるかという選択を迫られていた。&lt;/p&gt;
-&lt;p&gt;せっかくなのでランディングページとブログを別にしたかったので、そういう柔軟性を備えている
-&lt;a href=&#34;https://sourcethemes.com/academic/&#34;&gt;Academic&lt;/a&gt; というテーマを使うことにした。&lt;/p&gt;
-&lt;p&gt;テーマの変更にあたって様々な知見が得られたので、そのうち記事にしたい。&lt;/p&gt;
-&lt;p&gt;以下その候補:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://gohugo.io/content-management/page-bundles/&#34;&gt;Page Bundles&lt;/a&gt; への移行&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://ox-hugo.scripter.co/doc/why-ox-hugo/&#34;&gt;ox-hugo&lt;/a&gt; と Academic が如何に相性がよいか
-&lt;ul&gt;
-&lt;li&gt;auto weight あたりが最高&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;lastmod&lt;/code&gt; の自動更新や &lt;a href=&#34;https://ox-hugo.scripter.co/doc/custom-front-matter/#front-matter-extra&#34;&gt;Front-matter Extra&lt;/a&gt; は Academic じゃなても最高の体験&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;カスタムウィジェットの作り方&lt;/li&gt;
-&lt;li&gt;ダークテーマ対応のシンタックスハイライトのやりかた&lt;/li&gt;
-&lt;li&gt;conf-toml-mode を &lt;a href=&#34;https://ox-hugo.scripter.co/doc/custom-front-matter/#front-matter-extra&#34;&gt;Front-matter Extra&lt;/a&gt; で使う方法&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>久々の更新</title>
-      <link>https://www.yewton.net/2020/01/02/happy-new-year/</link>
-      <pubDate>Thu, 02 Jan 2020 00:00:00 +0900</pubDate>
-      <guid>https://www.yewton.net/2020/01/02/happy-new-year/</guid>
-      <description>&lt;p&gt;最近仕事用のmacを新調して環境を作り直す機会があったことと、 2020 年が始まるということもあり、久々にサイトを更新することにした。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.yewton.net/cv/&#34;&gt;オープン職務経歴書&lt;/a&gt;を書きたかった、というのもある。&lt;/p&gt;
-&lt;p&gt;更新にあたっていくつか困難があった。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;まず、このサイトのソースが最近の Hugo では動かせなくなっていた。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;このサイトのテーマには &lt;a href=&#34;https://github.com/digitalcraftsman/hugo-icarus-theme&#34;&gt;Icarus&lt;/a&gt; を使わせていただいているのだが、最終更新が 2017 年となっており、
-Hugo 0.55.0 以降で動かなくなってしまっていたり、 Deprecated Warning が出るようになっていた。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/digitalcraftsman/hugo-icarus-theme/pull/124&#34;&gt;PRは出されている&lt;/a&gt; のだけれど、マージされる様子が無い。&lt;/p&gt;
-&lt;p&gt;そもそも、当時のバージョンに対してカスタマイズしたレイアウトを作ってしまったので、
-単純なテーマの更新だけでは追随できない。&lt;/p&gt;
-&lt;p&gt;どのバージョンなら動くのか突き止めるのも骨が折れた。
-&lt;a href=&#34;https://bitbucket.org/mgladdish/asdf-gohugo&#34;&gt;asdf-gohugo&lt;/a&gt; を入れて、少しずつバージョンを上げながら確認していった。&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;asdf plugin add hugo https://bitbucket.org/mgladdish/asdf-gohugo
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;そして、そもそも Hugo の使い方を忘れていた。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.yewton.net/2016/02/02/blog-with-hugo/&#34;&gt;Hugo 導入記事&lt;/a&gt; や &lt;a href=&#34;https://www.yewton.net/2016/01/26/hugo-el/&#34;&gt;Hugo 用 Emacs ライブラリ&lt;/a&gt; を書いておいてなんだが、当時から3年も経ってほとんど忘れてしまっていた。&lt;/p&gt;
-&lt;p&gt;そこで改めて調べてみると、イマドキは org-mode で書くことも出来るらしい。&lt;/p&gt;
-&lt;p&gt;この3年ですっかり org-mode 無しでは生きられない体になってしまっていたし、
-せっかくなので本記事からは &lt;a href=&#34;https://ox-hugo.scripter.co/&#34;&gt;ox-hugo&lt;/a&gt; を使って書くことにする。&lt;/p&gt;
-&lt;p&gt;使い始めるにあたって色々調べたり考えたりすることも多かったので、そのうち記事にしようと思う。
-結論としては、org-mode と Hugo の組み合わせは最高だし、その橋渡しをしてくれる &lt;a href=&#34;https://ox-hugo.scripter.co/&#34;&gt;ox-hugo&lt;/a&gt; は本当にグッジョブだということ。&lt;/p&gt;
-&lt;p&gt;&amp;hellip;&lt;/p&gt;
-&lt;p&gt;そんなこんなで色々対応していたものの、デプロイする仕組みなどは当時と変わりなく動いたのでその点は助かった。&lt;/p&gt;
-&lt;p&gt;org-mode で書けるようになったことだし、少しは記事を書いていきたい所だが、まずは Hugo の最新版に追従する作業が待っている…。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>三ヶ月以上ぶりに何かを書く</title>
-      <link>https://www.yewton.net/2016/08/29/misc/</link>
-      <pubDate>Mon, 29 Aug 2016 22:29:35 +0900</pubDate>
-      <guid>https://www.yewton.net/2016/08/29/misc/</guid>
-      <description>&lt;p&gt;前回の更新から三ヶ月以上経ってしまった。
-月日が経つのは早いものだ。&lt;/p&gt;
-&lt;p&gt;まとめたいことがいくつかあるので、まとめておく。&lt;/p&gt;
-&lt;h2 id=&#34;atlassian-t&#34;&gt;Atlassian からTシャツをタダでもらう方法&lt;/h2&gt;
-&lt;p&gt;Atlassian の製品のセットアップを公式ドキュメントに従って行うとTシャツが貰える。&lt;/p&gt;
-&lt;p&gt;実際もらえたのでやり方をまとめたい。&lt;/p&gt;
-&lt;h2 id=&#34;-wiki--google-sites-&#34;&gt;無料のプライベート Wiki は Google Sites が最強な気がする&lt;/h2&gt;
-&lt;p&gt;Atlassian の構築はそもそも個人的に家庭で Confluence 的なのを使いたかったので手を出したものだった。&lt;/p&gt;
-&lt;p&gt;とはいえ金がかかるのでいい方法は無いかと探していたら、 Google Sites に辿りついた。&lt;/p&gt;
-&lt;h2 id=&#34;org-publish--web-&#34;&gt;&lt;code&gt;org-publish&lt;/code&gt; で気軽に Web サイトを作る&lt;/h2&gt;
-&lt;p&gt;無料のプライベート Wiki を探している過程で org-publish にも手を出した。&lt;/p&gt;
-&lt;p&gt;プライベートにするのが面倒だったので諦めたけれど、
-org-mode で書いた内容を、見た目もほぼそのまま公開出来るというのは便利かもしれないのでまとめたい。&lt;/p&gt;
-&lt;h2 id=&#34;helm--ivy-&#34;&gt;helm から ivy に移行したい&lt;/h2&gt;
-&lt;p&gt;helm が活発過ぎて周辺エコシステムが付いていけないとか、
-ivy の方が軽量でよいとかいう話を聞くので、 ivy に移行してみたい。&lt;/p&gt;
-&lt;p&gt;ヘビーに helm 使ってるわけでないので、さくっと乗り換えたい気持ち。&lt;/p&gt;
-&lt;h2 id=&#34;ifttt-do-button--slack-&#34;&gt;IFTTT Do Button で定型文を Slack に投稿する&lt;/h2&gt;
-&lt;p&gt;普通に使ってると、IFTTT はひとつの Slack Team としか連携出来ないので、
-MAKE をアクションにして Web Hook でどうにかした話をまとめたい。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Spacemacs から helm と persp-mode の設定をパクろうと思ったけど難しかった</title>
-      <link>https://www.yewton.net/2016/05/04/helm-persp/</link>
-      <pubDate>Wed, 04 May 2016 19:45:26 +0900</pubDate>
-      <guid>https://www.yewton.net/2016/05/04/helm-persp/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/syl20bnr/spacemacs/blob/master/layers/%2Bwindow-management/spacemacs-layouts/funcs.el&#34;&gt;この辺&lt;/a&gt; を参考にせよ、
-と persp-mode 公式に書いてあったので、パクれそうかやってみた。&lt;/p&gt;
-&lt;p&gt;結論としては、出来なかった。
-なので、 併せて記載されていた &lt;a href=&#34;https://gist.github.com/Bad-ptr/304ada85c9ba15013303&#34;&gt;こっち&lt;/a&gt; の設定を使う状態のまま。&lt;/p&gt;
-&lt;p&gt;Spacemacs の設定は、 Spacemacs 独自のステートの概念(Vimmer が喜ぶやつ)と密接に関連しているようで、
-素の Emacs に組込むのは骨が折れそうだった。&lt;/p&gt;
-&lt;p&gt;そもそも何で Spacemacs の設定をパクろうとしていたかというと、
-後者の設定だと、 &lt;code&gt;C-x b&lt;/code&gt; したときに前のバッファが選択されずに
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>雑記 | yewton.net</title><link>https://www.yewton.net/categories/%E9%9B%91%E8%A8%98/</link><atom:link href="https://www.yewton.net/categories/%E9%9B%91%E8%A8%98/index.xml" rel="self" type="application/rss+xml"/><description>雑記</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja-jp</language><copyright>© 2016-2020 yewton</copyright><lastBuildDate>Mon, 06 Jan 2020 00:00:00 +0900</lastBuildDate><image><url>https://www.yewton.net/img/icon.png</url><title>雑記</title><link>https://www.yewton.net/categories/%E9%9B%91%E8%A8%98/</link></image><item><title>#MadeWithAcademic</title><link>https://www.yewton.net/2020/01/06/made-with-academic/</link><pubDate>Mon, 06 Jan 2020 00:00:00 +0900</pubDate><guid>https://www.yewton.net/2020/01/06/made-with-academic/</guid><description>&lt;p>&lt;a href="https://github.com/digitalcraftsman/hugo-icarus-theme">Icarus&lt;/a> がメンテされておらず Hugo 0.55.0 以降で正しく動かなくなっていたので、
+自力で Icarus にパッチを充てるか、別のテーマに乗り換えるかという選択を迫られていた。&lt;/p>
+&lt;p>せっかくなのでランディングページとブログを別にしたかったので、そういう柔軟性を備えている
+&lt;a href="https://sourcethemes.com/academic/">Academic&lt;/a> というテーマを使うことにした。&lt;/p>
+&lt;p>テーマの変更にあたって様々な知見が得られたので、そのうち記事にしたい。&lt;/p>
+&lt;p>以下その候補:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://gohugo.io/content-management/page-bundles/">Page Bundles&lt;/a> への移行&lt;/li>
+&lt;li>&lt;a href="https://ox-hugo.scripter.co/doc/why-ox-hugo/">ox-hugo&lt;/a> と Academic が如何に相性がよいか
+&lt;ul>
+&lt;li>auto weight あたりが最高&lt;/li>
+&lt;li>&lt;code>lastmod&lt;/code> の自動更新や &lt;a href="https://ox-hugo.scripter.co/doc/custom-front-matter/#front-matter-extra">Front-matter Extra&lt;/a> は Academic じゃなても最高の体験&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>カスタムウィジェットの作り方&lt;/li>
+&lt;li>ダークテーマ対応のシンタックスハイライトのやりかた&lt;/li>
+&lt;li>conf-toml-mode を &lt;a href="https://ox-hugo.scripter.co/doc/custom-front-matter/#front-matter-extra">Front-matter Extra&lt;/a> で使う方法&lt;/li>
+&lt;/ul></description></item><item><title>久々の更新</title><link>https://www.yewton.net/2020/01/02/happy-new-year/</link><pubDate>Thu, 02 Jan 2020 00:00:00 +0900</pubDate><guid>https://www.yewton.net/2020/01/02/happy-new-year/</guid><description>&lt;p>最近仕事用のmacを新調して環境を作り直す機会があったことと、 2020 年が始まるということもあり、久々にサイトを更新することにした。&lt;/p>
+&lt;p>&lt;a href="https://www.yewton.net/cv/">オープン職務経歴書&lt;/a>を書きたかった、というのもある。&lt;/p>
+&lt;p>更新にあたっていくつか困難があった。&lt;/p>
+&lt;p>&lt;strong>まず、このサイトのソースが最近の Hugo では動かせなくなっていた。&lt;/strong>&lt;/p>
+&lt;p>このサイトのテーマには &lt;a href="https://github.com/digitalcraftsman/hugo-icarus-theme">Icarus&lt;/a> を使わせていただいているのだが、最終更新が 2017 年となっており、
+Hugo 0.55.0 以降で動かなくなってしまっていたり、 Deprecated Warning が出るようになっていた。&lt;/p>
+&lt;p>&lt;a href="https://github.com/digitalcraftsman/hugo-icarus-theme/pull/124">PRは出されている&lt;/a> のだけれど、マージされる様子が無い。&lt;/p>
+&lt;p>そもそも、当時のバージョンに対してカスタマイズしたレイアウトを作ってしまったので、
+単純なテーマの更新だけでは追随できない。&lt;/p>
+&lt;p>どのバージョンなら動くのか突き止めるのも骨が折れた。
+&lt;a href="https://bitbucket.org/mgladdish/asdf-gohugo">asdf-gohugo&lt;/a> を入れて、少しずつバージョンを上げながら確認していった。&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-sh" data-lang="sh">asdf plugin add hugo https://bitbucket.org/mgladdish/asdf-gohugo
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>そして、そもそも Hugo の使い方を忘れていた。&lt;/strong>&lt;/p>
+&lt;p>&lt;a href="https://www.yewton.net/2016/02/02/blog-with-hugo/">Hugo 導入記事&lt;/a> や &lt;a href="https://www.yewton.net/2016/01/26/hugo-el/">Hugo 用 Emacs ライブラリ&lt;/a> を書いておいてなんだが、当時から3年も経ってほとんど忘れてしまっていた。&lt;/p>
+&lt;p>そこで改めて調べてみると、イマドキは org-mode で書くことも出来るらしい。&lt;/p>
+&lt;p>この3年ですっかり org-mode 無しでは生きられない体になってしまっていたし、
+せっかくなので本記事からは &lt;a href="https://ox-hugo.scripter.co/">ox-hugo&lt;/a> を使って書くことにする。&lt;/p>
+&lt;p>使い始めるにあたって色々調べたり考えたりすることも多かったので、そのうち記事にしようと思う。
+結論としては、org-mode と Hugo の組み合わせは最高だし、その橋渡しをしてくれる &lt;a href="https://ox-hugo.scripter.co/">ox-hugo&lt;/a> は本当にグッジョブだということ。&lt;/p>
+&lt;p>&amp;hellip;&lt;/p>
+&lt;p>そんなこんなで色々対応していたものの、デプロイする仕組みなどは当時と変わりなく動いたのでその点は助かった。&lt;/p>
+&lt;p>org-mode で書けるようになったことだし、少しは記事を書いていきたい所だが、まずは Hugo の最新版に追従する作業が待っている…。&lt;/p></description></item><item><title>三ヶ月以上ぶりに何かを書く</title><link>https://www.yewton.net/2016/08/29/misc/</link><pubDate>Mon, 29 Aug 2016 22:29:35 +0900</pubDate><guid>https://www.yewton.net/2016/08/29/misc/</guid><description>&lt;p>前回の更新から三ヶ月以上経ってしまった。
+月日が経つのは早いものだ。&lt;/p>
+&lt;p>まとめたいことがいくつかあるので、まとめておく。&lt;/p>
+&lt;h2 id="atlassian-t">Atlassian からTシャツをタダでもらう方法&lt;/h2>
+&lt;p>Atlassian の製品のセットアップを公式ドキュメントに従って行うとTシャツが貰える。&lt;/p>
+&lt;p>実際もらえたのでやり方をまとめたい。&lt;/p>
+&lt;h2 id="-wiki--google-sites-">無料のプライベート Wiki は Google Sites が最強な気がする&lt;/h2>
+&lt;p>Atlassian の構築はそもそも個人的に家庭で Confluence 的なのを使いたかったので手を出したものだった。&lt;/p>
+&lt;p>とはいえ金がかかるのでいい方法は無いかと探していたら、 Google Sites に辿りついた。&lt;/p>
+&lt;h2 id="org-publish--web-">&lt;code>org-publish&lt;/code> で気軽に Web サイトを作る&lt;/h2>
+&lt;p>無料のプライベート Wiki を探している過程で org-publish にも手を出した。&lt;/p>
+&lt;p>プライベートにするのが面倒だったので諦めたけれど、
+org-mode で書いた内容を、見た目もほぼそのまま公開出来るというのは便利かもしれないのでまとめたい。&lt;/p>
+&lt;h2 id="helm--ivy-">helm から ivy に移行したい&lt;/h2>
+&lt;p>helm が活発過ぎて周辺エコシステムが付いていけないとか、
+ivy の方が軽量でよいとかいう話を聞くので、 ivy に移行してみたい。&lt;/p>
+&lt;p>ヘビーに helm 使ってるわけでないので、さくっと乗り換えたい気持ち。&lt;/p>
+&lt;h2 id="ifttt-do-button--slack-">IFTTT Do Button で定型文を Slack に投稿する&lt;/h2>
+&lt;p>普通に使ってると、IFTTT はひとつの Slack Team としか連携出来ないので、
+MAKE をアクションにして Web Hook でどうにかした話をまとめたい。&lt;/p></description></item><item><title>Spacemacs から helm と persp-mode の設定をパクろうと思ったけど難しかった</title><link>https://www.yewton.net/2016/05/04/helm-persp/</link><pubDate>Wed, 04 May 2016 19:45:26 +0900</pubDate><guid>https://www.yewton.net/2016/05/04/helm-persp/</guid><description>&lt;p>&lt;a href="https://github.com/syl20bnr/spacemacs/blob/master/layers/%2Bwindow-management/spacemacs-layouts/funcs.el">この辺&lt;/a> を参考にせよ、
+と persp-mode 公式に書いてあったので、パクれそうかやってみた。&lt;/p>
+&lt;p>結論としては、出来なかった。
+なので、 併せて記載されていた &lt;a href="https://gist.github.com/Bad-ptr/304ada85c9ba15013303">こっち&lt;/a> の設定を使う状態のまま。&lt;/p>
+&lt;p>Spacemacs の設定は、 Spacemacs 独自のステートの概念(Vimmer が喜ぶやつ)と密接に関連しているようで、
+素の Emacs に組込むのは骨が折れそうだった。&lt;/p>
+&lt;p>そもそも何で Spacemacs の設定をパクろうとしていたかというと、
+後者の設定だと、 &lt;code>C-x b&lt;/code> したときに前のバッファが選択されずに
 現在のバッファが選択された状態になるのが違和感があったから、だった。
-素の Emacs では単に &lt;code&gt;C-x b RET&lt;/code&gt; としたときは、前のバッファに戻るという挙動になる。
+素の Emacs では単に &lt;code>C-x b RET&lt;/code> としたときは、前のバッファに戻るという挙動になる。
 もしかしたら Spacemacs では元の挙動を再現した実装になっているのかもしれない、
-と思って見てみたが、前述の通り失敗に終わった。&lt;/p&gt;
-&lt;p&gt;persp-mode では、直前のバッファが現在のパースペクティブに含まれているとは限らないから、仕方ないのかな…。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>三ヶ月ぶりに更新再開した日</title>
-      <link>https://www.yewton.net/2016/05/03/diary/</link>
-      <pubDate>Tue, 03 May 2016 23:27:26 +0900</pubDate>
-      <guid>https://www.yewton.net/2016/05/03/diary/</guid>
-      <description>&lt;p&gt;前回の更新から平気で3ヶ月経っていた。
-光陰矢のごとしである。&lt;/p&gt;
-&lt;p&gt;一個多少マトモな記事を上げたら何か燃え尽きてしまったのと、
+と思って見てみたが、前述の通り失敗に終わった。&lt;/p>
+&lt;p>persp-mode では、直前のバッファが現在のパースペクティブに含まれているとは限らないから、仕方ないのかな…。&lt;/p></description></item><item><title>三ヶ月ぶりに更新再開した日</title><link>https://www.yewton.net/2016/05/03/diary/</link><pubDate>Tue, 03 May 2016 23:27:26 +0900</pubDate><guid>https://www.yewton.net/2016/05/03/diary/</guid><description>&lt;p>前回の更新から平気で3ヶ月経っていた。
+光陰矢のごとしである。&lt;/p>
+&lt;p>一個多少マトモな記事を上げたら何か燃え尽きてしまったのと、
 仕事が妙に重圧になっていて気持ちがアガらなかったのと、
-色々あって全然更新しなかった。&lt;/p&gt;
-&lt;p&gt;スクラム入門の翻訳も全然やってない。&lt;/p&gt;
-&lt;p&gt;いやはや。&lt;/p&gt;
-&lt;p&gt;やったことといえば、 &lt;code&gt;.emacs.d&lt;/code&gt; の大幅リニューアルくらい。
-結果物は &lt;a href=&#34;https://github.com/yewton/.emacs.d&#34;&gt;こちら&lt;/a&gt;。
-&lt;code&gt;.emacs.d&lt;/code&gt; 弄りは無限に時間取られるな…。&lt;/p&gt;
-&lt;p&gt;まあ、その甲斐あって、以前よりさらに快適な作業環境が整った、ハズ。
+色々あって全然更新しなかった。&lt;/p>
+&lt;p>スクラム入門の翻訳も全然やってない。&lt;/p>
+&lt;p>いやはや。&lt;/p>
+&lt;p>やったことといえば、 &lt;code>.emacs.d&lt;/code> の大幅リニューアルくらい。
+結果物は &lt;a href="https://github.com/yewton/.emacs.d">こちら&lt;/a>。
+&lt;code>.emacs.d&lt;/code> 弄りは無限に時間取られるな…。&lt;/p>
+&lt;p>まあ、その甲斐あって、以前よりさらに快適な作業環境が整った、ハズ。
 かっこいいモードラインとか、いいよね。
-僕はニワカイーマクサーなので、そういうところを頑張ってしまう。&lt;/p&gt;
-&lt;p&gt;あと、記事の元になる Hugo ファイルを BitBucket のプライベートリポジトリに移した。
-これで気兼ねなく、プライベートな内容も記録出来るようになった。&lt;/p&gt;
-&lt;p&gt;この連休中に、 persp-mode の設定を spacemacs を参考に変更するのと、
+僕はニワカイーマクサーなので、そういうところを頑張ってしまう。&lt;/p>
+&lt;p>あと、記事の元になる Hugo ファイルを BitBucket のプライベートリポジトリに移した。
+これで気兼ねなく、プライベートな内容も記録出来るようになった。&lt;/p>
+&lt;p>この連休中に、 persp-mode の設定を spacemacs を参考に変更するのと、
 Scala 製 Slack ボットのデプロイ方法を考えるのと、
-いくつか追加でボットを作成するのをやっておきたい。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>早朝ランニングしたりカナヘイカフェに行ってきた日</title>
-      <link>https://www.yewton.net/2016/02/16/diary/</link>
-      <pubDate>Tue, 16 Feb 2016 23:00:00 +0900</pubDate>
-      <guid>https://www.yewton.net/2016/02/16/diary/</guid>
-      <description>&lt;h2 id=&#34;heading&#34;&gt;ランニング&lt;/h2&gt;
-&lt;p&gt;昨日おとといと、春が来たのかと思うくらい暖かったので、
-何となく意識が高まって「よし明日からランニングを始めるぞ」という気持ちになっていた。&lt;/p&gt;
-&lt;p&gt;せっかくだから一番いいランニングをしようと思って調べると、
+いくつか追加でボットを作成するのをやっておきたい。&lt;/p></description></item><item><title>早朝ランニングしたりカナヘイカフェに行ってきた日</title><link>https://www.yewton.net/2016/02/16/diary/</link><pubDate>Tue, 16 Feb 2016 23:00:00 +0900</pubDate><guid>https://www.yewton.net/2016/02/16/diary/</guid><description>&lt;h2 id="heading">ランニング&lt;/h2>
+&lt;p>昨日おとといと、春が来たのかと思うくらい暖かったので、
+何となく意識が高まって「よし明日からランニングを始めるぞ」という気持ちになっていた。&lt;/p>
+&lt;p>せっかくだから一番いいランニングをしようと思って調べると、
 朝食前に20分以上走るのが痩せるには最も効果があるという情報を得た。
 時間を気にしながら走るのは辛そうだったので、とにかく目標地点まで行って帰ってくることにし、
-スカイツリーくらいまで走ると距離的にちょうどよさそうだったのでそこを目標地点とした。&lt;/p&gt;
-&lt;p&gt;そんな調査を前日に行なっていざ、走ろうと外に出ると &lt;strong&gt;滅茶苦茶寒い&lt;/strong&gt; 。
+スカイツリーくらいまで走ると距離的にちょうどよさそうだったのでそこを目標地点とした。&lt;/p>
+&lt;p>そんな調査を前日に行なっていざ、走ろうと外に出ると &lt;strong>滅茶苦茶寒い&lt;/strong> 。
 いや、昨日おとといと比較すると寒くなるというのは知っていたけれど、
 走ってるうちに体あったまるだろくらいに考えていた。
 ところが、走れども走れども一向に体は暖まらず、手はかじかみ、
-寒さに震えながら走ることになった。&lt;/p&gt;
-&lt;p&gt;後で調べたらその時の気温が3度とかだったので、そりゃ、寒いワケだ、と。&lt;/p&gt;
-&lt;p&gt;寒さを舐めてはいけない。
-次はもっと防寒するか、もっと暖かい日にしよう、という学びを得た。&lt;/p&gt;
-&lt;h2 id=&#34;heading-1&#34;&gt;カナヘイのゆるっとカフェ&lt;/h2&gt;
-&lt;p&gt;仕事終わりに、&lt;a href=&#34;http://kanahei.blog.jp/archives/1049325539.html&#34;&gt;カナヘイのゆるっとカフェ&lt;/a&gt;に行ってきた
-(カフェ公式ページは無くて、イベントページの1コンテンツという感じだったので、カナヘイさんのブログ記事にリンク)。&lt;/p&gt;
-&lt;iframe src=&#34;https://drive.google.com/file/d/0B4XWl5W7tB7IQ09Jc3dKcmN6OEk/preview&#34; width=&#34;320&#34; height=&#34;240&#34;&gt;&lt;/iframe&gt;
-&lt;p&gt;こんな感じでパルコ入口で待ち構えている。&lt;/p&gt;
-&lt;iframe src=&#34;https://drive.google.com/file/d/0B4XWl5W7tB7IMzJrYllaRmo5dUk/preview&#34; width=&#34;320&#34; height=&#34;240&#34;&gt;&lt;/iframe&gt;
-&lt;p&gt;7階に辿り着くと、巨大うさぎ&amp;amp;ピスケがお出迎え。
-これ、多分カナヘイの個展でも使われてた奴らが着替えただけだ。&lt;/p&gt;
-&lt;p&gt;その他の最高に可愛い写真は&lt;a href=&#34;https://drive.google.com/folderview?id=0B4XWl5W7tB7IcEpEdWVPQm5HWkk&amp;amp;usp=drive_web&#34;&gt;こちら&lt;/a&gt;
-に置いてあるのでどうぞご自由にご利用下さい。&lt;/p&gt;
-&lt;p&gt;もう、本当に最高にゆるっとして可愛くて可笑しくて、また行くことが確定した。
-グッズ込みで1万超の出費だったけど何も痛くないね!!&lt;/p&gt;
-&lt;p&gt;カナヘイさんもっとイベントやってください。&lt;/p&gt;
-&lt;h2 id=&#34;google-drive--web-&#34;&gt;Google Drive の画像を Web ページに埋め込む&lt;/h2&gt;
-&lt;p&gt;カナヘイカフェの記事を書こうとして、どうにか写真を埋め込めないか色々調べたら、
-どうも写真の単体ページ(&lt;a href=&#34;https://drive.google.com/file/d/0B4XWl5W7tB7IQ09Jc3dKcmN6OEk/view&#34;&gt;こういうの&lt;/a&gt;)を開いて、
-〈アイテムを埋め込む〉というのが真っ当な手段ぽかった。&lt;/p&gt;
-&lt;p&gt;直リンクする方法もあるみたいだけど、いつ Google 様に殺されるか分からなかったので止めておく。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Hugoの記事をようやく書き上げた日</title>
-      <link>https://www.yewton.net/2016/02/14/diary/</link>
-      <pubDate>Sun, 14 Feb 2016 00:26:33 +0900</pubDate>
-      <guid>https://www.yewton.net/2016/02/14/diary/</guid>
-      <description>&lt;p&gt;たまには人類に少しでも役に立つような記事も書こうと思い、
-&lt;a href=&#34;https://www.yewton.net/2016/02/02/blog-with-hugo/&#34;&gt;Hugoの記事&lt;/a&gt;を書いていた。&lt;/p&gt;
-&lt;p&gt;自分が通しでやったことだし、すぐ書き上がるだろーと高をくくっていたら、
+寒さに震えながら走ることになった。&lt;/p>
+&lt;p>後で調べたらその時の気温が3度とかだったので、そりゃ、寒いワケだ、と。&lt;/p>
+&lt;p>寒さを舐めてはいけない。
+次はもっと防寒するか、もっと暖かい日にしよう、という学びを得た。&lt;/p>
+&lt;h2 id="heading-1">カナヘイのゆるっとカフェ&lt;/h2>
+&lt;p>仕事終わりに、&lt;a href="http://kanahei.blog.jp/archives/1049325539.html">カナヘイのゆるっとカフェ&lt;/a>に行ってきた
+(カフェ公式ページは無くて、イベントページの1コンテンツという感じだったので、カナヘイさんのブログ記事にリンク)。&lt;/p>
+&lt;iframe src="https://drive.google.com/file/d/0B4XWl5W7tB7IQ09Jc3dKcmN6OEk/preview" width="320" height="240">&lt;/iframe>
+&lt;p>こんな感じでパルコ入口で待ち構えている。&lt;/p>
+&lt;iframe src="https://drive.google.com/file/d/0B4XWl5W7tB7IMzJrYllaRmo5dUk/preview" width="320" height="240">&lt;/iframe>
+&lt;p>7階に辿り着くと、巨大うさぎ&amp;amp;ピスケがお出迎え。
+これ、多分カナヘイの個展でも使われてた奴らが着替えただけだ。&lt;/p>
+&lt;p>その他の最高に可愛い写真は&lt;a href="https://drive.google.com/folderview?id=0B4XWl5W7tB7IcEpEdWVPQm5HWkk&amp;amp;usp=drive_web">こちら&lt;/a>
+に置いてあるのでどうぞご自由にご利用下さい。&lt;/p>
+&lt;p>もう、本当に最高にゆるっとして可愛くて可笑しくて、また行くことが確定した。
+グッズ込みで1万超の出費だったけど何も痛くないね!!&lt;/p>
+&lt;p>カナヘイさんもっとイベントやってください。&lt;/p>
+&lt;h2 id="google-drive--web-">Google Drive の画像を Web ページに埋め込む&lt;/h2>
+&lt;p>カナヘイカフェの記事を書こうとして、どうにか写真を埋め込めないか色々調べたら、
+どうも写真の単体ページ(&lt;a href="https://drive.google.com/file/d/0B4XWl5W7tB7IQ09Jc3dKcmN6OEk/view">こういうの&lt;/a>)を開いて、
+〈アイテムを埋め込む〉というのが真っ当な手段ぽかった。&lt;/p>
+&lt;p>直リンクする方法もあるみたいだけど、いつ Google 様に殺されるか分からなかったので止めておく。&lt;/p></description></item><item><title>Hugoの記事をようやく書き上げた日</title><link>https://www.yewton.net/2016/02/14/diary/</link><pubDate>Sun, 14 Feb 2016 00:26:33 +0900</pubDate><guid>https://www.yewton.net/2016/02/14/diary/</guid><description>&lt;p>たまには人類に少しでも役に立つような記事も書こうと思い、
+&lt;a href="https://www.yewton.net/2016/02/02/blog-with-hugo/">Hugoの記事&lt;/a>を書いていた。&lt;/p>
+&lt;p>自分が通しでやったことだし、すぐ書き上がるだろーと高をくくっていたら、
 なんだかんだ書き始めてから2週間くらい経ってしまった(もちろん、そればかりやってたワケじゃないけど)。
-自分の遅筆さに呆れるばかりである。&lt;/p&gt;
-&lt;p&gt;普段から余り人様に見せられるような文章を書いていない、というのが露呈した気がした。
+自分の遅筆さに呆れるばかりである。&lt;/p>
+&lt;p>普段から余り人様に見せられるような文章を書いていない、というのが露呈した気がした。
 そういえば普段の会話もあまり賢いものとは言えない…。
-時を経るごとに、喋るのも下手になっていると感じる。&lt;/p&gt;
-&lt;p&gt;やばいなー。やばいヤバイ。&lt;/p&gt;
-&lt;p&gt;人とコミュニケーションとらずに生きていくのにそろそろ限界を感じているので、
+時を経るごとに、喋るのも下手になっていると感じる。&lt;/p>
+&lt;p>やばいなー。やばいヤバイ。&lt;/p>
+&lt;p>人とコミュニケーションとらずに生きていくのにそろそろ限界を感じているので、
 意図して真っ当な会話をし、文章を書けるように心がけていこうと思う。
 そういえば最近まともに読書もしていないし…。
-社会生活を営む人間として真っ当に生きていく為の読書くらいは、しよう。&lt;/p&gt;
-&lt;h2 id=&#34;heading&#34;&gt;業務外のアレコレ&lt;/h2&gt;
-&lt;p&gt;最近(ほぼ)趣味で、 AWS上にシンプルに構築されたWordPressブログを、
-HTTPSにしてついでにHTTP/2対応してHHVMで稼動させようぜ、というような試みをしている。&lt;/p&gt;
-&lt;p&gt;AWSは最近ようやく触りはじめたばかりなので、
-どういったことが出来るのか、から調べつつやっている。&lt;/p&gt;
-&lt;p&gt;ベースがAmazonLinuxなので、HHVMは公式にサポートされていない。
+社会生活を営む人間として真っ当に生きていく為の読書くらいは、しよう。&lt;/p>
+&lt;h2 id="heading">業務外のアレコレ&lt;/h2>
+&lt;p>最近(ほぼ)趣味で、 AWS上にシンプルに構築されたWordPressブログを、
+HTTPSにしてついでにHTTP/2対応してHHVMで稼動させようぜ、というような試みをしている。&lt;/p>
+&lt;p>AWSは最近ようやく触りはじめたばかりなので、
+どういったことが出来るのか、から調べつつやっている。&lt;/p>
+&lt;p>ベースがAmazonLinuxなので、HHVMは公式にサポートされていない。
 なので Docker を利用したいところなのだけれど、
 WordPress がダイナミックに自分自身を更新するという話を聞いて、うーん、となった。
 HHVMだけをECSで動かしてもしょうがないから、やるならWordPressもコンテナに詰めるのだけど、
 コンテナ内で稼動しているWordPressを更新してもしょうがない、というかコンテナ再起動したら消えちゃうしなー、という。
-それとも、ECSで使うEC2インスタンスにWordPressを普通に入れちゃえばいいのかな？&lt;/p&gt;
-&lt;p&gt;などなど、色々試行錯誤の日々である。
+それとも、ECSで使うEC2インスタンスにWordPressを普通に入れちゃえばいいのかな？&lt;/p>
+&lt;p>などなど、色々試行錯誤の日々である。
 今日はHugoの記事書き上げるのとドメイン移行でいっぱいいっぱいだったので、
-明日には何らかの成果を出したい…。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>スクラム入門を翻訳する日々</title>
-      <link>https://www.yewton.net/2016/01/31/diary/</link>
-      <pubDate>Sun, 31 Jan 2016 23:18:29 +0900</pubDate>
-      <guid>https://www.yewton.net/2016/01/31/diary/</guid>
-      <description>&lt;p&gt;最近、&lt;a href=&#34;https://www.gitbook.com/book/yewton/scrumprimer/details&#34;&gt;スクラム入門の翻訳&lt;/a&gt;を
-細々とやっている。&lt;/p&gt;
-&lt;p&gt;元々は&lt;a href=&#34;http://www.scrumprimer.org/&#34;&gt;Scrum Primer - Short Introduction to Scrum&lt;/a&gt;で配布されているPDFで、
-認定スクラムマスター研修でも参照される真っ当な文献(のはす)。&lt;/p&gt;
-&lt;p&gt;日本語版があるにはある&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;んだけれど、古いし翻訳の質が怪しいので、
-自分の理解を進めるという意味も含めて独力で翻訳してみることにした。&lt;/p&gt;
-&lt;p&gt;進捗としては、1週間の空いた時間をほぼそればっかりに費してようやっと 1/5 くらい進んだ。
+明日には何らかの成果を出したい…。&lt;/p></description></item><item><title>スクラム入門を翻訳する日々</title><link>https://www.yewton.net/2016/01/31/diary/</link><pubDate>Sun, 31 Jan 2016 23:18:29 +0900</pubDate><guid>https://www.yewton.net/2016/01/31/diary/</guid><description>&lt;p>最近、&lt;a href="https://www.gitbook.com/book/yewton/scrumprimer/details">スクラム入門の翻訳&lt;/a>を
+細々とやっている。&lt;/p>
+&lt;p>元々は&lt;a href="http://www.scrumprimer.org/">Scrum Primer - Short Introduction to Scrum&lt;/a>で配布されているPDFで、
+認定スクラムマスター研修でも参照される真っ当な文献(のはす)。&lt;/p>
+&lt;p>日本語版があるにはある&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>んだけれど、古いし翻訳の質が怪しいので、
+自分の理解を進めるという意味も含めて独力で翻訳してみることにした。&lt;/p>
+&lt;p>進捗としては、1週間の空いた時間をほぼそればっかりに費してようやっと 1/5 くらい進んだ。
 さすがに他のこともやりたいので、完成までは2ヶ月くらいかかってしまうかもしれない…。
-3月中には終わるように頑張ろう。&lt;/p&gt;
-&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
-&lt;hr&gt;
-&lt;ol&gt;
-&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
-&lt;p&gt;すくすくスクラムが翻訳した版がある。あるはずなのだけれど公式に配布している所が見当たらない。 &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/section&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>JIRA Agile用のuserscriptを作ったりした日</title>
-      <link>https://www.yewton.net/2016/01/23/diary/</link>
-      <pubDate>Sat, 23 Jan 2016 23:47:43 +0900</pubDate>
-      <guid>https://www.yewton.net/2016/01/23/diary/</guid>
-      <description>&lt;h2 id=&#34;heading&#34;&gt;趣味の政策物&lt;/h2&gt;
-&lt;p&gt;弊チームではバックログとしてJIRAを使っている。&lt;/p&gt;
-&lt;p&gt;ここ最近しつこく「管理者権限が欲しいなァ〜(ﾁﾗｯ」としていたらめでたく権限を付与してもらえたので、
-ここぞとばかりにJIRAをカスタムして使いやすいようにしていた。&lt;/p&gt;
-&lt;p&gt;ワークフローを単純にしたり、使わないフィールドを非表示にしたり、
-これまで説明文用のテンプレからコピペしたりしていたのを、それぞれ専用のフィールドを設けたり。&lt;/p&gt;
-&lt;p&gt;色々準備はしたもの、やはり始まってみると色々不便なところが出てきて、
-しかもJIRAの設定じゃどうしようもない部分もあったりする。&lt;/p&gt;
-&lt;p&gt;たかがツール、されどツールで、ツールに使われているようじゃ到底円滑にスプリントを回すことなんて出来ない。&lt;/p&gt;
-&lt;p&gt;そこで、スクラムマスターがセレモニーを進めやすいように支援するためのuserscriptを書いた。
-ソースは&lt;a href=&#34;https://github.com/yewton/userscripts&#34;&gt;yewton/userscripts&lt;/a&gt;。&lt;/p&gt;
-&lt;h3 id=&#34;component-labels-for-jira-scrum&#34;&gt;Component-labels for JIRA Scrum&lt;/h3&gt;
-&lt;p&gt;コンポーネントをエピックのようにスクラムボード上で分かりやすいく表示する。&lt;/p&gt;
-&lt;p&gt;ラベリングをしたいが為だけにエピックを使ってしまうという事態は結構そこかしこで起こっているみたいだった。
-本来はコンポーネントでやるべきもので、エピックはエピックとして使えるのが健全な状態だと思うので、作った。&lt;/p&gt;
-&lt;p&gt;実装は滅茶苦茶単純で、DOMに変更がある度に全課題を舐めて、未設定だったらAPIで該当する課題のコンポーネントを取得している。
+3月中には終わるように頑張ろう。&lt;/p>
+&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>すくすくスクラムが翻訳した版がある。あるはずなのだけれど公式に配布している所が見当たらない。 &lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/section></description></item><item><title>JIRA Agile用のuserscriptを作ったりした日</title><link>https://www.yewton.net/2016/01/23/diary/</link><pubDate>Sat, 23 Jan 2016 23:47:43 +0900</pubDate><guid>https://www.yewton.net/2016/01/23/diary/</guid><description>&lt;h2 id="heading">趣味の政策物&lt;/h2>
+&lt;p>弊チームではバックログとしてJIRAを使っている。&lt;/p>
+&lt;p>ここ最近しつこく「管理者権限が欲しいなァ〜(ﾁﾗｯ」としていたらめでたく権限を付与してもらえたので、
+ここぞとばかりにJIRAをカスタムして使いやすいようにしていた。&lt;/p>
+&lt;p>ワークフローを単純にしたり、使わないフィールドを非表示にしたり、
+これまで説明文用のテンプレからコピペしたりしていたのを、それぞれ専用のフィールドを設けたり。&lt;/p>
+&lt;p>色々準備はしたもの、やはり始まってみると色々不便なところが出てきて、
+しかもJIRAの設定じゃどうしようもない部分もあったりする。&lt;/p>
+&lt;p>たかがツール、されどツールで、ツールに使われているようじゃ到底円滑にスプリントを回すことなんて出来ない。&lt;/p>
+&lt;p>そこで、スクラムマスターがセレモニーを進めやすいように支援するためのuserscriptを書いた。
+ソースは&lt;a href="https://github.com/yewton/userscripts">yewton/userscripts&lt;/a>。&lt;/p>
+&lt;h3 id="component-labels-for-jira-scrum">Component-labels for JIRA Scrum&lt;/h3>
+&lt;p>コンポーネントをエピックのようにスクラムボード上で分かりやすいく表示する。&lt;/p>
+&lt;p>ラベリングをしたいが為だけにエピックを使ってしまうという事態は結構そこかしこで起こっているみたいだった。
+本来はコンポーネントでやるべきもので、エピックはエピックとして使えるのが健全な状態だと思うので、作った。&lt;/p>
+&lt;p>実装は滅茶苦茶単純で、DOMに変更がある度に全課題を舐めて、未設定だったらAPIで該当する課題のコンポーネントを取得している。
 なので、バックログに積まれている課題数分、ページを開いた瞬間にリクエストが走ることになる。
 リクエストの仕方を何か工夫しないと使いものにならないかなーと思っていたのだけれど、
-案外数百リクエスト飛ばすぐらいだとビクともしなかったので、愚直な実装のまま。&lt;/p&gt;
-&lt;h3 id=&#34;detail-pop-up-for-jria-scrum&#34;&gt;Detail Pop-up for JRIA Scrum&lt;/h3&gt;
-&lt;p&gt;各課題に詳細画面をポップアップで開くためのボタンを追加する。&lt;/p&gt;
-&lt;p&gt;アジャイルボードではカスタムフィールドが表示されないので、
+案外数百リクエスト飛ばすぐらいだとビクともしなかったので、愚直な実装のまま。&lt;/p>
+&lt;h3 id="detail-pop-up-for-jria-scrum">Detail Pop-up for JRIA Scrum&lt;/h3>
+&lt;p>各課題に詳細画面をポップアップで開くためのボタンを追加する。&lt;/p>
+&lt;p>アジャイルボードではカスタムフィールドが表示されないので、
 確認するためには編集ポップアップを開くか、詳細画面に飛ぶしかなかった。
 しかも、アクティブなスプリント中はクローズされている課題が編集出来ないので、
-前者の方法はスプリントレビュー時には使えない。&lt;/p&gt;
-&lt;p&gt;画面遷移せずに詳細画面が開ければ用は足りると考え、
-&lt;a href=&#34;http://www.ericmmartin.com/projects/simplemodal/&#34;&gt;SimpleModal&lt;/a&gt;という、
+前者の方法はスプリントレビュー時には使えない。&lt;/p>
+&lt;p>画面遷移せずに詳細画面が開ければ用は足りると考え、
+&lt;a href="http://www.ericmmartin.com/projects/simplemodal/">SimpleModal&lt;/a>という、
 その名の通りシンプルなモーダル機能を実装するためのライブラリを使って、
-&lt;code&gt;iframe&lt;/code&gt; で詳細画面を開くだけの機能を追加した。&lt;/p&gt;
-&lt;h2 id=&#34;3----connpasshttpddd-allianceconnpasscomevent24672&#34;&gt;&lt;a href=&#34;http://ddd-alliance.connpass.com/event/24672/&#34;&gt;第3回 実践的ドメイン駆動設計ワークショップ - connpass&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;参加してきた。&lt;/p&gt;
-&lt;p&gt;エンジニアチームとして、業務と技術両面でどういう風に学んでいけばいいかっていう話と、
-実際にやってみたら、コードの雰囲気はこんな感じだぜ、っていう話。&lt;/p&gt;
-&lt;p&gt;ドメイン層のクラスが1,000個とかあって、個々のクラスは 30 〜 60 行が大半を占めるそう。
+&lt;code>iframe&lt;/code> で詳細画面を開くだけの機能を追加した。&lt;/p>
+&lt;h2 id="3----connpasshttpddd-allianceconnpasscomevent24672">&lt;a href="http://ddd-alliance.connpass.com/event/24672/">第3回 実践的ドメイン駆動設計ワークショップ - connpass&lt;/a>&lt;/h2>
+&lt;p>参加してきた。&lt;/p>
+&lt;p>エンジニアチームとして、業務と技術両面でどういう風に学んでいけばいいかっていう話と、
+実際にやってみたら、コードの雰囲気はこんな感じだぜ、っていう話。&lt;/p>
+&lt;p>ドメイン層のクラスが1,000個とかあって、個々のクラスは 30 〜 60 行が大半を占めるそう。
 目指すべき方向はそこだっていうのはわかってはいるけど、
-実際に稼動してるプロダクトの数字っていうのは説得力がある。&lt;/p&gt;
-&lt;p&gt;ドメイン駆動設計を実践するなら、ドメインエキスパートとか、企画者との協調が必須だと思うのだけれど、
-それをどうプロセスとして制御可能な形で行えばいいか、あまり掴めてない。&lt;/p&gt;
-&lt;p&gt;会話を重視しつつ、かつダラダラやらずに予測可能な状態で、
-モデルに関する会話をする場を、開発プロセスのどこで行えばいいんだろう。&lt;/p&gt;
-&lt;p&gt;増田さんに上手いやり方無いっすか、と相談してみたけれど、
+実際に稼動してるプロダクトの数字っていうのは説得力がある。&lt;/p>
+&lt;p>ドメイン駆動設計を実践するなら、ドメインエキスパートとか、企画者との協調が必須だと思うのだけれど、
+それをどうプロセスとして制御可能な形で行えばいいか、あまり掴めてない。&lt;/p>
+&lt;p>会話を重視しつつ、かつダラダラやらずに予測可能な状態で、
+モデルに関する会話をする場を、開発プロセスのどこで行えばいいんだろう。&lt;/p>
+&lt;p>増田さんに上手いやり方無いっすか、と相談してみたけれど、
 いい方法っていうのはなくて、エンジニアチームが実績を積み重ねて信頼を得ていって、
 協力体制を築くしかないね、ということだった。
-それでも駄目なら、職場を変えよ、とも。&lt;/p&gt;
-&lt;p&gt;色々仰々しいプロセスやツールを導入せずとも、
+それでも駄目なら、職場を変えよ、とも。&lt;/p>
+&lt;p>色々仰々しいプロセスやツールを導入せずとも、
 いつか阿吽の呼吸で、エンジニアチームと企画陣が協調して最高の仕事が出来るようになったときが、
-アジャイルでドメイン駆動な状態なんだろう、たぶん。適当。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>雪が振ったので一日中家に引き込もっていた日の次の日</title>
-      <link>https://www.yewton.net/2016/01/19/diary/</link>
-      <pubDate>Tue, 19 Jan 2016 23:00:00 +0900</pubDate>
-      <guid>https://www.yewton.net/2016/01/19/diary/</guid>
-      <description>&lt;p&gt;昨日は都内も大雪(いうほどか？)で出社がダルそうだったので、終日リモートワークしていた。
-本当に一歩も家から出ずに、パジャマから着替えもせずに、もくもくとPC作業。&lt;/p&gt;
-&lt;h2 id=&#34;heading&#34;&gt;個人のタスク管理&lt;/h2&gt;
-&lt;p&gt;最近認定スクラムマスターも取ったし、
-一日中スクラムのことばかり考えて悶々とするような続いている。&lt;/p&gt;
-&lt;p&gt;そんな中で、個人的な、業務とかまったく関係ない趣味のタスク管理もなんとかしたいなぁと思いはじめた。&lt;/p&gt;
-&lt;p&gt;趣味なのでそんなガッツリ管理するわけじゃないのでゆるいので何かないかなーと探したら、
-&lt;a href=&#34;https://trello.com/&#34;&gt;Trello&lt;/a&gt; というのがいい感じにゆるゆると使えそうな感じだった。&lt;/p&gt;
-&lt;p&gt;見積もりとか検証とかは出来なさそうだけど、とりあえず何もしないよりはいいだろーっていう想いで、使うことにした。&lt;/p&gt;
-&lt;p&gt;ボードによると、目下最優先のタスクは、 &lt;code&gt;markdwon-mode&lt;/code&gt; で &lt;code&gt;skk-mode&lt;/code&gt; の確定キーバインドが想定通り機能しない件の対応である。
-やるぞ。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>HTTPSに対応してついでにHTTP/2対応された日</title>
-      <link>https://www.yewton.net/2016/01/18/diary/</link>
-      <pubDate>Mon, 18 Jan 2016 00:06:20 +0900</pubDate>
-      <guid>https://www.yewton.net/2016/01/18/diary/</guid>
-      <description>&lt;h2 id=&#34;https--http2-&#34;&gt;HTTPS + HTTP/2 対応&lt;/h2&gt;
-&lt;p&gt;世の中的にHTTPS対応してないといかんような気がしたので、
-このサイトもHTTPSで配信するように対応した。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://1000ch.net/posts/2015/github-pages-custom-domain-in-https.html&#34;&gt;GitHub Pagesに設定しているカスタムドメインをHTTPS対応させる - 1000ch.net&lt;/a&gt;を大いに参考にさせていただいた。
-もう本当に書いてある通りにすればいい。 &lt;a href=&#34;https://www.cloudflare.com/&#34;&gt;CloudFlare&lt;/a&gt; 様々である。&lt;/p&gt;
-&lt;p&gt;敢えて付け加えるとしたら、(CloudFlareのサイト上に注記されてはいるけども)Flexible SSLが実際に動くようになるまでは結構時間がかかること。
+アジャイルでドメイン駆動な状態なんだろう、たぶん。適当。&lt;/p></description></item><item><title>雪が振ったので一日中家に引き込もっていた日の次の日</title><link>https://www.yewton.net/2016/01/19/diary/</link><pubDate>Tue, 19 Jan 2016 23:00:00 +0900</pubDate><guid>https://www.yewton.net/2016/01/19/diary/</guid><description>&lt;p>昨日は都内も大雪(いうほどか？)で出社がダルそうだったので、終日リモートワークしていた。
+本当に一歩も家から出ずに、パジャマから着替えもせずに、もくもくとPC作業。&lt;/p>
+&lt;h2 id="heading">個人のタスク管理&lt;/h2>
+&lt;p>最近認定スクラムマスターも取ったし、
+一日中スクラムのことばかり考えて悶々とするような続いている。&lt;/p>
+&lt;p>そんな中で、個人的な、業務とかまったく関係ない趣味のタスク管理もなんとかしたいなぁと思いはじめた。&lt;/p>
+&lt;p>趣味なのでそんなガッツリ管理するわけじゃないのでゆるいので何かないかなーと探したら、
+&lt;a href="https://trello.com/">Trello&lt;/a> というのがいい感じにゆるゆると使えそうな感じだった。&lt;/p>
+&lt;p>見積もりとか検証とかは出来なさそうだけど、とりあえず何もしないよりはいいだろーっていう想いで、使うことにした。&lt;/p>
+&lt;p>ボードによると、目下最優先のタスクは、 &lt;code>markdwon-mode&lt;/code> で &lt;code>skk-mode&lt;/code> の確定キーバインドが想定通り機能しない件の対応である。
+やるぞ。&lt;/p></description></item><item><title>HTTPSに対応してついでにHTTP/2対応された日</title><link>https://www.yewton.net/2016/01/18/diary/</link><pubDate>Mon, 18 Jan 2016 00:06:20 +0900</pubDate><guid>https://www.yewton.net/2016/01/18/diary/</guid><description>&lt;h2 id="https--http2-">HTTPS + HTTP/2 対応&lt;/h2>
+&lt;p>世の中的にHTTPS対応してないといかんような気がしたので、
+このサイトもHTTPSで配信するように対応した。&lt;/p>
+&lt;p>&lt;a href="https://1000ch.net/posts/2015/github-pages-custom-domain-in-https.html">GitHub Pagesに設定しているカスタムドメインをHTTPS対応させる - 1000ch.net&lt;/a>を大いに参考にさせていただいた。
+もう本当に書いてある通りにすればいい。 &lt;a href="https://www.cloudflare.com/">CloudFlare&lt;/a> 様々である。&lt;/p>
+&lt;p>敢えて付け加えるとしたら、(CloudFlareのサイト上に注記されてはいるけども)Flexible SSLが実際に動くようになるまでは結構時間がかかること。
 自分の場合は、都合7〜8時間程度かかった。
-この間、ステータスは &lt;code&gt;AUTHORIZING CERTIFICATES&lt;/code&gt; から &lt;code&gt;ISSUING CERTIFICATES&lt;/code&gt; になり、最終的に &lt;code&gt;ACTIVE CERTIFICATE&lt;/code&gt; になった。&lt;/p&gt;
-&lt;p&gt;この方法でサイトをHTTPS対応するのは簡単だけども懸念もあるらしい&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;ので、
-また今度この辺が実際どういう仕組みで動いてるのか調べてまとめたいと思う。&lt;/p&gt;
-&lt;p&gt;なお、CloudFlareを利用することで副次的に HTTP/2 にも対応することになった。
-Chromeで &lt;a href=&#34;https://chrome.google.com/webstore/detail/http2-and-spdy-indicator/mpbpobfflnpcgagjijhmgnchggcjblin&#34;&gt;HTTP/2 and SPDY indicator&lt;/a&gt;
-を入れてアクセスしたりすると分かる。&lt;/p&gt;
-&lt;h2 id=&#34;ddd&#34;&gt;DDD&lt;/h2&gt;
-&lt;p&gt;開発チームビルディングの一環で、ドメイン駆動設計について改めて色々調べたりしている。&lt;/p&gt;
-&lt;p&gt;図やドキュメントに本質はないとはいえ、ユビキタス言語のサポートとして用語集を作ったり、
-深いモデルの洞察のために図が役に立ったりするので、そのへんのサポートツールが欲しくなる。&lt;/p&gt;
-&lt;p&gt;色々探してたら&lt;a href=&#34;https://skillsmatter.com/skillscasts/6259-ddd-and-microservices-at-last-some-bounderies&#34;&gt;エヴァンス先生がマイクロサービスとの関わりについて講習してる動画&lt;/a&gt;があった。
+この間、ステータスは &lt;code>AUTHORIZING CERTIFICATES&lt;/code> から &lt;code>ISSUING CERTIFICATES&lt;/code> になり、最終的に &lt;code>ACTIVE CERTIFICATE&lt;/code> になった。&lt;/p>
+&lt;p>この方法でサイトをHTTPS対応するのは簡単だけども懸念もあるらしい&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>ので、
+また今度この辺が実際どういう仕組みで動いてるのか調べてまとめたいと思う。&lt;/p>
+&lt;p>なお、CloudFlareを利用することで副次的に HTTP/2 にも対応することになった。
+Chromeで &lt;a href="https://chrome.google.com/webstore/detail/http2-and-spdy-indicator/mpbpobfflnpcgagjijhmgnchggcjblin">HTTP/2 and SPDY indicator&lt;/a>
+を入れてアクセスしたりすると分かる。&lt;/p>
+&lt;h2 id="ddd">DDD&lt;/h2>
+&lt;p>開発チームビルディングの一環で、ドメイン駆動設計について改めて色々調べたりしている。&lt;/p>
+&lt;p>図やドキュメントに本質はないとはいえ、ユビキタス言語のサポートとして用語集を作ったり、
+深いモデルの洞察のために図が役に立ったりするので、そのへんのサポートツールが欲しくなる。&lt;/p>
+&lt;p>色々探してたら&lt;a href="https://skillsmatter.com/skillscasts/6259-ddd-and-microservices-at-last-some-bounderies">エヴァンス先生がマイクロサービスとの関わりについて講習してる動画&lt;/a>があった。
 境界づけられたコンテキストはサービスじゃないから、別に実サービスと一対一対応する必要はない。
 例えば、複数のコンテキストにまたがってやりとりされるようなあるコンテキストのメッセージがあるなら、
-それは Interchange Context (日本語で言うと相互連結コンテキスト？)のように別のコンテキストとして定義すればいいよね、みたいな話があった。&lt;/p&gt;
-&lt;p&gt;せっかく内製開発してて、スクラムやってて、物理的にステークホルダー達とも近い距離にいるのだから、
+それは Interchange Context (日本語で言うと相互連結コンテキスト？)のように別のコンテキストとして定義すればいいよね、みたいな話があった。&lt;/p>
+&lt;p>せっかく内製開発してて、スクラムやってて、物理的にステークホルダー達とも近い距離にいるのだから、
 その恩恵を最大限に活かせるようにしたい。
-そのためにDDDって実践的に役立つと思うので、もっと勉強しなければ。&lt;/p&gt;
-&lt;p&gt;勉強の一環として今度&lt;a href=&#34;http://ddd-alliance.connpass.com/event/25209/&#34;&gt;DDD Alliance! ドメイン駆動設計のためのオブジェクト指向入門&lt;/a&gt;に行ってみる。
-日本でDDDのコミュニティってここくらい？な気がするので、勉強会の内容というよりはコミュニティの様子が気になるので。&lt;/p&gt;
-&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
-&lt;hr&gt;
-&lt;ol&gt;
-&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
-&lt;p&gt;&lt;a href=&#34;https://konklone.com/post/github-pages-now-supports-https-so-use-it&#34;&gt;GitHub Pages Now (Sorta) Supports HTTPS, So Use It&lt;/a&gt; &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/section&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>忙し過ぎてお弁当も食べられなかった日</title>
-      <link>https://www.yewton.net/2016/01/15/diary/</link>
-      <pubDate>Fri, 15 Jan 2016 23:00:00 +0900</pubDate>
-      <guid>https://www.yewton.net/2016/01/15/diary/</guid>
-      <description>&lt;p&gt;最近チームが新体制に移行するという時期で色々バタバタしていて、
+そのためにDDDって実践的に役立つと思うので、もっと勉強しなければ。&lt;/p>
+&lt;p>勉強の一環として今度&lt;a href="http://ddd-alliance.connpass.com/event/25209/">DDD Alliance! ドメイン駆動設計のためのオブジェクト指向入門&lt;/a>に行ってみる。
+日本でDDDのコミュニティってここくらい？な気がするので、勉強会の内容というよりはコミュニティの様子が気になるので。&lt;/p>
+&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>&lt;a href="https://konklone.com/post/github-pages-now-supports-https-so-use-it">GitHub Pages Now (Sorta) Supports HTTPS, So Use It&lt;/a> &lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/section></description></item><item><title>忙し過ぎてお弁当も食べられなかった日</title><link>https://www.yewton.net/2016/01/15/diary/</link><pubDate>Fri, 15 Jan 2016 23:00:00 +0900</pubDate><guid>https://www.yewton.net/2016/01/15/diary/</guid><description>&lt;p>最近チームが新体制に移行するという時期で色々バタバタしていて、
 立ち上げに伴う開発フローの整備とか、JIRA(プロジェクト管理ツール)の設定とか、
-ワーキングアグリーメントの検討とかで、頓に忙しい。&lt;/p&gt;
-&lt;p&gt;別に、自分の役割はスクラムマスターではなく、いちメンバーに過ぎないのだけれど、
+ワーキングアグリーメントの検討とかで、頓に忙しい。&lt;/p>
+&lt;p>別に、自分の役割はスクラムマスターではなく、いちメンバーに過ぎないのだけれど、
 認定スクラムマスターを取得した身としては色々手を焼かずにはいられず、
-色んな雑務を買って出ているという状況。&lt;/p&gt;
-&lt;p&gt;それもこれも、スプリント中は〈全力疾走〉するのがスクラムである、
-というスクラムのあるべき姿を目指して、自分が全力で開発に打ち込めるようにするため。&lt;/p&gt;
-&lt;p&gt;…と思ってたけど、最近は &lt;em&gt;チームのパフォーマンスを引き出す&lt;/em&gt; っていうことに全力になっていて、
-それはそれで楽しくなってきたので、スクラムマスターもいいかなー、なんて思い始めた。&lt;/p&gt;
-&lt;h2 id=&#34;heading&#34;&gt;サイト改修&lt;/h2&gt;
-&lt;p&gt;今日もサイトいじりに勤しんだ。&lt;/p&gt;
-&lt;p&gt;いじるときはEmacsを使うんだけれど、自分は適当なのでHTML中にJavaScriptを埋め込んだりする。
+色んな雑務を買って出ているという状況。&lt;/p>
+&lt;p>それもこれも、スプリント中は〈全力疾走〉するのがスクラムである、
+というスクラムのあるべき姿を目指して、自分が全力で開発に打ち込めるようにするため。&lt;/p>
+&lt;p>…と思ってたけど、最近は &lt;em>チームのパフォーマンスを引き出す&lt;/em> っていうことに全力になっていて、
+それはそれで楽しくなってきたので、スクラムマスターもいいかなー、なんて思い始めた。&lt;/p>
+&lt;h2 id="heading">サイト改修&lt;/h2>
+&lt;p>今日もサイトいじりに勤しんだ。&lt;/p>
+&lt;p>いじるときはEmacsを使うんだけれど、自分は適当なのでHTML中にJavaScriptを埋め込んだりする。
 するとhtml-modeだとシンタックハイライトとかが無くて辛いことになるので、
-&lt;a href=&#34;http://web-mode.org/&#34;&gt;web-mode&lt;/a&gt;を使ってる。&lt;/p&gt;
-&lt;p&gt;HTMLファイルはCSSファイルは、始めから関連付けておくといいと思う。&lt;/p&gt;
-&lt;h3 id=&#34;gravatar&#34;&gt;gravatar対応&lt;/h3&gt;
-&lt;p&gt;静的画像だけでなく、gravatarのアイコンを使えるようにした。&lt;/p&gt;
-&lt;p&gt;ついでに、画像を丸く表示するようにした。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/cxfksword/greyshade/blob/28fb061bb674a2add89724dfbbf167f88f381d40/layouts/partials/header.html&#34;&gt;gravatarに対応している他のテーマ(greyshade)&lt;/a&gt;と、
-&lt;a href=&#34;http://tdwp.us/round-gravatar-images-wordpress/&#34;&gt;How to Round Gravatar Images in WordPress&lt;/a&gt;を参考にした。&lt;/p&gt;
-&lt;h3 id=&#34;heading-1&#34;&gt;記念日対応&lt;/h3&gt;
-&lt;p&gt;最初は&lt;a href=&#34;http://counting.hatelabo.jp/&#34;&gt;Hatena::Counting&lt;/a&gt;とか類似のサービスを利用しようと思ったんだけど、
-あんまりシンプルなのが無かったので自作した。&lt;/p&gt;
-&lt;p&gt;自作といったって、&lt;a href=&#34;http://momentjs.com/&#34;&gt;Moment.js&lt;/a&gt;というとても便利なライブラリがあったので、
-それを使って適当にJavaScriptを埋め込んだだけ。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://golang.org/pkg/text/template/&#34;&gt;template - The Go Programming Language&lt;/a&gt;とか
-&lt;a href=&#34;https://gohugo.io/templates/go-templates/&#34;&gt;Hugo - Go Template Primer&lt;/a&gt;あたりも参考にした。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>BettorTouchToolが無料じゃなくなると分かったりした日</title>
-      <link>https://www.yewton.net/2016/01/13/diary/</link>
-      <pubDate>Wed, 13 Jan 2016 23:00:00 +0900</pubDate>
-      <guid>https://www.yewton.net/2016/01/13/diary/</guid>
-      <description>&lt;h2 id=&#34;bettertouchtool-will-switch-from-free-to-a-pay-what-you-want-model-early-next-year--bettertouchtool-btt-remote-bettersnaptool-and-morehttpwwwboastrnetbettertouchtool-may-switch-from-free-to-a-pay-what-you-want-model-early-next-year&#34;&gt;&lt;a href=&#34;http://www.boastr.net/bettertouchtool-may-switch-from-free-to-a-pay-what-you-want-model-early-next-year/&#34;&gt;BetterTouchTool will switch from free to a “Pay what you want” model early next year. – BetterTouchTool, BTT Remote, BetterSnapTool and more&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.boastr.net/&#34;&gt;BetterTouchTool&lt;/a&gt;が1月末を目処に無料じゃなくなるらしい。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://www.boastr.net/btt-paid-faq/&#34;&gt;FAQ&lt;/a&gt;によると、ライセンスは買い切りで(当面)更新の必要は無く、
-過去に寄付してたりといった一定の条件を満たす人は無料でライセンスを取得する手段が提供されるらしい。&lt;/p&gt;
-&lt;p&gt;なお、古いのを使い続けるといったことは出来ず、そのうち使えなくなってしまうもよう。&lt;/p&gt;
-&lt;p&gt;買うしかないなー。&lt;/p&gt;
-&lt;h2 id=&#34;slack-bot---httpblog8arroworgentry20160113183349&#34;&gt;&lt;a href=&#34;http://blog.8arrow.org/entry/2016/01/13/183349&#34;&gt;割と本気で家庭用Slack Botを作ってみた - 八発白中&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;うちの嫁はSlack使ってくれないから無理ぽ。。
-自分もカナヘイスタンプ超気に入ってるから、LINE辞めるのは無理だな。&lt;/p&gt;
-&lt;p&gt;記事中で&lt;a href=&#34;http://counting.hatelabo.jp/&#34;&gt;Hatena::Counting&lt;/a&gt;についての言及があった。
+&lt;a href="http://web-mode.org/">web-mode&lt;/a>を使ってる。&lt;/p>
+&lt;p>HTMLファイルはCSSファイルは、始めから関連付けておくといいと思う。&lt;/p>
+&lt;h3 id="gravatar">gravatar対応&lt;/h3>
+&lt;p>静的画像だけでなく、gravatarのアイコンを使えるようにした。&lt;/p>
+&lt;p>ついでに、画像を丸く表示するようにした。&lt;/p>
+&lt;p>&lt;a href="https://github.com/cxfksword/greyshade/blob/28fb061bb674a2add89724dfbbf167f88f381d40/layouts/partials/header.html">gravatarに対応している他のテーマ(greyshade)&lt;/a>と、
+&lt;a href="http://tdwp.us/round-gravatar-images-wordpress/">How to Round Gravatar Images in WordPress&lt;/a>を参考にした。&lt;/p>
+&lt;h3 id="heading-1">記念日対応&lt;/h3>
+&lt;p>最初は&lt;a href="http://counting.hatelabo.jp/">Hatena::Counting&lt;/a>とか類似のサービスを利用しようと思ったんだけど、
+あんまりシンプルなのが無かったので自作した。&lt;/p>
+&lt;p>自作といったって、&lt;a href="http://momentjs.com/">Moment.js&lt;/a>というとても便利なライブラリがあったので、
+それを使って適当にJavaScriptを埋め込んだだけ。&lt;/p>
+&lt;p>&lt;a href="https://golang.org/pkg/text/template/">template - The Go Programming Language&lt;/a>とか
+&lt;a href="https://gohugo.io/templates/go-templates/">Hugo - Go Template Primer&lt;/a>あたりも参考にした。&lt;/p></description></item><item><title>BettorTouchToolが無料じゃなくなると分かったりした日</title><link>https://www.yewton.net/2016/01/13/diary/</link><pubDate>Wed, 13 Jan 2016 23:00:00 +0900</pubDate><guid>https://www.yewton.net/2016/01/13/diary/</guid><description>&lt;h2 id="bettertouchtool-will-switch-from-free-to-a-pay-what-you-want-model-early-next-year--bettertouchtool-btt-remote-bettersnaptool-and-morehttpwwwboastrnetbettertouchtool-may-switch-from-free-to-a-pay-what-you-want-model-early-next-year">&lt;a href="http://www.boastr.net/bettertouchtool-may-switch-from-free-to-a-pay-what-you-want-model-early-next-year/">BetterTouchTool will switch from free to a “Pay what you want” model early next year. – BetterTouchTool, BTT Remote, BetterSnapTool and more&lt;/a>&lt;/h2>
+&lt;p>&lt;a href="https://www.boastr.net/">BetterTouchTool&lt;/a>が1月末を目処に無料じゃなくなるらしい。&lt;/p>
+&lt;p>&lt;a href="http://www.boastr.net/btt-paid-faq/">FAQ&lt;/a>によると、ライセンスは買い切りで(当面)更新の必要は無く、
+過去に寄付してたりといった一定の条件を満たす人は無料でライセンスを取得する手段が提供されるらしい。&lt;/p>
+&lt;p>なお、古いのを使い続けるといったことは出来ず、そのうち使えなくなってしまうもよう。&lt;/p>
+&lt;p>買うしかないなー。&lt;/p>
+&lt;h2 id="slack-bot---httpblog8arroworgentry20160113183349">&lt;a href="http://blog.8arrow.org/entry/2016/01/13/183349">割と本気で家庭用Slack Botを作ってみた - 八発白中&lt;/a>&lt;/h2>
+&lt;p>うちの嫁はSlack使ってくれないから無理ぽ。。
+自分もカナヘイスタンプ超気に入ってるから、LINE辞めるのは無理だな。&lt;/p>
+&lt;p>記事中で&lt;a href="http://counting.hatelabo.jp/">Hatena::Counting&lt;/a>についての言及があった。
 ちょうどこういうサービス探してたのでありがたい。
 他に世界的にデファクトスタンダードなやつがあるのかとか、調べてみたい。
-&lt;a href=&#34;https://countingdownto.com/&#34;&gt;Create a Countdown Clock | CountingDownTo.com&lt;/a&gt;とかが、それらしい感じがする。&lt;/p&gt;
-&lt;h2 id=&#34;5--geechs-magazinehttpsgeechs-magazinecomtaglifehack20160113&#34;&gt;&lt;a href=&#34;https://geechs-magazine.com/tag/lifehack/20160113&#34;&gt;エンジニアにお勧めしたいメモアプリ5選 | geechs magazine&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;org-modeでだいたい間に合ってるけど、やっぱ同期と多デバイス対応が欲しいよなー。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://mobileorg.ncogni.to/&#34;&gt;MobileOrg : What is MobileOrg?&lt;/a&gt;はちょっと使ってみて微妙だった。。&lt;/p&gt;
-&lt;p&gt;そこだけ何とかなれば。。。&lt;/p&gt;
-&lt;h2 id=&#34;heading&#34;&gt;雑感&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;markdown-modeとskkの相性悪いんかな、変換確定しようとすると行頭にカーソルが行ってしまってストレスフルだ。。&lt;/li&gt;
-&lt;li&gt;シンタックスハイライトとかEmojiとか使えんのかな。調べよう。&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>はじめに</title>
-      <link>https://www.yewton.net/2016/01/11/at-the-start/</link>
-      <pubDate>Mon, 11 Jan 2016 11:11:11 +0900</pubDate>
-      <guid>https://www.yewton.net/2016/01/11/at-the-start/</guid>
-      <description>&lt;h2 id=&#34;heading&#34;&gt;はじめに&lt;/h2&gt;
-&lt;p&gt;今年30歳になる節目の年なので、ブログを書いてみることにした。&lt;/p&gt;
-&lt;p&gt;何もこういう試みは初めてではなく、
-これまでも、&lt;a href=&#34;http://d.hatena.ne.jp/yuto_sasaki/&#34;&gt;はてなダイアリー&lt;/a&gt;だったり、
-&lt;a href=&#34;http://qiita.com/yewton&#34;&gt;Qiita&lt;/a&gt;だったりに断続的に記事を書いたりメモしたりしていた。&lt;/p&gt;
-&lt;p&gt;それより以前も、個人でサイト作成したり、既存のブログサービスを使っていたこともあった。&lt;/p&gt;
-&lt;p&gt;いずれも、1年と経たずに辞めてしまった。
-自分の凝り性でかつ飽きっぽい性質のためだと思う。&lt;/p&gt;
-&lt;p&gt;今回また性懲りもなく始めたのは、何かをアウトプットしたいというよりも、
-&lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;というものを何かのキッカケで知って、
+&lt;a href="https://countingdownto.com/">Create a Countdown Clock | CountingDownTo.com&lt;/a>とかが、それらしい感じがする。&lt;/p>
+&lt;h2 id="5--geechs-magazinehttpsgeechs-magazinecomtaglifehack20160113">&lt;a href="https://geechs-magazine.com/tag/lifehack/20160113">エンジニアにお勧めしたいメモアプリ5選 | geechs magazine&lt;/a>&lt;/h2>
+&lt;p>org-modeでだいたい間に合ってるけど、やっぱ同期と多デバイス対応が欲しいよなー。&lt;/p>
+&lt;p>&lt;a href="http://mobileorg.ncogni.to/">MobileOrg : What is MobileOrg?&lt;/a>はちょっと使ってみて微妙だった。。&lt;/p>
+&lt;p>そこだけ何とかなれば。。。&lt;/p>
+&lt;h2 id="heading">雑感&lt;/h2>
+&lt;ul>
+&lt;li>markdown-modeとskkの相性悪いんかな、変換確定しようとすると行頭にカーソルが行ってしまってストレスフルだ。。&lt;/li>
+&lt;li>シンタックスハイライトとかEmojiとか使えんのかな。調べよう。&lt;/li>
+&lt;/ul></description></item><item><title>はじめに</title><link>https://www.yewton.net/2016/01/11/at-the-start/</link><pubDate>Mon, 11 Jan 2016 11:11:11 +0900</pubDate><guid>https://www.yewton.net/2016/01/11/at-the-start/</guid><description>&lt;h2 id="heading">はじめに&lt;/h2>
+&lt;p>今年30歳になる節目の年なので、ブログを書いてみることにした。&lt;/p>
+&lt;p>何もこういう試みは初めてではなく、
+これまでも、&lt;a href="http://d.hatena.ne.jp/yuto_sasaki/">はてなダイアリー&lt;/a>だったり、
+&lt;a href="http://qiita.com/yewton">Qiita&lt;/a>だったりに断続的に記事を書いたりメモしたりしていた。&lt;/p>
+&lt;p>それより以前も、個人でサイト作成したり、既存のブログサービスを使っていたこともあった。&lt;/p>
+&lt;p>いずれも、1年と経たずに辞めてしまった。
+自分の凝り性でかつ飽きっぽい性質のためだと思う。&lt;/p>
+&lt;p>今回また性懲りもなく始めたのは、何かをアウトプットしたいというよりも、
+&lt;a href="https://gohugo.io/">Hugo&lt;/a>というものを何かのキッカケで知って、
 Golangの静的サイト生成ツールだと知り、イマドキは静的サイト生成だよねー
-という巷の声を聞いた結果、使ってみたくなった、というのが大きい。&lt;/p&gt;
-&lt;p&gt;飽きたらその内また辞めるだろうけれど、
+という巷の声を聞いた結果、使ってみたくなった、というのが大きい。&lt;/p>
+&lt;p>飽きたらその内また辞めるだろうけれど、
 今のところ調整したりカスタマイズしたりしたい部分が多々あるので、当面存在はするだろう。
-これらの試みを記事にしたりするかもしれない。&lt;/p&gt;
-&lt;h2 id=&#34;heading-1&#34;&gt;何を書くか&lt;/h2&gt;
-&lt;p&gt;外部サービスに依存しないので(ホスティングはGitHub使ってるケド)自由奔放に書いていけたらと思っている。&lt;/p&gt;
-&lt;p&gt;技術的な話から、日常の駄文、過去の思い出を振り返ってみたり、
-あとはペットの話も書くかもしれない。時にはポエムも書くだろう。&lt;/p&gt;
-&lt;p&gt;当分人の目に触れぬはずの所なので、好き勝手にやってみよう。&lt;/p&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
+これらの試みを記事にしたりするかもしれない。&lt;/p>
+&lt;h2 id="heading-1">何を書くか&lt;/h2>
+&lt;p>外部サービスに依存しないので(ホスティングはGitHub使ってるケド)自由奔放に書いていけたらと思っている。&lt;/p>
+&lt;p>技術的な話から、日常の駄文、過去の思い出を振り返ってみたり、
+あとはペットの話も書くかもしれない。時にはポエムも書くだろう。&lt;/p>
+&lt;p>当分人の目に触れぬはずの所なので、好き勝手にやってみよう。&lt;/p></description></item></channel></rss>
